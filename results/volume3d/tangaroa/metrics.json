@@ -1,0 +1,1550 @@
+[
+  {
+    "method": "TMTM",
+    "NROE_mean": 0.04217578888518311,
+    "NROE_max": 0.14855888222750166,
+    "seconds": 0.4434902080001848,
+    "anchor_MAE": null,
+    "anchor_max": null,
+    "NMLE_mean": 0.0,
+    "NMLE_max": 0.0,
+    "topology_exact_frames": 36,
+    "motion": [
+      {
+        "lag": 1,
+        "epsilon": 0.01,
+        "truth": "3d",
+        "pairs": 77,
+        "clear": 18,
+        "reversal": 0.05555555555555555,
+        "miss": 0.7777777777777778,
+        "error": 0.8333333333333334
+      },
+      {
+        "lag": 1,
+        "epsilon": 0.01,
+        "truth": "projected",
+        "pairs": 77,
+        "clear": 14,
+        "reversal": 0.21428571428571427,
+        "miss": 0.7142857142857143,
+        "error": 0.9285714285714286
+      },
+      {
+        "lag": 1,
+        "epsilon": 0.02,
+        "truth": "3d",
+        "pairs": 77,
+        "clear": 14,
+        "reversal": 0.0,
+        "miss": 0.7857142857142857,
+        "error": 0.7857142857142857
+      },
+      {
+        "lag": 1,
+        "epsilon": 0.02,
+        "truth": "projected",
+        "pairs": 77,
+        "clear": 14,
+        "reversal": 0.07142857142857142,
+        "miss": 0.8571428571428571,
+        "error": 0.9285714285714286
+      },
+      {
+        "lag": 1,
+        "epsilon": 0.05,
+        "truth": "3d",
+        "pairs": 77,
+        "clear": 0,
+        "reversal": null,
+        "miss": null,
+        "error": null
+      },
+      {
+        "lag": 1,
+        "epsilon": 0.05,
+        "truth": "projected",
+        "pairs": 77,
+        "clear": 0,
+        "reversal": null,
+        "miss": null,
+        "error": null
+      },
+      {
+        "lag": 2,
+        "epsilon": 0.01,
+        "truth": "3d",
+        "pairs": 57,
+        "clear": 30,
+        "reversal": 0.06666666666666667,
+        "miss": 0.7666666666666667,
+        "error": 0.8333333333333334
+      },
+      {
+        "lag": 2,
+        "epsilon": 0.01,
+        "truth": "projected",
+        "pairs": 57,
+        "clear": 23,
+        "reversal": 0.17391304347826086,
+        "miss": 0.6956521739130435,
+        "error": 0.8695652173913043
+      },
+      {
+        "lag": 2,
+        "epsilon": 0.02,
+        "truth": "3d",
+        "pairs": 57,
+        "clear": 23,
+        "reversal": 0.0,
+        "miss": 0.782608695652174,
+        "error": 0.782608695652174
+      },
+      {
+        "lag": 2,
+        "epsilon": 0.02,
+        "truth": "projected",
+        "pairs": 57,
+        "clear": 23,
+        "reversal": 0.043478260869565216,
+        "miss": 0.8260869565217391,
+        "error": 0.8695652173913043
+      },
+      {
+        "lag": 2,
+        "epsilon": 0.05,
+        "truth": "3d",
+        "pairs": 57,
+        "clear": 1,
+        "reversal": 0.0,
+        "miss": 1.0,
+        "error": 1.0
+      },
+      {
+        "lag": 2,
+        "epsilon": 0.05,
+        "truth": "projected",
+        "pairs": 57,
+        "clear": 2,
+        "reversal": 0.0,
+        "miss": 1.0,
+        "error": 1.0
+      },
+      {
+        "lag": 4,
+        "epsilon": 0.01,
+        "truth": "3d",
+        "pairs": 39,
+        "clear": 29,
+        "reversal": 0.20689655172413793,
+        "miss": 0.6551724137931034,
+        "error": 0.8620689655172413
+      },
+      {
+        "lag": 4,
+        "epsilon": 0.01,
+        "truth": "projected",
+        "pairs": 39,
+        "clear": 27,
+        "reversal": 0.2222222222222222,
+        "miss": 0.5925925925925926,
+        "error": 0.8148148148148148
+      },
+      {
+        "lag": 4,
+        "epsilon": 0.02,
+        "truth": "3d",
+        "pairs": 39,
+        "clear": 24,
+        "reversal": 0.041666666666666664,
+        "miss": 0.8333333333333334,
+        "error": 0.875
+      },
+      {
+        "lag": 4,
+        "epsilon": 0.02,
+        "truth": "projected",
+        "pairs": 39,
+        "clear": 27,
+        "reversal": 0.037037037037037035,
+        "miss": 0.8148148148148148,
+        "error": 0.8518518518518519
+      },
+      {
+        "lag": 4,
+        "epsilon": 0.05,
+        "truth": "3d",
+        "pairs": 39,
+        "clear": 3,
+        "reversal": 0.0,
+        "miss": 1.0,
+        "error": 1.0
+      },
+      {
+        "lag": 4,
+        "epsilon": 0.05,
+        "truth": "projected",
+        "pairs": 39,
+        "clear": 7,
+        "reversal": 0.0,
+        "miss": 1.0,
+        "error": 1.0
+      }
+    ]
+  },
+  {
+    "method": "Hilbert",
+    "NROE_mean": 0.0825886354563376,
+    "NROE_max": 0.4123091085134277,
+    "seconds": 0.07386533400040207,
+    "anchor_MAE": null,
+    "anchor_max": null,
+    "NMLE_mean": 0.13650294935168492,
+    "NMLE_max": 0.45951058979843284,
+    "topology_exact_frames": 0,
+    "motion": [
+      {
+        "lag": 1,
+        "epsilon": 0.01,
+        "truth": "3d",
+        "pairs": 77,
+        "clear": 18,
+        "reversal": 0.05555555555555555,
+        "miss": 0.8888888888888888,
+        "error": 0.9444444444444444
+      },
+      {
+        "lag": 1,
+        "epsilon": 0.01,
+        "truth": "projected",
+        "pairs": 77,
+        "clear": 14,
+        "reversal": 0.07142857142857142,
+        "miss": 0.9285714285714286,
+        "error": 1.0
+      },
+      {
+        "lag": 1,
+        "epsilon": 0.02,
+        "truth": "3d",
+        "pairs": 77,
+        "clear": 14,
+        "reversal": 0.07142857142857142,
+        "miss": 0.8571428571428571,
+        "error": 0.9285714285714286
+      },
+      {
+        "lag": 1,
+        "epsilon": 0.02,
+        "truth": "projected",
+        "pairs": 77,
+        "clear": 14,
+        "reversal": 0.07142857142857142,
+        "miss": 0.9285714285714286,
+        "error": 1.0
+      },
+      {
+        "lag": 1,
+        "epsilon": 0.05,
+        "truth": "3d",
+        "pairs": 77,
+        "clear": 0,
+        "reversal": null,
+        "miss": null,
+        "error": null
+      },
+      {
+        "lag": 1,
+        "epsilon": 0.05,
+        "truth": "projected",
+        "pairs": 77,
+        "clear": 0,
+        "reversal": null,
+        "miss": null,
+        "error": null
+      },
+      {
+        "lag": 2,
+        "epsilon": 0.01,
+        "truth": "3d",
+        "pairs": 57,
+        "clear": 30,
+        "reversal": 0.1,
+        "miss": 0.8333333333333334,
+        "error": 0.9333333333333333
+      },
+      {
+        "lag": 2,
+        "epsilon": 0.01,
+        "truth": "projected",
+        "pairs": 57,
+        "clear": 23,
+        "reversal": 0.13043478260869565,
+        "miss": 0.8695652173913043,
+        "error": 1.0
+      },
+      {
+        "lag": 2,
+        "epsilon": 0.02,
+        "truth": "3d",
+        "pairs": 57,
+        "clear": 23,
+        "reversal": 0.13043478260869565,
+        "miss": 0.782608695652174,
+        "error": 0.9130434782608695
+      },
+      {
+        "lag": 2,
+        "epsilon": 0.02,
+        "truth": "projected",
+        "pairs": 57,
+        "clear": 23,
+        "reversal": 0.13043478260869565,
+        "miss": 0.8695652173913043,
+        "error": 1.0
+      },
+      {
+        "lag": 2,
+        "epsilon": 0.05,
+        "truth": "3d",
+        "pairs": 57,
+        "clear": 1,
+        "reversal": 0.0,
+        "miss": 1.0,
+        "error": 1.0
+      },
+      {
+        "lag": 2,
+        "epsilon": 0.05,
+        "truth": "projected",
+        "pairs": 57,
+        "clear": 2,
+        "reversal": 0.0,
+        "miss": 1.0,
+        "error": 1.0
+      },
+      {
+        "lag": 4,
+        "epsilon": 0.01,
+        "truth": "3d",
+        "pairs": 39,
+        "clear": 29,
+        "reversal": 0.06896551724137931,
+        "miss": 0.896551724137931,
+        "error": 0.9655172413793104
+      },
+      {
+        "lag": 4,
+        "epsilon": 0.01,
+        "truth": "projected",
+        "pairs": 39,
+        "clear": 27,
+        "reversal": 0.18518518518518517,
+        "miss": 0.8148148148148148,
+        "error": 1.0
+      },
+      {
+        "lag": 4,
+        "epsilon": 0.02,
+        "truth": "3d",
+        "pairs": 39,
+        "clear": 24,
+        "reversal": 0.08333333333333333,
+        "miss": 0.9166666666666666,
+        "error": 1.0
+      },
+      {
+        "lag": 4,
+        "epsilon": 0.02,
+        "truth": "projected",
+        "pairs": 39,
+        "clear": 27,
+        "reversal": 0.18518518518518517,
+        "miss": 0.8148148148148148,
+        "error": 1.0
+      },
+      {
+        "lag": 4,
+        "epsilon": 0.05,
+        "truth": "3d",
+        "pairs": 39,
+        "clear": 3,
+        "reversal": 0.0,
+        "miss": 1.0,
+        "error": 1.0
+      },
+      {
+        "lag": 4,
+        "epsilon": 0.05,
+        "truth": "projected",
+        "pairs": 39,
+        "clear": 7,
+        "reversal": 0.0,
+        "miss": 1.0,
+        "error": 1.0
+      }
+    ]
+  },
+  {
+    "method": "Morton",
+    "NROE_mean": 0.0809741237321302,
+    "NROE_max": 0.4123091085134277,
+    "seconds": 0.0014060000003155437,
+    "anchor_MAE": null,
+    "anchor_max": null,
+    "NMLE_mean": 0.1364896172863503,
+    "NMLE_max": 0.4611803284669627,
+    "topology_exact_frames": 0,
+    "motion": [
+      {
+        "lag": 1,
+        "epsilon": 0.01,
+        "truth": "3d",
+        "pairs": 77,
+        "clear": 18,
+        "reversal": 0.0,
+        "miss": 0.8888888888888888,
+        "error": 0.8888888888888888
+      },
+      {
+        "lag": 1,
+        "epsilon": 0.01,
+        "truth": "projected",
+        "pairs": 77,
+        "clear": 14,
+        "reversal": 0.0,
+        "miss": 0.9285714285714286,
+        "error": 0.9285714285714286
+      },
+      {
+        "lag": 1,
+        "epsilon": 0.02,
+        "truth": "3d",
+        "pairs": 77,
+        "clear": 14,
+        "reversal": 0.0,
+        "miss": 0.8571428571428571,
+        "error": 0.8571428571428571
+      },
+      {
+        "lag": 1,
+        "epsilon": 0.02,
+        "truth": "projected",
+        "pairs": 77,
+        "clear": 14,
+        "reversal": 0.0,
+        "miss": 0.9285714285714286,
+        "error": 0.9285714285714286
+      },
+      {
+        "lag": 1,
+        "epsilon": 0.05,
+        "truth": "3d",
+        "pairs": 77,
+        "clear": 0,
+        "reversal": null,
+        "miss": null,
+        "error": null
+      },
+      {
+        "lag": 1,
+        "epsilon": 0.05,
+        "truth": "projected",
+        "pairs": 77,
+        "clear": 0,
+        "reversal": null,
+        "miss": null,
+        "error": null
+      },
+      {
+        "lag": 2,
+        "epsilon": 0.01,
+        "truth": "3d",
+        "pairs": 57,
+        "clear": 30,
+        "reversal": 0.0,
+        "miss": 0.8333333333333334,
+        "error": 0.8333333333333334
+      },
+      {
+        "lag": 2,
+        "epsilon": 0.01,
+        "truth": "projected",
+        "pairs": 57,
+        "clear": 23,
+        "reversal": 0.0,
+        "miss": 0.8695652173913043,
+        "error": 0.8695652173913043
+      },
+      {
+        "lag": 2,
+        "epsilon": 0.02,
+        "truth": "3d",
+        "pairs": 57,
+        "clear": 23,
+        "reversal": 0.0,
+        "miss": 0.782608695652174,
+        "error": 0.782608695652174
+      },
+      {
+        "lag": 2,
+        "epsilon": 0.02,
+        "truth": "projected",
+        "pairs": 57,
+        "clear": 23,
+        "reversal": 0.0,
+        "miss": 0.8695652173913043,
+        "error": 0.8695652173913043
+      },
+      {
+        "lag": 2,
+        "epsilon": 0.05,
+        "truth": "3d",
+        "pairs": 57,
+        "clear": 1,
+        "reversal": 0.0,
+        "miss": 1.0,
+        "error": 1.0
+      },
+      {
+        "lag": 2,
+        "epsilon": 0.05,
+        "truth": "projected",
+        "pairs": 57,
+        "clear": 2,
+        "reversal": 0.0,
+        "miss": 1.0,
+        "error": 1.0
+      },
+      {
+        "lag": 4,
+        "epsilon": 0.01,
+        "truth": "3d",
+        "pairs": 39,
+        "clear": 29,
+        "reversal": 0.0,
+        "miss": 0.896551724137931,
+        "error": 0.896551724137931
+      },
+      {
+        "lag": 4,
+        "epsilon": 0.01,
+        "truth": "projected",
+        "pairs": 39,
+        "clear": 27,
+        "reversal": 0.037037037037037035,
+        "miss": 0.8148148148148148,
+        "error": 0.8518518518518519
+      },
+      {
+        "lag": 4,
+        "epsilon": 0.02,
+        "truth": "3d",
+        "pairs": 39,
+        "clear": 24,
+        "reversal": 0.0,
+        "miss": 0.9166666666666666,
+        "error": 0.9166666666666666
+      },
+      {
+        "lag": 4,
+        "epsilon": 0.02,
+        "truth": "projected",
+        "pairs": 39,
+        "clear": 27,
+        "reversal": 0.037037037037037035,
+        "miss": 0.8148148148148148,
+        "error": 0.8518518518518519
+      },
+      {
+        "lag": 4,
+        "epsilon": 0.05,
+        "truth": "3d",
+        "pairs": 39,
+        "clear": 3,
+        "reversal": 0.0,
+        "miss": 1.0,
+        "error": 1.0
+      },
+      {
+        "lag": 4,
+        "epsilon": 0.05,
+        "truth": "projected",
+        "pairs": 39,
+        "clear": 7,
+        "reversal": 0.0,
+        "miss": 1.0,
+        "error": 1.0
+      }
+    ]
+  },
+  {
+    "method": "RG-MTM-P",
+    "NROE_mean": 0.0004901689248324224,
+    "NROE_max": 0.016033771605921773,
+    "seconds": 0.11761520800064318,
+    "anchor_MAE": 0.006350609447586449,
+    "anchor_max": 0.026576068431585966,
+    "NMLE_mean": 0.0,
+    "NMLE_max": 0.0,
+    "topology_exact_frames": 36,
+    "filling_formula_error": 0.0,
+    "motion": [
+      {
+        "lag": 1,
+        "epsilon": 0.01,
+        "truth": "3d",
+        "pairs": 77,
+        "clear": 18,
+        "reversal": 0.1111111111111111,
+        "miss": 0.16666666666666666,
+        "error": 0.2777777777777778
+      },
+      {
+        "lag": 1,
+        "epsilon": 0.01,
+        "truth": "projected",
+        "pairs": 77,
+        "clear": 14,
+        "reversal": 0.0,
+        "miss": 0.0,
+        "error": 0.0
+      },
+      {
+        "lag": 1,
+        "epsilon": 0.02,
+        "truth": "3d",
+        "pairs": 77,
+        "clear": 14,
+        "reversal": 0.07142857142857142,
+        "miss": 0.14285714285714285,
+        "error": 0.21428571428571427
+      },
+      {
+        "lag": 1,
+        "epsilon": 0.02,
+        "truth": "projected",
+        "pairs": 77,
+        "clear": 14,
+        "reversal": 0.0,
+        "miss": 0.07142857142857142,
+        "error": 0.07142857142857142
+      },
+      {
+        "lag": 1,
+        "epsilon": 0.05,
+        "truth": "3d",
+        "pairs": 77,
+        "clear": 0,
+        "reversal": null,
+        "miss": null,
+        "error": null
+      },
+      {
+        "lag": 1,
+        "epsilon": 0.05,
+        "truth": "projected",
+        "pairs": 77,
+        "clear": 0,
+        "reversal": null,
+        "miss": null,
+        "error": null
+      },
+      {
+        "lag": 2,
+        "epsilon": 0.01,
+        "truth": "3d",
+        "pairs": 57,
+        "clear": 30,
+        "reversal": 0.06666666666666667,
+        "miss": 0.2,
+        "error": 0.26666666666666666
+      },
+      {
+        "lag": 2,
+        "epsilon": 0.01,
+        "truth": "projected",
+        "pairs": 57,
+        "clear": 23,
+        "reversal": 0.0,
+        "miss": 0.0,
+        "error": 0.0
+      },
+      {
+        "lag": 2,
+        "epsilon": 0.02,
+        "truth": "3d",
+        "pairs": 57,
+        "clear": 23,
+        "reversal": 0.043478260869565216,
+        "miss": 0.17391304347826086,
+        "error": 0.21739130434782608
+      },
+      {
+        "lag": 2,
+        "epsilon": 0.02,
+        "truth": "projected",
+        "pairs": 57,
+        "clear": 23,
+        "reversal": 0.0,
+        "miss": 0.08695652173913043,
+        "error": 0.08695652173913043
+      },
+      {
+        "lag": 2,
+        "epsilon": 0.05,
+        "truth": "3d",
+        "pairs": 57,
+        "clear": 1,
+        "reversal": 0.0,
+        "miss": 0.0,
+        "error": 0.0
+      },
+      {
+        "lag": 2,
+        "epsilon": 0.05,
+        "truth": "projected",
+        "pairs": 57,
+        "clear": 2,
+        "reversal": 0.0,
+        "miss": 0.0,
+        "error": 0.0
+      },
+      {
+        "lag": 4,
+        "epsilon": 0.01,
+        "truth": "3d",
+        "pairs": 39,
+        "clear": 29,
+        "reversal": 0.06896551724137931,
+        "miss": 0.1724137931034483,
+        "error": 0.2413793103448276
+      },
+      {
+        "lag": 4,
+        "epsilon": 0.01,
+        "truth": "projected",
+        "pairs": 39,
+        "clear": 27,
+        "reversal": 0.037037037037037035,
+        "miss": 0.037037037037037035,
+        "error": 0.07407407407407407
+      },
+      {
+        "lag": 4,
+        "epsilon": 0.02,
+        "truth": "3d",
+        "pairs": 39,
+        "clear": 24,
+        "reversal": 0.041666666666666664,
+        "miss": 0.20833333333333334,
+        "error": 0.25
+      },
+      {
+        "lag": 4,
+        "epsilon": 0.02,
+        "truth": "projected",
+        "pairs": 39,
+        "clear": 27,
+        "reversal": 0.037037037037037035,
+        "miss": 0.14814814814814814,
+        "error": 0.18518518518518517
+      },
+      {
+        "lag": 4,
+        "epsilon": 0.05,
+        "truth": "3d",
+        "pairs": 39,
+        "clear": 3,
+        "reversal": 0.0,
+        "miss": 0.0,
+        "error": 0.0
+      },
+      {
+        "lag": 4,
+        "epsilon": 0.05,
+        "truth": "projected",
+        "pairs": 39,
+        "clear": 7,
+        "reversal": 0.0,
+        "miss": 0.0,
+        "error": 0.0
+      }
+    ]
+  },
+  {
+    "method": "RG-MTM-R 0.02",
+    "NROE_mean": 0.0004901689248324224,
+    "NROE_max": 0.016033771605921773,
+    "seconds": 0.10976758299966605,
+    "anchor_MAE": 0.006350609447586449,
+    "anchor_max": 0.026576068431585966,
+    "NMLE_mean": 0.0,
+    "NMLE_max": 0.0,
+    "topology_exact_frames": 36,
+    "filling_formula_error": 0.0,
+    "motion": [
+      {
+        "lag": 1,
+        "epsilon": 0.01,
+        "truth": "3d",
+        "pairs": 77,
+        "clear": 18,
+        "reversal": 0.1111111111111111,
+        "miss": 0.16666666666666666,
+        "error": 0.2777777777777778
+      },
+      {
+        "lag": 1,
+        "epsilon": 0.01,
+        "truth": "projected",
+        "pairs": 77,
+        "clear": 14,
+        "reversal": 0.0,
+        "miss": 0.0,
+        "error": 0.0
+      },
+      {
+        "lag": 1,
+        "epsilon": 0.02,
+        "truth": "3d",
+        "pairs": 77,
+        "clear": 14,
+        "reversal": 0.07142857142857142,
+        "miss": 0.14285714285714285,
+        "error": 0.21428571428571427
+      },
+      {
+        "lag": 1,
+        "epsilon": 0.02,
+        "truth": "projected",
+        "pairs": 77,
+        "clear": 14,
+        "reversal": 0.0,
+        "miss": 0.07142857142857142,
+        "error": 0.07142857142857142
+      },
+      {
+        "lag": 1,
+        "epsilon": 0.05,
+        "truth": "3d",
+        "pairs": 77,
+        "clear": 0,
+        "reversal": null,
+        "miss": null,
+        "error": null
+      },
+      {
+        "lag": 1,
+        "epsilon": 0.05,
+        "truth": "projected",
+        "pairs": 77,
+        "clear": 0,
+        "reversal": null,
+        "miss": null,
+        "error": null
+      },
+      {
+        "lag": 2,
+        "epsilon": 0.01,
+        "truth": "3d",
+        "pairs": 57,
+        "clear": 30,
+        "reversal": 0.06666666666666667,
+        "miss": 0.2,
+        "error": 0.26666666666666666
+      },
+      {
+        "lag": 2,
+        "epsilon": 0.01,
+        "truth": "projected",
+        "pairs": 57,
+        "clear": 23,
+        "reversal": 0.0,
+        "miss": 0.0,
+        "error": 0.0
+      },
+      {
+        "lag": 2,
+        "epsilon": 0.02,
+        "truth": "3d",
+        "pairs": 57,
+        "clear": 23,
+        "reversal": 0.043478260869565216,
+        "miss": 0.17391304347826086,
+        "error": 0.21739130434782608
+      },
+      {
+        "lag": 2,
+        "epsilon": 0.02,
+        "truth": "projected",
+        "pairs": 57,
+        "clear": 23,
+        "reversal": 0.0,
+        "miss": 0.08695652173913043,
+        "error": 0.08695652173913043
+      },
+      {
+        "lag": 2,
+        "epsilon": 0.05,
+        "truth": "3d",
+        "pairs": 57,
+        "clear": 1,
+        "reversal": 0.0,
+        "miss": 0.0,
+        "error": 0.0
+      },
+      {
+        "lag": 2,
+        "epsilon": 0.05,
+        "truth": "projected",
+        "pairs": 57,
+        "clear": 2,
+        "reversal": 0.0,
+        "miss": 0.0,
+        "error": 0.0
+      },
+      {
+        "lag": 4,
+        "epsilon": 0.01,
+        "truth": "3d",
+        "pairs": 39,
+        "clear": 29,
+        "reversal": 0.06896551724137931,
+        "miss": 0.1724137931034483,
+        "error": 0.2413793103448276
+      },
+      {
+        "lag": 4,
+        "epsilon": 0.01,
+        "truth": "projected",
+        "pairs": 39,
+        "clear": 27,
+        "reversal": 0.037037037037037035,
+        "miss": 0.037037037037037035,
+        "error": 0.07407407407407407
+      },
+      {
+        "lag": 4,
+        "epsilon": 0.02,
+        "truth": "3d",
+        "pairs": 39,
+        "clear": 24,
+        "reversal": 0.041666666666666664,
+        "miss": 0.20833333333333334,
+        "error": 0.25
+      },
+      {
+        "lag": 4,
+        "epsilon": 0.02,
+        "truth": "projected",
+        "pairs": 39,
+        "clear": 27,
+        "reversal": 0.037037037037037035,
+        "miss": 0.14814814814814814,
+        "error": 0.18518518518518517
+      },
+      {
+        "lag": 4,
+        "epsilon": 0.05,
+        "truth": "3d",
+        "pairs": 39,
+        "clear": 3,
+        "reversal": 0.0,
+        "miss": 0.0,
+        "error": 0.0
+      },
+      {
+        "lag": 4,
+        "epsilon": 0.05,
+        "truth": "projected",
+        "pairs": 39,
+        "clear": 7,
+        "reversal": 0.0,
+        "miss": 0.0,
+        "error": 0.0
+      }
+    ]
+  },
+  {
+    "method": "RG-MTM-R 0.2",
+    "NROE_mean": 0.0004901689248324224,
+    "NROE_max": 0.016033771605921773,
+    "seconds": 0.1121280420002222,
+    "anchor_MAE": 0.006350609447586449,
+    "anchor_max": 0.026576068431585966,
+    "NMLE_mean": 0.0,
+    "NMLE_max": 0.0,
+    "topology_exact_frames": 36,
+    "filling_formula_error": 0.0,
+    "motion": [
+      {
+        "lag": 1,
+        "epsilon": 0.01,
+        "truth": "3d",
+        "pairs": 77,
+        "clear": 18,
+        "reversal": 0.1111111111111111,
+        "miss": 0.16666666666666666,
+        "error": 0.2777777777777778
+      },
+      {
+        "lag": 1,
+        "epsilon": 0.01,
+        "truth": "projected",
+        "pairs": 77,
+        "clear": 14,
+        "reversal": 0.0,
+        "miss": 0.0,
+        "error": 0.0
+      },
+      {
+        "lag": 1,
+        "epsilon": 0.02,
+        "truth": "3d",
+        "pairs": 77,
+        "clear": 14,
+        "reversal": 0.07142857142857142,
+        "miss": 0.14285714285714285,
+        "error": 0.21428571428571427
+      },
+      {
+        "lag": 1,
+        "epsilon": 0.02,
+        "truth": "projected",
+        "pairs": 77,
+        "clear": 14,
+        "reversal": 0.0,
+        "miss": 0.07142857142857142,
+        "error": 0.07142857142857142
+      },
+      {
+        "lag": 1,
+        "epsilon": 0.05,
+        "truth": "3d",
+        "pairs": 77,
+        "clear": 0,
+        "reversal": null,
+        "miss": null,
+        "error": null
+      },
+      {
+        "lag": 1,
+        "epsilon": 0.05,
+        "truth": "projected",
+        "pairs": 77,
+        "clear": 0,
+        "reversal": null,
+        "miss": null,
+        "error": null
+      },
+      {
+        "lag": 2,
+        "epsilon": 0.01,
+        "truth": "3d",
+        "pairs": 57,
+        "clear": 30,
+        "reversal": 0.06666666666666667,
+        "miss": 0.2,
+        "error": 0.26666666666666666
+      },
+      {
+        "lag": 2,
+        "epsilon": 0.01,
+        "truth": "projected",
+        "pairs": 57,
+        "clear": 23,
+        "reversal": 0.0,
+        "miss": 0.0,
+        "error": 0.0
+      },
+      {
+        "lag": 2,
+        "epsilon": 0.02,
+        "truth": "3d",
+        "pairs": 57,
+        "clear": 23,
+        "reversal": 0.043478260869565216,
+        "miss": 0.17391304347826086,
+        "error": 0.21739130434782608
+      },
+      {
+        "lag": 2,
+        "epsilon": 0.02,
+        "truth": "projected",
+        "pairs": 57,
+        "clear": 23,
+        "reversal": 0.0,
+        "miss": 0.08695652173913043,
+        "error": 0.08695652173913043
+      },
+      {
+        "lag": 2,
+        "epsilon": 0.05,
+        "truth": "3d",
+        "pairs": 57,
+        "clear": 1,
+        "reversal": 0.0,
+        "miss": 0.0,
+        "error": 0.0
+      },
+      {
+        "lag": 2,
+        "epsilon": 0.05,
+        "truth": "projected",
+        "pairs": 57,
+        "clear": 2,
+        "reversal": 0.0,
+        "miss": 0.0,
+        "error": 0.0
+      },
+      {
+        "lag": 4,
+        "epsilon": 0.01,
+        "truth": "3d",
+        "pairs": 39,
+        "clear": 29,
+        "reversal": 0.06896551724137931,
+        "miss": 0.1724137931034483,
+        "error": 0.2413793103448276
+      },
+      {
+        "lag": 4,
+        "epsilon": 0.01,
+        "truth": "projected",
+        "pairs": 39,
+        "clear": 27,
+        "reversal": 0.037037037037037035,
+        "miss": 0.037037037037037035,
+        "error": 0.07407407407407407
+      },
+      {
+        "lag": 4,
+        "epsilon": 0.02,
+        "truth": "3d",
+        "pairs": 39,
+        "clear": 24,
+        "reversal": 0.041666666666666664,
+        "miss": 0.20833333333333334,
+        "error": 0.25
+      },
+      {
+        "lag": 4,
+        "epsilon": 0.02,
+        "truth": "projected",
+        "pairs": 39,
+        "clear": 27,
+        "reversal": 0.037037037037037035,
+        "miss": 0.14814814814814814,
+        "error": 0.18518518518518517
+      },
+      {
+        "lag": 4,
+        "epsilon": 0.05,
+        "truth": "3d",
+        "pairs": 39,
+        "clear": 3,
+        "reversal": 0.0,
+        "miss": 0.0,
+        "error": 0.0
+      },
+      {
+        "lag": 4,
+        "epsilon": 0.05,
+        "truth": "projected",
+        "pairs": 39,
+        "clear": 7,
+        "reversal": 0.0,
+        "miss": 0.0,
+        "error": 0.0
+      }
+    ]
+  },
+  {
+    "method": "RG-MTM-R 1",
+    "NROE_mean": 0.0004901689248324224,
+    "NROE_max": 0.016033771605921773,
+    "seconds": 0.1408536250000907,
+    "anchor_MAE": 0.006350609447586449,
+    "anchor_max": 0.026576068431585966,
+    "NMLE_mean": 0.0,
+    "NMLE_max": 0.0,
+    "topology_exact_frames": 36,
+    "filling_formula_error": 0.0,
+    "motion": [
+      {
+        "lag": 1,
+        "epsilon": 0.01,
+        "truth": "3d",
+        "pairs": 77,
+        "clear": 18,
+        "reversal": 0.1111111111111111,
+        "miss": 0.16666666666666666,
+        "error": 0.2777777777777778
+      },
+      {
+        "lag": 1,
+        "epsilon": 0.01,
+        "truth": "projected",
+        "pairs": 77,
+        "clear": 14,
+        "reversal": 0.0,
+        "miss": 0.0,
+        "error": 0.0
+      },
+      {
+        "lag": 1,
+        "epsilon": 0.02,
+        "truth": "3d",
+        "pairs": 77,
+        "clear": 14,
+        "reversal": 0.07142857142857142,
+        "miss": 0.14285714285714285,
+        "error": 0.21428571428571427
+      },
+      {
+        "lag": 1,
+        "epsilon": 0.02,
+        "truth": "projected",
+        "pairs": 77,
+        "clear": 14,
+        "reversal": 0.0,
+        "miss": 0.07142857142857142,
+        "error": 0.07142857142857142
+      },
+      {
+        "lag": 1,
+        "epsilon": 0.05,
+        "truth": "3d",
+        "pairs": 77,
+        "clear": 0,
+        "reversal": null,
+        "miss": null,
+        "error": null
+      },
+      {
+        "lag": 1,
+        "epsilon": 0.05,
+        "truth": "projected",
+        "pairs": 77,
+        "clear": 0,
+        "reversal": null,
+        "miss": null,
+        "error": null
+      },
+      {
+        "lag": 2,
+        "epsilon": 0.01,
+        "truth": "3d",
+        "pairs": 57,
+        "clear": 30,
+        "reversal": 0.06666666666666667,
+        "miss": 0.2,
+        "error": 0.26666666666666666
+      },
+      {
+        "lag": 2,
+        "epsilon": 0.01,
+        "truth": "projected",
+        "pairs": 57,
+        "clear": 23,
+        "reversal": 0.0,
+        "miss": 0.0,
+        "error": 0.0
+      },
+      {
+        "lag": 2,
+        "epsilon": 0.02,
+        "truth": "3d",
+        "pairs": 57,
+        "clear": 23,
+        "reversal": 0.043478260869565216,
+        "miss": 0.17391304347826086,
+        "error": 0.21739130434782608
+      },
+      {
+        "lag": 2,
+        "epsilon": 0.02,
+        "truth": "projected",
+        "pairs": 57,
+        "clear": 23,
+        "reversal": 0.0,
+        "miss": 0.08695652173913043,
+        "error": 0.08695652173913043
+      },
+      {
+        "lag": 2,
+        "epsilon": 0.05,
+        "truth": "3d",
+        "pairs": 57,
+        "clear": 1,
+        "reversal": 0.0,
+        "miss": 0.0,
+        "error": 0.0
+      },
+      {
+        "lag": 2,
+        "epsilon": 0.05,
+        "truth": "projected",
+        "pairs": 57,
+        "clear": 2,
+        "reversal": 0.0,
+        "miss": 0.0,
+        "error": 0.0
+      },
+      {
+        "lag": 4,
+        "epsilon": 0.01,
+        "truth": "3d",
+        "pairs": 39,
+        "clear": 29,
+        "reversal": 0.06896551724137931,
+        "miss": 0.1724137931034483,
+        "error": 0.2413793103448276
+      },
+      {
+        "lag": 4,
+        "epsilon": 0.01,
+        "truth": "projected",
+        "pairs": 39,
+        "clear": 27,
+        "reversal": 0.037037037037037035,
+        "miss": 0.037037037037037035,
+        "error": 0.07407407407407407
+      },
+      {
+        "lag": 4,
+        "epsilon": 0.02,
+        "truth": "3d",
+        "pairs": 39,
+        "clear": 24,
+        "reversal": 0.041666666666666664,
+        "miss": 0.20833333333333334,
+        "error": 0.25
+      },
+      {
+        "lag": 4,
+        "epsilon": 0.02,
+        "truth": "projected",
+        "pairs": 39,
+        "clear": 27,
+        "reversal": 0.037037037037037035,
+        "miss": 0.14814814814814814,
+        "error": 0.18518518518518517
+      },
+      {
+        "lag": 4,
+        "epsilon": 0.05,
+        "truth": "3d",
+        "pairs": 39,
+        "clear": 3,
+        "reversal": 0.0,
+        "miss": 0.0,
+        "error": 0.0
+      },
+      {
+        "lag": 4,
+        "epsilon": 0.05,
+        "truth": "projected",
+        "pairs": 39,
+        "clear": 7,
+        "reversal": 0.0,
+        "miss": 0.0,
+        "error": 0.0
+      }
+    ]
+  },
+  {
+    "method": "Exact projection",
+    "NROE_mean": 0.0,
+    "NROE_max": 0.0,
+    "seconds": null,
+    "anchor_MAE": null,
+    "anchor_max": null,
+    "NMLE_mean": null,
+    "NMLE_max": null,
+    "topology_exact_frames": null,
+    "motion": [
+      {
+        "lag": 1,
+        "epsilon": 0.01,
+        "truth": "3d",
+        "pairs": 77,
+        "clear": 18,
+        "reversal": 0.0,
+        "miss": 0.3333333333333333,
+        "error": 0.3333333333333333
+      },
+      {
+        "lag": 1,
+        "epsilon": 0.01,
+        "truth": "projected",
+        "pairs": 77,
+        "clear": 14,
+        "reversal": 0.0,
+        "miss": 0.0,
+        "error": 0.0
+      },
+      {
+        "lag": 1,
+        "epsilon": 0.02,
+        "truth": "3d",
+        "pairs": 77,
+        "clear": 14,
+        "reversal": 0.0,
+        "miss": 0.14285714285714285,
+        "error": 0.14285714285714285
+      },
+      {
+        "lag": 1,
+        "epsilon": 0.02,
+        "truth": "projected",
+        "pairs": 77,
+        "clear": 14,
+        "reversal": 0.0,
+        "miss": 0.0,
+        "error": 0.0
+      },
+      {
+        "lag": 1,
+        "epsilon": 0.05,
+        "truth": "3d",
+        "pairs": 77,
+        "clear": 0,
+        "reversal": null,
+        "miss": null,
+        "error": null
+      },
+      {
+        "lag": 1,
+        "epsilon": 0.05,
+        "truth": "projected",
+        "pairs": 77,
+        "clear": 0,
+        "reversal": null,
+        "miss": null,
+        "error": null
+      },
+      {
+        "lag": 2,
+        "epsilon": 0.01,
+        "truth": "3d",
+        "pairs": 57,
+        "clear": 30,
+        "reversal": 0.0,
+        "miss": 0.3333333333333333,
+        "error": 0.3333333333333333
+      },
+      {
+        "lag": 2,
+        "epsilon": 0.01,
+        "truth": "projected",
+        "pairs": 57,
+        "clear": 23,
+        "reversal": 0.0,
+        "miss": 0.0,
+        "error": 0.0
+      },
+      {
+        "lag": 2,
+        "epsilon": 0.02,
+        "truth": "3d",
+        "pairs": 57,
+        "clear": 23,
+        "reversal": 0.0,
+        "miss": 0.13043478260869565,
+        "error": 0.13043478260869565
+      },
+      {
+        "lag": 2,
+        "epsilon": 0.02,
+        "truth": "projected",
+        "pairs": 57,
+        "clear": 23,
+        "reversal": 0.0,
+        "miss": 0.0,
+        "error": 0.0
+      },
+      {
+        "lag": 2,
+        "epsilon": 0.05,
+        "truth": "3d",
+        "pairs": 57,
+        "clear": 1,
+        "reversal": 0.0,
+        "miss": 0.0,
+        "error": 0.0
+      },
+      {
+        "lag": 2,
+        "epsilon": 0.05,
+        "truth": "projected",
+        "pairs": 57,
+        "clear": 2,
+        "reversal": 0.0,
+        "miss": 0.0,
+        "error": 0.0
+      },
+      {
+        "lag": 4,
+        "epsilon": 0.01,
+        "truth": "3d",
+        "pairs": 39,
+        "clear": 29,
+        "reversal": 0.0,
+        "miss": 0.20689655172413793,
+        "error": 0.20689655172413793
+      },
+      {
+        "lag": 4,
+        "epsilon": 0.01,
+        "truth": "projected",
+        "pairs": 39,
+        "clear": 27,
+        "reversal": 0.0,
+        "miss": 0.0,
+        "error": 0.0
+      },
+      {
+        "lag": 4,
+        "epsilon": 0.02,
+        "truth": "3d",
+        "pairs": 39,
+        "clear": 24,
+        "reversal": 0.0,
+        "miss": 0.041666666666666664,
+        "error": 0.041666666666666664
+      },
+      {
+        "lag": 4,
+        "epsilon": 0.02,
+        "truth": "projected",
+        "pairs": 39,
+        "clear": 27,
+        "reversal": 0.0,
+        "miss": 0.0,
+        "error": 0.0
+      },
+      {
+        "lag": 4,
+        "epsilon": 0.05,
+        "truth": "3d",
+        "pairs": 39,
+        "clear": 3,
+        "reversal": 0.0,
+        "miss": 0.0,
+        "error": 0.0
+      },
+      {
+        "lag": 4,
+        "epsilon": 0.05,
+        "truth": "projected",
+        "pairs": 39,
+        "clear": 7,
+        "reversal": 0.0,
+        "miss": 0.0,
+        "error": 0.0
+      }
+    ]
+  }
+]

@@ -1,0 +1,36 @@
+{
+  "status": "blocked_input",
+  "numerical_experiment_run": false,
+  "source_url": "https://www.csc.kth.se/~weinkauf/datasets/SquareCylinder.7z",
+  "source_page": "https://www.csc.kth.se/~weinkauf/notes/squarecylinder.html",
+  "recorded_utc": "2026-10-17T15:38:21.046583+00:00",
+  "partial_bytes": 324782331,
+  "expected_bytes": 542415447,
+  "validation_error": "truncated 7z: 324782331 bytes, expected 542415447",
+  "attempts": [
+    {
+      "method": "curl primary download",
+      "outcome": "exit 18: Transferred a partial file",
+      "elapsed_seconds": 1188
+    },
+    {
+      "method": "HTTP Range probes",
+      "outcome": "HTTP 200 and original 7z signature for nonzero byte ranges; range ignored"
+    },
+    {
+      "method": "verified-prefix retry",
+      "outcome": "received 33587065 bytes after 213.2 seconds; no bytes beyond the existing prefix; canceled after confirming resume was unavailable"
+    },
+    {
+      "method": "in-app browser primary download",
+      "outcome": "download canceled by browser"
+    },
+    {
+      "method": "alternative sources",
+      "outcome": "FAU Tangaroa Synology link did not connect; ECNR public backup was a 2.38 GB ZIP without individual-file preview; Wayback CDX returned no archived binary"
+    }
+  ],
+  "reference_repository": "https://github.com/Wiebke/TemporalMergeTreeMaps",
+  "reference_commit": "2c75a10ed2cd55177a25ff751e0c0a8261200717",
+  "reference_findings": "author subsetForCylinder.py selects x grid indices 57..191; source workspace references local 508-frame Q files, not bundled public velocity files"
+}

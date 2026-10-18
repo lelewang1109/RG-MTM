@@ -60,6 +60,9 @@ def capture_radial(c, P0, P1):
 
 def auto_reference(sc, ext, lo, hi, allow_radial=False):
     """lo, hi: world bounding box of the domain."""
+    if len(lo)!=2:
+        if allow_radial:raise ValueError('radial reference search is defined only in 2-D')
+        return directional_reference(sc,ext,lo,hi)
     P0, P1 = motion_pairs(sc, ext); d = P1 - P0
     S = d.T @ d
     w, V = np.linalg.eigh(S); a = V[:, -1]
@@ -89,6 +92,34 @@ def auto_reference(sc, ext, lo, hi, allow_radial=False):
         proj = corners @ a; origin, extent = float(proj.min()), float(proj.max() - proj.min())
         label = f'position along auto direction {cand["direction"]["angle_deg"]:.0f}°'
     return dict(kind=kind, qs=qs, origin=origin, extent=extent, label=label, candidates=cand)
+
+
+def directional_reference(sc,ext,lo,hi):
+    """Fixed offline motion direction in n-D, using every bounding-box corner.
+
+    With no matched motion, choose the longest domain axis deterministically.
+    Report the eigenvalue gap because an almost isotropic motion distribution
+    makes the fitted direction unstable. No direction is fitted per frame.
+    """
+    from itertools import product
+    lo,hi=np.asarray(lo,float),np.asarray(hi,float)
+    if lo.ndim!=1 or hi.shape!=lo.shape or np.any(hi<=lo):
+        raise ValueError('positive n-D domain extents required')
+    P0,P1=motion_pairs(sc,ext)
+    d=P1-P0 if len(P0) else np.empty((0,len(lo)))
+    S=d.T@d;w,V=np.linalg.eigh(S);total=float(w.sum())
+    if total>1e-20:
+        a=V[:,-1]
+        signed=float(np.sum(d@a))
+        if signed<0 or (abs(signed)<1e-12 and a[np.argmax(abs(a))]<0):a=-a
+    else:a=np.eye(len(lo))[int(np.argmax(hi-lo))]
+    corners=np.array(list(product(*zip(lo,hi))));proj=corners@a
+    return dict(kind='direction',qs=[np.asarray(e)@a for e in ext],
+                origin=float(proj.min()),extent=float(np.ptp(proj)),
+                label='position along fixed '+str(len(lo))+'-D motion direction',
+                candidates=dict(direction=dict(a=a.tolist(),capture=capture_direction(a,P0,P1) if len(P0) else 0.,
+                    eigenvalues=w.tolist(),relative_eigengap=float((w[-1]-w[-2])/total) if total and len(w)>1 else 0.,
+                    fallback=total<=1e-20),matched_steps=len(d)))
 
 
 # ------------------------------------------------- 2. universal constants

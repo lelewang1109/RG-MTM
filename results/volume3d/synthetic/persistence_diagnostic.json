@@ -1,0 +1,50 @@
+[
+  {
+    "persistence_fraction": 0.0,
+    "retained_instances": 96,
+    "mean_leaves": 4.0,
+    "removed_share": 0.0,
+    "width_free_bound_mean": 0.0006312286326374743,
+    "scope": "hierarchy-only deletion diagnostic; no TTK scalar-field simplification and no rendered comparison after pruning"
+  },
+  {
+    "persistence_fraction": 0.01,
+    "retained_instances": 88,
+    "mean_leaves": 3.6666666666666665,
+    "removed_share": 0.08333333333333337,
+    "width_free_bound_mean": 0.00048357130889156675,
+    "scope": "hierarchy-only deletion diagnostic; no TTK scalar-field simplification and no rendered comparison after pruning"
+  },
+  {
+    "persistence_fraction": 0.02,
+    "retained_instances": 72,
+    "mean_leaves": 3.0,
+    "removed_share": 0.25,
+    "width_free_bound_mean": 0.00048357130889156675,
+    "scope": "hierarchy-only deletion diagnostic; no TTK scalar-field simplification and no rendered comparison after pruning"
+  },
+  {
+    "persistence_fraction": 0.05,
+    "retained_instances": 72,
+    "mean_leaves": 3.0,
+    "removed_share": 0.25,
+    "width_free_bound_mean": 0.00048357130889156675,
+    "scope": "hierarchy-only deletion diagnostic; no TTK scalar-field simplification and no rendered comparison after pruning"
+  },
+  {
+    "persistence_fraction": 0.1,
+    "retained_instances": 72,
+    "mean_leaves": 3.0,
+    "removed_share": 0.25,
+    "width_free_bound_mean": 0.00048357130889156675,
+    "scope": "hierarchy-only deletion diagnostic; no TTK scalar-field simplification and no rendered comparison after pruning"
+  },
+  {
+    "persistence_fraction": 0.2,
+    "retained_instances": 72,
+    "mean_leaves": 3.0,
+    "removed_share": 0.25,
+    "width_free_bound_mean": 0.00048357130889156675,
+    "scope": "hierarchy-only deletion diagnostic; no TTK scalar-field simplification and no rendered comparison after pruning"
+  }
+]

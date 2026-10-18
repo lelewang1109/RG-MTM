@@ -1,0 +1,24 @@
+{
+  "ttk_source_version": "0.9.9",
+  "ttk_source_archive_sha256": "f7ebfdf77d0276a1c698e25286a36989cc4375df6b92489a2ccfaa47b4ff7ff1",
+  "native_binary_sha256": "f82bf82ad1e452a742df33bcd1632c361a3ae6895983b2e31aaf69afe84598e9",
+  "native_source_sha256": "b7286af30ab7d8b69f54442579022b56ffce4147ba22954c3d5ac01db500f77f",
+  "driver_source_sha256": "65a4a2321d9488baf9d6a9fe83804be139d242216c2e2c1904ab875a3f5dc8e6",
+  "absolute_persistence_threshold": 0.2,
+  "persistence_percent": 10.0,
+  "declared_scalar_range": [
+    0.0,
+    2.0
+  ],
+  "tree_kind": "join",
+  "saddle_connectors": false,
+  "numerical_perturbation": false,
+  "grid_shape_xyz": [
+    300,
+    180,
+    120
+  ],
+  "grid_adjacency": "TTK implicit regular-grid triangulation, nonperiodic",
+  "vtk_or_inviwo_used": false,
+  "version_note": "public author workflow reimplemented with pinned TTK legacy simplification; not a byte-identical author binary or unpublished scalar export"
+}

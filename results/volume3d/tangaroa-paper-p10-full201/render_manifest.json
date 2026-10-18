@@ -1,0 +1,28 @@
+{
+  "source_sha256": "7b9b183a560eedbfdef67c7007e846557c7a76b2b1d54f0e10b4bebe86f29860",
+  "input_sha256": {
+    "manifest.json": "c61e86fa320046dcd0436d07cc3f0209b9eee56643edc7b10ffcdf39056d4dea",
+    "verification.json": "8d0d18b78098ef055c8d9841a5d2d5917be537338d689ec3890c2a54cfb9e5ea",
+    "metrics.json": "210642062832b9d1751103badf010acd8d82c58a6277f2816d94deecf090508e",
+    "frame_metrics.json": "9008832c03acb1ef4f3c74c99a1ef35b47b38431c6210c0c50505fe8b1037d98",
+    "certificates.json": "0c8046410e53b9e568a33be40af7a933f7b32185bd816dfdb43652449393147a",
+    "features.json": "caf360a5dfa8571d35b2e39edf11e8703e480d6df06dbd8951c00eda447b5890",
+    "reference.json": "81862d5a08beed6cd8e0837fa5c71e6b79a05096e3b15e941660e7f074da2558",
+    "parameters.json": "7e85a1130deba7c3bd2233c8110da43e74e3e7350f5729227682a0e9a02b12dc",
+    "protocol.json": "8f68acbded19a1b01900f3cb3795f6a42d268dba5b02fdb9c4615bcb596d44a3",
+    "display_maps.npz": "b247894515552da78b68757015402271ab1fd8da0168736c4f2367797431bea2"
+  },
+  "author_rendering_settings_sha256": "b70b14d7806cc86267c0e74720adf2793c79402fc01114c3b2a671c607fa93d6",
+  "files": {
+    "comparison_maps.png": "4f2f63c42dcd28a1b4da650160772ab0b76ee6b388b08cb56dec36d30906f337",
+    "comparison_maps.svg": "191130664a9c346c5efdcced130bfcbd6441d191a29e4466c6e0a3927a5e9a18",
+    "relaxation_tradeoff.png": "cd4f0530ff258cd77217b670e1f1b3ffebce8ab8540e9489b2e5953b03420fa9",
+    "relaxation_tradeoff.svg": "9d22156ae2869bef8af4faa3055a46d0aec47e2b2703d6c30432012e3333fbc2",
+    "certificate_bounds.png": "f2ffd3795d9f7688b938a5ce8bc734489d9f429dbfd456a9868a74e64409abf7",
+    "certificate_bounds.svg": "be496ded25fce24c1c18eb9e95ba0fee58a1052e77734a2c0c07ce4c584ecf65",
+    "actual_3d_inputs.png": "056ade29b28b9fb8dc75c05773b61f022d07750641e30fa4330723a50abdff44",
+    "actual_3d_inputs.svg": "a29ef2b7f053e0dc741de439d0ca3fffcc1d26e194e622fbcd36da91d9b7d16a",
+    "REPORT.md": "a38928572a4652ff84333c99c1efed085bdec6cbe9ebffc9116958504dcef910",
+    "comparison.csv": "3e9daaa12b72c8ae538c5b571ef6a5d3f8db3b2c4c9d4aaa3aee287a80a009bc"
+  }
+}

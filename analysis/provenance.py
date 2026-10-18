@@ -20,16 +20,39 @@ def evidence_path(root, relative_path):
     return root / relative_path
 
 
+def historical_source_bytes(root,relative_path):
+    """Restore the pre-3-D source snapshot with exact hash and edit checks.
+
+    This validates a historical source snapshot, not a rerun with current code
+    and not a claim of numerical equivalence between different source versions.
+    """
+    root=Path(root);path=root/relative_path;current=path.read_bytes()
+    ledger=root/'provenance/volume3d_extension_20261017.json'
+    if not ledger.exists():return current
+    record=json.loads(ledger.read_text())['sources'].get(str(relative_path))
+    if record is None:return current
+    if hashlib.sha256(current).hexdigest()!=record['after_sha256']:
+        raise ValueError(f'Source changed after registered 3-D extension: {relative_path}')
+    restored=current
+    for start,end,original in reversed(record['reverse_edits']):
+        restored=restored[:start]+original.encode('utf-8')+restored[end:]
+    if hashlib.sha256(restored).hexdigest()!=record['before_sha256']:
+        raise ValueError(f'Invalid 3-D historical source snapshot: {relative_path}')
+    return restored
+
+
 def verify_saved_file(root, relative_path, expected):
     root = Path(root)
     path = evidence_path(root, relative_path)
     if path.is_file() and hashlib.sha256(path.read_bytes()).hexdigest() == expected:
         return "unchanged"
+    if path.is_file() and hashlib.sha256(historical_source_bytes(root,str(relative_path))).hexdigest()==expected:
+        return "verified historical source snapshot"
     manifest = root / "provenance/rgmtm_rename_20261016.json"
     record = json.loads(manifest.read_text())["sources"].get(str(relative_path))
     if not record or record["before_sha256"] != expected:
         raise ValueError(f"Unregistered evidence/source mismatch: {relative_path}")
-    current = (root / record["after_path"]).read_bytes()
+    current = historical_source_bytes(root,record['after_path'])
     if hashlib.sha256(current).hexdigest() != record["after_sha256"]:
         raise ValueError(f"Source changed after registered rename: {relative_path}")
     restored = current

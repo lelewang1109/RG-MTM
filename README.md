@@ -11,6 +11,7 @@ trade-off, with mixed geometric motion-proxy benefits across datasets.
 
 - 最新论文与配套附录 PDF：[`publications/`](publications/README.md)。
 - 最新实验、公共指标与复现入口：[`experiments/latest/`](experiments/latest/README.md)。
+- 三维实验：[`实验设计与证据总览`](experiments/volume3d/EXPERIMENTS.md)、[`原网格 Tangaroa 结果与图片`](results/volume3d/README.md)。
 - RG-MTM 实验图片：[统一图片索引](results/figures/README.md)（PNG / SVG，含生成脚本及来源哈希）。
 - Experiment code and commands: [`experiments/publication2027/`](experiments/publication2027/README.md).
 - Scientific reproduction: [`experiments/publication2027/REPRODUCING.md`](experiments/publication2027/REPRODUCING.md).
@@ -54,7 +55,7 @@ PYTHONPATH=src python experiments/publication2027/build.py
 PYTHONPATH=src python experiments/publication2027/validate.py
 ```
 
-There are 25 scientific/contract tests. Full numerical runs require prepared raw
+The scientific/contract tests cover the main suite and 3-D extension. Full numerical runs require prepared raw
 inputs; saved records suffice to regenerate publication tables and figures.
 The runner writes timestamped status manifests and logs. Exact-frontier,
 sensitivity, scalability, and transfer records retained from prior runs are
@@ -78,7 +79,41 @@ geometric diagnostics. The new publication figures have PDF, PNG, and SVG export
 The source reference papers are held locally under `references/`; their text and
 figures are not redistributed in the new source bundle.
 
-## Implementation
+## Three-dimensional extension
+
+The separate [3-D experiment](experiments/volume3d/README.md) supports temporal
+volume inputs, physical-coordinate Q derivation for the public SquareCylinder
+velocity data, volume-based feature widths, and full-3-D versus projected motion
+evaluation. Its results remain outside the six-sequence / 342-frame main suite.
+The 3-D primary baseline is TMTM; ST-MTM is an explicitly optional project
+extension. Official FAU Tangaroa velocity-to-speed acquisition and an independently
+recorded ECNR VTM release are kept separate, with source checksums and version limits.
+An [input audit against the authors' workspaces](results/volume3d/tangaroa-input-audit-20261018/REPORT.md)
+corrects the previous Tangaroa pilot: it omitted the authors' mask/clip operations
+and used split trees instead of join trees. Its coarse pilot metrics must not be
+used as a same-input reproduction of the paper. The audit checks original-resolution
+frames 0/100/200 before TTK simplification. The subsequent [full 201-frame experiment](results/volume3d/tangaroa-paper-p10-full201/REPORT.md)
+has now completed and passed independent verification on the original 300×180×120 grid,
+using the author workspace scalar protocol and pinned TTK 0.9.9 at persistence 10%.
+The derived node-count range is 36–186 versus the paper's 50–186; exact reproduction of
+the unpublished final trees remains unresolved. [Paper-style figures](results/volume3d/tangaroa-paper-p10-full201/paper_style/README.md)
+pair temporal scalar maps with original-resolution volume renderings.
+See [the supplement index](results/volume3d/README.md) for saved reports, figures,
+threshold diagnostics, and independent raster verification.
+
+The [3-D experiment overview](experiments/volume3d/EXPERIMENTS.md) separates the
+official full-grid run, two synthetic mechanism checks, and historical coarse
+pilots. The completed full-grid comparison uses TMTM, RG-MTM-P, three RG-MTM-R
+eligibility settings, and an exact-projection control. Persistence stays at 10%:
+the four RG panels are not the paper's four persistence settings. Cylinder has
+not completed a real-data run. Verify the saved 3-D evidence without downloading
+the raw data:
+
+```sh
+PYTHONPATH=src:. python -m experiments.volume3d.verify_saved
+```
+
+## Implementation details
 
 `src/rgmtm/` contains the certificate, interval layout, rendering, and baseline
 implementations. `analysis/` contains shared preprocessing, exact frontiers,

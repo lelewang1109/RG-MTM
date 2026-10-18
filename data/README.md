@@ -1,8 +1,25 @@
 # Public input data
 
-`data/real` is a local symbolic link to the shared public-data cache at
-`/Users/lele/Desktop/MergeTreeMaps/data/real`. It is excluded from the
-supplement because the cache is about 13 GB.
+The completed 3-D experiment uses all 201 official Tangaroa velocity volumes,
+at 300×180×120, with the pinned scalar protocol and TTK join trees. See the
+[experiment overview](../experiments/volume3d/EXPERIMENTS.md) and
+[fresh-checkout commands](../experiments/volume3d/README.md). The repository
+includes ZIP-directory and camera metadata, source hashes, and exported input
+protocols; raw volumes and full generated maps remain excluded.
+
+The separate 3-D extension also provides acquisition code for the publicly resampled SquareCylinder velocity
+sequence (192×64×48, 102 frames) from
+[Tino Weinkauf's data page](https://www.csc.kth.se/~weinkauf/notes/squarecylinder.html).
+Run `PYTHONPATH=src python experiments/volume3d/prepare.py` to acquire it and derive
+Q in source physical coordinates. Raw inputs live in excluded
+`data/real/SquareCylinder/`. See [the 3-D protocol](../experiments/volume3d/README.md)
+for the frozen windows, downstream crop, resampling, boundary treatment, and
+acknowledgements. This public source differs from the 508-frame scalar input in
+the TMTM paper and is not part of the main six-sequence aggregate.
+
+`data/real` is excluded from Git. A fresh checkout creates a normal directory
+there during acquisition. This workspace uses a symbolic link to its shared
+`00-data/real/` cache; that local link and the large raw inputs are not published.
 
 The final evaluation expects these files:
 
@@ -71,3 +88,14 @@ python3 tools/audit_method_performance.py
 
 Older acquisition/configuration notes are retained in
 `../notes/experiment-documentation-history.md`.
+
+## Separate three-dimensional inputs
+
+See [the 3-D protocol](../experiments/volume3d/README.md). Official Tangaroa is
+downloaded from the FAU public share as individual velocity volumes; scalar speed
+is calculated on the source grid. The ECNR Tangaroa VTM backup has a different
+channel and time coverage and is recorded separately. Per-member CRC32, source
+SHA256, source headers, selected times and preprocessing are saved under the
+Git-excluded `data/real/` directory. The supplementary results stay outside the
+six-sequence / 342-frame main suite. Cylinder remains unavailable as a complete
+validated source archive in this workspace; its partial download is not input data.

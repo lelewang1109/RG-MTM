@@ -1,0 +1,58 @@
+{
+  "status": "passed",
+  "frames": 36,
+  "methods": [
+    {
+      "method": "TMTM",
+      "frames": 36,
+      "NMLE_max": 0.0,
+      "exact_frames": 36
+    },
+    {
+      "method": "Hilbert",
+      "frames": 36,
+      "NMLE_max": 0.45951058979843284,
+      "exact_frames": 0
+    },
+    {
+      "method": "Morton",
+      "frames": 36,
+      "NMLE_max": 0.4611803284669627,
+      "exact_frames": 0
+    },
+    {
+      "method": "RG-MTM-P",
+      "frames": 36,
+      "NMLE_max": 0.0,
+      "exact_frames": 36
+    },
+    {
+      "method": "RG-MTM-R 0.02",
+      "frames": 36,
+      "NMLE_max": 0.0,
+      "exact_frames": 36
+    },
+    {
+      "method": "RG-MTM-R 0.2",
+      "frames": 36,
+      "NMLE_max": 0.0,
+      "exact_frames": 36
+    },
+    {
+      "method": "RG-MTM-R 1",
+      "frames": 36,
+      "NMLE_max": 0.0,
+      "exact_frames": 36
+    }
+  ],
+  "verification_source_sha256": "0e4f295823747ef5dd29b9467e05d1f039e6fba5adf4e0a009f6f9bc9dd6ae37",
+  "checks": [
+    "exact source/input/output hashes",
+    "source-grid tree reconstruction",
+    "independent parent-chain LCA barriers",
+    "saved-raster topology signatures",
+    "independent reference-order inversions",
+    "native sample multisets",
+    "tracking reset across gaps"
+  ]
+}

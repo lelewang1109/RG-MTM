@@ -1,0 +1,50 @@
+[
+  {
+    "axis": "auto",
+    "direction": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "capture": 0.7411776774723021,
+    "width_free_bound_mean": 0.0,
+    "width_free_bound_max": 0.0,
+    "scope": "direction sensitivity of projected-motion capture and width-free hierarchy certificate; no additional layout run"
+  },
+  {
+    "axis": "x",
+    "direction": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "capture": 0.7411776774723021,
+    "width_free_bound_mean": 0.0,
+    "width_free_bound_max": 0.0,
+    "scope": "direction sensitivity of projected-motion capture and width-free hierarchy certificate; no additional layout run"
+  },
+  {
+    "axis": "y",
+    "direction": [
+      0.0,
+      1.0,
+      0.0
+    ],
+    "capture": 0.25882232252769805,
+    "width_free_bound_mean": 0.031862745098039214,
+    "width_free_bound_max": 0.38235294117647056,
+    "scope": "direction sensitivity of projected-motion capture and width-free hierarchy certificate; no additional layout run"
+  },
+  {
+    "axis": "z",
+    "direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "capture": 0.0,
+    "width_free_bound_mean": 0.026515151515151523,
+    "width_free_bound_max": 0.04545454545454547,
+    "scope": "direction sensitivity of projected-motion capture and width-free hierarchy certificate; no additional layout run"
+  }
+]

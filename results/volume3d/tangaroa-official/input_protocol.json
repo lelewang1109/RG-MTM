@@ -1,0 +1,281 @@
+{
+  "dataset": "Tangaroa-FAU-speed",
+  "source_page": "https://www.vc.tf.fau.de/publications/datasets/",
+  "source_url": "https://gofile.me/6LCdM/B0QjKMfKX",
+  "source_kind": "official acquired 3-D time-dependent Gerris velocity simulation",
+  "scalar": "sqrt(u*u+v*v+w*w) on full source grid",
+  "version_note": "Official 300x180x120x201 velocity release matches TMTM dataset dimensions and speed channel. This experiment uses the first 12 volumes and its own explicit spatial processing, not the full original experiment.",
+  "exact_paper_input": false,
+  "official_dataset_dimensions_match": true,
+  "source_total_frames": 201,
+  "source_shape_zyx": [
+    120,
+    180,
+    300
+  ],
+  "shape_tzyx": [
+    12,
+    12,
+    18,
+    30
+  ],
+  "indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "times": [
+    0.0,
+    0.01,
+    0.02,
+    0.03,
+    0.04,
+    0.05,
+    0.06,
+    0.07,
+    0.08,
+    0.09,
+    0.1,
+    0.11
+  ],
+  "source_time_step": 0.01,
+  "break_before": [],
+  "window_labels": [
+    "first 12 continuous official times"
+  ],
+  "source_bounds_xyz": [
+    -0.35,
+    0.65,
+    -0.3,
+    0.3,
+    -0.5,
+    -0.3
+  ],
+  "sample_measure": 2.212797344643187e-05,
+  "axis_convention": "Amira source header and x-fastest binary XYZ vector components, preserved as ZYX grid",
+  "antialias_sigma_source_zyx": [
+    4.9749371855331,
+    4.9749371855331,
+    4.9749371855331
+  ],
+  "resampling": "source speed then fixed full-domain Gaussian antialias and trilinear sampling; no per-frame normalization",
+  "selection": "First 12 continuous frames fixed before layouts; no ROI or performance-driven time selection",
+  "source_records": [
+    {
+      "filename": "tangaroa-0.00.am",
+      "source_time": 0.0,
+      "sha256": "4058826172581e1c055a69c62e9fc84bc19cb4e0da4d6b8b3ad106586d31c580",
+      "crc32": 4160470825,
+      "bytes": 77760272,
+      "speed_min": 0.0,
+      "speed_max": 3.0590057397474664,
+      "velocity_bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ]
+    },
+    {
+      "filename": "tangaroa-0.01.am",
+      "source_time": 0.01,
+      "sha256": "3a8c49fc687ff0721c1c5f704ad7473b790bae6ce1e28244837f1b84dfb1dd07",
+      "crc32": 2639796140,
+      "bytes": 77760272,
+      "speed_min": 0.0,
+      "speed_max": 2.6063617115459072,
+      "velocity_bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ]
+    },
+    {
+      "filename": "tangaroa-0.02.am",
+      "source_time": 0.02,
+      "sha256": "720c24ae8f60f1f136538527a8d85713a23d6fc1fedb350fa9030471925d628b",
+      "crc32": 3187405257,
+      "bytes": 77760272,
+      "speed_min": 0.0,
+      "speed_max": 2.4106282070835277,
+      "velocity_bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ]
+    },
+    {
+      "filename": "tangaroa-0.03.am",
+      "source_time": 0.03,
+      "sha256": "32c478a90a91d3a94fcd2b80ada9e4f4834529e1c7469e7f35e0b335d2099158",
+      "crc32": 797297241,
+      "bytes": 77760272,
+      "speed_min": 0.0,
+      "speed_max": 2.1885185046015723,
+      "velocity_bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ]
+    },
+    {
+      "filename": "tangaroa-0.04.am",
+      "source_time": 0.04,
+      "sha256": "4e5440f359d0d88b563341819adac97a22c67f15bfb72095d02c9e4052a1345c",
+      "crc32": 2736286360,
+      "bytes": 77760272,
+      "speed_min": 0.0,
+      "speed_max": 2.0266053971300515,
+      "velocity_bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ]
+    },
+    {
+      "filename": "tangaroa-0.05.am",
+      "source_time": 0.05,
+      "sha256": "a6a0594812ac6cbc5f9d84e8877d1091ed5acc48761262916b424d58d6d8f875",
+      "crc32": 60830305,
+      "bytes": 77760272,
+      "speed_min": 0.0,
+      "speed_max": 1.8968113947969865,
+      "velocity_bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ]
+    },
+    {
+      "filename": "tangaroa-0.06.am",
+      "source_time": 0.06,
+      "sha256": "4f5da732fa04b1db131149b56e56d68c2d7134f680ffaf5482ec9d60d3332229",
+      "crc32": 3508092566,
+      "bytes": 77760272,
+      "speed_min": 0.0,
+      "speed_max": 1.8871856562690328,
+      "velocity_bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ]
+    },
+    {
+      "filename": "tangaroa-0.07.am",
+      "source_time": 0.07,
+      "sha256": "6e46706839e10442a5351c0867b9b8931d2030a2a14fbe17c21b2c8aaea1be17",
+      "crc32": 4274080061,
+      "bytes": 77760272,
+      "speed_min": 0.0,
+      "speed_max": 1.872888158453517,
+      "velocity_bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ]
+    },
+    {
+      "filename": "tangaroa-0.08.am",
+      "source_time": 0.08,
+      "sha256": "42ccf9f7072c4717096b990b87114db4784b7e45367730ade1d9214d5fe14dab",
+      "crc32": 2234097173,
+      "bytes": 77760272,
+      "speed_min": 0.0,
+      "speed_max": 1.8668055660974783,
+      "velocity_bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ]
+    },
+    {
+      "filename": "tangaroa-0.09.am",
+      "source_time": 0.09,
+      "sha256": "cdcf9c310a6eaf9eb4d90a58589e7a3b15b5432eb5aa56fe20fcb6f82a75dbb5",
+      "crc32": 1179832892,
+      "bytes": 77760272,
+      "speed_min": 0.0,
+      "speed_max": 1.8633680137764101,
+      "velocity_bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ]
+    },
+    {
+      "filename": "tangaroa-0.10.am",
+      "source_time": 0.1,
+      "sha256": "fc69cb73c9f17fe3c0f4838c7c30b6ba058af56362c66e3164d858e7c9fc032a",
+      "crc32": 3959958088,
+      "bytes": 77760272,
+      "speed_min": 0.0,
+      "speed_max": 1.8575074435243202,
+      "velocity_bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ]
+    },
+    {
+      "filename": "tangaroa-0.11.am",
+      "source_time": 0.11,
+      "sha256": "9349105aa13ea0a3dd48eec74a9d714397f850c12c930a6adb50ae05096c50cb",
+      "crc32": 3831733215,
+      "bytes": 77760272,
+      "speed_min": 0.0,
+      "speed_max": 1.8485957152019707,
+      "velocity_bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ]
+    }
+  ],
+  "preparation_source": "experiments/volume3d/prepare_tangaroa_official.py",
+  "preparation_sha256": "775d9fb0fac5dfd495ad8f711a643532f1ff00d292cf5b4358a9428a4384ed8f",
+  "prepared_input_sha256": "c486e66da081af5283df8a2b382c7b797ab053804af5508b29f201435bb91c65"
+}

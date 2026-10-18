@@ -1,0 +1,28 @@
+{
+  "ttk_version": "0.9.9",
+  "source_url": "https://codeload.github.com/topology-tool-kit/ttk/tar.gz/refs/tags/0.9.9",
+  "source_archive_sha256": "f7ebfdf77d0276a1c698e25286a36989cc4375df6b92489a2ccfaa47b4ff7ff1",
+  "native_source_sha256": "b7286af30ab7d8b69f54442579022b56ffce4147ba22954c3d5ac01db500f77f",
+  "cmake_source_sha256": "24530ed4ad5e2e6cf5c6daff279263cbf2d36d74622009b380a357ee88c6bab4",
+  "binary_sha256": "f82bf82ad1e452a742df33bcd1632c361a3ae6895983b2e31aaf69afe84598e9",
+  "build_command": [
+    "cmake",
+    "-S",
+    "/Users/lele/Desktop/MergeTreeMaps/02-RG-MTM/experiments/volume3d/native",
+    "-B",
+    "/Users/lele/Desktop/MergeTreeMaps/02-RG-MTM/tmp/volume3d/native-build",
+    "-G",
+    "Ninja",
+    "-DTTK_SOURCE_DIR=/Users/lele/Desktop/MergeTreeMaps/02-RG-MTM/tmp/volume3d/ttk-0.9.9",
+    "-DCMAKE_BUILD_TYPE=Release",
+    "-DCMAKE_POLICY_VERSION_MINIMUM=3.5",
+    "-DOpenMP_C_FLAGS=-Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include",
+    "-DOpenMP_C_LIB_NAMES=omp",
+    "-DOpenMP_CXX_FLAGS=-Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include",
+    "-DOpenMP_CXX_LIB_NAMES=omp",
+    "-DOpenMP_omp_LIBRARY=/opt/homebrew/opt/libomp/lib/libomp.dylib"
+  ],
+  "system": "macOS-26.6.2-arm64-arm-64bit",
+  "record_existing": true,
+  "compiler": "Apple clang version 21.0.0 (clang-2100.1.1.101)\nTarget: arm64-apple-darwin25.6.0\nThread model: posix\nInstalledDir: /Library/Developer/CommandLineTools/usr/bin\n"
+}

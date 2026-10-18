@@ -8,6 +8,8 @@
 | 公共几何与稳定性指标 | SNS、TW、TD；与主实验相同的四个固定配置 | [汇总 CSV](../../results/public_metrics_20261016/summary.csv)、[指标协议](../../results/public_metrics_20261016/protocol.json) |
 | 排序与运动任务指标 | Kendall、Spearman；三分类平衡准确率、Macro-F1；不是用户实验 | [排序结果](../../results/public_metrics_20261016/reference_tasks/rank_summary.csv)、[运动结果](../../results/public_metrics_20261016/reference_tasks/motion_summary.csv) |
 | 垂直平分线控制 | 241×241，64 帧；TMTM、ST-MTM 与 RG-MTM-R | [逐帧指标](../../results/publication2027/bisector_control/bisector_highres_metrics.csv)、[实验记录](../../results/publication2027/bisector_control/bisector_highres_x_three_methods.json) |
+| 三维正式补充：官方 Tangaroa | 原网格 300×180×120，全部 201 帧；固定持久性 10%，TMTM 与 RG-P/R；独立核验通过 | [实验设计](../volume3d/EXPERIMENTS.md)、[完整结果](../../results/volume3d/tangaroa-paper-p10-full201/REPORT.md)、[论文风格图](../../results/volume3d/tangaroa-paper-p10-full201/paper_style/README.md) |
+| 三维机制验证 | 三维运动／层次冲突，各 24 帧；历史粗网格试跑单列，不进入正式同输入比较 | [三维结果索引](../../results/volume3d/README.md)、[历史试跑](../../results/volume3d/HISTORICAL_PILOTS.md) |
 | 当前实验图片 | 11 组，PNG 和可编辑 SVG | [图片索引](../../results/figures/README.md) |
 
 主实验定义在 [dataset_suite.py](../../analysis/dataset_suite.py)。原始方法键 `A`、`R 20%` 对应 RG-MTM-P、RG-MTM-R；不重写历史记录。Gaussians 在默认清晰事件口径下的 ME 未定义；PM2.5 的 7 个事件属于探索性案例。位置、运动及几何/稳定性结果分别报告。
@@ -18,6 +20,7 @@
 PYTHONPATH=src python -m unittest discover -s tests -q
 PYTHONPATH=src python experiments/publication2027/validate.py
 PYTHONPATH=src python tools/verify_rgmtm_migration.py
+PYTHONPATH=src:. python -m experiments.volume3d.verify_saved
 python tools/build_latest_experiment_index.py --check
 python tools/check_public_export.py
 ```

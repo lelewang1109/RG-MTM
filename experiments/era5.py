@@ -66,12 +66,22 @@ def audit_source():
             source_type='ERA5 reanalysis, not independent observed cyclone tracks',
             documentation='https://www.ecmwf.int/en/forecasts/dataset/ecmwf-reanalysis-v5')
 
-def scene_from_fields(fields,coords,area,kind='join',max_leaves=12):
-    """Shared Storms/Ring tree extraction, leaf support, and overlap matching."""
+def scene_from_fields(fields,coords,area,kind='join',max_leaves=12,*,break_before=()):
+    """Shared 2-D/3-D extraction; ``area`` is sample area or sample volume.
+
+    Coordinates follow C-order flattened samples. Disconnected temporal windows
+    must declare their first indices in ``break_before`` to reset tracking.
+    """
     fields=np.asarray(fields)
-    if fields.ndim!=3 or not np.isfinite(fields).all():
-        raise ValueError('expected finite time-by-y-by-x fields')
-    ny,nx=fields.shape[1:]
+    if fields.ndim not in (3,4) or not len(fields) or not np.isfinite(fields).all():
+        raise ValueError('expected finite T×Y×X or T×Z×Y×X fields')
+    shape=fields.shape[1:];coords=np.asarray(coords,float)
+    if coords.shape!=(int(np.prod(shape)),len(shape)) or not np.isfinite(coords).all():
+        raise ValueError('coordinates must match C-order spatial samples and dimension')
+    if not np.isfinite(area) or area<=0:raise ValueError('positive sample measure required')
+    breaks=set(break_before)
+    if any(not isinstance(i,(int,np.integer)) or not 0<=i<len(fields) for i in breaks):
+        raise ValueError('break_before indices must identify input frames')
     frames=[];trees=[];ids=[];centers=[];areas=[];hier=[];boundary=[];matches=[];tracks=[];tracking=[];counter=0
     for t,field in enumerate(fields):
         tr=b1.build_augmented_merge_tree(field,kind)
@@ -86,11 +96,12 @@ def scene_from_fields(fields,coords,area,kind='join',max_leaves=12):
         h=visit(tr.root)
         if max_leaves is not None and len(leaves)>max_leaves:
             raise ValueError(f'{t}: {len(leaves)} leaves; exhaustive-order protocol limit exceeded; do not silently prune')
-        m={} if not t else b2.match_leaves_by_overlap(frames[-1],fr)
+        m={} if not t or t in breaks else b2.match_leaves_by_overlap(frames[-1],fr)
         ii={k:i for i,k in enumerate(ids[-1])} if t else {}
         tids=[];bm=[]
         for k in leaves:
-            sv=fr.leaf_feature_vertices(k);edge=bool(np.any((sv//nx==0)|(sv//nx==ny-1)|(sv%nx==0)|(sv%nx==nx-1)));bm.append(edge)
+            sv=fr.leaf_feature_vertices(k);indices=np.unravel_index(sv,shape)
+            edge=any(np.any((ix==0)|(ix==size-1)) for ix,size in zip(indices,shape));bm.append(bool(edge))
             if k in m:
                 j=ii[m[k]];tid=tracks[-1][j]
                 prev=set(frames[-1].leaf_feature_vertices(m[k]));now=set(sv)

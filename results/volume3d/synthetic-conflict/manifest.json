@@ -1,0 +1,128 @@
+{
+  "dataset": "synthetic-conflict",
+  "frames": 24,
+  "shape_tzyx": [
+    24,
+    16,
+    18,
+    22
+  ],
+  "leaves": [
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4
+  ],
+  "scalar_range": 1.326089499634047,
+  "reference": {
+    "kind": "direction",
+    "origin": 0.0,
+    "extent": 120.0,
+    "label": "position along fixed 3-D motion direction",
+    "candidates": {
+      "direction": {
+        "a": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "capture": 1.0,
+        "eigenvalues": [
+          0.0,
+          0.0,
+          555.1020408163265
+        ],
+        "relative_eigengap": 1.0,
+        "fallback": false
+      },
+      "matched_steps": 92
+    }
+  },
+  "parameters": {
+    "canvas": 120.0,
+    "width_scale": 2.934619633838384e-05,
+    "gap": 0.5,
+    "rho": 0.5,
+    "extra_budget": 1.0,
+    "motion_weight": 0.5,
+    "eccentricity_weight": 0.1,
+    "reference_weight": 4.0,
+    "geometry_weight": 1.0,
+    "normalize_terms": true,
+    "temporal_mode": "residual",
+    "canvas_origin": 0.0
+  },
+  "conflict_frames": 15,
+  "extraction_seconds": 9.853393125000366,
+  "seconds": 24.9458126669997,
+  "runtime": {
+    "python": "3.10.19 (main, Oct  9 2025, 15:25:03) [Clang 17.0.0 (clang-1700.6.3.2)]",
+    "numpy": "2.0.2",
+    "platform": "macOS-26.6.2-arm64-arm-64bit"
+  },
+  "source_sha256": {
+    "experiments/volume3d/run.py": "76558099a75222045049b7860d37c3bc2688df553f6d65c33eeaceda86b64eb2",
+    "experiments/volume3d/prepare.py": "e9e92150cf25be13f8a8060e16144e528c94ee9c1ab095db25149976b846b5c0",
+    "experiments/era5.py": "c57b98f41959bb8c8af6b8709e3df7098824c300dcfa73e912218ac8f8bf6574",
+    "analysis/general_method.py": "b518774e7ce6a51de15f4390c5e09923a098fce1cbb5564cf4f1acb8d33381c9",
+    "analysis/evaluation.py": "c8399968bd9d6c743fe0b23373324c07fe2b1037ec395d3f788440dbd05c1fa3",
+    "analysis/relax_hierarchy.py": "f855bf7eb13726c19e492f56317758c4d6da48ee1cc3a35c3a271a258f99e335",
+    "analysis/conflict_strategies.py": "00fc6cd54c39200cd515c0fa1f196447d163c28116f18a8aff3900e1d50d0b61",
+    "analysis/filling.py": "17518b2e861e25791024ec7b4a80f20e16a5c702edfcbb1e96b6b38d0f0d50e0",
+    "analysis/theory.py": "4f455d250466df2cb6db1079c4e452301e2c737cc094085ad82b4c75385d112e",
+    "analysis/certificate_core.py": "68f7093008e0264b538fedb26f127d7778eb675198759a75dc37db3395393d1d",
+    "analysis/result_tables.py": "ae1f9ac08669eb5c499955fb9f2f3a3eec98b56cb0096e79339d467e3a587f12",
+    "analysis/persistence.py": "1f7076753e97928575b143b5fe15de0fd152294d1d325c20b635e38b5a479003",
+    "analysis/pointcert.py": "dc4894ce3b1dcae0c602ff98b08260c452a94b2fd882a66d589892bc611e8888",
+    "src/rgmtm/reference_points.py": "7b33e159e92c24b732e5587b0a9adaeb451095f080a711a1cc48f5aab99e05db",
+    "src/rgmtm/baselines/space_filling.py": "e4a5af03dd4adeb4cceb01d1799c74932d1f88116391efceceed8a0093d574d9",
+    "src/rgmtm/baselines/tmtm.py": "6e4afab614042ab798f904a8c1e6928bc50bb822840c6f9fc7f9d4f4e2188f73",
+    "src/rgmtm/baselines/stmtm.py": "97a232bfbd6b4b7f8e0d125396a2a6d3619b5f661c106ded574c55d1c5be5f77",
+    "src/rgmtm/reference_guided.py": "4e59be569228b10bf9010f3c92bfcb683207e62af1e6af190dc5ef90d5bbb188",
+    "src/rgmtm/error_budget.py": "5ce53150773d8058b0a50c7907f5133995a88ea8cc87defdd1e2b34bd80b82fa"
+  },
+  "artifact_sha256": {
+    "Hilbert_map.npz": "040d18834b7154bd038ce176db49a1879460d7cca0fe1c2bacbac0dbc36b2458",
+    "Morton_map.npz": "180c640d0b9faed58035af2d7d5b2f3a18cc603e06bb1ea0763e5441c09b4d90",
+    "RG-MTM-P_layouts.json": "87fa84b0ca997691717393df94ebae5f7a9cb42ccb3672f6f7aeea041f1dc737",
+    "RG-MTM-P_map.npz": "a0db844078bdbd066b71ee16222a8f37aa98e8605c05310b60889443ddc4588a",
+    "RG-MTM-R_0.02_layouts.json": "87fa84b0ca997691717393df94ebae5f7a9cb42ccb3672f6f7aeea041f1dc737",
+    "RG-MTM-R_0.02_map.npz": "a0db844078bdbd066b71ee16222a8f37aa98e8605c05310b60889443ddc4588a",
+    "RG-MTM-R_0.2_layouts.json": "87fa84b0ca997691717393df94ebae5f7a9cb42ccb3672f6f7aeea041f1dc737",
+    "RG-MTM-R_0.2_map.npz": "a0db844078bdbd066b71ee16222a8f37aa98e8605c05310b60889443ddc4588a",
+    "RG-MTM-R_1_layouts.json": "70bad0476ecb486930fcfa066a5f67ee096db7a12b48047b1d2c3de20648fb7b",
+    "RG-MTM-R_1_map.npz": "ae820b5f3ceffee89879dbcab74ab1008a32fd54d9bfab5a5e05c5c1af93c281",
+    "ST-MTM_map.npz": "2cbade840b552850d350314f7dc864d0bed1162353dc74d8880d07bd1ac8a12e",
+    "TMTM_map.npz": "c1fe3c09f8097c7c4ee0da887f07b3fb9e6730420d77ef741c0ae3d106fac5d8",
+    "certificates.json": "c0065c52ebe057659cbc60db6c2b731691219cc00a9814652f5f474c924fea98",
+    "features.json": "246c0999205677aef68dc253637c7364a2a368711f1a8071075357254e331ed6",
+    "frame_metrics.json": "0d4b3f77e9c9b3466aa406ac5fed5224acecad911eb108e6f5fbd9d2d6a6b4eb",
+    "input_protocol.json": "86a91bf091e9624854b5b4b475e24129db22494268105a4afcd9fdf301e40336",
+    "metrics.json": "b6e62a19897536e0201d7cf41469feef02def511830ff14cef696e209b9ff7bd",
+    "persistence_diagnostic.json": "423151772a63f7141caac168d44cae43284a62ecdd35e9c1aa60b98bab8d3f34",
+    "preprocessing_audit.json": "b2e2349cc6e93a7f770408655a8cda6b97c5651d442c09db25031cce8ae80be8",
+    "processed_fields.npz": "8496b7903c854de3e748a4375fd7a0fdf5ecf4e4a3df24005b06ccebbfb2e0d2",
+    "protocol.json": "abdbd35c6464ed7473410042ead616bbec1e936f1040d5e8910b15b839d9032b",
+    "reference_axes.json": "39232682a446b09b2ed71ffbf34de92fd2b9f2c66121e4e78bbb0a5c609da1ee"
+  }
+}

@@ -24,6 +24,11 @@ def snapshot():
                              ("current_figures", "results/figures")):
         groups[label] = sorted(p for p in (ROOT / directory).rglob("*")
                                if p.is_file() and p.suffix in {".json", ".csv", ".npz", ".png", ".svg", ".md"})
+    groups['volume3d_code'] = sorted(p for p in (ROOT/'experiments/volume3d').rglob('*')
+                                   if p.is_file() and '__pycache__' not in p.parts
+                                   and (p.suffix in {'.py','.cpp','.json','.md'} or p.name=='CMakeLists.txt'))
+    groups['volume3d_results'] = sorted(p for p in (ROOT/'results/volume3d').rglob('*')
+                                      if p.is_file() and p.suffix in {'.json','.csv','.npz','.npy','.png','.svg','.pdf','.md'})
     groups["primary_records"] = [ROOT / "results" / name for name in (
         "final_performance.json", "final_performance.csv", "eval_projection.json", "native_merge_errors.json",
         "filling.json", "pointcert.json", "protocol_olr.json", "protocol_pm25.json",
@@ -38,6 +43,9 @@ def snapshot():
     return dict(scope="Saved experiments and current PNG/SVG figures; no numerical rerun or manuscript publication",
                 datasets=list(DATASETS), frames=frames, total_frames=sum(frames.values()),
                 bisector_control_frames=control["frames"], current_figure_groups=len(images["figures"]),
+                volume3d_supplement=dict(official_tangaroa_frames=201,original_grid_xyz=[300,180,120],
+                    synthetic_frames=[24,24],included_in_main_342_frames=False,
+                    inventory='results/volume3d/README.md'),
                 group_counts={name: len(paths) for name, paths in groups.items()}, files=files)
 
 

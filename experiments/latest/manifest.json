@@ -19,6 +19,20 @@
   "total_frames": 342,
   "bisector_control_frames": 64,
   "current_figure_groups": 11,
+  "volume3d_supplement": {
+    "official_tangaroa_frames": 201,
+    "original_grid_xyz": [
+      300,
+      180,
+      120
+    ],
+    "synthetic_frames": [
+      24,
+      24
+    ],
+    "included_in_main_342_frames": false,
+    "inventory": "results/volume3d/README.md"
+  },
   "group_counts": {
     "core_code": 9,
     "analysis": 109,
@@ -26,6 +40,8 @@
     "organized_results": 67,
     "public_metrics": 42,
     "current_figures": 24,
+    "volume3d_code": 30,
+    "volume3d_results": 398,
     "primary_records": 20,
     "evaluation_and_export_code": 7
   },
@@ -42,8 +58,8 @@
     },
     "src/rgmtm/baselines/space_filling.py": {
       "group": "core_code",
-      "bytes": 2538,
-      "sha256": "cf8116e153bb9d7abee12d80f36bd7b8005174ad92a54d5c590c4f5f9f670b4a"
+      "bytes": 3598,
+      "sha256": "e4a5af03dd4adeb4cceb01d1799c74932d1f88116391efceceed8a0093d574d9"
     },
     "src/rgmtm/baselines/stmtm.py": {
       "group": "core_code",
@@ -72,8 +88,8 @@
     },
     "src/rgmtm/reference_points.py": {
       "group": "core_code",
-      "bytes": 1303,
-      "sha256": "b412afed9a03885591cd100754f69af1d28ad34ffd635df0a82e03b23b5ca0e7"
+      "bytes": 1318,
+      "sha256": "7b33e159e92c24b732e5587b0a9adaeb451095f080a711a1cc48f5aab99e05db"
     },
     "analysis/attainable.py": {
       "group": "analysis",
@@ -127,8 +143,8 @@
     },
     "analysis/evaluation.py": {
       "group": "analysis",
-      "bytes": 18395,
-      "sha256": "34860040a36348a3ee79d76d7fa52960e205b5b3843165667f458b1f5a54cc20"
+      "bytes": 18530,
+      "sha256": "c8399968bd9d6c743fe0b23373324c07fe2b1037ec395d3f788440dbd05c1fa3"
     },
     "analysis/fig_concept.py": {
       "group": "analysis",
@@ -197,8 +213,8 @@
     },
     "analysis/general_method.py": {
       "group": "analysis",
-      "bytes": 12453,
-      "sha256": "795d635133e987bb3e16c909134331730e6d1e34dc8428411628103ea4fa7a37"
+      "bytes": 14102,
+      "sha256": "b518774e7ce6a51de15f4390c5e09923a098fce1cbb5564cf4f1acb8d33381c9"
     },
     "analysis/generality.py": {
       "group": "analysis",
@@ -522,8 +538,8 @@
     },
     "analysis/provenance.py": {
       "group": "analysis",
-      "bytes": 1875,
-      "sha256": "cfcb24769fb803cb1a5c1da17c1e79b5eebc78d638e5457454d7562463dd8fe1"
+      "bytes": 3128,
+      "sha256": "759a06b330aec382e1990ff8d10b7fd3cec69b74956a493de68af01f5dafc4e9"
     },
     "analysis/public_scalar.py": {
       "group": "analysis",
@@ -1335,6 +1351,2146 @@
       "bytes": 53065,
       "sha256": "eb7feec0528f03b98996c5ece0d7c42508f1c96fc916a8219df0dfe48184f98f"
     },
+    "experiments/volume3d/EXPERIMENTS.md": {
+      "group": "volume3d_code",
+      "bytes": 13256,
+      "sha256": "5d9936abfdaf08c45a8da192408e9a899305f0a3079a6f7fd17f099a6338abcf"
+    },
+    "experiments/volume3d/README.md": {
+      "group": "volume3d_code",
+      "bytes": 18741,
+      "sha256": "5ff6cb52142950f5d85218cf0da9889d63df00cbe940451c9ce28e4dc493e928"
+    },
+    "experiments/volume3d/audit_tangaroa.py": {
+      "group": "volume3d_code",
+      "bytes": 19416,
+      "sha256": "dc88c33acb91de194007faa9fdf5ef596cd086e3511c54d5d1747852503445d8"
+    },
+    "experiments/volume3d/build_native_ttk.py": {
+      "group": "volume3d_code",
+      "bytes": 3270,
+      "sha256": "d4766dd73e82555e5f0ec345def8638e15fe1fc5ef0d583f40192bd54a5f688f"
+    },
+    "experiments/volume3d/compact_tmtm.py": {
+      "group": "volume3d_code",
+      "bytes": 6444,
+      "sha256": "dec92c260ff3852e0b06649b7f7ba18017eb5c82a36c900200ca32d502588b39"
+    },
+    "experiments/volume3d/export_input_evidence.py": {
+      "group": "volume3d_code",
+      "bytes": 1794,
+      "sha256": "02bad62149e01a771b8d0e34f7dd974dfe2c221172e0a6594b07dbe5ab0699dd"
+    },
+    "experiments/volume3d/fetch_tangaroa_snapshots.py": {
+      "group": "volume3d_code",
+      "bytes": 3567,
+      "sha256": "e6554e3c7e9faed95e8cfe5ebeb22ddb9d060ae55d1b05522258838f6461b63e"
+    },
+    "experiments/volume3d/inputs/README.md": {
+      "group": "volume3d_code",
+      "bytes": 1027,
+      "sha256": "caa7e065b8bbc4dfe5c8de029682b9b23d6d386158f4f705d2a2444b72f6add3"
+    },
+    "experiments/volume3d/inputs/tangaroa_archive_inventory.json": {
+      "group": "volume3d_code",
+      "bytes": 36375,
+      "sha256": "0a441d49bca4c9b178bcd8987bae2ee063ff8ff8046a7e3b51bded352e197ac6"
+    },
+    "experiments/volume3d/inputs/tangaroa_closer_camera.json": {
+      "group": "volume3d_code",
+      "bytes": 716,
+      "sha256": "b3600f6fbfab3f2f3a6bb0dd015b5d898e510f43566536827e37c05f24af8e6a"
+    },
+    "experiments/volume3d/native/CMakeLists.txt": {
+      "group": "volume3d_code",
+      "bytes": 865,
+      "sha256": "24530ed4ad5e2e6cf5c6daff279263cbf2d36d74622009b380a357ee88c6bab4"
+    },
+    "experiments/volume3d/native/main.cpp": {
+      "group": "volume3d_code",
+      "bytes": 6917,
+      "sha256": "b7286af30ab7d8b69f54442579022b56ffce4147ba22954c3d5ac01db500f77f"
+    },
+    "experiments/volume3d/paper_style.py": {
+      "group": "volume3d_code",
+      "bytes": 19745,
+      "sha256": "986bcae485e59329f239b1b50ee68c01a7dab31050072cceb10d60dd44e2bfb6"
+    },
+    "experiments/volume3d/paper_trees.py": {
+      "group": "volume3d_code",
+      "bytes": 7477,
+      "sha256": "65a4a2321d9488baf9d6a9fe83804be139d242216c2e2c1904ab875a3f5dc8e6"
+    },
+    "experiments/volume3d/prepare.py": {
+      "group": "volume3d_code",
+      "bytes": 9662,
+      "sha256": "e9e92150cf25be13f8a8060e16144e528c94ee9c1ab095db25149976b846b5c0"
+    },
+    "experiments/volume3d/prepare_ctc.py": {
+      "group": "volume3d_code",
+      "bytes": 9502,
+      "sha256": "828bfb964cfdc5bba81436bc94522a88e2b5460f9e89661bccede7cce6cdf784"
+    },
+    "experiments/volume3d/prepare_tangaroa.py": {
+      "group": "volume3d_code",
+      "bytes": 9165,
+      "sha256": "d7b37ee8edfe3cc3fef5743b10876ffb639b44f1ae872237eeb862f0359e0b35"
+    },
+    "experiments/volume3d/prepare_tangaroa_official.py": {
+      "group": "volume3d_code",
+      "bytes": 9630,
+      "sha256": "775d9fb0fac5dfd495ad8f711a643532f1ff00d292cf5b4358a9428a4384ed8f"
+    },
+    "experiments/volume3d/prepare_tangaroa_paper.py": {
+      "group": "volume3d_code",
+      "bytes": 6277,
+      "sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    "experiments/volume3d/report.py": {
+      "group": "volume3d_code",
+      "bytes": 18061,
+      "sha256": "06f6aafbfee799cb18c255b64c6aae12af03b25545988da375d3c05445a9a023"
+    },
+    "experiments/volume3d/report_paper.py": {
+      "group": "volume3d_code",
+      "bytes": 21480,
+      "sha256": "7b9b183a560eedbfdef67c7007e846557c7a76b2b1d54f0e10b4bebe86f29860"
+    },
+    "experiments/volume3d/run.py": {
+      "group": "volume3d_code",
+      "bytes": 21671,
+      "sha256": "76558099a75222045049b7860d37c3bc2688df553f6d65c33eeaceda86b64eb2"
+    },
+    "experiments/volume3d/run_paper.py": {
+      "group": "volume3d_code",
+      "bytes": 18397,
+      "sha256": "e2a31a75d4f14084839b33fc08babbc0b8cc91291558f936759f5b4ad7af4a5b"
+    },
+    "experiments/volume3d/scalable_layout.py": {
+      "group": "volume3d_code",
+      "bytes": 12174,
+      "sha256": "20898fe36203ccf9a296345fbcb35480ef197431f41e3f5a9c870956480cb161"
+    },
+    "experiments/volume3d/setup_inputs.py": {
+      "group": "volume3d_code",
+      "bytes": 1760,
+      "sha256": "052f758bf822e1040947cd15385356c28ecd5926e30bb1d8ce993bf078ac7de3"
+    },
+    "experiments/volume3d/verify.py": {
+      "group": "volume3d_code",
+      "bytes": 5185,
+      "sha256": "0e4f295823747ef5dd29b9467e05d1f039e6fba5adf4e0a009f6f9bc9dd6ae37"
+    },
+    "experiments/volume3d/verify_paper.py": {
+      "group": "volume3d_code",
+      "bytes": 13118,
+      "sha256": "2cc5eaac8a499857653cb5649ede92e9186c0fc43226172480a079e13cb3866a"
+    },
+    "experiments/volume3d/verify_saved.py": {
+      "group": "volume3d_code",
+      "bytes": 5810,
+      "sha256": "a36195222aa0ac93207d811ce48b1e1f0d6aa89a3673b827ddeb7e5cd5d3432f"
+    },
+    "experiments/volume3d/verify_tangaroa_audit.py": {
+      "group": "volume3d_code",
+      "bytes": 3330,
+      "sha256": "2d6fbf790a5506884685968bb75bb5dc5cbb89e12a8c4e3533048b70fab0abcf"
+    },
+    "experiments/volume3d/verify_tangaroa_input.py": {
+      "group": "volume3d_code",
+      "bytes": 3487,
+      "sha256": "531780a8c0d1f044f951d0c1e74078ed36672a3e0c1b8698d9e863742971f24a"
+    },
+    "results/volume3d/HISTORICAL_PILOTS.md": {
+      "group": "volume3d_results",
+      "bytes": 5767,
+      "sha256": "08cbc29905ed0161b03b3610b08022069d6927e8f021b0a3b7c3eb022f21af34"
+    },
+    "results/volume3d/README.md": {
+      "group": "volume3d_results",
+      "bytes": 5443,
+      "sha256": "fff796cdf33bbf57f053dade3461afc069c75e3e0fc438ec9e18bfcb40c010ba"
+    },
+    "results/volume3d/cylinder/README.md": {
+      "group": "volume3d_results",
+      "bytes": 2122,
+      "sha256": "510bda705270bdf8ff1d2f1366387fe90801d1c12181880bb6a8d7986ef3f97d"
+    },
+    "results/volume3d/cylinder/status.json": {
+      "group": "volume3d_results",
+      "bytes": 1578,
+      "sha256": "fcee4b1d62e10656f3e6aa08aee049fa84d8a6c1cc2ecc93c1a6d8ddd1a6ad99"
+    },
+    "results/volume3d/synthetic/Hilbert_map.npz": {
+      "group": "volume3d_results",
+      "bytes": 582933,
+      "sha256": "bdf3ef3a7fb1f973f20a03638c1d234f01e74a92b3815d066fa35c46ad0d819e"
+    },
+    "results/volume3d/synthetic/Morton_map.npz": {
+      "group": "volume3d_results",
+      "bytes": 583748,
+      "sha256": "d06b28a7d8cd250895779e0042a4472843baa9c573c345ab4992587438280fca"
+    },
+    "results/volume3d/synthetic/REPORT.md": {
+      "group": "volume3d_results",
+      "bytes": 4383,
+      "sha256": "b904614e851e3a24a16411faf7917c69a62b12624f2d5dcaafa4c68f45a4bf16"
+    },
+    "results/volume3d/synthetic/RG-MTM-P_layouts.json": {
+      "group": "volume3d_results",
+      "bytes": 26010,
+      "sha256": "8287f6825982deff0fdcf2acead3decd480bd274137bd9ce4ce1a3f2cda5d4d2"
+    },
+    "results/volume3d/synthetic/RG-MTM-P_map.npz": {
+      "group": "volume3d_results",
+      "bytes": 521634,
+      "sha256": "d65f28f28fbc777387a209602588146efde16cc2595a62f4eab00d6524d033da"
+    },
+    "results/volume3d/synthetic/RG-MTM-R_0.02_layouts.json": {
+      "group": "volume3d_results",
+      "bytes": 26010,
+      "sha256": "8287f6825982deff0fdcf2acead3decd480bd274137bd9ce4ce1a3f2cda5d4d2"
+    },
+    "results/volume3d/synthetic/RG-MTM-R_0.02_map.npz": {
+      "group": "volume3d_results",
+      "bytes": 521634,
+      "sha256": "d65f28f28fbc777387a209602588146efde16cc2595a62f4eab00d6524d033da"
+    },
+    "results/volume3d/synthetic/RG-MTM-R_0.2_layouts.json": {
+      "group": "volume3d_results",
+      "bytes": 26010,
+      "sha256": "8287f6825982deff0fdcf2acead3decd480bd274137bd9ce4ce1a3f2cda5d4d2"
+    },
+    "results/volume3d/synthetic/RG-MTM-R_0.2_map.npz": {
+      "group": "volume3d_results",
+      "bytes": 521634,
+      "sha256": "d65f28f28fbc777387a209602588146efde16cc2595a62f4eab00d6524d033da"
+    },
+    "results/volume3d/synthetic/RG-MTM-R_1_layouts.json": {
+      "group": "volume3d_results",
+      "bytes": 26010,
+      "sha256": "8287f6825982deff0fdcf2acead3decd480bd274137bd9ce4ce1a3f2cda5d4d2"
+    },
+    "results/volume3d/synthetic/RG-MTM-R_1_map.npz": {
+      "group": "volume3d_results",
+      "bytes": 521634,
+      "sha256": "d65f28f28fbc777387a209602588146efde16cc2595a62f4eab00d6524d033da"
+    },
+    "results/volume3d/synthetic/ST-MTM_map.npz": {
+      "group": "volume3d_results",
+      "bytes": 874105,
+      "sha256": "63b83d49212cea88f470f1ea70230aad1fc464dba7034cffa38abecc393a1db0"
+    },
+    "results/volume3d/synthetic/TMTM_map.npz": {
+      "group": "volume3d_results",
+      "bytes": 766275,
+      "sha256": "c55df8fe56d44cf8a3a20ba2313d5a1663ef73e77525faa9463ebdd071629b40"
+    },
+    "results/volume3d/synthetic/certificates.json": {
+      "group": "volume3d_results",
+      "bytes": 3498,
+      "sha256": "d8969b7ebcae3d163025ee7caa1cd54befffab53bf94413518af3161b664270c"
+    },
+    "results/volume3d/synthetic/comparison.csv": {
+      "group": "volume3d_results",
+      "bytes": 1455,
+      "sha256": "a9bdf4e385f7d1e911ca8daa4b2a2f77b2e60388146e5bd39edcbdc20ef83010"
+    },
+    "results/volume3d/synthetic/comparison_maps.png": {
+      "group": "volume3d_results",
+      "bytes": 163466,
+      "sha256": "84ca6c8b1f3421c0f4c4f4774e3e93f3e16adcde58e67b0bf3882e68c0e82c01"
+    },
+    "results/volume3d/synthetic/comparison_maps.svg": {
+      "group": "volume3d_results",
+      "bytes": 63342,
+      "sha256": "f644ff722bd144adc0b3a759cb9877fd0cf432400818c4c9536016a8ed044a7a"
+    },
+    "results/volume3d/synthetic/features.json": {
+      "group": "volume3d_results",
+      "bytes": 39821,
+      "sha256": "98614908eb924a5eacc9b80ff7e4c67b63390fa5e4363202f2470b4ef52e0afa"
+    },
+    "results/volume3d/synthetic/frame_metrics.json": {
+      "group": "volume3d_results",
+      "bytes": 28012,
+      "sha256": "952278ae3a3fe2f3e07715a870fa2ff590b02fc44e36123191ea37cf5c6477e6"
+    },
+    "results/volume3d/synthetic/input_3d.png": {
+      "group": "volume3d_results",
+      "bytes": 370030,
+      "sha256": "cfead83795639abc59d7ae99658f81dc402cd909a83143f33b610592ed0e57d2"
+    },
+    "results/volume3d/synthetic/input_3d.svg": {
+      "group": "volume3d_results",
+      "bytes": 150068,
+      "sha256": "5b9f107a8766830b8c98ea578b8a389025977c1fda2ee53e3419d28b279d440d"
+    },
+    "results/volume3d/synthetic/input_protocol.json": {
+      "group": "volume3d_results",
+      "bytes": 2574,
+      "sha256": "ece6368d03312318428282f91caa7a4093459aceba52ca5dbfd6f3cbd2644871"
+    },
+    "results/volume3d/synthetic/manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 5677,
+      "sha256": "5f4b0a87ed05745e4316f23e5f9b8bb38dfbdec5b5be76eb07965aaaf9573eb7"
+    },
+    "results/volume3d/synthetic/metrics.json": {
+      "group": "volume3d_results",
+      "bytes": 38351,
+      "sha256": "85327a5916224921a91f4c17492fa7222a608aaa13b45cfb511dfd7377a59ccc"
+    },
+    "results/volume3d/synthetic/persistence_diagnostic.json": {
+      "group": "volume3d_results",
+      "bytes": 1852,
+      "sha256": "d69bde0e72cc2cd5b396c942adb8c79c4c2bd9e739a4ec2dd76ce2d3e93b3c51"
+    },
+    "results/volume3d/synthetic/persistence_diagnostic.png": {
+      "group": "volume3d_results",
+      "bytes": 74621,
+      "sha256": "3fb841a716d49401d71ad73cbbfd70e7caaacf1bb6a4c960fb35de2a3aaa4376"
+    },
+    "results/volume3d/synthetic/persistence_diagnostic.svg": {
+      "group": "volume3d_results",
+      "bytes": 31527,
+      "sha256": "6167f55d7de9737eaee1c3e9e7622c63b41bb2addc073d8d0a41db97660561d9"
+    },
+    "results/volume3d/synthetic/preprocessing_audit.json": {
+      "group": "volume3d_results",
+      "bytes": 440,
+      "sha256": "66d588044da8123fc84208303cee6b599a7a0f255172966d8939142356968e57"
+    },
+    "results/volume3d/synthetic/processed_fields.npz": {
+      "group": "volume3d_results",
+      "bytes": 2351348,
+      "sha256": "59a75e37e10df7d097ed26659880d471e7cb676a86e04d94000e995225f4504f"
+    },
+    "results/volume3d/synthetic/protocol.json": {
+      "group": "volume3d_results",
+      "bytes": 1571,
+      "sha256": "abdbd35c6464ed7473410042ead616bbec1e936f1040d5e8910b15b839d9032b"
+    },
+    "results/volume3d/synthetic/reference_axes.json": {
+      "group": "volume3d_results",
+      "bytes": 1430,
+      "sha256": "ace2963a4dbb614ed4801725f14e393bc7606027d66863f0afa8436fa676bc44"
+    },
+    "results/volume3d/synthetic/relaxation_sensitivity.png": {
+      "group": "volume3d_results",
+      "bytes": 79554,
+      "sha256": "a7bc74640454d31c0b3f159f8af244ee8a12ca6d03b7557ebf49be5289d08aee"
+    },
+    "results/volume3d/synthetic/relaxation_sensitivity.svg": {
+      "group": "volume3d_results",
+      "bytes": 44300,
+      "sha256": "542d4946ba349e3f10ca019585951758430c640b746a96c8a98a7b26e890fbec"
+    },
+    "results/volume3d/synthetic/render_manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1835,
+      "sha256": "2292a54fb2339f78b06f0602832f65906870b000d1d6196516384a879e7eb22c"
+    },
+    "results/volume3d/synthetic/status.json": {
+      "group": "volume3d_results",
+      "bytes": 85,
+      "sha256": "8d4fdae9ca251d250ac50d5158458eeb273d038bfc79a1ec07a8580fd4fbb525"
+    },
+    "results/volume3d/synthetic/verification.json": {
+      "group": "volume3d_results",
+      "bytes": 1354,
+      "sha256": "9d859ccda950a1b948c921aa10ceb690776b7dedf1c4f6acae178dbc2d536535"
+    },
+    "results/volume3d/synthetic-conflict/Hilbert_map.npz": {
+      "group": "volume3d_results",
+      "bytes": 446138,
+      "sha256": "040d18834b7154bd038ce176db49a1879460d7cca0fe1c2bacbac0dbc36b2458"
+    },
+    "results/volume3d/synthetic-conflict/Morton_map.npz": {
+      "group": "volume3d_results",
+      "bytes": 446227,
+      "sha256": "180c640d0b9faed58035af2d7d5b2f3a18cc603e06bb1ea0763e5441c09b4d90"
+    },
+    "results/volume3d/synthetic-conflict/REPORT.md": {
+      "group": "volume3d_results",
+      "bytes": 4344,
+      "sha256": "2b60e90f3738b490861d0bfe17c73b40f75f39fd356a131464b7eb58e918cc71"
+    },
+    "results/volume3d/synthetic-conflict/RG-MTM-P_layouts.json": {
+      "group": "volume3d_results",
+      "bytes": 25714,
+      "sha256": "87fa84b0ca997691717393df94ebae5f7a9cb42ccb3672f6f7aeea041f1dc737"
+    },
+    "results/volume3d/synthetic-conflict/RG-MTM-P_map.npz": {
+      "group": "volume3d_results",
+      "bytes": 459075,
+      "sha256": "a0db844078bdbd066b71ee16222a8f37aa98e8605c05310b60889443ddc4588a"
+    },
+    "results/volume3d/synthetic-conflict/RG-MTM-R_0.02_layouts.json": {
+      "group": "volume3d_results",
+      "bytes": 25714,
+      "sha256": "87fa84b0ca997691717393df94ebae5f7a9cb42ccb3672f6f7aeea041f1dc737"
+    },
+    "results/volume3d/synthetic-conflict/RG-MTM-R_0.02_map.npz": {
+      "group": "volume3d_results",
+      "bytes": 459075,
+      "sha256": "a0db844078bdbd066b71ee16222a8f37aa98e8605c05310b60889443ddc4588a"
+    },
+    "results/volume3d/synthetic-conflict/RG-MTM-R_0.2_layouts.json": {
+      "group": "volume3d_results",
+      "bytes": 25714,
+      "sha256": "87fa84b0ca997691717393df94ebae5f7a9cb42ccb3672f6f7aeea041f1dc737"
+    },
+    "results/volume3d/synthetic-conflict/RG-MTM-R_0.2_map.npz": {
+      "group": "volume3d_results",
+      "bytes": 459075,
+      "sha256": "a0db844078bdbd066b71ee16222a8f37aa98e8605c05310b60889443ddc4588a"
+    },
+    "results/volume3d/synthetic-conflict/RG-MTM-R_1_layouts.json": {
+      "group": "volume3d_results",
+      "bytes": 27676,
+      "sha256": "70bad0476ecb486930fcfa066a5f67ee096db7a12b48047b1d2c3de20648fb7b"
+    },
+    "results/volume3d/synthetic-conflict/RG-MTM-R_1_map.npz": {
+      "group": "volume3d_results",
+      "bytes": 347473,
+      "sha256": "ae820b5f3ceffee89879dbcab74ab1008a32fd54d9bfab5a5e05c5c1af93c281"
+    },
+    "results/volume3d/synthetic-conflict/ST-MTM_map.npz": {
+      "group": "volume3d_results",
+      "bytes": 1507344,
+      "sha256": "2cbade840b552850d350314f7dc864d0bed1162353dc74d8880d07bd1ac8a12e"
+    },
+    "results/volume3d/synthetic-conflict/TMTM_map.npz": {
+      "group": "volume3d_results",
+      "bytes": 620513,
+      "sha256": "c1fe3c09f8097c7c4ee0da887f07b3fb9e6730420d77ef741c0ae3d106fac5d8"
+    },
+    "results/volume3d/synthetic-conflict/certificates.json": {
+      "group": "volume3d_results",
+      "bytes": 3226,
+      "sha256": "c0065c52ebe057659cbc60db6c2b731691219cc00a9814652f5f474c924fea98"
+    },
+    "results/volume3d/synthetic-conflict/comparison.csv": {
+      "group": "volume3d_results",
+      "bytes": 1316,
+      "sha256": "509d3dbd90c5b5564ead644858132c8687c29998745686631fce69cfcb64565b"
+    },
+    "results/volume3d/synthetic-conflict/comparison_maps.png": {
+      "group": "volume3d_results",
+      "bytes": 185154,
+      "sha256": "cb25f26969125f47e4eeaae8c0c96ceedf933fb23fc343f59b4b973f9747185b"
+    },
+    "results/volume3d/synthetic-conflict/comparison_maps.svg": {
+      "group": "volume3d_results",
+      "bytes": 60942,
+      "sha256": "9ffebb42b9593e6b537aa16e98cffb9e9cf48aba20266c33f1ee82a927335ac9"
+    },
+    "results/volume3d/synthetic-conflict/features.json": {
+      "group": "volume3d_results",
+      "bytes": 40088,
+      "sha256": "246c0999205677aef68dc253637c7364a2a368711f1a8071075357254e331ed6"
+    },
+    "results/volume3d/synthetic-conflict/frame_metrics.json": {
+      "group": "volume3d_results",
+      "bytes": 26951,
+      "sha256": "0d4b3f77e9c9b3466aa406ac5fed5224acecad911eb108e6f5fbd9d2d6a6b4eb"
+    },
+    "results/volume3d/synthetic-conflict/input_3d.png": {
+      "group": "volume3d_results",
+      "bytes": 367384,
+      "sha256": "328016322d34c12ac6d4ebbf220022f42a8e24485cf5b5d0a838c68cea1046e5"
+    },
+    "results/volume3d/synthetic-conflict/input_3d.svg": {
+      "group": "volume3d_results",
+      "bytes": 149562,
+      "sha256": "80dafc3e4ac811d8fbe6d0fe511d87eb05290e7f43cb3a7d7172f87603cc5368"
+    },
+    "results/volume3d/synthetic-conflict/input_protocol.json": {
+      "group": "volume3d_results",
+      "bytes": 2008,
+      "sha256": "86a91bf091e9624854b5b4b475e24129db22494268105a4afcd9fdf301e40336"
+    },
+    "results/volume3d/synthetic-conflict/manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 5494,
+      "sha256": "592cba8b3915ed3e2c08b8d310f247e9bb11621c5cdbd7988570f224598cb464"
+    },
+    "results/volume3d/synthetic-conflict/metrics.json": {
+      "group": "volume3d_results",
+      "bytes": 38136,
+      "sha256": "b6e62a19897536e0201d7cf41469feef02def511830ff14cef696e209b9ff7bd"
+    },
+    "results/volume3d/synthetic-conflict/persistence_diagnostic.json": {
+      "group": "volume3d_results",
+      "bytes": 1810,
+      "sha256": "423151772a63f7141caac168d44cae43284a62ecdd35e9c1aa60b98bab8d3f34"
+    },
+    "results/volume3d/synthetic-conflict/persistence_diagnostic.png": {
+      "group": "volume3d_results",
+      "bytes": 62324,
+      "sha256": "becdcd609d94293a1c10cff2608ade7c50c0fedff93c5356bb6f8082d162a3b1"
+    },
+    "results/volume3d/synthetic-conflict/persistence_diagnostic.svg": {
+      "group": "volume3d_results",
+      "bytes": 29974,
+      "sha256": "434f4b5993c5d1f4ced8e2fdc7094bf88f77664c30dc9c1767d4aa54a3fa9660"
+    },
+    "results/volume3d/synthetic-conflict/preprocessing_audit.json": {
+      "group": "volume3d_results",
+      "bytes": 439,
+      "sha256": "b2e2349cc6e93a7f770408655a8cda6b97c5651d442c09db25031cce8ae80be8"
+    },
+    "results/volume3d/synthetic-conflict/processed_fields.npz": {
+      "group": "volume3d_results",
+      "bytes": 2356322,
+      "sha256": "8496b7903c854de3e748a4375fd7a0fdf5ecf4e4a3df24005b06ccebbfb2e0d2"
+    },
+    "results/volume3d/synthetic-conflict/protocol.json": {
+      "group": "volume3d_results",
+      "bytes": 1571,
+      "sha256": "abdbd35c6464ed7473410042ead616bbec1e936f1040d5e8910b15b839d9032b"
+    },
+    "results/volume3d/synthetic-conflict/reference_axes.json": {
+      "group": "volume3d_results",
+      "bytes": 1268,
+      "sha256": "39232682a446b09b2ed71ffbf34de92fd2b9f2c66121e4e78bbb0a5c609da1ee"
+    },
+    "results/volume3d/synthetic-conflict/relaxation_sensitivity.png": {
+      "group": "volume3d_results",
+      "bytes": 73321,
+      "sha256": "fc0faa80b6754cd224051548e09375bc0baacca0ba7887a3756a39f163166d27"
+    },
+    "results/volume3d/synthetic-conflict/relaxation_sensitivity.svg": {
+      "group": "volume3d_results",
+      "bytes": 44371,
+      "sha256": "0ab5f2ba6e09cae161f6b37c528d7aea2dc0b05ba060e9678ece8fb7bece025c"
+    },
+    "results/volume3d/synthetic-conflict/render_manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1835,
+      "sha256": "179731459f3e8d8bf5bc35718274a234fe4b6800bf3845169854abeb942d28b0"
+    },
+    "results/volume3d/synthetic-conflict/status.json": {
+      "group": "volume3d_results",
+      "bytes": 93,
+      "sha256": "f893c18e02a401725c4b8b3e1b8a2c4767537d571a9be7c7f58fec7efbeec138"
+    },
+    "results/volume3d/synthetic-conflict/verification.json": {
+      "group": "volume3d_results",
+      "bytes": 1371,
+      "sha256": "bbac667512d8602d0f15e33fd105c4a07faf1a1b3ff766d47823b49f9a17f6a3"
+    },
+    "results/volume3d/tangaroa/Hilbert_map.npz": {
+      "group": "volume3d_results",
+      "bytes": 1544740,
+      "sha256": "7d070198c001f78455dae0b4796cdb82e14801b56daa84bda722275f53820b86"
+    },
+    "results/volume3d/tangaroa/Morton_map.npz": {
+      "group": "volume3d_results",
+      "bytes": 1545562,
+      "sha256": "4a685e27ffba0ab09b5f4b50085a9f41dd0259cf3de577a74ea8189daba92323"
+    },
+    "results/volume3d/tangaroa/REPORT.md": {
+      "group": "volume3d_results",
+      "bytes": 5693,
+      "sha256": "638c2d2fddd12af9bfd96e2d394945e826c04b4396cfd43819d14a1709d27e0b"
+    },
+    "results/volume3d/tangaroa/RG-MTM-P_layouts.json": {
+      "group": "volume3d_results",
+      "bytes": 31704,
+      "sha256": "8180095cb4db032799440b8d1cee3d4dabf18d90c7ecbd2409c84833d4b138c4"
+    },
+    "results/volume3d/tangaroa/RG-MTM-P_map.npz": {
+      "group": "volume3d_results",
+      "bytes": 893918,
+      "sha256": "60ccf076761dcf4aa91c654909c0435406b8c5cdd7c8d5dd44ac95d94ce5cbfd"
+    },
+    "results/volume3d/tangaroa/RG-MTM-R_0.02_layouts.json": {
+      "group": "volume3d_results",
+      "bytes": 31704,
+      "sha256": "8180095cb4db032799440b8d1cee3d4dabf18d90c7ecbd2409c84833d4b138c4"
+    },
+    "results/volume3d/tangaroa/RG-MTM-R_0.02_map.npz": {
+      "group": "volume3d_results",
+      "bytes": 893918,
+      "sha256": "60ccf076761dcf4aa91c654909c0435406b8c5cdd7c8d5dd44ac95d94ce5cbfd"
+    },
+    "results/volume3d/tangaroa/RG-MTM-R_0.2_layouts.json": {
+      "group": "volume3d_results",
+      "bytes": 31704,
+      "sha256": "8180095cb4db032799440b8d1cee3d4dabf18d90c7ecbd2409c84833d4b138c4"
+    },
+    "results/volume3d/tangaroa/RG-MTM-R_0.2_map.npz": {
+      "group": "volume3d_results",
+      "bytes": 893918,
+      "sha256": "60ccf076761dcf4aa91c654909c0435406b8c5cdd7c8d5dd44ac95d94ce5cbfd"
+    },
+    "results/volume3d/tangaroa/RG-MTM-R_1_layouts.json": {
+      "group": "volume3d_results",
+      "bytes": 31704,
+      "sha256": "8180095cb4db032799440b8d1cee3d4dabf18d90c7ecbd2409c84833d4b138c4"
+    },
+    "results/volume3d/tangaroa/RG-MTM-R_1_map.npz": {
+      "group": "volume3d_results",
+      "bytes": 893918,
+      "sha256": "60ccf076761dcf4aa91c654909c0435406b8c5cdd7c8d5dd44ac95d94ce5cbfd"
+    },
+    "results/volume3d/tangaroa/TMTM_map.npz": {
+      "group": "volume3d_results",
+      "bytes": 1488223,
+      "sha256": "639d60972b53c66c50b97e4598c28b76437464f09f4a5dee6cd5a408d6e9024c"
+    },
+    "results/volume3d/tangaroa/certificates.json": {
+      "group": "volume3d_results",
+      "bytes": 4146,
+      "sha256": "a6b0788d712ebf9b23e2a8c99b5d2c23f10b799a3abd38e87976e46a044dd9bc"
+    },
+    "results/volume3d/tangaroa/comparison.csv": {
+      "group": "volume3d_results",
+      "bytes": 1315,
+      "sha256": "2bcd75b97ab43c562feaedba3b93a76889362836c47b1e7282e489199aa16321"
+    },
+    "results/volume3d/tangaroa/comparison_maps.png": {
+      "group": "volume3d_results",
+      "bytes": 197101,
+      "sha256": "3e22e88983cd3a45797d231a27b8b03061e00f875b26f90b46ad544f46dd410b"
+    },
+    "results/volume3d/tangaroa/comparison_maps.svg": {
+      "group": "volume3d_results",
+      "bytes": 88342,
+      "sha256": "b4d585849fdf3f7f208e6c850603f0ae1e2fbdb8b97abc9c606191acaac0784b"
+    },
+    "results/volume3d/tangaroa/features.json": {
+      "group": "volume3d_results",
+      "bytes": 39367,
+      "sha256": "8f37bbd95ebd4f0cc6bdd3f5bd0e3e17f5e9ae2dcfe89fecfbf2513d86fa3a2d"
+    },
+    "results/volume3d/tangaroa/frame_metrics.json": {
+      "group": "volume3d_results",
+      "bytes": 33570,
+      "sha256": "f9bf7b4bdaa266858ab858562bcc5990a10c89916d43eef1b6dc09a89aabd541"
+    },
+    "results/volume3d/tangaroa/input_3d.png": {
+      "group": "volume3d_results",
+      "bytes": 276855,
+      "sha256": "d091dac3582c8aa6d593fb986f8f5ba5efff105486cf502f35d9822a23790451"
+    },
+    "results/volume3d/tangaroa/input_3d.svg": {
+      "group": "volume3d_results",
+      "bytes": 102757,
+      "sha256": "e769b87fd0e2284596d5563732a212693226b2e0e46c195d4825d5806e2ea4cf"
+    },
+    "results/volume3d/tangaroa/input_protocol.json": {
+      "group": "volume3d_results",
+      "bytes": 12231,
+      "sha256": "3e406b81a8378bbb40e3869aa62771a6dac6ec0ad0956e67d1d2dad2e3c6689d"
+    },
+    "results/volume3d/tangaroa/manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 5799,
+      "sha256": "5c3074936efbbef9ab31055b8c9d07e8bb24bce41e49579547fb9f111440de14"
+    },
+    "results/volume3d/tangaroa/metrics.json": {
+      "group": "volume3d_results",
+      "bytes": 33971,
+      "sha256": "8c62807d98e6d8ddd1e9689550b8cb712c7d4d30d654a3f380ad6c3a50667069"
+    },
+    "results/volume3d/tangaroa/persistence_diagnostic.json": {
+      "group": "volume3d_results",
+      "bytes": 1858,
+      "sha256": "53178b9847ff871ed90783018a9c7594205cf28da5e8675360f531fa4c6442f8"
+    },
+    "results/volume3d/tangaroa/persistence_diagnostic.png": {
+      "group": "volume3d_results",
+      "bytes": 76348,
+      "sha256": "3982119d03c98faf338123de107ebe8246a35d01d3ec154e941dabe28d59186e"
+    },
+    "results/volume3d/tangaroa/persistence_diagnostic.svg": {
+      "group": "volume3d_results",
+      "bytes": 32218,
+      "sha256": "09deef2b7b451534402eda8889ab59f1990ae4ee0c45e147ee2f5e51b4a5e110"
+    },
+    "results/volume3d/tangaroa/preprocessing_audit.json": {
+      "group": "volume3d_results",
+      "bytes": 2404,
+      "sha256": "dc876a77a9bc661771d59afed603d2da84332d0b29d027a04785f85ebb06946f"
+    },
+    "results/volume3d/tangaroa/processed_fields.npz": {
+      "group": "volume3d_results",
+      "bytes": 2338941,
+      "sha256": "9165bc8af9c55d1b06fe190682115b923bd264df9efe2e2da40e72257c9136f4"
+    },
+    "results/volume3d/tangaroa/protocol.json": {
+      "group": "volume3d_results",
+      "bytes": 1572,
+      "sha256": "566b5d951673918b6f4e95e84f2953667842a27230c32161ec75d05727e33d02"
+    },
+    "results/volume3d/tangaroa/reference_axes.json": {
+      "group": "volume3d_results",
+      "bytes": 1448,
+      "sha256": "ed1b8546450d0b8c8de904c8276c91db6eb401dabb92e1bceb067de9c47cf056"
+    },
+    "results/volume3d/tangaroa/relaxation_sensitivity.png": {
+      "group": "volume3d_results",
+      "bytes": 75785,
+      "sha256": "85303eea2499b36fe4312819b619d85d255316434c51529a06cef3c59be01eb1"
+    },
+    "results/volume3d/tangaroa/relaxation_sensitivity.svg": {
+      "group": "volume3d_results",
+      "bytes": 42030,
+      "sha256": "3d70dc2d565e7c2a256aa3823822189c3fad4a01497b1f69547ccecffc4a1247"
+    },
+    "results/volume3d/tangaroa/render_manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1835,
+      "sha256": "44c922b886d5e44b6d8f00c87d4f23c423551f7f4516e928e9896f728d101d73"
+    },
+    "results/volume3d/tangaroa/status.json": {
+      "group": "volume3d_results",
+      "bytes": 84,
+      "sha256": "9ebb9633a1a864607c9489a2228580dca4121d0eb9e70d28c2fe47c598ecbd7c"
+    },
+    "results/volume3d/tangaroa/verification.json": {
+      "group": "volume3d_results",
+      "bytes": 1249,
+      "sha256": "7afe37f4cca1db58febf15ab3708d83212c36ceb48db4adad4b7a4fcad15fe54"
+    },
+    "results/volume3d/tangaroa-input-audit-20261018/REPORT.md": {
+      "group": "volume3d_results",
+      "bytes": 5642,
+      "sha256": "5fc6d04809758a1e32078393b39c3f49dc637fc5d14e6753ce5895c68d3910c9"
+    },
+    "results/volume3d/tangaroa-input-audit-20261018/artifact_hashes.json": {
+      "group": "volume3d_results",
+      "bytes": 775,
+      "sha256": "7476d265d2e80518efa77409c58e11484c9ef80158b596e57d9a85645b69942d"
+    },
+    "results/volume3d/tangaroa-input-audit-20261018/author_settings.json": {
+      "group": "volume3d_results",
+      "bytes": 4374,
+      "sha256": "b70b14d7806cc86267c0e74720adf2793c79402fc01114c3b2a671c607fa93d6"
+    },
+    "results/volume3d/tangaroa-input-audit-20261018/input_audit.json": {
+      "group": "volume3d_results",
+      "bytes": 4237,
+      "sha256": "c1b72864d9d0da99d23ff1840a2eb7099b2bff322b9883c119475c139da50b97"
+    },
+    "results/volume3d/tangaroa-input-audit-20261018/original_resolution_volume_audit.png": {
+      "group": "volume3d_results",
+      "bytes": 399792,
+      "sha256": "f47e128fa4b7002c3be3f92514d410ff6f594ea829e67cbcf75348213caec1d9"
+    },
+    "results/volume3d/tangaroa-input-audit-20261018/original_resolution_volume_audit.svg": {
+      "group": "volume3d_results",
+      "bytes": 225768,
+      "sha256": "6deb974a2f7f9446610b46fb63b8c3731a45e5a9cd218f041404dbea35d41dea"
+    },
+    "results/volume3d/tangaroa-input-audit-20261018/reference_dvr_000.npy": {
+      "group": "volume3d_results",
+      "bytes": 3590528,
+      "sha256": "7c1d2fcd9f2147253e70aabbebe97b8ce591de7b75eb82e7cf66487313d656bb"
+    },
+    "results/volume3d/tangaroa-input-audit-20261018/reference_dvr_100.npy": {
+      "group": "volume3d_results",
+      "bytes": 3590528,
+      "sha256": "f18b64fe468d2a737772c9f4dca1aaac3e101cf592fe761166f7645bc2c771ee"
+    },
+    "results/volume3d/tangaroa-input-audit-20261018/reference_dvr_200.npy": {
+      "group": "volume3d_results",
+      "bytes": 3590528,
+      "sha256": "e9b9ce6e5e8c73c9864dd79e6be715278fafe59230c923aa63f8b24e1e324cec"
+    },
+    "results/volume3d/tangaroa-input-audit-20261018/verification.json": {
+      "group": "volume3d_results",
+      "bytes": 674,
+      "sha256": "40201a588790e6cf5b3c6f03f6c8162d417b46b5ba1cd345a1bd34050a731b45"
+    },
+    "results/volume3d/tangaroa-official/Hilbert_map.npz": {
+      "group": "volume3d_results",
+      "bytes": 523029,
+      "sha256": "ece686af3b3c0c518ec5a31630c08f2b9817206485201eea92e6225c5018e60e"
+    },
+    "results/volume3d/tangaroa-official/Morton_map.npz": {
+      "group": "volume3d_results",
+      "bytes": 524899,
+      "sha256": "77e97b491e442f6a14c1c5c99ee242f0c5ba6ab2287dd058671957bf675c4ea2"
+    },
+    "results/volume3d/tangaroa-official/REPORT.md": {
+      "group": "volume3d_results",
+      "bytes": 6354,
+      "sha256": "0a7df0d98be89114e2c0a82d818ee0025461a5a2f42e71137ba0ab27ce530d7a"
+    },
+    "results/volume3d/tangaroa-official/RG-MTM-P_layouts.json": {
+      "group": "volume3d_results",
+      "bytes": 15412,
+      "sha256": "b7eb7bfdfbca4efe57e0c19181db9705a0188ca4c1a0ecab3bc716163b844c1d"
+    },
+    "results/volume3d/tangaroa-official/RG-MTM-P_map.npz": {
+      "group": "volume3d_results",
+      "bytes": 224630,
+      "sha256": "8d5a2ce02d27ce7e63b3c3bf12f06b426519cfbc82fa8035fa9ff0635e4d8108"
+    },
+    "results/volume3d/tangaroa-official/RG-MTM-R_0.02_layouts.json": {
+      "group": "volume3d_results",
+      "bytes": 15412,
+      "sha256": "b7eb7bfdfbca4efe57e0c19181db9705a0188ca4c1a0ecab3bc716163b844c1d"
+    },
+    "results/volume3d/tangaroa-official/RG-MTM-R_0.02_map.npz": {
+      "group": "volume3d_results",
+      "bytes": 224630,
+      "sha256": "8d5a2ce02d27ce7e63b3c3bf12f06b426519cfbc82fa8035fa9ff0635e4d8108"
+    },
+    "results/volume3d/tangaroa-official/RG-MTM-R_0.2_layouts.json": {
+      "group": "volume3d_results",
+      "bytes": 15412,
+      "sha256": "b7eb7bfdfbca4efe57e0c19181db9705a0188ca4c1a0ecab3bc716163b844c1d"
+    },
+    "results/volume3d/tangaroa-official/RG-MTM-R_0.2_map.npz": {
+      "group": "volume3d_results",
+      "bytes": 224630,
+      "sha256": "8d5a2ce02d27ce7e63b3c3bf12f06b426519cfbc82fa8035fa9ff0635e4d8108"
+    },
+    "results/volume3d/tangaroa-official/RG-MTM-R_1_layouts.json": {
+      "group": "volume3d_results",
+      "bytes": 15412,
+      "sha256": "b7eb7bfdfbca4efe57e0c19181db9705a0188ca4c1a0ecab3bc716163b844c1d"
+    },
+    "results/volume3d/tangaroa-official/RG-MTM-R_1_map.npz": {
+      "group": "volume3d_results",
+      "bytes": 224630,
+      "sha256": "8d5a2ce02d27ce7e63b3c3bf12f06b426519cfbc82fa8035fa9ff0635e4d8108"
+    },
+    "results/volume3d/tangaroa-official/TMTM_map.npz": {
+      "group": "volume3d_results",
+      "bytes": 503139,
+      "sha256": "42c4be1b3eb9e325212d71e9774eaa27643081430828ee43926a9d6fc70e736b"
+    },
+    "results/volume3d/tangaroa-official/certificates.json": {
+      "group": "volume3d_results",
+      "bytes": 1935,
+      "sha256": "c54e6d5d5dd6c2e6a2c76d664c61a0461f164af60533010412f219f3f6a8f2b9"
+    },
+    "results/volume3d/tangaroa-official/comparison.csv": {
+      "group": "volume3d_results",
+      "bytes": 1043,
+      "sha256": "e2fff131dba982628ba90227ef26870b4e3a58e4b91090b0f00c1ab0accd6784"
+    },
+    "results/volume3d/tangaroa-official/comparison_maps.png": {
+      "group": "volume3d_results",
+      "bytes": 103859,
+      "sha256": "120620abe11ca8c4648eaebbe23740254f1cd213ba6543dcd8b6e47dc28b966f"
+    },
+    "results/volume3d/tangaroa-official/comparison_maps.svg": {
+      "group": "volume3d_results",
+      "bytes": 49653,
+      "sha256": "af7e067ada313dcacd8b42ec390f79f3435504a3cd6c4685e16be7916c8b2384"
+    },
+    "results/volume3d/tangaroa-official/features.json": {
+      "group": "volume3d_results",
+      "bytes": 25934,
+      "sha256": "e9b0f772cc4f59f8dd434a0d36a89fde3767b0dd597726bc366b84cf77feff88"
+    },
+    "results/volume3d/tangaroa-official/frame_metrics.json": {
+      "group": "volume3d_results",
+      "bytes": 11045,
+      "sha256": "1ed4a4ed8884462d52e81f237d7beddf1facd3a16062a4c2cb38ee6d3c7f0d2c"
+    },
+    "results/volume3d/tangaroa-official/input_3d.png": {
+      "group": "volume3d_results",
+      "bytes": 246029,
+      "sha256": "92a202136e334db1ea10914320293bcb470b71bf1c6ef3388ae83460c0d713ce"
+    },
+    "results/volume3d/tangaroa-official/input_3d.svg": {
+      "group": "volume3d_results",
+      "bytes": 89177,
+      "sha256": "ce13f997ed067fcb12ce5a16c94900b55b80b4269ba70bf5da7765d048e927ca"
+    },
+    "results/volume3d/tangaroa-official/input_protocol.json": {
+      "group": "volume3d_results",
+      "bytes": 6749,
+      "sha256": "77e1b67a7a674f213014efeec40a0e81af5fa7167868f2732bf8f752ae2b8548"
+    },
+    "results/volume3d/tangaroa-official/input_verification.json": {
+      "group": "volume3d_results",
+      "bytes": 791,
+      "sha256": "2cb554a644e6674ddd9e69ed5b127a81d68998f409d86ed60f2f3655578ea273"
+    },
+    "results/volume3d/tangaroa-official/interpretation_notice.json": {
+      "group": "volume3d_results",
+      "bytes": 695,
+      "sha256": "fc1bc088a166e488db557de2fb330f63d1650dd234faaf18d81c0230cf87c4c2"
+    },
+    "results/volume3d/tangaroa-official/manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 5518,
+      "sha256": "b61489ec6ac176e4089dd38d64dcd8173fce30dd31c0842e2a81eab4b2a65bed"
+    },
+    "results/volume3d/tangaroa-official/metrics.json": {
+      "group": "volume3d_results",
+      "bytes": 31746,
+      "sha256": "46e9d8e9431144f16fbcb069ae6529e22b00d6a5b49c08f51aa0ea9a1457166a"
+    },
+    "results/volume3d/tangaroa-official/persistence_diagnostic.json": {
+      "group": "volume3d_results",
+      "bytes": 1780,
+      "sha256": "3dfa6e6620720fd453733ba9fb17a167fa5992e8a4bf5dc023a410f512d6c3f1"
+    },
+    "results/volume3d/tangaroa-official/persistence_diagnostic.png": {
+      "group": "volume3d_results",
+      "bytes": 59676,
+      "sha256": "93d4139ac02519367e5ff530a59697ee3882689cca24e7f44ce4a30f976ac24e"
+    },
+    "results/volume3d/tangaroa-official/persistence_diagnostic.svg": {
+      "group": "volume3d_results",
+      "bytes": 28466,
+      "sha256": "f4dc1449f10560fc2f6167388c3e9029c83f9198427bcb2fb92884ebfe5ec9b9"
+    },
+    "results/volume3d/tangaroa-official/preprocessing_audit.json": {
+      "group": "volume3d_results",
+      "bytes": 980,
+      "sha256": "56b31426460da187f3aff638b64ef49cf2f6440f9588516856ef3ed99b185297"
+    },
+    "results/volume3d/tangaroa-official/processed_fields.npz": {
+      "group": "volume3d_results",
+      "bytes": 1101823,
+      "sha256": "1d8d0eb88f84fbd9a8b3eb86bbe27ca238d22c69a0d2c9d590d8e14ad07e8f3e"
+    },
+    "results/volume3d/tangaroa-official/protocol.json": {
+      "group": "volume3d_results",
+      "bytes": 1572,
+      "sha256": "566b5d951673918b6f4e95e84f2953667842a27230c32161ec75d05727e33d02"
+    },
+    "results/volume3d/tangaroa-official/reference_axes.json": {
+      "group": "volume3d_results",
+      "bytes": 1314,
+      "sha256": "3afa88a82d2d4277ff6a47d22c3a1f49fd99069a0e095e9989d69522fcad8154"
+    },
+    "results/volume3d/tangaroa-official/relaxation_sensitivity.png": {
+      "group": "volume3d_results",
+      "bytes": 77449,
+      "sha256": "d0a39e123de1e458d8ca97802e8ee87c8f6a9ce10215c1050dafc408c0571360"
+    },
+    "results/volume3d/tangaroa-official/relaxation_sensitivity.svg": {
+      "group": "volume3d_results",
+      "bytes": 44303,
+      "sha256": "75afa3d9cea759e4051658c8c46cafe42da92638cb9773165f7a602271246c66"
+    },
+    "results/volume3d/tangaroa-official/render_manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1937,
+      "sha256": "ac65c9fb229cafdcde4be8dc8c7b0e3abf3eb72a7afbebba96fb9a9d0d657ae8"
+    },
+    "results/volume3d/tangaroa-official/status.json": {
+      "group": "volume3d_results",
+      "bytes": 85,
+      "sha256": "aa99da58a2f309cda80e29b9b64d74601cb58617f35e4d63222adf383aab1d59"
+    },
+    "results/volume3d/tangaroa-official/verification.json": {
+      "group": "volume3d_results",
+      "bytes": 1329,
+      "sha256": "4beb311f3e85cd4505fbb01ba11ec241fd433f64667b6d88fc99801b74c4785f"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/REPORT.md": {
+      "group": "volume3d_results",
+      "bytes": 9378,
+      "sha256": "a38928572a4652ff84333c99c1efed085bdec6cbe9ebffc9116958504dcef910"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/actual_3d_inputs.png": {
+      "group": "volume3d_results",
+      "bytes": 505164,
+      "sha256": "056ade29b28b9fb8dc75c05773b61f022d07750641e30fa4330723a50abdff44"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/actual_3d_inputs.svg": {
+      "group": "volume3d_results",
+      "bytes": 480040,
+      "sha256": "a29ef2b7f053e0dc741de439d0ca3fffcc1d26e194e622fbcd36da91d9b7d16a"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/certificate_bounds.png": {
+      "group": "volume3d_results",
+      "bytes": 203327,
+      "sha256": "f2ffd3795d9f7688b938a5ce8bc734489d9f429dbfd456a9868a74e64409abf7"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/certificate_bounds.svg": {
+      "group": "volume3d_results",
+      "bytes": 66405,
+      "sha256": "be496ded25fce24c1c18eb9e95ba0fee58a1052e77734a2c0c07ce4c584ecf65"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/certificates.json": {
+      "group": "volume3d_results",
+      "bytes": 295268,
+      "sha256": "0c8046410e53b9e568a33be40af7a933f7b32185bd816dfdb43652449393147a"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/comparison.csv": {
+      "group": "volume3d_results",
+      "bytes": 1002,
+      "sha256": "3e9daaa12b72c8ae538c5b571ef6a5d3f8db3b2c4c9d4aaa3aee287a80a009bc"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/comparison_maps.png": {
+      "group": "volume3d_results",
+      "bytes": 1199722,
+      "sha256": "4f2f63c42dcd28a1b4da650160772ab0b76ee6b388b08cb56dec36d30906f337"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/comparison_maps.svg": {
+      "group": "volume3d_results",
+      "bytes": 6035381,
+      "sha256": "191130664a9c346c5efdcced130bfcbd6441d191a29e4466c6e0a3927a5e9a18"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/display_maps.npz": {
+      "group": "volume3d_results",
+      "bytes": 13975444,
+      "sha256": "b247894515552da78b68757015402271ab1fd8da0168736c4f2367797431bea2"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/features.json": {
+      "group": "volume3d_results",
+      "bytes": 12404840,
+      "sha256": "caf360a5dfa8571d35b2e39edf11e8703e480d6df06dbd8951c00eda447b5890"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/frame_metrics.json": {
+      "group": "volume3d_results",
+      "bytes": 7136091,
+      "sha256": "9008832c03acb1ef4f3c74c99a1ef35b47b38431c6210c0c50505fe8b1037d98"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_000.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1115,
+      "sha256": "31465e206c09fc6303fa4dc85b5506a8dc25ffb86f74ff2606bdf30d6d671a2a"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_001.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1115,
+      "sha256": "6fc0b0063d1432d9f2f53f10dd354ef71cd878b3aa80c02e4f40e1e9cf6b67c6"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_002.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1115,
+      "sha256": "59ed736aad6852adfd6561936ffe2c27cb6b1857cea64252baac27e50abbdb17"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_003.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1115,
+      "sha256": "2c5f36fce02cf44de527a536bb4bb5898da68d87cbe1fd81cef0bf6b66a6b0e9"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_004.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1115,
+      "sha256": "72dcaf8a4b9d0b981e9fd9afce55ca3485d0a405640624d261117ce825fd1e53"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_005.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1115,
+      "sha256": "a9e6dd4fd862c1e598b3190b8aa317d7a4232176d1151157345013d08e6789d1"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_006.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1115,
+      "sha256": "3c5b2623b5ea92eb94ce633d815e87df83f0aacf32715a04c6e6c29218c56993"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_007.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1115,
+      "sha256": "2ec81cc1572bdab7a592c82c39d5001b4aeb1df86abd06441ccdf1ea3939ce10"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_008.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1115,
+      "sha256": "4852a55a060c2963db69e2160c9d1d0e369889b25c7e6008e7f1d441af1243c3"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_009.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1115,
+      "sha256": "803c35fad9e153b3b9d6d885a2393f3f74a95fa43548d98cd448be51eec3e93f"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_010.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1116,
+      "sha256": "281c83da7c8ffd64c1552c94178122f2ac9964e726d0298f41dcb336c48752a5"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_011.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1116,
+      "sha256": "393baf46e77484df7d947a7e7f1af27627e626f9fef0b6341a59b70806049e43"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_012.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1116,
+      "sha256": "84485b131ec8f91d56b116eca3627042761e7be120b581174e7db86498d2caca"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_013.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1116,
+      "sha256": "6612df1995e7ca10d345358c1544253c4cb028e29fe5262a364d59bf3d7d7633"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_014.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1116,
+      "sha256": "e45c63d2d74c8a346aef7fb1593123a3c173cd3c4c888eb5fdc78af8704f485a"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_015.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1116,
+      "sha256": "5f0722137d265a3afe2dd49e9326a99308362dd1ee67a5760ec84b1ac34b14ea"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_016.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1116,
+      "sha256": "a5b8c774787dff7cd27bc155df7dadbc3f75a55245078ce2618f519b54122f7f"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_017.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1116,
+      "sha256": "9d63f51fd28185737a696b8fa82933a108af03ea1a9fbd1aa135a7b87e116607"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_018.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1116,
+      "sha256": "c5050d763ac02b2e7742b9368b543e10aa9e43ddcebe6c8d7f1b354768744568"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_019.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1116,
+      "sha256": "b83d1cec22585cf859722c6357aa7e78bdc1d02876ff6a8af95b01de1a260c90"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_020.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1115,
+      "sha256": "60c90ed241ef5a754f755b4c76aa5dd42fcd0561d0ce62b176bf401d623f98cc"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_021.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1115,
+      "sha256": "c03fbde198e7ad61e2b91931a90e1ce3846c27fee52a12ddb6d9c55074f7bbdb"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_022.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1115,
+      "sha256": "7178aef0b87d114ddcd9e5a77c82b5e612806efc67c37ce8c93957212b5223b3"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_023.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1115,
+      "sha256": "97aabf79bd58b295bc84fdb99c51ffba7230696425cc3f3ed1aedcc777236fdf"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_024.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1115,
+      "sha256": "efbc17b32466a081e2751ffa46666b7f143d68b6868ded47243940b7dd19c9c3"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_025.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1115,
+      "sha256": "c7633274493d1ca4f9f850c84f9f9a78a85d3a370fd7366df2c0bff25981b1ac"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_026.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1115,
+      "sha256": "efb50b98eeca8e5c3c471cf51d2d0349272b1bac6d0059c6e59e1a9f4fd22a6a"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_027.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1115,
+      "sha256": "68446111fb094c24ff534f7703599218c8643c065ba63ca9f51722e518c6c485"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_028.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1115,
+      "sha256": "6a039583ce08624b56317cd36fe067ac95c2155b5a533abbf06e3b957d33d220"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_029.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1115,
+      "sha256": "c8748e0271bd385e097d17a9f6cd03ab217c97ab854503f0357f7b0b8a5d029e"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_030.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1115,
+      "sha256": "6152eed94539cfba935aaeb39f08550d3620072f84180b7f94e44cba38c01ce4"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_031.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1115,
+      "sha256": "3903a8b9138871b91d57b80585ad16641ebb6005f964cf5a39248033492da0f5"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_032.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1115,
+      "sha256": "3a5cf641bcc59bfe0da3a3e85bcb22c0c3fd34163f520a69cd453c4eed486146"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_033.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1115,
+      "sha256": "fc4ddb1d491dadae40eb224d2072ca4a9a097c166a28ddc3a2ba329ad410242c"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_034.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1115,
+      "sha256": "33d9e1aeb75722d92f73634b6df09322fd24307978b1505da07a90930ae45d9b"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_035.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1115,
+      "sha256": "844454059ee5cc737820561fb0e99f860b4daa89dfe0bad7aa942ab092df003d"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_036.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1115,
+      "sha256": "47366e84ed267a9cd5f1da3e8ea80aa1a46227bab55ca0d0db6bfd10662aeacd"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_037.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1115,
+      "sha256": "59d8310bd481b345c9561c560f0fa75cd398fab896717cbfb8b4fc527e44d2f7"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_038.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1115,
+      "sha256": "324e7e30a472657652d557eb417f748e706479d7f6f8d97aa0af0854a7bc8f7a"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_039.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1115,
+      "sha256": "637edd5bbd8da8329d4e120cc292a92d87f95f6f647882121ab71d8c92a3be76"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_040.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1115,
+      "sha256": "1a5da89630af6037d8e4e689f1ddca343482929041cb8b9a5a560d550900317d"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_041.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1115,
+      "sha256": "f4290588f3296180f51de2c1f2582e7ccb66a4ecbec066ad58e281b773213503"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_042.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1115,
+      "sha256": "6edab86640c5d0b139dba24dbd0fcc82103a5c32a9ae9d1bb300dfb027f99b42"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_043.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1115,
+      "sha256": "b8483871b720e00350ebfe80fee18f147e95fc1115d1605624dd62bfc0a90abf"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_044.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1115,
+      "sha256": "08a0f51781ee880ccbbce5e14debe685d16feb53201474c5d2c8f70d1b677ab2"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_045.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1115,
+      "sha256": "9cbb106f2ba3b15e3aba0a9f7749d358c988b8fde156d47cd8ba91e7a7d69b90"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_046.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1115,
+      "sha256": "103bc562db0aae4f2c89b96f457ffcf441457d1215461074bcbd0361ca130b85"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_047.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1115,
+      "sha256": "ccdc27951aef747d12c563bbb82d9a2e475c026c4a5f9173c7acb5b97e72a658"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_048.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1115,
+      "sha256": "edcd71c58f98c2118001917667357913f660540c8f27dcb24f5b00a83c332f9d"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_049.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1115,
+      "sha256": "cce7f8b6faafff0536d5fbd4e5a3e0207d21be79d095a44048e15526974fb235"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_050.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1115,
+      "sha256": "86a4fa75fbc0f83793a3bb07715f0cb48cd85af61c61109b29e9240f74e56f9e"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_051.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1115,
+      "sha256": "72632699dd77eedef2f68aa55969d9a1db227c88577fa8e205d77cfe9c059426"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_052.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1115,
+      "sha256": "7a9dd3f53a3247b27fdc06a1bc7a2a2cfaed4ac90380e662166780c2be94cea8"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_053.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1115,
+      "sha256": "5057a187dbd2339bb5c077e1926dd9a1541b2fdc7b321e3859e6f0bcf7b0bfdb"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_054.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1115,
+      "sha256": "9c56c5eb1e4bc57b2af6db0adc81eaa617ef5a93ad6e7664b164dbab4947bd08"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_055.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1115,
+      "sha256": "7b3537ed9a05f7f3004ed229c3bbbebbd5288c6f6b6000be048401f9524215b4"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_056.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1115,
+      "sha256": "ce79c64ac00b5f2d29b0dafe79678127280d1720fd10de04d57b58d6371f4fa5"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_057.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1115,
+      "sha256": "daa50c57de983430f213e008da6e3f67ba4b1824958856de86f609d7481788f0"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_058.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1115,
+      "sha256": "d0f1d917a39d057021d611549f06e5a8beb06faa6c5a3eff86e51a9592f53e81"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_059.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1115,
+      "sha256": "20acc01ac29d3a23f9cb74ae2d90a9611b5d2afa4ac0591f55f40ca1717e7309"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_060.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1115,
+      "sha256": "fbfbc72b6f5ae3cb691a608aa557eed54a9d90453e7354c1f1a04de88644de0c"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_061.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1115,
+      "sha256": "ac4e36d44f06abc3e8f33cd76a193358537be420225b9252d25958aa7caced96"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_062.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1115,
+      "sha256": "68638c8209f5217178e6a2755865239d54ed0c1133f526d781e8df52ae7299f9"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_063.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1115,
+      "sha256": "b4d67672c44b9a4c6816173906bc36e9bd93620e431669f69961f9e0115f9ec8"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_064.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1115,
+      "sha256": "8ee9a160d74951286ff8d42df3adde6707d4711f829fe0907f6c0ab9af4a1b0b"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_065.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1116,
+      "sha256": "8eb4e017439672d1061afade1a60dc2707abe96430c949832bca48c0159b689f"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_066.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1115,
+      "sha256": "86a95d2228ddc13663faa5da1418fc49248efe8ce1db988db0f86d2015d29292"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_067.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1115,
+      "sha256": "21f472a9514766e307fc948f76ce5ef56c3de3fbcf7265b8fbae311fccab5e7b"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_068.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1115,
+      "sha256": "5831c1ff49557f92f4c2a0d4b8ad500f996ca1e4c46d458ff95ea0c03c97fb42"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_069.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1115,
+      "sha256": "16fb525126103e3e0e770fddc69e686fd5b37953d1d9527eb5c9ac1797d9faff"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_070.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1115,
+      "sha256": "498efcd041e3cc06efb2e4c6bc7d527b23ec44ac255fd8acdd2949f991273b81"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_071.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1115,
+      "sha256": "9e107039aa4e628d5d3cbe707cbbb7d666559e5174c5ae298b397503c65ba196"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_072.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1115,
+      "sha256": "2b32bf509723169ff3dc6b91ca1a75d3313d5eeb26c5d39157564a21c551bcc3"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_073.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1115,
+      "sha256": "10391f17117d2a7598490d33f3f042b72e8da023544cc1209f8e3cce553a929f"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_074.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1115,
+      "sha256": "637e04e237ccaf4d397de6cc80a92d1ad7436e574a58f5ea0a7d9127051ad896"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_075.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1115,
+      "sha256": "40c57a82906b26175f6608eebf7d9001b1b247dc8e89b74b8826080ece59c862"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_076.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1115,
+      "sha256": "b022ac38ec29d87ed1ada71b80360dd382882157a09f36bef26968c70d50d664"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_077.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1115,
+      "sha256": "a57e586c1ac5a987ba19c9d43895eb186f3b816ba3d006ee9cb1247c6d544b09"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_078.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1115,
+      "sha256": "f12a9408a94e65f7b274b663fbf6ddb708d185613775f67babe81c923a345712"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_079.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1115,
+      "sha256": "5e9533001f25c6c3508416e36858130a507a261fec81a93f195adf110070c931"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_080.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1115,
+      "sha256": "76aed4dea1625ae863bad07209f1b110fb422a2d57740675f5c85dfafee8cf67"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_081.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1115,
+      "sha256": "d6c264aea2f5668745e07e7ea748b5a0c2a5edf49034e988e99abbd1f048aeff"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_082.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1115,
+      "sha256": "1f003b8039cd90891fca721b1dfeb36c3aa425a8198c9459f380e16a00f6d436"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_083.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1115,
+      "sha256": "0f7f6275740c1896802a8c02f1114a213448f7855354fdfae9209e5d9640e4b9"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_084.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1115,
+      "sha256": "ed65216630c6cdfc7451e7c46478a22023e6b6a7d14a213a49547b27bbfc559e"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_085.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1115,
+      "sha256": "2b865df00fd1af3b8b4082fd5b1d930982d5ccd4589dbb5d4e8429e31f0fdc8a"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_086.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1115,
+      "sha256": "cd099819c81b4e317c83b4c8e3066038ebfbdcec064c46feab859f1e763672c5"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_087.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1115,
+      "sha256": "a8b24ae632a923a3db7006361424521038d3d9f36e7adf110217e20249472da1"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_088.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1115,
+      "sha256": "2f10b25965153811050a67c86cc31bda0fd3a41b771a0798d635c9abf18c157d"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_089.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1115,
+      "sha256": "86e05938904a8747ce5e0d5c9283470246dac35528e29bbc5a6be0998228175e"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_090.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1115,
+      "sha256": "589171c14dab2925d7a4685205b4dd98854db80fbc6ebbc8a5e61fee394e010c"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_091.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1115,
+      "sha256": "fc12dd29f1123b914bd4653108bbd5257b2b40f8bfab59748f8566af583eefcb"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_092.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1115,
+      "sha256": "e385cea3a57355b34e6a77593da5e62b5e8b9100bbc2be451d800a569ef431f5"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_093.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1115,
+      "sha256": "cb4c896dfe29038a97954ed7957788ba53fb07aa7c002c00aeb672f3bc624ce3"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_094.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1115,
+      "sha256": "e5e42aff72193e1318f6410e3ad1d843f3e9bb8c4fe4f15b71dfe580ad4b3bef"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_095.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1115,
+      "sha256": "39bcd7b548704f8efe3401e8b43598cb8a186c711d32af78af534b333113b61a"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_096.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1115,
+      "sha256": "41343ea7b02bc968c9a46439bb08a60e91b7c23999f3336ff60d74986100bdf6"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_097.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1115,
+      "sha256": "12573984b3119dd738f740660eeb50db065226579462b8a2dfa4b4a5e604ccea"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_098.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1115,
+      "sha256": "6cc109ae62f283af9f914cd2cd0f2e0d5db7fb02a09fc33a413954c313b719d3"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_099.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1115,
+      "sha256": "2fb1b51b378728f275d232ba0aeec99f37cf9b2e6f8169e299ff605862950600"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_100.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1116,
+      "sha256": "ff484315d1f5b4e3131b1096b7a4530f93b7032ab7e041e2050cc2921efff392"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_101.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1116,
+      "sha256": "d68c14089edfb37c596dcecdae4d655afef2bc1176f310b6e91ebe8b2ba83bb6"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_102.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1116,
+      "sha256": "f13667dbd785adee0428042c3d2fc883637064be5389886dcb84c83e9ac0c7de"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_103.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1116,
+      "sha256": "a0974d1551c859c7f6133afe2fc2b3b4dfa6d411e4072d2347915a93c7e6bf80"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_104.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1116,
+      "sha256": "4d7ec689408cfd1aed6dcb3a346c6e494ffc24ad73e1587c3eb8f4823db33651"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_105.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1116,
+      "sha256": "74b58f1220e3bef3db0624c8bd3cdf65e0c70dfb2027b23f6fdeda43d3add7f3"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_106.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1116,
+      "sha256": "de646400dab31f20bd1d0ac2d0b925cbe7a620248a8e46493b585ebfe11cde37"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_107.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1116,
+      "sha256": "3e6f04e95eb218807752de2fff67ce7b5e0926285f45f814239ef01fc9a51208"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_108.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1116,
+      "sha256": "055b79876b1f2028cd784ba58371706bdcb8249807a56e94e53f09ea731bdd9c"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_109.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1116,
+      "sha256": "8bd1d41b524ad0970861c22d3874d7817b1c0bb874bc18086472ee9f088ace88"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_110.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1116,
+      "sha256": "bed54ed3db480a413ecfec5a2a49cf90999aa0b98af54c2214059ef6a77fa93d"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_111.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1116,
+      "sha256": "dc7653e1b9f8bf827d99c55f5336ee12bad372a4549191f85c370653fe51f508"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_112.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1116,
+      "sha256": "9f6a63430c22d3945d25fa2cfbf348527a1f8cea0af7616324ce800a3c6e3dff"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_113.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1116,
+      "sha256": "fc703b9329c89b0f3d1dd181769f26b5bfd2d1185d47d5b2c1cb780c570c2a16"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_114.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1116,
+      "sha256": "ca93089d2420ae7a1f348c7a79119435ba50eaf9797dbf71747fbbc497bc7ed8"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_115.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1116,
+      "sha256": "1133b655d08bb54c88020511ccda7cf6d2b8fbf27860f0e347e422913e02f01f"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_116.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1116,
+      "sha256": "efe1ff887387e1c1a3ae1da84eb6c9c5dd8e0e68bf4c2fd0644724bccbb5835e"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_117.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1116,
+      "sha256": "3a4502cbb98ea98742e88b57ee1b7067f4cc68f896beca075f439514180c0875"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_118.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1116,
+      "sha256": "850898dac15349aa70dffc83ec746f97d7e31f089f3896ba9ed93fadff7502b1"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_119.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1116,
+      "sha256": "74905a4f202b4b87009d7b12cf05b46a522c5701a0670af653f31e7ab8e9b389"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_120.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1116,
+      "sha256": "dd898330c1f3c7bb56b6ceeb1c523ec5635c1ae51eec0ecb1d0a7963b974de0d"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_121.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1116,
+      "sha256": "15e147e0a4a285fad0579ed1246f1919abc764c8f81ff99cf535b40afeec0b57"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_122.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1116,
+      "sha256": "190bee2b4219264f6bbc6d9b725ccc2fe4bb684716439ee78426cc668d446462"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_123.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1116,
+      "sha256": "070e2456b62397b690e357ce7536799726d8263cacc9a04b6a31d0c22cea50b4"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_124.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1116,
+      "sha256": "e96fcd7611647b7517617958809b9c4c36c7b8d1b7363bea841c5ff4201d73bd"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_125.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1116,
+      "sha256": "331f29d7bcb1651a4423a515ebda7fea65ba208b01613c486d29218ae90bca4b"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_126.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1116,
+      "sha256": "1a10cc7e5244ae75b6782772c23530fb1b826d50c5b255773cb0dd9225f2e584"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_127.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1116,
+      "sha256": "7a934dc6756f48b4da32449289969fc370efaf2b540adb49545ed103bb53f3db"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_128.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1116,
+      "sha256": "15513470e6a52f847855cb8741478e5564b15f46b52378ee59029ad8a7a225e2"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_129.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1116,
+      "sha256": "13fa4f95f03e06c4275514254ca87d06d829da6c2ddb85d85ff800da9e721b1b"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_130.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1116,
+      "sha256": "343c83f603207beb40c1f8200e951eca22a022b9211ecd5672312b2860e285d9"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_131.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1116,
+      "sha256": "3b21f7c4982e8e44a1c169165e57aad579edae2620ad3b0646543b6124bda194"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_132.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1116,
+      "sha256": "05b6af0271c243fced4eaeaa0ba750597244438e1edf42dc2ce391c76784e045"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_133.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1116,
+      "sha256": "ec70c13b6d3a32761b4e040dea508d0353417d55e2ae174f221bc11aa6368250"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_134.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1116,
+      "sha256": "acdba41d6401776dcc27680bbc92407870f283ff6518dc07f7bbe2b4c7a8a623"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_135.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1116,
+      "sha256": "d8687fa82029366c2104336c2601e3ad0bb68f444a61eb09ebdd28720c88acf7"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_136.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1116,
+      "sha256": "913c6c3f59592da3730692cba7ac89b3324fd81d1ea3ac94ba517e03938baac7"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_137.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1116,
+      "sha256": "fe68eeb47a27f0ef9f7e3a6fcb96980b9fdd4e42f909faeea09ddc7f7fb5c66e"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_138.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1116,
+      "sha256": "45b2a06e0cef95d139c6df5331b6fccd3c8d416040794058bf483c8adbfccde8"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_139.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1116,
+      "sha256": "25d394a77d67ab9078aff4c76f291ac0e93422573840a1aed0a1a6f516e476b3"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_140.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1116,
+      "sha256": "dad96da831086114cdaebc90b0fd09237ce173a73760714c87376da7e7ac6e87"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_141.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1116,
+      "sha256": "954386bd2f3c46d043d2927fec4685cf77cf1572984c3fc211006b280bf7db1f"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_142.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1116,
+      "sha256": "80ac792f226ce2640b9a833b2732314b444b09c6d4a8e01601b46e548aeb7686"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_143.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1116,
+      "sha256": "0f7634c74dde89a5e80f8473bcbb9a8c53507e86587a669f65fe2ba23e3b0a41"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_144.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1116,
+      "sha256": "c4da2d5fe16fd24c6b8c356366b4c210b4232a7c76aebd2c1d92fb4c8ce9dea6"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_145.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1116,
+      "sha256": "efdd4f1a3a3678061083ba69779b4d4edc749b279fb76826b5f20ba1ce8c2088"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_146.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1116,
+      "sha256": "8bb49ccd10807608dad653b471e63724e95be12ef599e299d1fdf8fd137bc32e"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_147.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1116,
+      "sha256": "a0e0404804a9e17dabd189ba4a37d621ff0fa5cc1bef464301594b06ca249319"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_148.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1116,
+      "sha256": "768c1dc9ab1a6ac49ef602632bd16760d46d661a1be2ebe947165bc7be294eb6"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_149.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1116,
+      "sha256": "b3c849fd0d9f82ccaecd7bc676f17354ac7b5adb0f865201af62f7730664c762"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_150.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1116,
+      "sha256": "315e689b7dfe8bdc269062a690f6a604a215124d6a3cdd4a1659ec8daf68d0d4"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_151.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1116,
+      "sha256": "9af6e2d66704b042655672a545815e9263127c1d1941acc6f2b0a26d389b70ab"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_152.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1116,
+      "sha256": "11eadb0058d90139102f5aecc82f217d6c32207d7f39e0dcf72fa26a069d8ffc"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_153.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1116,
+      "sha256": "4dc7bb6accbb7f1dfbccec46d7c48a789d9cc5788c36ea684a7fc5afbcf06c8a"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_154.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1116,
+      "sha256": "f5390e831b6d082cf574a41b2d569f7ef461374a43fcdd7e288f41d2de6c5bc8"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_155.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1116,
+      "sha256": "bc79254f3086cc337bd306419516b6c0906e902937f222725db9e5541e0945ee"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_156.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1116,
+      "sha256": "7c736882be4a55800ca62fca945dca9e52e86ccb892ea0c94960bc1ec8cfac7a"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_157.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1116,
+      "sha256": "7e69fb295d833f1b00ce762bc369b8078fa7065ad0ae8024379269c120e5c1cd"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_158.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1116,
+      "sha256": "b70e8b4148d67f2654e364ddb181fa587d6fb30139bdd52f22643d9c6ef08d24"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_159.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1116,
+      "sha256": "c980e0636bf5a131e02ec74b68a822ea36fb0717dbc49699caf22f073b7b5e21"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_160.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1116,
+      "sha256": "f84bbed7e83d55c2d7a83c43fa4f68e89490fd0df740e5d9b8b7d12940afae3d"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_161.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1116,
+      "sha256": "67ccbeee980e9b33c2016f70bfb45fbb5676730eb9915fc88f781866c6b25990"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_162.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1116,
+      "sha256": "7d1cdaa7ce19a44439584aca874b7306eefcde2583f3139644a72ad3be710f1f"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_163.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1116,
+      "sha256": "d703f8f1de1a0c6ed43c357964d000c8c73b740a7901dc97fdc44d7dd1753b51"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_164.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1116,
+      "sha256": "5909c18028f15e20c25ad8c37290619c386f050387d0e2c46e11df379827684e"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_165.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1116,
+      "sha256": "7ab8f45d2cbb175b1e9ad609faf7ac90af12eadc8328058959f2d60d7b1cc21b"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_166.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1116,
+      "sha256": "fe911aeb3b693581e1796cde232205f7ddda740be4dd5a6f87250f9027cd6e3a"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_167.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1116,
+      "sha256": "66a89214378fdd8ecaa6c6adf180e48f6be7d0c93d8eb6ea30711e9e967fc615"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_168.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1116,
+      "sha256": "209476732b362b7388715b7ea148e17dff22f86de086311bef96bb7caf452753"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_169.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1116,
+      "sha256": "22f40fafc03e6abd04d6910ea6d4b3668e9b6ef542d8b79e506b6c2d1ba4691f"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_170.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1116,
+      "sha256": "e3fbbb64407b9549cb209a4d2ea0e7046b3162b0e01c93ca01cc508eb750cbdf"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_171.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1116,
+      "sha256": "db029e69002c87d9cd86703dd91cd2609b6b92a750448cab507d997707e3141d"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_172.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1116,
+      "sha256": "6855b8fef5a4357b78ba7f01f1bbaff79f711f5f2709835cc2acf64d33f8919f"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_173.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1116,
+      "sha256": "fd6ad5c62856d76e084bf4b05125fcb1f3b54ec372ec21477cd9a5343afa5acb"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_174.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1116,
+      "sha256": "33d1f114401dae4010fc79fa2748b982b1893352208910ffae3dd28aeaf5ae2f"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_175.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1116,
+      "sha256": "b2f926ce67137041ad47ea2305b71b36fa25c9e8b2d8278651c407f5f83c1c06"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_176.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1116,
+      "sha256": "8106f86477574ece0f4810bbaef32105c8d91a05067da42c336717b3fad6ac81"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_177.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1116,
+      "sha256": "e903b7099276f2759be3780dc337371ecad5f497cb6209b46e2df9252fe19eb0"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_178.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1116,
+      "sha256": "3aa2d75d6d74cce9176d267d7ca57cdc2468abdfcce908e19e83047d36f74af5"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_179.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1116,
+      "sha256": "646d1b67921c99b9dd7ea0db1a22324de4356377d7fad03acef18338ee43b778"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_180.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1116,
+      "sha256": "9cf0bf9a4fe7d8b90a0c4f6a872ebe89547ea0b48a8c7a11d66ac6d731528ecc"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_181.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1116,
+      "sha256": "3a07327c35fea365972ef90e29073d5c12922d56ff89c63570ec353bed0aac3c"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_182.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1116,
+      "sha256": "f0caf540aca6ae2885f7c25737c35a91b8190ac0c1102b3239f18482c412a82b"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_183.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1116,
+      "sha256": "58d7fe63630f1b3819fb1281a65ba31f62c21d581c23e19c1e100bd455905f34"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_184.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1116,
+      "sha256": "6dcd8bd2cb40a122d95884168bb0c06246478f3e1ce717239362901d9f141c20"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_185.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1116,
+      "sha256": "72800e3d05a971800dc1cdc4a8fd3c3db7c287670c317fbbc1890fc0c62066fa"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_186.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1116,
+      "sha256": "1d27a4c5e9144b9123edf56ada6db76cd7e1aad1bd78c32b2d06987efc9f6005"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_187.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1116,
+      "sha256": "5e48476f994da4d3846dbda15f1f7863efe413cae2b4fe25f8cf909052f3458c"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_188.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1116,
+      "sha256": "e33a3659b3dc0ba43d30612ca7b9143348fe713215995197c8c5ec98d82393f0"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_189.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1116,
+      "sha256": "9ff40cc50e29bc3bca500baa19ea33923c5497813686d1a37344ade86e69070e"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_190.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1116,
+      "sha256": "a8cc679f45bd59d04bef26277709b0e193be0b340c391bcc7fb525b5b46c7a11"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_191.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1116,
+      "sha256": "a4fd68869b534d9ecb5c7bdc4f729c5936816a15fe546f77fd5f669497304afc"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_192.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1116,
+      "sha256": "4c1a6cf65f8f460ee8b57d8724a3dfda825775986759efc861344fab7ffe16b0"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_193.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1116,
+      "sha256": "e3c1d6709fc5454852eebb9bb955ca3fffa9d54d891f137f2da738698d6470af"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_194.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1116,
+      "sha256": "507b25026da885d7becdd147557479eecaabe1482a66ba279d9afd03b292a45a"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_195.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1116,
+      "sha256": "7ff65ba8bb31e4c49abe6909954002209abdd8496a15aac1fe4cbd6c230903a6"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_196.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1116,
+      "sha256": "7fc1e823eeeef0e645979dc8d0384a814497e76e1fc41dd1b47d417a7776d2a6"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_197.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1116,
+      "sha256": "9e76aa07af9ebaa25c4522e28db0debce6dd54682617e32870d22ec811cb53e3"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_198.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1116,
+      "sha256": "23b7d4921a63571beea5872daa0cde4b68cf5d5ae79222303837ea4ed66d4a96"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_199.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1116,
+      "sha256": "44d06b2575aa93f4d25f943d0904dbd3f69563e778e0a16df8bcd55c6bb55487"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/frame_200.manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 1116,
+      "sha256": "42fe07c7a138841113c364cd3f322f4bcca9e71b8e3b08fb0101d0974dad73cd"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/native_build.json": {
+      "group": "volume3d_results",
+      "bytes": 1450,
+      "sha256": "99f65e34a1c8f667bdf0f74c9b75afd68ee0c20ab77209fd735640da6027b143"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/preparation_protocol.json": {
+      "group": "volume3d_results",
+      "bytes": 4760,
+      "sha256": "9c6ebc25e2ef9d9bb8507c98a3eddb7aca489f8948fdbee093448262e3f89325"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/source_manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 177672,
+      "sha256": "6ce9f6c04c959a25f7b3f402b6b00cf11c30c4415f582560264664ab8f263f0d"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/input_evidence/tree_protocol.json": {
+      "group": "volume3d_results",
+      "bytes": 949,
+      "sha256": "0213692338d1f85ac296529bf82875766ae63bbee0deb17f2e79b373e4a74c81"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 28990,
+      "sha256": "c61e86fa320046dcd0436d07cc3f0209b9eee56643edc7b10ffcdf39056d4dea"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/metrics.json": {
+      "group": "volume3d_results",
+      "bytes": 31386,
+      "sha256": "210642062832b9d1751103badf010acd8d82c58a6277f2816d94deecf090508e"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/paper_style/README.md": {
+      "group": "volume3d_results",
+      "bytes": 3371,
+      "sha256": "7dd4141ade43909d7b905174b65a2231e67381b8b6607facfade64aa1148bd1b"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/paper_style/display_samples.npz": {
+      "group": "volume3d_results",
+      "bytes": 15237832,
+      "sha256": "b5ccdbcc2307b0488525a1d0b84d448ec9e80cb36a794d752f90e215b17154d3"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/paper_style/rgmtm_paper_style.pdf": {
+      "group": "volume3d_results",
+      "bytes": 1321903,
+      "sha256": "503798a35a560d6e511c36a1884011cab6550edad43085f761d4cc230242bb60"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/paper_style/rgmtm_paper_style.png": {
+      "group": "volume3d_results",
+      "bytes": 1312340,
+      "sha256": "31cada64515693fce4bc4df3a0b39ce0d0be5ac53507f833d6a225bea140cbd8"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/paper_style/rgmtm_paper_style.svg": {
+      "group": "volume3d_results",
+      "bytes": 1987165,
+      "sha256": "ae106f1a6620ec528bc3181fde15108b0c5cf5c77360024afcddc01aad42b305"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/paper_style/tmtm_rgmtm_paper_style.pdf": {
+      "group": "volume3d_results",
+      "bytes": 958274,
+      "sha256": "ec3b5249ecf4e23b22145e174d920c8da51ba3b92b6da7a15e0f9048b3e98d26"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/paper_style/tmtm_rgmtm_paper_style.png": {
+      "group": "volume3d_results",
+      "bytes": 1173560,
+      "sha256": "bf7a1b7fc8034711fe2d1b9c938d328fdb5176fb37571bd1ec5c0a4fb85902e7"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/paper_style/tmtm_rgmtm_paper_style.svg": {
+      "group": "volume3d_results",
+      "bytes": 1450625,
+      "sha256": "38fe355022cb7dc6f465e2510b49dfcc8ffde637fa2d369af54313b8b5f550b9"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/paper_style/visual_manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 194656,
+      "sha256": "56bb6143f452267684c402b6af0087278a8bb9e7220a3c7a8ada3876f5faf4d1"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/paper_style/volume_cache.json": {
+      "group": "volume3d_results",
+      "bytes": 5798,
+      "sha256": "71f12147c1cb1495a6876fe94efdda20078c8f8c15f356edcf620b80bdd9c00f"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/paper_style/volume_cache.npz": {
+      "group": "volume3d_results",
+      "bytes": 3308965,
+      "sha256": "cd810c74b64d5577129da96acf4c5100e7ba3c595552dfa2ac4bdfbf424f3916"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/parameters.json": {
+      "group": "volume3d_results",
+      "bytes": 360,
+      "sha256": "7e85a1130deba7c3bd2233c8110da43e74e3e7350f5729227682a0e9a02b12dc"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/positions.json": {
+      "group": "volume3d_results",
+      "bytes": 966776,
+      "sha256": "c62acfbe38c526ade06b447a5a35cc110bfcaeff34255fa9d0738c5984dd28f3"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/protocol.json": {
+      "group": "volume3d_results",
+      "bytes": 4294,
+      "sha256": "8f68acbded19a1b01900f3cb3795f6a42d268dba5b02fdb9c4615bcb596d44a3"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/reference.json": {
+      "group": "volume3d_results",
+      "bytes": 193163,
+      "sha256": "81862d5a08beed6cd8e0837fa5c71e6b79a05096e3b15e941660e7f074da2558"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/relaxation_tradeoff.png": {
+      "group": "volume3d_results",
+      "bytes": 97990,
+      "sha256": "cd4f0530ff258cd77217b670e1f1b3ffebce8ab8540e9489b2e5953b03420fa9"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/relaxation_tradeoff.svg": {
+      "group": "volume3d_results",
+      "bytes": 42304,
+      "sha256": "9d22156ae2869bef8af4faa3055a46d0aec47e2b2703d6c30432012e3333fbc2"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/render_manifest.json": {
+      "group": "volume3d_results",
+      "bytes": 2096,
+      "sha256": "26ea2eaa8ed356afd2ad3705c0105e45ebdce981ef06d8307d2129709148571e"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/status.json": {
+      "group": "volume3d_results",
+      "bytes": 53,
+      "sha256": "391850c91281a045bd96f56c8924277e4bb4d1f5d6b513edfc865542ce6c83c0"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/tmtm_orders.json": {
+      "group": "volume3d_results",
+      "bytes": 184838,
+      "sha256": "356b1d4de5d888b3170c42cc6b82aed80d54cb8fea37f4f54d6307be0ce1ab86"
+    },
+    "results/volume3d/tangaroa-paper-p10-full201/verification.json": {
+      "group": "volume3d_results",
+      "bytes": 32092,
+      "sha256": "8d0d18b78098ef055c8d9841a5d2d5917be537338d689ec3890c2a54cfb9e5ea"
+    },
     "results/final_performance.json": {
       "group": "primary_records",
       "bytes": 120950,
@@ -1467,8 +3623,8 @@
     },
     "tools/build_latest_experiment_index.py": {
       "group": "evaluation_and_export_code",
-      "bytes": 3694,
-      "sha256": "62bd15b1b0a043102a5dae3e0f8905660b79dd3884237c7ae86a40cb05b6abca"
+      "bytes": 4437,
+      "sha256": "fc59e507420eea1453f79065b55da3175354540d55c74f11063c7f1ce0738c52"
     }
   }
 }

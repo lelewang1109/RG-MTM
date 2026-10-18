@@ -1,0 +1,7 @@
+{
+  "date": "2026-10-18",
+  "status": "historical_pilot_input_not_paper_equivalent",
+  "message": "此前将本结果称为官方 Tangaroa 主验证不够准确。作者主工作空间将近零速度模长替换为 1、截断到 [0,2]，构建 join tree；本试跑未执行这两项标量处理，构建 split tree，并只使用前 12 帧、30×18×12 网格和高斯平滑。它不能作为论文图 15 的同输入复现或方法优劣证据。NROE 0.287%→0、三维运动错误 14/14→2/14 仅属于旧粗网格处理后的试跑，停止用于支持论文 Tangaroa 同输入比较。",
+  "audit_report": "../tangaroa-input-audit-20261018/REPORT.md",
+  "numeric_arrays_changed": false
+}

@@ -1,0 +1,674 @@
+[
+  {
+    "method": "TMTM",
+    "t": 0,
+    "NROE": 0.0,
+    "NMLE": 0.0,
+    "leaves": 6,
+    "topology_exact": true
+  },
+  {
+    "method": "TMTM",
+    "t": 1,
+    "NROE": 0.0,
+    "NMLE": 0.0,
+    "leaves": 6,
+    "topology_exact": true
+  },
+  {
+    "method": "TMTM",
+    "t": 2,
+    "NROE": 0.01724137931034482,
+    "NMLE": 0.0,
+    "leaves": 6,
+    "topology_exact": true
+  },
+  {
+    "method": "TMTM",
+    "t": 3,
+    "NROE": 0.01724137931034482,
+    "NMLE": 0.0,
+    "leaves": 6,
+    "topology_exact": true
+  },
+  {
+    "method": "TMTM",
+    "t": 4,
+    "NROE": 0.0,
+    "NMLE": 0.0,
+    "leaves": 6,
+    "topology_exact": true
+  },
+  {
+    "method": "TMTM",
+    "t": 5,
+    "NROE": 0.0,
+    "NMLE": 0.0,
+    "leaves": 6,
+    "topology_exact": true
+  },
+  {
+    "method": "TMTM",
+    "t": 6,
+    "NROE": 0.0,
+    "NMLE": 0.0,
+    "leaves": 6,
+    "topology_exact": true
+  },
+  {
+    "method": "TMTM",
+    "t": 7,
+    "NROE": 0.0,
+    "NMLE": 0.0,
+    "leaves": 5,
+    "topology_exact": true
+  },
+  {
+    "method": "TMTM",
+    "t": 8,
+    "NROE": 0.0,
+    "NMLE": 0.0,
+    "leaves": 4,
+    "topology_exact": true
+  },
+  {
+    "method": "TMTM",
+    "t": 9,
+    "NROE": 0.0,
+    "NMLE": 0.0,
+    "leaves": 4,
+    "topology_exact": true
+  },
+  {
+    "method": "TMTM",
+    "t": 10,
+    "NROE": 0.0,
+    "NMLE": 0.0,
+    "leaves": 4,
+    "topology_exact": true
+  },
+  {
+    "method": "TMTM",
+    "t": 11,
+    "NROE": 0.0,
+    "NMLE": 0.0,
+    "leaves": 4,
+    "topology_exact": true
+  },
+  {
+    "method": "Hilbert",
+    "t": 0,
+    "NROE": 0.0,
+    "NMLE": 0.7144741791844325,
+    "leaves": 6,
+    "topology_exact": false
+  },
+  {
+    "method": "Hilbert",
+    "t": 1,
+    "NROE": 0.0,
+    "NMLE": 0.7600819747077004,
+    "leaves": 6,
+    "topology_exact": false
+  },
+  {
+    "method": "Hilbert",
+    "t": 2,
+    "NROE": 0.01724137931034482,
+    "NMLE": 0.786117049332976,
+    "leaves": 6,
+    "topology_exact": false
+  },
+  {
+    "method": "Hilbert",
+    "t": 3,
+    "NROE": 0.01724137931034482,
+    "NMLE": 0.8136641991562782,
+    "leaves": 6,
+    "topology_exact": false
+  },
+  {
+    "method": "Hilbert",
+    "t": 4,
+    "NROE": 0.0,
+    "NMLE": 0.8335982273555455,
+    "leaves": 6,
+    "topology_exact": false
+  },
+  {
+    "method": "Hilbert",
+    "t": 5,
+    "NROE": 0.0,
+    "NMLE": 0.8474589587603251,
+    "leaves": 6,
+    "topology_exact": false
+  },
+  {
+    "method": "Hilbert",
+    "t": 6,
+    "NROE": 0.0,
+    "NMLE": 0.855768391537352,
+    "leaves": 6,
+    "topology_exact": false
+  },
+  {
+    "method": "Hilbert",
+    "t": 7,
+    "NROE": 0.0,
+    "NMLE": 0.8584415275776346,
+    "leaves": 5,
+    "topology_exact": false
+  },
+  {
+    "method": "Hilbert",
+    "t": 8,
+    "NROE": 0.0,
+    "NMLE": 0.8563677511467196,
+    "leaves": 4,
+    "topology_exact": false
+  },
+  {
+    "method": "Hilbert",
+    "t": 9,
+    "NROE": 0.0,
+    "NMLE": 0.8524304176936737,
+    "leaves": 4,
+    "topology_exact": false
+  },
+  {
+    "method": "Hilbert",
+    "t": 10,
+    "NROE": 0.0,
+    "NMLE": 0.8543426322728829,
+    "leaves": 4,
+    "topology_exact": false
+  },
+  {
+    "method": "Hilbert",
+    "t": 11,
+    "NROE": 0.0,
+    "NMLE": 0.8571725373853422,
+    "leaves": 4,
+    "topology_exact": false
+  },
+  {
+    "method": "Morton",
+    "t": 0,
+    "NROE": 0.0,
+    "NMLE": 0.7536852321308511,
+    "leaves": 6,
+    "topology_exact": false
+  },
+  {
+    "method": "Morton",
+    "t": 1,
+    "NROE": 0.0,
+    "NMLE": 0.8023218055989413,
+    "leaves": 6,
+    "topology_exact": false
+  },
+  {
+    "method": "Morton",
+    "t": 2,
+    "NROE": 0.01724137931034482,
+    "NMLE": 0.8327004665449423,
+    "leaves": 6,
+    "topology_exact": false
+  },
+  {
+    "method": "Morton",
+    "t": 3,
+    "NROE": 0.01724137931034482,
+    "NMLE": 0.8661545287929948,
+    "leaves": 6,
+    "topology_exact": false
+  },
+  {
+    "method": "Morton",
+    "t": 4,
+    "NROE": 0.0,
+    "NMLE": 0.8916991932858047,
+    "leaves": 6,
+    "topology_exact": false
+  },
+  {
+    "method": "Morton",
+    "t": 5,
+    "NROE": 0.0,
+    "NMLE": 0.9105873543503267,
+    "leaves": 6,
+    "topology_exact": false
+  },
+  {
+    "method": "Morton",
+    "t": 6,
+    "NROE": 0.0,
+    "NMLE": 0.9232829312329602,
+    "leaves": 6,
+    "topology_exact": false
+  },
+  {
+    "method": "Morton",
+    "t": 7,
+    "NROE": 0.0,
+    "NMLE": 0.4387551316526061,
+    "leaves": 5,
+    "topology_exact": false
+  },
+  {
+    "method": "Morton",
+    "t": 8,
+    "NROE": 0.0,
+    "NMLE": 0.4569533098995246,
+    "leaves": 4,
+    "topology_exact": false
+  },
+  {
+    "method": "Morton",
+    "t": 9,
+    "NROE": 0.0,
+    "NMLE": 0.47222296747271636,
+    "leaves": 4,
+    "topology_exact": false
+  },
+  {
+    "method": "Morton",
+    "t": 10,
+    "NROE": 0.0,
+    "NMLE": 0.4853825192987301,
+    "leaves": 4,
+    "topology_exact": false
+  },
+  {
+    "method": "Morton",
+    "t": 11,
+    "NROE": 0.0,
+    "NMLE": 0.49691735073886895,
+    "leaves": 4,
+    "topology_exact": false
+  },
+  {
+    "method": "RG-MTM-P",
+    "t": 0,
+    "NROE": 0.0,
+    "NMLE": 0.0,
+    "leaves": 6,
+    "topology_exact": true
+  },
+  {
+    "method": "RG-MTM-P",
+    "t": 1,
+    "NROE": 0.0,
+    "NMLE": 0.0,
+    "leaves": 6,
+    "topology_exact": true
+  },
+  {
+    "method": "RG-MTM-P",
+    "t": 2,
+    "NROE": 0.0,
+    "NMLE": 0.0,
+    "leaves": 6,
+    "topology_exact": true
+  },
+  {
+    "method": "RG-MTM-P",
+    "t": 3,
+    "NROE": 0.0,
+    "NMLE": 0.0,
+    "leaves": 6,
+    "topology_exact": true
+  },
+  {
+    "method": "RG-MTM-P",
+    "t": 4,
+    "NROE": 0.0,
+    "NMLE": 0.0,
+    "leaves": 6,
+    "topology_exact": true
+  },
+  {
+    "method": "RG-MTM-P",
+    "t": 5,
+    "NROE": 0.0,
+    "NMLE": 0.0,
+    "leaves": 6,
+    "topology_exact": true
+  },
+  {
+    "method": "RG-MTM-P",
+    "t": 6,
+    "NROE": 0.0,
+    "NMLE": 0.0,
+    "leaves": 6,
+    "topology_exact": true
+  },
+  {
+    "method": "RG-MTM-P",
+    "t": 7,
+    "NROE": 0.0,
+    "NMLE": 0.0,
+    "leaves": 5,
+    "topology_exact": true
+  },
+  {
+    "method": "RG-MTM-P",
+    "t": 8,
+    "NROE": 0.0,
+    "NMLE": 0.0,
+    "leaves": 4,
+    "topology_exact": true
+  },
+  {
+    "method": "RG-MTM-P",
+    "t": 9,
+    "NROE": 0.0,
+    "NMLE": 0.0,
+    "leaves": 4,
+    "topology_exact": true
+  },
+  {
+    "method": "RG-MTM-P",
+    "t": 10,
+    "NROE": 0.0,
+    "NMLE": 0.0,
+    "leaves": 4,
+    "topology_exact": true
+  },
+  {
+    "method": "RG-MTM-P",
+    "t": 11,
+    "NROE": 0.0,
+    "NMLE": 0.0,
+    "leaves": 4,
+    "topology_exact": true
+  },
+  {
+    "method": "RG-MTM-R 0.02",
+    "t": 0,
+    "NROE": 0.0,
+    "NMLE": 0.0,
+    "leaves": 6,
+    "topology_exact": true
+  },
+  {
+    "method": "RG-MTM-R 0.02",
+    "t": 1,
+    "NROE": 0.0,
+    "NMLE": 0.0,
+    "leaves": 6,
+    "topology_exact": true
+  },
+  {
+    "method": "RG-MTM-R 0.02",
+    "t": 2,
+    "NROE": 0.0,
+    "NMLE": 0.0,
+    "leaves": 6,
+    "topology_exact": true
+  },
+  {
+    "method": "RG-MTM-R 0.02",
+    "t": 3,
+    "NROE": 0.0,
+    "NMLE": 0.0,
+    "leaves": 6,
+    "topology_exact": true
+  },
+  {
+    "method": "RG-MTM-R 0.02",
+    "t": 4,
+    "NROE": 0.0,
+    "NMLE": 0.0,
+    "leaves": 6,
+    "topology_exact": true
+  },
+  {
+    "method": "RG-MTM-R 0.02",
+    "t": 5,
+    "NROE": 0.0,
+    "NMLE": 0.0,
+    "leaves": 6,
+    "topology_exact": true
+  },
+  {
+    "method": "RG-MTM-R 0.02",
+    "t": 6,
+    "NROE": 0.0,
+    "NMLE": 0.0,
+    "leaves": 6,
+    "topology_exact": true
+  },
+  {
+    "method": "RG-MTM-R 0.02",
+    "t": 7,
+    "NROE": 0.0,
+    "NMLE": 0.0,
+    "leaves": 5,
+    "topology_exact": true
+  },
+  {
+    "method": "RG-MTM-R 0.02",
+    "t": 8,
+    "NROE": 0.0,
+    "NMLE": 0.0,
+    "leaves": 4,
+    "topology_exact": true
+  },
+  {
+    "method": "RG-MTM-R 0.02",
+    "t": 9,
+    "NROE": 0.0,
+    "NMLE": 0.0,
+    "leaves": 4,
+    "topology_exact": true
+  },
+  {
+    "method": "RG-MTM-R 0.02",
+    "t": 10,
+    "NROE": 0.0,
+    "NMLE": 0.0,
+    "leaves": 4,
+    "topology_exact": true
+  },
+  {
+    "method": "RG-MTM-R 0.02",
+    "t": 11,
+    "NROE": 0.0,
+    "NMLE": 0.0,
+    "leaves": 4,
+    "topology_exact": true
+  },
+  {
+    "method": "RG-MTM-R 0.2",
+    "t": 0,
+    "NROE": 0.0,
+    "NMLE": 0.0,
+    "leaves": 6,
+    "topology_exact": true
+  },
+  {
+    "method": "RG-MTM-R 0.2",
+    "t": 1,
+    "NROE": 0.0,
+    "NMLE": 0.0,
+    "leaves": 6,
+    "topology_exact": true
+  },
+  {
+    "method": "RG-MTM-R 0.2",
+    "t": 2,
+    "NROE": 0.0,
+    "NMLE": 0.0,
+    "leaves": 6,
+    "topology_exact": true
+  },
+  {
+    "method": "RG-MTM-R 0.2",
+    "t": 3,
+    "NROE": 0.0,
+    "NMLE": 0.0,
+    "leaves": 6,
+    "topology_exact": true
+  },
+  {
+    "method": "RG-MTM-R 0.2",
+    "t": 4,
+    "NROE": 0.0,
+    "NMLE": 0.0,
+    "leaves": 6,
+    "topology_exact": true
+  },
+  {
+    "method": "RG-MTM-R 0.2",
+    "t": 5,
+    "NROE": 0.0,
+    "NMLE": 0.0,
+    "leaves": 6,
+    "topology_exact": true
+  },
+  {
+    "method": "RG-MTM-R 0.2",
+    "t": 6,
+    "NROE": 0.0,
+    "NMLE": 0.0,
+    "leaves": 6,
+    "topology_exact": true
+  },
+  {
+    "method": "RG-MTM-R 0.2",
+    "t": 7,
+    "NROE": 0.0,
+    "NMLE": 0.0,
+    "leaves": 5,
+    "topology_exact": true
+  },
+  {
+    "method": "RG-MTM-R 0.2",
+    "t": 8,
+    "NROE": 0.0,
+    "NMLE": 0.0,
+    "leaves": 4,
+    "topology_exact": true
+  },
+  {
+    "method": "RG-MTM-R 0.2",
+    "t": 9,
+    "NROE": 0.0,
+    "NMLE": 0.0,
+    "leaves": 4,
+    "topology_exact": true
+  },
+  {
+    "method": "RG-MTM-R 0.2",
+    "t": 10,
+    "NROE": 0.0,
+    "NMLE": 0.0,
+    "leaves": 4,
+    "topology_exact": true
+  },
+  {
+    "method": "RG-MTM-R 0.2",
+    "t": 11,
+    "NROE": 0.0,
+    "NMLE": 0.0,
+    "leaves": 4,
+    "topology_exact": true
+  },
+  {
+    "method": "RG-MTM-R 1",
+    "t": 0,
+    "NROE": 0.0,
+    "NMLE": 0.0,
+    "leaves": 6,
+    "topology_exact": true
+  },
+  {
+    "method": "RG-MTM-R 1",
+    "t": 1,
+    "NROE": 0.0,
+    "NMLE": 0.0,
+    "leaves": 6,
+    "topology_exact": true
+  },
+  {
+    "method": "RG-MTM-R 1",
+    "t": 2,
+    "NROE": 0.0,
+    "NMLE": 0.0,
+    "leaves": 6,
+    "topology_exact": true
+  },
+  {
+    "method": "RG-MTM-R 1",
+    "t": 3,
+    "NROE": 0.0,
+    "NMLE": 0.0,
+    "leaves": 6,
+    "topology_exact": true
+  },
+  {
+    "method": "RG-MTM-R 1",
+    "t": 4,
+    "NROE": 0.0,
+    "NMLE": 0.0,
+    "leaves": 6,
+    "topology_exact": true
+  },
+  {
+    "method": "RG-MTM-R 1",
+    "t": 5,
+    "NROE": 0.0,
+    "NMLE": 0.0,
+    "leaves": 6,
+    "topology_exact": true
+  },
+  {
+    "method": "RG-MTM-R 1",
+    "t": 6,
+    "NROE": 0.0,
+    "NMLE": 0.0,
+    "leaves": 6,
+    "topology_exact": true
+  },
+  {
+    "method": "RG-MTM-R 1",
+    "t": 7,
+    "NROE": 0.0,
+    "NMLE": 0.0,
+    "leaves": 5,
+    "topology_exact": true
+  },
+  {
+    "method": "RG-MTM-R 1",
+    "t": 8,
+    "NROE": 0.0,
+    "NMLE": 0.0,
+    "leaves": 4,
+    "topology_exact": true
+  },
+  {
+    "method": "RG-MTM-R 1",
+    "t": 9,
+    "NROE": 0.0,
+    "NMLE": 0.0,
+    "leaves": 4,
+    "topology_exact": true
+  },
+  {
+    "method": "RG-MTM-R 1",
+    "t": 10,
+    "NROE": 0.0,
+    "NMLE": 0.0,
+    "leaves": 4,
+    "topology_exact": true
+  },
+  {
+    "method": "RG-MTM-R 1",
+    "t": 11,
+    "NROE": 0.0,
+    "NMLE": 0.0,
+    "leaves": 4,
+    "topology_exact": true
+  }
+]

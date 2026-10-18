@@ -1,8 +1,4 @@
-*.pdf binary
-*.png binary
-*.zip binary
-# Generated vectors use multiline path coordinates with significant separators.
-results/visualizations/*.svg -diff whitespace=-blank-at-eol linguist-generated=true
-paper/pacificvis2027-restructured/figures/*.svg -diff whitespace=-blank-at-eol linguist-generated=true
-
-results/figures/*.svg -diff whitespace=-blank-at-eol linguist-generated=true
+# Keep generated evidence byte-for-byte: CSV CRLF and Matplotlib SVG path
+# whitespace are part of the recorded hashes, not hand-authored source style.
+results/volume3d/** -text -whitespace
+experiments/volume3d/inputs/** -text

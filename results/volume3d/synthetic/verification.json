@@ -1,0 +1,64 @@
+{
+  "status": "passed",
+  "frames": 24,
+  "methods": [
+    {
+      "method": "TMTM",
+      "frames": 24,
+      "NMLE_max": 0.0,
+      "exact_frames": 24
+    },
+    {
+      "method": "ST-MTM",
+      "frames": 24,
+      "NMLE_max": 0.0,
+      "exact_frames": 24
+    },
+    {
+      "method": "Hilbert",
+      "frames": 24,
+      "NMLE_max": 0.3787783592127445,
+      "exact_frames": 0
+    },
+    {
+      "method": "Morton",
+      "frames": 24,
+      "NMLE_max": 0.378778360883814,
+      "exact_frames": 0
+    },
+    {
+      "method": "RG-MTM-P",
+      "frames": 24,
+      "NMLE_max": 0.0,
+      "exact_frames": 24
+    },
+    {
+      "method": "RG-MTM-R 0.02",
+      "frames": 24,
+      "NMLE_max": 0.0,
+      "exact_frames": 24
+    },
+    {
+      "method": "RG-MTM-R 0.2",
+      "frames": 24,
+      "NMLE_max": 0.0,
+      "exact_frames": 24
+    },
+    {
+      "method": "RG-MTM-R 1",
+      "frames": 24,
+      "NMLE_max": 0.0,
+      "exact_frames": 24
+    }
+  ],
+  "verification_source_sha256": "0e4f295823747ef5dd29b9467e05d1f039e6fba5adf4e0a009f6f9bc9dd6ae37",
+  "checks": [
+    "exact source/input/output hashes",
+    "source-grid tree reconstruction",
+    "independent parent-chain LCA barriers",
+    "saved-raster topology signatures",
+    "independent reference-order inversions",
+    "native sample multisets",
+    "tracking reset across gaps"
+  ]
+}

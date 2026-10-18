@@ -134,6 +134,8 @@ def methods(ds):
 
 
 def windows(sc, ext, U, extent, k, eps_frac, diag, qs, theta, truth_mode='2d', axis_extent=None):
+    # Historical '2d' computes Euclidean distances and is dimension-independent.
+    if truth_mode in ('3d','spatial'):truth_mode='2d'
     if truth_mode not in ('2d', 'projected'):
         raise ValueError(f'unknown truth mode: {truth_mode}')
     if truth_mode == 'projected' and (axis_extent is None or axis_extent <= 0):

@@ -1,0 +1,146 @@
+{
+  "status": "passed_input_audit",
+  "author_settings_sha256": "b70b14d7806cc86267c0e74720adf2793c79402fc01114c3b2a671c607fa93d6",
+  "source_archive_members": 201,
+  "checked_indices": [
+    0,
+    100,
+    200
+  ],
+  "records": [
+    {
+      "paper_index": 0,
+      "source_time": 0.0,
+      "filename": "tangaroa-0.00.am",
+      "source_sha256": "4058826172581e1c055a69c62e9fc84bc19cb4e0da4d6b8b3ad106586d31c580",
+      "source_crc32": 4160470825,
+      "source_shape_zyxc": [
+        120,
+        180,
+        300,
+        3
+      ],
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "speed_range_float32": [
+        0.0,
+        3.0590057373046875
+      ],
+      "corrected_range": [
+        0.007938661612570286,
+        2.0
+      ],
+      "masked_samples_main": 13158,
+      "masked_samples_rendering": 13158,
+      "mask_workspace_difference_samples": 0,
+      "clipped_high_samples": 283,
+      "corrected_input_sha256": "9564eb77fc31648f78637e67df277ea39291974e93f44d0785e059953380d697",
+      "corrected_field_sha256": "fa9a5ea617eb9413573b13d6811257ae2a36946aae4625b7181e0298373edf15"
+    },
+    {
+      "paper_index": 100,
+      "source_time": 1.0,
+      "filename": "tangaroa-1.00.am",
+      "source_sha256": "312012f6cdcae61141961787e522f619ae9f36fef8d173fab6337976d6b3117e",
+      "source_crc32": 1384038721,
+      "source_shape_zyxc": [
+        120,
+        180,
+        300,
+        3
+      ],
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "speed_range_float32": [
+        0.0,
+        1.597286343574524
+      ],
+      "corrected_range": [
+        0.0008098405669443309,
+        1.597286343574524
+      ],
+      "masked_samples_main": 13158,
+      "masked_samples_rendering": 13158,
+      "mask_workspace_difference_samples": 0,
+      "clipped_high_samples": 0,
+      "corrected_input_sha256": "e9ca3dae0269333aa8be485c9b28cc1c2247556c377db82817b42fbeeb2ab444",
+      "corrected_field_sha256": "4fa13a7361dc48e7810f106d3ef5b0e044997aafe1f0e3ae6f45985ea78e8bf9"
+    },
+    {
+      "paper_index": 200,
+      "source_time": 2.0,
+      "filename": "tangaroa-2.00.am",
+      "source_sha256": "334b1726bca9bb612baeaf832dc00be8976d1b364e7f03e635cbc91c93c7a3e3",
+      "source_crc32": 3032147214,
+      "source_shape_zyxc": [
+        120,
+        180,
+        300,
+        3
+      ],
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "speed_range_float32": [
+        0.0,
+        1.4935719966888428
+      ],
+      "corrected_range": [
+        0.0007727614720351994,
+        1.4935719966888428
+      ],
+      "masked_samples_main": 13158,
+      "masked_samples_rendering": 13158,
+      "mask_workspace_difference_samples": 0,
+      "clipped_high_samples": 0,
+      "corrected_input_sha256": "c0db73ac007ca9a2d4fb30e3052b54eedd71a8ece7718f81ba690d31824bc8e3",
+      "corrected_field_sha256": "0ff111db5b4404de588e1ee0da973205697f0390b593db125158d7cb3e22b6e7"
+    }
+  ],
+  "source_identity_scope": "public official source, matching dimensions, times, physical bounds and recorded float32 maximum; author original exported scalar files/checksums are not published, so no byte-identical identity claim",
+  "corrected_input_scope": "author public main-workspace scalar preprocessing before TTK; not TTK-simplified fields or a complete 201-frame layout",
+  "ttk_simplification_applied": false,
+  "complete_201_frame_rgmtm_reproduction": false,
+  "rendering": {
+    "mode": "unlit CPU front-to-back direct volume rendering",
+    "camera_and_transfer_function": "author standalone volume-rendering workspace",
+    "sampling_rate": 8.0,
+    "spatial_resampling": false,
+    "spatial_smoothing": false,
+    "original_blinn_phong_lighting_reproduced": false,
+    "external_vessel_stl_included": false
+  },
+  "audit_source_sha256": "dc88c33acb91de194007faa9fdf5ef596cd086e3511c54d5d1747852503445d8"
+}

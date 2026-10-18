@@ -1,0 +1,50 @@
+[
+  {
+    "persistence_fraction": 0.0,
+    "retained_instances": 96,
+    "mean_leaves": 4.0,
+    "removed_share": 0.0,
+    "width_free_bound_mean": 0.047619047619047616,
+    "scope": "hierarchy-only deletion diagnostic; no TTK scalar-field simplification and no rendered comparison after pruning"
+  },
+  {
+    "persistence_fraction": 0.01,
+    "retained_instances": 96,
+    "mean_leaves": 4.0,
+    "removed_share": 0.0,
+    "width_free_bound_mean": 0.047619047619047616,
+    "scope": "hierarchy-only deletion diagnostic; no TTK scalar-field simplification and no rendered comparison after pruning"
+  },
+  {
+    "persistence_fraction": 0.02,
+    "retained_instances": 72,
+    "mean_leaves": 3.0,
+    "removed_share": 0.25,
+    "width_free_bound_mean": 0.047619047619047616,
+    "scope": "hierarchy-only deletion diagnostic; no TTK scalar-field simplification and no rendered comparison after pruning"
+  },
+  {
+    "persistence_fraction": 0.05,
+    "retained_instances": 72,
+    "mean_leaves": 3.0,
+    "removed_share": 0.25,
+    "width_free_bound_mean": 0.047619047619047616,
+    "scope": "hierarchy-only deletion diagnostic; no TTK scalar-field simplification and no rendered comparison after pruning"
+  },
+  {
+    "persistence_fraction": 0.1,
+    "retained_instances": 72,
+    "mean_leaves": 3.0,
+    "removed_share": 0.25,
+    "width_free_bound_mean": 0.047619047619047616,
+    "scope": "hierarchy-only deletion diagnostic; no TTK scalar-field simplification and no rendered comparison after pruning"
+  },
+  {
+    "persistence_fraction": 0.2,
+    "retained_instances": 72,
+    "mean_leaves": 3.0,
+    "removed_share": 0.25,
+    "width_free_bound_mean": 0.047619047619047616,
+    "scope": "hierarchy-only deletion diagnostic; no TTK scalar-field simplification and no rendered comparison after pruning"
+  }
+]

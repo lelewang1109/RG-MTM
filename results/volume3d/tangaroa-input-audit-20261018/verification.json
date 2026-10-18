@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "scope": "three original-resolution pre-TTK scalar inputs; not a complete paper reproduction",
+  "independent_decoder": true,
+  "records": [
+    {
+      "paper_index": 0,
+      "max_absolute_difference": 0.0,
+      "samples": 6480000
+    },
+    {
+      "paper_index": 100,
+      "max_absolute_difference": 0.0,
+      "samples": 6480000
+    },
+    {
+      "paper_index": 200,
+      "max_absolute_difference": 0.0,
+      "samples": 6480000
+    }
+  ],
+  "artifact_manifest_sha256": "7476d265d2e80518efa77409c58e11484c9ef80158b596e57d9a85645b69942d",
+  "verification_source_sha256": "2d6fbf790a5506884685968bb75bb5dc5cbb89e12a8c4e3533048b70fab0abcf"
+}

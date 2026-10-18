@@ -1,0 +1,26 @@
+{
+  "repository": "https://github.com/Wiebke/TemporalMergeTreeMaps",
+  "commit": "2c75a10ed2cd55177a25ff751e0c0a8261200717",
+  "source_path": "modules/mergetreemaps/data/workspaces/sequence_tangaroa_volRendering_closer.inv",
+  "source_sha256": "6741dd90a1d8a18712cc6a950b044dda21780f23a58d56bedc298c86bbe969ce",
+  "camera": {
+    "look_from": [
+      0.11136996,
+      -0.46109641,
+      -0.37699383
+    ],
+    "look_to": [
+      0.11136996,
+      -0.039846979,
+      -0.45789695
+    ],
+    "up": [
+      0.0,
+      0.18860804,
+      0.98205239
+    ],
+    "aspect": 2.7437072,
+    "fov": 38.0
+  },
+  "note": "Camera numbers extracted from the pinned public workspace; no third-party source file is redistributed."
+}

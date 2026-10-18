@@ -11,6 +11,18 @@ from provenance import verify_saved_file
 
 
 class RenameProvenanceTests(unittest.TestCase):
+    def test_historical_snapshot_requires_both_exact_hashes(self):
+        with tempfile.TemporaryDirectory() as temporary:
+            root=Path(temporary);(root/'analysis').mkdir();(root/'provenance').mkdir()
+            before=b'value=2\n';after=b'value=3\n'
+            current=root/'analysis/example.py';current.write_bytes(after)
+            sha=lambda x:hashlib.sha256(x).hexdigest()
+            record={'sources':{'analysis/example.py':dict(before_sha256=sha(before),after_sha256=sha(after),reverse_edits=[[6,7,'2']])}}
+            (root/'provenance/volume3d_extension_20261017.json').write_text(json.dumps(record))
+            self.assertEqual(verify_saved_file(root,'analysis/example.py',sha(before)),'verified historical source snapshot')
+            current.write_bytes(after+b'# unregistered\n')
+            with self.assertRaises(ValueError):verify_saved_file(root,'analysis/example.py',sha(before))
+
     def test_exact_rename_and_subsequent_tampering(self):
         with tempfile.TemporaryDirectory() as temporary:
             root = Path(temporary)

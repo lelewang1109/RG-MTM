@@ -1,0 +1,116 @@
+{
+  "dataset": "tangaroa",
+  "frames": 12,
+  "shape_tzyx": [
+    12,
+    12,
+    18,
+    30
+  ],
+  "leaves": [
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    5,
+    4,
+    4,
+    4,
+    4
+  ],
+  "scalar_range": 0.757995846477462,
+  "reference": {
+    "kind": "direction",
+    "origin": -0.35,
+    "extent": 1.0,
+    "label": "position along fixed 3-D motion direction",
+    "candidates": {
+      "direction": {
+        "a": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "capture": 0.7411776774723021,
+        "eigenvalues": [
+          0.0,
+          0.0012456747404844281,
+          0.0035671819262782373
+        ],
+        "relative_eigengap": 0.482355354944604,
+        "fallback": false
+      },
+      "matched_steps": 56
+    }
+  },
+  "parameters": {
+    "canvas": 1.0,
+    "width_scale": 3.4870113168724273,
+    "gap": 0.004166666666666667,
+    "rho": 0.5,
+    "extra_budget": 0.008333333333333333,
+    "motion_weight": 0.5,
+    "eccentricity_weight": 0.1,
+    "reference_weight": 4.0,
+    "geometry_weight": 1.0,
+    "normalize_terms": true,
+    "temporal_mode": "residual",
+    "canvas_origin": -0.35
+  },
+  "conflict_frames": 0,
+  "extraction_seconds": 4.166618666999966,
+  "seconds": 19.711015750000115,
+  "runtime": {
+    "python": "3.10.19 (main, Oct  9 2025, 15:25:03) [Clang 17.0.0 (clang-1700.6.3.2)]",
+    "numpy": "2.0.2",
+    "platform": "macOS-26.6.2-arm64-arm-64bit"
+  },
+  "source_sha256": {
+    "experiments/volume3d/run.py": "76558099a75222045049b7860d37c3bc2688df553f6d65c33eeaceda86b64eb2",
+    "experiments/volume3d/prepare.py": "e9e92150cf25be13f8a8060e16144e528c94ee9c1ab095db25149976b846b5c0",
+    "experiments/era5.py": "c57b98f41959bb8c8af6b8709e3df7098824c300dcfa73e912218ac8f8bf6574",
+    "analysis/general_method.py": "b518774e7ce6a51de15f4390c5e09923a098fce1cbb5564cf4f1acb8d33381c9",
+    "analysis/evaluation.py": "c8399968bd9d6c743fe0b23373324c07fe2b1037ec395d3f788440dbd05c1fa3",
+    "analysis/relax_hierarchy.py": "f855bf7eb13726c19e492f56317758c4d6da48ee1cc3a35c3a271a258f99e335",
+    "analysis/conflict_strategies.py": "00fc6cd54c39200cd515c0fa1f196447d163c28116f18a8aff3900e1d50d0b61",
+    "analysis/filling.py": "17518b2e861e25791024ec7b4a80f20e16a5c702edfcbb1e96b6b38d0f0d50e0",
+    "analysis/theory.py": "4f455d250466df2cb6db1079c4e452301e2c737cc094085ad82b4c75385d112e",
+    "analysis/certificate_core.py": "68f7093008e0264b538fedb26f127d7778eb675198759a75dc37db3395393d1d",
+    "analysis/result_tables.py": "ae1f9ac08669eb5c499955fb9f2f3a3eec98b56cb0096e79339d467e3a587f12",
+    "analysis/persistence.py": "1f7076753e97928575b143b5fe15de0fd152294d1d325c20b635e38b5a479003",
+    "analysis/pointcert.py": "dc4894ce3b1dcae0c602ff98b08260c452a94b2fd882a66d589892bc611e8888",
+    "src/rgmtm/reference_points.py": "7b33e159e92c24b732e5587b0a9adaeb451095f080a711a1cc48f5aab99e05db",
+    "src/rgmtm/baselines/space_filling.py": "e4a5af03dd4adeb4cceb01d1799c74932d1f88116391efceceed8a0093d574d9",
+    "src/rgmtm/baselines/tmtm.py": "6e4afab614042ab798f904a8c1e6928bc50bb822840c6f9fc7f9d4f4e2188f73",
+    "src/rgmtm/baselines/stmtm.py": "97a232bfbd6b4b7f8e0d125396a2a6d3619b5f661c106ded574c55d1c5be5f77",
+    "src/rgmtm/reference_guided.py": "4e59be569228b10bf9010f3c92bfcb683207e62af1e6af190dc5ef90d5bbb188",
+    "src/rgmtm/error_budget.py": "5ce53150773d8058b0a50c7907f5133995a88ea8cc87defdd1e2b34bd80b82fa",
+    "experiments/volume3d/prepare_tangaroa_official.py": "775d9fb0fac5dfd495ad8f711a643532f1ff00d292cf5b4358a9428a4384ed8f"
+  },
+  "artifact_sha256": {
+    "Hilbert_map.npz": "ece686af3b3c0c518ec5a31630c08f2b9817206485201eea92e6225c5018e60e",
+    "Morton_map.npz": "77e97b491e442f6a14c1c5c99ee242f0c5ba6ab2287dd058671957bf675c4ea2",
+    "RG-MTM-P_layouts.json": "b7eb7bfdfbca4efe57e0c19181db9705a0188ca4c1a0ecab3bc716163b844c1d",
+    "RG-MTM-P_map.npz": "8d5a2ce02d27ce7e63b3c3bf12f06b426519cfbc82fa8035fa9ff0635e4d8108",
+    "RG-MTM-R_0.02_layouts.json": "b7eb7bfdfbca4efe57e0c19181db9705a0188ca4c1a0ecab3bc716163b844c1d",
+    "RG-MTM-R_0.02_map.npz": "8d5a2ce02d27ce7e63b3c3bf12f06b426519cfbc82fa8035fa9ff0635e4d8108",
+    "RG-MTM-R_0.2_layouts.json": "b7eb7bfdfbca4efe57e0c19181db9705a0188ca4c1a0ecab3bc716163b844c1d",
+    "RG-MTM-R_0.2_map.npz": "8d5a2ce02d27ce7e63b3c3bf12f06b426519cfbc82fa8035fa9ff0635e4d8108",
+    "RG-MTM-R_1_layouts.json": "b7eb7bfdfbca4efe57e0c19181db9705a0188ca4c1a0ecab3bc716163b844c1d",
+    "RG-MTM-R_1_map.npz": "8d5a2ce02d27ce7e63b3c3bf12f06b426519cfbc82fa8035fa9ff0635e4d8108",
+    "TMTM_map.npz": "42c4be1b3eb9e325212d71e9774eaa27643081430828ee43926a9d6fc70e736b",
+    "certificates.json": "c54e6d5d5dd6c2e6a2c76d664c61a0461f164af60533010412f219f3f6a8f2b9",
+    "features.json": "e9b0f772cc4f59f8dd434a0d36a89fde3767b0dd597726bc366b84cf77feff88",
+    "frame_metrics.json": "1ed4a4ed8884462d52e81f237d7beddf1facd3a16062a4c2cb38ee6d3c7f0d2c",
+    "input_protocol.json": "77e1b67a7a674f213014efeec40a0e81af5fa7167868f2732bf8f752ae2b8548",
+    "metrics.json": "46e9d8e9431144f16fbcb069ae6529e22b00d6a5b49c08f51aa0ea9a1457166a",
+    "persistence_diagnostic.json": "3dfa6e6620720fd453733ba9fb17a167fa5992e8a4bf5dc023a410f512d6c3f1",
+    "preprocessing_audit.json": "56b31426460da187f3aff638b64ef49cf2f6440f9588516856ef3ed99b185297",
+    "processed_fields.npz": "1d8d0eb88f84fbd9a8b3eb86bbe27ca238d22c69a0d2c9d590d8e14ad07e8f3e",
+    "protocol.json": "566b5d951673918b6f4e95e84f2953667842a27230c32161ec75d05727e33d02",
+    "reference_axes.json": "3afa88a82d2d4277ff6a47d22c3a1f49fd99069a0e095e9989d69522fcad8154"
+  }
+}

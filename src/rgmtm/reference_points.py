@@ -19,7 +19,7 @@ def reference_points_from_frames(frames, leaf_ids, *, kind):
             raise ValueError('reference IDs must identify every frame leaf exactly once')
         points = (frame.coordinates[list(ids)] if kind == 'extremum' else
                   np.array([frame.leaf_centroid(i) for i in ids]))
-        if points.ndim != 2 or points.shape[1] != 2 or not np.isfinite(points).all():
-            raise ValueError('finite 2-D reference points required')
+        if points.ndim != 2 or points.shape[1] not in (2,3) or not np.isfinite(points).all():
+            raise ValueError('finite 2-D or 3-D reference points required')
         result.append(points.copy())
     return result

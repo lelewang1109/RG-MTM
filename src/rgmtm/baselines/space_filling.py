@@ -1,4 +1,4 @@
-"""Native sample linearizations by fixed canonical 2-D Hilbert/Morton curves.
+"""Native sample linearizations by fixed canonical 2-D/3-D Hilbert/Morton curves.
 
 Every scalar grid cell appears exactly once. A minimal power-of-two square
 is used for indexing; out-of-domain cells are discarded, never interpolated.
@@ -21,6 +21,7 @@ def _hilbert_xy(side, distance):
 
 @lru_cache(maxsize=32)
 def sample_order(shape, curve):
+ if len(shape)==3:return _sample_order_3d(shape,curve)
  ny,nx=map(int,shape)
  if min(ny,nx)<1:raise ValueError('Grid dimensions must be positive')
  if curve not in ('Hilbert','Morton'):raise ValueError(f'Unknown curve: {curve}')
@@ -36,9 +37,29 @@ def sample_order(shape, curve):
  order.setflags(write=False)
  return order
 
+def _sample_order_3d(shape,curve):
+ nz,ny,nx=map(int,shape)
+ if min(nz,ny,nx)<1:raise ValueError('Grid dimensions must be positive')
+ if curve not in ('Hilbert','Morton'):raise ValueError(f'Unknown curve: {curve}')
+ bits=max(1,(max(nx,ny,nz)-1).bit_length())
+ z,y,x=np.indices((nz,ny,nx));points=np.c_[x.ravel(),y.ravel(),z.ravel()]
+ if curve=='Hilbert':
+  # Skilling n-D implementation; fixed x,y,z orientation, no fitting/search.
+  from hilbertcurve.hilbertcurve import HilbertCurve
+  codes=HilbertCurve(bits,3).distances_from_points(points)
+ else:
+  if 3*bits>63:raise ValueError('Morton grid exceeds uint64 capacity')
+  codes=np.zeros(len(points),dtype=np.uint64)
+  for b in range(bits):
+   for axis in range(3):codes|=((points[:,axis].astype(np.uint64)>>b)&1)<<(3*b+axis)
+ order=np.argsort(codes,kind='stable')
+ if not np.array_equal(np.sort(order),np.arange(nx*ny*nz)):raise AssertionError('Not a complete sample permutation')
+ order.setflags(write=False)
+ return order
+
 def linearize(fields, curve):
  fields=np.asarray(fields,float)
- if fields.ndim!=3 or not np.isfinite(fields).all():raise ValueError('Expected finite T×Y×X scalar fields')
+ if fields.ndim not in (3,4) or not np.isfinite(fields).all():raise ValueError('Expected finite T×Y×X or T×Z×Y×X scalar fields')
  return fields.reshape(len(fields),-1)[:,sample_order(fields.shape[1:],curve)].T
 
 def inverse_order(shape,curve):
