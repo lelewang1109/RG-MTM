@@ -18,6 +18,15 @@ METHODS = {'TMTM':'TMTM', 'ST-MTM':'ST-MTM', 'A':'RG-MTM-P', 'R 20%':'RG-MTM-R20
 FILES = {}
 
 def sha(p): return hashlib.sha256(p.read_bytes()).hexdigest()
+
+def frozen_authoring_sha():
+    """Preserve the frozen manifest through an explicitly recorded path-only fix."""
+    ledger = json.loads((ROOT/'provenance/github_portability_20261023.json').read_text())
+    assert sha(Path(__file__)) == ledger['after_sha256'], 'Unregistered builder change'
+    original = ledger['before_source'].encode('utf-8')
+    assert hashlib.sha256(original).hexdigest() == ledger['before_sha256']
+    return ledger['before_sha256']
+
 def load(name):
     p = ROOT/name; FILES[name] = sha(p)
     return json.loads(p.read_text())
@@ -254,7 +263,7 @@ def main():
     # Manifest records inputs, selected population, and byte-exact generated outputs.
     manifest=dict(scope=summary['scope'],population=summary['population'],source_sha256=FILES,
         generated_sha256={n:hashlib.sha256(s.encode()).hexdigest() for n,s in result.items()},
-        authoring_script='tools/build_submission20261023.py',authoring_script_sha256=sha(Path(__file__)),
+        authoring_script='tools/build_submission20261023.py',authoring_script_sha256=frozen_authoring_sha(),
         historical_manifest='results/publication2027/manifest.json',historical_manifest_sha256=sha(ROOT/'results/publication2027/manifest.json'))
     result['manifest.json']=json.dumps(manifest,indent=2,ensure_ascii=False)+'\n'
     for rel,s in result.items():

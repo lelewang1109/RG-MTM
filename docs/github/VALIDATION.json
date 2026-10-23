@@ -247,5 +247,6 @@
     "LaTeX README figure count corrected to current catalog"
   ],
   "ci_dependency_fix": "Complete existing tests import optional 3D dependencies; CI and documented test installation include code[volume3d].",
-  "historical_audit_path_fix": "Historical absolute source keys are relocated to this checkout before checking their unchanged SHA256; no fallback to the original computer."
+  "historical_audit_path_fix": "Historical absolute source keys are relocated to this checkout before checking their unchanged SHA256; no fallback to the original computer.",
+  "historical_authoring_identity": "Original source snapshot and exact before/after hashes retained in code/provenance/github_portability_20261023.json; frozen manifests unchanged."
 }
