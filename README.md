@@ -27,7 +27,7 @@
 ```sh
 # 从克隆后的仓库根目录执行
 python3 -m venv .venv
-.venv/bin/python -m pip install -e ./code
+.venv/bin/python -m pip install -e './code[volume3d]'
 cd code
 PYTHONPATH=src ../.venv/bin/python -m unittest discover -s tests -v
 PYTHONPATH=src ../.venv/bin/python tools/build_submission20261023.py --check

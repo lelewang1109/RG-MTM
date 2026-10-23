@@ -245,5 +245,6 @@
   "publishing_documentation_edits": [
     "Repository navigation and source-package links",
     "LaTeX README figure count corrected to current catalog"
-  ]
+  ],
+  "ci_dependency_fix": "Complete existing tests import optional 3D dependencies; CI and documented test installation include code[volume3d]."
 }
