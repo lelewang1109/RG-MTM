@@ -1,0 +1,4 @@
+# Keep generated evidence byte-for-byte: CSV CRLF and Matplotlib SVG path
+# whitespace are part of the recorded hashes, not hand-authored source style.
+results/volume3d/** -text -whitespace
+experiments/volume3d/inputs/** -text

@@ -1,0 +1,379 @@
+{
+  "date": "2026-10-23",
+  "original_files": 21490,
+  "unaccounted_files": [],
+  "size_changes": [
+    {
+      "original": "paper_revision/DELIVERY_MANIFEST.json",
+      "current": "RG-MTM/paper/DELIVERY_MANIFEST.json",
+      "before": 85252,
+      "after": 71513
+    },
+    {
+      "original": "paper_revision/STYLE_GUIDE.md",
+      "current": "RG-MTM/paper/STYLE_GUIDE.md",
+      "before": 11312,
+      "after": 10599
+    },
+    {
+      "original": "paper_revision/README.md",
+      "current": "其他/归档/整理前说明/RG-MTM/paper/README.md",
+      "before": 4795,
+      "after": 3810
+    },
+    {
+      "original": "paper_revision/manuscript/RG-MTM_LaTeX.zip",
+      "current": "RG-MTM/paper/manuscript/RG-MTM_LaTeX.zip",
+      "before": 36136693,
+      "after": 28170513
+    },
+    {
+      "original": "paper_revision/manuscript/latex/additional_datasets_supplement.tex",
+      "current": "RG-MTM/paper/manuscript/latex/additional_datasets_supplement.tex",
+      "before": 12811,
+      "after": 12366
+    },
+    {
+      "original": "paper_revision/manuscript/latex/README.md",
+      "current": "其他/归档/整理前说明/RG-MTM/paper/manuscript/latex/README.md",
+      "before": 3689,
+      "after": 3063
+    },
+    {
+      "original": "paper_revision/manuscript/latex/full_baseline_comparisons.tex",
+      "current": "RG-MTM/paper/manuscript/latex/full_baseline_comparisons.tex",
+      "before": 8200,
+      "after": 8071
+    },
+    {
+      "original": "paper_revision/manuscript/latex/tools/export_event_figures.py",
+      "current": "RG-MTM/paper/manuscript/latex/tools/export_event_figures.py",
+      "before": 6017,
+      "after": 6007
+    },
+    {
+      "original": "paper_revision/manuscript/latex/tools/export_existing_figures.py",
+      "current": "RG-MTM/paper/manuscript/latex/tools/export_existing_figures.py",
+      "before": 5254,
+      "after": 5249
+    },
+    {
+      "original": "paper_revision/manuscript/latex/tools/compose_tangaroa_existing.py",
+      "current": "RG-MTM/paper/manuscript/latex/tools/compose_tangaroa_existing.py",
+      "before": 3630,
+      "after": 3620
+    },
+    {
+      "original": "paper_revision/manuscript/latex/figures/cylinder.tex",
+      "current": "RG-MTM/paper/manuscript/latex/figures/cylinder.tex",
+      "before": 842,
+      "after": 700
+    },
+    {
+      "original": "paper_revision/scripts/solve_fig1_december_xaxis.py",
+      "current": "RG-MTM/paper/scripts/solve_fig1_december_xaxis.py",
+      "before": 3225,
+      "after": 3220
+    },
+    {
+      "original": "paper_revision/scripts/verify_results_float_layout.py",
+      "current": "其他/归档/过期或一次性脚本/verify_results_float_layout.py",
+      "before": 3105,
+      "after": 3150
+    },
+    {
+      "original": "paper_revision/scripts/fig1_audit_events.py",
+      "current": "RG-MTM/paper/scripts/fig1_audit_events.py",
+      "before": 8142,
+      "after": 8132
+    },
+    {
+      "original": "paper_revision/scripts/prepare_cases.py",
+      "current": "RG-MTM/paper/scripts/prepare_cases.py",
+      "before": 16082,
+      "after": 16077
+    },
+    {
+      "original": "paper_revision/scripts/verify_comprehensive_revision.py",
+      "current": "RG-MTM/paper/scripts/verify_comprehensive_revision.py",
+      "before": 5076,
+      "after": 5532
+    },
+    {
+      "original": "paper_revision/scripts/run_fig1_december_xaxis.py",
+      "current": "RG-MTM/paper/scripts/run_fig1_december_xaxis.py",
+      "before": 3370,
+      "after": 3365
+    },
+    {
+      "original": "paper_revision/scripts/prepare_fig1_direction_comparison.py",
+      "current": "RG-MTM/paper/scripts/prepare_fig1_direction_comparison.py",
+      "before": 8309,
+      "after": 8304
+    },
+    {
+      "original": "paper_revision/scripts/install_selected_fig1.py",
+      "current": "RG-MTM/paper/scripts/install_selected_fig1.py",
+      "before": 6502,
+      "after": 6679
+    },
+    {
+      "original": "paper_revision/scripts/install_dendrogram_transfer.py",
+      "current": "RG-MTM/paper/scripts/install_dendrogram_transfer.py",
+      "before": 2194,
+      "after": 2184
+    },
+    {
+      "original": "paper_revision/scripts/sync_supplementary_catalog.py",
+      "current": "RG-MTM/paper/scripts/sync_supplementary_catalog.py",
+      "before": 6189,
+      "after": 6238
+    },
+    {
+      "original": "paper_revision/scripts/prepare_figure1.py",
+      "current": "RG-MTM/paper/scripts/prepare_figure1.py",
+      "before": 14824,
+      "after": 14819
+    },
+    {
+      "original": "paper_revision/scripts/select_manuscript_teaser.py",
+      "current": "RG-MTM/paper/scripts/select_manuscript_teaser.py",
+      "before": 947,
+      "after": 992
+    },
+    {
+      "original": "paper_revision/scripts/diagnose_line_visibility.py",
+      "current": "RG-MTM/paper/scripts/diagnose_line_visibility.py",
+      "before": 10013,
+      "after": 10008
+    },
+    {
+      "original": "paper_revision/scripts/sync_figure_catalog.py",
+      "current": "RG-MTM/paper/scripts/sync_figure_catalog.py",
+      "before": 5955,
+      "after": 6004
+    },
+    {
+      "original": "paper_revision/scripts/publish_fig1_direction_comparison.py",
+      "current": "RG-MTM/paper/scripts/publish_fig1_direction_comparison.py",
+      "before": 2057,
+      "after": 2122
+    },
+    {
+      "original": "paper_revision/scripts/regenerate_fig1_direction_comparison.py",
+      "current": "RG-MTM/paper/scripts/regenerate_fig1_direction_comparison.py",
+      "before": 1240,
+      "after": 1237
+    },
+    {
+      "original": "paper_revision/scripts/validate_fig1_direction_data.py",
+      "current": "RG-MTM/paper/scripts/validate_fig1_direction_data.py",
+      "before": 2396,
+      "after": 2391
+    },
+    {
+      "original": "02-RG-MTM/tools/build_latest_experiment_index.py",
+      "current": "RG-MTM/code/tools/build_latest_experiment_index.py",
+      "before": 4437,
+      "after": 5442
+    },
+    {
+      "original": "02-RG-MTM/experiments/latest/manifest.json",
+      "current": "RG-MTM/code/experiments/latest/manifest.json",
+      "before": 152459,
+      "after": 159837
+    },
+    {
+      "original": "02-RG-MTM/experiments/volume3d/verify_saved.py",
+      "current": "RG-MTM/code/experiments/volume3d/verify_saved.py",
+      "before": 5810,
+      "after": 6006
+    },
+    {
+      "original": "02-RG-MTM/results/rgmtm_rename_validation.json",
+      "current": "RG-MTM/code/results/rgmtm_rename_validation.json",
+      "before": 210,
+      "after": 209
+    }
+  ],
+  "protected_files": 1580,
+  "unchanged_protected_hashes": 1553,
+  "missing_protected_files": [],
+  "changed_protected_files": [
+    {
+      "original": "paper_revision/DELIVERY_MANIFEST.json",
+      "current": "RG-MTM/paper/DELIVERY_MANIFEST.json",
+      "before_sha256": "20313c7fb11ce8d817888ffb657701de6ed96077d5905ef8936983af0ccd1387",
+      "after_sha256": "9418074586899aef22e1af0044ecd658244b365a732b86f94dfa399a50f4774e"
+    },
+    {
+      "original": "paper_revision/manuscript/RG-MTM_LaTeX.zip",
+      "current": "RG-MTM/paper/manuscript/RG-MTM_LaTeX.zip",
+      "before_sha256": "062ca3dcc9bdd01c18b7fc10a105dc91388a58039eec3ff238aaccadb01a4ffc",
+      "after_sha256": "528aa1676d1151545ef8493d2104fb498b13531ca4727d13911779156fa1fbb1"
+    },
+    {
+      "original": "paper_revision/manuscript/latex/tools/export_event_figures.py",
+      "current": "RG-MTM/paper/manuscript/latex/tools/export_event_figures.py",
+      "before_sha256": "dec93b507cac108325dcb49b6c02e449c620780f435fe64f4b34c2568b662990",
+      "after_sha256": "0f1a9fd0a6e6bb43094c32eb5884a3a285471eeed2902fcc3a37d6971917d8ca"
+    },
+    {
+      "original": "paper_revision/manuscript/latex/tools/export_existing_figures.py",
+      "current": "RG-MTM/paper/manuscript/latex/tools/export_existing_figures.py",
+      "before_sha256": "34f33bf66951e19b8bda6e97d8f3b89a224032d0fc19a992b3cd36e1f1f777b0",
+      "after_sha256": "da9f5f3797a5332eb048e2bfcd2233423255dc243bac58971b7eee5e7f045b0d"
+    },
+    {
+      "original": "paper_revision/manuscript/latex/tools/compose_tangaroa_existing.py",
+      "current": "RG-MTM/paper/manuscript/latex/tools/compose_tangaroa_existing.py",
+      "before_sha256": "750e79941fd873a250330a95be7faa4c2c5e49fdf1c4af0e5eea2065ae9fe854",
+      "after_sha256": "5e60f0543643aba9077594c57d995cd9ba52a641c2591fb2810e17525e964a49"
+    },
+    {
+      "original": "paper_revision/scripts/solve_fig1_december_xaxis.py",
+      "current": "RG-MTM/paper/scripts/solve_fig1_december_xaxis.py",
+      "before_sha256": "74e7375ddbe3f9873fcbdacf7ec4273b3bce9f816ede7d69a3cc6a8fcbb275b5",
+      "after_sha256": "c80a2d66181bc17918b8bb088d96dade1940d7e20d923c9498ea58dba53144eb"
+    },
+    {
+      "original": "paper_revision/scripts/verify_results_float_layout.py",
+      "current": "其他/归档/过期或一次性脚本/verify_results_float_layout.py",
+      "before_sha256": "742db1c368a8100192903912313f13496a4f8e7c2fb71df119fe5511d3d0ab1f",
+      "after_sha256": "2bcf47116376e9fd38c2ce5abae3aa1cbbf15d2805d290a60a899c08064ee3e7"
+    },
+    {
+      "original": "paper_revision/scripts/fig1_audit_events.py",
+      "current": "RG-MTM/paper/scripts/fig1_audit_events.py",
+      "before_sha256": "18cfb3041861ad4f07a66bf30b4b76440b95398054e367add464181b6ae16b14",
+      "after_sha256": "739be8a3a8d869e4b597efa43cab0c514e811a991d4c1ac73a7f6e52fb147119"
+    },
+    {
+      "original": "paper_revision/scripts/prepare_cases.py",
+      "current": "RG-MTM/paper/scripts/prepare_cases.py",
+      "before_sha256": "8f7b4f12b385d2daeab934d4f4daac323586fb6ce41f4ade1973647eca609f15",
+      "after_sha256": "1409bd68149a2de95cdce2614e7de11c31dffd0174c620f8ad78e246252b857e"
+    },
+    {
+      "original": "paper_revision/scripts/verify_comprehensive_revision.py",
+      "current": "RG-MTM/paper/scripts/verify_comprehensive_revision.py",
+      "before_sha256": "e0eb7e303e3123da19ee53969737265d84fddcb814d654f6a74a198a37700bd8",
+      "after_sha256": "68837d8f66b5375b044c5f2d0424c3b3b33c09cd62bca8f7eba6fb5e96536613"
+    },
+    {
+      "original": "paper_revision/scripts/run_fig1_december_xaxis.py",
+      "current": "RG-MTM/paper/scripts/run_fig1_december_xaxis.py",
+      "before_sha256": "702b8a5f9f62a1c2fec98c8b53b7b7aba87e2abca9c28c82e3585ad68957b71c",
+      "after_sha256": "038f21e34920d53267e0af745bce6c46e675f151592f795135f39076b3cb2e81"
+    },
+    {
+      "original": "paper_revision/scripts/prepare_fig1_direction_comparison.py",
+      "current": "RG-MTM/paper/scripts/prepare_fig1_direction_comparison.py",
+      "before_sha256": "d21cfc5ab7467684cd805ec9a8947ee8b5e294c4a77fa6bf381d554e4e3acf12",
+      "after_sha256": "601eccaf2c6b9da240e9c054811262c31813f8be9fc2e32bf9fcf850dae529c9"
+    },
+    {
+      "original": "paper_revision/scripts/install_selected_fig1.py",
+      "current": "RG-MTM/paper/scripts/install_selected_fig1.py",
+      "before_sha256": "317c3329c3982d90368850b8b1228d45e78284387829318f50eded8ab484fdf5",
+      "after_sha256": "9acd7694e3030625d9ccd87cb42a6aee5a94a5d1099d663dc0d6adf0d82defa6"
+    },
+    {
+      "original": "paper_revision/scripts/install_dendrogram_transfer.py",
+      "current": "RG-MTM/paper/scripts/install_dendrogram_transfer.py",
+      "before_sha256": "c9e646300161aa74a04ceedf446489a914cbd37fe74452baee7e6a94c6ba0c06",
+      "after_sha256": "36ea282ceb490befea2f0e2ab8b9f148803be4ef381ee4a74a49cd20c946847e"
+    },
+    {
+      "original": "paper_revision/scripts/sync_supplementary_catalog.py",
+      "current": "RG-MTM/paper/scripts/sync_supplementary_catalog.py",
+      "before_sha256": "ccfd51e5573b0c119c52def2915e2ad3f9ac670b520377f2dda2d0f4b156b083",
+      "after_sha256": "2faac0c367b43d026bc66ba9e86bcf2fe0e30d43db21d184dca0c647e5d9f9f9"
+    },
+    {
+      "original": "paper_revision/scripts/prepare_figure1.py",
+      "current": "RG-MTM/paper/scripts/prepare_figure1.py",
+      "before_sha256": "8812513d7232f4a07a8a27e5b013c8edf28169caf9e7d463b44941a6eefb344e",
+      "after_sha256": "f4eb8e9bc3a23aa9ca738b25459b390b1f46730772cba6a216b7ed29d92e46d6"
+    },
+    {
+      "original": "paper_revision/scripts/select_manuscript_teaser.py",
+      "current": "RG-MTM/paper/scripts/select_manuscript_teaser.py",
+      "before_sha256": "7ce43aaa8bc15e9624150a6429e7853c4d3350c4233876b6076578e667f6e5f0",
+      "after_sha256": "82f681aff63545f6202ee8e9d8993316a4035a5a1ac39d472f89da64cf76b917"
+    },
+    {
+      "original": "paper_revision/scripts/diagnose_line_visibility.py",
+      "current": "RG-MTM/paper/scripts/diagnose_line_visibility.py",
+      "before_sha256": "4226ed3051bc77102a6c95b445379b6b0cdc7a5b94a5fe02c3e52d653dbde890",
+      "after_sha256": "bba08e5fe1213576f2cb60da120a839e31f5dcf10689d40ea79dfc6fa7f6d267"
+    },
+    {
+      "original": "paper_revision/scripts/sync_figure_catalog.py",
+      "current": "RG-MTM/paper/scripts/sync_figure_catalog.py",
+      "before_sha256": "92489afdc9ad0bb188a3785813432249b73317f2985b9b8f0047eeb0bc61c1a8",
+      "after_sha256": "4aaa6911200f204091d2d965bb5be7fd5d6a91fef2b18ebd9f220338399d7c8a"
+    },
+    {
+      "original": "paper_revision/scripts/publish_fig1_direction_comparison.py",
+      "current": "RG-MTM/paper/scripts/publish_fig1_direction_comparison.py",
+      "before_sha256": "4213efb9046054c78569b2984e0d2bb2fad2c059dfbd08a5a4771ee9bd9fd172",
+      "after_sha256": "e3170660da27d83aefb464418591c578792c9787f260c20f9a4797d50dd274e9"
+    },
+    {
+      "original": "paper_revision/scripts/regenerate_fig1_direction_comparison.py",
+      "current": "RG-MTM/paper/scripts/regenerate_fig1_direction_comparison.py",
+      "before_sha256": "a97bc1add53ca37a2340765bf406511257c2c68e28f5f034209c3616cbca9b48",
+      "after_sha256": "a7843a273bcfe0a59a4a4b73d11954fbcc4cd03bb9c2d423a94e00d83b0cf6f4"
+    },
+    {
+      "original": "paper_revision/scripts/validate_fig1_direction_data.py",
+      "current": "RG-MTM/paper/scripts/validate_fig1_direction_data.py",
+      "before_sha256": "5c3b3c61c26623b20a6e1e6e5ddd91444f0f818930f4b2633dd6036db502951a",
+      "after_sha256": "3dcbc8e76c064108caa8bbf4e20a3f696c68291eb9219317b12979666440c97c"
+    },
+    {
+      "original": "02-RG-MTM/tools/build_latest_experiment_index.py",
+      "current": "RG-MTM/code/tools/build_latest_experiment_index.py",
+      "before_sha256": "fc59e507420eea1453f79065b55da3175354540d55c74f11063c7f1ce0738c52",
+      "after_sha256": "444fd73a16d7b6e3e9c4248a9c02c44e9a77d6661a878a0aa4d394e3691ef2fc"
+    },
+    {
+      "original": "02-RG-MTM/experiments/latest/manifest.json",
+      "current": "RG-MTM/code/experiments/latest/manifest.json",
+      "before_sha256": "eeca1f7b550e7d627c99df7d9eb1d343e2e9c08d3a65668b35914f29330d7660",
+      "after_sha256": "396c004726b2246f5bed0c8bf738a21daf0b763d7ad81f69883aebc2fb99699c"
+    },
+    {
+      "original": "02-RG-MTM/experiments/volume3d/verify_saved.py",
+      "current": "RG-MTM/code/experiments/volume3d/verify_saved.py",
+      "before_sha256": "a36195222aa0ac93207d811ce48b1e1f0d6aa89a3673b827ddeb7e5cd5d3432f",
+      "after_sha256": "1789c2344b3f268dcb74dea365ae36ba9fa253ded16a48460250fbe18f952343"
+    },
+    {
+      "original": "02-RG-MTM/results/rgmtm_rename_validation.json",
+      "current": "RG-MTM/code/results/rgmtm_rename_validation.json",
+      "before_sha256": "61884ca106a33631c76039a48e40264b70c8219ef6926fa2ea8fa6151976f527",
+      "after_sha256": "c7c17d4440887d5f1b5a16494ba3ddd6c69ce50f61eb7f24ec41f5c2d6c51eed"
+    }
+  ],
+  "critical_scientific_changes": [],
+  "main_tex_files": 28,
+  "supplement_tex_files": 25,
+  "main_figures": 11,
+  "supplement_figures": 15,
+  "reachable_tex_files": 53,
+  "symlinks_checked": 129,
+  "broken_symlinks": [],
+  "operations": 772,
+  "operation_counts": {
+    "move": 462,
+    "deduplicate_to_symlink": 81,
+    "repair_symlink": 46,
+    "delete_cache": 150,
+    "external_relocated": 3,
+    "edit_paths_or_index": 30
+  },
+  "duplicate_bytes_removed": 55321255,
+  "deleted_cache_bytes": 1342267
+}

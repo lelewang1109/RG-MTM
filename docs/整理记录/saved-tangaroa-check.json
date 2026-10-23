@@ -1,0 +1,10 @@
+{
+  "name": "saved_tangaroa_archive_path",
+  "command": "PYTHONPATH=src:analysis:. ../../.venv/bin/python -m experiments.volume3d.verify_saved",
+  "cwd": "RG-MTM/code",
+  "chunk_id": "44797c",
+  "wall_time_seconds": 0.079194,
+  "exit_code": 0,
+  "original_token_count": 101,
+  "output": "{\n  \"status\": \"passed\",\n  \"scope\": \"published evidence bindings only; no raw-input or full-array numerical revalidation\",\n  \"original_grid_xyz\": [\n    300,\n    180,\n    120\n  ],\n  \"frames\": 201,\n  \"methods\": [\n    \"TMTM\",\n    \"RG-MTM-P\",\n    \"RG-MTM-R 0.02\",\n    \"RG-MTM-R 0.2\",\n    \"RG-MTM-R 1\",\n    \"Exact projection\"\n  ],\n  \"original_input_tree_identity_claimed\": false,\n  \"numerical_rerun\": false\n}\n"
+}

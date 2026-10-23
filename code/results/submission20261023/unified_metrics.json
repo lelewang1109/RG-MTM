@@ -1,0 +1,968 @@
+{
+  "scope": "Nine-input submission with independently verified full-year 2000 PM2.5 replacement; other saved experiments unchanged",
+  "metric_units": "NROE, NMLE, E_pool and E_inf are percentages; motion is errors over its own clear-event set",
+  "datasets": [
+    {
+      "key": "era5",
+      "name": "Storms",
+      "dimension": 2,
+      "population": "physical temporal sequence",
+      "frames_or_sections": 118,
+      "grid": [
+        49,
+        49
+      ],
+      "leaves": [
+        1,
+        8
+      ],
+      "tree": "join",
+      "scalar_field": "Mean sea-level pressure",
+      "reference_extent": 86.11980326698031,
+      "methods": {
+        "TMTM": {
+          "NROE": 19.23365378047747,
+          "NMLE_mean": 0.0,
+          "NMLE_max": 0.0,
+          "motion": {
+            "errors": 49,
+            "clear": 104,
+            "error_fraction": 0.47115384615384615,
+            "truth_dimension": 2
+          }
+        },
+        "ST-MTM": {
+          "NROE": 16.278371898778904,
+          "NMLE_mean": 0.0,
+          "NMLE_max": 0.0,
+          "motion": {
+            "errors": 43,
+            "clear": 104,
+            "error_fraction": 0.41346153846153844,
+            "truth_dimension": 2
+          }
+        },
+        "RG-MTM-P": {
+          "NROE": 3.7743272412319944,
+          "NMLE_mean": 0.0,
+          "NMLE_max": 0.0,
+          "motion": {
+            "errors": 24,
+            "clear": 104,
+            "error_fraction": 0.23076923076923078,
+            "truth_dimension": 2
+          },
+          "E_pool": 4.132256450858255,
+          "E_inf": 26.185374900113136
+        },
+        "RG-MTM-R20": {
+          "NROE": 1.1618707698268602,
+          "NMLE_mean": 1.4680901592965125,
+          "NMLE_max": 26.07142835871198,
+          "motion": {
+            "errors": 19,
+            "clear": 104,
+            "error_fraction": 0.18269230769230768,
+            "truth_dimension": 2
+          },
+          "E_pool": 2.1409817881385735,
+          "E_inf": 18.464244641223882
+        }
+      }
+    },
+    {
+      "key": "wildfire",
+      "name": "Wildfires",
+      "dimension": 2,
+      "population": "physical temporal sequence",
+      "frames_or_sections": 30,
+      "grid": [
+        64,
+        64
+      ],
+      "leaves": [
+        6,
+        11
+      ],
+      "tree": "split",
+      "scalar_field": "$\\log(1+\\mathrm{FRP})$",
+      "reference_extent": 166.89689703121402,
+      "methods": {
+        "TMTM": {
+          "NROE": 29.30266105441931,
+          "NMLE_mean": 0.0,
+          "NMLE_max": 0.0,
+          "motion": {
+            "errors": 44,
+            "clear": 112,
+            "error_fraction": 0.39285714285714285,
+            "truth_dimension": 2
+          }
+        },
+        "ST-MTM": {
+          "NROE": 24.015099920605703,
+          "NMLE_mean": 0.0,
+          "NMLE_max": 0.0,
+          "motion": {
+            "errors": 40,
+            "clear": 112,
+            "error_fraction": 0.35714285714285715,
+            "truth_dimension": 2
+          }
+        },
+        "RG-MTM-P": {
+          "NROE": 5.830214095746283,
+          "NMLE_mean": 0.0,
+          "NMLE_max": 0.0,
+          "motion": {
+            "errors": 36,
+            "clear": 112,
+            "error_fraction": 0.32142857142857145,
+            "truth_dimension": 2
+          },
+          "E_pool": 3.1824793628313515,
+          "E_inf": 20.475582909961712
+        },
+        "RG-MTM-R20": {
+          "NROE": 0.34394025457474137,
+          "NMLE_mean": 3.955075746241403,
+          "NMLE_max": 19.56389492896233,
+          "motion": {
+            "errors": 35,
+            "clear": 112,
+            "error_fraction": 0.3125,
+            "truth_dimension": 2
+          },
+          "E_pool": 0.804402435370466,
+          "E_inf": 6.636770157587331
+        }
+      }
+    },
+    {
+      "key": "olr",
+      "name": "OLR",
+      "dimension": 2,
+      "population": "physical temporal sequence",
+      "frames_or_sections": 60,
+      "grid": [
+        49,
+        49
+      ],
+      "leaves": [
+        2,
+        8
+      ],
+      "tree": "join",
+      "scalar_field": "Outgoing longwave radiation",
+      "reference_extent": 115.0321389591431,
+      "methods": {
+        "TMTM": {
+          "NROE": 19.311641065267676,
+          "NMLE_mean": 0.0,
+          "NMLE_max": 0.0,
+          "motion": {
+            "errors": 25,
+            "clear": 56,
+            "error_fraction": 0.44642857142857145,
+            "truth_dimension": 2
+          }
+        },
+        "ST-MTM": {
+          "NROE": 17.209419831059154,
+          "NMLE_mean": 0.0,
+          "NMLE_max": 0.0,
+          "motion": {
+            "errors": 12,
+            "clear": 56,
+            "error_fraction": 0.21428571428571427,
+            "truth_dimension": 2
+          }
+        },
+        "RG-MTM-P": {
+          "NROE": 0.8868398249381654,
+          "NMLE_mean": 0.0,
+          "NMLE_max": 0.0,
+          "motion": {
+            "errors": 3,
+            "clear": 56,
+            "error_fraction": 0.05357142857142857,
+            "truth_dimension": 2
+          },
+          "E_pool": 1.0033729764570514,
+          "E_inf": 17.14474100635256
+        },
+        "RG-MTM-R20": {
+          "NROE": 0.0,
+          "NMLE_mean": 1.0960634625843921,
+          "NMLE_max": 33.55535259482717,
+          "motion": {
+            "errors": 3,
+            "clear": 56,
+            "error_fraction": 0.05357142857142857,
+            "truth_dimension": 2
+          },
+          "E_pool": 0.5703013509989894,
+          "E_inf": 1.6865998354235652
+        }
+      }
+    },
+    {
+      "key": "pm25",
+      "name": "PM2.5",
+      "dimension": 2,
+      "population": "physical temporal sequence",
+      "frames_or_sections": 366,
+      "grid": [
+        49,
+        49
+      ],
+      "leaves": [
+        1,
+        7
+      ],
+      "tree": "split",
+      "scalar_field": "PM$_{2.5}$ concentration",
+      "reference_extent": 115.39758205821175,
+      "methods": {
+        "TMTM": {
+          "NROE": 12.87041212799393,
+          "NMLE_mean": 0.0,
+          "NMLE_max": 0.0,
+          "motion": {
+            "errors": 43,
+            "clear": 95,
+            "error_fraction": 0.45263157894736844,
+            "truth_dimension": 2
+          }
+        },
+        "ST-MTM": {
+          "NROE": 11.595275893820617,
+          "NMLE_mean": 0.0,
+          "NMLE_max": 0.0,
+          "motion": {
+            "errors": 49,
+            "clear": 95,
+            "error_fraction": 0.5157894736842106,
+            "truth_dimension": 2
+          }
+        },
+        "RG-MTM-P": {
+          "NROE": 0.9785261395840659,
+          "NMLE_mean": 0.0,
+          "NMLE_max": 0.0,
+          "motion": {
+            "errors": 42,
+            "clear": 95,
+            "error_fraction": 0.4421052631578947,
+            "truth_dimension": 2
+          },
+          "E_pool": 1.8692690801176455,
+          "E_inf": 20.256948018389533
+        },
+        "RG-MTM-R20": {
+          "NROE": 0.007382460270800004,
+          "NMLE_mean": 0.18240686696952849,
+          "NMLE_max": 4.66930572030318,
+          "motion": {
+            "errors": 47,
+            "clear": 95,
+            "error_fraction": 0.49473684210526314,
+            "truth_dimension": 2
+          },
+          "E_pool": 0.7603061721122664,
+          "E_inf": 5.856400005444036
+        }
+      }
+    },
+    {
+      "key": "ring",
+      "name": "Ring",
+      "dimension": 2,
+      "population": "synthetic temporal sequence",
+      "frames_or_sections": 40,
+      "grid": [
+        14,
+        14
+      ],
+      "leaves": [
+        1,
+        7
+      ],
+      "tree": "split",
+      "scalar_field": "Synthetic ring intensity",
+      "reference_extent": 295.2115332335651,
+      "methods": {
+        "TMTM": {
+          "NROE": 7.179294071439392,
+          "NMLE_mean": 0.0,
+          "NMLE_max": 0.0,
+          "motion": {
+            "errors": 80,
+            "clear": 124,
+            "error_fraction": 0.6451612903225806,
+            "truth_dimension": 2
+          }
+        },
+        "ST-MTM": {
+          "NROE": 10.394591082457257,
+          "NMLE_mean": 0.0,
+          "NMLE_max": 0.0,
+          "motion": {
+            "errors": 43,
+            "clear": 124,
+            "error_fraction": 0.3467741935483871,
+            "truth_dimension": 2
+          }
+        },
+        "RG-MTM-P": {
+          "NROE": 2.6558808458004104,
+          "NMLE_mean": 0.0,
+          "NMLE_max": 0.0,
+          "motion": {
+            "errors": 39,
+            "clear": 124,
+            "error_fraction": 0.31451612903225806,
+            "truth_dimension": 2
+          },
+          "E_pool": 2.4348018160794007,
+          "E_inf": 11.903880011187024
+        },
+        "RG-MTM-R20": {
+          "NROE": 0.1289775603962825,
+          "NMLE_mean": 2.7289450398048807,
+          "NMLE_max": 12.346384203815647,
+          "motion": {
+            "errors": 16,
+            "clear": 124,
+            "error_fraction": 0.12903225806451613,
+            "truth_dimension": 2
+          },
+          "E_pool": 0.7076110167291526,
+          "E_inf": 2.5227688012417397
+        }
+      }
+    },
+    {
+      "key": "tangaroa",
+      "name": "Tangaroa",
+      "dimension": 3,
+      "population": "physical temporal sequence",
+      "frames_or_sections": 201,
+      "grid": [
+        300,
+        180,
+        120
+      ],
+      "leaves": [
+        18,
+        93
+      ],
+      "tree": "join",
+      "scalar_field": "Velocity magnitude",
+      "reference_extent": 0.703074637982934,
+      "methods": {
+        "ST-MTM": null,
+        "TMTM": {
+          "NROE": 20.092301252549532,
+          "NMLE_mean": 0.0,
+          "NMLE_max": 0.0,
+          "motion": {
+            "errors": 6585,
+            "clear": 6755,
+            "error_fraction": 0.9748334566987417,
+            "truth_dimension": 3
+          },
+          "projected_motion": {
+            "errors": 9408,
+            "clear": 9631,
+            "error_fraction": 0.9768456027411484,
+            "truth_dimension": 1
+          }
+        },
+        "RG-MTM-P": {
+          "NROE": 9.60801028939496,
+          "NMLE_mean": 0.0,
+          "NMLE_max": 0.0,
+          "E_pool": 5.013349014253913,
+          "E_inf": 16.85949320638357,
+          "anchor_instances": 6925,
+          "motion": {
+            "errors": 3697,
+            "clear": 6755,
+            "error_fraction": 0.5472982975573649,
+            "truth_dimension": 3
+          },
+          "projected_motion": {
+            "errors": 5045,
+            "clear": 9631,
+            "error_fraction": 0.5238293012148271,
+            "truth_dimension": 1
+          }
+        },
+        "RG-MTM-R20": {
+          "NROE": 0.018944992441107405,
+          "NMLE_mean": 14.442120575477635,
+          "NMLE_max": 31.020512004390362,
+          "E_pool": 1.1755428508326013,
+          "E_inf": 8.02015847395344,
+          "anchor_instances": 6925,
+          "motion": {
+            "errors": 2060,
+            "clear": 6755,
+            "error_fraction": 0.30495928941524797,
+            "truth_dimension": 3
+          },
+          "projected_motion": {
+            "errors": 240,
+            "clear": 9631,
+            "error_fraction": 0.02491953068217215,
+            "truth_dimension": 1
+          }
+        }
+      },
+      "protocol": "results/volume3d/tangaroa-paper-p10-full201/protocol.json"
+    },
+    {
+      "key": "square-cylinder3d",
+      "name": "Cylinder",
+      "dimension": 3,
+      "population": "physical temporal sequence",
+      "frames_or_sections": 102,
+      "grid": [
+        135,
+        64,
+        48
+      ],
+      "leaves": [
+        4,
+        75
+      ],
+      "tree": "split",
+      "scalar_field": "Q criterion",
+      "reference_extent": 22.45026178010471,
+      "methods": {
+        "ST-MTM": null,
+        "TMTM": {
+          "NROE": 26.61691542288557,
+          "NMLE_mean": 0.0,
+          "NMLE_max": 0.0,
+          "motion": {
+            "errors": 2141,
+            "clear": 3196,
+            "error_fraction": 0.6698998748435544,
+            "truth_dimension": 3
+          },
+          "projected_motion": {
+            "errors": 1845,
+            "clear": 2934,
+            "error_fraction": 0.6288343558282209,
+            "truth_dimension": 1
+          }
+        },
+        "RG-MTM-P": {
+          "NROE": 12.262218320163885,
+          "NMLE_mean": 0.0,
+          "NMLE_max": 0.0,
+          "E_pool": 5.400223164202228,
+          "E_inf": 32.08093182992734,
+          "anchor_instances": 2032,
+          "motion": {
+            "errors": 1191,
+            "clear": 3196,
+            "error_fraction": 0.37265331664580725,
+            "truth_dimension": 3
+          },
+          "projected_motion": {
+            "errors": 870,
+            "clear": 2934,
+            "error_fraction": 0.2965235173824131,
+            "truth_dimension": 1
+          }
+        },
+        "RG-MTM-R20": {
+          "NROE": 0.0841381328650863,
+          "NMLE_mean": 2.809644830993792,
+          "NMLE_max": 14.281121194384355,
+          "E_pool": 0.5500989456336712,
+          "E_inf": 5.271996768904331,
+          "anchor_instances": 2032,
+          "motion": {
+            "errors": 605,
+            "clear": 3196,
+            "error_fraction": 0.1892991239048811,
+            "truth_dimension": 3
+          },
+          "projected_motion": {
+            "errors": 108,
+            "clear": 2934,
+            "error_fraction": 0.03680981595092025,
+            "truth_dimension": 1
+          }
+        }
+      },
+      "protocol": "results/paper1_suite/square-cylinder3d/protocol.json"
+    },
+    {
+      "key": "nucleon",
+      "name": "Nucleon",
+      "dimension": 2,
+      "population": "static section",
+      "frames_or_sections": 1,
+      "grid": [
+        64,
+        64
+      ],
+      "leaves": [
+        13,
+        13
+      ],
+      "tree": "split",
+      "scalar_field": "Nucleon scalar",
+      "reference_extent": 63.0,
+      "methods": {
+        "ST-MTM": null,
+        "TMTM": {
+          "NROE": 11.904761904761903,
+          "NMLE_mean": 0.0,
+          "NMLE_max": 0.0
+        },
+        "RG-MTM-P": {
+          "NROE": 2.380952380952381,
+          "NMLE_mean": 0.0,
+          "NMLE_max": 0.0,
+          "E_pool": 1.9245351676222844,
+          "E_inf": 3.4317743210565497,
+          "anchor_instances": 13
+        },
+        "RG-MTM-R20": {
+          "NROE": 2.380952380952381,
+          "NMLE_mean": 0.0,
+          "NMLE_max": 0.0,
+          "E_pool": 1.9245351676222844,
+          "E_inf": 3.4317743210565497,
+          "anchor_instances": 13
+        }
+      },
+      "protocol": "results/paper1_suite/nucleon/protocol.json"
+    },
+    {
+      "key": "benzene-potential-reconstructed2d",
+      "name": "Benzene",
+      "dimension": 2,
+      "population": "static section",
+      "frames_or_sections": 21,
+      "grid": [
+        61,
+        61
+      ],
+      "leaves": [
+        5,
+        10
+      ],
+      "tree": "join",
+      "scalar_field": "Reconstructed electrostatic potential",
+      "reference_extent": 12.0,
+      "methods": {
+        "ST-MTM": null,
+        "TMTM": {
+          "NROE": 50.0,
+          "NMLE_mean": 0.0,
+          "NMLE_max": 0.0
+        },
+        "RG-MTM-P": {
+          "NROE": 4.206349206349207,
+          "NMLE_mean": 0.0,
+          "NMLE_max": 0.0,
+          "E_pool": 1.5970318583014955,
+          "E_inf": 15.391519790885622,
+          "anchor_instances": 180
+        },
+        "RG-MTM-R20": {
+          "NROE": 0.0,
+          "NMLE_mean": 0.002482830591145016,
+          "NMLE_max": 0.007966719567775726,
+          "E_pool": 0.5226275001737377,
+          "E_inf": 1.7505374899220734,
+          "anchor_instances": 180
+        }
+      },
+      "protocol": "results/paper1_suite/benzene-potential-reconstructed2d/protocol.json"
+    }
+  ],
+  "sensitivity": [
+    {
+      "dataset": "Storms",
+      "cap": 0.0,
+      "E_pool": 4.132256450858255,
+      "E_inf": 26.185374900113136,
+      "NMLE_mean": 0.0,
+      "NMLE_max": 0.0
+    },
+    {
+      "dataset": "Storms",
+      "cap": 0.02,
+      "E_pool": 3.740068328236473,
+      "E_inf": 22.851483481912908,
+      "NMLE_mean": 0.032447277342642564,
+      "NMLE_max": 1.154454416968905
+    },
+    {
+      "dataset": "Storms",
+      "cap": 0.2,
+      "E_pool": 2.1409817881385735,
+      "E_inf": 18.464244641223882,
+      "NMLE_mean": 1.4680901592965125,
+      "NMLE_max": 26.07142835871198
+    },
+    {
+      "dataset": "Storms",
+      "cap": "inf",
+      "E_pool": 0.9278841339787874,
+      "E_inf": 5.537814225792275,
+      "NMLE_mean": 5.73596297262439,
+      "NMLE_max": 58.66022750900193
+    },
+    {
+      "dataset": "Wildfires",
+      "cap": 0.0,
+      "E_pool": 3.1824793628313515,
+      "E_inf": 20.475582909961712,
+      "NMLE_mean": 0.0,
+      "NMLE_max": 0.0
+    },
+    {
+      "dataset": "Wildfires",
+      "cap": 0.02,
+      "E_pool": 1.750522344644078,
+      "E_inf": 8.71444311232761,
+      "NMLE_mean": 0.2653730534786086,
+      "NMLE_max": 1.6550873105415995
+    },
+    {
+      "dataset": "Wildfires",
+      "cap": 0.2,
+      "E_pool": 0.804402435370466,
+      "E_inf": 6.636770157587331,
+      "NMLE_mean": 3.955075746241403,
+      "NMLE_max": 19.56389492896233
+    },
+    {
+      "dataset": "Wildfires",
+      "cap": "inf",
+      "E_pool": 0.665975118474201,
+      "E_inf": 2.6962318420406284,
+      "NMLE_mean": 7.138394625540348,
+      "NMLE_max": 52.5840368137113
+    },
+    {
+      "dataset": "OLR",
+      "cap": 0.0,
+      "E_pool": 1.0033729764570514,
+      "E_inf": 17.14474100635256,
+      "NMLE_mean": 0.0,
+      "NMLE_max": 0.0
+    },
+    {
+      "dataset": "OLR",
+      "cap": 0.02,
+      "E_pool": 0.9277549058291802,
+      "E_inf": 17.14474100635256,
+      "NMLE_mean": 0.029904232604517838,
+      "NMLE_max": 1.7942539562710702
+    },
+    {
+      "dataset": "OLR",
+      "cap": 0.2,
+      "E_pool": 0.5703013509989894,
+      "E_inf": 1.6865998354235652,
+      "NMLE_mean": 1.0960634625843921,
+      "NMLE_max": 33.55535259482717
+    },
+    {
+      "dataset": "OLR",
+      "cap": "inf",
+      "E_pool": 0.5703013509989894,
+      "E_inf": 1.6865998354235652,
+      "NMLE_mean": 1.0960634625843921,
+      "NMLE_max": 33.55535259482717
+    },
+    {
+      "dataset": "PM2.5",
+      "cap": 0.0,
+      "E_pool": 1.8692690801176455,
+      "E_inf": 20.256948018389533,
+      "NMLE_mean": 0.0,
+      "NMLE_max": 0.0
+    },
+    {
+      "dataset": "PM2.5",
+      "cap": 0.02,
+      "E_pool": 1.3413871737914262,
+      "E_inf": 20.256948018389533,
+      "NMLE_mean": 0.026228166629244765,
+      "NMLE_max": 1.0516134817488763
+    },
+    {
+      "dataset": "PM2.5",
+      "cap": 0.2,
+      "E_pool": 0.7603061721122664,
+      "E_inf": 5.856400005444036,
+      "NMLE_mean": 0.18240686696952849,
+      "NMLE_max": 4.66930572030318
+    },
+    {
+      "dataset": "PM2.5",
+      "cap": "inf",
+      "E_pool": 0.7603061721122664,
+      "E_inf": 5.856400005444036,
+      "NMLE_mean": 0.18240686696952849,
+      "NMLE_max": 4.66930572030318
+    },
+    {
+      "dataset": "Ring",
+      "cap": 0.0,
+      "E_pool": 2.4348018160794007,
+      "E_inf": 11.903880011187024,
+      "NMLE_mean": 0.0,
+      "NMLE_max": 0.0
+    },
+    {
+      "dataset": "Ring",
+      "cap": 0.02,
+      "E_pool": 1.9439134419143909,
+      "E_inf": 11.402463666015134,
+      "NMLE_mean": 0.13048317274784382,
+      "NMLE_max": 2.160873401232133
+    },
+    {
+      "dataset": "Ring",
+      "cap": 0.2,
+      "E_pool": 0.7076110167291526,
+      "E_inf": 2.5227688012417397,
+      "NMLE_mean": 2.7289450398048807,
+      "NMLE_max": 12.346384203815647
+    },
+    {
+      "dataset": "Ring",
+      "cap": "inf",
+      "E_pool": 0.7076110167291526,
+      "E_inf": 2.5227688012417397,
+      "NMLE_mean": 2.7289450398048807,
+      "NMLE_max": 12.346384203815647
+    },
+    {
+      "dataset": "Tangaroa",
+      "cap": 0,
+      "NROE": 9.60801028939496,
+      "NMLE_mean": 0.0,
+      "NMLE_max": 0.0,
+      "E_pool": 5.013349014253913,
+      "E_inf": 16.85949320638357,
+      "anchor_instances": 6925
+    },
+    {
+      "dataset": "Tangaroa",
+      "cap": 0.02,
+      "NROE": 8.560305189314619,
+      "NMLE_mean": 3.5151220098211993,
+      "NMLE_max": 11.536592617630959,
+      "E_pool": 4.1645987250111265,
+      "E_inf": 14.650668326462673,
+      "anchor_instances": 6925
+    },
+    {
+      "dataset": "Tangaroa",
+      "cap": 0.2,
+      "NROE": 0.018944992441107405,
+      "NMLE_mean": 14.442120575477635,
+      "NMLE_max": 31.020512004390362,
+      "E_pool": 1.1755428508326013,
+      "E_inf": 8.02015847395344,
+      "anchor_instances": 6925
+    },
+    {
+      "dataset": "Tangaroa",
+      "cap": 1.0,
+      "NROE": 0.018944992441107405,
+      "NMLE_mean": 14.442120575477635,
+      "NMLE_max": 31.020512004390362,
+      "E_pool": 1.1755428508326013,
+      "E_inf": 8.02015847395344,
+      "anchor_instances": 6925
+    },
+    {
+      "dataset": "Cylinder",
+      "cap": 0,
+      "NROE": 12.262218320163885,
+      "NMLE_mean": 0.0,
+      "NMLE_max": 0.0,
+      "E_pool": 5.400223164202228,
+      "E_inf": 32.08093182992734,
+      "anchor_instances": 2032
+    },
+    {
+      "dataset": "Cylinder",
+      "cap": 0.02,
+      "NROE": 0.24875621890547256,
+      "NMLE_mean": 0.6918776439253216,
+      "NMLE_max": 4.8864820122610775,
+      "E_pool": 0.6231149447068854,
+      "E_inf": 5.271996768904331,
+      "anchor_instances": 2032
+    },
+    {
+      "dataset": "Cylinder",
+      "cap": 0.2,
+      "NROE": 0.0841381328650863,
+      "NMLE_mean": 2.809644830993792,
+      "NMLE_max": 14.281121194384355,
+      "E_pool": 0.5500989456336712,
+      "E_inf": 5.271996768904331,
+      "anchor_instances": 2032
+    },
+    {
+      "dataset": "Cylinder",
+      "cap": 1.0,
+      "NROE": 0.0841381328650863,
+      "NMLE_mean": 3.1901284051912193,
+      "NMLE_max": 14.281121194384355,
+      "E_pool": 0.5500189300665498,
+      "E_inf": 5.271996768904331,
+      "anchor_instances": 2032
+    },
+    {
+      "dataset": "Nucleon",
+      "cap": 0,
+      "NROE": 2.380952380952381,
+      "NMLE_mean": 0.0,
+      "NMLE_max": 0.0,
+      "E_pool": 1.9245351676222844,
+      "E_inf": 3.4317743210565497,
+      "anchor_instances": 13
+    },
+    {
+      "dataset": "Nucleon",
+      "cap": 0.02,
+      "NROE": 2.380952380952381,
+      "NMLE_mean": 0.0,
+      "NMLE_max": 0.0,
+      "E_pool": 1.9245351676222844,
+      "E_inf": 3.4317743210565497,
+      "anchor_instances": 13
+    },
+    {
+      "dataset": "Nucleon",
+      "cap": 0.2,
+      "NROE": 2.380952380952381,
+      "NMLE_mean": 0.0,
+      "NMLE_max": 0.0,
+      "E_pool": 1.9245351676222844,
+      "E_inf": 3.4317743210565497,
+      "anchor_instances": 13
+    },
+    {
+      "dataset": "Nucleon",
+      "cap": 1.0,
+      "NROE": 2.380952380952381,
+      "NMLE_mean": 0.0,
+      "NMLE_max": 0.0,
+      "E_pool": 1.9245351676222844,
+      "E_inf": 3.4317743210565497,
+      "anchor_instances": 13
+    },
+    {
+      "dataset": "Benzene",
+      "cap": 0,
+      "NROE": 4.206349206349207,
+      "NMLE_mean": 0.0,
+      "NMLE_max": 0.0,
+      "E_pool": 1.5970318583014955,
+      "E_inf": 15.391519790885622,
+      "anchor_instances": 180
+    },
+    {
+      "dataset": "Benzene",
+      "cap": 0.02,
+      "NROE": 0.0,
+      "NMLE_mean": 0.002482830591145016,
+      "NMLE_max": 0.007966719567775726,
+      "E_pool": 0.5226275001737377,
+      "E_inf": 1.7505374899220734,
+      "anchor_instances": 180
+    },
+    {
+      "dataset": "Benzene",
+      "cap": 0.2,
+      "NROE": 0.0,
+      "NMLE_mean": 0.002482830591145016,
+      "NMLE_max": 0.007966719567775726,
+      "E_pool": 0.5226275001737377,
+      "E_inf": 1.7505374899220734,
+      "anchor_instances": 180
+    },
+    {
+      "dataset": "Benzene",
+      "cap": 1.0,
+      "NROE": 0.0,
+      "NMLE_mean": 0.002482830591145016,
+      "NMLE_max": 0.007966719567775726,
+      "E_pool": 0.5226275001737377,
+      "E_inf": 1.7505374899220734,
+      "anchor_instances": 180
+    }
+  ],
+  "planar_frontier": {
+    "era5": {
+      "frames": 118,
+      "on_frontier_R20": 118,
+      "conflict_frames": 40
+    },
+    "wildfire": {
+      "frames": 30,
+      "on_frontier_R20": 28,
+      "conflict_frames": 19
+    },
+    "olr": {
+      "frames": 60,
+      "on_frontier_R20": 60,
+      "conflict_frames": 7
+    },
+    "pm25": {
+      "frames": 366,
+      "on_frontier_R20": 366,
+      "conflict_frames": 36
+    },
+    "ring": {
+      "frames": 40,
+      "on_frontier_R20": 39,
+      "conflict_frames": 21
+    }
+  },
+  "population": {
+    "primary_datasets": 9,
+    "planar_temporal_sequences": 5,
+    "planar_temporal_frames": 614,
+    "temporal_sequences": 7,
+    "all_temporal_frames": 917,
+    "static_datasets": 2,
+    "static_sections": 22,
+    "exhaustive_planar_frontier_R20_on": 611,
+    "independent_mirror_control_frames": 64
+  },
+  "excluded_current_member": {
+    "key": "gaussians",
+    "grid": [
+      64,
+      64
+    ],
+    "frames": 64,
+    "reason": "Editorial removal from current submission; original evidence retained as legacy"
+  },
+  "safeguards": [
+    "Tangaroa and Cylinder source inputs remain 3-D.",
+    "No cross-dataset motion-rate pooling. Static inputs have no motion score; ST-MTM not run on four additions.",
+    "2-D optional hierarchy pruning and volume no-pruning are disclosed; kappa is eligibility, not a guaranteed NMLE cap.",
+    "Benzene is reconstructed electrostatic potential and 21 static z sections, not physical time.",
+    "241x241 mirror control and generic Gaussian primitives remain active."
+  ]
+}

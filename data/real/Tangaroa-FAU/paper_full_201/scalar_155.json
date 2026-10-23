@@ -1,0 +1,33 @@
+{
+  "index": 155,
+  "time": 1.55,
+  "source_filename": "tangaroa-1.55.am",
+  "source_bytes": 77760272,
+  "source_crc32": 233634883,
+  "source_sha256": "2ce9bf38aad7c878f0514628b91627cbbba21942bdf0ac6368f32e3e71cd4d6e",
+  "scalar_sha256": "7b4e36c2dd5fa21831a8f460e50269072b89e683dca7567c43c2cd8431e55e03",
+  "scalar_shape_zyx": [
+    120,
+    180,
+    300
+  ],
+  "bounds_xyz": [
+    -0.35,
+    0.65,
+    -0.3,
+    0.3,
+    -0.5,
+    -0.3
+  ],
+  "raw_range": [
+    0.0,
+    1.5378586053848267
+  ],
+  "processed_range": [
+    0.0018054958200082183,
+    1.5378586053848267
+  ],
+  "masked_samples": 13158,
+  "clipped_samples": 0,
+  "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+}

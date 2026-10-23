@@ -1,0 +1,257 @@
+{
+  "source_doi": "10.57760/sciencedb.35623",
+  "source_dataset_version": "V2",
+  "collection": "CN-Reanalysis/2000",
+  "variable": "PM2.5",
+  "source_files": [
+    {
+      "file": "20000401.nc",
+      "time": "2000-04-01 10:30:00",
+      "sha256": "d709f7d60bc40f6b8ebbdb0f4667db1d646de3287a8763439c1b9d336ab5084f",
+      "global_attributes": {
+        "description": "Merged dataset for 20000401 aligned to 10km grid"
+      }
+    },
+    {
+      "file": "20000402.nc",
+      "time": "2000-04-02 10:30:00",
+      "sha256": "5cb75b5af50c2824072299c37c879100c172d17a16d1c11fce940d2b0237413b",
+      "global_attributes": {
+        "description": "Merged dataset for 20000402 aligned to 10km grid"
+      }
+    },
+    {
+      "file": "20000403.nc",
+      "time": "2000-04-03 10:30:00",
+      "sha256": "6ce63d482ee9cbfaa26ea665f190b5d5235a4765f0a8f432ef2524ea5a71c048",
+      "global_attributes": {
+        "description": "Merged dataset for 20000403 aligned to 10km grid"
+      }
+    },
+    {
+      "file": "20000404.nc",
+      "time": "2000-04-04 10:30:00",
+      "sha256": "b4ae7446d7007597df49a0bda8bce11ebdf3595cf6cdc228fff2bdb71ba9fb2b",
+      "global_attributes": {
+        "description": "Merged dataset for 20000404 aligned to 10km grid"
+      }
+    },
+    {
+      "file": "20000405.nc",
+      "time": "2000-04-05 10:30:00",
+      "sha256": "0ac939d31ead12b4e4a1a2a7e4d7086de5b5234d33e9b9d50d5e2bedc8b68811",
+      "global_attributes": {
+        "description": "Merged dataset for 20000405 aligned to 10km grid"
+      }
+    },
+    {
+      "file": "20000406.nc",
+      "time": "2000-04-06 10:30:00",
+      "sha256": "194b7a11a1ff70ebc81881e2a3eae9bfaf87978e169d5bf0beb4bed4a5133579",
+      "global_attributes": {
+        "description": "Merged dataset for 20000406 aligned to 10km grid"
+      }
+    },
+    {
+      "file": "20000407.nc",
+      "time": "2000-04-07 10:30:00",
+      "sha256": "53f74857a193eb82f8c7f7fdb8078fb9c095bca1115026a64b61a8d4f2749879",
+      "global_attributes": {
+        "description": "Merged dataset for 20000407 aligned to 10km grid"
+      }
+    },
+    {
+      "file": "20000408.nc",
+      "time": "2000-04-08 10:30:00",
+      "sha256": "39234d231b6fc293e72e814a18e096b5750b7adbb01494ef415c8c56e606ea5b",
+      "global_attributes": {
+        "description": "Merged dataset for 20000408 aligned to 10km grid"
+      }
+    },
+    {
+      "file": "20000409.nc",
+      "time": "2000-04-09 10:30:00",
+      "sha256": "42d879de97dc5d67f2d90b701d81d5fa6bd51e0669c376ca6f3f61260f765b9c",
+      "global_attributes": {
+        "description": "Merged dataset for 20000409 aligned to 10km grid"
+      }
+    },
+    {
+      "file": "20000410.nc",
+      "time": "2000-04-10 10:30:00",
+      "sha256": "2df924a11dca7ac3c5594e464a0350f1b2d991d86e8702bdf5fc30449ff63516",
+      "global_attributes": {
+        "description": "Merged dataset for 20000410 aligned to 10km grid"
+      }
+    },
+    {
+      "file": "20000411.nc",
+      "time": "2000-04-11 10:30:00",
+      "sha256": "4a3e4e3935972368cadc2496e5eb791ae443a7527610b276821b18c24783dae2",
+      "global_attributes": {
+        "description": "Merged dataset for 20000411 aligned to 10km grid"
+      }
+    },
+    {
+      "file": "20000412.nc",
+      "time": "2000-04-12 10:30:00",
+      "sha256": "84c01e2713ffb88ad2baf426bb493592f80aa3a683010ab7b1a6de4e461aba42",
+      "global_attributes": {
+        "description": "Merged dataset for 20000412 aligned to 10km grid"
+      }
+    },
+    {
+      "file": "20000413.nc",
+      "time": "2000-04-13 10:30:00",
+      "sha256": "83a09c114ad133667b3463bc6e03e4173c0753bd6599eb3d545867d7c99ebd15",
+      "global_attributes": {
+        "description": "Merged dataset for 20000413 aligned to 10km grid"
+      }
+    },
+    {
+      "file": "20000414.nc",
+      "time": "2000-04-14 10:30:00",
+      "sha256": "3b1685f213a70314f9d8a8ecc9fa44c36e87e343a3fffbe423037efa39bc07fd",
+      "global_attributes": {
+        "description": "Merged dataset for 20000414 aligned to 10km grid"
+      }
+    },
+    {
+      "file": "20000415.nc",
+      "time": "2000-04-15 10:30:00",
+      "sha256": "588675ded0199a21549c6b52f6334b5fb1bdac1b1988ec870820259072edcd76",
+      "global_attributes": {
+        "description": "Merged dataset for 20000415 aligned to 10km grid"
+      }
+    },
+    {
+      "file": "20000416.nc",
+      "time": "2000-04-16 10:30:00",
+      "sha256": "f07a37fca2d8ed60975faac806b8a5bb944ca4019862928d4511109c0bcb2f37",
+      "global_attributes": {
+        "description": "Merged dataset for 20000416 aligned to 10km grid"
+      }
+    },
+    {
+      "file": "20000417.nc",
+      "time": "2000-04-17 10:30:00",
+      "sha256": "ea8e4bb223f7dccf4f26f0117993b263dd8905ea9cd2ae04080e3f55c3d420ed",
+      "global_attributes": {
+        "description": "Merged dataset for 20000417 aligned to 10km grid"
+      }
+    },
+    {
+      "file": "20000418.nc",
+      "time": "2000-04-18 10:30:00",
+      "sha256": "865fa64eab1100377d12fe028da22bcf66db7e5ee6b07c22efa8edf5da62de51",
+      "global_attributes": {
+        "description": "Merged dataset for 20000418 aligned to 10km grid"
+      }
+    },
+    {
+      "file": "20000419.nc",
+      "time": "2000-04-19 10:30:00",
+      "sha256": "4c71bd390a943d5bfdcb38955f6978b8b40d1c3ff0507c9f25f0fb643f7af932",
+      "global_attributes": {
+        "description": "Merged dataset for 20000419 aligned to 10km grid"
+      }
+    },
+    {
+      "file": "20000420.nc",
+      "time": "2000-04-20 10:30:00",
+      "sha256": "ae2618442191d3f132a5313fb429f526e5aae1cb1cf1a8ed1b43cadbc612adf9",
+      "global_attributes": {
+        "description": "Merged dataset for 20000420 aligned to 10km grid"
+      }
+    },
+    {
+      "file": "20000421.nc",
+      "time": "2000-04-21 10:30:00",
+      "sha256": "5dc57bd94b26c41d8b74304cf78fcb910ab0a834c87f24ae05e597eba02590eb",
+      "global_attributes": {
+        "description": "Merged dataset for 20000421 aligned to 10km grid"
+      }
+    },
+    {
+      "file": "20000422.nc",
+      "time": "2000-04-22 10:30:00",
+      "sha256": "0b3e313b606151329d49824540c495567118a413f3bae9f8daf16474ed49aefa",
+      "global_attributes": {
+        "description": "Merged dataset for 20000422 aligned to 10km grid"
+      }
+    },
+    {
+      "file": "20000423.nc",
+      "time": "2000-04-23 10:30:00",
+      "sha256": "8b81ec03e8b2903f5d6db973404be4149e2d800250a69a5b70819e78ffdaec40",
+      "global_attributes": {
+        "description": "Merged dataset for 20000423 aligned to 10km grid"
+      }
+    },
+    {
+      "file": "20000424.nc",
+      "time": "2000-04-24 10:30:00",
+      "sha256": "2a524a13cfd5c9f1cb8c3d9867409f29ed2ac95c4d60658459c50f6dd27091ef",
+      "global_attributes": {
+        "description": "Merged dataset for 20000424 aligned to 10km grid"
+      }
+    },
+    {
+      "file": "20000425.nc",
+      "time": "2000-04-25 10:30:00",
+      "sha256": "74614ae727254984efcfca082d6b2d8002f2ec50bbf349abb70e29e7cbcb609f",
+      "global_attributes": {
+        "description": "Merged dataset for 20000425 aligned to 10km grid"
+      }
+    },
+    {
+      "file": "20000426.nc",
+      "time": "2000-04-26 10:30:00",
+      "sha256": "4ede3e67348abb7cff5ab91cb44bef8f245bbe19c88e6c3896f6c1c6faba20d4",
+      "global_attributes": {
+        "description": "Merged dataset for 20000426 aligned to 10km grid"
+      }
+    },
+    {
+      "file": "20000427.nc",
+      "time": "2000-04-27 10:30:00",
+      "sha256": "4de6d8a1fa147a644ba7a8b3b3a665e5ec2cb93cb247b2f40cf56d15c16170d2",
+      "global_attributes": {
+        "description": "Merged dataset for 20000427 aligned to 10km grid"
+      }
+    },
+    {
+      "file": "20000428.nc",
+      "time": "2000-04-28 10:30:00",
+      "sha256": "83a4a23a07c2dcc55764d7f635f0858cfae34217e648a542f232b287039cf39d",
+      "global_attributes": {
+        "description": "Merged dataset for 20000428 aligned to 10km grid"
+      }
+    },
+    {
+      "file": "20000429.nc",
+      "time": "2000-04-29 10:30:00",
+      "sha256": "a493a70876af1d02ed982d43593f7d1ea0ade579835dab21ba4aed314f791b7f",
+      "global_attributes": {
+        "description": "Merged dataset for 20000429 aligned to 10km grid"
+      }
+    },
+    {
+      "file": "20000430.nc",
+      "time": "2000-04-30 10:30:00",
+      "sha256": "82fd33a815c99e15fa5116ec4aa207a7e083ebee1a256eeadab8cef5bed60554",
+      "global_attributes": {
+        "description": "Merged dataset for 20000430 aligned to 10km grid"
+      }
+    }
+  ],
+  "subset_sha256": "e95545cba26c0fdbf71cdf714d270e8da280675b7e8b58a4e9483baffe69e3ab",
+  "subset": "data/public_scalar/pm25_apr_20000401_20000430.nc",
+  "variable_attributes": {
+    "units": "\u00b5g/m3",
+    "fill_method": "griddata_linear_then_nearest",
+    "fill_domain_var": "temp",
+    "coordinates": "time"
+  },
+  "protocol": "2000-04-01--2000-04-30; window 102--114 E, 28--38 N; fixed before evaluation; no added imputation"
+}

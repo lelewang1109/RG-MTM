@@ -1,0 +1,31 @@
+{
+  "name": "olr",
+  "url": "https://downloads.psl.noaa.gov/Datasets/olr_cdr_day/olr.day.mean.v2.nc",
+  "transport": "annual-file subset",
+  "sha256": "fb0a8f6b6fc0df4b4f41db0c3da443b9c395bd472cb21ce9d95ce151354ca658",
+  "spec": {
+    "variable": "olr",
+    "units": "W m-2",
+    "kind": "join",
+    "window": {
+      "lon": [
+        60.0,
+        150.0
+      ],
+      "lat": [
+        -15.0,
+        20.0
+      ]
+    },
+    "source_page": "https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.ncdc%3AC00875",
+    "remote": "olr_cdr_day/olr.day.mean.v2.nc",
+    "start": "2024-06-01",
+    "end": "2024-07-30",
+    "download": {
+      "west": 45,
+      "east": 165,
+      "south": -25,
+      "north": 30
+    }
+  }
+}

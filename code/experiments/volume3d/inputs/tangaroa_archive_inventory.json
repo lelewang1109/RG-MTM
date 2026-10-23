@@ -1,0 +1,1625 @@
+{
+  "source_page": "https://www.vc.tf.fau.de/publications/datasets/",
+  "source_url": "https://gofile.me/6LCdM/B0QjKMfKX",
+  "archive": "tangaroa3d_am.zip",
+  "archive_bytes": 14157973031,
+  "etag": "\"5d496d76-34be18627\"",
+  "members": [
+    {
+      "name": "tangaroa-0.00.am",
+      "size": 77760272,
+      "compressed": 68428542,
+      "offset": 0,
+      "crc32": 4160470825,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-0.01.am",
+      "size": 77760272,
+      "compressed": 68282614,
+      "offset": 68428588,
+      "crc32": 2639796140,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-0.02.am",
+      "size": 77760272,
+      "compressed": 68363181,
+      "offset": 136711248,
+      "crc32": 3187405257,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-0.03.am",
+      "size": 77760272,
+      "compressed": 68438458,
+      "offset": 205074475,
+      "crc32": 797297241,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-0.04.am",
+      "size": 77760272,
+      "compressed": 68514947,
+      "offset": 273512979,
+      "crc32": 2736286360,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-0.05.am",
+      "size": 77760272,
+      "compressed": 68588504,
+      "offset": 342027972,
+      "crc32": 60830305,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-0.06.am",
+      "size": 77760272,
+      "compressed": 68655508,
+      "offset": 410616522,
+      "crc32": 3508092566,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-0.07.am",
+      "size": 77760272,
+      "compressed": 68720840,
+      "offset": 479272076,
+      "crc32": 4274080061,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-0.08.am",
+      "size": 77760272,
+      "compressed": 68788759,
+      "offset": 547992962,
+      "crc32": 2234097173,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-0.09.am",
+      "size": 77760272,
+      "compressed": 68871472,
+      "offset": 616781767,
+      "crc32": 1179832892,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-0.10.am",
+      "size": 77760272,
+      "compressed": 68959702,
+      "offset": 685653285,
+      "crc32": 3959958088,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-0.11.am",
+      "size": 77760272,
+      "compressed": 69040824,
+      "offset": 754613033,
+      "crc32": 3831733215,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-0.12.am",
+      "size": 77760272,
+      "compressed": 69126626,
+      "offset": 823653903,
+      "crc32": 2980439412,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-0.13.am",
+      "size": 77760272,
+      "compressed": 69209580,
+      "offset": 892780575,
+      "crc32": 3891250611,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-0.14.am",
+      "size": 77760272,
+      "compressed": 69290333,
+      "offset": 961990201,
+      "crc32": 3147499956,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-0.15.am",
+      "size": 77760272,
+      "compressed": 69352694,
+      "offset": 1031280580,
+      "crc32": 2448902917,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-0.16.am",
+      "size": 77760272,
+      "compressed": 69630559,
+      "offset": 1100633320,
+      "crc32": 417632128,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-0.17.am",
+      "size": 77760272,
+      "compressed": 69664550,
+      "offset": 1170263925,
+      "crc32": 2128685806,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-0.18.am",
+      "size": 77760272,
+      "compressed": 69700124,
+      "offset": 1239928521,
+      "crc32": 994555722,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-0.19.am",
+      "size": 77760272,
+      "compressed": 69737757,
+      "offset": 1309628691,
+      "crc32": 2520785125,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-0.20.am",
+      "size": 77760272,
+      "compressed": 69775540,
+      "offset": 1379366494,
+      "crc32": 1868184129,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-0.21.am",
+      "size": 77760272,
+      "compressed": 69813020,
+      "offset": 1449142080,
+      "crc32": 3453704157,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-0.22.am",
+      "size": 77760272,
+      "compressed": 69857317,
+      "offset": 1518955146,
+      "crc32": 3696339886,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-0.23.am",
+      "size": 77760272,
+      "compressed": 69903967,
+      "offset": 1588812509,
+      "crc32": 2840438714,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-0.24.am",
+      "size": 77760272,
+      "compressed": 69955018,
+      "offset": 1658716522,
+      "crc32": 3114389801,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-0.25.am",
+      "size": 77760272,
+      "compressed": 70002331,
+      "offset": 1728671586,
+      "crc32": 281962366,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-0.26.am",
+      "size": 77760272,
+      "compressed": 70055213,
+      "offset": 1798673963,
+      "crc32": 189563982,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-0.27.am",
+      "size": 77760272,
+      "compressed": 70092170,
+      "offset": 1868729222,
+      "crc32": 768658835,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-0.28.am",
+      "size": 77760272,
+      "compressed": 70110456,
+      "offset": 1938821438,
+      "crc32": 1735778278,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-0.29.am",
+      "size": 77760272,
+      "compressed": 70150714,
+      "offset": 2008931940,
+      "crc32": 1588242928,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-0.30.am",
+      "size": 77760272,
+      "compressed": 70173448,
+      "offset": 2079082700,
+      "crc32": 30699626,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-0.31.am",
+      "size": 77760272,
+      "compressed": 70213318,
+      "offset": 2149256194,
+      "crc32": 2420264645,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-0.32.am",
+      "size": 77760272,
+      "compressed": 70251840,
+      "offset": 2219469558,
+      "crc32": 2357776497,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-0.33.am",
+      "size": 77760272,
+      "compressed": 70283761,
+      "offset": 2289721444,
+      "crc32": 862007788,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-0.34.am",
+      "size": 77760272,
+      "compressed": 70315506,
+      "offset": 2360005251,
+      "crc32": 739363475,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-0.35.am",
+      "size": 77760272,
+      "compressed": 70333028,
+      "offset": 2430320803,
+      "crc32": 841416948,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-0.36.am",
+      "size": 77760272,
+      "compressed": 70349710,
+      "offset": 2500653877,
+      "crc32": 1256543803,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-0.37.am",
+      "size": 77760272,
+      "compressed": 70374415,
+      "offset": 2571003633,
+      "crc32": 4107187043,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-0.38.am",
+      "size": 77760272,
+      "compressed": 70394569,
+      "offset": 2641378094,
+      "crc32": 3024973853,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-0.39.am",
+      "size": 77760272,
+      "compressed": 70409489,
+      "offset": 2711772709,
+      "crc32": 1149045363,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-0.40.am",
+      "size": 77760272,
+      "compressed": 70419188,
+      "offset": 2782182244,
+      "crc32": 2023029866,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-0.41.am",
+      "size": 77760272,
+      "compressed": 70412708,
+      "offset": 2852601478,
+      "crc32": 3394945951,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-0.42.am",
+      "size": 77760272,
+      "compressed": 70433173,
+      "offset": 2923014232,
+      "crc32": 569452850,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-0.43.am",
+      "size": 77760272,
+      "compressed": 70468246,
+      "offset": 2993447451,
+      "crc32": 3702981093,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-0.44.am",
+      "size": 77760272,
+      "compressed": 70502649,
+      "offset": 3063915743,
+      "crc32": 1432481855,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-0.45.am",
+      "size": 77760272,
+      "compressed": 70530882,
+      "offset": 3134418438,
+      "crc32": 3032246595,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-0.46.am",
+      "size": 77760272,
+      "compressed": 70551881,
+      "offset": 3204949366,
+      "crc32": 3939771953,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-0.47.am",
+      "size": 77760272,
+      "compressed": 70571704,
+      "offset": 3275501293,
+      "crc32": 26207335,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-0.48.am",
+      "size": 77760272,
+      "compressed": 70587138,
+      "offset": 3346073043,
+      "crc32": 3301064642,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-0.49.am",
+      "size": 77760272,
+      "compressed": 70604287,
+      "offset": 3416660227,
+      "crc32": 3337999626,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-0.50.am",
+      "size": 77760272,
+      "compressed": 70632184,
+      "offset": 3487264560,
+      "crc32": 937468226,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-0.51.am",
+      "size": 77760272,
+      "compressed": 70653726,
+      "offset": 3557896790,
+      "crc32": 3043562254,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-0.52.am",
+      "size": 77760272,
+      "compressed": 70676117,
+      "offset": 3628550562,
+      "crc32": 4245080798,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-0.53.am",
+      "size": 77760272,
+      "compressed": 70698505,
+      "offset": 3699226725,
+      "crc32": 3264682733,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-0.54.am",
+      "size": 77760272,
+      "compressed": 70694027,
+      "offset": 3769925276,
+      "crc32": 4159079024,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-0.55.am",
+      "size": 77760272,
+      "compressed": 70709634,
+      "offset": 3840619349,
+      "crc32": 2800456529,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-0.56.am",
+      "size": 77760272,
+      "compressed": 70717473,
+      "offset": 3911329029,
+      "crc32": 1528050727,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-0.57.am",
+      "size": 77760272,
+      "compressed": 70735565,
+      "offset": 3982046548,
+      "crc32": 4167088239,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-0.58.am",
+      "size": 77760272,
+      "compressed": 70754579,
+      "offset": 4052782159,
+      "crc32": 746339256,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-0.59.am",
+      "size": 77760272,
+      "compressed": 70765025,
+      "offset": 4123536784,
+      "crc32": 3838210681,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-0.60.am",
+      "size": 77760272,
+      "compressed": 70774846,
+      "offset": 4194301855,
+      "crc32": 1581985891,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-0.61.am",
+      "size": 77760272,
+      "compressed": 70784536,
+      "offset": 4265076747,
+      "crc32": 3732031390,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-0.62.am",
+      "size": 77760272,
+      "compressed": 70785089,
+      "offset": 4335861329,
+      "crc32": 2429538050,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-0.63.am",
+      "size": 77760272,
+      "compressed": 70789562,
+      "offset": 4406646464,
+      "crc32": 3545740829,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-0.64.am",
+      "size": 77760272,
+      "compressed": 70790126,
+      "offset": 4477436072,
+      "crc32": 154097081,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-0.65.am",
+      "size": 77760272,
+      "compressed": 70794793,
+      "offset": 4548226244,
+      "crc32": 380082870,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-0.66.am",
+      "size": 77760272,
+      "compressed": 70794124,
+      "offset": 4619021083,
+      "crc32": 4014508833,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-0.67.am",
+      "size": 77760272,
+      "compressed": 70790906,
+      "offset": 4689815253,
+      "crc32": 2765211522,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-0.68.am",
+      "size": 77760272,
+      "compressed": 70785678,
+      "offset": 4760606205,
+      "crc32": 3803431212,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-0.69.am",
+      "size": 77760272,
+      "compressed": 70778163,
+      "offset": 4831391929,
+      "crc32": 2956887181,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-0.70.am",
+      "size": 77760272,
+      "compressed": 70774003,
+      "offset": 4902170138,
+      "crc32": 3845547188,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-0.71.am",
+      "size": 77760272,
+      "compressed": 70766959,
+      "offset": 4972944187,
+      "crc32": 1401340710,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-0.72.am",
+      "size": 77760272,
+      "compressed": 70759768,
+      "offset": 5043711192,
+      "crc32": 1552078430,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-0.73.am",
+      "size": 77760272,
+      "compressed": 70756008,
+      "offset": 5114471006,
+      "crc32": 2581948586,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-0.74.am",
+      "size": 77760272,
+      "compressed": 70753974,
+      "offset": 5185227060,
+      "crc32": 3032313738,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-0.75.am",
+      "size": 77760272,
+      "compressed": 70750613,
+      "offset": 5255981080,
+      "crc32": 2026571823,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-0.76.am",
+      "size": 77760272,
+      "compressed": 70754984,
+      "offset": 5326731739,
+      "crc32": 4292313009,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-0.77.am",
+      "size": 77760272,
+      "compressed": 70746840,
+      "offset": 5397486769,
+      "crc32": 1395695219,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-0.78.am",
+      "size": 77760272,
+      "compressed": 70741348,
+      "offset": 5468233655,
+      "crc32": 2559761839,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-0.79.am",
+      "size": 77760272,
+      "compressed": 70728315,
+      "offset": 5538975049,
+      "crc32": 1604614765,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-0.80.am",
+      "size": 77760272,
+      "compressed": 70716288,
+      "offset": 5609703410,
+      "crc32": 107609381,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-0.81.am",
+      "size": 77760272,
+      "compressed": 70705298,
+      "offset": 5680419744,
+      "crc32": 3078037589,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-0.82.am",
+      "size": 77760272,
+      "compressed": 70688103,
+      "offset": 5751125088,
+      "crc32": 1790143276,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-0.83.am",
+      "size": 77760272,
+      "compressed": 70669453,
+      "offset": 5821813237,
+      "crc32": 2603080536,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-0.84.am",
+      "size": 77760272,
+      "compressed": 70655359,
+      "offset": 5892482736,
+      "crc32": 1879107149,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-0.85.am",
+      "size": 77760272,
+      "compressed": 70636349,
+      "offset": 5963138141,
+      "crc32": 3814860074,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-0.86.am",
+      "size": 77760272,
+      "compressed": 70616687,
+      "offset": 6033774536,
+      "crc32": 964307160,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-0.87.am",
+      "size": 77760272,
+      "compressed": 70589966,
+      "offset": 6104391269,
+      "crc32": 518771176,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-0.88.am",
+      "size": 77760272,
+      "compressed": 70571915,
+      "offset": 6174981281,
+      "crc32": 3821184082,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-0.89.am",
+      "size": 77760272,
+      "compressed": 70560498,
+      "offset": 6245553242,
+      "crc32": 1515208527,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-0.90.am",
+      "size": 77760272,
+      "compressed": 70547535,
+      "offset": 6316113786,
+      "crc32": 478111877,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-0.91.am",
+      "size": 77760272,
+      "compressed": 70536422,
+      "offset": 6386661367,
+      "crc32": 2500287699,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-0.92.am",
+      "size": 77760272,
+      "compressed": 70525685,
+      "offset": 6457197835,
+      "crc32": 201538020,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-0.93.am",
+      "size": 77760272,
+      "compressed": 70518859,
+      "offset": 6527723566,
+      "crc32": 145696264,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-0.94.am",
+      "size": 77760272,
+      "compressed": 70528200,
+      "offset": 6598242471,
+      "crc32": 2917632955,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-0.95.am",
+      "size": 77760272,
+      "compressed": 70539125,
+      "offset": 6668770717,
+      "crc32": 1783008300,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-0.96.am",
+      "size": 77760272,
+      "compressed": 70535911,
+      "offset": 6739309888,
+      "crc32": 2143038461,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-0.97.am",
+      "size": 77760272,
+      "compressed": 70560232,
+      "offset": 6809845845,
+      "crc32": 3610180140,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-0.98.am",
+      "size": 77760272,
+      "compressed": 70577895,
+      "offset": 6880406123,
+      "crc32": 1978922576,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-0.99.am",
+      "size": 77760272,
+      "compressed": 70589325,
+      "offset": 6950984064,
+      "crc32": 925099859,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-1.00.am",
+      "size": 77760272,
+      "compressed": 70606220,
+      "offset": 7021573435,
+      "crc32": 1384038721,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-1.01.am",
+      "size": 77760272,
+      "compressed": 70607525,
+      "offset": 7092179701,
+      "crc32": 4014301245,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-1.02.am",
+      "size": 77760272,
+      "compressed": 70611850,
+      "offset": 7162787272,
+      "crc32": 3970266310,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-1.03.am",
+      "size": 77760272,
+      "compressed": 70614264,
+      "offset": 7233399168,
+      "crc32": 1729708915,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-1.04.am",
+      "size": 77760272,
+      "compressed": 70623107,
+      "offset": 7304013478,
+      "crc32": 3540901242,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-1.05.am",
+      "size": 77760272,
+      "compressed": 70620625,
+      "offset": 7374636631,
+      "crc32": 1171873145,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-1.06.am",
+      "size": 77760272,
+      "compressed": 70630758,
+      "offset": 7445257302,
+      "crc32": 1009584439,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-1.07.am",
+      "size": 77760272,
+      "compressed": 70636373,
+      "offset": 7515888106,
+      "crc32": 1604933726,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-1.08.am",
+      "size": 77760272,
+      "compressed": 70634044,
+      "offset": 7586524525,
+      "crc32": 1406831050,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-1.09.am",
+      "size": 77760272,
+      "compressed": 70626591,
+      "offset": 7657158615,
+      "crc32": 2135961537,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-1.10.am",
+      "size": 77760272,
+      "compressed": 70631350,
+      "offset": 7727785252,
+      "crc32": 1185547155,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-1.11.am",
+      "size": 77760272,
+      "compressed": 70649009,
+      "offset": 7798416648,
+      "crc32": 1493543353,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-1.12.am",
+      "size": 77760272,
+      "compressed": 70647362,
+      "offset": 7869065703,
+      "crc32": 4242229530,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-1.13.am",
+      "size": 77760272,
+      "compressed": 70642172,
+      "offset": 7939713111,
+      "crc32": 1160477504,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-1.14.am",
+      "size": 77760272,
+      "compressed": 70641801,
+      "offset": 8010355329,
+      "crc32": 3226604518,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-1.15.am",
+      "size": 77760272,
+      "compressed": 70649969,
+      "offset": 8080997176,
+      "crc32": 1823688623,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-1.16.am",
+      "size": 77760272,
+      "compressed": 70660745,
+      "offset": 8151647191,
+      "crc32": 1539563694,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-1.17.am",
+      "size": 77760272,
+      "compressed": 70675352,
+      "offset": 8222307982,
+      "crc32": 1373184986,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-1.18.am",
+      "size": 77760272,
+      "compressed": 70683082,
+      "offset": 8292983380,
+      "crc32": 3025252040,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-1.19.am",
+      "size": 77760272,
+      "compressed": 70685322,
+      "offset": 8363666508,
+      "crc32": 3325466940,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-1.20.am",
+      "size": 77760272,
+      "compressed": 70688528,
+      "offset": 8434351876,
+      "crc32": 4199867386,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-1.21.am",
+      "size": 77760272,
+      "compressed": 70683670,
+      "offset": 8505040450,
+      "crc32": 771185045,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-1.22.am",
+      "size": 77760272,
+      "compressed": 70686892,
+      "offset": 8575724166,
+      "crc32": 3180822220,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-1.23.am",
+      "size": 77760272,
+      "compressed": 70680869,
+      "offset": 8646411104,
+      "crc32": 899393630,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-1.24.am",
+      "size": 77760272,
+      "compressed": 70686369,
+      "offset": 8717092019,
+      "crc32": 1352208133,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-1.25.am",
+      "size": 77760272,
+      "compressed": 70690125,
+      "offset": 8787778434,
+      "crc32": 3879178095,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-1.26.am",
+      "size": 77760272,
+      "compressed": 70698408,
+      "offset": 8858468605,
+      "crc32": 2688165305,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-1.27.am",
+      "size": 77760272,
+      "compressed": 70708545,
+      "offset": 8929167059,
+      "crc32": 2546841861,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-1.28.am",
+      "size": 77760272,
+      "compressed": 70712184,
+      "offset": 8999875650,
+      "crc32": 2954602211,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-1.29.am",
+      "size": 77760272,
+      "compressed": 70710380,
+      "offset": 9070587880,
+      "crc32": 80663804,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-1.30.am",
+      "size": 77760272,
+      "compressed": 70708494,
+      "offset": 9141298306,
+      "crc32": 49563160,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-1.31.am",
+      "size": 77760272,
+      "compressed": 70697764,
+      "offset": 9212006846,
+      "crc32": 1255558666,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-1.32.am",
+      "size": 77760272,
+      "compressed": 70698319,
+      "offset": 9282704656,
+      "crc32": 3964020299,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-1.33.am",
+      "size": 77760272,
+      "compressed": 70704310,
+      "offset": 9353403021,
+      "crc32": 1963744871,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-1.34.am",
+      "size": 77760272,
+      "compressed": 70712157,
+      "offset": 9424107377,
+      "crc32": 3494728449,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-1.35.am",
+      "size": 77760272,
+      "compressed": 70720169,
+      "offset": 9494819580,
+      "crc32": 1633854492,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-1.36.am",
+      "size": 77760272,
+      "compressed": 70726412,
+      "offset": 9565539795,
+      "crc32": 1477873070,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-1.37.am",
+      "size": 77760272,
+      "compressed": 70736857,
+      "offset": 9636266253,
+      "crc32": 723378717,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-1.38.am",
+      "size": 77760272,
+      "compressed": 70739363,
+      "offset": 9707003156,
+      "crc32": 227471137,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-1.39.am",
+      "size": 77760272,
+      "compressed": 70732799,
+      "offset": 9777742565,
+      "crc32": 1047725306,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-1.40.am",
+      "size": 77760272,
+      "compressed": 70731364,
+      "offset": 9848475410,
+      "crc32": 1732994764,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-1.41.am",
+      "size": 77760272,
+      "compressed": 70727866,
+      "offset": 9919206820,
+      "crc32": 1333745594,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-1.42.am",
+      "size": 77760272,
+      "compressed": 70723851,
+      "offset": 9989934732,
+      "crc32": 44863705,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-1.43.am",
+      "size": 77760272,
+      "compressed": 70722023,
+      "offset": 10060658629,
+      "crc32": 239212360,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-1.44.am",
+      "size": 77760272,
+      "compressed": 70721047,
+      "offset": 10131380698,
+      "crc32": 729751713,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-1.45.am",
+      "size": 77760272,
+      "compressed": 70715067,
+      "offset": 10202101791,
+      "crc32": 4089326225,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-1.46.am",
+      "size": 77760272,
+      "compressed": 70723468,
+      "offset": 10272816904,
+      "crc32": 1613965691,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-1.47.am",
+      "size": 77760272,
+      "compressed": 70717320,
+      "offset": 10343540418,
+      "crc32": 727511003,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-1.48.am",
+      "size": 77760272,
+      "compressed": 70722148,
+      "offset": 10414257784,
+      "crc32": 3048498710,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-1.49.am",
+      "size": 77760272,
+      "compressed": 70704197,
+      "offset": 10484979978,
+      "crc32": 1083781101,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-1.50.am",
+      "size": 77760272,
+      "compressed": 70707561,
+      "offset": 10555684221,
+      "crc32": 1091787268,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-1.51.am",
+      "size": 77760272,
+      "compressed": 70714763,
+      "offset": 10626391828,
+      "crc32": 196630784,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-1.52.am",
+      "size": 77760272,
+      "compressed": 70709262,
+      "offset": 10697106637,
+      "crc32": 749208300,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-1.53.am",
+      "size": 77760272,
+      "compressed": 70708698,
+      "offset": 10767815945,
+      "crc32": 2720954206,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-1.54.am",
+      "size": 77760272,
+      "compressed": 70703713,
+      "offset": 10838524689,
+      "crc32": 3736921577,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-1.55.am",
+      "size": 77760272,
+      "compressed": 70696947,
+      "offset": 10909228448,
+      "crc32": 233634883,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-1.56.am",
+      "size": 77760272,
+      "compressed": 70684053,
+      "offset": 10979925441,
+      "crc32": 2951176403,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-1.57.am",
+      "size": 77760272,
+      "compressed": 70674305,
+      "offset": 11050609540,
+      "crc32": 936369795,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-1.58.am",
+      "size": 77760272,
+      "compressed": 70658167,
+      "offset": 11121283891,
+      "crc32": 2539203653,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-1.59.am",
+      "size": 77760272,
+      "compressed": 70642496,
+      "offset": 11191942104,
+      "crc32": 287198398,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-1.60.am",
+      "size": 77760272,
+      "compressed": 70645988,
+      "offset": 11262584646,
+      "crc32": 3735408828,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-1.61.am",
+      "size": 77760272,
+      "compressed": 70647687,
+      "offset": 11333230680,
+      "crc32": 1936451829,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-1.62.am",
+      "size": 77760272,
+      "compressed": 70636527,
+      "offset": 11403878413,
+      "crc32": 1938005665,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-1.63.am",
+      "size": 77760272,
+      "compressed": 70631136,
+      "offset": 11474514986,
+      "crc32": 3761567417,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-1.64.am",
+      "size": 77760272,
+      "compressed": 70625004,
+      "offset": 11545146168,
+      "crc32": 3617568287,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-1.65.am",
+      "size": 77760272,
+      "compressed": 70615353,
+      "offset": 11615771218,
+      "crc32": 2138573372,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-1.66.am",
+      "size": 77760272,
+      "compressed": 70624819,
+      "offset": 11686386617,
+      "crc32": 1034165277,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-1.67.am",
+      "size": 77760272,
+      "compressed": 70636091,
+      "offset": 11757011482,
+      "crc32": 1018722497,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-1.68.am",
+      "size": 77760272,
+      "compressed": 70636060,
+      "offset": 11827647619,
+      "crc32": 4167610879,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-1.69.am",
+      "size": 77760272,
+      "compressed": 70640642,
+      "offset": 11898283725,
+      "crc32": 82529159,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-1.70.am",
+      "size": 77760272,
+      "compressed": 70641038,
+      "offset": 11968924413,
+      "crc32": 3441431483,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-1.71.am",
+      "size": 77760272,
+      "compressed": 70640658,
+      "offset": 12039565497,
+      "crc32": 4137353535,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-1.72.am",
+      "size": 77760272,
+      "compressed": 70637990,
+      "offset": 12110206201,
+      "crc32": 2117297258,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-1.73.am",
+      "size": 77760272,
+      "compressed": 70645138,
+      "offset": 12180844237,
+      "crc32": 2786433246,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-1.74.am",
+      "size": 77760272,
+      "compressed": 70643086,
+      "offset": 12251489421,
+      "crc32": 1216848019,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-1.75.am",
+      "size": 77760272,
+      "compressed": 70646521,
+      "offset": 12322132553,
+      "crc32": 1476908251,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-1.76.am",
+      "size": 77760272,
+      "compressed": 70643825,
+      "offset": 12392779120,
+      "crc32": 325436281,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-1.77.am",
+      "size": 77760272,
+      "compressed": 70645287,
+      "offset": 12463422991,
+      "crc32": 1394425288,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-1.78.am",
+      "size": 77760272,
+      "compressed": 70648024,
+      "offset": 12534068324,
+      "crc32": 747212043,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-1.79.am",
+      "size": 77760272,
+      "compressed": 70652185,
+      "offset": 12604716394,
+      "crc32": 4007799522,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-1.80.am",
+      "size": 77760272,
+      "compressed": 70657910,
+      "offset": 12675368625,
+      "crc32": 669756048,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-1.81.am",
+      "size": 77760272,
+      "compressed": 70656617,
+      "offset": 12746026581,
+      "crc32": 1364716394,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-1.82.am",
+      "size": 77760272,
+      "compressed": 70648410,
+      "offset": 12816683244,
+      "crc32": 1249807838,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-1.83.am",
+      "size": 77760272,
+      "compressed": 70630444,
+      "offset": 12887331700,
+      "crc32": 1174972186,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-1.84.am",
+      "size": 77760272,
+      "compressed": 70605304,
+      "offset": 12957962190,
+      "crc32": 443704242,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-1.85.am",
+      "size": 77760272,
+      "compressed": 70591697,
+      "offset": 13028567540,
+      "crc32": 3272502528,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-1.86.am",
+      "size": 77760272,
+      "compressed": 70585620,
+      "offset": 13099159283,
+      "crc32": 2190864007,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-1.87.am",
+      "size": 77760272,
+      "compressed": 70573805,
+      "offset": 13169744949,
+      "crc32": 1019166224,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-1.88.am",
+      "size": 77760272,
+      "compressed": 70567449,
+      "offset": 13240318800,
+      "crc32": 2126060,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-1.89.am",
+      "size": 77760272,
+      "compressed": 70562842,
+      "offset": 13310886295,
+      "crc32": 739917105,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-1.90.am",
+      "size": 77760272,
+      "compressed": 70559102,
+      "offset": 13381449183,
+      "crc32": 615646548,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-1.91.am",
+      "size": 77760272,
+      "compressed": 70560182,
+      "offset": 13452008331,
+      "crc32": 693202899,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-1.92.am",
+      "size": 77760272,
+      "compressed": 70560387,
+      "offset": 13522568559,
+      "crc32": 3935221760,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-1.93.am",
+      "size": 77760272,
+      "compressed": 70567516,
+      "offset": 13593128992,
+      "crc32": 1482194688,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-1.94.am",
+      "size": 77760272,
+      "compressed": 70580292,
+      "offset": 13663696554,
+      "crc32": 3099109160,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-1.95.am",
+      "size": 77760272,
+      "compressed": 70585949,
+      "offset": 13734276892,
+      "crc32": 1155901359,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-1.96.am",
+      "size": 77760272,
+      "compressed": 70591337,
+      "offset": 13804862887,
+      "crc32": 4237313458,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-1.97.am",
+      "size": 77760272,
+      "compressed": 70608380,
+      "offset": 13875454270,
+      "crc32": 4122840815,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-1.98.am",
+      "size": 77760272,
+      "compressed": 70625866,
+      "offset": 13946062696,
+      "crc32": 1191206851,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-1.99.am",
+      "size": 77760272,
+      "compressed": 70628033,
+      "offset": 14016688608,
+      "crc32": 1032454865,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa-2.00.am",
+      "size": 77760272,
+      "compressed": 70633961,
+      "offset": 14087316687,
+      "crc32": 3032147214,
+      "compression": 8
+    },
+    {
+      "name": "tangaroa.fileseries",
+      "size": 4182,
+      "compressed": 711,
+      "offset": 14157950694,
+      "crc32": 2230755500,
+      "compression": 8
+    }
+  ]
+}

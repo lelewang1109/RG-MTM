@@ -1,5 +1,0 @@
-Waiting for complete 7z: 542415447 bytes
-Traceback (most recent call last):
-  File "/Users/lele/Desktop/MergeTreeMaps/02-RG-MTM/tmp/volume3d/finish_cylinder.py", line 14, in <module>
-    if time.monotonic()-progress>240:raise RuntimeError('download stopped making progress')
-RuntimeError: download stopped making progress

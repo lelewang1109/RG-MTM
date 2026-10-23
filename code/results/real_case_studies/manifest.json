@@ -1,0 +1,40 @@
+{
+  "datasets": [
+    "era5",
+    "wildfire",
+    "tangaroa"
+  ],
+  "source_sha256": {
+    "analysis/real_case_studies.py": "a07dd3af6c97c598731e92e9938705c7fbaba7fc2070567eb35699b378dc3d55",
+    "analysis/real_case_evidence.py": "fe2279f6b15567ab883d0373cf174d139f543ab0fb944f8ad7c9c48e659448b1",
+    "analysis/real_case_large.py": "114b8b3adce6f8344ab0dd3c54e2d8e4473e3f9aea5c5cfd9e60cb5a43ba6f10",
+    "results/real_case_studies/evidence/era5.json": "2b5cdefe6a07c0c9fa953138d39a60869cad1dc81ccdcc85efe1dfc9f2e2c96a",
+    "results/real_case_studies/evidence/era5.npz": "45a7d45344ca69380db840f02b3ed9296593688deb14fa3d4ed39a55e91139a4",
+    "results/real_case_studies/evidence/wildfire.json": "3d5f4cc0341749201e376f17191e6ab933a5906185626aaf6774d7adab099c80",
+    "results/real_case_studies/evidence/wildfire.npz": "1bb6b2e907b8be9e4dd424ade3b3e68adbb70c806c675b08bc0ee99f65f93feb",
+    "results/real_case_studies/evidence/tangaroa.json": "535b88f328522c84562fb0f6c65cd021b8ceaa047f4d998ffa3f85bf3d3113e1",
+    "results/real_case_studies/evidence/tangaroa.npz": "c893b7003e9c86a93b76208e90d232b3a6fe4c4ce8ad190496293d5d49286dae"
+  },
+  "files": {
+    "era5_rgmtm_large.pdf": "4c30c0c317179d16a716248781a0662d5998071132df77cbaa935b766c0997f1",
+    "era5_rgmtm_large.svg": "eb8dc3d429e379928ca038d673e2782251aa70f9c5a5692ac7ed77027d38abbd",
+    "era5_rgmtm_large.png": "58c8844913161e80e33cdc4675546fa804a7e08810a1c31245acbca68c6fa52e",
+    "wildfire_rgmtm_large.pdf": "e1a88fe61c39c18a683c720c13ea25c9211317154e8e01b35a81086b83bcb46d",
+    "wildfire_rgmtm_large.svg": "d90c0c7f76927ca60b3c347a96517f8ba260faf08bab85e8f52d9f95630c8371",
+    "wildfire_rgmtm_large.png": "4d5209205a66d544115e0ca6d2c94a11e3ac5ee6d9a6741cbda23b21fc51ca38",
+    "tangaroa_rgmtm_large.pdf": "99a3777e0a3116345f0ded3938ba46ae53441a999d1ecd83fd1b926d2e8e18f8",
+    "tangaroa_rgmtm_large.svg": "7102187b942f1d51d66b1fc557f1f4b7172f450042a20ae1f3938c952fb0877d",
+    "tangaroa_rgmtm_large.png": "b8cb30b6d7bc010900624668694b595b7a13b1211c0cd94dacb1c192bed729a4",
+    "rgmtm_large_figures.pdf": "c7a4f56b638eaa7998e27e139be7d14a6ae585320d8cf18f1e9688d1a855171e",
+    "README.md": "630d377ffda76d2b020dd043b2716f832844172e849164f2ff9784bc362f4a54",
+    "event_correspondence_zh.md": "0543e1c15e667620bfdc913c11bba39a94e41a18e3404ffe0aa085f811d1aa80",
+    "captions_en.md": "7692b55041d3d8a56097abbe226bdb5f1e7049ecb89763e8a794a2d9b7fd627f",
+    "event_correspondence.json": "7552c14d7462bee1a04186ebd011d848af3ec0715bd37cd3fa0a05590f7bb740"
+  },
+  "methods": [
+    "RG-MTM-P",
+    "RG-MTM-R"
+  ],
+  "baseline_panels": false,
+  "scientific_parameters_changed": false
+}

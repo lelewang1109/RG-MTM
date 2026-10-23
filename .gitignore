@@ -1,46 +1,26 @@
-__pycache__/
-.DS_Store
-*.py[cod]
-*.egg-info/
+# Local environments and generated caches
 .venv/
+__pycache__/
+*.py[cod]
 .pytest_cache/
-build/
-dist/
-tmp/
-output/
-references/pacificvis2025/pdfs/
-data/real
-paper/pacificvis2027/supplement.zip
-paper/pacificvis2027/*.aux
-paper/pacificvis2027/*.bbl
-paper/pacificvis2027/*.blg
-paper/pacificvis2027/*.log
-paper/pacificvis2027/*.out
-paper/pacificvis2027/*.pdfsync
-
-# Downloaded NOAA inputs and transient exact-frontier caches
-data/public_scalar/
-results/*_cache.pkl
-results/visualization_cache/
-
-# Local reading copies and manuscript revision backups
-references/*.pdf
-notes/archive/before-*/
-notes/archive/layout-before-*/
-
-# Regenerable source archives (keep editable files and published PDFs)
-paper/*/latex_sources.zip
-paper/pacificvis2027-restructured/figures/panels/
-
-# LaTeX scratch files in all manuscript versions
-paper/**/*.aux
-paper/**/*.bbl
-paper/**/*.blg
-paper/**/*.log
-paper/**/*.out
-paper/**/*.synctex.gz
-
-# Manuscripts and writing notes are local-only; never publish to GitHub
-/paper/
-/notes/
-*.bundle
+.DS_Store
+**/.build/
+*.aux
+*.blg
+*.log
+*.out
+*.brf
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+# Oversized independent source archive is distributed as a Release asset
+/paper/manuscript/RG-MTM_LaTeX.zip
+# Raw downloaded inputs and complete arrays are external; see DATA_INVENTORY.csv
+/data/**/*.nc
+!/data/RG-MTM-public-scalar/*.nc
+/data/**/*.npz
+/data/**/*.7z
+/data/**/*.zip
+/data/**/*.bin
+/data/**/*.vti
+/data/**/*.am

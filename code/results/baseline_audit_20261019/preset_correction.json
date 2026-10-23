@@ -1,0 +1,28 @@
+{
+  "file": "src/rgmtm/baselines/tmtm.py",
+  "before_sha256": "6e4afab614042ab798f904a8c1e6928bc50bb822840c6f9fc7f9d4f4e2188f73",
+  "after_sha256": "2437ae70901c29533fa8294d7fa22c0d3970d4138e57afe0da1dab8002ae9404",
+  "changes": [
+    {
+      "preset": "tangaroa-0.15",
+      "before": "split",
+      "after": "join"
+    },
+    {
+      "preset": "tangaroa-0.5",
+      "before": "split",
+      "after": "join"
+    },
+    {
+      "preset": "tangaroa-2",
+      "before": "split",
+      "after": "join"
+    },
+    {
+      "preset": "tangaroa-10",
+      "before": "split",
+      "after": "join"
+    }
+  ],
+  "reason": "Author Tangaroa workspace and existing full201 protocol use join trees; the generic presets were stale. Active full201 experiment already used join, so saved numerical results do not change."
+}

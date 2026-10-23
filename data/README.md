@@ -1,101 +1,19 @@
-# Public input data
+# 本次投稿数据
 
-The completed 3-D experiment uses all 201 official Tangaroa velocity volumes,
-at 300×180×120, with the pinned scalar protocol and TTK join trees. See the
-[experiment overview](../experiments/volume3d/EXPERIMENTS.md) and
-[fresh-checkout commands](../experiments/volume3d/README.md). The repository
-includes ZIP-directory and camera metadata, source hashes, and exported input
-protocols; raw volumes and full generated maps remain excluded.
-
-The separate 3-D extension also provides acquisition code for the publicly resampled SquareCylinder velocity
-sequence (192×64×48, 102 frames) from
-[Tino Weinkauf's data page](https://www.csc.kth.se/~weinkauf/notes/squarecylinder.html).
-Run `PYTHONPATH=src python experiments/volume3d/prepare.py` to acquire it and derive
-Q in source physical coordinates. Raw inputs live in excluded
-`data/real/SquareCylinder/`. See [the 3-D protocol](../experiments/volume3d/README.md)
-for the frozen windows, downstream crop, resampling, boundary treatment, and
-acknowledgements. This public source differs from the 508-frame scalar input in
-the TMTM paper and is not part of the main six-sequence aggregate.
-
-`data/real` is excluded from Git. A fresh checkout creates a normal directory
-there during acquisition. This workspace uses a symbolic link to its shared
-`00-data/real/` cache; that local link and the large raw inputs are not published.
-
-The final evaluation expects these files:
-
-| Relative path | SHA-256 |
+| 目录 | 用途 |
 |---|---|
-| `ERA5_MSLP/ERA5_MSLP_19991117_20000114_12h_arco_expanded.nc` | `77d91ddeb8d61c839065ef20e7290a53c5d77bab5782b7a08dfb62f7c7eadb2f` |
-| `ERA5_MSLP/ERA5_MSLP_20131201_20140131_12h_arco_expanded.nc` | `72445bfb47c1a5980ff991b881c3a77ebf9031996bf99dced03d9c884c65df09` |
-| `wildfire/wildfire.json` | `2a8dd31bf6d222d7de673c7e7b2af94550660f1996b0a5db256d97f2b9c2ed9f` |
+| `real/ERA5_MSLP/` | 118帧主风暴、744小时可视化及历史2013/14独立控制输入 |
+| `real/wildfire/` | Wildfires 输入 |
+| `real/CN-Reanalysis/` | 完整2000年366场主PM2.5与历史季节控制来源 |
+| `RG-MTM-public-scalar/` | OLR、PM2.5等已保存的处理输入和来源协议 |
+| `real/Tangaroa-FAU/` | 官方速度体、原网格201帧派生输入、树与完整地图 |
+| `real/SquareCylinder/` | 完整公开三分量速度档案及解包输入 |
+| `real/paper1_suite/nucleon/` | 单个二维切片输入与输出 |
+| `real/paper1_suite/benzene-potential-reconstructed2d/` | 21个静态二维重建电势截面 |
+| `real/paper1_suite/square-cylinder3d/` | 102帧三维Q、树与510张方法地图 |
 
-The ERA5 subsets come from the public ARCO-ERA5 mirror. The wildfire input is
-from Franke et al., Zenodo record 11234747. The manuscript documents the exact
-extraction and preprocessing protocol.
-# Geographic figure overlay
+`../code/data/real`、`../code/data/public_scalar` 是相对链接，不复制数据。RA-MTM 的共享输入链接也指向这里。Ring/Gaussian 主实验可由代码生成，旧独立生成数据移至 `../../其他/其他研究数据/generated/`。
 
-The figure scripts use Natural Earth 1:110m coastlines from the public-domain
-Natural Earth vector dataset. The GeoJSON is stored at
-`geo/ne_110m_coastline.geojson` and is bundled as a small figure dependency.
-Source: https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_110m_coastline.geojson
-SHA-256: `851f581ff5ffb844deed8ae1a9ce22e3c4bb3d74fa342cadb5d8e39b41ae7c3c`.
-`tools/fetch_coastline.py` downloads and validates the line geometry; this overlay
-does not participate in scalar-field extraction, layout, or evaluation.
+已退出投稿的 OISST、旧PM2.5时间窗、电子密度Benzene、二维圆柱、ECNR备份试跑和3帧smoke输出已移至“其他”。完整原始档案与派生输入分层保留，不能仅因同属一个数据集就视为重复。原始数据仅搬迁保留；本轮新增完整2000年处理输入与结果，不覆盖旧一月输入。
 
-
-## Revised main-paper inputs (2026-10-12)
-
-Only ERA5 1999/2000 is active. OLR uses NOAA's Ver01Rev02 snapshot,
-2024-06-01--2024-07-30, 15 S--20 N / 60--150 E, with join-tree extrema.
-Download with `python3 tools/fetch_public_scalar.py olr` (full-source fallback
-about 3.9 GB). Source: https://doi.org/10.7289/V5SJ1HH2.
-The five-cell buffered 49×49 grid requires finite values; no new imputation is
-performed. The predeclared smoothing ladder selects the first scale meeting
-the eight-extremum limit independently of performance. The chosen scale is
-500 km. Metadata, hashes and preprocessing changes are saved in the protocol.
-OISST is retired and not required to reproduce the current main experiments.
-
-## China PM2.5 and seasonal controls
-
-The current main PM2.5 sequence is January 1–30, 2000 (30 daily fields), over
-102–114 E / 28–38 N. Source: the integrated China PM2.5/elevation/meteorology
-dataset V2, DOI [10.57760/sciencedb.35623](https://doi.org/10.57760/sciencedb.35623).
-Files carry 10:30 timestamps without an explicit averaging interval. Upstream
-linear-then-nearest filling is preserved and disclosed; no new imputation is added.
-The 49×49 buffered equal-area grid and 100 km smoothing follow the frozen protocol.
-
-```sh
-python3 tools/prepare_cn_pm25.py --source-dir ../data/real/CN-Reanalysis/2000
-PYTHONPATH=src python3 tools/run_paper_suite.py --datasets pm25
-```
-
-`results/protocol_pm25.json` records source-file hashes, the processed grid and
-preprocessing changes. January has 5/30 hierarchy-conflict frames and 7 clear
-k=2 motion events. R (κ=20%) and Morton tie at 28.6% total motion error;
-ST-MTM/A/Hilbert are at 42.9%. The main suite totals six datasets / 342 frames.
-
-January was selected for the main display after a four-month seasonal audit.
-January, April, July and October each use 30 consecutive days, the same domain
-and a common 100 km scale chosen from extrema counts before evaluation. All
-four runs and original January–February records remain available; this selection
-does not establish universal superiority. Raw PM2.5 files are excluded from Git
-and supplementary source packages.
-
-```sh
-PYTHONPATH=src python3 tools/run_pm25_seasons.py
-python3 tools/audit_method_performance.py
-```
-
-Older acquisition/configuration notes are retained in
-`../notes/experiment-documentation-history.md`.
-
-## Separate three-dimensional inputs
-
-See [the 3-D protocol](../experiments/volume3d/README.md). Official Tangaroa is
-downloaded from the FAU public share as individual velocity volumes; scalar speed
-is calculated on the source grid. The ECNR Tangaroa VTM backup has a different
-channel and time coverage and is recorded separately. Per-member CRC32, source
-SHA256, source headers, selected times and preprocessing are saved under the
-Git-excluded `data/real/` directory. The supplementary results stay outside the
-six-sequence / 342-frame main suite. Cylinder remains unavailable as a complete
-validated source archive in this workspace; its partial download is not input data.
+数据集来源、处理参数与科学适用范围见 [研究证据边界](../docs/研究证据边界与补充研究.md) 和各实验协议。大体数据与完整地图不进入 LaTeX 投稿包。

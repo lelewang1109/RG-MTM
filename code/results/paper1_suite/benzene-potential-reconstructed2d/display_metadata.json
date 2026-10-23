@@ -1,0 +1,17 @@
+{
+  "normalization": "shared symmetric logarithmic",
+  "linthresh_potential_au": 0.07842339515686035,
+  "vmin": -2.2076358795166016,
+  "vmax": 2.2076358795166016,
+  "scalar_arrays_modified": false,
+  "minima_markers": "all retained leaves, including boundary leaves",
+  "source_slice_indices": [
+    0,
+    5,
+    10,
+    15,
+    20
+  ],
+  "map_sampling": "full maps interpolated onto 32768 common display coordinates",
+  "physical_time": false
+}

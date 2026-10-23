@@ -1,0 +1,450 @@
+{
+  "scope": "Actual existing ERA5 118 and Wildfire 30 frames; no Gaussian or new synthetic data; algorithms and saved results audited separately from paper dataset settings.",
+  "official_tmtm_commit": "2c75a10ed2cd55177a25ff751e0c0a8261200717",
+  "official_harness_sha256": "3fa1cec2b2d6c9042601a5be5e0200c1ace3179240bc5dd6b4bf86fa0f837050",
+  "datasets": {
+    "era5": {
+      "frames": 118,
+      "TMTM_official_core": {
+        "adjacent_pairs": 117,
+        "branch_decisions": 285,
+        "arc_intervals_and_anchors": 687,
+        "mismatches": []
+      },
+      "TMTM_exact_permutations": 118,
+      "TMTM_all_leaf_pair_merge_error_max": 0.0,
+      "STMTM": {
+        "actual_parameters": {
+          "weights": "uniform",
+          "total_leaf_extent_k": 5.644220650507743,
+          "reorder_threshold_r": 0.95,
+          "temporal_lambda": 0.5,
+          "layout_length": 4096,
+          "start_timestep": 0,
+          "mode": "temporal",
+          "alpha": 1.0,
+          "min_spacing_delta": 0.01,
+          "optimizer_tolerance": 1e-11,
+          "optimizer_max_iterations": 2000
+        },
+        "scipy_OLO_exhaustive_cost_gap_max": 30.231658642049894,
+        "scipy_OLO_exhaustive_discrepancies": [
+          {
+            "frame": 24,
+            "scipy_cost": 182.7172262230091,
+            "exhaustive_cost": 152.4855675809592,
+            "scipy_order": [
+              368,
+              2285,
+              2018,
+              1218
+            ]
+          }
+        ],
+        "OLO_scope": "Paper Sec.4.1.1 explicitly uses SciPy OLO as a heuristic. This audit preserves that routine; it does not silently substitute an exhaustive sorter. Nonzero gaps disclose actual heuristic outcomes, not a claim of exhaustive optimality.",
+        "concordance_exhaustive_optimum": true,
+        "threshold_and_orientation": true,
+        "eq1_kkt_relative_residual_max": 3.550113242174405e-08,
+        "eq2_kkt_relative_residual_max": 1.2507629451283942e-08,
+        "actual_raster_all_leaf_pair_merge_error_max": 0.0,
+        "topology_signature_failed_frames": [],
+        "filling_cases_exercised": {
+          "siblings": 139,
+          "direct_deep": 124,
+          "deep_deep": 24,
+          "border": 236
+        },
+        "other_equation_settings": [
+          {
+            "frame": 0,
+            "weights": "uniform",
+            "mode": "base",
+            "eq1_kkt_relative_residual": 7.580383528981325e-17,
+            "eq2_kkt_relative_residual": 1.9368632364935144e-15
+          },
+          {
+            "frame": 0,
+            "weights": "uniform",
+            "mode": "temporal",
+            "eq1_kkt_relative_residual": 2.3971277489205986e-16,
+            "eq2_kkt_relative_residual": 5.349548226726214e-14
+          },
+          {
+            "frame": 0,
+            "weights": "inverse",
+            "mode": "base",
+            "eq1_kkt_relative_residual": 3.338237883243809e-09,
+            "eq2_kkt_relative_residual": 1.822663719082799e-15
+          },
+          {
+            "frame": 0,
+            "weights": "inverse",
+            "mode": "temporal",
+            "eq1_kkt_relative_residual": 2.787247175202319e-07,
+            "eq2_kkt_relative_residual": 2.0560247090743683e-07
+          },
+          {
+            "frame": 59,
+            "weights": "uniform",
+            "mode": "base",
+            "eq1_kkt_relative_residual": 7.98064950653891e-15,
+            "eq2_kkt_relative_residual": 1.0442825334674275e-13
+          },
+          {
+            "frame": 59,
+            "weights": "uniform",
+            "mode": "temporal",
+            "eq1_kkt_relative_residual": 9.298245301999973e-11,
+            "eq2_kkt_relative_residual": 1.0453540282092727e-14
+          },
+          {
+            "frame": 59,
+            "weights": "inverse",
+            "mode": "base",
+            "eq1_kkt_relative_residual": 1.1245873109142887e-07,
+            "eq2_kkt_relative_residual": 1.0438376770608028e-13
+          },
+          {
+            "frame": 59,
+            "weights": "inverse",
+            "mode": "temporal",
+            "eq1_kkt_relative_residual": 7.167553371590013e-16,
+            "eq2_kkt_relative_residual": 1.239758465120324e-07
+          },
+          {
+            "frame": 117,
+            "weights": "uniform",
+            "mode": "base",
+            "eq1_kkt_relative_residual": 8.08684051999621e-17,
+            "eq2_kkt_relative_residual": 4.8208508995349445e-15
+          },
+          {
+            "frame": 117,
+            "weights": "uniform",
+            "mode": "temporal",
+            "eq1_kkt_relative_residual": 2.91575181513462e-16,
+            "eq2_kkt_relative_residual": 5.845864658492662e-15
+          },
+          {
+            "frame": 117,
+            "weights": "inverse",
+            "mode": "base",
+            "eq1_kkt_relative_residual": 2.3631156940992693e-09,
+            "eq2_kkt_relative_residual": 5.239727668490248e-15
+          },
+          {
+            "frame": 117,
+            "weights": "inverse",
+            "mode": "temporal",
+            "eq1_kkt_relative_residual": 1.0881560289782767e-15,
+            "eq2_kkt_relative_residual": 1.2912144761737254e-06
+          }
+        ]
+      }
+    },
+    "wildfire": {
+      "frames": 30,
+      "TMTM_official_core": {
+        "adjacent_pairs": 29,
+        "branch_decisions": 201,
+        "arc_intervals_and_anchors": 431,
+        "mismatches": []
+      },
+      "TMTM_exact_permutations": 30,
+      "TMTM_all_leaf_pair_merge_error_max": 0.0,
+      "STMTM": {
+        "actual_parameters": {
+          "weights": "uniform",
+          "total_leaf_extent_k": 6.26953125,
+          "reorder_threshold_r": 0.95,
+          "temporal_lambda": 0.5,
+          "layout_length": 2048,
+          "start_timestep": 0,
+          "mode": "temporal",
+          "alpha": 1.0,
+          "min_spacing_delta": 0.01,
+          "optimizer_tolerance": 1e-11,
+          "optimizer_max_iterations": 2000
+        },
+        "scipy_OLO_exhaustive_cost_gap_max": 51.28105816060315,
+        "scipy_OLO_exhaustive_discrepancies": [
+          {
+            "frame": 0,
+            "scipy_cost": 134.96077981533824,
+            "exhaustive_cost": 127.76561834028783,
+            "scipy_order": [
+              868,
+              1456,
+              1966,
+              2861,
+              2679,
+              3564,
+              3428
+            ]
+          },
+          {
+            "frame": 1,
+            "scipy_cost": 185.48817392784596,
+            "exhaustive_cost": 149.3954190751029,
+            "scipy_order": [
+              1392,
+              4090,
+              3564,
+              3128,
+              2679,
+              3428
+            ]
+          },
+          {
+            "frame": 3,
+            "scipy_cost": 211.22279721696282,
+            "exhaustive_cost": 209.96916077626125,
+            "scipy_order": [
+              214,
+              656,
+              2648,
+              2585,
+              2523,
+              3428,
+              3704,
+              3128,
+              2679,
+              1903
+            ]
+          },
+          {
+            "frame": 8,
+            "scipy_cost": 302.7814902030557,
+            "exhaustive_cost": 251.50043204245253,
+            "scipy_order": [
+              278,
+              792,
+              554,
+              4091,
+              2679,
+              1903,
+              2862,
+              3178,
+              2393
+            ]
+          },
+          {
+            "frame": 10,
+            "scipy_cost": 256.21163234916554,
+            "exhaustive_cost": 256.089992170228,
+            "scipy_order": [
+              968,
+              215,
+              672,
+              482,
+              419,
+              1903,
+              2679,
+              3258,
+              4092,
+              3285
+            ]
+          },
+          {
+            "frame": 11,
+            "scipy_cost": 254.94439449012714,
+            "exhaustive_cost": 242.86605354186918,
+            "scipy_order": [
+              214,
+              608,
+              482,
+              3221,
+              2396,
+              2011,
+              1838,
+              3258,
+              4092
+            ]
+          },
+          {
+            "frame": 17,
+            "scipy_cost": 226.29459848067776,
+            "exhaustive_cost": 221.1584088186276,
+            "scipy_order": [
+              1047,
+              419,
+              1132,
+              1968,
+              2743,
+              3128,
+              3428,
+              2589,
+              2075,
+              3285
+            ]
+          }
+        ],
+        "OLO_scope": "Paper Sec.4.1.1 explicitly uses SciPy OLO as a heuristic. This audit preserves that routine; it does not silently substitute an exhaustive sorter. Nonzero gaps disclose actual heuristic outcomes, not a claim of exhaustive optimality.",
+        "concordance_exhaustive_optimum": true,
+        "threshold_and_orientation": true,
+        "eq1_kkt_relative_residual_max": 1.8874828061318098e-08,
+        "eq2_kkt_relative_residual_max": 9.634210904804816e-07,
+        "actual_raster_all_leaf_pair_merge_error_max": 0.0,
+        "topology_signature_failed_frames": [],
+        "filling_cases_exercised": {
+          "siblings": 55,
+          "direct_deep": 127,
+          "deep_deep": 25,
+          "border": 60
+        },
+        "other_equation_settings": [
+          {
+            "frame": 0,
+            "weights": "uniform",
+            "mode": "base",
+            "eq1_kkt_relative_residual": 2.771561342010125e-09,
+            "eq2_kkt_relative_residual": 0.0
+          },
+          {
+            "frame": 0,
+            "weights": "uniform",
+            "mode": "temporal",
+            "eq1_kkt_relative_residual": 1.601384098203102e-09,
+            "eq2_kkt_relative_residual": 0.0
+          },
+          {
+            "frame": 0,
+            "weights": "inverse",
+            "mode": "base",
+            "eq1_kkt_relative_residual": 2.1667114887669578e-07,
+            "eq2_kkt_relative_residual": 0.0
+          },
+          {
+            "frame": 0,
+            "weights": "inverse",
+            "mode": "temporal",
+            "eq1_kkt_relative_residual": 3.583660368079191e-07,
+            "eq2_kkt_relative_residual": 6.96514796129741e-09
+          },
+          {
+            "frame": 15,
+            "weights": "uniform",
+            "mode": "base",
+            "eq1_kkt_relative_residual": 1.0295718238760296e-09,
+            "eq2_kkt_relative_residual": 2.21732466598518e-14
+          },
+          {
+            "frame": 15,
+            "weights": "uniform",
+            "mode": "temporal",
+            "eq1_kkt_relative_residual": 1.6915720758058417e-08,
+            "eq2_kkt_relative_residual": 2.956248570368153e-14
+          },
+          {
+            "frame": 15,
+            "weights": "inverse",
+            "mode": "base",
+            "eq1_kkt_relative_residual": 8.810233268037264e-08,
+            "eq2_kkt_relative_residual": 2.2156212780012745e-14
+          },
+          {
+            "frame": 15,
+            "weights": "inverse",
+            "mode": "temporal",
+            "eq1_kkt_relative_residual": 8.643005792362205e-10,
+            "eq2_kkt_relative_residual": 6.0516945302405e-07
+          },
+          {
+            "frame": 29,
+            "weights": "uniform",
+            "mode": "base",
+            "eq1_kkt_relative_residual": 1.2771059883205542e-08,
+            "eq2_kkt_relative_residual": 6.324096777038802e-07
+          },
+          {
+            "frame": 29,
+            "weights": "uniform",
+            "mode": "temporal",
+            "eq1_kkt_relative_residual": 2.0439264640961483e-09,
+            "eq2_kkt_relative_residual": 6.324094407321256e-07
+          },
+          {
+            "frame": 29,
+            "weights": "inverse",
+            "mode": "base",
+            "eq1_kkt_relative_residual": 1.432280637475621e-07,
+            "eq2_kkt_relative_residual": 4.065637625223566e-14
+          },
+          {
+            "frame": 29,
+            "weights": "inverse",
+            "mode": "temporal",
+            "eq1_kkt_relative_residual": 6.859950747892683e-16,
+            "eq2_kkt_relative_residual": 1.8532423103661589e-16
+          }
+        ]
+      }
+    }
+  },
+  "source_sha256": {
+    "src/rgmtm/baselines/tmtm.py": "2437ae70901c29533fa8294d7fa22c0d3970d4138e57afe0da1dab8002ae9404",
+    "src/rgmtm/baselines/stmtm.py": "97a232bfbd6b4b7f8e0d125396a2a6d3619b5f661c106ded574c55d1c5be5f77",
+    "experiments/era5.py": "c57b98f41959bb8c8af6b8709e3df7098824c300dcfa73e912218ac8f8bf6574",
+    "experiments/baseline_audit/audit.py": "ac88134dd3f267b66593c500afe86ee5db71afff341ce79c461784c20f5e550f"
+  },
+  "Tangaroa_saved_evidence": {
+    "status": "passed",
+    "scope": "published evidence bindings only; no raw-input or full-array numerical revalidation",
+    "original_grid_xyz": [
+      300,
+      180,
+      120
+    ],
+    "frames": 201,
+    "methods": [
+      "TMTM",
+      "RG-MTM-P",
+      "RG-MTM-R 0.02",
+      "RG-MTM-R 0.2",
+      "RG-MTM-R 1",
+      "Exact projection"
+    ],
+    "original_input_tree_identity_claimed": false,
+    "numerical_rerun": false
+  },
+  "paper_parameter_comparison": {
+    "storms": {
+      "dimensions": [
+        281,
+        181
+      ],
+      "timesteps": 744,
+      "feature_count": "1-8",
+      "persistence_threshold": 0.105,
+      "weights": "inverse",
+      "total_leaf_extent_k": 135.0,
+      "reorder_threshold_r": 0.65,
+      "temporal_lambda": 0.05,
+      "layout_length": 4096,
+      "start_timestep": 40
+    },
+    "wildfires": {
+      "dimensions": [
+        64,
+        64
+      ],
+      "timesteps": 32,
+      "feature_count": "2-34",
+      "persistence_threshold": 0.15,
+      "weights": "uniform",
+      "total_leaf_extent_k": 10.0,
+      "reorder_threshold_r": 0.85,
+      "temporal_lambda": 0.5,
+      "layout_length": 4096,
+      "start_timestep": 5
+    }
+  },
+  "status": "passed_algorithm_checks_with_declared_protocol_differences",
+  "ST_author_code_equivalence_claimed": false,
+  "limits": [
+    "No author ST-MTM executable supplied: equation/structure verification, not byte-for-byte author-code equivalence.",
+    "Shared-input experiments use their recorded Start=0 and generic weights/K/r/lambda/L, not the dataset-specific paper presets.",
+    "Tangaroa supports verified TMTM and a declared nonbinary extension; no completed real-3-D ST-MTM result.",
+    "Tangaroa derived tree node counts remain 36-186 vs paper 50-186."
+  ]
+}

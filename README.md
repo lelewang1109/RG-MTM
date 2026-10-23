@@ -1,141 +1,44 @@
-# RG-MTM: Reference-Guided Merge Tree Maps
+# Reference-Guided Merge Tree Maps (RG-MTM)
 
-Implementation, experiments, and visualization assets for reference-guided merge tree maps.
+完整研究材料更新：2026-10-23。此仓库集中保存 RG-MTM-P / RG-MTM-R 方法、论文与附录、可编辑配图和实验凭据。当前稿是研究稿，尚需按投稿会议要求调整篇幅。
 
-RG-MTM diagnoses how far feature anchors must move when a merge-tree hierarchy
-is kept, and measures the scalar merge-level cost of optional relaxation. It
-preserves the selected extrema and their values. The contribution is a quantified
-trade-off, with mixed geometric motion-proxy benefits across datasets.
+## 论文与图件
 
-## Start here
+- [正文 PDF](paper/manuscript/Revised_RG-MTM.pdf) · [附录 PDF](paper/manuscript/Revised_Supplement.pdf)
+- [正文 LaTeX](paper/manuscript/latex/main.tex) · [附录 LaTeX](paper/manuscript/latex/supplement.tex) · [完整参考文献](paper/manuscript/latex/refs.bib)
+- [正文配图 PPT](paper/figures_ppt/All_Figures.pptx) · [附录配图 PPT](paper/figures_ppt/All_Supplementary_Figures.pptx) · [单图编辑母版](paper/figures_ppt) · [PDF/PNG/SVG 图件](paper/figures_export)
+- [独立 LaTeX 压缩包及下载附件](https://github.com/lelewang1109/RG-MTM/releases/tag/research-2026-10-23)
 
-- 最新论文与配套附录 PDF：[`publications/`](publications/README.md)。
-- 最新实验、公共指标与复现入口：[`experiments/latest/`](experiments/latest/README.md)。
-- 三维实验：[`实验设计与证据总览`](experiments/volume3d/EXPERIMENTS.md)、[`原网格 Tangaroa 结果与图片`](results/volume3d/README.md)。
-- RG-MTM 实验图片：[统一图片索引](results/figures/README.md)（PNG / SVG，含生成脚本及来源哈希）。
-- Experiment code and commands: [`experiments/publication2027/`](experiments/publication2027/README.md).
-- Scientific reproduction: [`experiments/publication2027/REPRODUCING.md`](experiments/publication2027/REPRODUCING.md).
-- Organized results and provenance: [`results/publication2027/`](results/publication2027/README.md).
-- Raw-data acquisition/preparation: [`data/README.md`](data/README.md).
+## 项目导航
 
+| 目录 | 内容 |
+|---|---|
+| [code](code/README.md) | 算法实现、分析模块、实验入口、测试、原始结果与溯源记录 |
+| [paper](paper/README.md) | 当前正文/附录、模块化 TeX、图件、冻结证据与维护脚本 |
+| [data](data/README.md) | 小型处理输入、树与来源协议；大体量输入见数据清单 |
+| [docs](docs/README.md) | 正文与附录索引、实验组织、证据边界及整理记录 |
+| [references](references/README.md) | 核心论文、相关方法与项目入口 |
+| [发布与验证说明](docs/github/RELEASE.md) | 发布范围、复现步骤和明确限制 |
 
-## Main experiments
+当前主结果见 [九数据统一结果](code/results/submission20261023/README.md)。917 个时序帧与 22 个静态切片分别计数；Benzene 为二维电势重建截面，不能视为作者原始数据或物理时间序列。显示插值不增加科学样本；性能与精度结论以保存的原始数值为准。
 
-| Dataset | Frames | Tree | Purpose |
-|---|---:|---|---|
-| ERA5 pressure, 1999/2000 | 118 | Join | Atmospheric minima and illustrated conflict |
-| Australian fire, 2019 | 30 | Split | More complex feature configurations |
-| NOAA OLR, June–July 2024 | 60 | Join | Additional domain and no motion-proxy benefit case |
-| China PM2.5, January 2000 | 30 | Split | Selected, sparse descriptive case |
-| Ring | 40 | Split | Synthetic expanding geometry |
-| Gaussians | 64 | Split | Synthetic hierarchy/position control |
-
-Membership is defined in `analysis/dataset_suite.py`: six sequences / 342 frames.
-The 2013/14 ERA5 period and OISST are excluded from main aggregates. Four PM2.5
-months are a separate exploratory selection audit. Gaussian motion error is
-undefined at the default setting because no clear events occur.
-
-The main methods are TMTM, a reimplementation of ST-MTM, native Hilbert and Morton,
-packed reference sorting, and RG-MTM-P / RG-MTM-R. Native curves retain
-all processed samples and do not receive optimal filling. This rendering-policy
-difference is explicit in the paper. Fixed-X and exact projection are controls.
-
-## Reproduce
-
-Use Python 3.10+ and the pinned dependencies:
+## 安装与复核
 
 ```sh
-python -m pip install -e .
-PYTHONPATH=src python -m unittest discover -s tests -v
-# Recompute five critical numerical stages on all six prepared sequences:
-PYTHONPATH=src python experiments/publication2027/run.py
-# Regenerate tables, quantitative figures, organized records and provenance:
-PYTHONPATH=src python experiments/publication2027/build.py
-# Verify source/figure hashes and numerical manuscript claims:
-PYTHONPATH=src python experiments/publication2027/validate.py
+# 从克隆后的仓库根目录执行
+python3 -m venv .venv
+.venv/bin/python -m pip install -e ./code
+cd code
+PYTHONPATH=src ../.venv/bin/python -m unittest discover -s tests -v
+PYTHONPATH=src ../.venv/bin/python tools/build_submission20261023.py --check
 ```
 
-The scientific/contract tests cover the main suite and 3-D extension. Full numerical runs require prepared raw
-inputs; saved records suffice to regenerate publication tables and figures.
-The runner writes timestamped status manifests and logs. Exact-frontier,
-sensitivity, scalability, and transfer records retained from prior runs are
-identified separately. See the experiment README for the explicit ten-stage run.
+三维实验按需安装 `pip install -e './code[volume3d]'`；固定版本 TTK 的获取和构建见 `code/experiments/volume3d/build_native_ttk.py`。大型科学实验需要先准备相应输入；已有数值检查通过不等于本轮重跑了全部实验。
 
-The organized export includes a 42-row unrounded comparison CSV, a claim ledger,
-source/snapshot hashes, and separate `main`, `sensitivity`, `validation`, `transfer`,
-and `protocols` folders. No original result files or raw observations are removed.
+论文编译入口位于 `paper/manuscript/latex`，使用支持 `vgtc.cls` 的 LaTeX 环境依次运行 `pdflatex main`、`bibtex main`、两次 `pdflatex main`；附录将 `main` 换成 `supplement`。独立源码包包含编译所需图件与证据。
 
-## Reading the results
+## 数据与历史
 
-Full interval certificates, width-free calibrated order error, and achieved anchor
-displacement measure different feasible sets. Scalar-cost means do not bound the
-worst frame, and the relaxation eligibility threshold is not an error guarantee.
-The motion proxy assumes known identities and is not a participant study. Improved
-reference alignment may worsen two-dimensional stress or provide no proxy benefit.
+[数据库存清单](docs/github/DATA_INVENTORY.csv) 列出本次本地输入的路径、字节数和是否随仓库提供。原始大体积 NetCDF、三维体、完整地图、系统缓存及第三方论文阅读副本不直接打入 Git；获取入口见 [数据与复现指南](docs/github/RELEASE.md)。代码与数值保留原始哈希，发布额外提供文件校验清单。
 
-The retained [visualization gallery](results/visualizations/README.md) provides
-additional spatial/tree views, six-method temporal maps, fragmentation, and
-geometric diagnostics. The new publication figures have PDF, PNG, and SVG exports.
-The source reference papers are held locally under `references/`; their text and
-figures are not redistributed in the new source bundle.
-
-## Three-dimensional extension
-
-The separate [3-D experiment](experiments/volume3d/README.md) supports temporal
-volume inputs, physical-coordinate Q derivation for the public SquareCylinder
-velocity data, volume-based feature widths, and full-3-D versus projected motion
-evaluation. Its results remain outside the six-sequence / 342-frame main suite.
-The 3-D primary baseline is TMTM; ST-MTM is an explicitly optional project
-extension. Official FAU Tangaroa velocity-to-speed acquisition and an independently
-recorded ECNR VTM release are kept separate, with source checksums and version limits.
-An [input audit against the authors' workspaces](results/volume3d/tangaroa-input-audit-20261018/REPORT.md)
-corrects the previous Tangaroa pilot: it omitted the authors' mask/clip operations
-and used split trees instead of join trees. Its coarse pilot metrics must not be
-used as a same-input reproduction of the paper. The audit checks original-resolution
-frames 0/100/200 before TTK simplification. The subsequent [full 201-frame experiment](results/volume3d/tangaroa-paper-p10-full201/REPORT.md)
-has now completed and passed independent verification on the original 300×180×120 grid,
-using the author workspace scalar protocol and pinned TTK 0.9.9 at persistence 10%.
-The derived node-count range is 36–186 versus the paper's 50–186; exact reproduction of
-the unpublished final trees remains unresolved. [Paper-style figures](results/volume3d/tangaroa-paper-p10-full201/paper_style/README.md)
-pair temporal scalar maps with original-resolution volume renderings.
-See [the supplement index](results/volume3d/README.md) for saved reports, figures,
-threshold diagnostics, and independent raster verification.
-
-The [3-D experiment overview](experiments/volume3d/EXPERIMENTS.md) separates the
-official full-grid run, two synthetic mechanism checks, and historical coarse
-pilots. The completed full-grid comparison uses TMTM, RG-MTM-P, three RG-MTM-R
-eligibility settings, and an exact-projection control. Persistence stays at 10%:
-the four RG panels are not the paper's four persistence settings. Cylinder has
-not completed a real-data run. Verify the saved 3-D evidence without downloading
-the raw data:
-
-```sh
-PYTHONPATH=src:. python -m experiments.volume3d.verify_saved
-```
-
-## Implementation details
-
-`src/rgmtm/` contains the certificate, interval layout, rendering, and baseline
-implementations. `analysis/` contains shared preprocessing, exact frontiers,
-filling, motion evaluation, and controls. `experiments/publication2027/` supplies
-publication orchestration. `results/` retains original computation evidence;
-`results/publication2027/` is the organized active snapshot. This repository contains
-experimental code and outputs. The current manuscript and matching supplement PDFs are published separately in `publications/`. LaTeX sources, historical drafts, and writing notes stay local; code/results bundles exclude the publications folder.
-
-## Naming and repository migration
-
-The repository is **RG-MTM** and the installable distribution is `rg-mtm`. Import the core implementation from `rgmtm`, including `rgmtm.reference_guided`. Preserving and relaxed modes are **RG-MTM-P** and **RG-MTM-R**. Historical records keep the keys `A` and `R 20%`; `src/rgmtm/names.py` defines the display mapping.
-
-```sh
-git clone https://github.com/lelewang1109/RG-MTM.git
-cd RG-MTM
-python -m pip install -e .
-PYTHONPATH=src python tools/build_rgmtm_figures.py
-PYTHONPATH=src python tools/verify_rgmtm_migration.py
-```
-
-The current figure set is generated in `results/figures/rgmtm_*`. Original numeric files, arrays, and historical paper images remain unchanged. `provenance/rgmtm_rename_20261016.json` records exact reversible source edits; validators distinguish historical source hashes from a new numerical run. The separate RA-MTM project retains its own name and Git repository.
-
-## Public repository contents
-
-The repository publishes code, experimental evidence, plots, reproduction documentation, and the two selected PDFs in `publications/`. Editable manuscript sources, historical drafts, and writing notes remain local. Historical experimental figures/tables are in `results/legacy_publication/`; current figures are in `results/figures/`. Run `python tools/check_public_export.py` before publishing. The code/results packager excludes `paper/`, `notes/`, and `publications/`; paper PDFs are downloaded separately.
+旧提交仍保留在 Git 历史中。2026-10-23 起代码从仓库根目录迁至 `code/`，论文材料集中在 `paper/`，运行原脚本前请先进入 `code/`。独立 RA-MTM 项目不包含在本次更新中。

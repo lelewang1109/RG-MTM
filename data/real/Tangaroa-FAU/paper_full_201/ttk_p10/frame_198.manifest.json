@@ -1,0 +1,19 @@
+{
+  "index": 198,
+  "input_sha256": "b4a4f96228a57b5e38c433d30b1584fe4051507eb5c1e4f090ae1d08b747c55e",
+  "native_binary_sha256": "f82bf82ad1e452a742df33bcd1632c361a3ae6895983b2e31aaf69afe84598e9",
+  "files": {
+    "frame_198.json": "b106102bafc86584e953073731fb6167d70be285467a40548f92200f1b5cd742",
+    "frame_198.pairs.csv": "e390f27e0aaadf64fae1c9ce7aa1528bb0993467f293c700d9ab915c0fe81248",
+    "frame_198.nodes.i32": "816743aa8bffbe16265c98c6cec69a6f6ecd35c5e0be3c7e5eb59147c3df87f2",
+    "frame_198.arcs.i32": "001fcd8c1ab0b88aa76d106fa713812e03a21020f8caff5319796eecb1960e7a",
+    "frame_198.regular.i32": "4f1260952cfc7821c53f1776baf9e72b2f5f04238926f4b19591afcee43f9655",
+    "frame_198.owner.i32": "1bd473bfbd9fb4f49903081f1e8f839c380bd6dcff5577f75b202e22be54d6bf",
+    "frame_198.values.f32": "6df57bf226ce3e7c050ee19e7474babc5c0ee2bc22179a8c8d295c3ac5573531",
+    "frame_198.offsets.i32": "ca3ff4cf5ee71cd0976cd7b14ef5c6739b3d64ef285434cd7dec444fda480045"
+  },
+  "feature_sha256": "1ab5cad06fc0a75145f9ca3d8f7439af3f7259e7e57ed150ec9d2906ab81c1fa",
+  "samples": 6480000,
+  "nodes": 40,
+  "leaves": 20
+}

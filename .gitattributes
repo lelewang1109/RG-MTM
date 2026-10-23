@@ -1,4 +1,11 @@
-# Keep generated evidence byte-for-byte: CSV CRLF and Matplotlib SVG path
-# whitespace are part of the recorded hashes, not hand-authored source style.
-results/volume3d/** -text -whitespace
-experiments/volume3d/inputs/** -text
+# Scientific evidence must preserve original bytes.
+code/results/** -text -whitespace
+code/experiments/volume3d/inputs/** -text
+paper/evidence/** -text
+paper/manuscript/latex/evidence/** -text
+*.pdf binary
+*.png binary
+*.pptx binary
+*.zip binary
+*.nc binary
+*.npz binary

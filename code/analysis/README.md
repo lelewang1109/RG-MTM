@@ -1,0 +1,50 @@
+# Analysis entry points
+
+The current submission combines five planar temporal sequences (614 frames),
+including the isolated full-year PM2.5 replacement in `pm25_annual.py`, with
+Tangaroa, Cylinder and two static inputs. `dataset_suite.py` retains the five-input
+historical runner using January PM2.5 (278 frames). Gaussian is excluded from the
+current submission. The older six-input 342-frame evidence remains frozen.
+Current tables are built by `../tools/build_submission20261023.py`; annual runs
+use `run_pm25_annual.py`, `export_pm25_annual.py`, and `annual_reference_tasks.py`.
+
+
+The shared evidence chain is run by `../tools/run_paper_suite.py`. Its ten
+stages are `replicate`, `evaluation`, `attainable`, `filling`, `robustness`,
+`pointcert`, `persistence`, `witness_stats`, `result_tables`, and `native_merge_errors`.
+The final stage computes all methods against the same width-free positional
+certificate; `tools/update_paper_evidence.py` consumes it to create two main tables. `evaluation.py` contains both
+2-D and projected motion references, native Hilbert/Morton merge costs,
+fragmentation, neighbourhood costs and paired moving-block bootstrap results.
+
+`public_scalar.py` supplies the common buffered equal-area preprocessing and
+count-only smoothing rule for OLR/PM2.5. `pm25_seasons.py` and
+`../tools/run_pm25_seasons.py` define the frozen four-month sensitivity control.
+Protocol JSON records source hashes and preprocessing changes.
+
+Figures are generated through the [shared visualization package](visualization/README.md):
+
+```sh
+PYTHONPATH=src python3 tools/build_visualization_gallery.py
+PYTHONPATH=src python3 tools/build_visualization_gallery.py --metrics-only --out tmp/gallery-metrics
+```
+
+Run these commands from the repository root. The package separates method
+metadata, render calculation, spatial/topological drawings, saved-record metrics,
+and export/provenance. The legacy `fig_new_datasets.py` and
+`fig_sfc_comparison.py` share its cached numeric renderer and are safe to import.
+Other `fig_*` scripts remain entry points for the established manuscript figures.
+
+`benchmark_degree.py` tests certificate scaling; `independent_scale.py` checks
+certificate diagnosis at a finer extraction scale; `topological_case.py` provides
+the exact-filling theory example. The scalable diagnosis benchmark does not imply
+that the complete order-enumerating layout pipeline scales to the same leaf counts.
+
+Historical configurations and earlier entry-point descriptions are retained in
+`../notes/experiment-documentation-history.md`.
+
+The two main tables follow the paper's two core contributions: unavoidable
+position error under topology constraints and merge-level cost when position
+is improved. `spatial_motion_controls.tex` retains the auxiliary geometric
+validation. `native_merge_errors.json` measures TMTM/ST-MTM/Fixed-X scalar
+barriers at the evaluated anchors; nominal-resolution checks are also saved.

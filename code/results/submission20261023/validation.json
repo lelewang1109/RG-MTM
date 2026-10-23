@@ -1,0 +1,23 @@
+{
+  "status": "passed",
+  "population": {
+    "primary_datasets": 9,
+    "planar_temporal_sequences": 5,
+    "planar_temporal_frames": 614,
+    "temporal_sequences": 7,
+    "all_temporal_frames": 917,
+    "static_datasets": 2,
+    "static_sections": 22,
+    "exhaustive_planar_frontier_R20_on": 611,
+    "independent_mirror_control_frames": 64
+  },
+  "source_files": 51,
+  "checks": [
+    "Original source hashes validated through exact reversible source ledger",
+    "Saved-frame aggregation matches saved sequence metrics",
+    "Same-definition continuous displacement independently recomputed from layouts",
+    "Unchanged inputs match historical audit; annual PM2.5 matches independent saved-array checks",
+    "All selected outputs match current bytes"
+  ],
+  "numerical_rerun": "annual PM2.5 only"
+}

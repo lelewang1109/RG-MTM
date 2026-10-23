@@ -1,0 +1,42 @@
+{
+ "pm25_2000": {
+  "axis": 115.39758205821175,
+  "frames": 366,
+  "conflict_frames_pt": 35,
+  "conflict_share_pt": 0.09562841530054644,
+  "max_share": 0.18043894429607085,
+  "median_conflict_share": 0.09710561096273759,
+  "methods": {
+   "TMTM": {
+    "mean_share": 0.1287041212799393,
+    "frames_over_theta": 209,
+    "excess_mean_share": 0.11899264539747158,
+    "below_certificate": 0
+   },
+   "ST-MTM": {
+    "mean_share": 0.11595275893820614,
+    "frames_over_theta": 193,
+    "excess_mean_share": 0.10624128305573843,
+    "below_certificate": 0
+   },
+   "fixed-X anchored": {
+    "mean_share": 0.12192056293455852,
+    "frames_over_theta": 199,
+    "excess_mean_share": 0.11220908705209076,
+    "below_certificate": 0
+   },
+   "ours: auto direction": {
+    "mean_share": 0.009785261395840659,
+    "frames_over_theta": 35,
+    "excess_mean_share": 7.378551337293642e-05,
+    "below_certificate": 0
+   },
+   "ours: relaxed": {
+    "mean_share": 7.382460270800006e-05,
+    "frames_over_theta": 0,
+    "excess_mean_share": -0.009637651279759723,
+    "below_certificate": 36
+   }
+  }
+ }
+}

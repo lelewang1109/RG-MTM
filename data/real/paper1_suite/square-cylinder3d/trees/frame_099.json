@@ -1,0 +1,1 @@
+{"ttk_version":"0.9.9","tree_kind":"join","samples":414720,"nodes":120,"arcs":119,"leaves":60,"nonbinary_nodes":0,"root":3676,"absolute_persistence_threshold":0.00709134,"numerical_perturbation":false,"saddle_connectors":false,"changed_samples":60246,"maximum_scalar_change":0.00701778,"seconds":1.86987,"simplification_and_pd_seconds":1.76964}

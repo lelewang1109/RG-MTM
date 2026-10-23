@@ -1,0 +1,2740 @@
+{
+  "scope": "只读审计 RG-MTM 代码与复现依赖，2026-10-23；仅按父代理要求执行基线验证，未移动/改算法或科学数组。",
+  "layout_recommendation": {
+    "RG-MTM/code": "保留原02-RG-MTM独立Git仓库，src/analysis/experiments/tests/tools整体不拆",
+    "RG-MTM/paper": "paper_revision 当前论文及可编辑图唯一工作稿",
+    "RG-MTM/data": "原00-data中本次正文与附录所需输入",
+    "RG-MTM/references": "本次研究文献",
+    "其他/RA-MTM": "独立RA代码；RG未引用ramtm，允许分离"
+  },
+  "code_entrypoints": {
+    "method_core": [
+      "src/rgmtm/reference_guided.py",
+      "src/rgmtm/error_budget.py",
+      "src/rgmtm/reference_points.py"
+    ],
+    "baselines": [
+      "src/rgmtm/baselines/tmtm.py",
+      "src/rgmtm/baselines/stmtm.py",
+      "src/rgmtm/baselines/space_filling.py"
+    ],
+    "main_suite": [
+      "analysis/dataset_suite.py",
+      "experiments/publication2027/run.py",
+      "experiments/publication2027/build.py",
+      "experiments/publication2027/validate.py"
+    ],
+    "main_suite_scope": "六序列342帧，当前正文另有Storms744小时绘图实验；二者口径不同。",
+    "current_fig1": [
+      "paper/scripts/run_fig1_december_xaxis.py",
+      "paper/scripts/solve_fig1_december_xaxis.py",
+      "paper/scripts/regenerate_fig1.py"
+    ],
+    "tangaroa": [
+      "experiments/volume3d/prepare_tangaroa_paper.py",
+      "experiments/volume3d/paper_trees.py",
+      "experiments/volume3d/run_paper.py",
+      "experiments/volume3d/verify_paper.py",
+      "experiments/volume3d/verify_saved.py"
+    ],
+    "paper1_suite": [
+      "experiments/paper1_suite/prepare.py",
+      "experiments/paper1_suite/prepare_3d.py",
+      "experiments/paper1_suite/run.py",
+      "experiments/paper1_suite/verify.py",
+      "experiments/paper1_suite/benzene_reconstructed.py",
+      "experiments/paper1_suite/verify_benzene_reconstructed.py"
+    ]
+  },
+  "necessary_repairs": [
+    {
+      "file": "RG-MTM/code/data/real",
+      "old": "../../00-data/real",
+      "new": "../../data/real",
+      "kind": "relative_symlink"
+    },
+    {
+      "file": "RG-MTM/code/data/public_scalar",
+      "old": "../../00-data/RG-MTM-public-scalar",
+      "new": "../../data/RG-MTM-public-scalar",
+      "kind": "relative_symlink"
+    },
+    {
+      "file": "RG-MTM/code/paper",
+      "old": "../04-paper/LaTeX源码",
+      "new": "../paper/manuscript/latex",
+      "kind": "relative_symlink",
+      "note": "historical paper paths already resolved through analysis/provenance.evidence_path -> results/legacy_publication"
+    },
+    {
+      "file": "RG-MTM/code/references/<two reference PDF links>",
+      "old": "../../04-paper/references/<name>",
+      "new": "../../references/<name>",
+      "kind": "relative_symlink"
+    },
+    {
+      "file": "RG-MTM/paper/scripts/*",
+      "old": "parent/'02-RG-MTM'",
+      "new": "parent/'code'",
+      "kind": "code_path",
+      "note": "精确脚本见path_references；不要对冻结evidence中历史source字符串作全局替换"
+    },
+    {
+      "file": ".venv/lib/python3.10/site-packages/__editable__.rg_mtm-1.0.0.pth",
+      "old": "/Users/lele/Desktop/MergeTreeMaps/02-RG-MTM/src",
+      "new": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/code/src",
+      "kind": "editable_install"
+    },
+    {
+      "file": ".venv/lib/python3.10/site-packages/__editable__.ra_mtm-0.1.0.pth",
+      "old": "/Users/lele/Desktop/MergeTreeMaps/01-RA-MTM/src",
+      "new": "/Users/lele/Desktop/MergeTreeMaps/其他/RA-MTM/src",
+      "kind": "editable_install"
+    },
+    {
+      "file": "RG-MTM/paper/scripts/verify_comprehensive_revision.py",
+      "old": "R.parent/'.codex-build/comprehensive-review-20261022'",
+      "new": "可选旧任务基线移至其他后改寻址，或使用此次清理冻结清单核验",
+      "kind": "optional_baseline"
+    },
+    {
+      "file": "RG-MTM/paper/scripts/verify_scientific_evidence.py",
+      "old": "baseline/input_snapshot.json does not exist",
+      "new": "归档过时脚本或基于本次冻结科学证据清单重新实现",
+      "kind": "existing_broken_validator"
+    }
+  ],
+  "frozen_sources_do_not_edit": [
+    "src/rgmtm/*",
+    "analysis/*",
+    "experiments/publication2027/*",
+    "experiments/volume3d/*",
+    "experiments/paper1_suite/*",
+    "provenance/*.json",
+    "results/* scientific arrays and numerical files"
+  ],
+  "keep_results": {
+    "entire": [
+      "results/publication2027",
+      "results/real_case_studies/evidence",
+      "results/paper1_suite/nucleon",
+      "results/paper1_suite/benzene-potential-reconstructed2d",
+      "results/paper1_suite/square-cylinder3d",
+      "results/volume3d/tangaroa-paper-p10-full201",
+      "results/public_metrics_20261016",
+      "results/figures",
+      "provenance"
+    ],
+    "legacy_asset_dependency": "results/legacy_publication is only 11 MB and resolves manifest hashes for frozen six-dataset experimental evidence, not current submission manuscript; retain complete or keep exact-file compatibility links.",
+    "manifest_legacy_tables": [
+      "paper/pacificvis2027-restructured/tables/datasets_supp.tex",
+      "paper/pacificvis2027-restructured/tables/tradeoff.tex",
+      "paper/pacificvis2027-restructured/tables/certificates_supp.tex",
+      "paper/pacificvis2027-restructured/tables/supplement_generated.tex",
+      "paper/pacificvis2027-restructured/tables/motion_supp.tex",
+      "paper/pacificvis2027-restructured/tables/datasets.tex",
+      "paper/pacificvis2027-restructured/tables/motion.tex",
+      "paper/pacificvis2027-restructured/tables/certificates.tex"
+    ],
+    "manifest_legacy_figures": [
+      {
+        "figure": "fig_teaser",
+        "source": "paper/pacificvis2027/figures/fig_teaser.pdf"
+      },
+      {
+        "figure": "fig_concept",
+        "source": "paper/pacificvis2027-restructured/figures/fig_concept.pdf"
+      },
+      {
+        "figure": "fig_topo_price",
+        "source": "paper/pacificvis2027/figures/fig_topo_price.pdf"
+      },
+      {
+        "figure": "fig_displacement_compact",
+        "source": "paper/pacificvis2027-restructured/figures/fig_displacement_compact.pdf"
+      },
+      {
+        "figure": "fig_frontier_compact",
+        "source": "paper/pacificvis2027-restructured/figures/fig_frontier_compact.pdf"
+      },
+      {
+        "figure": "fig_witness",
+        "source": "paper/pacificvis2027/figures/fig_witness.pdf"
+      },
+      {
+        "figure": "fig_method_overview",
+        "source": "paper/pacificvis2027-restructured/figures/fig_method_overview.pdf"
+      },
+      {
+        "figure": "olr_temporal_methods",
+        "source": "results/visualizations/olr_temporal_methods.pdf"
+      },
+      {
+        "figure": "pm25_temporal_methods",
+        "source": "results/visualizations/pm25_temporal_methods.pdf"
+      },
+      {
+        "figure": "fig_teaser_focus",
+        "source": "paper/pacificvis2027-restructured/figures/fig_teaser_focus.pdf"
+      },
+      {
+        "figure": "fig_method_visual",
+        "source": "paper/pacificvis2027-restructured/figures/fig_method_visual.pdf"
+      },
+      {
+        "figure": "fig_diagnosis_tradeoff",
+        "source": "paper/pacificvis2027-restructured/figures/fig_diagnosis_tradeoff.pdf"
+      },
+      {
+        "figure": "fig_motion_scalar_cost",
+        "source": "paper/pacificvis2027-restructured/figures/fig_motion_scalar_cost.pdf"
+      },
+      {
+        "figure": "fig_linked_cases",
+        "source": "paper/pacificvis2027-restructured/figures/fig_linked_cases.pdf"
+      },
+      {
+        "figure": "fig_full_domain_filling",
+        "source": "paper/pacificvis2027-restructured/figures/fig_full_domain_filling.pdf"
+      }
+    ],
+    "historical_pilot_required_credentials": [
+      "results/volume3d/synthetic/verification.json",
+      "results/volume3d/synthetic-conflict/verification.json",
+      "results/volume3d/tangaroa/verification.json",
+      "results/volume3d/tangaroa-official/verification.json"
+    ],
+    "tangaroa_author_settings": "results/volume3d/tangaroa-input-audit-20261018/author_settings.json needed by current render and verify_saved",
+    "note": "177 numerical files are hash-protected by rgmtm_rename provenance; do not drop just because snapshot copies exist. Current build/validate still requires originals and source mapping."
+  },
+  "runtime_to_keep": [
+    {
+      "path": "tmp/volume3d/native-build/rgmtm_ttk_volume",
+      "reason": "pinned TTK native executable used by current original-grid experiments"
+    },
+    {
+      "path": "tmp/volume3d/ttk-0.9.9.tar.gz",
+      "reason": "source archive SHA explicitly checked by verify_paper and tree protocol"
+    },
+    {
+      "path": "tmp/volume3d/ttk-0.9.9",
+      "reason": "pinned source needed to rebuild native binary"
+    },
+    {
+      "path": "tmp/volume3d/native-build-manifest.json",
+      "reason": "build provenance used by export_input_evidence"
+    },
+    {
+      "path": "tmp/volume3d/TMTM-reference",
+      "reason": "author workspace audit reproducibility; may archive with exact symlink"
+    },
+    {
+      "path": "data/real/paper1_suite/benzene-potential-reconstructed2d/{boss49.pdf,benzene-geometry-source.cube.xz}",
+      "reason": "current frozen reconstruction model dependencies; if both present, old tmp/benzene-potential and benzene-density copies unnecessary for normal regenerate"
+    }
+  ],
+  "archive_candidates": [
+    {
+      "path": "code/results/paper1_suite/benzene-density",
+      "reason": "explicitly excluded old electron-density trial"
+    },
+    {
+      "path": "code/results/paper1_suite/cylinder2d",
+      "reason": "explicitly excluded circular 2D trial; current study square-cylinder3d"
+    },
+    {
+      "path": "code/results/paper1_suite/benzene-potential3d",
+      "reason": "obsolete input-search state superseded by explicit 2D reconstruction"
+    },
+    {
+      "path": "code/results/archive",
+      "reason": "already designated history"
+    },
+    {
+      "path": "code/results/visualization_cache",
+      "reason": "52MB optional regenerated caches; migration verifier explicitly skips absent local-only files"
+    },
+    {
+      "path": "code/results/*_cache.pkl",
+      "reason": "rebuildable exact-frontier caches; preserve optional elsewhere"
+    },
+    {
+      "path": "code/tmp/* except pinned runtime above",
+      "reason": "logs, smoke runs, duplicated exports, build scratch"
+    },
+    {
+      "path": "code/notes/archive",
+      "reason": "old drafts/notes"
+    },
+    {
+      "path": "paper/scripts/final_quality_legacy.py",
+      "reason": "obsolete old04-paper table and six-figure checks"
+    },
+    {
+      "path": "paper/scripts/verify_selected_figure5_legacy.py",
+      "reason": "obsolete old04-paper table hashes"
+    },
+    {
+      "path": "paper/scripts/validate_supplied.mjs",
+      "reason": "old six-slide validator and absolute old03-figures reference"
+    },
+    {
+      "path": "code/publications/*.pdf",
+      "reason": "old code-publication PDFs are not latest paper_revision manuscript; archive or replace via current-paper exact symlinks"
+    }
+  ],
+  "data_classification": {
+    "main_or_appendix_current": [
+      "real/ERA5_MSLP",
+      "real/wildfire",
+      "RG-MTM-public-scalar",
+      "real/CN-Reanalysis",
+      "real/paper1_suite/nucleon",
+      "real/paper1_suite/benzene-potential-reconstructed2d",
+      "real/paper1_suite/square-cylinder3d",
+      "real/SquareCylinder",
+      "real/Tangaroa-FAU/paper_full_201"
+    ],
+    "historical_or_unincorporated": [
+      "generated (RG generates Ring/Gaussian from code; may serve RA)",
+      "real/CTC-Fluo-N3DH-CHO (prepared exploratory input, no current result)",
+      "real/Tangaroa-ECNR (old coarse pilot input)",
+      "real/CN-Reanalysis-csv (duplicate source conversion; inspect source protocol before dedup)",
+      "real/paper1_suite/cylinder2d",
+      "real/paper1_suite/benzene-density (keep geometry frozen copy in current reconstruction first)"
+    ],
+    "caution": "Tangaroa-FAU ~50GB contains raw acquisition+derived current arrays; filenames/retention must be audited before pruning. Do not infer numeric equivalence from filename/latest timestamp."
+  },
+  "environment": {
+    "python": ">=3.10",
+    "required": [
+      "numpy==2.0.2",
+      "scipy==1.13.1",
+      "matplotlib==3.9.4",
+      "Pillow==12.3.0",
+      "netCDF4==1.7.4"
+    ],
+    "optional_volume3d": [
+      "hilbertcurve==2.0.5",
+      "py7zr==1.1.4",
+      "requests==2.34.2"
+    ],
+    "paper_extra": [
+      "pymupdf",
+      "pypdf",
+      "presentation artifact runtime",
+      "LibreOffice/tool runtime for PPT export"
+    ],
+    "note": "paper mjs absolute bundled runtime/skill paths are host specific, but they do not change when project folders move; preserve runtime paths for current machine."
+  },
+  "lightweight_verification": {
+    "baseline_log": "/tmp/rgmtm-cleanup-20261023/code-baseline.json",
+    "baseline": [
+      {
+        "command": "PYTHONPATH=src:analysis:. ../.venv/bin/python -m unittest discover -s tests -q",
+        "status": "passed",
+        "tests": 43,
+        "seconds": 0.645
+      },
+      {
+        "command": "PYTHONPATH=src:analysis:. ../.venv/bin/python experiments/publication2027/validate.py",
+        "status": "passed"
+      },
+      {
+        "command": "PYTHONPATH=src:analysis:. ../.venv/bin/python tools/verify_rgmtm_migration.py",
+        "status": "passed",
+        "protected_numerical_files": 177,
+        "reversible_source_edits": 54,
+        "figures": 11
+      }
+    ],
+    "after_move_commands_from_code": [
+      "PYTHONPATH=src:analysis:. ../../.venv/bin/python -m unittest discover -s tests -q",
+      "PYTHONPATH=src:analysis:. ../../.venv/bin/python experiments/publication2027/validate.py",
+      "PYTHONPATH=src:analysis:. ../../.venv/bin/python tools/verify_rgmtm_migration.py",
+      "PYTHONPATH=src:analysis:. ../../.venv/bin/python -m experiments.volume3d.verify_saved"
+    ],
+    "after_move_paper": [
+      "../../.venv/bin/python scripts/check_figure_consistency.py",
+      "../../.venv/bin/python scripts/verify_comprehensive_revision.py"
+    ],
+    "avoid_during_cleanup": [
+      "experiments/publication2027/run.py",
+      "experiments/paper1_suite/run.py",
+      "experiments/volume3d/run_paper.py",
+      "paper/scripts/regenerate_figures.py (rebuilds figures)",
+      "paper/scripts/run_fig1_december_xaxis.py (recomputes scientific data)"
+    ]
+  },
+  "path_references": [
+    {
+      "file": "RG-MTM/code/experiments/paper1_suite/prepare.py",
+      "line": 18,
+      "text": "BENZENE = Path('/Users/lele/Desktop/pvis项目/9-15实验/inviwo-modules/molvis/gaussian/data/volumes/benzene-dens.cube.xz')"
+    },
+    {
+      "file": "RG-MTM/code/experiments/paper1_suite/prepare.py",
+      "line": 19,
+      "text": "CYLINDER = Path('/Users/lele/Desktop/SpreadMap/SpreadMap_clean/data/raw/cylinder/cylinder2d.nc')"
+    },
+    {
+      "file": "RG-MTM/code/tools/run_pm25_seasons.py",
+      "line": 16,
+      "text": "for n in seasons.PERIODS:cn.prepare(ROOT.parent/'data/real/CN-Reanalysis/2000',n)"
+    },
+    {
+      "file": "RG-MTM/code/tools/prepare_cn_pm25.py",
+      "line": 56,
+      "text": "p=argparse.ArgumentParser(description=__doc__);p.add_argument('--source-dir',type=Path,default=ROOT.parent/'data/real/CN-Reanalysis/2000');a=p.parse_args();prepare(a.source_dir)"
+    },
+    {
+      "file": "RG-MTM/paper/scripts/solve_fig1_december_xaxis.py",
+      "line": 5,
+      "text": "R=Path(__file__).resolve().parents[1];ROOT=R.parent/'02-RG-MTM';sys.path[:0]=[str(ROOT/'analysis'),str(ROOT),str(ROOT/'src')]"
+    },
+    {
+      "file": "RG-MTM/paper/scripts/fig1_audit_events.py",
+      "line": 10,
+      "text": "ROOT=HERE.parent/'02-RG-MTM'"
+    },
+    {
+      "file": "RG-MTM/paper/scripts/fig1_audit_events.py",
+      "line": 97,
+      "text": "已有 `02-RG-MTM/results/real_case_studies/event_correspondence_zh.md` 记录：Anatol 对应 f33.5、Scandinavia storm 对应 f61.75、British Isles/Norway 对应 f75.917、Lothar 时窗 f78.833、Martin 时窗 f81.75。这些都不是任意选取的 f20/48/64/80/100 的同义名称。尤其 f79 没有可确认为 Lothar 的独立叶特征，因此本图不添加该名字。"
+    },
+    {
+      "file": "RG-MTM/paper/scripts/prepare_cases.py",
+      "line": 11,
+      "text": "ROOT=BASE.parent/'02-RG-MTM'; DATA=ROOT/'results/real_case_studies/evidence';LAY=BASE/'evidence/layers';LAY.mkdir(exist_ok=True)"
+    },
+    {
+      "file": "RG-MTM/paper/scripts/verify_comprehensive_revision.py",
+      "line": 16,
+      "text": "B = R.parent / '.codex-build/comprehensive-review-20261022'"
+    },
+    {
+      "file": "RG-MTM/paper/scripts/run_fig1_december_xaxis.py",
+      "line": 10,
+      "text": "R=Path(__file__).resolve().parents[1];ROOT=R.parent/'02-RG-MTM'"
+    },
+    {
+      "file": "RG-MTM/paper/scripts/prepare_fig1_direction_comparison.py",
+      "line": 13,
+      "text": "R=Path(__file__).resolve().parents[1];ROOT=R.parent/'02-RG-MTM';sys.path[:0]=[str(ROOT/'analysis'),str(R/'scripts')]"
+    },
+    {
+      "file": "RG-MTM/paper/scripts/install_dendrogram_transfer.py",
+      "line": 8,
+      "text": "D = R.parent / '02-RG-MTM/results'"
+    },
+    {
+      "file": "RG-MTM/paper/scripts/install_dendrogram_transfer.py",
+      "line": 28,
+      "text": "source_figure='02-RG-MTM/results/dendrogram_demo.pdf',"
+    },
+    {
+      "file": "RG-MTM/paper/scripts/prepare_figure1.py",
+      "line": 18,
+      "text": "ROOT = REV.parent / '02-RG-MTM'"
+    },
+    {
+      "file": "RG-MTM/paper/scripts/diagnose_line_visibility.py",
+      "line": 16,
+      "text": "D=R.parent/'02-RG-MTM/results/real_case_studies/evidence'"
+    },
+    {
+      "file": "RG-MTM/paper/scripts/regenerate_fig1_direction_comparison.py",
+      "line": 8,
+      "text": "def run(*args):subprocess.run(list(map(str,args)),check=True,cwd=R.parent)"
+    },
+    {
+      "file": "RG-MTM/paper/scripts/validate_fig1_direction_data.py",
+      "line": 5,
+      "text": "R=Path(__file__).resolve().parents[1];ROOT=R.parent/'02-RG-MTM';sys.path[:0]=[str(ROOT/'analysis'),str(ROOT),str(ROOT/'src')]"
+    }
+  ],
+  "existing_symlinks": [
+    {
+      "source": "RG-MTM/code/data/real",
+      "target": "../../data/real",
+      "exists": true
+    },
+    {
+      "source": "RG-MTM/code/data/public_scalar",
+      "target": "../../data/RG-MTM-public-scalar",
+      "exists": true
+    },
+    {
+      "source": "RG-MTM/code/references/Kopp和Weinkauf - 2022 - Temporal Merge Tree MapsA Topology-Based Static Visualization for Temporal Scalar Data.pdf",
+      "target": "../../references/Kopp和Weinkauf - 2022 - Temporal Merge Tree MapsA Topology-Based Static Visualization for Temporal Scalar Data.pdf",
+      "exists": true
+    },
+    {
+      "source": "RG-MTM/code/references/Spatiotemporal Merge Tree Maps A Topology and Geometry Aware Visualization for Temporal Scalar Data.pdf",
+      "target": "../../references/Spatiotemporal Merge Tree Maps A Topology and Geometry Aware Visualization for Temporal Scalar Data.pdf",
+      "exists": true
+    },
+    {
+      "source": "RG-MTM/code/paper",
+      "target": "../paper/manuscript/latex",
+      "exists": true
+    }
+  ],
+  "local_import_edges": [
+    {
+      "source": "RG-MTM/code/src/rgmtm/reference_guided.py",
+      "line": 10,
+      "module": "rgmtm.error_budget"
+    },
+    {
+      "source": "RG-MTM/code/src/rgmtm/reference_guided.py",
+      "line": 11,
+      "module": "rgmtm.baselines.stmtm"
+    },
+    {
+      "source": "RG-MTM/code/analysis/conflict_strategies.py",
+      "line": 25,
+      "module": "task_reference"
+    },
+    {
+      "source": "RG-MTM/code/analysis/conflict_strategies.py",
+      "line": 26,
+      "module": "rgmtm.error_budget"
+    },
+    {
+      "source": "RG-MTM/code/analysis/real_case_large.py",
+      "line": 17,
+      "module": "real_case_studies"
+    },
+    {
+      "source": "RG-MTM/code/analysis/real_case_large.py",
+      "line": 18,
+      "module": "real_case_evidence"
+    },
+    {
+      "source": "RG-MTM/code/analysis/real_case_large.py",
+      "line": 93,
+      "module": "experiments.volume3d.paper_style"
+    },
+    {
+      "source": "RG-MTM/code/analysis/real_case_large.py",
+      "line": 94,
+      "module": "experiments.volume3d.prepare_tangaroa_paper"
+    },
+    {
+      "source": "RG-MTM/code/analysis/real_case_large.py",
+      "line": 75,
+      "module": "geo"
+    },
+    {
+      "source": "RG-MTM/code/analysis/general_method.py",
+      "line": 29,
+      "module": "task_reference"
+    },
+    {
+      "source": "RG-MTM/code/analysis/general_method.py",
+      "line": 30,
+      "module": "conflict_strategies"
+    },
+    {
+      "source": "RG-MTM/code/analysis/general_method.py",
+      "line": 31,
+      "module": "experiments"
+    },
+    {
+      "source": "RG-MTM/code/analysis/general_method.py",
+      "line": 32,
+      "module": "experiments.ring.dataset"
+    },
+    {
+      "source": "RG-MTM/code/analysis/general_method.py",
+      "line": 33,
+      "module": "rgmtm.error_budget"
+    },
+    {
+      "source": "RG-MTM/code/analysis/general_method.py",
+      "line": 34,
+      "module": "rgmtm.reference_points"
+    },
+    {
+      "source": "RG-MTM/code/analysis/general_method.py",
+      "line": 134,
+      "module": "certificate_core"
+    },
+    {
+      "source": "RG-MTM/code/analysis/general_method.py",
+      "line": 166,
+      "module": "era5_expanded"
+    },
+    {
+      "source": "RG-MTM/code/analysis/paper_numbers.py",
+      "line": 11,
+      "module": "dataset_suite"
+    },
+    {
+      "source": "RG-MTM/code/analysis/boundary.py",
+      "line": 13,
+      "module": "general_method"
+    },
+    {
+      "source": "RG-MTM/code/analysis/boundary.py",
+      "line": 13,
+      "module": "theory"
+    },
+    {
+      "source": "RG-MTM/code/analysis/boundary.py",
+      "line": 13,
+      "module": "replicate"
+    },
+    {
+      "source": "RG-MTM/code/analysis/boundary.py",
+      "line": 13,
+      "module": "task_reference"
+    },
+    {
+      "source": "RG-MTM/code/analysis/boundary.py",
+      "line": 13,
+      "module": "relax_hierarchy"
+    },
+    {
+      "source": "RG-MTM/code/analysis/boundary.py",
+      "line": 13,
+      "module": "fig_witness"
+    },
+    {
+      "source": "RG-MTM/code/analysis/boundary.py",
+      "line": 14,
+      "module": "rgmtm.reference_points"
+    },
+    {
+      "source": "RG-MTM/code/analysis/boundary.py",
+      "line": 34,
+      "module": "dataset_suite"
+    },
+    {
+      "source": "RG-MTM/code/analysis/pm25_seasons.py",
+      "line": 5,
+      "module": "public_scalar"
+    },
+    {
+      "source": "RG-MTM/code/analysis/pm25_seasons.py",
+      "line": 16,
+      "module": "replicate"
+    },
+    {
+      "source": "RG-MTM/code/analysis/fig_concept.py",
+      "line": 17,
+      "module": "task_reference"
+    },
+    {
+      "source": "RG-MTM/code/analysis/fig_concept.py",
+      "line": 17,
+      "module": "figstyle"
+    },
+    {
+      "source": "RG-MTM/code/analysis/public_scalar.py",
+      "line": 13,
+      "module": "era5_expanded"
+    },
+    {
+      "source": "RG-MTM/code/analysis/public_scalar.py",
+      "line": 14,
+      "module": "experiments"
+    },
+    {
+      "source": "RG-MTM/code/analysis/persistence.py",
+      "line": 14,
+      "module": "general_method"
+    },
+    {
+      "source": "RG-MTM/code/analysis/persistence.py",
+      "line": 14,
+      "module": "theory"
+    },
+    {
+      "source": "RG-MTM/code/analysis/persistence.py",
+      "line": 14,
+      "module": "replicate"
+    },
+    {
+      "source": "RG-MTM/code/analysis/persistence.py",
+      "line": 14,
+      "module": "task_reference"
+    },
+    {
+      "source": "RG-MTM/code/analysis/persistence.py",
+      "line": 15,
+      "module": "rgmtm.reference_points"
+    },
+    {
+      "source": "RG-MTM/code/analysis/persistence.py",
+      "line": 17,
+      "module": "dataset_suite"
+    },
+    {
+      "source": "RG-MTM/code/analysis/fig_pm25_seasons.py",
+      "line": 5,
+      "module": "task_reference"
+    },
+    {
+      "source": "RG-MTM/code/analysis/fig_pm25_seasons.py",
+      "line": 5,
+      "module": "figstyle"
+    },
+    {
+      "source": "RG-MTM/code/analysis/fig_pm25_seasons.py",
+      "line": 6,
+      "module": "pm25_seasons"
+    },
+    {
+      "source": "RG-MTM/code/analysis/result_tables.py",
+      "line": 7,
+      "module": "evaluation"
+    },
+    {
+      "source": "RG-MTM/code/analysis/result_tables.py",
+      "line": 8,
+      "module": "replicate"
+    },
+    {
+      "source": "RG-MTM/code/analysis/result_tables.py",
+      "line": 9,
+      "module": "pointcert"
+    },
+    {
+      "source": "RG-MTM/code/analysis/result_tables.py",
+      "line": 10,
+      "module": "rgmtm.error_budget"
+    },
+    {
+      "source": "RG-MTM/code/analysis/result_tables.py",
+      "line": 11,
+      "module": "dataset_suite"
+    },
+    {
+      "source": "RG-MTM/code/analysis/fig_teaser.py",
+      "line": 11,
+      "module": "relax_hierarchy"
+    },
+    {
+      "source": "RG-MTM/code/analysis/fig_teaser.py",
+      "line": 11,
+      "module": "replicate"
+    },
+    {
+      "source": "RG-MTM/code/analysis/fig_teaser.py",
+      "line": 11,
+      "module": "task_reference"
+    },
+    {
+      "source": "RG-MTM/code/analysis/fig_teaser.py",
+      "line": 11,
+      "module": "filling"
+    },
+    {
+      "source": "RG-MTM/code/analysis/fig_teaser.py",
+      "line": 11,
+      "module": "pointcert"
+    },
+    {
+      "source": "RG-MTM/code/analysis/fig_teaser.py",
+      "line": 11,
+      "module": "misreading"
+    },
+    {
+      "source": "RG-MTM/code/analysis/fig_teaser.py",
+      "line": 12,
+      "module": "experiments"
+    },
+    {
+      "source": "RG-MTM/code/analysis/fig_teaser.py",
+      "line": 55,
+      "module": "figstyle"
+    },
+    {
+      "source": "RG-MTM/code/analysis/fig_teaser.py",
+      "line": 90,
+      "module": "geo"
+    },
+    {
+      "source": "RG-MTM/code/analysis/independent_scale.py",
+      "line": 15,
+      "module": "certificate_core"
+    },
+    {
+      "source": "RG-MTM/code/analysis/independent_scale.py",
+      "line": 16,
+      "module": "era5_expanded"
+    },
+    {
+      "source": "RG-MTM/code/analysis/independent_scale.py",
+      "line": 17,
+      "module": "general_method"
+    },
+    {
+      "source": "RG-MTM/code/analysis/independent_scale.py",
+      "line": 18,
+      "module": "relax_hierarchy"
+    },
+    {
+      "source": "RG-MTM/code/analysis/independent_scale.py",
+      "line": 19,
+      "module": "theory"
+    },
+    {
+      "source": "RG-MTM/code/analysis/independent_scale.py",
+      "line": 20,
+      "module": "rgmtm.reference_points"
+    },
+    {
+      "source": "RG-MTM/code/analysis/task_reference.py",
+      "line": 13,
+      "module": "experiments"
+    },
+    {
+      "source": "RG-MTM/code/analysis/task_reference.py",
+      "line": 14,
+      "module": "experiments.ring.dataset"
+    },
+    {
+      "source": "RG-MTM/code/analysis/task_reference.py",
+      "line": 15,
+      "module": "rgmtm.error_budget"
+    },
+    {
+      "source": "RG-MTM/code/analysis/task_reference.py",
+      "line": 17,
+      "module": "rgmtm.reference_guided"
+    },
+    {
+      "source": "RG-MTM/code/analysis/task_reference.py",
+      "line": 18,
+      "module": "rgmtm.reference_points"
+    },
+    {
+      "source": "RG-MTM/code/analysis/native_merge_errors.py",
+      "line": 11,
+      "module": "replicate"
+    },
+    {
+      "source": "RG-MTM/code/analysis/native_merge_errors.py",
+      "line": 12,
+      "module": "general_method"
+    },
+    {
+      "source": "RG-MTM/code/analysis/native_merge_errors.py",
+      "line": 13,
+      "module": "relax_hierarchy"
+    },
+    {
+      "source": "RG-MTM/code/analysis/native_merge_errors.py",
+      "line": 14,
+      "module": "attainable"
+    },
+    {
+      "source": "RG-MTM/code/analysis/native_merge_errors.py",
+      "line": 15,
+      "module": "experiments"
+    },
+    {
+      "source": "RG-MTM/code/analysis/native_merge_errors.py",
+      "line": 16,
+      "module": "rgmtm.baselines.space_filling"
+    },
+    {
+      "source": "RG-MTM/code/analysis/native_merge_errors.py",
+      "line": 17,
+      "module": "rgmtm.error_budget"
+    },
+    {
+      "source": "RG-MTM/code/analysis/native_merge_errors.py",
+      "line": 18,
+      "module": "rgmtm.reference_points"
+    },
+    {
+      "source": "RG-MTM/code/analysis/native_merge_errors.py",
+      "line": 19,
+      "module": "dataset_suite"
+    },
+    {
+      "source": "RG-MTM/code/analysis/fig_sfc_comparison.py",
+      "line": 2,
+      "module": "task_reference"
+    },
+    {
+      "source": "RG-MTM/code/analysis/fig_sfc_comparison.py",
+      "line": 3,
+      "module": "figstyle"
+    },
+    {
+      "source": "RG-MTM/code/analysis/fig_sfc_comparison.py",
+      "line": 4,
+      "module": "replicate"
+    },
+    {
+      "source": "RG-MTM/code/analysis/evaluation.py",
+      "line": 30,
+      "module": "replicate"
+    },
+    {
+      "source": "RG-MTM/code/analysis/evaluation.py",
+      "line": 30,
+      "module": "misreading"
+    },
+    {
+      "source": "RG-MTM/code/analysis/evaluation.py",
+      "line": 30,
+      "module": "relax_hierarchy"
+    },
+    {
+      "source": "RG-MTM/code/analysis/evaluation.py",
+      "line": 30,
+      "module": "general_method"
+    },
+    {
+      "source": "RG-MTM/code/analysis/evaluation.py",
+      "line": 30,
+      "module": "task_reference"
+    },
+    {
+      "source": "RG-MTM/code/analysis/evaluation.py",
+      "line": 30,
+      "module": "attainable"
+    },
+    {
+      "source": "RG-MTM/code/analysis/evaluation.py",
+      "line": 31,
+      "module": "conflict_strategies"
+    },
+    {
+      "source": "RG-MTM/code/analysis/evaluation.py",
+      "line": 32,
+      "module": "rgmtm.baselines"
+    },
+    {
+      "source": "RG-MTM/code/analysis/evaluation.py",
+      "line": 35,
+      "module": "dataset_suite"
+    },
+    {
+      "source": "RG-MTM/code/analysis/replicate.py",
+      "line": 14,
+      "module": "general_method"
+    },
+    {
+      "source": "RG-MTM/code/analysis/replicate.py",
+      "line": 14,
+      "module": "relax_hierarchy"
+    },
+    {
+      "source": "RG-MTM/code/analysis/replicate.py",
+      "line": 14,
+      "module": "misreading"
+    },
+    {
+      "source": "RG-MTM/code/analysis/replicate.py",
+      "line": 14,
+      "module": "datasets_extra"
+    },
+    {
+      "source": "RG-MTM/code/analysis/replicate.py",
+      "line": 14,
+      "module": "task_reference"
+    },
+    {
+      "source": "RG-MTM/code/analysis/replicate.py",
+      "line": 16,
+      "module": "dataset_suite"
+    },
+    {
+      "source": "RG-MTM/code/analysis/replicate.py",
+      "line": 17,
+      "module": "public_scalar"
+    },
+    {
+      "source": "RG-MTM/code/analysis/relax_hierarchy.py",
+      "line": 25,
+      "module": "task_reference"
+    },
+    {
+      "source": "RG-MTM/code/analysis/relax_hierarchy.py",
+      "line": 26,
+      "module": "conflict_strategies"
+    },
+    {
+      "source": "RG-MTM/code/analysis/relax_hierarchy.py",
+      "line": 27,
+      "module": "general_method"
+    },
+    {
+      "source": "RG-MTM/code/analysis/relax_hierarchy.py",
+      "line": 28,
+      "module": "experiments"
+    },
+    {
+      "source": "RG-MTM/code/analysis/relax_hierarchy.py",
+      "line": 29,
+      "module": "rgmtm.error_budget"
+    },
+    {
+      "source": "RG-MTM/code/analysis/relax_hierarchy.py",
+      "line": 30,
+      "module": "rgmtm.reference_guided"
+    },
+    {
+      "source": "RG-MTM/code/analysis/relax_hierarchy.py",
+      "line": 31,
+      "module": "rgmtm.reference_points"
+    },
+    {
+      "source": "RG-MTM/code/analysis/relax_hierarchy.py",
+      "line": 133,
+      "module": "theory"
+    },
+    {
+      "source": "RG-MTM/code/analysis/relax_hierarchy.py",
+      "line": 139,
+      "module": "certificate_core"
+    },
+    {
+      "source": "RG-MTM/code/analysis/real_case_studies.py",
+      "line": 26,
+      "module": "relax_hierarchy"
+    },
+    {
+      "source": "RG-MTM/code/analysis/real_case_studies.py",
+      "line": 26,
+      "module": "theory"
+    },
+    {
+      "source": "RG-MTM/code/analysis/real_case_studies.py",
+      "line": 40,
+      "module": "replicate"
+    },
+    {
+      "source": "RG-MTM/code/analysis/real_case_studies.py",
+      "line": 40,
+      "module": "general_method"
+    },
+    {
+      "source": "RG-MTM/code/analysis/real_case_studies.py",
+      "line": 40,
+      "module": "relax_hierarchy"
+    },
+    {
+      "source": "RG-MTM/code/analysis/real_case_studies.py",
+      "line": 40,
+      "module": "filling"
+    },
+    {
+      "source": "RG-MTM/code/analysis/real_case_studies.py",
+      "line": 41,
+      "module": "experiments"
+    },
+    {
+      "source": "RG-MTM/code/analysis/real_case_studies.py",
+      "line": 95,
+      "module": "datasets_extra"
+    },
+    {
+      "source": "RG-MTM/code/analysis/real_case_studies.py",
+      "line": 101,
+      "module": "geo"
+    },
+    {
+      "source": "RG-MTM/code/analysis/real_case_studies.py",
+      "line": 137,
+      "module": "real_case_large"
+    },
+    {
+      "source": "RG-MTM/code/analysis/misreading_sensitivity.py",
+      "line": 6,
+      "module": "misreading"
+    },
+    {
+      "source": "RG-MTM/code/analysis/misreading_sensitivity.py",
+      "line": 6,
+      "module": "general_method"
+    },
+    {
+      "source": "RG-MTM/code/analysis/datasets_extra.py",
+      "line": 17,
+      "module": "general_method"
+    },
+    {
+      "source": "RG-MTM/code/analysis/datasets_extra.py",
+      "line": 18,
+      "module": "experiments"
+    },
+    {
+      "source": "RG-MTM/code/analysis/datasets_extra.py",
+      "line": 48,
+      "module": "rgmtm.baselines"
+    },
+    {
+      "source": "RG-MTM/code/analysis/datasets_extra.py",
+      "line": 68,
+      "module": "era5_expanded"
+    },
+    {
+      "source": "RG-MTM/code/analysis/paper_figs.py",
+      "line": 13,
+      "module": "general_method"
+    },
+    {
+      "source": "RG-MTM/code/analysis/paper_figs.py",
+      "line": 13,
+      "module": "relax_hierarchy"
+    },
+    {
+      "source": "RG-MTM/code/analysis/paper_figs.py",
+      "line": 13,
+      "module": "task_reference"
+    },
+    {
+      "source": "RG-MTM/code/analysis/paper_figs.py",
+      "line": 14,
+      "module": "rgmtm.error_budget"
+    },
+    {
+      "source": "RG-MTM/code/analysis/sensitivity.py",
+      "line": 14,
+      "module": "datasets_extra"
+    },
+    {
+      "source": "RG-MTM/code/analysis/sensitivity.py",
+      "line": 14,
+      "module": "general_method"
+    },
+    {
+      "source": "RG-MTM/code/analysis/sensitivity.py",
+      "line": 14,
+      "module": "relax_hierarchy"
+    },
+    {
+      "source": "RG-MTM/code/analysis/sensitivity.py",
+      "line": 14,
+      "module": "task_reference"
+    },
+    {
+      "source": "RG-MTM/code/analysis/sensitivity.py",
+      "line": 14,
+      "module": "evaluation"
+    },
+    {
+      "source": "RG-MTM/code/analysis/sensitivity.py",
+      "line": 15,
+      "module": "experiments"
+    },
+    {
+      "source": "RG-MTM/code/analysis/sensitivity.py",
+      "line": 22,
+      "module": "era5_expanded"
+    },
+    {
+      "source": "RG-MTM/code/analysis/theory.py",
+      "line": 127,
+      "module": "relax_hierarchy"
+    },
+    {
+      "source": "RG-MTM/code/analysis/stmtm_grid.py",
+      "line": 10,
+      "module": "replicate"
+    },
+    {
+      "source": "RG-MTM/code/analysis/stmtm_grid.py",
+      "line": 10,
+      "module": "general_method"
+    },
+    {
+      "source": "RG-MTM/code/analysis/stmtm_grid.py",
+      "line": 10,
+      "module": "task_reference"
+    },
+    {
+      "source": "RG-MTM/code/analysis/stmtm_grid.py",
+      "line": 10,
+      "module": "evaluation"
+    },
+    {
+      "source": "RG-MTM/code/analysis/stmtm_grid.py",
+      "line": 11,
+      "module": "experiments"
+    },
+    {
+      "source": "RG-MTM/code/analysis/stmtm_grid.py",
+      "line": 12,
+      "module": "rgmtm.reference_points"
+    },
+    {
+      "source": "RG-MTM/code/analysis/stmtm_grid.py",
+      "line": 19,
+      "module": "dataset_suite"
+    },
+    {
+      "source": "RG-MTM/code/analysis/robustness.py",
+      "line": 9,
+      "module": "general_method"
+    },
+    {
+      "source": "RG-MTM/code/analysis/robustness.py",
+      "line": 9,
+      "module": "relax_hierarchy"
+    },
+    {
+      "source": "RG-MTM/code/analysis/robustness.py",
+      "line": 9,
+      "module": "replicate"
+    },
+    {
+      "source": "RG-MTM/code/analysis/robustness.py",
+      "line": 9,
+      "module": "task_reference"
+    },
+    {
+      "source": "RG-MTM/code/analysis/robustness.py",
+      "line": 10,
+      "module": "rgmtm.reference_points"
+    },
+    {
+      "source": "RG-MTM/code/analysis/robustness.py",
+      "line": 12,
+      "module": "dataset_suite"
+    },
+    {
+      "source": "RG-MTM/code/analysis/fig_toy.py",
+      "line": 7,
+      "module": "task_reference"
+    },
+    {
+      "source": "RG-MTM/code/analysis/fig_toy.py",
+      "line": 7,
+      "module": "figstyle"
+    },
+    {
+      "source": "RG-MTM/code/analysis/fig_pipeline.py",
+      "line": 14,
+      "module": "relax_hierarchy"
+    },
+    {
+      "source": "RG-MTM/code/analysis/fig_pipeline.py",
+      "line": 14,
+      "module": "replicate"
+    },
+    {
+      "source": "RG-MTM/code/analysis/fig_pipeline.py",
+      "line": 14,
+      "module": "task_reference"
+    },
+    {
+      "source": "RG-MTM/code/analysis/fig_pipeline.py",
+      "line": 14,
+      "module": "filling"
+    },
+    {
+      "source": "RG-MTM/code/analysis/fig_pipeline.py",
+      "line": 14,
+      "module": "theory"
+    },
+    {
+      "source": "RG-MTM/code/analysis/fig_pipeline.py",
+      "line": 74,
+      "module": "figstyle"
+    },
+    {
+      "source": "RG-MTM/code/analysis/fig_pipeline.py",
+      "line": 80,
+      "module": "geo"
+    },
+    {
+      "source": "RG-MTM/code/analysis/attainable.py",
+      "line": 29,
+      "module": "theory"
+    },
+    {
+      "source": "RG-MTM/code/analysis/attainable.py",
+      "line": 29,
+      "module": "relax_hierarchy"
+    },
+    {
+      "source": "RG-MTM/code/analysis/attainable.py",
+      "line": 29,
+      "module": "replicate"
+    },
+    {
+      "source": "RG-MTM/code/analysis/attainable.py",
+      "line": 29,
+      "module": "task_reference"
+    },
+    {
+      "source": "RG-MTM/code/analysis/attainable.py",
+      "line": 29,
+      "module": "general_method"
+    },
+    {
+      "source": "RG-MTM/code/analysis/attainable.py",
+      "line": 222,
+      "module": "figstyle"
+    },
+    {
+      "source": "RG-MTM/code/analysis/attainable.py",
+      "line": 223,
+      "module": "dataset_suite"
+    },
+    {
+      "source": "RG-MTM/code/analysis/attainable.py",
+      "line": 225,
+      "module": "dataset_suite"
+    },
+    {
+      "source": "RG-MTM/code/analysis/era5_arco_expanded.py",
+      "line": 14,
+      "module": "era5_arco"
+    },
+    {
+      "source": "RG-MTM/code/analysis/fig_topo_price.py",
+      "line": 14,
+      "module": "task_reference"
+    },
+    {
+      "source": "RG-MTM/code/analysis/fig_topo_price.py",
+      "line": 14,
+      "module": "figstyle"
+    },
+    {
+      "source": "RG-MTM/code/analysis/fig_topo_price.py",
+      "line": 14,
+      "module": "fig_concept"
+    },
+    {
+      "source": "RG-MTM/code/analysis/pointcert.py",
+      "line": 17,
+      "module": "replicate"
+    },
+    {
+      "source": "RG-MTM/code/analysis/pointcert.py",
+      "line": 17,
+      "module": "misreading"
+    },
+    {
+      "source": "RG-MTM/code/analysis/pointcert.py",
+      "line": 17,
+      "module": "relax_hierarchy"
+    },
+    {
+      "source": "RG-MTM/code/analysis/pointcert.py",
+      "line": 17,
+      "module": "task_reference"
+    },
+    {
+      "source": "RG-MTM/code/analysis/pointcert.py",
+      "line": 18,
+      "module": "rgmtm.error_budget"
+    },
+    {
+      "source": "RG-MTM/code/analysis/benchmark_degree.py",
+      "line": 16,
+      "module": "theory"
+    },
+    {
+      "source": "RG-MTM/code/analysis/benchmark_degree.py",
+      "line": 17,
+      "module": "rgmtm.error_budget"
+    },
+    {
+      "source": "RG-MTM/code/analysis/fig_rq1.py",
+      "line": 6,
+      "module": "task_reference"
+    },
+    {
+      "source": "RG-MTM/code/analysis/fig_rq1.py",
+      "line": 6,
+      "module": "figstyle"
+    },
+    {
+      "source": "RG-MTM/code/analysis/fig_rq1.py",
+      "line": 7,
+      "module": "dataset_suite"
+    },
+    {
+      "source": "RG-MTM/code/analysis/witness_stats.py",
+      "line": 8,
+      "module": "relax_hierarchy"
+    },
+    {
+      "source": "RG-MTM/code/analysis/witness_stats.py",
+      "line": 8,
+      "module": "replicate"
+    },
+    {
+      "source": "RG-MTM/code/analysis/witness_stats.py",
+      "line": 8,
+      "module": "task_reference"
+    },
+    {
+      "source": "RG-MTM/code/analysis/witness_stats.py",
+      "line": 9,
+      "module": "fig_witness"
+    },
+    {
+      "source": "RG-MTM/code/analysis/witness_stats.py",
+      "line": 11,
+      "module": "dataset_suite"
+    },
+    {
+      "source": "RG-MTM/code/analysis/misreading.py",
+      "line": 22,
+      "module": "general_method"
+    },
+    {
+      "source": "RG-MTM/code/analysis/misreading.py",
+      "line": 22,
+      "module": "relax_hierarchy"
+    },
+    {
+      "source": "RG-MTM/code/analysis/misreading.py",
+      "line": 22,
+      "module": "conflict_strategies"
+    },
+    {
+      "source": "RG-MTM/code/analysis/misreading.py",
+      "line": 22,
+      "module": "task_reference"
+    },
+    {
+      "source": "RG-MTM/code/analysis/misreading.py",
+      "line": 23,
+      "module": "experiments"
+    },
+    {
+      "source": "RG-MTM/code/analysis/misreading.py",
+      "line": 24,
+      "module": "rgmtm.error_budget"
+    },
+    {
+      "source": "RG-MTM/code/analysis/misreading.py",
+      "line": 25,
+      "module": "rgmtm.reference_points"
+    },
+    {
+      "source": "RG-MTM/code/analysis/era5_expanded.py",
+      "line": 26,
+      "module": "experiments"
+    },
+    {
+      "source": "RG-MTM/code/analysis/relax_tradeoff.py",
+      "line": 10,
+      "module": "relax_hierarchy"
+    },
+    {
+      "source": "RG-MTM/code/analysis/relax_tradeoff.py",
+      "line": 10,
+      "module": "general_method"
+    },
+    {
+      "source": "RG-MTM/code/analysis/quality.py",
+      "line": 18,
+      "module": "replicate"
+    },
+    {
+      "source": "RG-MTM/code/analysis/quality.py",
+      "line": 18,
+      "module": "misreading"
+    },
+    {
+      "source": "RG-MTM/code/analysis/quality.py",
+      "line": 18,
+      "module": "task_reference"
+    },
+    {
+      "source": "RG-MTM/code/analysis/fig_witness.py",
+      "line": 14,
+      "module": "relax_hierarchy"
+    },
+    {
+      "source": "RG-MTM/code/analysis/fig_witness.py",
+      "line": 14,
+      "module": "replicate"
+    },
+    {
+      "source": "RG-MTM/code/analysis/fig_witness.py",
+      "line": 14,
+      "module": "task_reference"
+    },
+    {
+      "source": "RG-MTM/code/analysis/fig_witness.py",
+      "line": 14,
+      "module": "filling"
+    },
+    {
+      "source": "RG-MTM/code/analysis/fig_witness.py",
+      "line": 14,
+      "module": "theory"
+    },
+    {
+      "source": "RG-MTM/code/analysis/fig_witness.py",
+      "line": 51,
+      "module": "figstyle"
+    },
+    {
+      "source": "RG-MTM/code/analysis/fig_witness.py",
+      "line": 69,
+      "module": "geo"
+    },
+    {
+      "source": "RG-MTM/code/analysis/real_case_evidence.py",
+      "line": 3,
+      "module": "real_case_studies"
+    },
+    {
+      "source": "RG-MTM/code/analysis/frontier.py",
+      "line": 15,
+      "module": "theory"
+    },
+    {
+      "source": "RG-MTM/code/analysis/frontier.py",
+      "line": 15,
+      "module": "relax_hierarchy"
+    },
+    {
+      "source": "RG-MTM/code/analysis/frontier.py",
+      "line": 15,
+      "module": "replicate"
+    },
+    {
+      "source": "RG-MTM/code/analysis/frontier.py",
+      "line": 15,
+      "module": "task_reference"
+    },
+    {
+      "source": "RG-MTM/code/analysis/fig_new_datasets.py",
+      "line": 2,
+      "module": "public_scalar"
+    },
+    {
+      "source": "RG-MTM/code/analysis/fig_new_datasets.py",
+      "line": 3,
+      "module": "task_reference"
+    },
+    {
+      "source": "RG-MTM/code/analysis/fig_new_datasets.py",
+      "line": 4,
+      "module": "figstyle"
+    },
+    {
+      "source": "RG-MTM/code/analysis/generality.py",
+      "line": 17,
+      "module": "theory"
+    },
+    {
+      "source": "RG-MTM/code/analysis/generality.py",
+      "line": 17,
+      "module": "datasets_extra"
+    },
+    {
+      "source": "RG-MTM/code/analysis/generality.py",
+      "line": 17,
+      "module": "task_reference"
+    },
+    {
+      "source": "RG-MTM/code/analysis/generality.py",
+      "line": 18,
+      "module": "rgmtm.error_budget"
+    },
+    {
+      "source": "RG-MTM/code/analysis/generality.py",
+      "line": 80,
+      "module": "figstyle"
+    },
+    {
+      "source": "RG-MTM/code/analysis/filling.py",
+      "line": 14,
+      "module": "relax_hierarchy"
+    },
+    {
+      "source": "RG-MTM/code/analysis/filling.py",
+      "line": 14,
+      "module": "replicate"
+    },
+    {
+      "source": "RG-MTM/code/analysis/filling.py",
+      "line": 14,
+      "module": "task_reference"
+    },
+    {
+      "source": "RG-MTM/code/analysis/filling.py",
+      "line": 15,
+      "module": "experiments"
+    },
+    {
+      "source": "RG-MTM/code/analysis/topological_case.py",
+      "line": 12,
+      "module": "attainable"
+    },
+    {
+      "source": "RG-MTM/code/analysis/topological_case.py",
+      "line": 13,
+      "module": "relax_hierarchy"
+    },
+    {
+      "source": "RG-MTM/code/analysis/topological_case.py",
+      "line": 14,
+      "module": "replicate"
+    },
+    {
+      "source": "RG-MTM/code/analysis/visualization/rendering.py",
+      "line": 38,
+      "module": "relax_hierarchy"
+    },
+    {
+      "source": "RG-MTM/code/analysis/visualization/rendering.py",
+      "line": 39,
+      "module": "filling"
+    },
+    {
+      "source": "RG-MTM/code/analysis/visualization/rendering.py",
+      "line": 56,
+      "module": "experiments"
+    },
+    {
+      "source": "RG-MTM/code/analysis/visualization/rendering.py",
+      "line": 57,
+      "module": "general_method"
+    },
+    {
+      "source": "RG-MTM/code/analysis/visualization/rendering.py",
+      "line": 58,
+      "module": "rgmtm.baselines"
+    },
+    {
+      "source": "RG-MTM/code/analysis/visualization/spatial.py",
+      "line": 4,
+      "module": "rgmtm.baselines"
+    },
+    {
+      "source": "RG-MTM/code/analysis/visualization/spatial.py",
+      "line": 5,
+      "module": "figstyle"
+    },
+    {
+      "source": "RG-MTM/code/analysis/visualization/gallery.py",
+      "line": 15,
+      "module": "figstyle"
+    },
+    {
+      "source": "RG-MTM/code/analysis/visualization/gallery.py",
+      "line": 16,
+      "module": "dataset_suite"
+    },
+    {
+      "source": "RG-MTM/code/analysis/visualization/gallery.py",
+      "line": 77,
+      "module": "replicate"
+    },
+    {
+      "source": "RG-MTM/code/analysis/panels/common.py",
+      "line": 16,
+      "module": "task_reference"
+    },
+    {
+      "source": "RG-MTM/code/analysis/panels/common.py",
+      "line": 16,
+      "module": "figstyle"
+    },
+    {
+      "source": "RG-MTM/code/analysis/panels/common.py",
+      "line": 17,
+      "module": "relax_hierarchy"
+    },
+    {
+      "source": "RG-MTM/code/analysis/panels/common.py",
+      "line": 17,
+      "module": "replicate"
+    },
+    {
+      "source": "RG-MTM/code/analysis/panels/common.py",
+      "line": 17,
+      "module": "filling"
+    },
+    {
+      "source": "RG-MTM/code/analysis/panels/common.py",
+      "line": 17,
+      "module": "pointcert"
+    },
+    {
+      "source": "RG-MTM/code/analysis/panels/common.py",
+      "line": 18,
+      "module": "fig_concept"
+    },
+    {
+      "source": "RG-MTM/code/analysis/panels/common.py",
+      "line": 19,
+      "module": "fig_witness"
+    },
+    {
+      "source": "RG-MTM/code/analysis/panels/common.py",
+      "line": 20,
+      "module": "fig_teaser"
+    },
+    {
+      "source": "RG-MTM/code/analysis/panels/common.py",
+      "line": 21,
+      "module": "experiments"
+    },
+    {
+      "source": "RG-MTM/code/analysis/panels/common.py",
+      "line": 230,
+      "module": "generality"
+    },
+    {
+      "source": "RG-MTM/code/analysis/panels/fig1/bottom_snapshot_4.py",
+      "line": 10,
+      "module": "geo"
+    },
+    {
+      "source": "RG-MTM/code/analysis/panels/fig1/bottom_snapshot_5.py",
+      "line": 10,
+      "module": "geo"
+    },
+    {
+      "source": "RG-MTM/code/analysis/panels/fig1/bottom_snapshot_1.py",
+      "line": 10,
+      "module": "geo"
+    },
+    {
+      "source": "RG-MTM/code/analysis/panels/fig1/bottom_snapshot_2.py",
+      "line": 10,
+      "module": "geo"
+    },
+    {
+      "source": "RG-MTM/code/analysis/panels/fig1/bottom_snapshot_3.py",
+      "line": 10,
+      "module": "geo"
+    },
+    {
+      "source": "RG-MTM/code/analysis/panels/fig6/b_geographic_field.py",
+      "line": 11,
+      "module": "geo"
+    },
+    {
+      "source": "RG-MTM/code/analysis/panels/supp_pipeline/1_field.py",
+      "line": 12,
+      "module": "geo"
+    },
+    {
+      "source": "RG-MTM/code/analysis/panels/fig3/a_tree_kept.py",
+      "line": 6,
+      "module": "fig_topo_price"
+    },
+    {
+      "source": "RG-MTM/code/analysis/panels/fig3/b_lca_filling.py",
+      "line": 6,
+      "module": "fig_topo_price"
+    },
+    {
+      "source": "RG-MTM/code/analysis/panels/fig3/c_optimal_filling.py",
+      "line": 6,
+      "module": "fig_topo_price"
+    },
+    {
+      "source": "RG-MTM/code/experiments/era5.py",
+      "line": 18,
+      "module": "rgmtm.baselines"
+    },
+    {
+      "source": "RG-MTM/code/experiments/era5.py",
+      "line": 19,
+      "module": "rgmtm.error_budget"
+    },
+    {
+      "source": "RG-MTM/code/experiments/era5.py",
+      "line": 20,
+      "module": "rgmtm.reference_guided"
+    },
+    {
+      "source": "RG-MTM/code/experiments/paper1_suite/run.py",
+      "line": 7,
+      "module": "experiments.paper1_suite.prepare"
+    },
+    {
+      "source": "RG-MTM/code/experiments/paper1_suite/run.py",
+      "line": 8,
+      "module": "experiments.volume3d.paper_trees"
+    },
+    {
+      "source": "RG-MTM/code/experiments/paper1_suite/run.py",
+      "line": 9,
+      "module": "experiments.volume3d.compact_tmtm"
+    },
+    {
+      "source": "RG-MTM/code/experiments/paper1_suite/run.py",
+      "line": 10,
+      "module": "experiments.volume3d"
+    },
+    {
+      "source": "RG-MTM/code/experiments/paper1_suite/run.py",
+      "line": 11,
+      "module": "experiments.volume3d.run_paper"
+    },
+    {
+      "source": "RG-MTM/code/experiments/paper1_suite/run.py",
+      "line": 12,
+      "module": "rgmtm.error_budget"
+    },
+    {
+      "source": "RG-MTM/code/experiments/paper1_suite/run.py",
+      "line": 13,
+      "module": "rgmtm.reference_guided"
+    },
+    {
+      "source": "RG-MTM/code/experiments/paper1_suite/prepare_3d.py",
+      "line": 11,
+      "module": "experiments.paper1_suite.prepare"
+    },
+    {
+      "source": "RG-MTM/code/experiments/paper1_suite/prepare_3d.py",
+      "line": 12,
+      "module": "experiments.volume3d.prepare"
+    },
+    {
+      "source": "RG-MTM/code/experiments/paper1_suite/prepare_3d.py",
+      "line": 13,
+      "module": "experiments.volume3d.run_paper"
+    },
+    {
+      "source": "RG-MTM/code/experiments/paper1_suite/benzene_reconstructed.py",
+      "line": 13,
+      "module": "experiments.paper1_suite.prepare"
+    },
+    {
+      "source": "RG-MTM/code/experiments/paper1_suite/benzene_reconstructed.py",
+      "line": 14,
+      "module": "experiments.volume3d.run_paper"
+    },
+    {
+      "source": "RG-MTM/code/experiments/paper1_suite/benzene_reconstructed.py",
+      "line": 113,
+      "module": "experiments.paper1_suite.run"
+    },
+    {
+      "source": "RG-MTM/code/experiments/paper1_suite/verify_benzene_reconstructed.py",
+      "line": 10,
+      "module": "experiments.paper1_suite.prepare"
+    },
+    {
+      "source": "RG-MTM/code/experiments/paper1_suite/verify_benzene_reconstructed.py",
+      "line": 11,
+      "module": "experiments.volume3d.run_paper"
+    },
+    {
+      "source": "RG-MTM/code/experiments/paper1_suite/verify_benzene_reconstructed.py",
+      "line": 12,
+      "module": "experiments.paper1_suite.benzene_reconstructed"
+    },
+    {
+      "source": "RG-MTM/code/experiments/paper1_suite/verify_benzene_reconstructed.py",
+      "line": 13,
+      "module": "experiments.paper1_suite.audit_benzene_source"
+    },
+    {
+      "source": "RG-MTM/code/experiments/paper1_suite/audit_benzene_source.py",
+      "line": 6,
+      "module": "experiments.paper1_suite.prepare"
+    },
+    {
+      "source": "RG-MTM/code/experiments/paper1_suite/verify.py",
+      "line": 6,
+      "module": "experiments.paper1_suite.prepare"
+    },
+    {
+      "source": "RG-MTM/code/experiments/paper1_suite/verify.py",
+      "line": 7,
+      "module": "experiments.volume3d.run_paper"
+    },
+    {
+      "source": "RG-MTM/code/experiments/paper1_suite/acquire_cylinder.py",
+      "line": 11,
+      "module": "experiments.volume3d.prepare"
+    },
+    {
+      "source": "RG-MTM/code/experiments/paper1_suite/acquire_cylinder.py",
+      "line": 12,
+      "module": "experiments.volume3d.run_paper"
+    },
+    {
+      "source": "RG-MTM/code/experiments/paper1_suite/report_benzene_reconstructed.py",
+      "line": 10,
+      "module": "experiments.paper1_suite.prepare"
+    },
+    {
+      "source": "RG-MTM/code/experiments/paper1_suite/report_benzene_reconstructed.py",
+      "line": 11,
+      "module": "experiments.paper1_suite.benzene_reconstructed"
+    },
+    {
+      "source": "RG-MTM/code/experiments/paper1_suite/report_benzene_reconstructed.py",
+      "line": 12,
+      "module": "experiments.volume3d.run_paper"
+    },
+    {
+      "source": "RG-MTM/code/experiments/paper1_suite/report.py",
+      "line": 10,
+      "module": "experiments.paper1_suite.prepare"
+    },
+    {
+      "source": "RG-MTM/code/experiments/paper1_suite/report.py",
+      "line": 11,
+      "module": "experiments.volume3d.run_paper"
+    },
+    {
+      "source": "RG-MTM/code/experiments/paper1_suite/prepare.py",
+      "line": 11,
+      "module": "experiments.volume3d.prepare"
+    },
+    {
+      "source": "RG-MTM/code/experiments/paper1_suite/prepare.py",
+      "line": 12,
+      "module": "experiments.volume3d.run_paper"
+    },
+    {
+      "source": "RG-MTM/code/experiments/publication2027/build.py",
+      "line": 7,
+      "module": "dataset_suite"
+    },
+    {
+      "source": "RG-MTM/code/experiments/publication2027/build.py",
+      "line": 8,
+      "module": "provenance"
+    },
+    {
+      "source": "RG-MTM/code/experiments/publication2027/run.py",
+      "line": 9,
+      "module": "dataset_suite"
+    },
+    {
+      "source": "RG-MTM/code/experiments/publication2027/layout_figures.py",
+      "line": 14,
+      "module": "figstyle"
+    },
+    {
+      "source": "RG-MTM/code/experiments/publication2027/layout_figures.py",
+      "line": 15,
+      "module": "provenance"
+    },
+    {
+      "source": "RG-MTM/code/experiments/publication2027/layout_figures.py",
+      "line": 24,
+      "module": "replicate"
+    },
+    {
+      "source": "RG-MTM/code/experiments/publication2027/layout_figures.py",
+      "line": 24,
+      "module": "relax_hierarchy"
+    },
+    {
+      "source": "RG-MTM/code/experiments/publication2027/layout_figures.py",
+      "line": 24,
+      "module": "filling"
+    },
+    {
+      "source": "RG-MTM/code/experiments/publication2027/layout_figures.py",
+      "line": 25,
+      "module": "fig_witness"
+    },
+    {
+      "source": "RG-MTM/code/experiments/publication2027/layout_figures.py",
+      "line": 159,
+      "module": "fig_concept"
+    },
+    {
+      "source": "RG-MTM/code/experiments/publication2027/bisector_control.py",
+      "line": 6,
+      "module": "general_method"
+    },
+    {
+      "source": "RG-MTM/code/experiments/publication2027/bisector_control.py",
+      "line": 6,
+      "module": "relax_hierarchy"
+    },
+    {
+      "source": "RG-MTM/code/experiments/publication2027/bisector_control.py",
+      "line": 6,
+      "module": "filling"
+    },
+    {
+      "source": "RG-MTM/code/experiments/publication2027/bisector_control.py",
+      "line": 6,
+      "module": "attainable"
+    },
+    {
+      "source": "RG-MTM/code/experiments/publication2027/bisector_control.py",
+      "line": 7,
+      "module": "experiments"
+    },
+    {
+      "source": "RG-MTM/code/experiments/publication2027/bisector_control.py",
+      "line": 8,
+      "module": "rgmtm.reference_points"
+    },
+    {
+      "source": "RG-MTM/code/experiments/publication2027/bisector_control.py",
+      "line": 9,
+      "module": "rgmtm.baselines.space_filling"
+    },
+    {
+      "source": "RG-MTM/code/experiments/publication2027/validate.py",
+      "line": 5,
+      "module": "provenance"
+    },
+    {
+      "source": "RG-MTM/code/experiments/publication2027/supplement_tables.py",
+      "line": 5,
+      "module": "dataset_suite"
+    },
+    {
+      "source": "RG-MTM/code/experiments/publication2027/domain_filling_figures.py",
+      "line": 20,
+      "module": "rgmtm.baselines.stmtm"
+    },
+    {
+      "source": "RG-MTM/code/experiments/publication2027/domain_filling_figures.py",
+      "line": 21,
+      "module": "attainable"
+    },
+    {
+      "source": "RG-MTM/code/experiments/publication2027/domain_filling_figures.py",
+      "line": 22,
+      "module": "filling"
+    },
+    {
+      "source": "RG-MTM/code/experiments/publication2027/domain_filling_figures.py",
+      "line": 23,
+      "module": "figstyle"
+    },
+    {
+      "source": "RG-MTM/code/experiments/publication2027/domain_filling_figures.py",
+      "line": 114,
+      "module": "rgmtm.baselines.stmtm"
+    },
+    {
+      "source": "RG-MTM/code/experiments/baseline_audit/audit.py",
+      "line": 14,
+      "module": "rgmtm.baselines"
+    },
+    {
+      "source": "RG-MTM/code/experiments/baseline_audit/audit.py",
+      "line": 15,
+      "module": "experiments"
+    },
+    {
+      "source": "RG-MTM/code/experiments/baseline_audit/audit.py",
+      "line": 16,
+      "module": "real_case_studies"
+    },
+    {
+      "source": "RG-MTM/code/experiments/baseline_audit/audit.py",
+      "line": 84,
+      "module": "replicate"
+    },
+    {
+      "source": "RG-MTM/code/experiments/baseline_audit/audit.py",
+      "line": 84,
+      "module": "general_method"
+    },
+    {
+      "source": "RG-MTM/code/experiments/baseline_audit/audit.py",
+      "line": 140,
+      "module": "experiments.volume3d.verify_saved"
+    },
+    {
+      "source": "RG-MTM/code/experiments/baseline_audit/verify_saved.py",
+      "line": 6,
+      "module": "rgmtm.baselines.tmtm"
+    },
+    {
+      "source": "RG-MTM/code/experiments/baseline_audit/verify_saved.py",
+      "line": 7,
+      "module": "provenance"
+    },
+    {
+      "source": "RG-MTM/code/experiments/baseline_audit/verify_saved.py",
+      "line": 8,
+      "module": "real_case_studies"
+    },
+    {
+      "source": "RG-MTM/code/experiments/volume3d/prepare_ctc.py",
+      "line": 23,
+      "module": "experiments.volume3d.prepare"
+    },
+    {
+      "source": "RG-MTM/code/experiments/volume3d/run.py",
+      "line": 16,
+      "module": "experiments"
+    },
+    {
+      "source": "RG-MTM/code/experiments/volume3d/run.py",
+      "line": 17,
+      "module": "experiments.volume3d.prepare"
+    },
+    {
+      "source": "RG-MTM/code/experiments/volume3d/run.py",
+      "line": 18,
+      "module": "rgmtm.baselines"
+    },
+    {
+      "source": "RG-MTM/code/experiments/volume3d/run.py",
+      "line": 19,
+      "module": "rgmtm.reference_points"
+    },
+    {
+      "source": "RG-MTM/code/experiments/volume3d/run.py",
+      "line": 20,
+      "module": "rgmtm.reference_guided"
+    },
+    {
+      "source": "RG-MTM/code/experiments/volume3d/run.py",
+      "line": 21,
+      "module": "general_method"
+    },
+    {
+      "source": "RG-MTM/code/experiments/volume3d/run.py",
+      "line": 22,
+      "module": "conflict_strategies"
+    },
+    {
+      "source": "RG-MTM/code/experiments/volume3d/run.py",
+      "line": 23,
+      "module": "relax_hierarchy"
+    },
+    {
+      "source": "RG-MTM/code/experiments/volume3d/run.py",
+      "line": 24,
+      "module": "theory"
+    },
+    {
+      "source": "RG-MTM/code/experiments/volume3d/run.py",
+      "line": 25,
+      "module": "filling"
+    },
+    {
+      "source": "RG-MTM/code/experiments/volume3d/run.py",
+      "line": 26,
+      "module": "evaluation"
+    },
+    {
+      "source": "RG-MTM/code/experiments/volume3d/run.py",
+      "line": 27,
+      "module": "persistence"
+    },
+    {
+      "source": "RG-MTM/code/experiments/volume3d/run.py",
+      "line": 28,
+      "module": "certificate_core"
+    },
+    {
+      "source": "RG-MTM/code/experiments/volume3d/run.py",
+      "line": 29,
+      "module": "result_tables"
+    },
+    {
+      "source": "RG-MTM/code/experiments/volume3d/run.py",
+      "line": 30,
+      "module": "rgmtm.error_budget"
+    },
+    {
+      "source": "RG-MTM/code/experiments/volume3d/run.py",
+      "line": 183,
+      "module": "pointcert"
+    },
+    {
+      "source": "RG-MTM/code/experiments/volume3d/run.py",
+      "line": 314,
+      "module": "experiments.volume3d.report"
+    },
+    {
+      "source": "RG-MTM/code/experiments/volume3d/run.py",
+      "line": 286,
+      "module": "pointcert"
+    },
+    {
+      "source": "RG-MTM/code/experiments/volume3d/paper_trees.py",
+      "line": 6,
+      "module": "experiments.volume3d.prepare"
+    },
+    {
+      "source": "RG-MTM/code/experiments/volume3d/paper_trees.py",
+      "line": 7,
+      "module": "experiments.volume3d.prepare_tangaroa_paper"
+    },
+    {
+      "source": "RG-MTM/code/experiments/volume3d/fetch_tangaroa_snapshots.py",
+      "line": 9,
+      "module": "experiments.volume3d.prepare"
+    },
+    {
+      "source": "RG-MTM/code/experiments/volume3d/fetch_tangaroa_snapshots.py",
+      "line": 10,
+      "module": "experiments.volume3d.prepare_tangaroa_official"
+    },
+    {
+      "source": "RG-MTM/code/experiments/volume3d/export_input_evidence.py",
+      "line": 4,
+      "module": "experiments.volume3d.prepare"
+    },
+    {
+      "source": "RG-MTM/code/experiments/volume3d/setup_inputs.py",
+      "line": 9,
+      "module": "experiments.volume3d.prepare"
+    },
+    {
+      "source": "RG-MTM/code/experiments/volume3d/run_paper.py",
+      "line": 16,
+      "module": "experiments.volume3d.prepare"
+    },
+    {
+      "source": "RG-MTM/code/experiments/volume3d/run_paper.py",
+      "line": 17,
+      "module": "experiments.volume3d.prepare_tangaroa_paper"
+    },
+    {
+      "source": "RG-MTM/code/experiments/volume3d/run_paper.py",
+      "line": 18,
+      "module": "experiments.volume3d.paper_trees"
+    },
+    {
+      "source": "RG-MTM/code/experiments/volume3d/run_paper.py",
+      "line": 19,
+      "module": "experiments.volume3d.compact_tmtm"
+    },
+    {
+      "source": "RG-MTM/code/experiments/volume3d/run_paper.py",
+      "line": 20,
+      "module": "experiments.volume3d"
+    },
+    {
+      "source": "RG-MTM/code/experiments/volume3d/run_paper.py",
+      "line": 21,
+      "module": "rgmtm.error_budget"
+    },
+    {
+      "source": "RG-MTM/code/experiments/volume3d/run_paper.py",
+      "line": 22,
+      "module": "rgmtm.reference_guided"
+    },
+    {
+      "source": "RG-MTM/code/experiments/volume3d/run_paper.py",
+      "line": 23,
+      "module": "relax_hierarchy"
+    },
+    {
+      "source": "RG-MTM/code/experiments/volume3d/run_paper.py",
+      "line": 24,
+      "module": "filling"
+    },
+    {
+      "source": "RG-MTM/code/experiments/volume3d/prepare_tangaroa_official.py",
+      "line": 18,
+      "module": "experiments.volume3d.prepare"
+    },
+    {
+      "source": "RG-MTM/code/experiments/volume3d/verify_tangaroa_input.py",
+      "line": 14,
+      "module": "experiments.volume3d.prepare"
+    },
+    {
+      "source": "RG-MTM/code/experiments/volume3d/prepare_tangaroa_paper.py",
+      "line": 13,
+      "module": "experiments.volume3d.prepare"
+    },
+    {
+      "source": "RG-MTM/code/experiments/volume3d/prepare_tangaroa_paper.py",
+      "line": 14,
+      "module": "experiments.volume3d.prepare_tangaroa_official"
+    },
+    {
+      "source": "RG-MTM/code/experiments/volume3d/build_native_ttk.py",
+      "line": 5,
+      "module": "experiments.volume3d.prepare"
+    },
+    {
+      "source": "RG-MTM/code/experiments/volume3d/verify.py",
+      "line": 8,
+      "module": "experiments"
+    },
+    {
+      "source": "RG-MTM/code/experiments/volume3d/verify.py",
+      "line": 9,
+      "module": "experiments.volume3d.prepare"
+    },
+    {
+      "source": "RG-MTM/code/experiments/volume3d/report_paper.py",
+      "line": 11,
+      "module": "experiments.volume3d.run_paper"
+    },
+    {
+      "source": "RG-MTM/code/experiments/volume3d/report_paper.py",
+      "line": 12,
+      "module": "experiments.volume3d.prepare"
+    },
+    {
+      "source": "RG-MTM/code/experiments/volume3d/report_paper.py",
+      "line": 13,
+      "module": "experiments.volume3d.audit_tangaroa"
+    },
+    {
+      "source": "RG-MTM/code/experiments/volume3d/scalable_layout.py",
+      "line": 15,
+      "module": "rgmtm.error_budget"
+    },
+    {
+      "source": "RG-MTM/code/experiments/volume3d/prepare_tangaroa.py",
+      "line": 21,
+      "module": "experiments.volume3d.prepare"
+    },
+    {
+      "source": "RG-MTM/code/experiments/volume3d/paper_style.py",
+      "line": 18,
+      "module": "experiments.volume3d.run_paper"
+    },
+    {
+      "source": "RG-MTM/code/experiments/volume3d/paper_style.py",
+      "line": 19,
+      "module": "experiments.volume3d.prepare"
+    },
+    {
+      "source": "RG-MTM/code/experiments/volume3d/audit_tangaroa.py",
+      "line": 24,
+      "module": "experiments.volume3d.prepare"
+    },
+    {
+      "source": "RG-MTM/code/experiments/volume3d/audit_tangaroa.py",
+      "line": 25,
+      "module": "experiments.volume3d.prepare_tangaroa_official"
+    },
+    {
+      "source": "RG-MTM/code/experiments/volume3d/verify_paper.py",
+      "line": 9,
+      "module": "experiments.volume3d.run_paper"
+    },
+    {
+      "source": "RG-MTM/code/experiments/volume3d/verify_paper.py",
+      "line": 10,
+      "module": "experiments.volume3d.prepare"
+    },
+    {
+      "source": "RG-MTM/code/experiments/volume3d/verify_paper.py",
+      "line": 11,
+      "module": "theory"
+    },
+    {
+      "source": "RG-MTM/code/experiments/volume3d/verify_paper.py",
+      "line": 12,
+      "module": "evaluation"
+    },
+    {
+      "source": "RG-MTM/code/tools/audit_method_performance.py",
+      "line": 5,
+      "module": "dataset_suite"
+    },
+    {
+      "source": "RG-MTM/code/tools/audit_method_performance.py",
+      "line": 6,
+      "module": "pm25_seasons"
+    },
+    {
+      "source": "RG-MTM/code/tools/verify_rgmtm_migration.py",
+      "line": 9,
+      "module": "provenance"
+    },
+    {
+      "source": "RG-MTM/code/tools/run_pm25_seasons.py",
+      "line": 11,
+      "module": "pm25_seasons"
+    },
+    {
+      "source": "RG-MTM/code/tools/run_pm25_seasons.py",
+      "line": 11,
+      "module": "public_scalar"
+    },
+    {
+      "source": "RG-MTM/code/tools/evaluate_public_metrics.py",
+      "line": 23,
+      "module": "replicate"
+    },
+    {
+      "source": "RG-MTM/code/tools/evaluate_public_metrics.py",
+      "line": 24,
+      "module": "general_method"
+    },
+    {
+      "source": "RG-MTM/code/tools/evaluate_public_metrics.py",
+      "line": 25,
+      "module": "relax_hierarchy"
+    },
+    {
+      "source": "RG-MTM/code/tools/evaluate_public_metrics.py",
+      "line": 26,
+      "module": "experiments"
+    },
+    {
+      "source": "RG-MTM/code/tools/evaluate_public_metrics.py",
+      "line": 27,
+      "module": "rgmtm.baselines"
+    },
+    {
+      "source": "RG-MTM/code/tools/evaluate_public_metrics.py",
+      "line": 28,
+      "module": "rgmtm.reference_points"
+    },
+    {
+      "source": "RG-MTM/code/tools/evaluate_public_metrics.py",
+      "line": 210,
+      "module": "evaluation"
+    },
+    {
+      "source": "RG-MTM/code/tools/package_panels.py",
+      "line": 9,
+      "module": "dataset_suite"
+    },
+    {
+      "source": "RG-MTM/code/tools/evaluate_season_sfc.py",
+      "line": 5,
+      "module": "pm25_seasons"
+    },
+    {
+      "source": "RG-MTM/code/tools/prepare_cn_pm25.py",
+      "line": 13,
+      "module": "public_scalar"
+    },
+    {
+      "source": "RG-MTM/code/tools/fetch_public_scalar.py",
+      "line": 12,
+      "module": "public_scalar"
+    },
+    {
+      "source": "RG-MTM/code/tools/run_paper_suite.py",
+      "line": 10,
+      "module": "dataset_suite"
+    },
+    {
+      "source": "RG-MTM/code/tools/package_panel_code.py",
+      "line": 8,
+      "module": "dataset_suite"
+    },
+    {
+      "source": "RG-MTM/code/tools/build_rgmtm_figures.py",
+      "line": 20,
+      "module": "figstyle"
+    },
+    {
+      "source": "RG-MTM/code/tools/build_rgmtm_figures.py",
+      "line": 23,
+      "module": "dataset_suite"
+    },
+    {
+      "source": "RG-MTM/code/tools/build_rgmtm_figures.py",
+      "line": 25,
+      "module": "rgmtm.names"
+    },
+    {
+      "source": "RG-MTM/code/tests/test_provenance.py",
+      "line": 10,
+      "module": "provenance"
+    },
+    {
+      "source": "RG-MTM/code/tests/test_native_merge_errors.py",
+      "line": 7,
+      "module": "native_merge_errors"
+    },
+    {
+      "source": "RG-MTM/code/tests/test_result_tables.py",
+      "line": 7,
+      "module": "result_tables"
+    },
+    {
+      "source": "RG-MTM/code/tests/test_public_scalar.py",
+      "line": 9,
+      "module": "public_scalar"
+    },
+    {
+      "source": "RG-MTM/code/tests/test_public_scalar.py",
+      "line": 10,
+      "module": "dataset_suite"
+    },
+    {
+      "source": "RG-MTM/code/tests/test_paper_certificates.py",
+      "line": 12,
+      "module": "certificate_core"
+    },
+    {
+      "source": "RG-MTM/code/tests/test_paper_certificates.py",
+      "line": 14,
+      "module": "theory"
+    },
+    {
+      "source": "RG-MTM/code/tests/test_volume3d_public.py",
+      "line": 4,
+      "module": "experiments.volume3d.setup_inputs"
+    },
+    {
+      "source": "RG-MTM/code/tests/test_volume3d.py",
+      "line": 11,
+      "module": "experiments"
+    },
+    {
+      "source": "RG-MTM/code/tests/test_volume3d.py",
+      "line": 12,
+      "module": "experiments.volume3d.prepare"
+    },
+    {
+      "source": "RG-MTM/code/tests/test_volume3d.py",
+      "line": 13,
+      "module": "general_method"
+    },
+    {
+      "source": "RG-MTM/code/tests/test_volume3d.py",
+      "line": 14,
+      "module": "evaluation"
+    },
+    {
+      "source": "RG-MTM/code/tests/test_volume3d.py",
+      "line": 15,
+      "module": "rgmtm.baselines.space_filling"
+    },
+    {
+      "source": "RG-MTM/code/tests/test_volume3d.py",
+      "line": 16,
+      "module": "rgmtm.reference_points"
+    },
+    {
+      "source": "RG-MTM/code/tests/test_space_filling.py",
+      "line": 4,
+      "module": "rgmtm.baselines.space_filling"
+    },
+    {
+      "source": "RG-MTM/code/tests/test_projection_proxy.py",
+      "line": 8,
+      "module": "evaluation"
+    },
+    {
+      "source": "RG-MTM/code/tests/test_volume3d_large.py",
+      "line": 4,
+      "module": "rgmtm.error_budget"
+    },
+    {
+      "source": "RG-MTM/code/tests/test_volume3d_large.py",
+      "line": 6,
+      "module": "experiments.volume3d.scalable_layout"
+    },
+    {
+      "source": "RG-MTM/code/tests/test_volume3d_large.py",
+      "line": 7,
+      "module": "experiments.volume3d.compact_tmtm"
+    },
+    {
+      "source": "RG-MTM/code/tests/test_volume3d_large.py",
+      "line": 8,
+      "module": "experiments.volume3d.paper_trees"
+    },
+    {
+      "source": "RG-MTM/code/tests/test_volume3d_large.py",
+      "line": 9,
+      "module": "rgmtm.baselines"
+    },
+    {
+      "source": "RG-MTM/paper/scripts/solve_fig1_december_xaxis.py",
+      "line": 6,
+      "module": "experiments"
+    },
+    {
+      "source": "RG-MTM/paper/scripts/solve_fig1_december_xaxis.py",
+      "line": 7,
+      "module": "relax_hierarchy"
+    },
+    {
+      "source": "RG-MTM/paper/scripts/solve_fig1_december_xaxis.py",
+      "line": 7,
+      "module": "general_method"
+    },
+    {
+      "source": "RG-MTM/paper/scripts/solve_fig1_december_xaxis.py",
+      "line": 7,
+      "module": "filling"
+    },
+    {
+      "source": "RG-MTM/paper/scripts/solve_fig1_december_xaxis.py",
+      "line": 8,
+      "module": "rgmtm.reference_points"
+    },
+    {
+      "source": "RG-MTM/paper/scripts/prepare_fig1_local_panel.py",
+      "line": 9,
+      "module": "scene"
+    },
+    {
+      "source": "RG-MTM/paper/scripts/prepare_cases.py",
+      "line": 10,
+      "module": "scene"
+    },
+    {
+      "source": "RG-MTM/paper/scripts/prepare_cases.py",
+      "line": 46,
+      "module": "geo"
+    },
+    {
+      "source": "RG-MTM/paper/scripts/run_fig1_december_xaxis.py",
+      "line": 12,
+      "module": "experiments"
+    },
+    {
+      "source": "RG-MTM/paper/scripts/run_fig1_december_xaxis.py",
+      "line": 13,
+      "module": "era5_expanded"
+    },
+    {
+      "source": "RG-MTM/paper/scripts/prepare_fig1_direction_comparison.py",
+      "line": 14,
+      "module": "scene"
+    },
+    {
+      "source": "RG-MTM/paper/scripts/prepare_fig1_direction_comparison.py",
+      "line": 15,
+      "module": "geo"
+    },
+    {
+      "source": "RG-MTM/paper/scripts/prepare_fig1_direction_comparison.py",
+      "line": 16,
+      "module": "anchor_aligned_renderer"
+    },
+    {
+      "source": "RG-MTM/paper/scripts/prepare_figure1.py",
+      "line": 21,
+      "module": "geo"
+    },
+    {
+      "source": "RG-MTM/paper/scripts/prepare_figure1.py",
+      "line": 22,
+      "module": "scene"
+    },
+    {
+      "source": "RG-MTM/paper/scripts/prepare_figure1.py",
+      "line": 23,
+      "module": "anchor_aligned_renderer"
+    },
+    {
+      "source": "RG-MTM/paper/scripts/validate_fig1_direction_data.py",
+      "line": 6,
+      "module": "experiments"
+    }
+  ],
+  "all_import_roots": [
+    "PIL",
+    "__future__",
+    "analysis",
+    "anchor_aligned_renderer",
+    "argparse",
+    "ast",
+    "attainable",
+    "catalog",
+    "certificate_core",
+    "common",
+    "concurrent",
+    "conflict_strategies",
+    "copy",
+    "csv",
+    "dataclasses",
+    "dataset_suite",
+    "datasets_extra",
+    "datetime",
+    "domain_filling_figures",
+    "era5_arco",
+    "era5_expanded",
+    "error_budget",
+    "evaluate_public_metrics",
+    "evaluation",
+    "experiments",
+    "fig_concept",
+    "fig_teaser",
+    "fig_topo_price",
+    "fig_witness",
+    "figstyle",
+    "filling",
+    "functools",
+    "general_method",
+    "generality",
+    "geo",
+    "hashlib",
+    "heapq",
+    "hilbertcurve",
+    "importlib",
+    "inspect",
+    "inviwopy",
+    "io",
+    "itertools",
+    "json",
+    "layout_figures",
+    "lzma",
+    "math",
+    "matplotlib",
+    "metrics",
+    "misreading",
+    "native_merge_errors",
+    "netCDF4",
+    "numpy",
+    "os",
+    "pathlib",
+    "persistence",
+    "pickle",
+    "platform",
+    "pm25_seasons",
+    "pointcert",
+    "posixpath",
+    "prepare_cn_pm25",
+    "provenance",
+    "public_scalar",
+    "py7zr",
+    "pymupdf",
+    "pypdf",
+    "re",
+    "real_case_evidence",
+    "real_case_large",
+    "real_case_studies",
+    "relax_hierarchy",
+    "rendering",
+    "replicate",
+    "requests",
+    "result_tables",
+    "rgmtm",
+    "run_paper_suite",
+    "runpy",
+    "scene",
+    "scipy",
+    "shutil",
+    "sklearn",
+    "spatial",
+    "struct",
+    "subprocess",
+    "sys",
+    "tarfile",
+    "task_reference",
+    "tempfile",
+    "theory",
+    "threading",
+    "time",
+    "traceback",
+    "types",
+    "typing",
+    "unicodedata",
+    "unittest",
+    "update_paper_evidence",
+    "urllib",
+    "visualization",
+    "warnings",
+    "xarray",
+    "xml",
+    "zipfile",
+    "zlib",
+    "zoneinfo"
+  ],
+  "python_parse_failures": []
+}

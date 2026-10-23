@@ -1,0 +1,500 @@
+[
+  {
+    "path": "04-paper/LaTeX源码/pacificvis2027-restructured",
+    "target": "../../99-archive/legacy-paper-assets/pacificvis2027-restructured",
+    "resolved": "/Users/lele/Desktop/MergeTreeMaps/99-archive/legacy-paper-assets/pacificvis2027-restructured",
+    "exists": true
+  },
+  {
+    "path": "04-paper/LaTeX源码/有图版",
+    "target": "pacificvis2027-content-draft",
+    "resolved": "/Users/lele/Desktop/MergeTreeMaps/04-paper/LaTeX源码/pacificvis2027-content-draft",
+    "exists": true
+  },
+  {
+    "path": "04-paper/LaTeX源码/无图版",
+    "target": "pacificvis2027-no-figures",
+    "resolved": "/Users/lele/Desktop/MergeTreeMaps/04-paper/LaTeX源码/pacificvis2027-no-figures",
+    "exists": true
+  },
+  {
+    "path": "04-paper/LaTeX源码/pacificvis2027",
+    "target": "../../99-archive/legacy-paper-assets/pacificvis2027",
+    "resolved": "/Users/lele/Desktop/MergeTreeMaps/99-archive/legacy-paper-assets/pacificvis2027",
+    "exists": true
+  },
+  {
+    "path": "paper_revision/.build/fig4_gray_20261021/node_modules",
+    "target": "/Users/lele/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules",
+    "resolved": "/Users/lele/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules",
+    "exists": true
+  },
+  {
+    "path": "paper_revision/.build/fig4_comments_20261021/node_modules",
+    "target": "/Users/lele/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules",
+    "resolved": "/Users/lele/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules",
+    "exists": true
+  },
+  {
+    "path": "01-RA-MTM/data/real",
+    "target": "../../00-data/real",
+    "resolved": "/Users/lele/Desktop/MergeTreeMaps/00-data/real",
+    "exists": true
+  },
+  {
+    "path": "99-archive/builds/.codex-build-cdmtm-v15/node_modules",
+    "target": "/Users/lele/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules",
+    "resolved": "/Users/lele/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules",
+    "exists": true
+  },
+  {
+    "path": "99-archive/builds/.codex-build-rgmtm-v22/node_modules",
+    "target": "/Users/lele/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules",
+    "resolved": "/Users/lele/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules",
+    "exists": true
+  },
+  {
+    "path": "99-archive/builds/.codex-build-rgmtm-v18/node_modules",
+    "target": "/Users/lele/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules",
+    "resolved": "/Users/lele/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules",
+    "exists": true
+  },
+  {
+    "path": "99-archive/builds/.codex-build-rgmtm-v20/node_modules",
+    "target": "/Users/lele/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules",
+    "resolved": "/Users/lele/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules",
+    "exists": true
+  },
+  {
+    "path": "99-archive/builds/.codex-build-rgmtm-v16/node_modules",
+    "target": "/Users/lele/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules",
+    "resolved": "/Users/lele/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules",
+    "exists": true
+  },
+  {
+    "path": "99-archive/builds/.codex-build-rgmtm-v17/node_modules",
+    "target": "/Users/lele/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules",
+    "resolved": "/Users/lele/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules",
+    "exists": true
+  },
+  {
+    "path": "99-archive/builds/.codex-build-rgmtm-v21/node_modules",
+    "target": "/Users/lele/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules",
+    "resolved": "/Users/lele/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules",
+    "exists": true
+  },
+  {
+    "path": "99-archive/builds/.codex-build-rgmtm-v19/node_modules",
+    "target": "/Users/lele/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules",
+    "resolved": "/Users/lele/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules",
+    "exists": true
+  },
+  {
+    "path": ".codex-build/fig8-ylorbr/node_modules",
+    "target": "/Users/lele/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules",
+    "resolved": "/Users/lele/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules",
+    "exists": true
+  },
+  {
+    "path": ".codex-build/fig4-baseline-change-20261022/node_modules",
+    "target": "/Users/lele/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules",
+    "resolved": "/Users/lele/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules",
+    "exists": true
+  },
+  {
+    "path": ".codex-build/fig8-refine/node_modules",
+    "target": "/Users/lele/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules",
+    "resolved": "/Users/lele/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules",
+    "exists": true
+  },
+  {
+    "path": ".codex-build/fig6-refine/node_modules",
+    "target": "/Users/lele/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules",
+    "resolved": "/Users/lele/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules",
+    "exists": true
+  },
+  {
+    "path": ".codex-build/fig2-header-fit/node_modules",
+    "target": "/Users/lele/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules",
+    "resolved": "/Users/lele/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules",
+    "exists": true
+  },
+  {
+    "path": ".codex-build/fig6-black-fig9-author-20261022/node_modules",
+    "target": "/Users/lele/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules",
+    "resolved": "/Users/lele/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules",
+    "exists": true
+  },
+  {
+    "path": ".codex-build/additional-datasets-20261022/node_modules",
+    "target": "/Users/lele/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules",
+    "resolved": "/Users/lele/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules",
+    "exists": true
+  },
+  {
+    "path": ".codex-build/fig4-compact/node_modules",
+    "target": "/Users/lele/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules",
+    "resolved": "/Users/lele/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules",
+    "exists": true
+  },
+  {
+    "path": ".codex-build/fig4-black-text-20261022/node_modules",
+    "target": "/Users/lele/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules",
+    "resolved": "/Users/lele/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules",
+    "exists": true
+  },
+  {
+    "path": ".codex-build/unified-style-20261021/node_modules",
+    "target": "/Users/lele/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules",
+    "resolved": "/Users/lele/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules",
+    "exists": true
+  },
+  {
+    "path": ".codex-build/fig6-field-render/node_modules",
+    "target": "/Users/lele/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules",
+    "resolved": "/Users/lele/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules",
+    "exists": true
+  },
+  {
+    "path": ".codex-build/fig6-restore-20261022/node_modules",
+    "target": "/Users/lele/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules",
+    "resolved": "/Users/lele/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules",
+    "exists": true
+  },
+  {
+    "path": ".codex-build/fig4-swap-connections-20261022/node_modules",
+    "target": "/Users/lele/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules",
+    "resolved": "/Users/lele/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules",
+    "exists": true
+  },
+  {
+    "path": ".codex-build/fig2-vertical-distances/node_modules",
+    "target": "/Users/lele/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules",
+    "resolved": "/Users/lele/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules",
+    "exists": true
+  },
+  {
+    "path": ".codex-build/fig9-frame-clean/node_modules",
+    "target": "/Users/lele/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules",
+    "resolved": "/Users/lele/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules",
+    "exists": true
+  },
+  {
+    "path": ".codex-build/dataset-names-20261022/node_modules",
+    "target": "/Users/lele/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules",
+    "resolved": "/Users/lele/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules",
+    "exists": true
+  },
+  {
+    "path": ".codex-build/figure-naming/node_modules",
+    "target": "/Users/lele/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules",
+    "resolved": "/Users/lele/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules",
+    "exists": true
+  },
+  {
+    "path": ".codex-build/3d-update-v2/node_modules",
+    "target": "/Users/lele/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules",
+    "resolved": "/Users/lele/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules",
+    "exists": true
+  },
+  {
+    "path": ".codex-build/3d-update-v3/node_modules",
+    "target": "/Users/lele/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules",
+    "resolved": "/Users/lele/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules",
+    "exists": true
+  },
+  {
+    "path": ".codex-build/fig2-compact/node_modules",
+    "target": "/Users/lele/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules",
+    "resolved": "/Users/lele/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules",
+    "exists": true
+  },
+  {
+    "path": ".codex-build/dimensional-results-20261022/node_modules",
+    "target": "/Users/lele/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules",
+    "resolved": "/Users/lele/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules",
+    "exists": true
+  },
+  {
+    "path": ".codex-build/3d-update-v4/node_modules",
+    "target": "/Users/lele/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules",
+    "resolved": "/Users/lele/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules",
+    "exists": true
+  },
+  {
+    "path": ".codex-build/comprehensive-review-20261022/figures_9_11/node_modules",
+    "target": "/Users/lele/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules",
+    "resolved": "/Users/lele/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules",
+    "exists": true
+  },
+  {
+    "path": ".codex-build/3d-update/node_modules",
+    "target": "/Users/lele/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules",
+    "resolved": "/Users/lele/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules",
+    "exists": true
+  },
+  {
+    "path": ".codex-build/main-results-layout-20261022/node_modules",
+    "target": "/Users/lele/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules",
+    "resolved": "/Users/lele/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules",
+    "exists": true
+  },
+  {
+    "path": "03-figures/RG-MTM/historical",
+    "target": "../../02-RG-MTM/results/legacy_publication",
+    "resolved": "/Users/lele/Desktop/MergeTreeMaps/02-RG-MTM/results/legacy_publication",
+    "exists": true
+  },
+  {
+    "path": "03-figures/RG-MTM/current",
+    "target": "../../02-RG-MTM/results/figures",
+    "resolved": "/Users/lele/Desktop/MergeTreeMaps/02-RG-MTM/results/figures",
+    "exists": true
+  },
+  {
+    "path": "03-figures/RG-MTM/diagnostics",
+    "target": "../../02-RG-MTM/results/visualizations",
+    "resolved": "/Users/lele/Desktop/MergeTreeMaps/02-RG-MTM/results/visualizations",
+    "exists": true
+  },
+  {
+    "path": "03-figures/RG-MTM/volume3d",
+    "target": "../../02-RG-MTM/results/volume3d",
+    "resolved": "/Users/lele/Desktop/MergeTreeMaps/02-RG-MTM/results/volume3d",
+    "exists": true
+  },
+  {
+    "path": "03-figures/RA-MTM/ring/longest_tracks.png",
+    "target": "../../../01-RA-MTM/results/ring/longest_tracks.png",
+    "resolved": "/Users/lele/Desktop/MergeTreeMaps/01-RA-MTM/results/ring/longest_tracks.png",
+    "exists": true
+  },
+  {
+    "path": "03-figures/RA-MTM/ring/comparison_maps.pdf",
+    "target": "../../../01-RA-MTM/results/ring/comparison_maps.pdf",
+    "resolved": "/Users/lele/Desktop/MergeTreeMaps/01-RA-MTM/results/ring/comparison_maps.pdf",
+    "exists": true
+  },
+  {
+    "path": "03-figures/RA-MTM/ring/comparison_maps.png",
+    "target": "../../../01-RA-MTM/results/ring/comparison_maps.png",
+    "resolved": "/Users/lele/Desktop/MergeTreeMaps/01-RA-MTM/results/ring/comparison_maps.png",
+    "exists": true
+  },
+  {
+    "path": "03-figures/RA-MTM/ring/longest_tracks.pdf",
+    "target": "../../../01-RA-MTM/results/ring/longest_tracks.pdf",
+    "resolved": "/Users/lele/Desktop/MergeTreeMaps/01-RA-MTM/results/ring/longest_tracks.pdf",
+    "exists": true
+  },
+  {
+    "path": "03-figures/RA-MTM/ring/comparison_maps.svg",
+    "target": "../../../01-RA-MTM/results/ring/comparison_maps.svg",
+    "resolved": "/Users/lele/Desktop/MergeTreeMaps/01-RA-MTM/results/ring/comparison_maps.svg",
+    "exists": true
+  },
+  {
+    "path": "03-figures/RA-MTM/ring/longest_tracks.svg",
+    "target": "../../../01-RA-MTM/results/ring/longest_tracks.svg",
+    "resolved": "/Users/lele/Desktop/MergeTreeMaps/01-RA-MTM/results/ring/longest_tracks.svg",
+    "exists": true
+  },
+  {
+    "path": "03-figures/RA-MTM/ring/input_fields.svg",
+    "target": "../../../01-RA-MTM/results/ring/input_fields.svg",
+    "resolved": "/Users/lele/Desktop/MergeTreeMaps/01-RA-MTM/results/ring/input_fields.svg",
+    "exists": true
+  },
+  {
+    "path": "03-figures/RA-MTM/ring/input_fields.png",
+    "target": "../../../01-RA-MTM/results/ring/input_fields.png",
+    "resolved": "/Users/lele/Desktop/MergeTreeMaps/01-RA-MTM/results/ring/input_fields.png",
+    "exists": true
+  },
+  {
+    "path": "03-figures/RA-MTM/ring/input_fields.pdf",
+    "target": "../../../01-RA-MTM/results/ring/input_fields.pdf",
+    "resolved": "/Users/lele/Desktop/MergeTreeMaps/01-RA-MTM/results/ring/input_fields.pdf",
+    "exists": true
+  },
+  {
+    "path": "03-figures/RA-MTM/era5/longest_tracks.png",
+    "target": "../../../01-RA-MTM/results/era5/longest_tracks.png",
+    "resolved": "/Users/lele/Desktop/MergeTreeMaps/01-RA-MTM/results/era5/longest_tracks.png",
+    "exists": true
+  },
+  {
+    "path": "03-figures/RA-MTM/era5/comparison_maps.pdf",
+    "target": "../../../01-RA-MTM/results/era5/comparison_maps.pdf",
+    "resolved": "/Users/lele/Desktop/MergeTreeMaps/01-RA-MTM/results/era5/comparison_maps.pdf",
+    "exists": true
+  },
+  {
+    "path": "03-figures/RA-MTM/era5/comparison_maps.png",
+    "target": "../../../01-RA-MTM/results/era5/comparison_maps.png",
+    "resolved": "/Users/lele/Desktop/MergeTreeMaps/01-RA-MTM/results/era5/comparison_maps.png",
+    "exists": true
+  },
+  {
+    "path": "03-figures/RA-MTM/era5/longest_tracks.pdf",
+    "target": "../../../01-RA-MTM/results/era5/longest_tracks.pdf",
+    "resolved": "/Users/lele/Desktop/MergeTreeMaps/01-RA-MTM/results/era5/longest_tracks.pdf",
+    "exists": true
+  },
+  {
+    "path": "03-figures/RA-MTM/era5/comparison_maps.svg",
+    "target": "../../../01-RA-MTM/results/era5/comparison_maps.svg",
+    "resolved": "/Users/lele/Desktop/MergeTreeMaps/01-RA-MTM/results/era5/comparison_maps.svg",
+    "exists": true
+  },
+  {
+    "path": "03-figures/RA-MTM/era5/longest_tracks.svg",
+    "target": "../../../01-RA-MTM/results/era5/longest_tracks.svg",
+    "resolved": "/Users/lele/Desktop/MergeTreeMaps/01-RA-MTM/results/era5/longest_tracks.svg",
+    "exists": true
+  },
+  {
+    "path": "03-figures/RA-MTM/era5/input_fields.svg",
+    "target": "../../../01-RA-MTM/results/era5/input_fields.svg",
+    "resolved": "/Users/lele/Desktop/MergeTreeMaps/01-RA-MTM/results/era5/input_fields.svg",
+    "exists": true
+  },
+  {
+    "path": "03-figures/RA-MTM/era5/input_fields.png",
+    "target": "../../../01-RA-MTM/results/era5/input_fields.png",
+    "resolved": "/Users/lele/Desktop/MergeTreeMaps/01-RA-MTM/results/era5/input_fields.png",
+    "exists": true
+  },
+  {
+    "path": "03-figures/RA-MTM/era5/input_fields.pdf",
+    "target": "../../../01-RA-MTM/results/era5/input_fields.pdf",
+    "resolved": "/Users/lele/Desktop/MergeTreeMaps/01-RA-MTM/results/era5/input_fields.pdf",
+    "exists": true
+  },
+  {
+    "path": "02-RG-MTM/paper",
+    "target": "../04-paper/LaTeX源码",
+    "resolved": "/Users/lele/Desktop/MergeTreeMaps/04-paper/LaTeX源码",
+    "exists": true
+  },
+  {
+    "path": "02-RG-MTM/references/Kopp和Weinkauf - 2022 - Temporal Merge Tree MapsA Topology-Based Static Visualization for Temporal Scalar Data.pdf",
+    "target": "../../04-paper/references/Kopp和Weinkauf - 2022 - Temporal Merge Tree MapsA Topology-Based Static Visualization for Temporal Scalar Data.pdf",
+    "resolved": "/Users/lele/Desktop/MergeTreeMaps/04-paper/references/Kopp和Weinkauf - 2022 - Temporal Merge Tree MapsA Topology-Based Static Visualization for Temporal Scalar Data.pdf",
+    "exists": true
+  },
+  {
+    "path": "02-RG-MTM/references/Spatiotemporal Merge Tree Maps A Topology and Geometry Aware Visualization for Temporal Scalar Data.pdf",
+    "target": "../../04-paper/references/Spatiotemporal Merge Tree Maps A Topology and Geometry Aware Visualization for Temporal Scalar Data.pdf",
+    "resolved": "/Users/lele/Desktop/MergeTreeMaps/04-paper/references/Spatiotemporal Merge Tree Maps A Topology and Geometry Aware Visualization for Temporal Scalar Data.pdf",
+    "exists": true
+  },
+  {
+    "path": "02-RG-MTM/references/pacificvis2025/pdfs/visnerf_2025.pdf",
+    "target": "../../../../04-paper/references/pacificvis2025/pdfs/visnerf_2025.pdf",
+    "resolved": "/Users/lele/Desktop/MergeTreeMaps/04-paper/references/pacificvis2025/pdfs/visnerf_2025.pdf",
+    "exists": true
+  },
+  {
+    "path": "02-RG-MTM/references/pacificvis2025/pdfs/more_than_beautiful_2025.pdf",
+    "target": "../../../../04-paper/references/pacificvis2025/pdfs/more_than_beautiful_2025.pdf",
+    "resolved": "/Users/lele/Desktop/MergeTreeMaps/04-paper/references/pacificvis2025/pdfs/more_than_beautiful_2025.pdf",
+    "exists": true
+  },
+  {
+    "path": "02-RG-MTM/references/pacificvis2025/pdfs/parkview_2025.pdf",
+    "target": "../../../../04-paper/references/pacificvis2025/pdfs/parkview_2025.pdf",
+    "resolved": "/Users/lele/Desktop/MergeTreeMaps/04-paper/references/pacificvis2025/pdfs/parkview_2025.pdf",
+    "exists": true
+  },
+  {
+    "path": "02-RG-MTM/data/real",
+    "target": "../../00-data/real",
+    "resolved": "/Users/lele/Desktop/MergeTreeMaps/00-data/real",
+    "exists": true
+  },
+  {
+    "path": "02-RG-MTM/data/public_scalar",
+    "target": "../../00-data/RG-MTM-public-scalar",
+    "resolved": "/Users/lele/Desktop/MergeTreeMaps/00-data/RG-MTM-public-scalar",
+    "exists": true
+  },
+  {
+    "path": "02-RG-MTM/tmp/volume3d/paper-style-en-check/metrics.json",
+    "target": "/Users/lele/Desktop/MergeTreeMaps/02-RG-MTM/results/volume3d/tangaroa-paper-p10-full201/metrics.json",
+    "resolved": "/Users/lele/Desktop/MergeTreeMaps/02-RG-MTM/results/volume3d/tangaroa-paper-p10-full201/metrics.json",
+    "exists": true
+  },
+  {
+    "path": "02-RG-MTM/tmp/volume3d/paper-style-en-check/parameters.json",
+    "target": "/Users/lele/Desktop/MergeTreeMaps/02-RG-MTM/results/volume3d/tangaroa-paper-p10-full201/parameters.json",
+    "resolved": "/Users/lele/Desktop/MergeTreeMaps/02-RG-MTM/results/volume3d/tangaroa-paper-p10-full201/parameters.json",
+    "exists": true
+  },
+  {
+    "path": "02-RG-MTM/tmp/volume3d/paper-style-en-check/features.json",
+    "target": "/Users/lele/Desktop/MergeTreeMaps/02-RG-MTM/results/volume3d/tangaroa-paper-p10-full201/features.json",
+    "resolved": "/Users/lele/Desktop/MergeTreeMaps/02-RG-MTM/results/volume3d/tangaroa-paper-p10-full201/features.json",
+    "exists": true
+  },
+  {
+    "path": "02-RG-MTM/tmp/volume3d/paper-style-en-check/display_maps.npz",
+    "target": "/Users/lele/Desktop/MergeTreeMaps/02-RG-MTM/results/volume3d/tangaroa-paper-p10-full201/display_maps.npz",
+    "resolved": "/Users/lele/Desktop/MergeTreeMaps/02-RG-MTM/results/volume3d/tangaroa-paper-p10-full201/display_maps.npz",
+    "exists": true
+  },
+  {
+    "path": "02-RG-MTM/tmp/volume3d/paper-style-en-check/certificates.json",
+    "target": "/Users/lele/Desktop/MergeTreeMaps/02-RG-MTM/results/volume3d/tangaroa-paper-p10-full201/certificates.json",
+    "resolved": "/Users/lele/Desktop/MergeTreeMaps/02-RG-MTM/results/volume3d/tangaroa-paper-p10-full201/certificates.json",
+    "exists": true
+  },
+  {
+    "path": "02-RG-MTM/tmp/volume3d/paper-style-en-check/reference.json",
+    "target": "/Users/lele/Desktop/MergeTreeMaps/02-RG-MTM/results/volume3d/tangaroa-paper-p10-full201/reference.json",
+    "resolved": "/Users/lele/Desktop/MergeTreeMaps/02-RG-MTM/results/volume3d/tangaroa-paper-p10-full201/reference.json",
+    "exists": true
+  },
+  {
+    "path": "02-RG-MTM/tmp/volume3d/paper-style-en-check/manifest.json",
+    "target": "/Users/lele/Desktop/MergeTreeMaps/02-RG-MTM/results/volume3d/tangaroa-paper-p10-full201/manifest.json",
+    "resolved": "/Users/lele/Desktop/MergeTreeMaps/02-RG-MTM/results/volume3d/tangaroa-paper-p10-full201/manifest.json",
+    "exists": true
+  },
+  {
+    "path": "02-RG-MTM/tmp/volume3d/paper-style-en-check/protocol.json",
+    "target": "/Users/lele/Desktop/MergeTreeMaps/02-RG-MTM/results/volume3d/tangaroa-paper-p10-full201/protocol.json",
+    "resolved": "/Users/lele/Desktop/MergeTreeMaps/02-RG-MTM/results/volume3d/tangaroa-paper-p10-full201/protocol.json",
+    "exists": true
+  },
+  {
+    "path": "02-RG-MTM/tmp/volume3d/paper-style-en-check/verification.json",
+    "target": "/Users/lele/Desktop/MergeTreeMaps/02-RG-MTM/results/volume3d/tangaroa-paper-p10-full201/verification.json",
+    "resolved": "/Users/lele/Desktop/MergeTreeMaps/02-RG-MTM/results/volume3d/tangaroa-paper-p10-full201/verification.json",
+    "exists": true
+  },
+  {
+    "path": "02-RG-MTM/tmp/volume3d/paper-style-en-check/frame_metrics.json",
+    "target": "/Users/lele/Desktop/MergeTreeMaps/02-RG-MTM/results/volume3d/tangaroa-paper-p10-full201/frame_metrics.json",
+    "resolved": "/Users/lele/Desktop/MergeTreeMaps/02-RG-MTM/results/volume3d/tangaroa-paper-p10-full201/frame_metrics.json",
+    "exists": true
+  },
+  {
+    "path": "02-RG-MTM/tmp/volume3d/paper-style-en-check/positions.json",
+    "target": "/Users/lele/Desktop/MergeTreeMaps/02-RG-MTM/results/volume3d/tangaroa-paper-p10-full201/positions.json",
+    "resolved": "/Users/lele/Desktop/MergeTreeMaps/02-RG-MTM/results/volume3d/tangaroa-paper-p10-full201/positions.json",
+    "exists": true
+  },
+  {
+    "path": "02-RG-MTM/tmp/volume3d/paper-style-en-check/tmtm_orders.json",
+    "target": "/Users/lele/Desktop/MergeTreeMaps/02-RG-MTM/results/volume3d/tangaroa-paper-p10-full201/tmtm_orders.json",
+    "resolved": "/Users/lele/Desktop/MergeTreeMaps/02-RG-MTM/results/volume3d/tangaroa-paper-p10-full201/tmtm_orders.json",
+    "exists": true
+  },
+  {
+    "path": "02-RG-MTM/tmp/volume3d/ttk-0.9.9/paraview/patch/patch.sh",
+    "target": "patch-paraview-5.5.0.sh",
+    "resolved": "/Users/lele/Desktop/MergeTreeMaps/02-RG-MTM/tmp/volume3d/ttk-0.9.9/paraview/patch/patch-paraview-5.5.0.sh",
+    "exists": true
+  }
+]

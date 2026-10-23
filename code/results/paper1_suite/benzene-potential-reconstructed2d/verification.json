@@ -1,0 +1,150 @@
+{
+  "passed": true,
+  "frames": 21,
+  "maps_checked": 105,
+  "records": [
+    {
+      "index": 0,
+      "source_samples": 3721,
+      "leaves": 5,
+      "maps_checked": 5
+    },
+    {
+      "index": 1,
+      "source_samples": 3721,
+      "leaves": 5,
+      "maps_checked": 5
+    },
+    {
+      "index": 2,
+      "source_samples": 3721,
+      "leaves": 5,
+      "maps_checked": 5
+    },
+    {
+      "index": 3,
+      "source_samples": 3721,
+      "leaves": 10,
+      "maps_checked": 5
+    },
+    {
+      "index": 4,
+      "source_samples": 3721,
+      "leaves": 10,
+      "maps_checked": 5
+    },
+    {
+      "index": 5,
+      "source_samples": 3721,
+      "leaves": 10,
+      "maps_checked": 5
+    },
+    {
+      "index": 6,
+      "source_samples": 3721,
+      "leaves": 10,
+      "maps_checked": 5
+    },
+    {
+      "index": 7,
+      "source_samples": 3721,
+      "leaves": 10,
+      "maps_checked": 5
+    },
+    {
+      "index": 8,
+      "source_samples": 3721,
+      "leaves": 10,
+      "maps_checked": 5
+    },
+    {
+      "index": 9,
+      "source_samples": 3721,
+      "leaves": 10,
+      "maps_checked": 5
+    },
+    {
+      "index": 10,
+      "source_samples": 3721,
+      "leaves": 10,
+      "maps_checked": 5
+    },
+    {
+      "index": 11,
+      "source_samples": 3721,
+      "leaves": 10,
+      "maps_checked": 5
+    },
+    {
+      "index": 12,
+      "source_samples": 3721,
+      "leaves": 10,
+      "maps_checked": 5
+    },
+    {
+      "index": 13,
+      "source_samples": 3721,
+      "leaves": 10,
+      "maps_checked": 5
+    },
+    {
+      "index": 14,
+      "source_samples": 3721,
+      "leaves": 10,
+      "maps_checked": 5
+    },
+    {
+      "index": 15,
+      "source_samples": 3721,
+      "leaves": 10,
+      "maps_checked": 5
+    },
+    {
+      "index": 16,
+      "source_samples": 3721,
+      "leaves": 10,
+      "maps_checked": 5
+    },
+    {
+      "index": 17,
+      "source_samples": 3721,
+      "leaves": 10,
+      "maps_checked": 5
+    },
+    {
+      "index": 18,
+      "source_samples": 3721,
+      "leaves": 5,
+      "maps_checked": 5
+    },
+    {
+      "index": 19,
+      "source_samples": 3721,
+      "leaves": 5,
+      "maps_checked": 5
+    },
+    {
+      "index": 20,
+      "source_samples": 3721,
+      "leaves": 5,
+      "maps_checked": 5
+    }
+  ],
+  "scope": "all saved input scalar transforms, tree ownership and monotone arcs, direct parent-chain LCA, full-map barriers, TMTM sample multiplicities, RG hard constraints and independently recomputed summary metrics",
+  "limitation": "native TTK computes input topology; this audit does not independently reimplement native TTK persistence simplification",
+  "verifier_sha256": "824f97263f9a5bd6fdb9dacf127878c20a2b30ca13ae4c87acf73b1cc6f0ed98",
+  "reconstructed_potential_audit": {
+    "passed": true,
+    "model": "OPLS-AA 12-site partial-charge Coulomb reconstruction",
+    "independently_recomputed_samples": 78141,
+    "independent_arithmetic": "Python math.sqrt + math.fsum, all grid samples",
+    "float32_source_max_difference": 0.0,
+    "neutral_charge_e": 0.0,
+    "normalized_z_reflection_discrepancy": 0.00024084797457562295,
+    "density_values_used": false,
+    "coordinates_unit": "bohr",
+    "physical_time": false,
+    "original_author_dataset": false,
+    "audit_source_sha256": "c31259c4414e21189d07bedabcb2c5e952f1f7f8afba0269d89d97416f02b9e3"
+  }
+}

@@ -1,0 +1,7067 @@
+{
+  "protocol": {
+    "source_url": "https://gofile.me/6LCdM/B0QjKMfKX",
+    "source_archive_bytes": 14157973031,
+    "source_inventory_sha256": "0a441d49bca4c9b178bcd8987bae2ee063ff8ff8046a7e3b51bded352e197ac6",
+    "source_shape_xyz": [
+      300,
+      180,
+      120
+    ],
+    "source_frames": 201,
+    "requested_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      130,
+      131,
+      132,
+      133,
+      134,
+      135,
+      136,
+      137,
+      138,
+      139,
+      140,
+      141,
+      142,
+      143,
+      144,
+      145,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156,
+      157,
+      158,
+      159,
+      160,
+      161,
+      162,
+      163,
+      164,
+      165,
+      166,
+      167,
+      168,
+      169,
+      170,
+      171,
+      172,
+      173,
+      174,
+      175,
+      176,
+      177,
+      178,
+      179,
+      180,
+      181,
+      182,
+      183,
+      184,
+      185,
+      186,
+      187,
+      188,
+      189,
+      190,
+      191,
+      192,
+      193,
+      194,
+      195,
+      196,
+      197,
+      198,
+      199,
+      200
+    ],
+    "requested_times": [
+      0.0,
+      0.01,
+      0.02,
+      0.03,
+      0.04,
+      0.05,
+      0.06,
+      0.07,
+      0.08,
+      0.09,
+      0.1,
+      0.11,
+      0.12,
+      0.13,
+      0.14,
+      0.15,
+      0.16,
+      0.17,
+      0.18,
+      0.19,
+      0.2,
+      0.21,
+      0.22,
+      0.23,
+      0.24,
+      0.25,
+      0.26,
+      0.27,
+      0.28,
+      0.29,
+      0.3,
+      0.31,
+      0.32,
+      0.33,
+      0.34,
+      0.35000000000000003,
+      0.36,
+      0.37,
+      0.38,
+      0.39,
+      0.4,
+      0.41000000000000003,
+      0.42,
+      0.43,
+      0.44,
+      0.45,
+      0.46,
+      0.47000000000000003,
+      0.48,
+      0.49,
+      0.5,
+      0.51,
+      0.52,
+      0.53,
+      0.54,
+      0.55,
+      0.56,
+      0.5700000000000001,
+      0.58,
+      0.59,
+      0.6,
+      0.61,
+      0.62,
+      0.63,
+      0.64,
+      0.65,
+      0.66,
+      0.67,
+      0.68,
+      0.6900000000000001,
+      0.7000000000000001,
+      0.71,
+      0.72,
+      0.73,
+      0.74,
+      0.75,
+      0.76,
+      0.77,
+      0.78,
+      0.79,
+      0.8,
+      0.81,
+      0.8200000000000001,
+      0.8300000000000001,
+      0.84,
+      0.85,
+      0.86,
+      0.87,
+      0.88,
+      0.89,
+      0.9,
+      0.91,
+      0.92,
+      0.93,
+      0.9400000000000001,
+      0.9500000000000001,
+      0.96,
+      0.97,
+      0.98,
+      0.99,
+      1.0,
+      1.01,
+      1.02,
+      1.03,
+      1.04,
+      1.05,
+      1.06,
+      1.07,
+      1.08,
+      1.09,
+      1.1,
+      1.11,
+      1.12,
+      1.1300000000000001,
+      1.1400000000000001,
+      1.1500000000000001,
+      1.16,
+      1.17,
+      1.18,
+      1.19,
+      1.2,
+      1.21,
+      1.22,
+      1.23,
+      1.24,
+      1.25,
+      1.26,
+      1.27,
+      1.28,
+      1.29,
+      1.3,
+      1.31,
+      1.32,
+      1.33,
+      1.34,
+      1.35,
+      1.36,
+      1.37,
+      1.3800000000000001,
+      1.3900000000000001,
+      1.4000000000000001,
+      1.41,
+      1.42,
+      1.43,
+      1.44,
+      1.45,
+      1.46,
+      1.47,
+      1.48,
+      1.49,
+      1.5,
+      1.51,
+      1.52,
+      1.53,
+      1.54,
+      1.55,
+      1.56,
+      1.57,
+      1.58,
+      1.59,
+      1.6,
+      1.61,
+      1.62,
+      1.6300000000000001,
+      1.6400000000000001,
+      1.6500000000000001,
+      1.6600000000000001,
+      1.67,
+      1.68,
+      1.69,
+      1.7,
+      1.71,
+      1.72,
+      1.73,
+      1.74,
+      1.75,
+      1.76,
+      1.77,
+      1.78,
+      1.79,
+      1.8,
+      1.81,
+      1.82,
+      1.83,
+      1.84,
+      1.85,
+      1.86,
+      1.87,
+      1.8800000000000001,
+      1.8900000000000001,
+      1.9000000000000001,
+      1.9100000000000001,
+      1.92,
+      1.93,
+      1.94,
+      1.95,
+      1.96,
+      1.97,
+      1.98,
+      1.99,
+      2.0
+    ],
+    "scalar": "float32 sqrt(u*u+v*v+w*w), arithmetic in float64 before final cast",
+    "near_zero_epsilon": 1e-06,
+    "near_zero_replacement": 1.0,
+    "scalar_clip": [
+      0.0,
+      2.0
+    ],
+    "tree_kind": "join",
+    "spatial_resampling": false,
+    "spatial_smoothing": false,
+    "ttk_simplification_applied": false,
+    "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+  },
+  "records": [
+    {
+      "index": 0,
+      "time": 0.0,
+      "source_filename": "tangaroa-0.00.am",
+      "source_bytes": 77760272,
+      "source_crc32": 4160470825,
+      "source_sha256": "4058826172581e1c055a69c62e9fc84bc19cb4e0da4d6b8b3ad106586d31c580",
+      "scalar_sha256": "e9fc5236dfcc9c60d14eb8a6d03936ef2baa2e9a884d92e37543e86947795c4b",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        3.0590057373046875
+      ],
+      "processed_range": [
+        0.007938661612570286,
+        2.0
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 283,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 1,
+      "time": 0.01,
+      "source_filename": "tangaroa-0.01.am",
+      "source_bytes": 77760272,
+      "source_crc32": 2639796140,
+      "source_sha256": "3a8c49fc687ff0721c1c5f704ad7473b790bae6ce1e28244837f1b84dfb1dd07",
+      "scalar_sha256": "bc1af220e1732ca0f05b78fe6ca0df474fcc6f3ccfd065581c53e5dccd36fab8",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        2.6063616275787354
+      ],
+      "processed_range": [
+        0.0021584355272352695,
+        2.0
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 88,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 2,
+      "time": 0.02,
+      "source_filename": "tangaroa-0.02.am",
+      "source_bytes": 77760272,
+      "source_crc32": 3187405257,
+      "source_sha256": "720c24ae8f60f1f136538527a8d85713a23d6fc1fedb350fa9030471925d628b",
+      "scalar_sha256": "29b48c084f0003e2822ba439f7846772bd2fb43aa8f117d7ab88c684f21f4636",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        2.410628318786621
+      ],
+      "processed_range": [
+        0.0016724963206797838,
+        2.0
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 55,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 3,
+      "time": 0.03,
+      "source_filename": "tangaroa-0.03.am",
+      "source_bytes": 77760272,
+      "source_crc32": 797297241,
+      "source_sha256": "32c478a90a91d3a94fcd2b80ada9e4f4834529e1c7469e7f35e0b335d2099158",
+      "scalar_sha256": "b7f65da97c7ef92b29e733a670523f2b3691fcfaa6f0929699f5a08325b6c4df",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        2.188518524169922
+      ],
+      "processed_range": [
+        0.000929509405978024,
+        2.0
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 36,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 4,
+      "time": 0.04,
+      "source_filename": "tangaroa-0.04.am",
+      "source_bytes": 77760272,
+      "source_crc32": 2736286360,
+      "source_sha256": "4e5440f359d0d88b563341819adac97a22c67f15bfb72095d02c9e4052a1345c",
+      "scalar_sha256": "afa9849f5dd0372707a9a219b2ef196ee8afdcb27e24d3e9101a13f67f281b79",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        2.0266053676605225
+      ],
+      "processed_range": [
+        0.0005096986424177885,
+        2.0
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 2,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 5,
+      "time": 0.05,
+      "source_filename": "tangaroa-0.05.am",
+      "source_bytes": 77760272,
+      "source_crc32": 60830305,
+      "source_sha256": "a6a0594812ac6cbc5f9d84e8877d1091ed5acc48761262916b424d58d6d8f875",
+      "scalar_sha256": "74439f29cd37fb58a47db3890e91a87190264e2f68f12e9371342f1e2c55e97f",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.8968113660812378
+      ],
+      "processed_range": [
+        0.001926502911373973,
+        1.8968113660812378
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 6,
+      "time": 0.06,
+      "source_filename": "tangaroa-0.06.am",
+      "source_bytes": 77760272,
+      "source_crc32": 3508092566,
+      "source_sha256": "4f5da732fa04b1db131149b56e56d68c2d7134f680ffaf5482ec9d60d3332229",
+      "scalar_sha256": "7cc77b9ffc2e833bcc60390c053894081d0addbe9c4b2a1091a8f52e2851daf6",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.8871856927871704
+      ],
+      "processed_range": [
+        0.0018509251531213522,
+        1.8871856927871704
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 7,
+      "time": 0.07,
+      "source_filename": "tangaroa-0.07.am",
+      "source_bytes": 77760272,
+      "source_crc32": 4274080061,
+      "source_sha256": "6e46706839e10442a5351c0867b9b8931d2030a2a14fbe17c21b2c8aaea1be17",
+      "scalar_sha256": "3336d2769743bc227ec1c45e022e05c534462e4a83d36221cbd66697f5c83d82",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.872888207435608
+      ],
+      "processed_range": [
+        0.0018115334678441286,
+        1.872888207435608
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 8,
+      "time": 0.08,
+      "source_filename": "tangaroa-0.08.am",
+      "source_bytes": 77760272,
+      "source_crc32": 2234097173,
+      "source_sha256": "42ccf9f7072c4717096b990b87114db4784b7e45367730ade1d9214d5fe14dab",
+      "scalar_sha256": "04a36dc7faaf1a710b1d80fcdf16d6809d40712acea57af50725611d8c5a32fb",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.8668055534362793
+      ],
+      "processed_range": [
+        0.0017641028389334679,
+        1.8668055534362793
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 9,
+      "time": 0.09,
+      "source_filename": "tangaroa-0.09.am",
+      "source_bytes": 77760272,
+      "source_crc32": 1179832892,
+      "source_sha256": "cdcf9c310a6eaf9eb4d90a58589e7a3b15b5432eb5aa56fe20fcb6f82a75dbb5",
+      "scalar_sha256": "d025dc9aa16a73ddaec3736dae96dbb541445882595bda280c1973108c7e2b86",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.863368034362793
+      ],
+      "processed_range": [
+        0.0017152410000562668,
+        1.863368034362793
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 10,
+      "time": 0.1,
+      "source_filename": "tangaroa-0.10.am",
+      "source_bytes": 77760272,
+      "source_crc32": 3959958088,
+      "source_sha256": "fc69cb73c9f17fe3c0f4838c7c30b6ba058af56362c66e3164d858e7c9fc032a",
+      "scalar_sha256": "d4bee24854c8b628eed0ad55883931e5099e8772d5c9138369e768b2450f938e",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.8575074672698975
+      ],
+      "processed_range": [
+        0.0016948300180956721,
+        1.8575074672698975
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 11,
+      "time": 0.11,
+      "source_filename": "tangaroa-0.11.am",
+      "source_bytes": 77760272,
+      "source_crc32": 3831733215,
+      "source_sha256": "9349105aa13ea0a3dd48eec74a9d714397f850c12c930a6adb50ae05096c50cb",
+      "scalar_sha256": "95fda5d6e380ea384778cb8703b44fad7949490b96155fb4049af1ec9e2e0517",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.8485957384109497
+      ],
+      "processed_range": [
+        0.0011025340063497424,
+        1.8485957384109497
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 12,
+      "time": 0.12,
+      "source_filename": "tangaroa-0.12.am",
+      "source_bytes": 77760272,
+      "source_crc32": 2980439412,
+      "source_sha256": "33b846122ba61de287395388eac5fe29768cf81847c61aceb19dd176c5a27f02",
+      "scalar_sha256": "75a12babef1a03c29d2f0640e8829cce2642cf6217a2769f8f033db8bfeff6b5",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.8418065309524536
+      ],
+      "processed_range": [
+        0.0014716448495164514,
+        1.8418065309524536
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 13,
+      "time": 0.13,
+      "source_filename": "tangaroa-0.13.am",
+      "source_bytes": 77760272,
+      "source_crc32": 3891250611,
+      "source_sha256": "0f69f07902e39fa80315dc0bfa0fb26c032d4fa3e3be170e06db87ed5d442082",
+      "scalar_sha256": "9c6bc4971ab5888e91aba001646f3ca3cc1a6e1c32ac7ce3bc41d07676e5fdd1",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.8384437561035156
+      ],
+      "processed_range": [
+        0.0017100725090131164,
+        1.8384437561035156
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 14,
+      "time": 0.14,
+      "source_filename": "tangaroa-0.14.am",
+      "source_bytes": 77760272,
+      "source_crc32": 3147499956,
+      "source_sha256": "7e365cf0537724b339d468c2bcf00b1f2af97d3a2c89900eb5bbecb52f597338",
+      "scalar_sha256": "1a8665e5a5faf395c95e0333353e79fe3fc3a97fa9aca4742ca3a62dee0d65f7",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.8377286195755005
+      ],
+      "processed_range": [
+        0.0017304961802437901,
+        1.8377286195755005
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 15,
+      "time": 0.15,
+      "source_filename": "tangaroa-0.15.am",
+      "source_bytes": 77760272,
+      "source_crc32": 2448902917,
+      "source_sha256": "11711ae5d17720a36e3ea674c390e3ea9c8009a21a519725a38fc2ba43de1151",
+      "scalar_sha256": "92ac29e922507daa057ef6073819462e236d50bc8557661e597500208d2b1483",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.8374501466751099
+      ],
+      "processed_range": [
+        0.0017318434547632933,
+        1.8374501466751099
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 16,
+      "time": 0.16,
+      "source_filename": "tangaroa-0.16.am",
+      "source_bytes": 77760272,
+      "source_crc32": 417632128,
+      "source_sha256": "7d688a5ac018960b67a7267fe7c247a0f3d0aa988a7b2dca074253a83915376c",
+      "scalar_sha256": "ac5ab90f8ed306c5c504db0eaf6a7c9506736fa16a173578034659dfac57fc7a",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.8382182121276855
+      ],
+      "processed_range": [
+        0.0017297831363976002,
+        1.8382182121276855
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 17,
+      "time": 0.17,
+      "source_filename": "tangaroa-0.17.am",
+      "source_bytes": 77760272,
+      "source_crc32": 2128685806,
+      "source_sha256": "f9c5d14505d42a328ce7db81ed0d4159d03e1b39631e63f5b44f9db76bfaf689",
+      "scalar_sha256": "80cb5731584b133935056bacf9578286d11f720b9550ae2b54a2bc953b9043e0",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.8388422727584839
+      ],
+      "processed_range": [
+        0.0017101478297263384,
+        1.8388422727584839
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 18,
+      "time": 0.18,
+      "source_filename": "tangaroa-0.18.am",
+      "source_bytes": 77760272,
+      "source_crc32": 994555722,
+      "source_sha256": "3d63c69207873604262f8145444b9a0295aba0039454f3f356951e88ca7fe973",
+      "scalar_sha256": "a7ff3d8731b0cd44813b20bfe2aa6848c9c062c7d9219c9f9e7c78012251fce1",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.8386504650115967
+      ],
+      "processed_range": [
+        0.001681896043010056,
+        1.8386504650115967
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 19,
+      "time": 0.19,
+      "source_filename": "tangaroa-0.19.am",
+      "source_bytes": 77760272,
+      "source_crc32": 2520785125,
+      "source_sha256": "9bb7a64b175a64fac04a87bb00ce137c7b125a12a8d58ca2c71b5cb8596b48f9",
+      "scalar_sha256": "7e1ec7a9a02e870d24c536458495029a312397daec69a065aa273f89f1802892",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.8373394012451172
+      ],
+      "processed_range": [
+        0.0016468353569507599,
+        1.8373394012451172
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 20,
+      "time": 0.2,
+      "source_filename": "tangaroa-0.20.am",
+      "source_bytes": 77760272,
+      "source_crc32": 1868184129,
+      "source_sha256": "855e0d8aa205569ab1fee3e942e9c4e4ebd26e815a23846bd03d73201fe3c363",
+      "scalar_sha256": "1bb88832c165a5a577b495d872d8994fa78d3a9db4e84a367a4dab7dea0629ee",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.8346565961837769
+      ],
+      "processed_range": [
+        0.0015749904559925199,
+        1.8346565961837769
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 21,
+      "time": 0.21,
+      "source_filename": "tangaroa-0.21.am",
+      "source_bytes": 77760272,
+      "source_crc32": 3453704157,
+      "source_sha256": "20e758a3dd20af910746461d161f8cdf2dc4d47fbe724b5bbc266c5cc28a6938",
+      "scalar_sha256": "faf3e7d97841a76b77e462104f065346e5058a39af74b4479ba9213aaed65f99",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.8303477764129639
+      ],
+      "processed_range": [
+        0.001575678470544517,
+        1.8303477764129639
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 22,
+      "time": 0.22,
+      "source_filename": "tangaroa-0.22.am",
+      "source_bytes": 77760272,
+      "source_crc32": 3696339886,
+      "source_sha256": "c5f6910124a7c0c96a43d9f9301ad61d142d4c9f65de9551afab5da4859d7849",
+      "scalar_sha256": "f5388fa7ea06a70730bad3b79d18394fdd23dbaa2e4cc9f8e77b0ff9d01908f1",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.8263912200927734
+      ],
+      "processed_range": [
+        0.001571074826642871,
+        1.8263912200927734
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 23,
+      "time": 0.23,
+      "source_filename": "tangaroa-0.23.am",
+      "source_bytes": 77760272,
+      "source_crc32": 2840438714,
+      "source_sha256": "2b7f9933c465a14192ba19712c5834390609a894914ee8e528b6cd7e071c11b1",
+      "scalar_sha256": "68204c73562a6cba496f8703b37f0cb6cda7f8f60ac023d824a0673752b575f9",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.8210394382476807
+      ],
+      "processed_range": [
+        0.0015726023120805621,
+        1.8210394382476807
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 24,
+      "time": 0.24,
+      "source_filename": "tangaroa-0.24.am",
+      "source_bytes": 77760272,
+      "source_crc32": 3114389801,
+      "source_sha256": "5a8dcbc684c6e56df8abecc95d3f3ace3dd70aa0694e5ee93ffdb1a6f79938aa",
+      "scalar_sha256": "72ec21a6303188d63a4789bbd262384c8c3c0d6d220798b853657b368d5adb57",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.8129969835281372
+      ],
+      "processed_range": [
+        0.0011004225816577673,
+        1.8129969835281372
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 25,
+      "time": 0.25,
+      "source_filename": "tangaroa-0.25.am",
+      "source_bytes": 77760272,
+      "source_crc32": 281962366,
+      "source_sha256": "064c38bd4563795561d21336e9ca3c2578aa58f4dd4253a385085f557ba88655",
+      "scalar_sha256": "9b039aeb537344bb9c3c55fa8f85e04581939fe80493f292b0badd704170c05c",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.8026635646820068
+      ],
+      "processed_range": [
+        0.001567956991493702,
+        1.8026635646820068
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 26,
+      "time": 0.26,
+      "source_filename": "tangaroa-0.26.am",
+      "source_bytes": 77760272,
+      "source_crc32": 189563982,
+      "source_sha256": "1d9b0e7df02d5a7a72f99258d16f54bd17f84f9233c4fd50c4b929040b62c084",
+      "scalar_sha256": "bcf41645a05ca34aa92168eff5e46abe7f29bda97e01bf15777d28ee1e689073",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.7906514406204224
+      ],
+      "processed_range": [
+        0.0016258604591712356,
+        1.7906514406204224
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 27,
+      "time": 0.27,
+      "source_filename": "tangaroa-0.27.am",
+      "source_bytes": 77760272,
+      "source_crc32": 768658835,
+      "source_sha256": "4b3078e689440d8dd301ac2be7f21205b9d806612fc4597816b35633a0e0f716",
+      "scalar_sha256": "7e4e89803e3bdfa4879d521bad63d556eedd6d32f15721535abc4319916a6347",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.7792925834655762
+      ],
+      "processed_range": [
+        0.0016901312628760934,
+        1.7792925834655762
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 28,
+      "time": 0.28,
+      "source_filename": "tangaroa-0.28.am",
+      "source_bytes": 77760272,
+      "source_crc32": 1735778278,
+      "source_sha256": "1ababff3da93a96c703584bd5985d55a964d60e56a8f90e126dee12ac471f9e5",
+      "scalar_sha256": "762264cee6a038eea9daf63033f7e25d0ba426e1d14baf06350d3008e2f26cb4",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.7687513828277588
+      ],
+      "processed_range": [
+        0.0017425407422706485,
+        1.7687513828277588
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 29,
+      "time": 0.29,
+      "source_filename": "tangaroa-0.29.am",
+      "source_bytes": 77760272,
+      "source_crc32": 1588242928,
+      "source_sha256": "9aac707ba4d9a3f3dd1fee3ec365a49a29ae5ede968ebc4a31a3715bbb8f538e",
+      "scalar_sha256": "bd1341cf56257c5acf9d81ee03851f8565e25c8735754475662ab059636eba2a",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.7595467567443848
+      ],
+      "processed_range": [
+        0.001791801187209785,
+        1.7595467567443848
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 30,
+      "time": 0.3,
+      "source_filename": "tangaroa-0.30.am",
+      "source_bytes": 77760272,
+      "source_crc32": 30699626,
+      "source_sha256": "94de209ba2098aff94874542457acf4774254b28d95b0a573b34b1f9e7db9d82",
+      "scalar_sha256": "6849535aed365ddec2c1181afe97cc78ec73fe1a9f634d0e21aa9ac3427a6d9e",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.7511072158813477
+      ],
+      "processed_range": [
+        0.0018371522892266512,
+        1.7511072158813477
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 31,
+      "time": 0.31,
+      "source_filename": "tangaroa-0.31.am",
+      "source_bytes": 77760272,
+      "source_crc32": 2420264645,
+      "source_sha256": "67b5b33888939f3bfe58a0c9eb32bef7e4b9946c3594e2480b2ed143ede52d71",
+      "scalar_sha256": "7126c597005b85fca0fdaf548643e2eda652be11ed2d7a01966fd79994cbde3a",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.7429994344711304
+      ],
+      "processed_range": [
+        0.001842724159359932,
+        1.7429994344711304
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 32,
+      "time": 0.32,
+      "source_filename": "tangaroa-0.32.am",
+      "source_bytes": 77760272,
+      "source_crc32": 2357776497,
+      "source_sha256": "30c10b5016e5088f463530a07740047594b26477177b7a6da1f37d786b356e1c",
+      "scalar_sha256": "a461553627bc0bc2d36e86ff45436c8f0875778babe1d11fa811dba4fd3fa306",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.7382932901382446
+      ],
+      "processed_range": [
+        0.0011688238009810448,
+        1.7382932901382446
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 33,
+      "time": 0.33,
+      "source_filename": "tangaroa-0.33.am",
+      "source_bytes": 77760272,
+      "source_crc32": 862007788,
+      "source_sha256": "affeb9f140cdddfe66c217dda07e6d898b1cd0b3c264017c1baa2ae569c4933f",
+      "scalar_sha256": "1b4c96661368ebafb6ddf2867834019318c4addcc31a99a23109e917bef983be",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.7300376892089844
+      ],
+      "processed_range": [
+        0.0018185877706855536,
+        1.7300376892089844
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 34,
+      "time": 0.34,
+      "source_filename": "tangaroa-0.34.am",
+      "source_bytes": 77760272,
+      "source_crc32": 739363475,
+      "source_sha256": "0d7fd509186dc35c33ca4688bfe78dbee2cbb4050be8ec18d12270eb4a7c37b4",
+      "scalar_sha256": "8f89b94768dc4f750293e7f02b6d389852cc59f1cb2467835f551c4097c57df9",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.7232791185379028
+      ],
+      "processed_range": [
+        0.0018550640670582652,
+        1.7232791185379028
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 35,
+      "time": 0.35000000000000003,
+      "source_filename": "tangaroa-0.35.am",
+      "source_bytes": 77760272,
+      "source_crc32": 841416948,
+      "source_sha256": "3a8639c652d8a56cb9861ba3f46c51ff6e14d3bc79a4d86b8cdfd513ac064500",
+      "scalar_sha256": "469f97ad0ebd0521645d884a10bae2e012b5240fe1244aec6878e155f41d4221",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.7169612646102905
+      ],
+      "processed_range": [
+        0.0006850056815892458,
+        1.7169612646102905
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 36,
+      "time": 0.36,
+      "source_filename": "tangaroa-0.36.am",
+      "source_bytes": 77760272,
+      "source_crc32": 1256543803,
+      "source_sha256": "121d7d263eb11272f78458f1952824c41201a9b49ac09dfc4bb3aede6202e96b",
+      "scalar_sha256": "a99e2e1fa0b7c34ed0e3c34a143b3f48b32e87bab105049abe7cc60170f9645e",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.7103816270828247
+      ],
+      "processed_range": [
+        0.0019169674487784505,
+        1.7103816270828247
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 37,
+      "time": 0.37,
+      "source_filename": "tangaroa-0.37.am",
+      "source_bytes": 77760272,
+      "source_crc32": 4107187043,
+      "source_sha256": "c70ed9f714c231970158061a22e0082e45a791a48f4f54076df7c03f22bb51c5",
+      "scalar_sha256": "80022704abd64ca7a864570f03e4cb47b88c0d9f487a62e137235cb1cbe0fe72",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.704308032989502
+      ],
+      "processed_range": [
+        0.0019286662572994828,
+        1.704308032989502
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 38,
+      "time": 0.38,
+      "source_filename": "tangaroa-0.38.am",
+      "source_bytes": 77760272,
+      "source_crc32": 3024973853,
+      "source_sha256": "da74acc98a8a313f87e3b60bed46253a090da4bc5847019eba3981acf30effb3",
+      "scalar_sha256": "6830fde2835da67d9793f8c6fbb86af0b3b44d69ce80a34aaefbc3f3dab1ccd2",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.6973809003829956
+      ],
+      "processed_range": [
+        0.0011894593480974436,
+        1.6973809003829956
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 39,
+      "time": 0.39,
+      "source_filename": "tangaroa-0.39.am",
+      "source_bytes": 77760272,
+      "source_crc32": 1149045363,
+      "source_sha256": "c511a7716399679131ef62324f4c0f4c06cb77834b34d433b9e3a449be652a14",
+      "scalar_sha256": "d3359c06307ca691737833e0e136720b47c465e283cec6dbe467b0210bd21912",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.6886882781982422
+      ],
+      "processed_range": [
+        0.0019096789183095098,
+        1.6886882781982422
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 40,
+      "time": 0.4,
+      "source_filename": "tangaroa-0.40.am",
+      "source_bytes": 77760272,
+      "source_crc32": 2023029866,
+      "source_sha256": "0b8b941c9ef7fefaa05a9f1f1f2078f5105b8bd2e854b3e0a88a52a8f9f8d875",
+      "scalar_sha256": "16a23e6350b9565219c6fd7e223033625324b08d9e77eea8fb297cb70808edc5",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.6793843507766724
+      ],
+      "processed_range": [
+        0.0019390061497688293,
+        1.6793843507766724
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 41,
+      "time": 0.41000000000000003,
+      "source_filename": "tangaroa-0.41.am",
+      "source_bytes": 77760272,
+      "source_crc32": 3394945951,
+      "source_sha256": "cca88d00daa0449d0211a8d5ed8625b7db4bdc45b8a5cd0023e52b43d6bbecfa",
+      "scalar_sha256": "f2c56217874b31ca4123be07c9f8b434cc7c23b5fb95e73fa45653e2c0aa6ddf",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.671462893486023
+      ],
+      "processed_range": [
+        0.0011353029403835535,
+        1.671462893486023
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 42,
+      "time": 0.42,
+      "source_filename": "tangaroa-0.42.am",
+      "source_bytes": 77760272,
+      "source_crc32": 569452850,
+      "source_sha256": "0e3ebf3228d105f0ffa5984624439969d25f98c5684c2358e52d17b62307ce1b",
+      "scalar_sha256": "f5abbab35c94ee2284b7d05c49da78c4ad92434e9645a4b643cd2b833e0ad1ce",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.6643255949020386
+      ],
+      "processed_range": [
+        0.000801629910711199,
+        1.6643255949020386
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 43,
+      "time": 0.43,
+      "source_filename": "tangaroa-0.43.am",
+      "source_bytes": 77760272,
+      "source_crc32": 3702981093,
+      "source_sha256": "82fc4216ff20b4d31ae21bdbed88b686e14f522e57d3b619d8a735c1f46ce1fb",
+      "scalar_sha256": "5aa2d26c99a98c8d31e6bead61e1d83d1859b4c6976f7f53cd515655ff31444e",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.657910943031311
+      ],
+      "processed_range": [
+        0.0010606070281937718,
+        1.657910943031311
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 44,
+      "time": 0.44,
+      "source_filename": "tangaroa-0.44.am",
+      "source_bytes": 77760272,
+      "source_crc32": 1432481855,
+      "source_sha256": "6cf59ee5cb4daa71c46e295e2d49065b3a42478ebed8b5a56f2e7afeece8be93",
+      "scalar_sha256": "9c7caa03e32c1e09db348824ead923cc705422a2d24cb7619c54903c5cb3c3b5",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.6518793106079102
+      ],
+      "processed_range": [
+        0.0019559760112315416,
+        1.6518793106079102
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 45,
+      "time": 0.45,
+      "source_filename": "tangaroa-0.45.am",
+      "source_bytes": 77760272,
+      "source_crc32": 3032246595,
+      "source_sha256": "2221e558213fcbe863dafff6f3a7ef177b2788f68bd4b0a1cc057d918a4ceed8",
+      "scalar_sha256": "7f81562861d1799bf224972dc12cbcc6faa134628abfe0f892a08c558db1f62e",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.6455720663070679
+      ],
+      "processed_range": [
+        0.0012597047025337815,
+        1.6455720663070679
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 46,
+      "time": 0.46,
+      "source_filename": "tangaroa-0.46.am",
+      "source_bytes": 77760272,
+      "source_crc32": 3939771953,
+      "source_sha256": "eac1638e4d48de3da841ca9bcc1f947ada491f985bb62d0948d754dc9bb3cb5c",
+      "scalar_sha256": "75eba1656819b11e4fe9c059c2305eabbe732a847fbb079a5eed9e46367c5e2c",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.6385157108306885
+      ],
+      "processed_range": [
+        0.001666358788497746,
+        1.6385157108306885
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 47,
+      "time": 0.47000000000000003,
+      "source_filename": "tangaroa-0.47.am",
+      "source_bytes": 77760272,
+      "source_crc32": 26207335,
+      "source_sha256": "989d01b826899bd9ade0f0e2990e8ad2852ec2c470071c5a2312962609bda6cc",
+      "scalar_sha256": "ce16f25b58ee32b6ce98a30424cf485fa984a682d99753e96ffba4545dde1b07",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.629103183746338
+      ],
+      "processed_range": [
+        0.0019387558568269014,
+        1.629103183746338
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 48,
+      "time": 0.48,
+      "source_filename": "tangaroa-0.48.am",
+      "source_bytes": 77760272,
+      "source_crc32": 3301064642,
+      "source_sha256": "4d7a0297fa7c0c0ff7e721fda13c5f1a61317a343b5d0e5aefe7661a63092175",
+      "scalar_sha256": "fd5b1c99756295abc311c3f208e2ed10f2a84284336bce475289b08e32fb94c2",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.617713451385498
+      ],
+      "processed_range": [
+        0.0019212921615689993,
+        1.617713451385498
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 49,
+      "time": 0.49,
+      "source_filename": "tangaroa-0.49.am",
+      "source_bytes": 77760272,
+      "source_crc32": 3337999626,
+      "source_sha256": "2c0be54b7aa726bda55c450856975d854ad7046eb52a89b2c1f5e32e3975ee95",
+      "scalar_sha256": "9c7dc6970b370dc5485815fa9c7b7d6712f6fce95200111fe3236e0347f8c938",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.605971097946167
+      ],
+      "processed_range": [
+        0.0018998216837644577,
+        1.605971097946167
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 50,
+      "time": 0.5,
+      "source_filename": "tangaroa-0.50.am",
+      "source_bytes": 77760272,
+      "source_crc32": 937468226,
+      "source_sha256": "f5f0c13f166f415233c967ddc8826114bde68db683f2c90551ec356477300ce1",
+      "scalar_sha256": "124ead05a3e011769ab92a8263d3af726bce2b0a9a5dbe8e852167884a4fb559",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.587531566619873
+      ],
+      "processed_range": [
+        0.001875962712801993,
+        1.587531566619873
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 51,
+      "time": 0.51,
+      "source_filename": "tangaroa-0.51.am",
+      "source_bytes": 77760272,
+      "source_crc32": 3043562254,
+      "source_sha256": "9af337640fb62a47eefbab9f90588675d6f7b879a0973487c5241f5ce674a9ef",
+      "scalar_sha256": "05a584246c23b4326f8db526a84b519c42898a92b2e3104676444e795ecafe2c",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.5549864768981934
+      ],
+      "processed_range": [
+        0.0018540207529440522,
+        1.5549864768981934
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 52,
+      "time": 0.52,
+      "source_filename": "tangaroa-0.52.am",
+      "source_bytes": 77760272,
+      "source_crc32": 4245080798,
+      "source_sha256": "c2cb8529747a99f6018e8989404c9f07ed433dd4abed1b0434ba030449bfe9e3",
+      "scalar_sha256": "09354462d947c7fafba89ba15cf585b7c09c8194ff914dd3009505eb5a7bcc74",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.58482027053833
+      ],
+      "processed_range": [
+        0.001256176270544529,
+        1.58482027053833
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 53,
+      "time": 0.53,
+      "source_filename": "tangaroa-0.53.am",
+      "source_bytes": 77760272,
+      "source_crc32": 3264682733,
+      "source_sha256": "7d20c5dcb5f9ddb3b49feda2ae3951e990ebb598b9f23b00bd954195b4733f6f",
+      "scalar_sha256": "11da257340349db20096f079c8ed569e3ab0e13cc180e725de536c2b49ffc3cf",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.6013940572738647
+      ],
+      "processed_range": [
+        0.0006083179614506662,
+        1.6013940572738647
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 54,
+      "time": 0.54,
+      "source_filename": "tangaroa-0.54.am",
+      "source_bytes": 77760272,
+      "source_crc32": 4159079024,
+      "source_sha256": "6c948ab1f2e8cfd392a3456ba8302182a52acf6ff033199ce5fe90d8b71d52ba",
+      "scalar_sha256": "2ed4c6317f330a416f70c2cbaaeffc073aa400fd1b5c7e082b23857d3037cf7d",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.609673023223877
+      ],
+      "processed_range": [
+        0.0013591867173090577,
+        1.609673023223877
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 55,
+      "time": 0.55,
+      "source_filename": "tangaroa-0.55.am",
+      "source_bytes": 77760272,
+      "source_crc32": 2800456529,
+      "source_sha256": "c7c7dd70e190b5d986a2bd2ad665152658e8a31457d20cbbd521ed0cc6e8c4ea",
+      "scalar_sha256": "015aa402c32dc42bbbcb06a209210abe8f0e34978269db0ca921cb81e1e7d3e5",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.6053006649017334
+      ],
+      "processed_range": [
+        0.001551349414512515,
+        1.6053006649017334
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 56,
+      "time": 0.56,
+      "source_filename": "tangaroa-0.56.am",
+      "source_bytes": 77760272,
+      "source_crc32": 1528050727,
+      "source_sha256": "80d7a62f9115e9456ff89c5801317ee7008fe1bfc772c92441e27df07dc4b8fd",
+      "scalar_sha256": "494b97e535bedd302ef4c70eda85fedf8a8cf2aa60a8fd6c9070fd7c1bb471a3",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.5894330739974976
+      ],
+      "processed_range": [
+        0.0011819209903478622,
+        1.5894330739974976
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 57,
+      "time": 0.5700000000000001,
+      "source_filename": "tangaroa-0.57.am",
+      "source_bytes": 77760272,
+      "source_crc32": 4167088239,
+      "source_sha256": "9d2d9364eae09aa5a5342c4419b161d5b041f037b75c1d1bd687b06abbfeb485",
+      "scalar_sha256": "c70972acd2a08fde39b7e8641bb6f67ec0f6e5b26e8db1e2d040666a4a854751",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.5634812116622925
+      ],
+      "processed_range": [
+        0.0009851462673395872,
+        1.5634812116622925
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 58,
+      "time": 0.58,
+      "source_filename": "tangaroa-0.58.am",
+      "source_bytes": 77760272,
+      "source_crc32": 746339256,
+      "source_sha256": "b1205a59a195e3d5e8ae5eba458f4bf9083eee57f40f9b529d107655131c3493",
+      "scalar_sha256": "c1afc0239d2bcea080ddc028fd926380ae30a2f860795b7b6222240a5d142edf",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.563211441040039
+      ],
+      "processed_range": [
+        0.0009783520363271236,
+        1.563211441040039
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 59,
+      "time": 0.59,
+      "source_filename": "tangaroa-0.59.am",
+      "source_bytes": 77760272,
+      "source_crc32": 3838210681,
+      "source_sha256": "823eacf074ae245a9dcf606e724c4f80419b9957fb692db9bcffc15852b65dd0",
+      "scalar_sha256": "a8b3a06f0f134cbd5b9777cac40532fd0896ba36f0fa77ac1f57bc555c21f80e",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.5472444295883179
+      ],
+      "processed_range": [
+        0.001070905476808548,
+        1.5472444295883179
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 60,
+      "time": 0.6,
+      "source_filename": "tangaroa-0.60.am",
+      "source_bytes": 77760272,
+      "source_crc32": 1581985891,
+      "source_sha256": "e7b40e63c1db0688b1dd1675be6d74babbc98b749a6bcc42bb90e0bf22fe5c62",
+      "scalar_sha256": "2b33c38a01f4ef73352676992f79506f7cb058e6f8ac7512517f9bd08cd9567f",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.5308935642242432
+      ],
+      "processed_range": [
+        0.0011135367676615715,
+        1.5308935642242432
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 61,
+      "time": 0.61,
+      "source_filename": "tangaroa-0.61.am",
+      "source_bytes": 77760272,
+      "source_crc32": 3732031390,
+      "source_sha256": "594a173aa055c9a8941f1c35c33dcaecaecb72057cc4e666d323542b152eed4c",
+      "scalar_sha256": "1ae9e498a3cccad959760fb7fe769bc68d9c4ea98272bfcacdbdc51828933164",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.5182186365127563
+      ],
+      "processed_range": [
+        0.001063839066773653,
+        1.5182186365127563
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 62,
+      "time": 0.62,
+      "source_filename": "tangaroa-0.62.am",
+      "source_bytes": 77760272,
+      "source_crc32": 2429538050,
+      "source_sha256": "a0603158dfee68175676dcfb8deb8b6aa14dc88207725e13776aab43fd079882",
+      "scalar_sha256": "10db4b905ef2d9bdfe83fac1ce6cae06370c2fc35f8b02a109a11f76ea2fa8c5",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.5177403688430786
+      ],
+      "processed_range": [
+        0.0009677334455773234,
+        1.5177403688430786
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 63,
+      "time": 0.63,
+      "source_filename": "tangaroa-0.63.am",
+      "source_bytes": 77760272,
+      "source_crc32": 3545740829,
+      "source_sha256": "c07d60d5b55081f2006dc79fa5127d196d36539306cd723a5f79fadcbe3cb217",
+      "scalar_sha256": "501fe1cb5503f14f77af247730976eee826e0b5a2f12b81a094b70ef759334dd",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.5201061964035034
+      ],
+      "processed_range": [
+        0.000829068012535572,
+        1.5201061964035034
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 64,
+      "time": 0.64,
+      "source_filename": "tangaroa-0.64.am",
+      "source_bytes": 77760272,
+      "source_crc32": 154097081,
+      "source_sha256": "ec0439b6359fbc3f01ca3607e54327a9b664b80235eddcd02c11095581922f44",
+      "scalar_sha256": "4f551779212e866b368a31be0b9eb178b27310328a67043af9111f61a9ee6032",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.5237199068069458
+      ],
+      "processed_range": [
+        0.0008256362052634358,
+        1.5237199068069458
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 65,
+      "time": 0.65,
+      "source_filename": "tangaroa-0.65.am",
+      "source_bytes": 77760272,
+      "source_crc32": 380082870,
+      "source_sha256": "7b1e77c4c1366edf9ffb54b1d918877e3239dd056e05b346ed9aae4efa211a5f",
+      "scalar_sha256": "5201605006acbc706afc1efe2dddcce34ef1618913e9c91eb04ff9d7228478c7",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.524329423904419
+      ],
+      "processed_range": [
+        0.0011923420242965221,
+        1.524329423904419
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 66,
+      "time": 0.66,
+      "source_filename": "tangaroa-0.66.am",
+      "source_bytes": 77760272,
+      "source_crc32": 4014508833,
+      "source_sha256": "13548982d9bbd64af7f2b82819dedde83b4003009c5a205b3d3a32e5c9a7f7d4",
+      "scalar_sha256": "fbb77d056b2f35b059e1206a7510fe1dcb2fc75ee01a5782c2ba070cfbec650c",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.518668532371521
+      ],
+      "processed_range": [
+        0.0017541972920298576,
+        1.518668532371521
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 67,
+      "time": 0.67,
+      "source_filename": "tangaroa-0.67.am",
+      "source_bytes": 77760272,
+      "source_crc32": 2765211522,
+      "source_sha256": "6cd7505af7dae1fa6f4310c31834ce3adbb29818187b09862adc32362162b6c0",
+      "scalar_sha256": "99d426a99ad783549c823340721615f4f2ff7fb200a2bd6be09b287ea40b6da0",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.5139994621276855
+      ],
+      "processed_range": [
+        0.001750391791574657,
+        1.5139994621276855
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 68,
+      "time": 0.68,
+      "source_filename": "tangaroa-0.68.am",
+      "source_bytes": 77760272,
+      "source_crc32": 3803431212,
+      "source_sha256": "652dd718efc29e46972880733956d2a103b4b331358027db460d806599a92cc6",
+      "scalar_sha256": "4f677662ed8e0e0dff010da572a33fe9944cf75e51ce9ad3c128aa8149015ef4",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.5345665216445923
+      ],
+      "processed_range": [
+        0.0014337963657453656,
+        1.5345665216445923
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 69,
+      "time": 0.6900000000000001,
+      "source_filename": "tangaroa-0.69.am",
+      "source_bytes": 77760272,
+      "source_crc32": 2956887181,
+      "source_sha256": "8ed765086bfbaaf35d46a3f53367e57fc278a70ec30716d787ab28530b85bff6",
+      "scalar_sha256": "93a003ce3484a9bc236de072b6f5e61a3c9c59050281b2cf736aea39394c9cb0",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.558767318725586
+      ],
+      "processed_range": [
+        0.0017576043028384447,
+        1.558767318725586
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 70,
+      "time": 0.7000000000000001,
+      "source_filename": "tangaroa-0.70.am",
+      "source_bytes": 77760272,
+      "source_crc32": 3845547188,
+      "source_sha256": "6026a2531342cc26bf6dc82aa0bfaf61738791081fdada745da815a681c4a4b5",
+      "scalar_sha256": "1881591d22a453eba90bdcd899f78e35519e503ac8dc50070c1f9844decd00db",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.584794044494629
+      ],
+      "processed_range": [
+        0.0017658487195149064,
+        1.584794044494629
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 71,
+      "time": 0.71,
+      "source_filename": "tangaroa-0.71.am",
+      "source_bytes": 77760272,
+      "source_crc32": 1401340710,
+      "source_sha256": "95a6e082b355ab4cc833a38b15d3f694e275fd3b07fddbb882a87ae9519e1e0b",
+      "scalar_sha256": "9f39f1b2da2639181b87df17025ef694e199aad35f3fff38cb7684f4b20700a3",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.706817865371704
+      ],
+      "processed_range": [
+        0.0017735457513481379,
+        1.706817865371704
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 72,
+      "time": 0.72,
+      "source_filename": "tangaroa-0.72.am",
+      "source_bytes": 77760272,
+      "source_crc32": 1552078430,
+      "source_sha256": "ca7824fed25d480b5be4396d93409ca602b3c67e4f2530a3c4e0a9e25e8f4abe",
+      "scalar_sha256": "792cb16445e974cee8d8e9c491c7c2cd716284f55202a9b2f3077493e3becdf1",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.7861684560775757
+      ],
+      "processed_range": [
+        0.0017762602074071765,
+        1.7861684560775757
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 73,
+      "time": 0.73,
+      "source_filename": "tangaroa-0.73.am",
+      "source_bytes": 77760272,
+      "source_crc32": 2581948586,
+      "source_sha256": "b541f332a201cbca7122f63b200879ee83aba9d52f031a0e26f6501929cfd93b",
+      "scalar_sha256": "000b358f6984e4114b6729970490558eb3886a72e09fe6d7b6d703bc6526724b",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.78767728805542
+      ],
+      "processed_range": [
+        0.0017723033670336008,
+        1.78767728805542
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 74,
+      "time": 0.74,
+      "source_filename": "tangaroa-0.74.am",
+      "source_bytes": 77760272,
+      "source_crc32": 3032313738,
+      "source_sha256": "0179735fc5e7e378a09ec484b6690f737ee8dc4c333c98a51dcc98ad3559ea18",
+      "scalar_sha256": "40dc6882f1d32f66fa859cfb239cb56437e87d17aa685a318774bbbb18fe7e2f",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.8291796445846558
+      ],
+      "processed_range": [
+        0.0017534287180751562,
+        1.8291796445846558
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 75,
+      "time": 0.75,
+      "source_filename": "tangaroa-0.75.am",
+      "source_bytes": 77760272,
+      "source_crc32": 2026571823,
+      "source_sha256": "52e2c64fa4e75b6a4f76b48e156e7927d78f8388bb1d27e84ba9f24113a38cbd",
+      "scalar_sha256": "a8150b027849ad497d855cf004221d614c6e6cd5a16e922030fc5c5446e4b2a7",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.7921103239059448
+      ],
+      "processed_range": [
+        0.0007124696858227253,
+        1.7921103239059448
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 76,
+      "time": 0.76,
+      "source_filename": "tangaroa-0.76.am",
+      "source_bytes": 77760272,
+      "source_crc32": 4292313009,
+      "source_sha256": "d7b9d670bd3e1e4217f976bbc9499bc3bceb414b9e6587d8dd89bb63408fafc1",
+      "scalar_sha256": "f281c851316656e36c12cdd58891982951d0004362a4925c16535aeaaab2facc",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.7476876974105835
+      ],
+      "processed_range": [
+        0.0007627940503880382,
+        1.7476876974105835
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 77,
+      "time": 0.77,
+      "source_filename": "tangaroa-0.77.am",
+      "source_bytes": 77760272,
+      "source_crc32": 1395695219,
+      "source_sha256": "e7ba032ce6fcde54178ef98ed4b8859fced7ee7f5d4878486e5aef702e1c2076",
+      "scalar_sha256": "4f49e4a84cfe041d0ab4ee91be306cfef1b3d97e5c2ab71f66b057d1355b9f45",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.6810811758041382
+      ],
+      "processed_range": [
+        0.0015631492715328932,
+        1.6810811758041382
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 78,
+      "time": 0.78,
+      "source_filename": "tangaroa-0.78.am",
+      "source_bytes": 77760272,
+      "source_crc32": 2559761839,
+      "source_sha256": "c9d3ab6795ada1d75eeb25f040ddb8defe9597c451ab28d12102331aaf0174c8",
+      "scalar_sha256": "ceafd8fc709b264fe1377090fa199b378c95345c0ba10c71a3ca790b44d117df",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.6221392154693604
+      ],
+      "processed_range": [
+        0.0016822365578263998,
+        1.6221392154693604
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 79,
+      "time": 0.79,
+      "source_filename": "tangaroa-0.79.am",
+      "source_bytes": 77760272,
+      "source_crc32": 1604614765,
+      "source_sha256": "e553690480308f3ca05368d863dfb728d71b94fd143753864b8498df60eb80ae",
+      "scalar_sha256": "9a34865ba1dbc0d6c176a32611595ca3570085410c14b1b6b9d44a14be7cc879",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.580640196800232
+      ],
+      "processed_range": [
+        0.001670647761784494,
+        1.580640196800232
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 80,
+      "time": 0.8,
+      "source_filename": "tangaroa-0.80.am",
+      "source_bytes": 77760272,
+      "source_crc32": 107609381,
+      "source_sha256": "2825286817caee26974ae9f2f4e2e87cf4f27b91c17c070ec8c4bb4b36a0b1a4",
+      "scalar_sha256": "f8122bea1bf7bd6a2ee30c46b3070b79479bfd477ddbbfaef052d27eda10f932",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.5499166250228882
+      ],
+      "processed_range": [
+        0.0007887953543104231,
+        1.5499166250228882
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 81,
+      "time": 0.81,
+      "source_filename": "tangaroa-0.81.am",
+      "source_bytes": 77760272,
+      "source_crc32": 3078037589,
+      "source_sha256": "dbfdb921db524ea7e426885bd0e34308a61f79a3ce442ed02c9bacdae3713e66",
+      "scalar_sha256": "0590a4019a0745bbc010e00f52dd80dfed517a7f5c55523bf3cf282a1ff94c48",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.5403943061828613
+      ],
+      "processed_range": [
+        0.001351395039819181,
+        1.5403943061828613
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 82,
+      "time": 0.8200000000000001,
+      "source_filename": "tangaroa-0.82.am",
+      "source_bytes": 77760272,
+      "source_crc32": 1790143276,
+      "source_sha256": "a05c29feac4f3ac5985e6cc78dea4ee61bcff9b3468e712984400ae877af49de",
+      "scalar_sha256": "f825ec5c8b390b3ca0ef985999ce011e73552550a8c576313ae9dc0134c86393",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.537160873413086
+      ],
+      "processed_range": [
+        0.0002480012481100857,
+        1.537160873413086
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 83,
+      "time": 0.8300000000000001,
+      "source_filename": "tangaroa-0.83.am",
+      "source_bytes": 77760272,
+      "source_crc32": 2603080536,
+      "source_sha256": "7488a79ebfe14a3cb35d2e83a9773fa347ed23d91c9217e5cd0db0f2d9517ce7",
+      "scalar_sha256": "d8ebd14e12e7e3593e5641e6494e9e9541a935417b381a7cddc87ba048bd1724",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.5411306619644165
+      ],
+      "processed_range": [
+        0.0013768150238320231,
+        1.5411306619644165
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 84,
+      "time": 0.84,
+      "source_filename": "tangaroa-0.84.am",
+      "source_bytes": 77760272,
+      "source_crc32": 1879107149,
+      "source_sha256": "fd199d62bdee187175821151a7053732c38afd7d3740e775dc9db8def6681e6e",
+      "scalar_sha256": "081be95ed36da6e5bbc9d817dec19f29355a5e6349b2050b67f5783c5ef837d0",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.548461675643921
+      ],
+      "processed_range": [
+        0.0016809602966532111,
+        1.548461675643921
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 85,
+      "time": 0.85,
+      "source_filename": "tangaroa-0.85.am",
+      "source_bytes": 77760272,
+      "source_crc32": 3814860074,
+      "source_sha256": "2b91ab106ed43012b4ac307e0f6549c5d965a983bef7167a18a6bef6b53d9916",
+      "scalar_sha256": "a78016ad4c90214ea933d01a9f990bf4c307055e076638ba026c40166020499c",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.5550751686096191
+      ],
+      "processed_range": [
+        0.0016941378125920892,
+        1.5550751686096191
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 86,
+      "time": 0.86,
+      "source_filename": "tangaroa-0.86.am",
+      "source_bytes": 77760272,
+      "source_crc32": 964307160,
+      "source_sha256": "be9700054d1b29060720c951df88ed1dbddb31169d9bb4595b5f54bb324a1951",
+      "scalar_sha256": "231989d1281160ec3b2fbbae68c405e3a33b93fb415640cf5706d0d3d9bfc737",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.5608432292938232
+      ],
+      "processed_range": [
+        0.001707424409687519,
+        1.5608432292938232
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 87,
+      "time": 0.87,
+      "source_filename": "tangaroa-0.87.am",
+      "source_bytes": 77760272,
+      "source_crc32": 518771176,
+      "source_sha256": "2e4d37eec976358112123788b1c61e30f3bd36c2887f69caebaa06e31bd429c2",
+      "scalar_sha256": "0772287d05393f28a623cb655e5cf0effdca2c2d01a40d890d31e04056d9be1d",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.5661216974258423
+      ],
+      "processed_range": [
+        0.001718914252705872,
+        1.5661216974258423
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 88,
+      "time": 0.88,
+      "source_filename": "tangaroa-0.88.am",
+      "source_bytes": 77760272,
+      "source_crc32": 3821184082,
+      "source_sha256": "517869a06e4124b614788e2368c54407ae578ac5ce72ff4984b803ebcdc39274",
+      "scalar_sha256": "36a37fffccfef22bfdb4e94966a820e1dad39ba4ed244eda56fdf9198ca3d839",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.570594310760498
+      ],
+      "processed_range": [
+        0.0017252847319468856,
+        1.570594310760498
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 89,
+      "time": 0.89,
+      "source_filename": "tangaroa-0.89.am",
+      "source_bytes": 77760272,
+      "source_crc32": 1515208527,
+      "source_sha256": "d16f1f7edf7cef61f4dc5d0d2f613f3daaa94a14c648855bac52668ea32c0914",
+      "scalar_sha256": "82eac3e0e61a450134bf6c1cd0becd07ee81e225d42e11039302fc7b985d7ec1",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.574475646018982
+      ],
+      "processed_range": [
+        0.0017235809937119484,
+        1.574475646018982
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 90,
+      "time": 0.9,
+      "source_filename": "tangaroa-0.90.am",
+      "source_bytes": 77760272,
+      "source_crc32": 478111877,
+      "source_sha256": "40d9ae7f76a9bcb205a2dec5968d9eef0dc1cbb0c21f0e5f393a753066787fc6",
+      "scalar_sha256": "5d02b65a237c11f87d4654b08dd3913eb1f8ba1513e0581076e4567e6c9be804",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.5778498649597168
+      ],
+      "processed_range": [
+        0.00044212077045813203,
+        1.5778498649597168
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 91,
+      "time": 0.91,
+      "source_filename": "tangaroa-0.91.am",
+      "source_bytes": 77760272,
+      "source_crc32": 2500287699,
+      "source_sha256": "01ac2fca4f4e8f18c2a9ab6ad7cdba8235e15a7662dd0a7c0a37ba59eadcaefe",
+      "scalar_sha256": "fc0f7189779a9bdc9a4cf0a0df0857da8ea47b84da18be5e8b03f9e53f99027e",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.5814067125320435
+      ],
+      "processed_range": [
+        0.0016967414412647486,
+        1.5814067125320435
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 92,
+      "time": 0.92,
+      "source_filename": "tangaroa-0.92.am",
+      "source_bytes": 77760272,
+      "source_crc32": 201538020,
+      "source_sha256": "303eab41fab2aaccbd00cea412da6ca6f8b3a304d4b5ddec480956abf10c5470",
+      "scalar_sha256": "d8695c4a7a44fcc991a939bb693048df39ad25c558776061009fa4eb9b1d0e7d",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.5842456817626953
+      ],
+      "processed_range": [
+        0.0016139973886311054,
+        1.5842456817626953
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 93,
+      "time": 0.93,
+      "source_filename": "tangaroa-0.93.am",
+      "source_bytes": 77760272,
+      "source_crc32": 145696264,
+      "source_sha256": "f14ad8aae06490523ad1b8c32d7e117df45e6586f762d833e68db597b30f86be",
+      "scalar_sha256": "7429e335ed0b57471403d1f0e893c5c99f7275cec61bf1658c472b892f5e8689",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.5859169960021973
+      ],
+      "processed_range": [
+        0.0013217047089710832,
+        1.5859169960021973
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 94,
+      "time": 0.9400000000000001,
+      "source_filename": "tangaroa-0.94.am",
+      "source_bytes": 77760272,
+      "source_crc32": 2917632955,
+      "source_sha256": "a66e10961cbb7e692f33ebe4a656b804e63bff737a0b11cccd07e1a67a18e1ac",
+      "scalar_sha256": "4271f3f67af40d483390ae5b881272402d6a57011ecc5ad23c42272063adad9f",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.5866700410842896
+      ],
+      "processed_range": [
+        0.001111422199755907,
+        1.5866700410842896
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 95,
+      "time": 0.9500000000000001,
+      "source_filename": "tangaroa-0.95.am",
+      "source_bytes": 77760272,
+      "source_crc32": 1783008300,
+      "source_sha256": "e27ce599a917cfaad06fdba02232f2e33c1e02ecd2db9da4353c9ffcd775c593",
+      "scalar_sha256": "0512a49940423a7b3642539e207429750f797fbd263a017a91d5959b5584fe12",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.5869768857955933
+      ],
+      "processed_range": [
+        0.001008974970318377,
+        1.5869768857955933
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 96,
+      "time": 0.96,
+      "source_filename": "tangaroa-0.96.am",
+      "source_bytes": 77760272,
+      "source_crc32": 2143038461,
+      "source_sha256": "ffd46ada15619598e43a5a455d31e1a121bf3c94be523e1a6dbc5adb3de504ed",
+      "scalar_sha256": "7fec978f7cdba978293df90d84f6f3110fc41d64d884cbaaf7b4ceaaed7089f8",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.586474061012268
+      ],
+      "processed_range": [
+        0.0009502911707386374,
+        1.586474061012268
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 97,
+      "time": 0.97,
+      "source_filename": "tangaroa-0.97.am",
+      "source_bytes": 77760272,
+      "source_crc32": 3610180140,
+      "source_sha256": "bf0dcab0a4abf9b0331e57725f3b9aff9789b38f74dad274427b00d9ed49d51e",
+      "scalar_sha256": "8dcd1e2d66afa4884319ac4fd6a7e9b7ea205dc7d0cda4d3e473665af78c724e",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.5977280139923096
+      ],
+      "processed_range": [
+        0.0009158289758488536,
+        1.5977280139923096
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 98,
+      "time": 0.98,
+      "source_filename": "tangaroa-0.98.am",
+      "source_bytes": 77760272,
+      "source_crc32": 1978922576,
+      "source_sha256": "b176497413edb23342ac0f41888ac16599b290a9545b79f7934fca5ed26baf5f",
+      "scalar_sha256": "09fdd6ca615c0ea6b107b2208bf1bf04c6c99c8eaf0685ced1ef1ad6bba551e4",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.6063084602355957
+      ],
+      "processed_range": [
+        0.00086213432950899,
+        1.6063084602355957
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 99,
+      "time": 0.99,
+      "source_filename": "tangaroa-0.99.am",
+      "source_bytes": 77760272,
+      "source_crc32": 925099859,
+      "source_sha256": "59a1b522c656fa8b6e7555a6b8497ce440009f0542dfa572933d48f34ab3653b",
+      "scalar_sha256": "3186912638fc4648e4d34d7bdcd1ed0f0d13ce7b6dd91764a3adb97bc5b1eb8a",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.5999058485031128
+      ],
+      "processed_range": [
+        0.0007998716318979859,
+        1.5999058485031128
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 100,
+      "time": 1.0,
+      "source_filename": "tangaroa-1.00.am",
+      "source_bytes": 77760272,
+      "source_crc32": 1384038721,
+      "source_sha256": "312012f6cdcae61141961787e522f619ae9f36fef8d173fab6337976d6b3117e",
+      "scalar_sha256": "5fd2aa233888b00482ad827f52582fc5ac11eeee7867bd8788bdeeba78a7de75",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.597286343574524
+      ],
+      "processed_range": [
+        0.0008098405669443309,
+        1.597286343574524
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 101,
+      "time": 1.01,
+      "source_filename": "tangaroa-1.01.am",
+      "source_bytes": 77760272,
+      "source_crc32": 4014301245,
+      "source_sha256": "ea5e804c6e55cbe99541e4d52ec759fe5dd1ca758c63d8a516a47a684b0a3839",
+      "scalar_sha256": "692be717a022cf782912fc7582dde5820a377d4afc83dfb5eb6982ea87c052cf",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.590602993965149
+      ],
+      "processed_range": [
+        0.0007945945835672319,
+        1.590602993965149
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 102,
+      "time": 1.02,
+      "source_filename": "tangaroa-1.02.am",
+      "source_bytes": 77760272,
+      "source_crc32": 3970266310,
+      "source_sha256": "a095622a614d01d1f205a89e4c81c369bfef616fa24605e81b2c7781b72de159",
+      "scalar_sha256": "ad6febe7d4d4842e1a963d8f2e9eb4eae391d357e4b54781b30f88bedc7bfa4e",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.5857092142105103
+      ],
+      "processed_range": [
+        0.000773342268075794,
+        1.5857092142105103
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 103,
+      "time": 1.03,
+      "source_filename": "tangaroa-1.03.am",
+      "source_bytes": 77760272,
+      "source_crc32": 1729708915,
+      "source_sha256": "8070786b869677f4acc437ff7c8ca67a6acc12a962d9a2fd384902877da119bf",
+      "scalar_sha256": "e166b53bbea63b6280e66feac6b386ea28b5c72e08f05e9a82f0402ccedbb723",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.5747348070144653
+      ],
+      "processed_range": [
+        0.0007666280143894255,
+        1.5747348070144653
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 104,
+      "time": 1.04,
+      "source_filename": "tangaroa-1.04.am",
+      "source_bytes": 77760272,
+      "source_crc32": 3540901242,
+      "source_sha256": "fc33d96c923b824e87c11cd132fd24c07d79dec85ff4804746847f09f94f0339",
+      "scalar_sha256": "28835e4343b10af1a72109a1367598666fe5eb160502303c0273bfd51aeaf12b",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.56703519821167
+      ],
+      "processed_range": [
+        0.0009679723880253732,
+        1.56703519821167
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 105,
+      "time": 1.05,
+      "source_filename": "tangaroa-1.05.am",
+      "source_bytes": 77760272,
+      "source_crc32": 1171873145,
+      "source_sha256": "daae9011e93473ef4ad022863f5ece1c3ec7ec50e606377d8d75965e20130ec4",
+      "scalar_sha256": "44c74f71c375200b164728c298494c7eacdc3193d185ae2704882cf3d08724bc",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.5556870698928833
+      ],
+      "processed_range": [
+        0.0015510518569499254,
+        1.5556870698928833
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 106,
+      "time": 1.06,
+      "source_filename": "tangaroa-1.06.am",
+      "source_bytes": 77760272,
+      "source_crc32": 1009584439,
+      "source_sha256": "25b59e7d23c6dc75e869086e79ec4fc92213b2640d616bf9a761a62a00810057",
+      "scalar_sha256": "7a2505f46d055907345fa175bb5bbabdc7be836c73e4b73279bc3238d6a5b176",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.5509822368621826
+      ],
+      "processed_range": [
+        0.0018017516704276204,
+        1.5509822368621826
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 107,
+      "time": 1.07,
+      "source_filename": "tangaroa-1.07.am",
+      "source_bytes": 77760272,
+      "source_crc32": 1604933726,
+      "source_sha256": "88a46b91020a3f86daf1761d55e4fa41998f83326c07c495d41677ac42f1c987",
+      "scalar_sha256": "ceefc85e1c8742cc7a18e15e6d02c198c74188bfda2e71d54cf7f751bc166057",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.5469800233840942
+      ],
+      "processed_range": [
+        0.0018193194409832358,
+        1.5469800233840942
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 108,
+      "time": 1.08,
+      "source_filename": "tangaroa-1.08.am",
+      "source_bytes": 77760272,
+      "source_crc32": 1406831050,
+      "source_sha256": "f96d67ea1f29968baa0ada4642fb48973d92265761b1fb15bda45c98711a93d1",
+      "scalar_sha256": "35f6ec0ec9f02e449389c39ef98059fb4bd27c5a2c1e244643f2e7d546fd1835",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.5434281826019287
+      ],
+      "processed_range": [
+        0.0018324624979868531,
+        1.5434281826019287
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 109,
+      "time": 1.09,
+      "source_filename": "tangaroa-1.09.am",
+      "source_bytes": 77760272,
+      "source_crc32": 2135961537,
+      "source_sha256": "0e3e4fd796868526d909fb6d5f0570a43eccc1881fa6303d776c9dc3f09a29a7",
+      "scalar_sha256": "02b78640740e7a2eab68b793fef6ba52162cc6de7c2554a6421b98dd0517c878",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.540717601776123
+      ],
+      "processed_range": [
+        0.001846364582888782,
+        1.540717601776123
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 110,
+      "time": 1.1,
+      "source_filename": "tangaroa-1.10.am",
+      "source_bytes": 77760272,
+      "source_crc32": 1185547155,
+      "source_sha256": "3fb6460e55a5cdcaf283dca0ede3de3886760f39e427d5fae5b2668326bf9db4",
+      "scalar_sha256": "3ed9fd84484ae218afcc0af285956f1866164c081e5358ba140492d1b8d3be85",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.5388126373291016
+      ],
+      "processed_range": [
+        0.001270261942408979,
+        1.5388126373291016
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 111,
+      "time": 1.11,
+      "source_filename": "tangaroa-1.11.am",
+      "source_bytes": 77760272,
+      "source_crc32": 1493543353,
+      "source_sha256": "fd96949aa4ab44b4d77442b413cd6519799de3ec4be7e2bcf3da492e95cc82b7",
+      "scalar_sha256": "40dc28ab7725b9628c90bd144f5041558448666a228fff11a714fd0f9660d46c",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.5379149913787842
+      ],
+      "processed_range": [
+        0.0018641350325196981,
+        1.5379149913787842
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 112,
+      "time": 1.12,
+      "source_filename": "tangaroa-1.12.am",
+      "source_bytes": 77760272,
+      "source_crc32": 4242229530,
+      "source_sha256": "b2f53646fe0b33dcfff762408b83a1b87ec66458cb06738fb725eb322fc23ae5",
+      "scalar_sha256": "1b814c432042ccdc6095d7dab58719354a7b8e36eb8a641be0b0ced1e02d1dbb",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.537595272064209
+      ],
+      "processed_range": [
+        0.001862420467659831,
+        1.537595272064209
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 113,
+      "time": 1.1300000000000001,
+      "source_filename": "tangaroa-1.13.am",
+      "source_bytes": 77760272,
+      "source_crc32": 1160477504,
+      "source_sha256": "579fcd27e4b35be78df70f49c1d0cb726cc35e66c6132fa0bad9d5a41fac1aec",
+      "scalar_sha256": "492064bc33e4e10c7fa8e8398900937ab7c5b37e65497d10ef02da8fd70e77f5",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.5375348329544067
+      ],
+      "processed_range": [
+        0.0018591639818623662,
+        1.5375348329544067
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 114,
+      "time": 1.1400000000000001,
+      "source_filename": "tangaroa-1.14.am",
+      "source_bytes": 77760272,
+      "source_crc32": 3226604518,
+      "source_sha256": "3bfb92f8618267ca6856847a64aa34c2582169a92be4648cfa5e0a551ae27f0e",
+      "scalar_sha256": "5148e5bfb40cd63f9df88a84ac2a70a2ef1dcb74af56e40dfcf73a21cf21aff6",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.537622332572937
+      ],
+      "processed_range": [
+        0.0018491167575120926,
+        1.537622332572937
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 115,
+      "time": 1.1500000000000001,
+      "source_filename": "tangaroa-1.15.am",
+      "source_bytes": 77760272,
+      "source_crc32": 1823688623,
+      "source_sha256": "bc124f6a7be92b5ee30c6b199a2c3a6d1675f4d507deaa565962e346f03171ab",
+      "scalar_sha256": "40fc6632795ea063731988a3245846e42bb083f3f76e95f1933263900a567ebe",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.5380961894989014
+      ],
+      "processed_range": [
+        0.0009433780796825886,
+        1.5380961894989014
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 116,
+      "time": 1.16,
+      "source_filename": "tangaroa-1.16.am",
+      "source_bytes": 77760272,
+      "source_crc32": 1539563694,
+      "source_sha256": "f77bb060c54b02d73a3c9c07f89f92ca6da8c0920af75c34af2208750e54ec6e",
+      "scalar_sha256": "77d45399b6c177714825346eb265015af44649da29d28038a67cfcb03cf8a551",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.5387771129608154
+      ],
+      "processed_range": [
+        0.0018316898494958878,
+        1.5387771129608154
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 117,
+      "time": 1.17,
+      "source_filename": "tangaroa-1.17.am",
+      "source_bytes": 77760272,
+      "source_crc32": 1373184986,
+      "source_sha256": "2e04fe8c77d16d437716921c5dd01f2ba1a877598325d350114186e4b075534b",
+      "scalar_sha256": "557569bb76892685073c023c18ea35b5a0fc073ac082b7209dd34d8ea269061c",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.5472517013549805
+      ],
+      "processed_range": [
+        0.0018402584828436375,
+        1.5472517013549805
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 118,
+      "time": 1.18,
+      "source_filename": "tangaroa-1.18.am",
+      "source_bytes": 77760272,
+      "source_crc32": 3025252040,
+      "source_sha256": "147ad0b53fe3d1fd99944be8ee8291bebab32b79fdb41e5b1ea9dc6233018bbc",
+      "scalar_sha256": "05d042f6785bbca6909207323bade72b0c617061feb031f0c5926acfb246a9c5",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.5821748971939087
+      ],
+      "processed_range": [
+        0.0018518191063776612,
+        1.5821748971939087
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 119,
+      "time": 1.19,
+      "source_filename": "tangaroa-1.19.am",
+      "source_bytes": 77760272,
+      "source_crc32": 3325466940,
+      "source_sha256": "ae6b0bf7da53dfddd5f268a0a21c81f8b82e25535437d117e5b2d9ea6c2bffd5",
+      "scalar_sha256": "4fb1778ad4700758315d18aad1a0bfc179c4ee24aa774ad62a81218f99cd1dc0",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.5936192274093628
+      ],
+      "processed_range": [
+        0.0012843906879425049,
+        1.5936192274093628
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 120,
+      "time": 1.2,
+      "source_filename": "tangaroa-1.20.am",
+      "source_bytes": 77760272,
+      "source_crc32": 4199867386,
+      "source_sha256": "392054ec4220c31df16dcf8f76ad75abdad50a59a4b940c6ab44b3358459857f",
+      "scalar_sha256": "09482e639973d7ba8cc0aafffbd30c8bf7b1f486269701c45e2d319bffd8fa5e",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.5692428350448608
+      ],
+      "processed_range": [
+        0.0005389292491599917,
+        1.5692428350448608
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 121,
+      "time": 1.21,
+      "source_filename": "tangaroa-1.21.am",
+      "source_bytes": 77760272,
+      "source_crc32": 771185045,
+      "source_sha256": "57c1f44da2b8dcdb44df3b592090192956d9caf5564fc8e7c91c827169b89973",
+      "scalar_sha256": "de7232a11b3a7dcda6ffc156166dc4a0c7f370f115ca487520b81ea4788de699",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.5408973693847656
+      ],
+      "processed_range": [
+        0.0019016985315829515,
+        1.5408973693847656
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 122,
+      "time": 1.22,
+      "source_filename": "tangaroa-1.22.am",
+      "source_bytes": 77760272,
+      "source_crc32": 3180822220,
+      "source_sha256": "6aac099b60008cf195b68d7ccc6fb5629f80f2a9858a035661055a6ba8f3adf2",
+      "scalar_sha256": "513d4982fb33ae8657946b3e87013ea1ea31a1aba0fec8de26101fc1df385885",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.561090350151062
+      ],
+      "processed_range": [
+        0.001917217276059091,
+        1.561090350151062
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 123,
+      "time": 1.23,
+      "source_filename": "tangaroa-1.23.am",
+      "source_bytes": 77760272,
+      "source_crc32": 899393630,
+      "source_sha256": "951c61a4e76302f68f58dfabea601c8061782c88c9f855cf708714d17adb5c9d",
+      "scalar_sha256": "da675c1bc0c0433719ffd857d7afbeca9df7220d86ebaff6ff32c47a8077771d",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.6963108777999878
+      ],
+      "processed_range": [
+        0.0019295579986646771,
+        1.6963108777999878
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 124,
+      "time": 1.24,
+      "source_filename": "tangaroa-1.24.am",
+      "source_bytes": 77760272,
+      "source_crc32": 1352208133,
+      "source_sha256": "454247fdc8c3a9453253e5634ce321a0e8cdeb11685dc3e54528a72d27f321fb",
+      "scalar_sha256": "296fb17acb2e4c246c5ae50115868c41062cdf363dc13d6bfd6ebefddc5483d6",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.8060400485992432
+      ],
+      "processed_range": [
+        0.0012475932016968727,
+        1.8060400485992432
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 125,
+      "time": 1.25,
+      "source_filename": "tangaroa-1.25.am",
+      "source_bytes": 77760272,
+      "source_crc32": 3879178095,
+      "source_sha256": "7c23287ce037f22ef9ddfbb10522989810cd3252d385ca92a468355bcce42457",
+      "scalar_sha256": "9142d1538c586fbc6545d1d42f842668e88c40e151ffb19d23eee04efd13bf96",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.8234314918518066
+      ],
+      "processed_range": [
+        0.0019506590906530619,
+        1.8234314918518066
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 126,
+      "time": 1.26,
+      "source_filename": "tangaroa-1.26.am",
+      "source_bytes": 77760272,
+      "source_crc32": 2688165305,
+      "source_sha256": "64b95349d4b2ab2bf8efe97dc823b03a2befa05c1122e1be719be8062578da5c",
+      "scalar_sha256": "59ff558d3076a5bd676f688b5e4422c996e159513019dfe07d8203f983090ff6",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.7843624353408813
+      ],
+      "processed_range": [
+        0.00196049059741199,
+        1.7843624353408813
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 127,
+      "time": 1.27,
+      "source_filename": "tangaroa-1.27.am",
+      "source_bytes": 77760272,
+      "source_crc32": 2546841861,
+      "source_sha256": "6feed2a23e686f6e56b8d76e1b98f782f18eb58eca49f2e9e4a595eac7806c65",
+      "scalar_sha256": "1db7eaa2e0cb8797e96ec055cfdbfbb6515af5d68bb7eb820e8388e52edc358f",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.684562087059021
+      ],
+      "processed_range": [
+        0.001965461764484644,
+        1.684562087059021
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 128,
+      "time": 1.28,
+      "source_filename": "tangaroa-1.28.am",
+      "source_bytes": 77760272,
+      "source_crc32": 2954602211,
+      "source_sha256": "d18928ce51c256834475e6fbdef222fd0e9ff6ead23987a7ed1bac580059260c",
+      "scalar_sha256": "b3e2cc97dfa6dbab38ac116aaa5c0091a7111d501944ed99917a0316a2d461da",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.596649169921875
+      ],
+      "processed_range": [
+        0.0019722809083759785,
+        1.596649169921875
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 129,
+      "time": 1.29,
+      "source_filename": "tangaroa-1.29.am",
+      "source_bytes": 77760272,
+      "source_crc32": 80663804,
+      "source_sha256": "e0b380db3d20527c1964ac4a7d1de702e271973160ba1a9e1cdf04447d27ee9c",
+      "scalar_sha256": "d0965e498b88e62a49e43830d0881ac7916efec7647e82b0a01f8011836d6a0a",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.568297266960144
+      ],
+      "processed_range": [
+        0.001980119850486517,
+        1.568297266960144
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 130,
+      "time": 1.3,
+      "source_filename": "tangaroa-1.30.am",
+      "source_bytes": 77760272,
+      "source_crc32": 49563160,
+      "source_sha256": "559a1a198978b6f9950a992b8cab1903bbd41bbc0de313f6e4b981aae78e944c",
+      "scalar_sha256": "fcff252ab8c26a97a3f576b621f23b71b80d63f7b000d77ee2696fbe92f2d600",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.585292935371399
+      ],
+      "processed_range": [
+        0.0019877152517437935,
+        1.585292935371399
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 131,
+      "time": 1.31,
+      "source_filename": "tangaroa-1.31.am",
+      "source_bytes": 77760272,
+      "source_crc32": 1255558666,
+      "source_sha256": "b88fe74b3d9700e07a5024724150549f83a16abed4261ff1683e966c89d36079",
+      "scalar_sha256": "fcae0900c3212a5373c1fdc5a5b4b185bfa10aa6888bd78c603f790bb89c1e82",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.5950453281402588
+      ],
+      "processed_range": [
+        0.0011707866797223687,
+        1.5950453281402588
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 132,
+      "time": 1.32,
+      "source_filename": "tangaroa-1.32.am",
+      "source_bytes": 77760272,
+      "source_crc32": 3964020299,
+      "source_sha256": "39f9c5ff32c21f96d8f54cac18c6c616f22339a8a356a8c7bddf9a2fc9a4226f",
+      "scalar_sha256": "75f8024ceebcaa3d6ec509ad31c520e3684adaf0d6d72fb0ba5fc73134374203",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.5843862295150757
+      ],
+      "processed_range": [
+        0.0012465286999940872,
+        1.5843862295150757
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 133,
+      "time": 1.33,
+      "source_filename": "tangaroa-1.33.am",
+      "source_bytes": 77760272,
+      "source_crc32": 1963744871,
+      "source_sha256": "c432ee19df5c087ff9f39faf11814b0c0758a16497b5462cce7afdff60dd1323",
+      "scalar_sha256": "bc3814acc096cf45aa44e847e1c3d8a574e945c83b5a64a45547b1d094c3ad49",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.551684856414795
+      ],
+      "processed_range": [
+        0.0012132343836128712,
+        1.551684856414795
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 134,
+      "time": 1.34,
+      "source_filename": "tangaroa-1.34.am",
+      "source_bytes": 77760272,
+      "source_crc32": 3494728449,
+      "source_sha256": "e97c0a7a182e8b2aba9c550e5eca5eac5c2dfca75fed8c92625c076f99622521",
+      "scalar_sha256": "e7d8cb61d5bc17aa9bcd4c490a2ff3f24ed10eb842752a89acc25c7b93d868a5",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.5438580513000488
+      ],
+      "processed_range": [
+        0.0019432541448622942,
+        1.5438580513000488
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 135,
+      "time": 1.35,
+      "source_filename": "tangaroa-1.35.am",
+      "source_bytes": 77760272,
+      "source_crc32": 1633854492,
+      "source_sha256": "83164b066abad7106f7937f471c3519403f6f4f4f11f8cb9d042955ef762f63a",
+      "scalar_sha256": "48001f010d49740ba8b30be5e153eab52aa90f5572259d15aa6cf2148b95a73b",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.5438919067382812
+      ],
+      "processed_range": [
+        0.0019808404613286257,
+        1.5438919067382812
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 136,
+      "time": 1.36,
+      "source_filename": "tangaroa-1.36.am",
+      "source_bytes": 77760272,
+      "source_crc32": 1477873070,
+      "source_sha256": "3078024199a5477321421e455171dde12f902105783aabcd1cad5a36147fb1e3",
+      "scalar_sha256": "76a79153ec7f7ea2adb5772af2e988b2c48ae2004882a58a0508e7ec6eea3072",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.5436538457870483
+      ],
+      "processed_range": [
+        0.0020237304270267487,
+        1.5436538457870483
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 137,
+      "time": 1.37,
+      "source_filename": "tangaroa-1.37.am",
+      "source_bytes": 77760272,
+      "source_crc32": 723378717,
+      "source_sha256": "2bdc28f0fe795dbcbd9aa3f4db3e27067de5154a8c83bf354bd44d6eb1ffce39",
+      "scalar_sha256": "4240aa9a75646f785719811cb22eae35ecbada7c2ee4a415e2149085d2425f5e",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.5432159900665283
+      ],
+      "processed_range": [
+        0.0011530258925631642,
+        1.5432159900665283
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 138,
+      "time": 1.3800000000000001,
+      "source_filename": "tangaroa-1.38.am",
+      "source_bytes": 77760272,
+      "source_crc32": 227471137,
+      "source_sha256": "1b78c7b8a8afc673c90804d04c6ec6f814d3cdc0150a8382d3d43881f102f863",
+      "scalar_sha256": "d4c51ed3d2df12aef3d5462f1c33168abd4fb64ede4c9bfd27689672f4862de8",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.5425106287002563
+      ],
+      "processed_range": [
+        0.0019380910089239478,
+        1.5425106287002563
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 139,
+      "time": 1.3900000000000001,
+      "source_filename": "tangaroa-1.39.am",
+      "source_bytes": 77760272,
+      "source_crc32": 1047725306,
+      "source_sha256": "184f4ad0406d56724c768bcb7b73f638adc3d24d795e2d417fbafa77480e8af2",
+      "scalar_sha256": "517d8b693458f2455e9c871d5e4d1cb34eb5efcf0fffebbb6e6d045292f7cad4",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.5416768789291382
+      ],
+      "processed_range": [
+        0.0008847879944369197,
+        1.5416768789291382
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 140,
+      "time": 1.4000000000000001,
+      "source_filename": "tangaroa-1.40.am",
+      "source_bytes": 77760272,
+      "source_crc32": 1732994764,
+      "source_sha256": "d1e1aa73405c01eebf02eab060d5277c4ec44d73a5816d7daa889d1da50faa87",
+      "scalar_sha256": "65fa65dab564da4b0e3f7af247bbfa2d676556d929b4d4041b01a4282efc1a2a",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.5408635139465332
+      ],
+      "processed_range": [
+        0.0005419803783297539,
+        1.5408635139465332
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 141,
+      "time": 1.41,
+      "source_filename": "tangaroa-1.41.am",
+      "source_bytes": 77760272,
+      "source_crc32": 1333745594,
+      "source_sha256": "151f20dbd702323bfbc13d18a4dab44e01fcaf19b8ba8176291a6a842634bfff",
+      "scalar_sha256": "65b6da3d73571372a8e68d568796fcd05bdfc9599ff14fddff96d7125969fe51",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.5403250455856323
+      ],
+      "processed_range": [
+        0.000779009482357651,
+        1.5403250455856323
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 142,
+      "time": 1.42,
+      "source_filename": "tangaroa-1.42.am",
+      "source_bytes": 77760272,
+      "source_crc32": 44863705,
+      "source_sha256": "c1b406790b828786cc9d515c6780ae522119f830ec36b77208bbf977d03e0f7d",
+      "scalar_sha256": "ca6009b8fd55d43bf4758d8df70587445ba748c3751980197dee4c7ccfa4cc98",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.539872169494629
+      ],
+      "processed_range": [
+        0.0019732038490474224,
+        1.539872169494629
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 143,
+      "time": 1.43,
+      "source_filename": "tangaroa-1.43.am",
+      "source_bytes": 77760272,
+      "source_crc32": 239212360,
+      "source_sha256": "124c7503d482fca6ac4145a14ffc3f05cc38ff7131c8e859d1cc7dc9b389841f",
+      "scalar_sha256": "3a9043e61e045a5ff49703f4b7135f1d11eece3038a44788c76ecc2ceaee1383",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.539726972579956
+      ],
+      "processed_range": [
+        0.0006164259393699467,
+        1.539726972579956
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 144,
+      "time": 1.44,
+      "source_filename": "tangaroa-1.44.am",
+      "source_bytes": 77760272,
+      "source_crc32": 729751713,
+      "source_sha256": "1066dfd68d0abcda70b4a0961ffc6bd8b07fb5d01261756bd99bbfcfe71de136",
+      "scalar_sha256": "0f170885101b1a17cac51e07fccecb43132ead1fb87a2b0767ca1883060cacd1",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.5397875308990479
+      ],
+      "processed_range": [
+        0.0019430432002991438,
+        1.5397875308990479
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 145,
+      "time": 1.45,
+      "source_filename": "tangaroa-1.45.am",
+      "source_bytes": 77760272,
+      "source_crc32": 4089326225,
+      "source_sha256": "eee791e07a8f01a6f3a4a6cde2705cbdc90981fa28ba88bbab545b2e7b7db640",
+      "scalar_sha256": "4f6f0b1a5f8432322a03bba0540ffdfd67188e3eb4fffd140ddbad5769b60512",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.5400434732437134
+      ],
+      "processed_range": [
+        0.0019331284565851092,
+        1.5400434732437134
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 146,
+      "time": 1.46,
+      "source_filename": "tangaroa-1.46.am",
+      "source_bytes": 77760272,
+      "source_crc32": 1613965691,
+      "source_sha256": "104707cdbb05f18d7a8f283fe2e95451e3848a668150f6605fb4e01f92fd7183",
+      "scalar_sha256": "b9fe18c69b86e588c0d118799532446853014726dcb430c69f9042a195756b8b",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.5402040481567383
+      ],
+      "processed_range": [
+        0.0008518953109160066,
+        1.5402040481567383
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 147,
+      "time": 1.47,
+      "source_filename": "tangaroa-1.47.am",
+      "source_bytes": 77760272,
+      "source_crc32": 727511003,
+      "source_sha256": "e6ad77e0cde69fc49592ccf7dff9c0b6616a0c6f98a61eb0e938c59a4b0b3242",
+      "scalar_sha256": "736e3fd0b6037a846942ddc28f87773bece3c69a57909a91929fdfcdfe8e998c",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.5402871370315552
+      ],
+      "processed_range": [
+        0.00042676422162912786,
+        1.5402871370315552
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 148,
+      "time": 1.48,
+      "source_filename": "tangaroa-1.48.am",
+      "source_bytes": 77760272,
+      "source_crc32": 3048498710,
+      "source_sha256": "cfff29c01f61b1973f66ecd2bc097e32c742b934315fd56af928abfd4f4936b3",
+      "scalar_sha256": "bf459c611e01d35f361254b16ca1284868b3f319e961c7c051d252b4f3f38ad3",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.5402809381484985
+      ],
+      "processed_range": [
+        0.001913948100991547,
+        1.5402809381484985
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 149,
+      "time": 1.49,
+      "source_filename": "tangaroa-1.49.am",
+      "source_bytes": 77760272,
+      "source_crc32": 1083781101,
+      "source_sha256": "8a93f2ab1d6fd91e13469685e8ded8645a05b92e0c33329958e2292a7f90875c",
+      "scalar_sha256": "f95890e36055101b343ee11805b1cdb707abcbff58d0a4c664fe2bd316a4cca7",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.5401402711868286
+      ],
+      "processed_range": [
+        0.0013619440142065287,
+        1.5401402711868286
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 150,
+      "time": 1.5,
+      "source_filename": "tangaroa-1.50.am",
+      "source_bytes": 77760272,
+      "source_crc32": 1091787268,
+      "source_sha256": "feca8dd59721a8e92df5b3a8f8d2b9db4db293847ec1855b484baa3d67ca0af6",
+      "scalar_sha256": "9082d2da7a714d60b4537942c868f143e04d1af4cb861e412a82d118f79694ff",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.5398247241973877
+      ],
+      "processed_range": [
+        0.001907849800772965,
+        1.5398247241973877
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 151,
+      "time": 1.51,
+      "source_filename": "tangaroa-1.51.am",
+      "source_bytes": 77760272,
+      "source_crc32": 196630784,
+      "source_sha256": "b81487d9189904591a05d018a6274d9fcd6269580b2ded79bc2ca0684e416417",
+      "scalar_sha256": "08668e5b9ff3756cbdf0c91277cbf2531c4c09009a2a470279dfbb02b2c0cab3",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.53941810131073
+      ],
+      "processed_range": [
+        0.001897710608318448,
+        1.53941810131073
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 152,
+      "time": 1.52,
+      "source_filename": "tangaroa-1.52.am",
+      "source_bytes": 77760272,
+      "source_crc32": 749208300,
+      "source_sha256": "7878a276944263fa774fe5bfc2ef58cc6f9762cc71d3a80025f9aded6bbb1d91",
+      "scalar_sha256": "5ed9d1d2356023a046b915203807a66f37b68919f2c3ef7427bc940c685a3ff9",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.5391258001327515
+      ],
+      "processed_range": [
+        0.0018816946540027857,
+        1.5391258001327515
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 153,
+      "time": 1.53,
+      "source_filename": "tangaroa-1.53.am",
+      "source_bytes": 77760272,
+      "source_crc32": 2720954206,
+      "source_sha256": "f4b5272fe0342a358a9d396d8252a7d17cbcbbed32016e8b9b4be781560b4826",
+      "scalar_sha256": "99b6979640c776aa538b0c99e1595da8742a9039b54f8d4e3643fc8e164b2d78",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.5388891696929932
+      ],
+      "processed_range": [
+        0.0018601949559524655,
+        1.5388891696929932
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 154,
+      "time": 1.54,
+      "source_filename": "tangaroa-1.54.am",
+      "source_bytes": 77760272,
+      "source_crc32": 3736921577,
+      "source_sha256": "05432090a9e5b0a5a2aff3c1c63fe4bb1851b5306de8a365c454719fbebce1ae",
+      "scalar_sha256": "9729e19377dc97bcff2462dc464a6a7195d15cf317cfcbc317acc37eb9f418f5",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.5384936332702637
+      ],
+      "processed_range": [
+        0.0018324315315112472,
+        1.5384936332702637
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 155,
+      "time": 1.55,
+      "source_filename": "tangaroa-1.55.am",
+      "source_bytes": 77760272,
+      "source_crc32": 233634883,
+      "source_sha256": "2ce9bf38aad7c878f0514628b91627cbbba21942bdf0ac6368f32e3e71cd4d6e",
+      "scalar_sha256": "7b4e36c2dd5fa21831a8f460e50269072b89e683dca7567c43c2cd8431e55e03",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.5378586053848267
+      ],
+      "processed_range": [
+        0.0018054958200082183,
+        1.5378586053848267
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 156,
+      "time": 1.56,
+      "source_filename": "tangaroa-1.56.am",
+      "source_bytes": 77760272,
+      "source_crc32": 2951176403,
+      "source_sha256": "df270cb456b2f589e86ef757adf5ef05751ead6f6ffde1fea6d395aa97c4a9c2",
+      "scalar_sha256": "69835605da5aa6cb157d784ba92078329a4195f9fd2096972aa43bdbb8f3e9a4",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.5371659994125366
+      ],
+      "processed_range": [
+        0.001776454271748662,
+        1.5371659994125366
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 157,
+      "time": 1.57,
+      "source_filename": "tangaroa-1.57.am",
+      "source_bytes": 77760272,
+      "source_crc32": 936369795,
+      "source_sha256": "af7305eb2bdb3d4342e8f0a1d10984a9c4e1b45731705183c93548389aa3a932",
+      "scalar_sha256": "687c92118e724261c909bb7d592305368747f6b77b5ca11ccee43fd14c031b03",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.535717487335205
+      ],
+      "processed_range": [
+        0.0010502149816602468,
+        1.535717487335205
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 158,
+      "time": 1.58,
+      "source_filename": "tangaroa-1.58.am",
+      "source_bytes": 77760272,
+      "source_crc32": 2539203653,
+      "source_sha256": "7673e9a0d2dc243ad4d54013497ccf0e16958de6e76a4a018ecd4495e831d922",
+      "scalar_sha256": "220fe4412135b8b08b7c8a356c0bfbf2eee8a2d38ada0bc68d7716c12791b3ec",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.5341075658798218
+      ],
+      "processed_range": [
+        0.0017316669691354036,
+        1.5341075658798218
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 159,
+      "time": 1.59,
+      "source_filename": "tangaroa-1.59.am",
+      "source_bytes": 77760272,
+      "source_crc32": 287198398,
+      "source_sha256": "60f37f0ae31a1c52eb70c02c6a631cb6143afb1980ee45a05345f00833c53a1f",
+      "scalar_sha256": "cf8522af0eeeadc304aa46f3723e23623e367b3207fa7408996e2369ccca4a64",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.5321924686431885
+      ],
+      "processed_range": [
+        0.001717624138109386,
+        1.5321924686431885
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 160,
+      "time": 1.6,
+      "source_filename": "tangaroa-1.60.am",
+      "source_bytes": 77760272,
+      "source_crc32": 3735408828,
+      "source_sha256": "bc32107f70ec7ada31947a661b4fc8da13cf5188bd6902d6b3fad09cc139f2cf",
+      "scalar_sha256": "24b9ec0fd0b4b60ce9a3653434004fe682ea39a850f23f7c77b9e6c95005d84b",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.53020179271698
+      ],
+      "processed_range": [
+        0.0009965607896447182,
+        1.53020179271698
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 161,
+      "time": 1.61,
+      "source_filename": "tangaroa-1.61.am",
+      "source_bytes": 77760272,
+      "source_crc32": 1936451829,
+      "source_sha256": "234c19e88ee35977d7f8f6222ff73657b2603993b12314b697c709c879d37dbc",
+      "scalar_sha256": "43e97e966e41e9efdc5aae4760d37a2f7fec7db2395258e8a0c781add6e6f39f",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.5281877517700195
+      ],
+      "processed_range": [
+        0.0011153260711580515,
+        1.5281877517700195
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 162,
+      "time": 1.62,
+      "source_filename": "tangaroa-1.62.am",
+      "source_bytes": 77760272,
+      "source_crc32": 1938005665,
+      "source_sha256": "cd3c840d6325e75f86a9e0c95ac6cc4c47d381641d2f3df6038998d9c29f07bb",
+      "scalar_sha256": "d07fd63ffd23fee9fbec9a6c46acddd629f3ee57e1ed3750167f75fc8216913e",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.5262584686279297
+      ],
+      "processed_range": [
+        0.0006385304150171578,
+        1.5262584686279297
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 163,
+      "time": 1.6300000000000001,
+      "source_filename": "tangaroa-1.63.am",
+      "source_bytes": 77760272,
+      "source_crc32": 3761567417,
+      "source_sha256": "ad8eb256026535ea789a8c94640e54abd900239c862e1872452c1beb869b216d",
+      "scalar_sha256": "520571c5c2b975024ff875d0571595cba37874a46b5b2ba9a1550e5be6e82e3e",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.5243806838989258
+      ],
+      "processed_range": [
+        0.0012069735676050186,
+        1.5243806838989258
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 164,
+      "time": 1.6400000000000001,
+      "source_filename": "tangaroa-1.64.am",
+      "source_bytes": 77760272,
+      "source_crc32": 3617568287,
+      "source_sha256": "55019208563e1c0223202e0cb92bb8ef7a41a07dbda787a7a72b77bf19279c10",
+      "scalar_sha256": "fed5ebcdad47bdfc4d057c9f126ab92f5d4c0908839f20b9bc9c3bdf350761e5",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.5224570035934448
+      ],
+      "processed_range": [
+        0.0015907349297776818,
+        1.5224570035934448
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 165,
+      "time": 1.6500000000000001,
+      "source_filename": "tangaroa-1.65.am",
+      "source_bytes": 77760272,
+      "source_crc32": 2138573372,
+      "source_sha256": "7046af39f4f829c45cdc7631fe5fc8c8550c66bd548b606965cf1684f2da9834",
+      "scalar_sha256": "585e32fc070ec39326b768d3674dc72f729845951876d2cc1255ab9cf7e872c3",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.5205817222595215
+      ],
+      "processed_range": [
+        0.0014259063173085451,
+        1.5205817222595215
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 166,
+      "time": 1.6600000000000001,
+      "source_filename": "tangaroa-1.66.am",
+      "source_bytes": 77760272,
+      "source_crc32": 1034165277,
+      "source_sha256": "c92bf1e094b5f66202dcceed0eb8f735191f54362c368bb69c4d87d8b98e2be4",
+      "scalar_sha256": "96dd229790c04bdc555eb7a18ed066a97275926fa33cf1e2e49a50a814a5f85e",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.518741488456726
+      ],
+      "processed_range": [
+        0.0012573826825246215,
+        1.518741488456726
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 167,
+      "time": 1.67,
+      "source_filename": "tangaroa-1.67.am",
+      "source_bytes": 77760272,
+      "source_crc32": 1018722497,
+      "source_sha256": "1db732288acd324fc65de21ebdd72ca42fd50c59680c04820f199fcf49143a3b",
+      "scalar_sha256": "80579ebc8e881997b2759acac434550d3bbf40bb142cd55ee26d2fa762f51950",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.5169847011566162
+      ],
+      "processed_range": [
+        0.0010752907255664468,
+        1.5169847011566162
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 168,
+      "time": 1.68,
+      "source_filename": "tangaroa-1.68.am",
+      "source_bytes": 77760272,
+      "source_crc32": 4167610879,
+      "source_sha256": "c4cbd91b012a7662b5b5656d3b50ad20f8792fd07530a0aafa86c1b9e1054fe6",
+      "scalar_sha256": "4f2bfe9aeeba34f389eeed2af3bb71388737aeeb4e8fb3078eb280e90e2194e0",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.5154247283935547
+      ],
+      "processed_range": [
+        0.0007379497401416302,
+        1.5154247283935547
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 169,
+      "time": 1.69,
+      "source_filename": "tangaroa-1.69.am",
+      "source_bytes": 77760272,
+      "source_crc32": 82529159,
+      "source_sha256": "06d197c92c800fcc927f07124a2714cde8a8df36305b3d21ea066f6ea30a4f43",
+      "scalar_sha256": "85bc20df299bfde5140e48aaf36296a47e72c7810669a394da499e746c7e5bd0",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.5140331983566284
+      ],
+      "processed_range": [
+        0.0011103234719485044,
+        1.5140331983566284
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 170,
+      "time": 1.7,
+      "source_filename": "tangaroa-1.70.am",
+      "source_bytes": 77760272,
+      "source_crc32": 3441431483,
+      "source_sha256": "193490f1e607f15300ba6a4ad94ba0aef9ac748a76b37fee8394b005843337b4",
+      "scalar_sha256": "166d16e243180f437dabe1b521b4aaead701c62955b7566db12ba0affc3a4d7e",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.5129326581954956
+      ],
+      "processed_range": [
+        0.001117793726734817,
+        1.5129326581954956
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 171,
+      "time": 1.71,
+      "source_filename": "tangaroa-1.71.am",
+      "source_bytes": 77760272,
+      "source_crc32": 4137353535,
+      "source_sha256": "99ee9c9d53593de641604819aac234908c3e89a784271ad6848c6a7983c4872b",
+      "scalar_sha256": "65b114a946e5e1c1084cfc937a2d35bfbd271843aa68156edcfc5d21455eefa5",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.512223720550537
+      ],
+      "processed_range": [
+        0.0012634140439331532,
+        1.512223720550537
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 172,
+      "time": 1.72,
+      "source_filename": "tangaroa-1.72.am",
+      "source_bytes": 77760272,
+      "source_crc32": 2117297258,
+      "source_sha256": "f83102d143a8d002999f9b4f450dbee69a95d4c5683bb0b9eb736e964df3c32c",
+      "scalar_sha256": "03c4d86f6492d05e6bfdc043bd2f8e4fd2743ff392dd687d338a2a0a3a51f414",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.511949062347412
+      ],
+      "processed_range": [
+        0.00046169772394932806,
+        1.511949062347412
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 173,
+      "time": 1.73,
+      "source_filename": "tangaroa-1.73.am",
+      "source_bytes": 77760272,
+      "source_crc32": 2786433246,
+      "source_sha256": "2b2f4ee9f6bb349c5a17473241d0d9217cf1632863ace7ec70e27656be46a0ec",
+      "scalar_sha256": "54058763010679cf67eb9cfdbe999872b2182f6106edd22bc08e9741dbbdd796",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.5122178792953491
+      ],
+      "processed_range": [
+        0.001028446014970541,
+        1.5122178792953491
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 174,
+      "time": 1.74,
+      "source_filename": "tangaroa-1.74.am",
+      "source_bytes": 77760272,
+      "source_crc32": 1216848019,
+      "source_sha256": "ebdfb34b568ffaa2adb4019a177edb259e5c35739d780b21de0e4ed963ba6d7b",
+      "scalar_sha256": "abecd6b274540fb2f9740b0999d6fc11dac0e258c5ed0bc08a0059be1cab3df7",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.5131198167800903
+      ],
+      "processed_range": [
+        0.0009855289245024323,
+        1.5131198167800903
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 175,
+      "time": 1.75,
+      "source_filename": "tangaroa-1.75.am",
+      "source_bytes": 77760272,
+      "source_crc32": 1476908251,
+      "source_sha256": "1b8d643089cb02281832be2b1650b07f35ca2670d38e93470b2c88aa829debb7",
+      "scalar_sha256": "d30df1e18e1815273d0ee801641c76c08c348810d503104216cec75364a84ec0",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.5143110752105713
+      ],
+      "processed_range": [
+        0.0009530165698379278,
+        1.5143110752105713
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 176,
+      "time": 1.76,
+      "source_filename": "tangaroa-1.76.am",
+      "source_bytes": 77760272,
+      "source_crc32": 325436281,
+      "source_sha256": "dfeb94162841f93a70090406c685c5ee7b78fabfd4ed535d0eab3b670b6734e1",
+      "scalar_sha256": "75dbf48d97971e11414950f870ec764936c4022f864fbcf16400fc935b083b63",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.5155401229858398
+      ],
+      "processed_range": [
+        0.0009217169717885554,
+        1.5155401229858398
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 177,
+      "time": 1.77,
+      "source_filename": "tangaroa-1.77.am",
+      "source_bytes": 77760272,
+      "source_crc32": 1394425288,
+      "source_sha256": "f218f4c1ecba8dce36fa333d7412278f5e8ad806f6eff71b9785dea1fd5be5ef",
+      "scalar_sha256": "aa9c7e13ac360bb4b1499f511c9d961a0ec79c154b1a02ff9af2708c30ef1c28",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.5380198955535889
+      ],
+      "processed_range": [
+        0.0008558398112654686,
+        1.5380198955535889
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 178,
+      "time": 1.78,
+      "source_filename": "tangaroa-1.78.am",
+      "source_bytes": 77760272,
+      "source_crc32": 747212043,
+      "source_sha256": "49d9f588ffbd2201d18f7989290b3e58fe74ec89c90d75fb05115f789a82e5ef",
+      "scalar_sha256": "474fe4afa26158ecaf40b9f4e681abb3731eed82a03466381371d135132e1570",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.5587390661239624
+      ],
+      "processed_range": [
+        0.0007588147418573499,
+        1.5587390661239624
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 179,
+      "time": 1.79,
+      "source_filename": "tangaroa-1.79.am",
+      "source_bytes": 77760272,
+      "source_crc32": 4007799522,
+      "source_sha256": "6b77f6eb7b9d4f760935cc84268cc55ace926ee54d43289643278f414c9d8ebf",
+      "scalar_sha256": "b2c7c3aaf19866aa0f7531cfcfe67245bec091ae05ebfedaa39559e7c7310852",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.58034348487854
+      ],
+      "processed_range": [
+        0.0007157954387366772,
+        1.58034348487854
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 180,
+      "time": 1.8,
+      "source_filename": "tangaroa-1.80.am",
+      "source_bytes": 77760272,
+      "source_crc32": 669756048,
+      "source_sha256": "3a508c7011220a29a68142ec4dea45452f0e5441af107c018f92f6b79214b0f9",
+      "scalar_sha256": "734137066fc40ab9f658df954b9eb03f2a7ac181f763c466916fbc94c86df392",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.583145260810852
+      ],
+      "processed_range": [
+        0.0008327435934916139,
+        1.583145260810852
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 181,
+      "time": 1.81,
+      "source_filename": "tangaroa-1.81.am",
+      "source_bytes": 77760272,
+      "source_crc32": 1364716394,
+      "source_sha256": "7e0078414de23034330a79f919b03c715ba1e2626178d57bade58a075562a6d1",
+      "scalar_sha256": "35a9bf5b01a842341dfc71cb9ed39cc351943a16341e3608e52413237553070c",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.5780997276306152
+      ],
+      "processed_range": [
+        0.0010670294286683202,
+        1.5780997276306152
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 182,
+      "time": 1.82,
+      "source_filename": "tangaroa-1.82.am",
+      "source_bytes": 77760272,
+      "source_crc32": 1249807838,
+      "source_sha256": "057cc0056f9ec87f975dc0edb087a8f42be28e193beccc74c5c82ce3f7fb9cba",
+      "scalar_sha256": "b23f7f9f9c687d5fb3f4b4a9be7c3213322be43e4049be7afa27b914111f947b",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.5635814666748047
+      ],
+      "processed_range": [
+        0.0003754346107598394,
+        1.5635814666748047
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 183,
+      "time": 1.83,
+      "source_filename": "tangaroa-1.83.am",
+      "source_bytes": 77760272,
+      "source_crc32": 1174972186,
+      "source_sha256": "f37a5bb37198889eb4649a1c8b408055a8517d6bc93c0a149e8c1b74a96a0032",
+      "scalar_sha256": "a674c29026a2aaed57800f5a406494ac27b5ead454b62148f67025de603a6c77",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.5563898086547852
+      ],
+      "processed_range": [
+        0.0005762091022916138,
+        1.5563898086547852
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 184,
+      "time": 1.84,
+      "source_filename": "tangaroa-1.84.am",
+      "source_bytes": 77760272,
+      "source_crc32": 443704242,
+      "source_sha256": "b7cae5b1a913ecc818719ecb2b434b9d192c8745d8a158d99eca3feaee8a2809",
+      "scalar_sha256": "751b3d50a4cd4c9322258b32edfa611028ae83eabfea29800de193e86e5d71e9",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.526036262512207
+      ],
+      "processed_range": [
+        0.0004971260786987841,
+        1.526036262512207
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 185,
+      "time": 1.85,
+      "source_filename": "tangaroa-1.85.am",
+      "source_bytes": 77760272,
+      "source_crc32": 3272502528,
+      "source_sha256": "c36ec1bcb2c74a716aa24f5ed070763adcbc004b7b9608663604a7e71c8d6725",
+      "scalar_sha256": "3142cedd66c0191b1addfb04f65b2131ca576662bbe9ac5e3600e50a3bad0eb6",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.5163555145263672
+      ],
+      "processed_range": [
+        0.0005783925880677998,
+        1.5163555145263672
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 186,
+      "time": 1.86,
+      "source_filename": "tangaroa-1.86.am",
+      "source_bytes": 77760272,
+      "source_crc32": 2190864007,
+      "source_sha256": "61ef95d8669d12865155b9b11048e03233b6591659c0b8e628c1bd5746236c72",
+      "scalar_sha256": "5e7bdddd995b35bf6760911fcc4a217b661b322021fcf50191f2b7ecea334445",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.5143084526062012
+      ],
+      "processed_range": [
+        0.00021895149257034063,
+        1.5143084526062012
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 187,
+      "time": 1.87,
+      "source_filename": "tangaroa-1.87.am",
+      "source_bytes": 77760272,
+      "source_crc32": 1019166224,
+      "source_sha256": "25adb1c8f4512fd889aedcef4aa53c12b867d51c77ca09b2c8e71789aa06be5b",
+      "scalar_sha256": "d3947d281ff731b6f67f4568ad33979a8bb694bbea83eefe1e5649ddd849f495",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.512204647064209
+      ],
+      "processed_range": [
+        0.0009879160206764936,
+        1.512204647064209
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 188,
+      "time": 1.8800000000000001,
+      "source_filename": "tangaroa-1.88.am",
+      "source_bytes": 77760272,
+      "source_crc32": 2126060,
+      "source_sha256": "39b19b4fb9a1cbd114c91587551d1ee47aa5e87326a4b26fa655b3220637c2eb",
+      "scalar_sha256": "2287b01833c4e795e07e76af4e52a921f62e01607f50704401915ce5cc71dd85",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.5102273225784302
+      ],
+      "processed_range": [
+        0.0012331025209277868,
+        1.5102273225784302
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 189,
+      "time": 1.8900000000000001,
+      "source_filename": "tangaroa-1.89.am",
+      "source_bytes": 77760272,
+      "source_crc32": 739917105,
+      "source_sha256": "b46f918aecfde596a7eac1a08c7ac2fb042982d8dda2d0ea282dac78372fa68e",
+      "scalar_sha256": "3cc62769f261d16887282915e949d82b573108cdff74f01bd759bb6ca39a9b98",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.5085952281951904
+      ],
+      "processed_range": [
+        0.0014914509374648333,
+        1.5085952281951904
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 190,
+      "time": 1.9000000000000001,
+      "source_filename": "tangaroa-1.90.am",
+      "source_bytes": 77760272,
+      "source_crc32": 615646548,
+      "source_sha256": "e123bfd01b898cfc925d6196fd9326f3ba3cb57b9ce39f739076bf9a11fef9e5",
+      "scalar_sha256": "7769de059023af7ddce91da3e55878aeb05d19f7142ed4f9c72bbaf63b489c7e",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.507143259048462
+      ],
+      "processed_range": [
+        0.0008875694475136697,
+        1.507143259048462
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 191,
+      "time": 1.9100000000000001,
+      "source_filename": "tangaroa-1.91.am",
+      "source_bytes": 77760272,
+      "source_crc32": 693202899,
+      "source_sha256": "6a7a38d4425f06ff395a7b3c1b8f003f0b6eb489b83a776330dd6c1b49d06bce",
+      "scalar_sha256": "b4c73a1c07fc92274753b5f01aed7ae8f3e0fa7b18bd56fd33e373d2d78ae9ef",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.50604248046875
+      ],
+      "processed_range": [
+        0.0007065560785122216,
+        1.50604248046875
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 192,
+      "time": 1.92,
+      "source_filename": "tangaroa-1.92.am",
+      "source_bytes": 77760272,
+      "source_crc32": 3935221760,
+      "source_sha256": "03fcc322da714c11a0137f445b22b2f2678547a5c9554ac09fb7086512ab163d",
+      "scalar_sha256": "1b2137f7eb341e4a659170a6114b01573cf890248504206a205fe749deb09d30",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.5049781799316406
+      ],
+      "processed_range": [
+        0.000718655763193965,
+        1.5049781799316406
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 193,
+      "time": 1.93,
+      "source_filename": "tangaroa-1.93.am",
+      "source_bytes": 77760272,
+      "source_crc32": 1482194688,
+      "source_sha256": "0385537df116f92bffe5f0f794ce56a521dbe0fd124e11a6c8e936b03ce57780",
+      "scalar_sha256": "0dfa66138a31eabcfad8b9c779fb079582fc79751bc002d49367e85489dc8561",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.507418155670166
+      ],
+      "processed_range": [
+        0.0007510533323511481,
+        1.507418155670166
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 194,
+      "time": 1.94,
+      "source_filename": "tangaroa-1.94.am",
+      "source_bytes": 77760272,
+      "source_crc32": 3099109160,
+      "source_sha256": "fb59eae12924adae1f881288eef9d5d27d0b45fc736fcc7f357ed2addc399f24",
+      "scalar_sha256": "376f29003a8107f818085791e6375aab01a14b1446d12569e866c3792794f6b6",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.5030590295791626
+      ],
+      "processed_range": [
+        0.000811208039522171,
+        1.5030590295791626
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 195,
+      "time": 1.95,
+      "source_filename": "tangaroa-1.95.am",
+      "source_bytes": 77760272,
+      "source_crc32": 1155901359,
+      "source_sha256": "2b9827b165925c03722208eea94d819e7420872c5af7eaf69ebbd74e8090d1dc",
+      "scalar_sha256": "e9bf66c7a9d347eb520061baad8859d6cca16c317104811f1d7afed85494736a",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.5019419193267822
+      ],
+      "processed_range": [
+        0.0008596124243922532,
+        1.5019419193267822
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 196,
+      "time": 1.96,
+      "source_filename": "tangaroa-1.96.am",
+      "source_bytes": 77760272,
+      "source_crc32": 4237313458,
+      "source_sha256": "e077365029825ea3c366bf2827c053fa28a560e5dac874a9ffa18c17d0c88bdd",
+      "scalar_sha256": "827fee81e4d8d9227404e929684b18f5af0736bab607c92c271322c24575325e",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.5007665157318115
+      ],
+      "processed_range": [
+        0.0009077393915504217,
+        1.5007665157318115
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 197,
+      "time": 1.97,
+      "source_filename": "tangaroa-1.97.am",
+      "source_bytes": 77760272,
+      "source_crc32": 4122840815,
+      "source_sha256": "fec9de25900cb988073e094fa2757ce87568f643b5cafbba7f5fb6bb859c1030",
+      "scalar_sha256": "ea435c250de23f9b461ab8ce7ff11e747b5f663303c70ee09753bd8d8371daf2",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.4992605447769165
+      ],
+      "processed_range": [
+        0.0005759344785474241,
+        1.4992605447769165
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 198,
+      "time": 1.98,
+      "source_filename": "tangaroa-1.98.am",
+      "source_bytes": 77760272,
+      "source_crc32": 1191206851,
+      "source_sha256": "48d968e11d5746d0f62698b289eb5b3a1044bb80e7d56462d444800c41a8ac27",
+      "scalar_sha256": "b4a4f96228a57b5e38c433d30b1584fe4051507eb5c1e4f090ae1d08b747c55e",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.497674822807312
+      ],
+      "processed_range": [
+        0.0007472494035027921,
+        1.497674822807312
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 199,
+      "time": 1.99,
+      "source_filename": "tangaroa-1.99.am",
+      "source_bytes": 77760272,
+      "source_crc32": 1032454865,
+      "source_sha256": "dc5e0c1fe728422917499d1fa101e31529c1be5e2a789af5d1b93695765ff64a",
+      "scalar_sha256": "c94ce5cedafb4199d96d33ec632a1ed5fb40b580affd37be8def306ffd9bbacd",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.4957290887832642
+      ],
+      "processed_range": [
+        0.000737229420337826,
+        1.4957290887832642
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    },
+    {
+      "index": 200,
+      "time": 2.0,
+      "source_filename": "tangaroa-2.00.am",
+      "source_bytes": 77760272,
+      "source_crc32": 3032147214,
+      "source_sha256": "334b1726bca9bb612baeaf832dc00be8976d1b364e7f03e635cbc91c93c7a3e3",
+      "scalar_sha256": "a9b992ce995693242790e08d00d90eaed5163e2923435259495bc1c58eb6d0be",
+      "scalar_shape_zyx": [
+        120,
+        180,
+        300
+      ],
+      "bounds_xyz": [
+        -0.35,
+        0.65,
+        -0.3,
+        0.3,
+        -0.5,
+        -0.3
+      ],
+      "raw_range": [
+        0.0,
+        1.4935719966888428
+      ],
+      "processed_range": [
+        0.0007727614720351994,
+        1.4935719966888428
+      ],
+      "masked_samples": 13158,
+      "clipped_samples": 0,
+      "prepare_source_sha256": "0f5b996ec4ab1ed8c0ce91e30e55fec4083db4a484b820c616103981ed205159"
+    }
+  ],
+  "elapsed_seconds": 1597.3552069664001
+}

@@ -1,0 +1,47 @@
+[
+  {
+    "method": "TMTM",
+    "frames": 21,
+    "NROE_mean": 0.5,
+    "NMLE_mean": 0.0,
+    "NMLE_max": 0.0,
+    "exact_topology_frames": 21,
+    "relaxed_frames": 0
+  },
+  {
+    "method": "RG-MTM-P",
+    "frames": 21,
+    "NROE_mean": 0.042063492063492074,
+    "NMLE_mean": 0.0,
+    "NMLE_max": 0.0,
+    "exact_topology_frames": 21,
+    "relaxed_frames": 0
+  },
+  {
+    "method": "RG-MTM-R 0.02",
+    "frames": 21,
+    "NROE_mean": 0.0,
+    "NMLE_mean": 2.482830591145016e-05,
+    "NMLE_max": 7.966719567775726e-05,
+    "exact_topology_frames": 6,
+    "relaxed_frames": 15
+  },
+  {
+    "method": "RG-MTM-R 0.2",
+    "frames": 21,
+    "NROE_mean": 0.0,
+    "NMLE_mean": 2.482830591145016e-05,
+    "NMLE_max": 7.966719567775726e-05,
+    "exact_topology_frames": 6,
+    "relaxed_frames": 15
+  },
+  {
+    "method": "RG-MTM-R 1",
+    "frames": 21,
+    "NROE_mean": 0.0,
+    "NMLE_mean": 2.482830591145016e-05,
+    "NMLE_max": 7.966719567775726e-05,
+    "exact_topology_frames": 6,
+    "relaxed_frames": 15
+  }
+]

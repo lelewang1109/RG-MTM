@@ -1,0 +1,1063 @@
+{
+  "scope": "Read-only reanalysis of saved numerical evidence; no rerun; no manuscript/source/PPT changes",
+  "metric_units": "All error values below are percentages unless marked fractions or counts",
+  "removed_dataset": {
+    "name": "Gaussian",
+    "identifier": "gaussians",
+    "grid": [
+      64,
+      64
+    ],
+    "frames": 64,
+    "excludes": "Separate perpendicular-bisector synthetic control (241x241,64 frames) is retained"
+  },
+  "planar_population": {
+    "datasets": 5,
+    "frames": 278,
+    "exact_frontier_R20_on_frontier": 275,
+    "original": {
+      "frames": 342,
+      "on_frontier": 339
+    },
+    "by_dataset": {
+      "Storms": {
+        "frames": 118,
+        "frontier_R20_on": 118,
+        "hierarchy_cost_above_2pct": 40
+      },
+      "Wildfires": {
+        "frames": 30,
+        "frontier_R20_on": 28,
+        "hierarchy_cost_above_2pct": 19
+      },
+      "OLR": {
+        "frames": 60,
+        "frontier_R20_on": 60,
+        "hierarchy_cost_above_2pct": 7
+      },
+      "PM2.5": {
+        "frames": 30,
+        "frontier_R20_on": 30,
+        "hierarchy_cost_above_2pct": 5
+      },
+      "Ring": {
+        "frames": 40,
+        "frontier_R20_on": 39,
+        "hierarchy_cost_above_2pct": 21
+      }
+    },
+    "hierarchy_cost_above_2pct_total": 92,
+    "R20_NMLE_mean_range_pct": [
+      0.861532081313823,
+      3.955075746241403
+    ],
+    "R20_NMLE_max_range_pct": [
+      9.481856225063636,
+      33.55535259482717
+    ]
+  },
+  "datasets": [
+    {
+      "name": "Storms",
+      "dimension": 2,
+      "population": "physical temporal sequence",
+      "frames_or_sections": 118,
+      "grid": [
+        49,
+        49
+      ],
+      "leaves": [
+        1,
+        8
+      ],
+      "tree": "join",
+      "reference_extent": 86.11980326698031,
+      "scalar_range": 95.08097413835787,
+      "methods": {
+        "TMTM": {
+          "NROE": 19.23365378047747,
+          "NMLE_mean": 0.0,
+          "NMLE_max": 0.0,
+          "motion": {
+            "errors": 49,
+            "clear": 104,
+            "error_fraction": 0.47115384615384615,
+            "truth_dimension": 2
+          },
+          "E_pool": null,
+          "E_inf": null
+        },
+        "ST-MTM": {
+          "NROE": 16.278371898778904,
+          "NMLE_mean": 0.0,
+          "NMLE_max": 0.0,
+          "motion": {
+            "errors": 43,
+            "clear": 104,
+            "error_fraction": 0.41346153846153844,
+            "truth_dimension": 2
+          },
+          "E_pool": null,
+          "E_inf": null
+        },
+        "RG-MTM-P": {
+          "NROE": 3.7743272412319944,
+          "NMLE_mean": 0.0,
+          "NMLE_max": 0.0,
+          "motion": {
+            "errors": 24,
+            "clear": 104,
+            "error_fraction": 0.23076923076923078,
+            "truth_dimension": 2
+          },
+          "E_pool": 4.132256450858255,
+          "E_inf": 26.185374900113136
+        },
+        "RG-MTM-R20": {
+          "NROE": 1.1618707698268602,
+          "NMLE_mean": 1.4680901592965125,
+          "NMLE_max": 26.07142835871198,
+          "motion": {
+            "errors": 19,
+            "clear": 104,
+            "error_fraction": 0.18269230769230768,
+            "truth_dimension": 2
+          },
+          "E_pool": 2.1409817881385735,
+          "E_inf": 18.464244641223882
+        }
+      },
+      "scalar_field": "Mean sea-level pressure"
+    },
+    {
+      "name": "Wildfires",
+      "dimension": 2,
+      "population": "physical temporal sequence",
+      "frames_or_sections": 30,
+      "grid": [
+        64,
+        64
+      ],
+      "leaves": [
+        6,
+        11
+      ],
+      "tree": "split",
+      "reference_extent": 166.89689703121402,
+      "scalar_range": 4.207268360898969,
+      "methods": {
+        "TMTM": {
+          "NROE": 29.30266105441931,
+          "NMLE_mean": 0.0,
+          "NMLE_max": 0.0,
+          "motion": {
+            "errors": 44,
+            "clear": 112,
+            "error_fraction": 0.39285714285714285,
+            "truth_dimension": 2
+          },
+          "E_pool": null,
+          "E_inf": null
+        },
+        "ST-MTM": {
+          "NROE": 24.015099920605703,
+          "NMLE_mean": 0.0,
+          "NMLE_max": 0.0,
+          "motion": {
+            "errors": 40,
+            "clear": 112,
+            "error_fraction": 0.35714285714285715,
+            "truth_dimension": 2
+          },
+          "E_pool": null,
+          "E_inf": null
+        },
+        "RG-MTM-P": {
+          "NROE": 5.830214095746283,
+          "NMLE_mean": 0.0,
+          "NMLE_max": 0.0,
+          "motion": {
+            "errors": 36,
+            "clear": 112,
+            "error_fraction": 0.32142857142857145,
+            "truth_dimension": 2
+          },
+          "E_pool": 3.1824793628313515,
+          "E_inf": 20.475582909961712
+        },
+        "RG-MTM-R20": {
+          "NROE": 0.34394025457474137,
+          "NMLE_mean": 3.955075746241403,
+          "NMLE_max": 19.56389492896233,
+          "motion": {
+            "errors": 35,
+            "clear": 112,
+            "error_fraction": 0.3125,
+            "truth_dimension": 2
+          },
+          "E_pool": 0.804402435370466,
+          "E_inf": 6.636770157587331
+        }
+      },
+      "scalar_field": "log(1+FRP)"
+    },
+    {
+      "name": "OLR",
+      "dimension": 2,
+      "population": "physical temporal sequence",
+      "frames_or_sections": 60,
+      "grid": [
+        49,
+        49
+      ],
+      "leaves": [
+        2,
+        8
+      ],
+      "tree": "join",
+      "reference_extent": 115.0321389591431,
+      "scalar_range": 159.45159307220783,
+      "methods": {
+        "TMTM": {
+          "NROE": 19.311641065267676,
+          "NMLE_mean": 0.0,
+          "NMLE_max": 0.0,
+          "motion": {
+            "errors": 25,
+            "clear": 56,
+            "error_fraction": 0.44642857142857145,
+            "truth_dimension": 2
+          },
+          "E_pool": null,
+          "E_inf": null
+        },
+        "ST-MTM": {
+          "NROE": 17.209419831059154,
+          "NMLE_mean": 0.0,
+          "NMLE_max": 0.0,
+          "motion": {
+            "errors": 12,
+            "clear": 56,
+            "error_fraction": 0.21428571428571427,
+            "truth_dimension": 2
+          },
+          "E_pool": null,
+          "E_inf": null
+        },
+        "RG-MTM-P": {
+          "NROE": 0.8868398249381654,
+          "NMLE_mean": 0.0,
+          "NMLE_max": 0.0,
+          "motion": {
+            "errors": 3,
+            "clear": 56,
+            "error_fraction": 0.05357142857142857,
+            "truth_dimension": 2
+          },
+          "E_pool": 1.0033729764570514,
+          "E_inf": 17.14474100635256
+        },
+        "RG-MTM-R20": {
+          "NROE": 0.0,
+          "NMLE_mean": 1.0960634625843921,
+          "NMLE_max": 33.55535259482717,
+          "motion": {
+            "errors": 3,
+            "clear": 56,
+            "error_fraction": 0.05357142857142857,
+            "truth_dimension": 2
+          },
+          "E_pool": 0.5703013509989894,
+          "E_inf": 1.6865998354235652
+        }
+      },
+      "scalar_field": "Outgoing longwave radiation"
+    },
+    {
+      "name": "PM2.5",
+      "dimension": 2,
+      "population": "physical temporal sequence",
+      "frames_or_sections": 30,
+      "grid": [
+        49,
+        49
+      ],
+      "leaves": [
+        1,
+        5
+      ],
+      "tree": "split",
+      "reference_extent": 117.31120460655697,
+      "scalar_range": 98.95802799897544,
+      "methods": {
+        "TMTM": {
+          "NROE": 11.860644953584027,
+          "NMLE_mean": 0.0,
+          "NMLE_max": 0.0,
+          "motion": {
+            "errors": 5,
+            "clear": 7,
+            "error_fraction": 0.7142857142857143,
+            "truth_dimension": 2
+          },
+          "E_pool": null,
+          "E_inf": null
+        },
+        "ST-MTM": {
+          "NROE": 11.297052494450853,
+          "NMLE_mean": 0.0,
+          "NMLE_max": 0.0,
+          "motion": {
+            "errors": 3,
+            "clear": 7,
+            "error_fraction": 0.42857142857142855,
+            "truth_dimension": 2
+          },
+          "E_pool": null,
+          "E_inf": null
+        },
+        "RG-MTM-P": {
+          "NROE": 1.1082488653437677,
+          "NMLE_mean": 0.0,
+          "NMLE_max": 0.0,
+          "motion": {
+            "errors": 3,
+            "clear": 7,
+            "error_fraction": 0.42857142857142855,
+            "truth_dimension": 2
+          },
+          "E_pool": 2.3032138014223764,
+          "E_inf": 10.240123935034322
+        },
+        "RG-MTM-R20": {
+          "NROE": 0.16435792974222907,
+          "NMLE_mean": 0.861532081313823,
+          "NMLE_max": 9.481856225063636,
+          "motion": {
+            "errors": 2,
+            "clear": 7,
+            "error_fraction": 0.2857142857142857,
+            "truth_dimension": 2
+          },
+          "E_pool": 1.1756235217894087,
+          "E_inf": 5.601349937006517
+        }
+      },
+      "scalar_field": "PM2.5 concentration"
+    },
+    {
+      "name": "Ring",
+      "dimension": 2,
+      "population": "synthetic temporal sequence",
+      "frames_or_sections": 40,
+      "grid": [
+        14,
+        14
+      ],
+      "leaves": [
+        1,
+        7
+      ],
+      "tree": "split",
+      "reference_extent": 295.2115332335651,
+      "scalar_range": 12.69968318939209,
+      "methods": {
+        "TMTM": {
+          "NROE": 7.179294071439392,
+          "NMLE_mean": 0.0,
+          "NMLE_max": 0.0,
+          "motion": {
+            "errors": 80,
+            "clear": 124,
+            "error_fraction": 0.6451612903225806,
+            "truth_dimension": 2
+          },
+          "E_pool": null,
+          "E_inf": null
+        },
+        "ST-MTM": {
+          "NROE": 10.394591082457257,
+          "NMLE_mean": 0.0,
+          "NMLE_max": 0.0,
+          "motion": {
+            "errors": 43,
+            "clear": 124,
+            "error_fraction": 0.3467741935483871,
+            "truth_dimension": 2
+          },
+          "E_pool": null,
+          "E_inf": null
+        },
+        "RG-MTM-P": {
+          "NROE": 2.6558808458004104,
+          "NMLE_mean": 0.0,
+          "NMLE_max": 0.0,
+          "motion": {
+            "errors": 39,
+            "clear": 124,
+            "error_fraction": 0.31451612903225806,
+            "truth_dimension": 2
+          },
+          "E_pool": 2.4348018160794007,
+          "E_inf": 11.903880011187024
+        },
+        "RG-MTM-R20": {
+          "NROE": 0.1289775603962825,
+          "NMLE_mean": 2.7289450398048807,
+          "NMLE_max": 12.346384203815647,
+          "motion": {
+            "errors": 16,
+            "clear": 124,
+            "error_fraction": 0.12903225806451613,
+            "truth_dimension": 2
+          },
+          "E_pool": 0.7076110167291526,
+          "E_inf": 2.5227688012417397
+        }
+      },
+      "scalar_field": "Synthetic expanding-ring intensity"
+    },
+    {
+      "name": "Tangaroa",
+      "dimension": 3,
+      "population": "physical temporal sequence",
+      "frames_or_sections": 201,
+      "grid": [
+        300,
+        180,
+        120
+      ],
+      "leaves": [
+        18,
+        93
+      ],
+      "tree": "join",
+      "reference_extent": 0.703074637982934,
+      "methods": {
+        "RG-MTM-P": {
+          "NMLE_mean": 0.0,
+          "NMLE_max": 0.0,
+          "E_pool": 5.013349014253908,
+          "E_inf": 16.859493206383565,
+          "frame_mean_rendered_MAE": 5.124696667823748,
+          "NROE": 9.60801028939496,
+          "motion": {
+            "errors": 3697,
+            "clear": 6755,
+            "error_fraction": 0.5472982975573649,
+            "truth_dimension": 3
+          },
+          "projected_motion": {
+            "errors": 5045,
+            "clear": 9631,
+            "error_fraction": 0.5238293012148271,
+            "truth_dimension": 1
+          }
+        },
+        "RG-MTM-R20": {
+          "NMLE_mean": 14.442120575477635,
+          "NMLE_max": 31.020512004390362,
+          "E_pool": 1.1755428508326056,
+          "E_inf": 8.02015847395344,
+          "frame_mean_rendered_MAE": 1.0648688121100662,
+          "NROE": 0.018944992441107405,
+          "motion": {
+            "errors": 2060,
+            "clear": 6755,
+            "error_fraction": 0.30495928941524797,
+            "truth_dimension": 3
+          },
+          "projected_motion": {
+            "errors": 240,
+            "clear": 9631,
+            "error_fraction": 0.02491953068217215,
+            "truth_dimension": 1
+          }
+        },
+        "TMTM": {
+          "NMLE_mean": 0.0,
+          "NMLE_max": 0.0,
+          "NROE": 20.092301252549532,
+          "motion": {
+            "errors": 6585,
+            "clear": 6755,
+            "error_fraction": 0.9748334566987417,
+            "truth_dimension": 3
+          },
+          "projected_motion": {
+            "errors": 9408,
+            "clear": 9631,
+            "error_fraction": 0.9768456027411484,
+            "truth_dimension": 1
+          }
+        },
+        "ST-MTM": null
+      },
+      "protocol_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/code/results/volume3d/tangaroa-paper-p10-full201/protocol.json",
+      "scalar_range": 2,
+      "scalar_field": "Velocity magnitude"
+    },
+    {
+      "name": "Cylinder",
+      "dimension": 3,
+      "population": "physical temporal sequence",
+      "frames_or_sections": 102,
+      "grid": [
+        135,
+        64,
+        48
+      ],
+      "leaves": [
+        4,
+        75
+      ],
+      "tree": "split",
+      "reference_extent": 22.45026178010471,
+      "methods": {
+        "RG-MTM-P": {
+          "NMLE_mean": 0.0,
+          "NMLE_max": 0.0,
+          "E_pool": 5.400223164202237,
+          "E_inf": 32.08093182992734,
+          "frame_mean_rendered_MAE": 5.730255606224848,
+          "NROE": 12.262218320163885,
+          "motion": {
+            "errors": 1191,
+            "clear": 3196,
+            "error_fraction": 0.37265331664580725,
+            "truth_dimension": 3
+          },
+          "projected_motion": {
+            "errors": 870,
+            "clear": 2934,
+            "error_fraction": 0.2965235173824131,
+            "truth_dimension": 1
+          }
+        },
+        "RG-MTM-R20": {
+          "NMLE_mean": 2.809644830993792,
+          "NMLE_max": 14.281121194384355,
+          "E_pool": 0.5500989456336708,
+          "E_inf": 5.271996768904331,
+          "frame_mean_rendered_MAE": 0.5089397850031266,
+          "NROE": 0.0841381328650863,
+          "motion": {
+            "errors": 605,
+            "clear": 3196,
+            "error_fraction": 0.1892991239048811,
+            "truth_dimension": 3
+          },
+          "projected_motion": {
+            "errors": 108,
+            "clear": 2934,
+            "error_fraction": 0.03680981595092025,
+            "truth_dimension": 1
+          }
+        },
+        "TMTM": {
+          "NMLE_mean": 0.0,
+          "NMLE_max": 0.0,
+          "NROE": 26.61691542288557,
+          "motion": {
+            "errors": 2141,
+            "clear": 3196,
+            "error_fraction": 0.6698998748435544,
+            "truth_dimension": 3
+          },
+          "projected_motion": {
+            "errors": 1845,
+            "clear": 2934,
+            "error_fraction": 0.6288343558282209,
+            "truth_dimension": 1
+          }
+        },
+        "ST-MTM": null
+      },
+      "protocol_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/code/results/paper1_suite/square-cylinder3d/protocol.json",
+      "scalar_range": 25.811321258544922,
+      "scalar_field": "3-D Q criterion"
+    },
+    {
+      "name": "Nucleon",
+      "dimension": 2,
+      "population": "one static slice",
+      "frames_or_sections": 1,
+      "grid": [
+        64,
+        64
+      ],
+      "leaves": [
+        13,
+        13
+      ],
+      "tree": "split of physical scalar (join of negated field)",
+      "reference_extent": 63.0,
+      "methods": {
+        "RG-MTM-P": {
+          "NMLE_mean": 0.0,
+          "NMLE_max": 0.0,
+          "E_pool": 1.9245351676222842,
+          "E_inf": 3.43177432105655,
+          "frame_mean_rendered_MAE": 1.9246224116978208,
+          "NROE": 2.380952380952381
+        },
+        "RG-MTM-R20": {
+          "NMLE_mean": 0.0,
+          "NMLE_max": 0.0,
+          "E_pool": 1.9245351676222842,
+          "E_inf": 3.43177432105655,
+          "frame_mean_rendered_MAE": 1.9246224116978208,
+          "NROE": 2.380952380952381
+        },
+        "TMTM": {
+          "NMLE_mean": 0.0,
+          "NMLE_max": 0.0,
+          "NROE": 11.904761904761903
+        },
+        "ST-MTM": null
+      },
+      "protocol_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/code/results/paper1_suite/nucleon/protocol.json",
+      "scalar_range": 247.0,
+      "scalar_field": "Original author static scalar"
+    },
+    {
+      "name": "Benzene",
+      "dimension": 2,
+      "population": "21 spatial sections of one reconstructed static potential",
+      "frames_or_sections": 21,
+      "grid": [
+        61,
+        61
+      ],
+      "leaves": [
+        5,
+        10
+      ],
+      "tree": "join",
+      "reference_extent": 12.0,
+      "methods": {
+        "RG-MTM-P": {
+          "NMLE_mean": 0.0,
+          "NMLE_max": 0.0,
+          "E_pool": 1.5970318583014949,
+          "E_inf": 15.39151979088562,
+          "frame_mean_rendered_MAE": 1.4790810150165594,
+          "NROE": 4.206349206349207
+        },
+        "RG-MTM-R20": {
+          "NMLE_mean": 0.002482830591145016,
+          "NMLE_max": 0.007966719567775726,
+          "E_pool": 0.522627500173738,
+          "E_inf": 1.7505374899220734,
+          "frame_mean_rendered_MAE": 0.5595282904160724,
+          "NROE": 0.0
+        },
+        "TMTM": {
+          "NMLE_mean": 0.0,
+          "NMLE_max": 0.0,
+          "NROE": 50.0
+        },
+        "ST-MTM": null
+      },
+      "protocol_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/code/results/paper1_suite/benzene-potential-reconstructed2d/protocol.json",
+      "scalar_range": 3.9211697578430176,
+      "scalar_field": "Reconstructed OPLS-AA point-charge potential"
+    }
+  ],
+  "same_definition_continuous_displacement": {
+    "Storms": {
+      "RG-MTM-P": {
+        "E_pool": 4.132256450858255,
+        "E_inf": 26.185374900113136
+      },
+      "RG-MTM-R20": {
+        "E_pool": 2.1409817881385735,
+        "E_inf": 18.464244641223882
+      }
+    },
+    "Wildfires": {
+      "RG-MTM-P": {
+        "E_pool": 3.1824793628313515,
+        "E_inf": 20.475582909961712
+      },
+      "RG-MTM-R20": {
+        "E_pool": 0.804402435370466,
+        "E_inf": 6.636770157587331
+      }
+    },
+    "OLR": {
+      "RG-MTM-P": {
+        "E_pool": 1.0033729764570514,
+        "E_inf": 17.14474100635256
+      },
+      "RG-MTM-R20": {
+        "E_pool": 0.5703013509989894,
+        "E_inf": 1.6865998354235652
+      }
+    },
+    "PM2.5": {
+      "RG-MTM-P": {
+        "E_pool": 2.3032138014223764,
+        "E_inf": 10.240123935034322
+      },
+      "RG-MTM-R20": {
+        "E_pool": 1.1756235217894087,
+        "E_inf": 5.601349937006517
+      }
+    },
+    "Ring": {
+      "RG-MTM-P": {
+        "E_pool": 2.4348018160794007,
+        "E_inf": 11.903880011187024
+      },
+      "RG-MTM-R20": {
+        "E_pool": 0.7076110167291526,
+        "E_inf": 2.5227688012417397
+      }
+    },
+    "Tangaroa": {
+      "RG-MTM-P": {
+        "E_pool": 5.013349014253908,
+        "E_inf": 16.859493206383565,
+        "anchor_instances": 6925,
+        "frames": 201,
+        "saved_frame_mean_rendered_MAE": 5.124696667823748,
+        "maximum_continuous_rounding_error_bound": null,
+        "formula": "sum(abs(layout.x-layout.reference))/(canvas*sum(frame_feature_counts)); max(abs(layout.x-layout.reference))/canvas",
+        "source_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/code/results/volume3d/tangaroa-paper-p10-full201/frame_metrics.json"
+      },
+      "RG-MTM-R 0.02": {
+        "E_pool": 4.1645987250111505,
+        "E_inf": 14.650668326462673,
+        "anchor_instances": 6925,
+        "frames": 201,
+        "saved_frame_mean_rendered_MAE": 4.3107202751667115,
+        "maximum_continuous_rounding_error_bound": null,
+        "formula": "sum(abs(layout.x-layout.reference))/(canvas*sum(frame_feature_counts)); max(abs(layout.x-layout.reference))/canvas",
+        "source_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/code/results/volume3d/tangaroa-paper-p10-full201/frame_metrics.json"
+      },
+      "RG-MTM-R 0.2": {
+        "E_pool": 1.1755428508326056,
+        "E_inf": 8.02015847395344,
+        "anchor_instances": 6925,
+        "frames": 201,
+        "saved_frame_mean_rendered_MAE": 1.0648688121100662,
+        "maximum_continuous_rounding_error_bound": null,
+        "formula": "sum(abs(layout.x-layout.reference))/(canvas*sum(frame_feature_counts)); max(abs(layout.x-layout.reference))/canvas",
+        "source_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/code/results/volume3d/tangaroa-paper-p10-full201/frame_metrics.json"
+      },
+      "RG-MTM-R 1": {
+        "E_pool": 1.1755428508326056,
+        "E_inf": 8.02015847395344,
+        "anchor_instances": 6925,
+        "frames": 201,
+        "saved_frame_mean_rendered_MAE": 1.0648688121100662,
+        "maximum_continuous_rounding_error_bound": null,
+        "formula": "sum(abs(layout.x-layout.reference))/(canvas*sum(frame_feature_counts)); max(abs(layout.x-layout.reference))/canvas",
+        "source_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/code/results/volume3d/tangaroa-paper-p10-full201/frame_metrics.json"
+      }
+    },
+    "Cylinder": {
+      "RG-MTM-P": {
+        "E_pool": 5.400223164202237,
+        "E_inf": 32.08093182992734,
+        "anchor_instances": 2032,
+        "frames": 102,
+        "saved_frame_mean_rendered_MAE": 5.730255606224848,
+        "maximum_continuous_rounding_error_bound": null,
+        "formula": "sum(abs(layout.x-layout.reference))/(canvas*sum(frame_feature_counts)); max(abs(layout.x-layout.reference))/canvas",
+        "source_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/code/results/paper1_suite/square-cylinder3d/frame_metrics.json"
+      },
+      "RG-MTM-R 0.02": {
+        "E_pool": 0.623114944706885,
+        "E_inf": 5.271996768904331,
+        "anchor_instances": 2032,
+        "frames": 102,
+        "saved_frame_mean_rendered_MAE": 0.5279372083114451,
+        "maximum_continuous_rounding_error_bound": null,
+        "formula": "sum(abs(layout.x-layout.reference))/(canvas*sum(frame_feature_counts)); max(abs(layout.x-layout.reference))/canvas",
+        "source_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/code/results/paper1_suite/square-cylinder3d/frame_metrics.json"
+      },
+      "RG-MTM-R 0.2": {
+        "E_pool": 0.5500989456336708,
+        "E_inf": 5.271996768904331,
+        "anchor_instances": 2032,
+        "frames": 102,
+        "saved_frame_mean_rendered_MAE": 0.5089397850031266,
+        "maximum_continuous_rounding_error_bound": null,
+        "formula": "sum(abs(layout.x-layout.reference))/(canvas*sum(frame_feature_counts)); max(abs(layout.x-layout.reference))/canvas",
+        "source_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/code/results/paper1_suite/square-cylinder3d/frame_metrics.json"
+      },
+      "RG-MTM-R 1": {
+        "E_pool": 0.5500189300665499,
+        "E_inf": 5.271996768904331,
+        "anchor_instances": 2032,
+        "frames": 102,
+        "saved_frame_mean_rendered_MAE": 0.5088227705084346,
+        "maximum_continuous_rounding_error_bound": null,
+        "formula": "sum(abs(layout.x-layout.reference))/(canvas*sum(frame_feature_counts)); max(abs(layout.x-layout.reference))/canvas",
+        "source_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/code/results/paper1_suite/square-cylinder3d/frame_metrics.json"
+      }
+    },
+    "Nucleon": {
+      "RG-MTM-P": {
+        "E_pool": 1.9245351676222842,
+        "E_inf": 3.43177432105655,
+        "anchor_instances": 13,
+        "frames": 1,
+        "saved_frame_mean_rendered_MAE": 1.9246224116978208,
+        "maximum_continuous_rounding_error_bound": null,
+        "formula": "sum(abs(layout.x-layout.reference))/(canvas*sum(frame_feature_counts)); max(abs(layout.x-layout.reference))/canvas",
+        "source_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/code/results/paper1_suite/nucleon/frame_metrics.json"
+      },
+      "RG-MTM-R 0.02": {
+        "E_pool": 1.9245351676222842,
+        "E_inf": 3.43177432105655,
+        "anchor_instances": 13,
+        "frames": 1,
+        "saved_frame_mean_rendered_MAE": 1.9246224116978208,
+        "maximum_continuous_rounding_error_bound": null,
+        "formula": "sum(abs(layout.x-layout.reference))/(canvas*sum(frame_feature_counts)); max(abs(layout.x-layout.reference))/canvas",
+        "source_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/code/results/paper1_suite/nucleon/frame_metrics.json"
+      },
+      "RG-MTM-R 0.2": {
+        "E_pool": 1.9245351676222842,
+        "E_inf": 3.43177432105655,
+        "anchor_instances": 13,
+        "frames": 1,
+        "saved_frame_mean_rendered_MAE": 1.9246224116978208,
+        "maximum_continuous_rounding_error_bound": null,
+        "formula": "sum(abs(layout.x-layout.reference))/(canvas*sum(frame_feature_counts)); max(abs(layout.x-layout.reference))/canvas",
+        "source_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/code/results/paper1_suite/nucleon/frame_metrics.json"
+      },
+      "RG-MTM-R 1": {
+        "E_pool": 1.9245351676222842,
+        "E_inf": 3.43177432105655,
+        "anchor_instances": 13,
+        "frames": 1,
+        "saved_frame_mean_rendered_MAE": 1.9246224116978208,
+        "maximum_continuous_rounding_error_bound": null,
+        "formula": "sum(abs(layout.x-layout.reference))/(canvas*sum(frame_feature_counts)); max(abs(layout.x-layout.reference))/canvas",
+        "source_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/code/results/paper1_suite/nucleon/frame_metrics.json"
+      }
+    },
+    "Benzene": {
+      "RG-MTM-P": {
+        "E_pool": 1.5970318583014949,
+        "E_inf": 15.39151979088562,
+        "anchor_instances": 180,
+        "frames": 21,
+        "saved_frame_mean_rendered_MAE": 1.4790810150165594,
+        "maximum_continuous_rounding_error_bound": null,
+        "formula": "sum(abs(layout.x-layout.reference))/(canvas*sum(frame_feature_counts)); max(abs(layout.x-layout.reference))/canvas",
+        "source_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/code/results/paper1_suite/benzene-potential-reconstructed2d/frame_metrics.json"
+      },
+      "RG-MTM-R 0.02": {
+        "E_pool": 0.522627500173738,
+        "E_inf": 1.7505374899220734,
+        "anchor_instances": 180,
+        "frames": 21,
+        "saved_frame_mean_rendered_MAE": 0.5595282904160724,
+        "maximum_continuous_rounding_error_bound": null,
+        "formula": "sum(abs(layout.x-layout.reference))/(canvas*sum(frame_feature_counts)); max(abs(layout.x-layout.reference))/canvas",
+        "source_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/code/results/paper1_suite/benzene-potential-reconstructed2d/frame_metrics.json"
+      },
+      "RG-MTM-R 0.2": {
+        "E_pool": 0.522627500173738,
+        "E_inf": 1.7505374899220734,
+        "anchor_instances": 180,
+        "frames": 21,
+        "saved_frame_mean_rendered_MAE": 0.5595282904160724,
+        "maximum_continuous_rounding_error_bound": null,
+        "formula": "sum(abs(layout.x-layout.reference))/(canvas*sum(frame_feature_counts)); max(abs(layout.x-layout.reference))/canvas",
+        "source_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/code/results/paper1_suite/benzene-potential-reconstructed2d/frame_metrics.json"
+      },
+      "RG-MTM-R 1": {
+        "E_pool": 0.522627500173738,
+        "E_inf": 1.7505374899220734,
+        "anchor_instances": 180,
+        "frames": 21,
+        "saved_frame_mean_rendered_MAE": 0.5595282904160724,
+        "maximum_continuous_rounding_error_bound": null,
+        "formula": "sum(abs(layout.x-layout.reference))/(canvas*sum(frame_feature_counts)); max(abs(layout.x-layout.reference))/canvas",
+        "source_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/code/results/paper1_suite/benzene-potential-reconstructed2d/frame_metrics.json"
+      }
+    }
+  },
+  "unified_table_proposal": {
+    "table1_dataset_inventory": {
+      "rows": [
+        "Storms",
+        "Wildfires",
+        "OLR",
+        "PM2.5",
+        "Ring",
+        "Tangaroa",
+        "Cylinder",
+        "Nucleon",
+        "Benzene"
+      ],
+      "columns": [
+        "Dataset",
+        "Source/type",
+        "Spatial dimension",
+        "Scalar field",
+        "Grid",
+        "Time steps / static sections",
+        "Leaves",
+        "Tree"
+      ],
+      "note": "Tangaroa and Cylinder are 3-D; output temporal map is 2-D, source data are not."
+    },
+    "table2_shared_main_results": {
+      "rows": "Same nine datasets; do not have a later separate 3-D-only results table",
+      "columns": [
+        "Dataset",
+        "NROE TMTM",
+        "NROE ST-MTM",
+        "NROE P",
+        "NROE R20",
+        "R20 NMLE mean",
+        "R20 NMLE max"
+      ],
+      "units": "percent",
+      "missing": "ST-MTM marked n/r for Tangaroa, Cylinder, Nucleon, Benzene; never use 0"
+    },
+    "table3_achieved_continuous_position": {
+      "rows": "Same nine datasets",
+      "columns": [
+        "Dataset",
+        "P E_pool",
+        "P E_inf",
+        "R20 E_pool",
+        "R20 E_inf"
+      ],
+      "status": "Existing 5 planar values; all four additions can be derived exactly from saved continuous layouts without rerunning experiments; values in same_definition_continuous_displacement"
+    },
+    "table4_motion": {
+      "rows": "Seven temporal sequences",
+      "columns": [
+        "Dataset/source dimension",
+        "N_clear spatial",
+        "TMTM errors/N",
+        "ST-MTM errors/N",
+        "P errors/N",
+        "R20 errors/N"
+      ],
+      "note": "Spatial truth is 2-D or 3-D Euclidean distance as appropriate. Keep projected truth in a separate panel/columns with its own denominator; Nucleon/Benzene motion is inapplicable."
+    },
+    "sensitivity": "Use same integrated parameter section for R2/R20/R100 or Rinf; Tangaroa R20=R100, Cylinder R100 NMLE mean 3.190% > R20 2.810%, Nucleon/Benzene all R settings identical. Explain 2-D R prunes/restores hierarchy; volumetric R disables pruning, so same kappa is not a proof of same cost."
+  },
+  "cautions": [
+    "Tangaroa/Cylinder have original 3-D source volumes; calling them 2-D datasets is incorrect. Integrate evaluation while retaining dimension in inventory and motion labels.",
+    "Current 3-D Anchor MAE is temporal mean of per-frame means after raster rounding, while planar E_pool is continuous anchor count weighted; the saved MAE cannot be directly copied into E_pool. Newly derived same-definition values are in this audit.",
+    "NROE/NMLE normalize by fixed L/scalar range and can share table columns across dimensions. This does not make source preprocessing, persistence, reference selection, or eligible-node pruning identical.",
+    "Tangaroa has high R20 scalar price (14.442% mean,31.021% maximum); after integration do not repeat planar-only 0.86%–3.96% mean NMLE as a universal bound.",
+    "Tangaroa temporal exactness large-tree search is not covered by 275/278 exhaustive small-tree frontier count. R2 has 48 unclosed certificate brackets.",
+    "Spatial and projected motion truth use different clear-event sets. Do not subtract rates as a causal decomposition; do not pool accuracies over datasets.",
+    "Baseline direct reference displacement requires explicit common calibration. Omit TMTM/ST-MTM E values in the achieved-anchor table.",
+    "The frozen Fig5 evidence currently includes an independent archived Storms2013/14 panel. Distinguish it from 1999/2000 main Storms if kept; prefer active main-suite sources in a refreshed result figure.",
+    "Only Gaussian 64x64/64-frame local variant is excluded. The independent 241x241/64-frame perpendicular-bisector control and generic Gaussian smoothing/field primitives remain relevant.",
+    "Benzene uses a reconstructed point-charge electrostatic field and spatial z sections. It is neither original author data nor temporal molecular dynamics.",
+    "Cylinder velocity source grid is 192x64x48, Q computed before crop to135x64x48; list both where protocol matters. Scalar is Q criterion, not Velocity Magnitude."
+  ],
+  "missing_metrics": [
+    {
+      "metric": "ST-MTM",
+      "datasets": [
+        "Tangaroa",
+        "Cylinder",
+        "Nucleon",
+        "Benzene"
+      ],
+      "status": "not run; mark n/r; requires actual experiment if desired"
+    },
+    {
+      "metric": "continuous E_pool and E_inf",
+      "datasets": [
+        "Tangaroa",
+        "Cylinder"
+      ],
+      "status": "not in current manuscript table, now exactly derived from saved layouts in this audit; no rerun required"
+    },
+    {
+      "metric": "SNS,TW,TD",
+      "datasets": [
+        "Tangaroa",
+        "Cylinder",
+        "Nucleon",
+        "Benzene"
+      ],
+      "status": "no shared-protocol complete standard metric table currently supplied; static temporal metrics inapplicable"
+    },
+    {
+      "metric": "complete exact order frontier",
+      "datasets": [
+        "Tangaroa",
+        "Cylinder"
+      ],
+      "status": "not available; finite candidate searches and certificate bounds reported instead"
+    },
+    {
+      "metric": "physical identity validation/user study",
+      "datasets": [
+        "all"
+      ],
+      "status": "not supplied; retain geometric-proxy language"
+    },
+    {
+      "metric": "same generic temporal ME",
+      "datasets": [
+        "Nucleon",
+        "Benzene"
+      ],
+      "status": "inapplicable; Benzene slice-coherence diagnostics may be supplementary, never label motion"
+    }
+  ],
+  "population_accounting": {
+    "planar_main_temporal_frames": 278,
+    "volumetric_temporal_frames": 303,
+    "all_seven_temporal_sequences_frames": 581,
+    "static_slices_or_sections": 22,
+    "static_datasets": 2,
+    "all_primary_datasets": 9,
+    "warning": "581 counts stored time steps only; do not compute a single cross-dataset accuracy or claim one identical experiment protocol. 21 Benzene sections are not time frames."
+  },
+  "source_sha256": {
+    "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/code/results/publication2027/claims.json": "9d7bd1afd23563ef3a2621fc5f3a164eba0ad889d503c17cba73d41e2bde7211",
+    "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/code/results/final_performance.json": "af9be2b5e38d148f3b7875e07bff62a802de3fa97ed68b743109563cb149f2e9",
+    "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/code/results/filling.json": "21391204df5994165010abeb3c5079b4a7f847118fae2edb6dcc2ac17f92307c",
+    "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/code/results/eval_projection.json": "f70a343b68ac04531d12480f8e043587b8dd7715ab752b5fd7c4c081d8836cda",
+    "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/code/results/replicate_era5.json": "b03e03ad1c1e2f70b7c5c0080e0075fe79ee11c910d25f450ea49f14b9d84562",
+    "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/code/results/attainable_era5.json": "241a8cc451024eb988030815d85e5978f61d145bce6fa268ddf80ca68bf54342",
+    "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/code/results/replicate_wildfire.json": "71eca5d9fa07d8d6b52ea9ca168c0e66c02ed0cf15124a8fb3f1705a951e1ae9",
+    "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/code/results/attainable_wildfire.json": "6a2fb2a4da5f67bcd962d0692780a1ca16e3646272e5142a515ce6fc828ece68",
+    "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/code/results/replicate_olr.json": "b767adcf8cb8f051547b10ae69665d1d0be0ae198a74dca91255d0a1d714be7c",
+    "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/code/results/attainable_olr.json": "55e624effce24294b3d5649f77de02764d80fda1ed6297a73e7ef102f44abdbc",
+    "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/code/results/replicate_pm25.json": "8f80c03aeb7be4f6ce0c6b1d15414f574e23707cfe931865ccc1bec0e3c2b9fc",
+    "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/code/results/attainable_pm25.json": "7d5befd9e1f5424a5f6dfa8e57e2549f3de8c91a94ee7565d204729ceab47613",
+    "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/code/results/replicate_ring.json": "757ba6d219d5df4714869f13b2fed8f3a467b949f3bdc9f8adac000c4194eec2",
+    "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/code/results/attainable_ring.json": "87d9a77042f96407b191fc4e1b3c8c9bdf085e49d68819304d9843e1c463b515",
+    "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/code/results/volume3d/tangaroa-paper-p10-full201/parameters.json": "7e85a1130deba7c3bd2233c8110da43e74e3e7350f5729227682a0e9a02b12dc",
+    "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/code/results/volume3d/tangaroa-paper-p10-full201/frame_metrics.json": "9008832c03acb1ef4f3c74c99a1ef35b47b38431c6210c0c50505fe8b1037d98",
+    "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/code/results/volume3d/tangaroa-paper-p10-full201/metrics.json": "210642062832b9d1751103badf010acd8d82c58a6277f2816d94deecf090508e",
+    "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/code/results/volume3d/tangaroa-paper-p10-full201/protocol.json": "8f68acbded19a1b01900f3cb3795f6a42d268dba5b02fdb9c4615bcb596d44a3",
+    "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/code/results/volume3d/tangaroa-paper-p10-full201/features.json": "caf360a5dfa8571d35b2e39edf11e8703e480d6df06dbd8951c00eda447b5890",
+    "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/code/results/paper1_suite/square-cylinder3d/parameters.json": "9e041735b2c1050ce537bc5b79ced8461e7cd7cc7defa29738c166fe8281df6f",
+    "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/code/results/paper1_suite/square-cylinder3d/frame_metrics.json": "b6fc6f54e902e0d569c9b2da986826c5ca19db87007ed3c98884a58fec2bb331",
+    "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/code/results/paper1_suite/square-cylinder3d/metrics.json": "c59de9dc71ec5c5b0f7348f5ad381b67d4cccbba48feb0b27e7e607050e3b933",
+    "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/code/results/paper1_suite/square-cylinder3d/protocol.json": "0fdb3ef56c207d7e913a9eef7b557b1012a6ab451076be07672f86bf05257b1c",
+    "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/code/results/paper1_suite/square-cylinder3d/features.json": "88fd516148a96c0c57999eb06247ef8e4a1c1feb878fa9f45399a07668ceda90",
+    "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/code/results/paper1_suite/nucleon/parameters.json": "5ba6b714dcedb091a9cd3c551fe57f8abdb784048bf3214f01936b77c97e94e1",
+    "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/code/results/paper1_suite/nucleon/frame_metrics.json": "2f416d0157c5540e24741cdbc570dd757303300a26dba49456f9d9e5bd634d4d",
+    "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/code/results/paper1_suite/nucleon/metrics.json": "f9550716a7d6f42f31e54db99cf83f31ea39e3accd32a4e8b9b866c3931d64fd",
+    "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/code/results/paper1_suite/nucleon/protocol.json": "e431b3533cf99c5e68d2f9a8322f0e32025ae62e78b6232e4fcb170a5617ba6a",
+    "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/code/results/paper1_suite/nucleon/features.json": "658e196cafb0f66d499bcce5e294fc0686874a50f738bbcd5f2600f7797f97c8",
+    "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/code/results/paper1_suite/benzene-potential-reconstructed2d/parameters.json": "d4c296c70894db0a8314332a1616d7370a23c4e111bc13cec21f56bf33329f30",
+    "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/code/results/paper1_suite/benzene-potential-reconstructed2d/frame_metrics.json": "d92003c1af6e1ee12d6cf9c3f8b7de6ad2ae87fe6408db209b15f9aa378c7ea4",
+    "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/code/results/paper1_suite/benzene-potential-reconstructed2d/metrics.json": "8ebd8faea42f3117fc2b18314c18e260d7a35e701add25b3967f3662f729b77d",
+    "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/code/results/paper1_suite/benzene-potential-reconstructed2d/protocol.json": "2d188cff67fbc4c7ba91f775bb41fee8b5278d610310645d8bd78fa9783993f2",
+    "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/code/results/paper1_suite/benzene-potential-reconstructed2d/features.json": "d108b2b6099cbbe2270f14203abaa0000087debb2c8669c83977d4a95bfd3f8e",
+    "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/code/results/paper1_suite/square-cylinder3d/motion.json": "2377f27f25194970a457945d5fefdb662f2c45cd906501ef944c4f5f9b166135"
+  }
+}

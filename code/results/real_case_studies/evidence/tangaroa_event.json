@@ -1,0 +1,811 @@
+{
+  "case": "tangaroa",
+  "selection": {
+    "t": 140,
+    "witness": [
+      9,
+      16,
+      24
+    ],
+    "node": 182010,
+    "bound": 0.0854500980666667,
+    "tracks": [
+      432,
+      462,
+      388
+    ],
+    "persistent_three_frames": true,
+    "H": 0.1374416505655397,
+    "gain": 0.13744130257793488,
+    "errorP": 0.1476048264047157,
+    "errorR": 0.010163523826780806,
+    "delta": 0.2750041335821152,
+    "rule": "Among H_lower>2% frames with a three-frame matched witness triple and positive measured relaxation cost, choose largest achieved P-to-R max-error reduction (earliest tie). Descriptive selection biased toward visible relaxation benefit.",
+    "snapshots": [
+      139,
+      140,
+      141
+    ],
+    "window": [
+      135,
+      146
+    ]
+  },
+  "reference_direction": [
+    0.10195406000411567,
+    -0.9945466284062868,
+    -0.021963004675231233
+  ],
+  "reference_origin": -0.3274590081207572,
+  "reference_extent": 0.703074637982934,
+  "frame_metrics": {
+    "F": 0.0018267092094337955,
+    "H": 0.1374416505655397,
+    "full_interval_certificate": 0.13926835977497348,
+    "witness_width_free": 0.1215377336207381,
+    "achieved_max_P": 0.1476048264047157,
+    "achieved_max_R": 0.010163523826780806,
+    "actual_max_merge_error": 0.2750041335821152,
+    "actual_NMLE": 0.1375020667910576,
+    "kappa_eligibility": 0.2,
+    "NROE": {
+      "TMTM": 0.15528751417397826,
+      "P": 0.13495015967219576,
+      "R": 0.005316881109285021
+    }
+  },
+  "observations": [
+    {
+      "frame": 135,
+      "date": "1.35",
+      "label": "A",
+      "track_id": 432,
+      "leaf_id": 577556,
+      "coordinate": [
+        -0.16270903010033444,
+        0.11899441340782124,
+        -0.4831932773109244
+      ],
+      "scalar": 0.0019808404613286257,
+      "reference": -0.12432196266337331,
+      "reference_normalized": 0.2889267148651075,
+      "anchor_TMTM": 0.5092928255081521,
+      "anchor_P": 0.37163064293398235,
+      "anchor_R": 0.28016113404185516
+    },
+    {
+      "frame": 135,
+      "date": "1.35",
+      "label": "B",
+      "track_id": 462,
+      "leaf_id": 874988,
+      "coordinate": [
+        0.2787625418060201,
+        -0.1793296089385475,
+        -0.473109243697479
+      ],
+      "scalar": 0.33097729086875916,
+      "reference": 0.21716353138866396,
+      "reference_normalized": 0.7746297620291075,
+      "anchor_TMTM": 0.5318294030600931,
+      "anchor_P": 0.6580097809584119,
+      "anchor_R": 0.7914489093697309
+    },
+    {
+      "frame": 135,
+      "date": "1.35",
+      "label": "C",
+      "track_id": 388,
+      "leaf_id": 2673850,
+      "coordinate": [
+        0.48612040133779266,
+        0.008379888268156443,
+        -0.4176470588235294
+      ],
+      "scalar": 0.36233431100845337,
+      "reference": 0.05040054324923946,
+      "reference_normalized": 0.537438745414066,
+      "anchor_TMTM": 0.4674499178163453,
+      "anchor_P": 0.6678594044449192,
+      "anchor_R": 0.5472301271829771
+    },
+    {
+      "frame": 136,
+      "date": "1.36",
+      "label": "A",
+      "track_id": 432,
+      "leaf_id": 354351,
+      "coordinate": [
+        -0.17943143812709028,
+        0.03854748603351954,
+        -0.4899159663865546
+      ],
+      "scalar": 0.0020237304270267487,
+      "reference": -0.04587100921739108,
+      "reference_normalized": 0.40050939642940325,
+      "anchor_TMTM": 0.5086315599740062,
+      "anchor_P": 0.47162225053596907,
+      "anchor_R": 0.38586720174561884
+    },
+    {
+      "frame": 136,
+      "date": "1.36",
+      "label": "B",
+      "track_id": 462,
+      "leaf_id": 874990,
+      "coordinate": [
+        0.28545150501672245,
+        -0.1793296089385475,
+        -0.473109243697479
+      ],
+      "scalar": 0.34321340918540955,
+      "reference": 0.21784549834521325,
+      "reference_normalized": 0.7755997400651604,
+      "anchor_TMTM": 0.5318292487390816,
+      "anchor_P": 0.7210290605854843,
+      "anchor_R": 0.7902434558369128
+    },
+    {
+      "frame": 136,
+      "date": "1.36",
+      "label": "C",
+      "track_id": 388,
+      "leaf_id": 2673851,
+      "coordinate": [
+        0.48946488294314383,
+        0.008379888268156443,
+        -0.4176470588235294
+      ],
+      "scalar": 0.37230783700942993,
+      "reference": 0.0507415267275141,
+      "reference_normalized": 0.5379237344320923,
+      "anchor_TMTM": 0.46714822023892294,
+      "anchor_P": 0.4189637677289408,
+      "anchor_R": 0.5487483882781088
+    },
+    {
+      "frame": 137,
+      "date": "1.37",
+      "label": "A",
+      "track_id": 432,
+      "leaf_id": 358861,
+      "coordinate": [
+        -0.14598662207357857,
+        0.08882681564245809,
+        -0.4899159663865546
+      ],
+      "scalar": 0.0011530258925631642,
+      "reference": -0.09246631217574297,
+      "reference_normalized": 0.3342357741977293,
+      "anchor_TMTM": 0.50807739322182,
+      "anchor_P": 0.38282305010261614,
+      "anchor_R": 0.320688786993309
+    },
+    {
+      "frame": 137,
+      "date": "1.37",
+      "label": "B",
+      "track_id": 462,
+      "leaf_id": 820692,
+      "coordinate": [
+        0.2921404682274248,
+        -0.18268156424581006,
+        -0.47478991596638653
+      ],
+      "scalar": 0.3563292622566223,
+      "reference": 0.22189805376406857,
+      "reference_normalized": 0.7813637872941742,
+      "anchor_TMTM": 0.5315141252336613,
+      "anchor_P": 0.6637547588711462,
+      "anchor_R": 0.7949126809133982
+    },
+    {
+      "frame": 137,
+      "date": "1.37",
+      "label": "C",
+      "track_id": 388,
+      "leaf_id": 2673852,
+      "coordinate": [
+        0.492809364548495,
+        0.008379888268156443,
+        -0.4176470588235294
+      ],
+      "scalar": 0.3886026442050934,
+      "reference": 0.05108251020578873,
+      "reference_normalized": 0.5384087234501188,
+      "anchor_TMTM": 0.46693448563803797,
+      "anchor_P": 0.6726812185761916,
+      "anchor_R": 0.547657376536381
+    },
+    {
+      "frame": 138,
+      "date": "1.38",
+      "label": "A",
+      "track_id": 432,
+      "leaf_id": 469559,
+      "coordinate": [
+        -0.1526755852842809,
+        0.11899441340782124,
+        -0.4865546218487395
+      ],
+      "scalar": 0.0019380910089239478,
+      "reference": -0.12322518700275031,
+      "reference_normalized": 0.2904866853168501,
+      "anchor_TMTM": 0.507806096883657,
+      "anchor_P": 0.3534115097924026,
+      "anchor_R": 0.27831480647893125
+    },
+    {
+      "frame": 138,
+      "date": "1.38",
+      "label": "B",
+      "track_id": 462,
+      "leaf_id": 1307894,
+      "coordinate": [
+        0.2988294314381271,
+        -0.16927374301675976,
+        -0.45966386554621846
+      ],
+      "scalar": 0.363808274269104,
+      "reference": 0.2089131038068957,
+      "reference_normalized": 0.7628949800642253,
+      "anchor_TMTM": 0.5313815634848091,
+      "anchor_P": 0.6548282991661009,
+      "anchor_R": 0.7758848257814467
+    },
+    {
+      "frame": 138,
+      "date": "1.38",
+      "label": "C",
+      "track_id": 388,
+      "leaf_id": 2673853,
+      "coordinate": [
+        0.49615384615384617,
+        0.008379888268156443,
+        -0.4176470588235294
+      ],
+      "scalar": 0.408333420753479,
+      "reference": 0.05142349368406336,
+      "reference_normalized": 0.5388937124681452,
+      "anchor_TMTM": 0.4665324794031604,
+      "anchor_P": 0.6636326876273165,
+      "anchor_R": 0.5518840933539837
+    },
+    {
+      "frame": 139,
+      "date": "1.39",
+      "label": "A",
+      "track_id": 432,
+      "leaf_id": 361559,
+      "coordinate": [
+        -0.1526755852842809,
+        0.11899441340782124,
+        -0.4899159663865546
+      ],
+      "scalar": 0.0008847879944369197,
+      "reference": -0.12315136177695121,
+      "reference_normalized": 0.2905916887145134,
+      "anchor_TMTM": 0.5076753869869425,
+      "anchor_P": 0.3441493541668256,
+      "anchor_R": 0.2804052765295145
+    },
+    {
+      "frame": 139,
+      "date": "1.39",
+      "label": "B",
+      "track_id": 462,
+      "leaf_id": 1307896,
+      "coordinate": [
+        0.30551839464882946,
+        -0.16927374301675976,
+        -0.45966386554621846
+      ],
+      "scalar": 0.3734132647514343,
+      "reference": 0.20959507076344497,
+      "reference_normalized": 0.7638649581002782,
+      "anchor_TMTM": 0.5302070262665164,
+      "anchor_P": 0.6498920432437382,
+      "anchor_R": 0.7740537571240015
+    },
+    {
+      "frame": 139,
+      "date": "1.39",
+      "label": "C",
+      "track_id": 388,
+      "leaf_id": 2674450,
+      "coordinate": [
+        0.48612040133779266,
+        0.015083798882681576,
+        -0.4176470588235294
+      ],
+      "scalar": 0.4201922118663788,
+      "reference": 0.043733191550426376,
+      "reference_normalized": 0.5279556104258075,
+      "anchor_TMTM": 0.4662224484911186,
+      "anchor_P": 0.6585972488193422,
+      "anchor_R": 0.5381434489704053
+    },
+    {
+      "frame": 140,
+      "date": "1.40",
+      "label": "A",
+      "track_id": 432,
+      "leaf_id": 361559,
+      "coordinate": [
+        -0.1526755852842809,
+        0.11899441340782124,
+        -0.4899159663865546
+      ],
+      "scalar": 0.0005419803783297539,
+      "reference": -0.12315136177695121,
+      "reference_normalized": 0.2905916887145134,
+      "anchor_TMTM": 0.507631868461708,
+      "anchor_P": 0.34792593327280635,
+      "anchor_R": 0.2804281648877326
+    },
+    {
+      "frame": 140,
+      "date": "1.40",
+      "label": "B",
+      "track_id": 462,
+      "leaf_id": 981499,
+      "coordinate": [
+        0.31555183946488297,
+        -0.19608938547486032,
+        -0.46974789915966386
+      ],
+      "scalar": 0.38658595085144043,
+      "reference": 0.23750890367091854,
+      "reference_normalized": 0.8035674753003811,
+      "anchor_TMTM": 0.5293766249038001,
+      "anchor_P": 0.6726354418597554,
+      "anchor_R": 0.8137269113686475
+    },
+    {
+      "frame": 140,
+      "date": "1.40",
+      "label": "C",
+      "track_id": 388,
+      "leaf_id": 2674152,
+      "coordinate": [
+        0.492809364548495,
+        0.01173184357541901,
+        -0.4176470588235294
+      ],
+      "scalar": 0.42498889565467834,
+      "reference": 0.04774883435638219,
+      "reference_normalized": 0.5336671559559896,
+      "anchor_TMTM": 0.4658597941141658,
+      "anchor_P": 0.6812719823607053,
+      "anchor_R": 0.5438273912612248
+    },
+    {
+      "frame": 141,
+      "date": "1.41",
+      "label": "A",
+      "track_id": 432,
+      "leaf_id": 361559,
+      "coordinate": [
+        -0.1526755852842809,
+        0.11899441340782124,
+        -0.4899159663865546
+      ],
+      "scalar": 0.000779009482357651,
+      "reference": -0.12315136177695121,
+      "reference_normalized": 0.2905916887145134,
+      "anchor_TMTM": 0.507059028867134,
+      "anchor_P": 0.3471935058098283,
+      "anchor_R": 0.2800466922507649
+    },
+    {
+      "frame": 141,
+      "date": "1.41",
+      "label": "B",
+      "track_id": 462,
+      "leaf_id": 1361601,
+      "coordinate": [
+        0.3222408026755853,
+        -0.17262569832402233,
+        -0.4579831932773109
+      ],
+      "scalar": 0.40246838331222534,
+      "reference": 0.21459675139132514,
+      "reference_normalized": 0.770978968985708,
+      "anchor_TMTM": 0.5284848037785191,
+      "anchor_P": 0.6566135911071099,
+      "anchor_R": 0.78152299135583
+    },
+    {
+      "frame": 141,
+      "date": "1.41",
+      "label": "C",
+      "track_id": 388,
+      "leaf_id": 2674153,
+      "coordinate": [
+        0.49615384615384617,
+        0.01173184357541901,
+        -0.4176470588235294
+      ],
+      "scalar": 0.4593837559223175,
+      "reference": 0.04808981783465682,
+      "reference_normalized": 0.534152144974016,
+      "anchor_TMTM": 0.46529683106432573,
+      "anchor_P": 0.6651814665334055,
+      "anchor_R": 0.5446971488735113
+    },
+    {
+      "frame": 142,
+      "date": "1.42",
+      "label": "A",
+      "track_id": 432,
+      "leaf_id": 354351,
+      "coordinate": [
+        -0.17943143812709028,
+        0.03854748603351954,
+        -0.4899159663865546
+      ],
+      "scalar": 0.0019732038490474224,
+      "reference": -0.04587100921739108,
+      "reference_normalized": 0.40050939642940325,
+      "anchor_TMTM": 0.5058414360866413,
+      "anchor_P": 0.3676251802458209,
+      "anchor_R": 0.38994132950843435
+    },
+    {
+      "frame": 142,
+      "date": "1.42",
+      "label": "C",
+      "track_id": 388,
+      "leaf_id": 2781857,
+      "coordinate": [
+        0.5095317725752508,
+        0.008379888268156443,
+        -0.41428571428571426
+      ],
+      "scalar": 0.540599524974823,
+      "reference": 0.0527136023713628,
+      "reference_normalized": 0.5407286651425877,
+      "anchor_TMTM": 0.464725071716832,
+      "anchor_P": 0.6619770963828765,
+      "anchor_R": 0.5512966254930535
+    },
+    {
+      "frame": 143,
+      "date": "1.43",
+      "label": "A",
+      "track_id": 432,
+      "leaf_id": 361558,
+      "coordinate": [
+        -0.15602006688963208,
+        0.11899441340782124,
+        -0.4899159663865546
+      ],
+      "scalar": 0.0006164259393699467,
+      "reference": -0.12349234525522584,
+      "reference_normalized": 0.290106699696487,
+      "anchor_TMTM": 0.505237577968762,
+      "anchor_P": 0.37681867079674375,
+      "anchor_R": 0.2802603169274668
+    },
+    {
+      "frame": 143,
+      "date": "1.43",
+      "label": "C",
+      "track_id": 388,
+      "leaf_id": 25753,
+      "coordinate": [
+        0.49615384615384617,
+        -0.015083798882681576,
+        -0.5
+      ],
+      "scalar": 0.5271118879318237,
+      "reference": 0.0765679426619871,
+      "reference_normalized": 0.5746572681698005,
+      "anchor_TMTM": 0.4639617999941049,
+      "anchor_P": 0.6804403720121156,
+      "anchor_R": 0.580967567196405
+    },
+    {
+      "frame": 144,
+      "date": "1.44",
+      "label": "A",
+      "track_id": 432,
+      "leaf_id": 354351,
+      "coordinate": [
+        -0.17943143812709028,
+        0.03854748603351954,
+        -0.4899159663865546
+      ],
+      "scalar": 0.0019430432002991438,
+      "reference": -0.04587100921739108,
+      "reference_normalized": 0.40050939642940325,
+      "anchor_TMTM": 0.5044954482246062,
+      "anchor_P": 0.4819296411868376,
+      "anchor_R": 0.39046776174744985
+    },
+    {
+      "frame": 144,
+      "date": "1.44",
+      "label": "C",
+      "track_id": 388,
+      "leaf_id": 26654,
+      "coordinate": [
+        0.49949832775919734,
+        -0.005027932960893822,
+        -0.5
+      ],
+      "scalar": 0.5469836592674255,
+      "reference": 0.06690789859204205,
+      "reference_normalized": 0.5609175547054391,
+      "anchor_TMTM": 0.4633804727439001,
+      "anchor_P": 0.4623066887412166,
+      "anchor_R": 0.5709577252023712
+    },
+    {
+      "frame": 145,
+      "date": "1.45",
+      "label": "A",
+      "track_id": 432,
+      "leaf_id": 354351,
+      "coordinate": [
+        -0.17943143812709028,
+        0.03854748603351954,
+        -0.4899159663865546
+      ],
+      "scalar": 0.0019331284565851092,
+      "reference": -0.04587100921739108,
+      "reference_normalized": 0.40050939642940325,
+      "anchor_TMTM": 0.503350386319504,
+      "anchor_P": 0.4497257211740202,
+      "anchor_R": 0.3894072678166795
+    },
+    {
+      "frame": 145,
+      "date": "1.45",
+      "label": "C",
+      "track_id": 388,
+      "leaf_id": 27551,
+      "coordinate": [
+        0.48946488294314383,
+        0.005027932960893877,
+        -0.5
+      ],
+      "scalar": 0.5593451261520386,
+      "reference": 0.05588392060899851,
+      "reference_normalized": 0.5452378851689722,
+      "anchor_TMTM": 0.46279081215907597,
+      "anchor_P": 0.4303240228578404,
+      "anchor_R": 0.556339693753767
+    }
+  ],
+  "matching_links": [
+    {
+      "frame": 135,
+      "track": 432,
+      "previous_leaf": 685558,
+      "current_leaf": 577556,
+      "overlap_voxels": 34412
+    },
+    {
+      "frame": 135,
+      "track": 462,
+      "previous_leaf": 875286,
+      "current_leaf": 874988,
+      "overlap_voxels": 2228
+    },
+    {
+      "frame": 135,
+      "track": 388,
+      "previous_leaf": 2619848,
+      "current_leaf": 2673850,
+      "overlap_voxels": 19859
+    },
+    {
+      "frame": 136,
+      "track": 432,
+      "previous_leaf": 577556,
+      "current_leaf": 354351,
+      "overlap_voxels": 32408
+    },
+    {
+      "frame": 136,
+      "track": 462,
+      "previous_leaf": 874988,
+      "current_leaf": 874990,
+      "overlap_voxels": 2015
+    },
+    {
+      "frame": 136,
+      "track": 388,
+      "previous_leaf": 2673850,
+      "current_leaf": 2673851,
+      "overlap_voxels": 22169
+    },
+    {
+      "frame": 137,
+      "track": 432,
+      "previous_leaf": 354351,
+      "current_leaf": 358861,
+      "overlap_voxels": 32203
+    },
+    {
+      "frame": 137,
+      "track": 462,
+      "previous_leaf": 874990,
+      "current_leaf": 820692,
+      "overlap_voxels": 1860
+    },
+    {
+      "frame": 137,
+      "track": 388,
+      "previous_leaf": 2673851,
+      "current_leaf": 2673852,
+      "overlap_voxels": 24132
+    },
+    {
+      "frame": 138,
+      "track": 432,
+      "previous_leaf": 358861,
+      "current_leaf": 469559,
+      "overlap_voxels": 33111
+    },
+    {
+      "frame": 138,
+      "track": 462,
+      "previous_leaf": 820692,
+      "current_leaf": 1307894,
+      "overlap_voxels": 1701
+    },
+    {
+      "frame": 138,
+      "track": 388,
+      "previous_leaf": 2673852,
+      "current_leaf": 2673853,
+      "overlap_voxels": 20941
+    },
+    {
+      "frame": 139,
+      "track": 432,
+      "previous_leaf": 469559,
+      "current_leaf": 361559,
+      "overlap_voxels": 35129
+    },
+    {
+      "frame": 139,
+      "track": 462,
+      "previous_leaf": 1307894,
+      "current_leaf": 1307896,
+      "overlap_voxels": 1548
+    },
+    {
+      "frame": 139,
+      "track": 388,
+      "previous_leaf": 2673853,
+      "current_leaf": 2674450,
+      "overlap_voxels": 16083
+    },
+    {
+      "frame": 140,
+      "track": 432,
+      "previous_leaf": 361559,
+      "current_leaf": 361559,
+      "overlap_voxels": 38982
+    },
+    {
+      "frame": 140,
+      "track": 462,
+      "previous_leaf": 1307896,
+      "current_leaf": 981499,
+      "overlap_voxels": 1410
+    },
+    {
+      "frame": 140,
+      "track": 388,
+      "previous_leaf": 2674450,
+      "current_leaf": 2674152,
+      "overlap_voxels": 12609
+    },
+    {
+      "frame": 141,
+      "track": 432,
+      "previous_leaf": 361559,
+      "current_leaf": 361559,
+      "overlap_voxels": 36189
+    },
+    {
+      "frame": 141,
+      "track": 462,
+      "previous_leaf": 981499,
+      "current_leaf": 1361601,
+      "overlap_voxels": 1250
+    },
+    {
+      "frame": 141,
+      "track": 388,
+      "previous_leaf": 2674152,
+      "current_leaf": 2674153,
+      "overlap_voxels": 9457
+    },
+    {
+      "frame": 142,
+      "track": 432,
+      "previous_leaf": 361559,
+      "current_leaf": 354351,
+      "overlap_voxels": 39339
+    },
+    {
+      "frame": 142,
+      "track": 388,
+      "previous_leaf": 2674153,
+      "current_leaf": 2781857,
+      "overlap_voxels": 8437
+    },
+    {
+      "frame": 143,
+      "track": 432,
+      "previous_leaf": 354351,
+      "current_leaf": 361558,
+      "overlap_voxels": 49011
+    },
+    {
+      "frame": 143,
+      "track": 388,
+      "previous_leaf": 2781857,
+      "current_leaf": 25753,
+      "overlap_voxels": 10171
+    },
+    {
+      "frame": 144,
+      "track": 432,
+      "previous_leaf": 361558,
+      "current_leaf": 354351,
+      "overlap_voxels": 42428
+    },
+    {
+      "frame": 144,
+      "track": 388,
+      "previous_leaf": 25753,
+      "current_leaf": 26654,
+      "overlap_voxels": 80883
+    },
+    {
+      "frame": 145,
+      "track": 432,
+      "previous_leaf": 354351,
+      "current_leaf": 354351,
+      "overlap_voxels": 37500
+    },
+    {
+      "frame": 145,
+      "track": 388,
+      "previous_leaf": 26654,
+      "current_leaf": 27551,
+      "overlap_voxels": 70461
+    }
+  ],
+  "pair_merge_levels": [
+    {
+      "pair": "AB",
+      "lca_node": 182010,
+      "true": 0.7134031057357788,
+      "P": 0.7134031057357788,
+      "R": 0.988407239317894
+    },
+    {
+      "pair": "AC",
+      "lca_node": 27531,
+      "true": 0.8699229955673218,
+      "P": 0.8699229955673218,
+      "R": 0.5949188619852066
+    },
+    {
+      "pair": "BC",
+      "lca_node": 27531,
+      "true": 0.8699229955673218,
+      "P": 0.8699229955673218,
+      "R": 0.988407239317894
+    }
+  ],
+  "identity_scope": "computed positive-overlap Hungarian scalar-feature assignment; not physical entity truth",
+  "baseline_vertical_semantics": "TMTM full native sample-rank domain; ST-MTM full shared discretized native domain; RG fixed physical directional reference domain. Baselines are not geographical coordinates."
+}

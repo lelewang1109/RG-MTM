@@ -1,0 +1,19 @@
+\begin{table*}[t]
+\caption{Reference-order error, motion-proxy error, and measured merge-level cost for all nine inputs under the same definitions.}\label{tab:tradeoff}
+\centering\footnotesize\setlength{\tabcolsep}{4pt}
+\begin{tabular}{lrrrrrrrrrrr}\toprule
+ & & \multicolumn{2}{c}{TMTM} & \multicolumn{2}{c}{ST-MTM} & \multicolumn{2}{c}{RG-MTM-P (ours)} & \multicolumn{4}{c}{RG-MTM-R (ours)}\\
+\cmidrule(lr){3-4}\cmidrule(lr){5-6}\cmidrule(lr){7-8}\cmidrule(lr){9-12}
+Data & $N_{\rm clear}$ & NROE$\downarrow$ & ME$\downarrow$ & NROE$\downarrow$ & ME$\downarrow$ & NROE$\downarrow$ & ME$\downarrow$ & NROE$\downarrow$ & ME$\downarrow$ & NMLE$_{\rm mean}\downarrow$ & NMLE$_{\rm max}\downarrow$\\\midrule
+Storms & 104 & 19.23 & 0.471 & 16.28 & 0.413 & 3.77 & 0.231 & 1.16 & 0.183 & 1.47 & 26.07\\
+Wildfires & 112 & 29.30 & 0.393 & 24.02 & 0.357 & 5.83 & 0.321 & 0.34 & 0.312 & 3.96 & 19.56\\
+OLR & 56 & 19.31 & 0.446 & 17.21 & 0.214 & 0.89 & 0.054 & 0.00 & 0.054 & 1.10 & 33.56\\
+PM2.5 & 95 & 12.87 & 0.453 & 11.60 & 0.516 & 0.98 & 0.442 & 0.01 & 0.495 & 0.18 & 4.67\\
+Ring & 124 & 7.18 & 0.645 & 10.39 & 0.347 & 2.66 & 0.315 & 0.13 & 0.129 & 2.73 & 12.35\\
+Tangaroa & 6755 & 20.09 & 0.975 & n/r & -- & 9.61 & 0.547 & 0.02 & 0.305 & 14.44 & 31.02\\
+Cylinder & 3196 & 26.62 & 0.670 & n/r & -- & 12.26 & 0.373 & 0.08 & 0.189 & 2.81 & 14.28\\
+Nucleon & -- & 11.9048 & -- & n/r & -- & 2.3810 & -- & 2.3810 & -- & 0.0000 & 0.0000\\
+Benzene & -- & 50.0000 & -- & n/r & -- & 4.2063 & -- & 0.0000 & -- & 0.0025 & 0.0080\\
+\bottomrule\end{tabular}
+\par\smallskip{\footnotesize\raggedright NROE: \% of reference extent; NMLE: \% of the processed scalar range; ME: error fraction over the row's shared $N_{\rm clear}$ two-step events at 2\% thresholds. Spatial truth is two-dimensional for Storms, Wildfires, OLR, PM2.5, and Ring, and three-dimensional for Tangaroa and Cylinder. -- denotes inapplicable motion; n/r means ST-MTM was not run. Nucleon is static and Benzene comprises static reconstructed sections. TMTM, ST-MTM, and P preserve source merge levels. R uses $\kappa/\Delta_F=0.20$, a node-eligibility threshold; mean and maximum NMLE disclose the achieved cost.\par}
+\end{table*}

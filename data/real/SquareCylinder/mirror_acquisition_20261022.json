@@ -1,0 +1,11 @@
+{
+  "url": "https://people.kth.se/~weinkauf/datasets/SquareCylinder.7z",
+  "expected_bytes": 542415447,
+  "old_partial_preserved": true,
+  "status": "complete_extracted",
+  "downloaded_new_bytes": 217633116,
+  "reused_prefix_bytes": 324782331,
+  "archive_sha256": "c93cd4289f73f64d395b55edf334603c6ec71d939aca2bc656399c4b324cc7ff",
+  "bytes": 542415447,
+  "unpacked_files": 108
+}

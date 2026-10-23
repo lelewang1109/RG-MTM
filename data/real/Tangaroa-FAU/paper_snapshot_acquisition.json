@@ -1,0 +1,33 @@
+{
+  "source_url": "https://gofile.me/6LCdM/B0QjKMfKX",
+  "archive_bytes": 14157973031,
+  "source_archive_volumes": 201,
+  "inventory_sha256": "0a441d49bca4c9b178bcd8987bae2ee063ff8ff8046a7e3b51bded352e197ac6",
+  "fetch_source_sha256": "e6554e3c7e9faed95e8cfe5ebeb22ddb9d060ae55d1b05522258838f6461b63e",
+  "records": [
+    {
+      "paper_index": 0,
+      "filename": "tangaroa-0.00.am",
+      "source_time": 0.0,
+      "bytes": 77760272,
+      "crc32": 4160470825,
+      "sha256": "4058826172581e1c055a69c62e9fc84bc19cb4e0da4d6b8b3ad106586d31c580"
+    },
+    {
+      "paper_index": 100,
+      "filename": "tangaroa-1.00.am",
+      "source_time": 1.0,
+      "bytes": 77760272,
+      "crc32": 1384038721,
+      "sha256": "312012f6cdcae61141961787e522f619ae9f36fef8d173fab6337976d6b3117e"
+    },
+    {
+      "paper_index": 200,
+      "filename": "tangaroa-2.00.am",
+      "source_time": 2.0,
+      "bytes": 77760272,
+      "crc32": 3032147214,
+      "sha256": "334b1726bca9bb612baeaf832dc00be8976d1b364e7f03e635cbc91c93c7a3e3"
+    }
+  ]
+}

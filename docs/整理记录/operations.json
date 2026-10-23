@@ -1,0 +1,4720 @@
+[
+  {
+    "action": "move",
+    "source": "paper_revision",
+    "destination": "RG-MTM/paper",
+    "reason": "当前论文、可编辑图与证据"
+  },
+  {
+    "action": "move",
+    "source": "02-RG-MTM",
+    "destination": "RG-MTM/code",
+    "reason": "完整方法仓库；保留Git与依赖相对布局"
+  },
+  {
+    "action": "move",
+    "source": "00-data",
+    "destination": "RG-MTM/data",
+    "reason": "投稿实验共享数据"
+  },
+  {
+    "action": "move",
+    "source": "01-RA-MTM",
+    "destination": "其他/RA-MTM",
+    "reason": "独立早期方法"
+  },
+  {
+    "action": "move",
+    "source": "04-paper/references",
+    "destination": "RG-MTM/references",
+    "reason": "参考论文"
+  },
+  {
+    "action": "move",
+    "source": "04-paper",
+    "destination": "其他/归档/旧论文",
+    "reason": "已被当前投稿材料替代或属于构建/历史记录"
+  },
+  {
+    "action": "move",
+    "source": "03-figures",
+    "destination": "其他/归档/旧配图",
+    "reason": "已被当前投稿材料替代或属于构建/历史记录"
+  },
+  {
+    "action": "move",
+    "source": "05-docs",
+    "destination": "其他/归档/旧说明",
+    "reason": "已被当前投稿材料替代或属于构建/历史记录"
+  },
+  {
+    "action": "move",
+    "source": "99-archive",
+    "destination": "其他/归档/既有归档",
+    "reason": "已被当前投稿材料替代或属于构建/历史记录"
+  },
+  {
+    "action": "move",
+    "source": "output",
+    "destination": "其他/归档/PPT历史草稿",
+    "reason": "已被当前投稿材料替代或属于构建/历史记录"
+  },
+  {
+    "action": "move",
+    "source": "tmp",
+    "destination": "其他/归档/临时文件",
+    "reason": "已被当前投稿材料替代或属于构建/历史记录"
+  },
+  {
+    "action": "move",
+    "source": ".codex-build",
+    "destination": "其他/归档/构建缓存",
+    "reason": "已被当前投稿材料替代或属于构建/历史记录"
+  },
+  {
+    "action": "move",
+    "source": "讨论.md",
+    "destination": "其他/归档/历史讨论.md",
+    "reason": "混有过时进展；当前边界另写统一索引"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/code/tmp",
+    "destination": "其他/归档/代码临时",
+    "reason": "临时日志与中间渲染"
+  },
+  {
+    "action": "move",
+    "source": "其他/归档/代码临时/volume3d/native-build",
+    "destination": "RG-MTM/code/tmp/volume3d/native-build",
+    "reason": "保留原网格三维复现需要的pinned TTK源代码和运行环境"
+  },
+  {
+    "action": "move",
+    "source": "其他/归档/代码临时/volume3d/native-build-manifest.json",
+    "destination": "RG-MTM/code/tmp/volume3d/native-build-manifest.json",
+    "reason": "保留原网格三维复现需要的pinned TTK源代码和运行环境"
+  },
+  {
+    "action": "move",
+    "source": "其他/归档/代码临时/volume3d/ttk-0.9.9",
+    "destination": "RG-MTM/code/tmp/volume3d/ttk-0.9.9",
+    "reason": "保留原网格三维复现需要的pinned TTK源代码和运行环境"
+  },
+  {
+    "action": "move",
+    "source": "其他/归档/代码临时/volume3d/ttk-0.9.9.tar.gz",
+    "destination": "RG-MTM/code/tmp/volume3d/ttk-0.9.9.tar.gz",
+    "reason": "保留原网格三维复现需要的pinned TTK源代码和运行环境"
+  },
+  {
+    "action": "move",
+    "source": "其他/归档/代码临时/volume3d/ttk-build",
+    "destination": "RG-MTM/code/tmp/volume3d/ttk-build",
+    "reason": "保留原网格三维复现需要的pinned TTK源代码和运行环境"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/code/results/legacy_publication/pacificvis2027",
+    "destination": "其他/归档/历史或排除结果/legacy_publication/pacificvis2027",
+    "reason": "旧展示、试跑、错误替代或已被正式实验替代；禁止用于本次论文结论"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/code/results/legacy_publication/pacificvis2027-content-draft",
+    "destination": "其他/归档/历史或排除结果/legacy_publication/pacificvis2027-content-draft",
+    "reason": "旧展示、试跑、错误替代或已被正式实验替代；禁止用于本次论文结论"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/code/results/visualization_cache",
+    "destination": "其他/归档/历史或排除结果/visualization_cache",
+    "reason": "旧展示、试跑、错误替代或已被正式实验替代；禁止用于本次论文结论"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/code/results/paper1_suite/benzene-density",
+    "destination": "其他/归档/历史或排除结果/paper1_suite/benzene-density",
+    "reason": "旧展示、试跑、错误替代或已被正式实验替代；禁止用于本次论文结论"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/code/results/paper1_suite/cylinder2d",
+    "destination": "其他/归档/历史或排除结果/paper1_suite/cylinder2d",
+    "reason": "旧展示、试跑、错误替代或已被正式实验替代；禁止用于本次论文结论"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/code/results/paper1_suite/benzene-potential3d",
+    "destination": "其他/归档/历史或排除结果/paper1_suite/benzene-potential3d",
+    "reason": "旧展示、试跑、错误替代或已被正式实验替代；禁止用于本次论文结论"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/code/results/volume3d/tangaroa",
+    "destination": "其他/归档/历史或排除结果/volume3d/tangaroa",
+    "reason": "旧展示、试跑、错误替代或已被正式实验替代；禁止用于本次论文结论"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/code/results/volume3d/tangaroa-official",
+    "destination": "其他/归档/历史或排除结果/volume3d/tangaroa-official",
+    "reason": "旧展示、试跑、错误替代或已被正式实验替代；禁止用于本次论文结论"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/code/results/volume3d/cylinder",
+    "destination": "其他/归档/历史或排除结果/volume3d/cylinder",
+    "reason": "旧展示、试跑、错误替代或已被正式实验替代；禁止用于本次论文结论"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/code/results/fig_concept.pdf",
+    "destination": "其他/归档/旧结果配图/fig_concept.pdf",
+    "reason": "当前正文/附录图已由paper/FIGURE_INDEX.json确定"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/code/results/fig_concept.png",
+    "destination": "其他/归档/旧结果配图/fig_concept.png",
+    "reason": "当前正文/附录图已由paper/FIGURE_INDEX.json确定"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/code/results/fig_frontier_exact.pdf",
+    "destination": "其他/归档/旧结果配图/fig_frontier_exact.pdf",
+    "reason": "当前正文/附录图已由paper/FIGURE_INDEX.json确定"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/code/results/fig_frontier_exact.png",
+    "destination": "其他/归档/旧结果配图/fig_frontier_exact.png",
+    "reason": "当前正文/附录图已由paper/FIGURE_INDEX.json确定"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/code/results/fig_new_datasets.pdf",
+    "destination": "其他/归档/旧结果配图/fig_new_datasets.pdf",
+    "reason": "当前正文/附录图已由paper/FIGURE_INDEX.json确定"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/code/results/fig_new_datasets.png",
+    "destination": "其他/归档/旧结果配图/fig_new_datasets.png",
+    "reason": "当前正文/附录图已由paper/FIGURE_INDEX.json确定"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/code/results/fig_pipeline.pdf",
+    "destination": "其他/归档/旧结果配图/fig_pipeline.pdf",
+    "reason": "当前正文/附录图已由paper/FIGURE_INDEX.json确定"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/code/results/fig_pipeline.png",
+    "destination": "其他/归档/旧结果配图/fig_pipeline.png",
+    "reason": "当前正文/附录图已由paper/FIGURE_INDEX.json确定"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/code/results/fig_pm25_seasons.pdf",
+    "destination": "其他/归档/旧结果配图/fig_pm25_seasons.pdf",
+    "reason": "当前正文/附录图已由paper/FIGURE_INDEX.json确定"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/code/results/fig_pm25_seasons.png",
+    "destination": "其他/归档/旧结果配图/fig_pm25_seasons.png",
+    "reason": "当前正文/附录图已由paper/FIGURE_INDEX.json确定"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/code/results/fig_rq1.pdf",
+    "destination": "其他/归档/旧结果配图/fig_rq1.pdf",
+    "reason": "当前正文/附录图已由paper/FIGURE_INDEX.json确定"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/code/results/fig_rq1.png",
+    "destination": "其他/归档/旧结果配图/fig_rq1.png",
+    "reason": "当前正文/附录图已由paper/FIGURE_INDEX.json确定"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/code/results/fig_sfc_comparison.pdf",
+    "destination": "其他/归档/旧结果配图/fig_sfc_comparison.pdf",
+    "reason": "当前正文/附录图已由paper/FIGURE_INDEX.json确定"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/code/results/fig_sfc_comparison.png",
+    "destination": "其他/归档/旧结果配图/fig_sfc_comparison.png",
+    "reason": "当前正文/附录图已由paper/FIGURE_INDEX.json确定"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/code/results/fig_teaser.pdf",
+    "destination": "其他/归档/旧结果配图/fig_teaser.pdf",
+    "reason": "当前正文/附录图已由paper/FIGURE_INDEX.json确定"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/code/results/fig_teaser.png",
+    "destination": "其他/归档/旧结果配图/fig_teaser.png",
+    "reason": "当前正文/附录图已由paper/FIGURE_INDEX.json确定"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/code/results/fig_topo_price.pdf",
+    "destination": "其他/归档/旧结果配图/fig_topo_price.pdf",
+    "reason": "当前正文/附录图已由paper/FIGURE_INDEX.json确定"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/code/results/fig_topo_price.png",
+    "destination": "其他/归档/旧结果配图/fig_topo_price.png",
+    "reason": "当前正文/附录图已由paper/FIGURE_INDEX.json确定"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/code/results/fig_witness.pdf",
+    "destination": "其他/归档/旧结果配图/fig_witness.pdf",
+    "reason": "当前正文/附录图已由paper/FIGURE_INDEX.json确定"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/code/results/fig_witness.png",
+    "destination": "其他/归档/旧结果配图/fig_witness.png",
+    "reason": "当前正文/附录图已由paper/FIGURE_INDEX.json确定"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/code/results/dendrogram_demo.pdf",
+    "destination": "其他/归档/旧结果配图/dendrogram_demo.pdf",
+    "reason": "已有当前可编辑图母版"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/code/results/dendrogram_demo.png",
+    "destination": "其他/归档/旧结果配图/dendrogram_demo.png",
+    "reason": "已有当前可编辑图母版"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/code/publications",
+    "destination": "其他/归档/历史发布PDF",
+    "reason": "旧GitHub发布无图稿；不冒充当前本地投稿版"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/code/notes",
+    "destination": "其他/归档/历史代码写作笔记",
+    "reason": "历史修订与过时写作入口"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/generated",
+    "destination": "其他/其他研究数据/generated",
+    "reason": "非投稿输入、错误替代、派生中间数据或被完整下载替代的部分档案"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/Tangaroa-ECNR",
+    "destination": "其他/其他研究数据/real/Tangaroa-ECNR",
+    "reason": "非投稿输入、错误替代、派生中间数据或被完整下载替代的部分档案"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CTC-Fluo-N3DH-CHO",
+    "destination": "其他/其他研究数据/real/CTC-Fluo-N3DH-CHO",
+    "reason": "非投稿输入、错误替代、派生中间数据或被完整下载替代的部分档案"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis-csv",
+    "destination": "其他/其他研究数据/real/CN-Reanalysis-csv",
+    "reason": "非投稿输入、错误替代、派生中间数据或被完整下载替代的部分档案"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/paper1_suite/benzene-density",
+    "destination": "其他/其他研究数据/real/paper1_suite/benzene-density",
+    "reason": "非投稿输入、错误替代、派生中间数据或被完整下载替代的部分档案"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/paper1_suite/cylinder2d",
+    "destination": "其他/其他研究数据/real/paper1_suite/cylinder2d",
+    "reason": "非投稿输入、错误替代、派生中间数据或被完整下载替代的部分档案"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/ERA5_MSLP/.venv",
+    "destination": "其他/其他研究数据/real/ERA5_MSLP/.venv",
+    "reason": "非投稿输入、错误替代、派生中间数据或被完整下载替代的部分档案"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/SquareCylinder/SquareCylinder.7z.part",
+    "destination": "其他/其他研究数据/real/SquareCylinder/SquareCylinder.7z.part",
+    "reason": "非投稿输入、错误替代、派生中间数据或被完整下载替代的部分档案"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/SquareCylinder/mirror_chunks",
+    "destination": "其他/其他研究数据/real/SquareCylinder/mirror_chunks",
+    "reason": "非投稿输入、错误替代、派生中间数据或被完整下载替代的部分档案"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/RG-MTM-public-scalar/oisst_20240601_20240730.json",
+    "destination": "其他/其他研究数据/RG-MTM-public-scalar/oisst_20240601_20240730.json",
+    "reason": "已退出当前主实验的旧时间窗或数据集"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/RG-MTM-public-scalar/oisst_20240601_20240730.nc",
+    "destination": "其他/其他研究数据/RG-MTM-public-scalar/oisst_20240601_20240730.nc",
+    "reason": "已退出当前主实验的旧时间窗或数据集"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/RG-MTM-public-scalar/pm25_20000101_20000229.json",
+    "destination": "其他/其他研究数据/RG-MTM-public-scalar/pm25_20000101_20000229.json",
+    "reason": "已退出当前主实验的旧时间窗或数据集"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/RG-MTM-public-scalar/pm25_20000101_20000229.nc",
+    "destination": "其他/其他研究数据/RG-MTM-public-scalar/pm25_20000101_20000229.nc",
+    "reason": "已退出当前主实验的旧时间窗或数据集"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/paper/.build",
+    "destination": "其他/归档/论文构建缓存",
+    "reason": "旧候选稿与构建缓存"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/paper/reference_review",
+    "destination": "其他/归档/参考文献阅读截图",
+    "reason": "原参考PDF已保留；阅读截图不进入投稿"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/paper/scripts/apply_figure_selection.py",
+    "destination": "其他/归档/过期或一次性脚本/apply_figure_selection.py",
+    "reason": "过期图号、一次性改稿或缺失旧基线；避免覆盖新版"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/paper/scripts/build_ppt.mjs",
+    "destination": "其他/归档/过期或一次性脚本/build_ppt.mjs",
+    "reason": "过期图号、一次性改稿或缺失旧基线；避免覆盖新版"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/paper/scripts/final_quality_legacy.py",
+    "destination": "其他/归档/过期或一次性脚本/final_quality_legacy.py",
+    "reason": "过期图号、一次性改稿或缺失旧基线；避免覆盖新版"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/paper/scripts/verify_selected_figure5_legacy.py",
+    "destination": "其他/归档/过期或一次性脚本/verify_selected_figure5_legacy.py",
+    "reason": "过期图号、一次性改稿或缺失旧基线；避免覆盖新版"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/paper/scripts/revise_manuscript.py",
+    "destination": "其他/归档/过期或一次性脚本/revise_manuscript.py",
+    "reason": "过期图号、一次性改稿或缺失旧基线；避免覆盖新版"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/paper/scripts/compact_captions.py",
+    "destination": "其他/归档/过期或一次性脚本/compact_captions.py",
+    "reason": "过期图号、一次性改稿或缺失旧基线；避免覆盖新版"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/paper/scripts/tighten_main_text.py",
+    "destination": "其他/归档/过期或一次性脚本/tighten_main_text.py",
+    "reason": "过期图号、一次性改稿或缺失旧基线；避免覆盖新版"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/paper/scripts/select_figure5_frontier.py",
+    "destination": "其他/归档/过期或一次性脚本/select_figure5_frontier.py",
+    "reason": "过期图号、一次性改稿或缺失旧基线；避免覆盖新版"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/paper/scripts/validate_supplied.mjs",
+    "destination": "其他/归档/过期或一次性脚本/validate_supplied.mjs",
+    "reason": "过期图号、一次性改稿或缺失旧基线；避免覆盖新版"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/paper/scripts/verify_scientific_evidence.py",
+    "destination": "其他/归档/过期或一次性脚本/verify_scientific_evidence.py",
+    "reason": "过期图号、一次性改稿或缺失旧基线；避免覆盖新版"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/paper/manuscript/latex/construction_algorithm_main.tex",
+    "destination": "其他/归档/未编译旧TeX/construction_algorithm_main.tex",
+    "reason": "不在当前main.tex/supplement.tex递归编译闭包"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/paper/manuscript/latex/cost_algorithm_main.tex",
+    "destination": "其他/归档/未编译旧TeX/cost_algorithm_main.tex",
+    "reason": "不在当前main.tex/supplement.tex递归编译闭包"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/paper/manuscript/latex/reference_algorithm_main.tex",
+    "destination": "其他/归档/未编译旧TeX/reference_algorithm_main.tex",
+    "reason": "不在当前main.tex/supplement.tex递归编译闭包"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/paper/manuscript/latex/main_content.tex",
+    "destination": "其他/归档/未编译旧TeX/main_content.tex",
+    "reason": "不在当前main.tex/supplement.tex递归编译闭包"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/paper/manuscript/latex/tables/achieved_reference_supp.tex",
+    "destination": "其他/归档/未编译旧TeX/tables/achieved_reference_supp.tex",
+    "reason": "不在当前main.tex/supplement.tex递归编译闭包"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/paper/manuscript/latex/tables/standard_metrics_main.tex",
+    "destination": "其他/归档/未编译旧TeX/tables/standard_metrics_main.tex",
+    "reason": "不在当前main.tex/supplement.tex递归编译闭包"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/paper/manuscript/latex/figures/bisector.tex",
+    "destination": "其他/归档/未编译旧TeX/figures/bisector.tex",
+    "reason": "不在当前main.tex/supplement.tex递归编译闭包"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/paper/manuscript/latex/figures/cases.tex",
+    "destination": "其他/归档/未编译旧TeX/figures/cases.tex",
+    "reason": "不在当前main.tex/supplement.tex递归编译闭包"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/paper/manuscript/latex/figures/dendrogram_transfer.tex",
+    "destination": "其他/归档/未编译旧TeX/figures/dendrogram_transfer.tex",
+    "reason": "不在当前main.tex/supplement.tex递归编译闭包"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/paper/manuscript/latex/figures/reference_direction.tex",
+    "destination": "其他/归档/未编译旧TeX/figures/reference_direction.tex",
+    "reason": "不在当前main.tex/supplement.tex递归编译闭包"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/paper/manuscript/latex/figures/rgmtm_bisector_absolute_position.pdf",
+    "destination": "其他/归档/未引用旧论文图/rgmtm_bisector_absolute_position.pdf",
+    "reason": "不在当前正文/附录引用闭包"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/paper/manuscript/latex/figures/rgmtm_bisector_absolute_position.png",
+    "destination": "其他/归档/未引用旧论文图/rgmtm_bisector_absolute_position.png",
+    "reason": "不在当前正文/附录引用闭包"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/paper/manuscript/latex/figures/rgmtm_bisector_absolute_position.svg",
+    "destination": "其他/归档/未引用旧论文图/rgmtm_bisector_absolute_position.svg",
+    "reason": "不在当前正文/附录引用闭包"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/paper/manuscript/latex/figures/rgmtm_diagnosis_tradeoff.pdf",
+    "destination": "其他/归档/未引用旧论文图/rgmtm_diagnosis_tradeoff.pdf",
+    "reason": "不在当前正文/附录引用闭包"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/paper/manuscript/latex/figures/rgmtm_diagnosis_tradeoff.png",
+    "destination": "其他/归档/未引用旧论文图/rgmtm_diagnosis_tradeoff.png",
+    "reason": "不在当前正文/附录引用闭包"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/paper/manuscript/latex/figures/rgmtm_diagnosis_tradeoff.svg",
+    "destination": "其他/归档/未引用旧论文图/rgmtm_diagnosis_tradeoff.svg",
+    "reason": "不在当前正文/附录引用闭包"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/paper/manuscript/latex/figures/rgmtm_event_storms.pdf",
+    "destination": "其他/归档/未引用旧论文图/rgmtm_event_storms.pdf",
+    "reason": "不在当前正文/附录引用闭包"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/paper/manuscript/latex/figures/rgmtm_event_storms.png",
+    "destination": "其他/归档/未引用旧论文图/rgmtm_event_storms.png",
+    "reason": "不在当前正文/附录引用闭包"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/paper/manuscript/latex/figures/rgmtm_event_tangaroa.pdf",
+    "destination": "其他/归档/未引用旧论文图/rgmtm_event_tangaroa.pdf",
+    "reason": "不在当前正文/附录引用闭包"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/paper/manuscript/latex/figures/rgmtm_event_tangaroa.png",
+    "destination": "其他/归档/未引用旧论文图/rgmtm_event_tangaroa.png",
+    "reason": "不在当前正文/附录引用闭包"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/paper/manuscript/latex/figures/rgmtm_event_wildfires.pdf",
+    "destination": "其他/归档/未引用旧论文图/rgmtm_event_wildfires.pdf",
+    "reason": "不在当前正文/附录引用闭包"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/paper/manuscript/latex/figures/rgmtm_event_wildfires.png",
+    "destination": "其他/归档/未引用旧论文图/rgmtm_event_wildfires.png",
+    "reason": "不在当前正文/附录引用闭包"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/paper/manuscript/latex/figures/rgmtm_full_domain_filling.pdf",
+    "destination": "其他/归档/未引用旧论文图/rgmtm_full_domain_filling.pdf",
+    "reason": "不在当前正文/附录引用闭包"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/paper/manuscript/latex/figures/rgmtm_full_domain_filling.png",
+    "destination": "其他/归档/未引用旧论文图/rgmtm_full_domain_filling.png",
+    "reason": "不在当前正文/附录引用闭包"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/paper/manuscript/latex/figures/rgmtm_full_domain_filling.svg",
+    "destination": "其他/归档/未引用旧论文图/rgmtm_full_domain_filling.svg",
+    "reason": "不在当前正文/附录引用闭包"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/paper/manuscript/latex/figures/rgmtm_pipeline_supplied_20261018.png",
+    "destination": "其他/归档/未引用旧论文图/rgmtm_pipeline_supplied_20261018.png",
+    "reason": "不在当前正文/附录引用闭包"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/paper/manuscript/latex/figures/rgmtm_pipeline_v22.pdf",
+    "destination": "其他/归档/未引用旧论文图/rgmtm_pipeline_v22.pdf",
+    "reason": "不在当前正文/附录引用闭包"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/paper/manuscript/latex/figures/rgmtm_reference_direction.png",
+    "destination": "其他/归档/未引用旧论文图/rgmtm_reference_direction.png",
+    "reason": "不在当前正文/附录引用闭包"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/paper/manuscript/latex/figures/rgmtm_tangaroa_existing_evidence.pdf",
+    "destination": "其他/归档/未引用旧论文图/rgmtm_tangaroa_existing_evidence.pdf",
+    "reason": "不在当前正文/附录引用闭包"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/paper/manuscript/latex/figures/rgmtm_tangaroa_existing_evidence.png",
+    "destination": "其他/归档/未引用旧论文图/rgmtm_tangaroa_existing_evidence.png",
+    "reason": "不在当前正文/附录引用闭包"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/paper/manuscript/latex/figures/rgmtm_tangaroa_existing_evidence.svg",
+    "destination": "其他/归档/未引用旧论文图/rgmtm_tangaroa_existing_evidence.svg",
+    "reason": "不在当前正文/附录引用闭包"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/paper/manuscript/latex/main.aux",
+    "destination": "其他/归档/TeX编译中间文件/main.aux",
+    "reason": "可重新生成的编译中间文件"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/paper/manuscript/latex/main.blg",
+    "destination": "其他/归档/TeX编译中间文件/main.blg",
+    "reason": "可重新生成的编译中间文件"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/paper/manuscript/latex/main.brf",
+    "destination": "其他/归档/TeX编译中间文件/main.brf",
+    "reason": "可重新生成的编译中间文件"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/paper/manuscript/latex/main.out",
+    "destination": "其他/归档/TeX编译中间文件/main.out",
+    "reason": "可重新生成的编译中间文件"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/paper/manuscript/latex/supplement.aux",
+    "destination": "其他/归档/TeX编译中间文件/supplement.aux",
+    "reason": "可重新生成的编译中间文件"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/paper/manuscript/latex/supplement.blg",
+    "destination": "其他/归档/TeX编译中间文件/supplement.blg",
+    "reason": "可重新生成的编译中间文件"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/paper/manuscript/latex/supplement.out",
+    "destination": "其他/归档/TeX编译中间文件/supplement.out",
+    "reason": "可重新生成的编译中间文件"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/paper/manuscript/latex/supplement.toc",
+    "destination": "其他/归档/TeX编译中间文件/supplement.toc",
+    "reason": "可重新生成的编译中间文件"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/paper/figures_ppt/Fig1_DataDirection.pptx",
+    "destination": "RG-MTM/paper/supplementary_variants/figures_ppt/Fig1_DataDirection.pptx",
+    "reason": "保留不同参考方向的补充对照；正文唯一母版为Fig1"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/paper/figures_ppt/Fig1_XAxis.pptx",
+    "destination": "RG-MTM/paper/supplementary_variants/figures_ppt/Fig1_XAxis.pptx",
+    "reason": "保留不同参考方向的补充对照；正文唯一母版为Fig1"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/paper/figures_export/Fig1_DataDirection.pdf",
+    "destination": "RG-MTM/paper/supplementary_variants/figures_export/Fig1_DataDirection.pdf",
+    "reason": "保留不同参考方向的补充对照；正文唯一母版为Fig1"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/paper/figures_export/Fig1_DataDirection.png",
+    "destination": "RG-MTM/paper/supplementary_variants/figures_export/Fig1_DataDirection.png",
+    "reason": "保留不同参考方向的补充对照；正文唯一母版为Fig1"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/paper/figures_export/Fig1_XAxis.pdf",
+    "destination": "RG-MTM/paper/supplementary_variants/figures_export/Fig1_XAxis.pdf",
+    "reason": "保留不同参考方向的补充对照；正文唯一母版为Fig1"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/paper/figures_export/Fig1_XAxis.png",
+    "destination": "RG-MTM/paper/supplementary_variants/figures_export/Fig1_XAxis.png",
+    "reason": "保留不同参考方向的补充对照；正文唯一母版为Fig1"
+  },
+  {
+    "action": "deduplicate_to_symlink",
+    "source": "RG-MTM/paper/manuscript/latex/figures/Fig1.pdf",
+    "destination": "RG-MTM/paper/figures_export/Fig1.pdf",
+    "sha256": "d25a8fe9b781a9b8fcf4c85371ddb61074f035eac0f53e2bc538358737ac0e10",
+    "bytes": 567355,
+    "reason": "相同内容只保留一个实体；编译/检查路径保留相对链接"
+  },
+  {
+    "action": "deduplicate_to_symlink",
+    "source": "RG-MTM/paper/manuscript/latex/figures/Fig1.png",
+    "destination": "RG-MTM/paper/figures_export/Fig1.png",
+    "sha256": "93830f86768480e5d1ee8d39330b347941feb41b368b476723756b8a12cade00",
+    "bytes": 1516066,
+    "reason": "相同内容只保留一个实体；编译/检查路径保留相对链接"
+  },
+  {
+    "action": "deduplicate_to_symlink",
+    "source": "RG-MTM/paper/manuscript/latex/figures/Fig1.svg",
+    "destination": "RG-MTM/paper/figures_export/Fig1.svg",
+    "sha256": "8e9f31e4bbadac1c30a7a872a5e1fbf85df2c459ff0ed130254ea10400a47ea5",
+    "bytes": 4228225,
+    "reason": "相同内容只保留一个实体；编译/检查路径保留相对链接"
+  },
+  {
+    "action": "deduplicate_to_symlink",
+    "source": "RG-MTM/paper/manuscript/latex/figures/Fig2.pdf",
+    "destination": "RG-MTM/paper/figures_export/Fig2.pdf",
+    "sha256": "1d5ae1b688a3c988dc897687a7ed7f9794dc54127040d779e0ca055e64bc6e7e",
+    "bytes": 270268,
+    "reason": "相同内容只保留一个实体；编译/检查路径保留相对链接"
+  },
+  {
+    "action": "deduplicate_to_symlink",
+    "source": "RG-MTM/paper/manuscript/latex/figures/Fig2.png",
+    "destination": "RG-MTM/paper/figures_export/Fig2.png",
+    "sha256": "1fb941db2914f3b130d19c9697040fb1b4bdb13caf3f08cb11ea5aa38c4fd3a0",
+    "bytes": 179924,
+    "reason": "相同内容只保留一个实体；编译/检查路径保留相对链接"
+  },
+  {
+    "action": "deduplicate_to_symlink",
+    "source": "RG-MTM/paper/manuscript/latex/figures/Fig2.svg",
+    "destination": "RG-MTM/paper/figures_export/Fig2.svg",
+    "sha256": "bcaddee064eb43535e159eddb605870bec85764c23b1524934f68ced309780e7",
+    "bytes": 942726,
+    "reason": "相同内容只保留一个实体；编译/检查路径保留相对链接"
+  },
+  {
+    "action": "deduplicate_to_symlink",
+    "source": "RG-MTM/paper/manuscript/latex/figures/Fig3.pdf",
+    "destination": "RG-MTM/paper/figures_export/Fig3.pdf",
+    "sha256": "342820c997d2ea54f31d1862cb2dfb4ae4432ea1e00bc7aa74e585307ba9790e",
+    "bytes": 958640,
+    "reason": "相同内容只保留一个实体；编译/检查路径保留相对链接"
+  },
+  {
+    "action": "deduplicate_to_symlink",
+    "source": "RG-MTM/paper/manuscript/latex/figures/Fig3.png",
+    "destination": "RG-MTM/paper/figures_export/Fig3.png",
+    "sha256": "b3f36bb43bc2f2135841561b67d5f2fa59bbc2e18d5f5f8df3eb1a09066c4b92",
+    "bytes": 611359,
+    "reason": "相同内容只保留一个实体；编译/检查路径保留相对链接"
+  },
+  {
+    "action": "deduplicate_to_symlink",
+    "source": "RG-MTM/paper/manuscript/latex/figures/Fig3.svg",
+    "destination": "RG-MTM/paper/figures_export/Fig3.svg",
+    "sha256": "4a5f43774d5af1af279ca1e25190778faf7f1594dac7a0ec8fb0b0eacf95a36c",
+    "bytes": 2274426,
+    "reason": "相同内容只保留一个实体；编译/检查路径保留相对链接"
+  },
+  {
+    "action": "deduplicate_to_symlink",
+    "source": "RG-MTM/paper/manuscript/latex/figures/Fig4.pdf",
+    "destination": "RG-MTM/paper/figures_export/Fig4.pdf",
+    "sha256": "29ab06817522481afdf3a4f552981d7f6ef7de094e0b73aadbb2a1095784da79",
+    "bytes": 257261,
+    "reason": "相同内容只保留一个实体；编译/检查路径保留相对链接"
+  },
+  {
+    "action": "deduplicate_to_symlink",
+    "source": "RG-MTM/paper/manuscript/latex/figures/Fig4.png",
+    "destination": "RG-MTM/paper/figures_export/Fig4.png",
+    "sha256": "4098b7a137c38c7efeb022410aa121f6056753a76a09d1c55371358387cafdf5",
+    "bytes": 150825,
+    "reason": "相同内容只保留一个实体；编译/检查路径保留相对链接"
+  },
+  {
+    "action": "deduplicate_to_symlink",
+    "source": "RG-MTM/paper/manuscript/latex/figures/Fig4.svg",
+    "destination": "RG-MTM/paper/figures_export/Fig4.svg",
+    "sha256": "b1447590f4ba9a71dba39a98fe4b1ec3286093cacc90d0eded2e63b1ac1b0661",
+    "bytes": 556174,
+    "reason": "相同内容只保留一个实体；编译/检查路径保留相对链接"
+  },
+  {
+    "action": "deduplicate_to_symlink",
+    "source": "RG-MTM/paper/manuscript/latex/figures/Fig5.pdf",
+    "destination": "RG-MTM/paper/figures_export/Fig5.pdf",
+    "sha256": "62d5b6383d15674b7b35c2573fb096f83144ac048e79f4eb428dd31e4b6637db",
+    "bytes": 156257,
+    "reason": "相同内容只保留一个实体；编译/检查路径保留相对链接"
+  },
+  {
+    "action": "deduplicate_to_symlink",
+    "source": "RG-MTM/paper/manuscript/latex/figures/Fig5.png",
+    "destination": "RG-MTM/paper/figures_export/Fig5.png",
+    "sha256": "ea2720aa40c6d0f555a5ef0c0dd1c38a4a9cae53ffeaa0a0e49521d199985281",
+    "bytes": 193715,
+    "reason": "相同内容只保留一个实体；编译/检查路径保留相对链接"
+  },
+  {
+    "action": "deduplicate_to_symlink",
+    "source": "RG-MTM/paper/manuscript/latex/figures/Fig5.svg",
+    "destination": "RG-MTM/paper/figures_export/Fig5.svg",
+    "sha256": "efef4e567563412b4808972ce9739d16d885f2d16cefb150b90642655c5c7145",
+    "bytes": 621596,
+    "reason": "相同内容只保留一个实体；编译/检查路径保留相对链接"
+  },
+  {
+    "action": "deduplicate_to_symlink",
+    "source": "RG-MTM/paper/manuscript/latex/figures/Fig6.pdf",
+    "destination": "RG-MTM/paper/figures_export/Fig6.pdf",
+    "sha256": "93d3df18ec784a9f0308be8b519787dd0c10f9a7bc254741c6771e558f53b0fd",
+    "bytes": 225607,
+    "reason": "相同内容只保留一个实体；编译/检查路径保留相对链接"
+  },
+  {
+    "action": "deduplicate_to_symlink",
+    "source": "RG-MTM/paper/manuscript/latex/figures/Fig6.png",
+    "destination": "RG-MTM/paper/figures_export/Fig6.png",
+    "sha256": "3834b744f24f062f7c1ae0d626bd9e5cc3a0b9734930190dd10672fd597d57b7",
+    "bytes": 249779,
+    "reason": "相同内容只保留一个实体；编译/检查路径保留相对链接"
+  },
+  {
+    "action": "deduplicate_to_symlink",
+    "source": "RG-MTM/paper/manuscript/latex/figures/Fig6.svg",
+    "destination": "RG-MTM/paper/figures_export/Fig6.svg",
+    "sha256": "e00e033781105d76e7422be5cf065c2d15dbc6d205126ca7c77f87f32afe4fb7",
+    "bytes": 826799,
+    "reason": "相同内容只保留一个实体；编译/检查路径保留相对链接"
+  },
+  {
+    "action": "deduplicate_to_symlink",
+    "source": "RG-MTM/paper/manuscript/latex/figures/Fig7.pdf",
+    "destination": "RG-MTM/paper/figures_export/Fig7.pdf",
+    "sha256": "d09859187df96b1ef14074b8c6adf4cab6aeef072dec4ec10d64aa3f91b69149",
+    "bytes": 261559,
+    "reason": "相同内容只保留一个实体；编译/检查路径保留相对链接"
+  },
+  {
+    "action": "deduplicate_to_symlink",
+    "source": "RG-MTM/paper/manuscript/latex/figures/Fig7.png",
+    "destination": "RG-MTM/paper/figures_export/Fig7.png",
+    "sha256": "9869f88856d327cb2b08ad85282a5a458ecacfea6aebb7e813e4b9810b933965",
+    "bytes": 279791,
+    "reason": "相同内容只保留一个实体；编译/检查路径保留相对链接"
+  },
+  {
+    "action": "deduplicate_to_symlink",
+    "source": "RG-MTM/paper/manuscript/latex/figures/Fig7.svg",
+    "destination": "RG-MTM/paper/figures_export/Fig7.svg",
+    "sha256": "d00b69be05b86f908a413e6bda6f0345456d567275371cc7e3ffcb0f3590a81f",
+    "bytes": 643014,
+    "reason": "相同内容只保留一个实体；编译/检查路径保留相对链接"
+  },
+  {
+    "action": "deduplicate_to_symlink",
+    "source": "RG-MTM/paper/manuscript/latex/figures/Fig8.pdf",
+    "destination": "RG-MTM/paper/figures_export/Fig8.pdf",
+    "sha256": "a847d3da12ab8b036980a6b99cb83c22b9d3ae1b7323c34042b01e8a97ca4cb6",
+    "bytes": 127827,
+    "reason": "相同内容只保留一个实体；编译/检查路径保留相对链接"
+  },
+  {
+    "action": "deduplicate_to_symlink",
+    "source": "RG-MTM/paper/manuscript/latex/figures/Fig8.png",
+    "destination": "RG-MTM/paper/figures_export/Fig8.png",
+    "sha256": "8f9f4a698cecc93cb25c4ef405d67f24943a15106ca05aa451cf461117a0e7e3",
+    "bytes": 165929,
+    "reason": "相同内容只保留一个实体；编译/检查路径保留相对链接"
+  },
+  {
+    "action": "deduplicate_to_symlink",
+    "source": "RG-MTM/paper/manuscript/latex/figures/Fig8.svg",
+    "destination": "RG-MTM/paper/figures_export/Fig8.svg",
+    "sha256": "aa0682eeb3b64807cd890da5157cd11faeb0570dee0a1d4ff239f2e51629f6b4",
+    "bytes": 532388,
+    "reason": "相同内容只保留一个实体；编译/检查路径保留相对链接"
+  },
+  {
+    "action": "deduplicate_to_symlink",
+    "source": "RG-MTM/paper/manuscript/latex/figures/Fig9.pdf",
+    "destination": "RG-MTM/paper/figures_export/Fig9.pdf",
+    "sha256": "01e66c9a7a6e78ec83618856d5c47e2ab92c283f71dbcc6381dbfb4972c6c0af",
+    "bytes": 244119,
+    "reason": "相同内容只保留一个实体；编译/检查路径保留相对链接"
+  },
+  {
+    "action": "deduplicate_to_symlink",
+    "source": "RG-MTM/paper/manuscript/latex/figures/Fig9.png",
+    "destination": "RG-MTM/paper/figures_export/Fig9.png",
+    "sha256": "0bad7817a6f03ac671c9544c987993f5f3d0a4b30337453b92e2cf3350f792e1",
+    "bytes": 485152,
+    "reason": "相同内容只保留一个实体；编译/检查路径保留相对链接"
+  },
+  {
+    "action": "deduplicate_to_symlink",
+    "source": "RG-MTM/paper/manuscript/latex/figures/Fig9.svg",
+    "destination": "RG-MTM/paper/figures_export/Fig9.svg",
+    "sha256": "5f84e453164c1eeded3b26b569610872fd03c4d439732c8fce71c131b751fa65",
+    "bytes": 647586,
+    "reason": "相同内容只保留一个实体；编译/检查路径保留相对链接"
+  },
+  {
+    "action": "deduplicate_to_symlink",
+    "source": "RG-MTM/paper/manuscript/latex/figures/Fig10.pdf",
+    "destination": "RG-MTM/paper/figures_export/Fig10.pdf",
+    "sha256": "14c6f73dda48cb1360c3dd76535041e895847d46ca39c226b43e4b9147fe3630",
+    "bytes": 379197,
+    "reason": "相同内容只保留一个实体；编译/检查路径保留相对链接"
+  },
+  {
+    "action": "deduplicate_to_symlink",
+    "source": "RG-MTM/paper/manuscript/latex/figures/Fig10.png",
+    "destination": "RG-MTM/paper/figures_export/Fig10.png",
+    "sha256": "af526fa5002ee00df552135ca47779b9434d1e51b82ceea7c93fb6fee0a72a4b",
+    "bytes": 772035,
+    "reason": "相同内容只保留一个实体；编译/检查路径保留相对链接"
+  },
+  {
+    "action": "deduplicate_to_symlink",
+    "source": "RG-MTM/paper/manuscript/latex/figures/Fig10.svg",
+    "destination": "RG-MTM/paper/figures_export/Fig10.svg",
+    "sha256": "5717b1fe40912a9037e7de7f240c536a6e230df34fe68d5cb01400ae9c6d82b6",
+    "bytes": 1139918,
+    "reason": "相同内容只保留一个实体；编译/检查路径保留相对链接"
+  },
+  {
+    "action": "deduplicate_to_symlink",
+    "source": "RG-MTM/paper/manuscript/latex/figures/Fig11.pdf",
+    "destination": "RG-MTM/paper/figures_export/Fig11.pdf",
+    "sha256": "20e39bb4efcf0fbb215a7e1284d69ff642debb4362c9d2463dc70fb260800392",
+    "bytes": 291859,
+    "reason": "相同内容只保留一个实体；编译/检查路径保留相对链接"
+  },
+  {
+    "action": "deduplicate_to_symlink",
+    "source": "RG-MTM/paper/manuscript/latex/figures/Fig11.png",
+    "destination": "RG-MTM/paper/figures_export/Fig11.png",
+    "sha256": "6d75c0366892f2c90dde586be51e7e86232e0311609677205b9533f5cb4862c9",
+    "bytes": 436013,
+    "reason": "相同内容只保留一个实体；编译/检查路径保留相对链接"
+  },
+  {
+    "action": "deduplicate_to_symlink",
+    "source": "RG-MTM/paper/manuscript/latex/figures/Fig11.svg",
+    "destination": "RG-MTM/paper/figures_export/Fig11.svg",
+    "sha256": "11318329596fbaa2556b9c2cf9dee7ced547f6804144f5862ee62a935302ff4b",
+    "bytes": 998938,
+    "reason": "相同内容只保留一个实体；编译/检查路径保留相对链接"
+  },
+  {
+    "action": "deduplicate_to_symlink",
+    "source": "RG-MTM/paper/manuscript/latex/figures/rgmtm_linked_cases.pdf",
+    "destination": "RG-MTM/paper/figures_export/rgmtm_linked_cases.pdf",
+    "sha256": "8e405b19336ba867d9c39204a2945d42b1a32c4c9b8add9517ba78725837f0a6",
+    "bytes": 276821,
+    "reason": "相同内容只保留一个实体；编译/检查路径保留相对链接"
+  },
+  {
+    "action": "deduplicate_to_symlink",
+    "source": "RG-MTM/paper/manuscript/latex/figures/rgmtm_linked_cases.png",
+    "destination": "RG-MTM/paper/figures_export/rgmtm_linked_cases.png",
+    "sha256": "c2e2c0956cebb1bd3c1cb98aeff259ee13c54a2e9bc010a9649e0a8fdba317b2",
+    "bytes": 803861,
+    "reason": "相同内容只保留一个实体；编译/检查路径保留相对链接"
+  },
+  {
+    "action": "deduplicate_to_symlink",
+    "source": "RG-MTM/paper/manuscript/latex/figures/rgmtm_linked_cases.svg",
+    "destination": "RG-MTM/paper/figures_export/rgmtm_linked_cases.svg",
+    "sha256": "4277cd15c67cedccca67d5558cfe546c58e5576a42ac8a2f120e7b89b45c1f36",
+    "bytes": 878260,
+    "reason": "相同内容只保留一个实体；编译/检查路径保留相对链接"
+  },
+  {
+    "action": "deduplicate_to_symlink",
+    "source": "RG-MTM/paper/manuscript/latex/figures/rgmtm_motion_scalar_cost.pdf",
+    "destination": "RG-MTM/paper/figures_export/rgmtm_motion_scalar_cost.pdf",
+    "sha256": "cdb1e91049a36bb061d218f2cee37fd16d5b2c9c6d78d693f4401614b4d24efd",
+    "bytes": 91995,
+    "reason": "相同内容只保留一个实体；编译/检查路径保留相对链接"
+  },
+  {
+    "action": "deduplicate_to_symlink",
+    "source": "RG-MTM/paper/manuscript/latex/figures/rgmtm_motion_scalar_cost.png",
+    "destination": "RG-MTM/paper/figures_export/rgmtm_motion_scalar_cost.png",
+    "sha256": "43e2fa35e08b9b80bd05583acc985231f98f13a1d4bd84ae82286677fd810720",
+    "bytes": 106476,
+    "reason": "相同内容只保留一个实体；编译/检查路径保留相对链接"
+  },
+  {
+    "action": "deduplicate_to_symlink",
+    "source": "RG-MTM/paper/manuscript/latex/figures/rgmtm_motion_scalar_cost.svg",
+    "destination": "RG-MTM/paper/figures_export/rgmtm_motion_scalar_cost.svg",
+    "sha256": "5f2ccc7d43d781c700a2d77e655810ba299f61cec0802b10d0f4c9529c93f780",
+    "bytes": 539991,
+    "reason": "相同内容只保留一个实体；编译/检查路径保留相对链接"
+  },
+  {
+    "action": "deduplicate_to_symlink",
+    "source": "RG-MTM/paper/manuscript/latex/figures/rgmtm_motion_error_comparison.pdf",
+    "destination": "RG-MTM/paper/figures_export/rgmtm_motion_error_comparison.pdf",
+    "sha256": "10fa6d745d6e8024aafe7b9d853966b203d0d939d778d32822229234fa587e6d",
+    "bytes": 144279,
+    "reason": "相同内容只保留一个实体；编译/检查路径保留相对链接"
+  },
+  {
+    "action": "deduplicate_to_symlink",
+    "source": "RG-MTM/paper/manuscript/latex/figures/rgmtm_motion_error_comparison.png",
+    "destination": "RG-MTM/paper/figures_export/rgmtm_motion_error_comparison.png",
+    "sha256": "9a665f9cbb194a9fdfcf49267d210b4afab1c66731c719ae41aedf2d5fdcbb5b",
+    "bytes": 199836,
+    "reason": "相同内容只保留一个实体；编译/检查路径保留相对链接"
+  },
+  {
+    "action": "deduplicate_to_symlink",
+    "source": "RG-MTM/paper/manuscript/latex/figures/rgmtm_motion_error_comparison.svg",
+    "destination": "RG-MTM/paper/figures_export/rgmtm_motion_error_comparison.svg",
+    "sha256": "4eb9727191a7a33dc88aa2aa6cbb3e91b28302447e604b6c56f506db2d7d6427",
+    "bytes": 684787,
+    "reason": "相同内容只保留一个实体；编译/检查路径保留相对链接"
+  },
+  {
+    "action": "deduplicate_to_symlink",
+    "source": "RG-MTM/paper/manuscript/latex/figures/rgmtm_neighbourhood_preservation.pdf",
+    "destination": "RG-MTM/paper/figures_export/rgmtm_neighbourhood_preservation.pdf",
+    "sha256": "b02fecd7bc62b398866df1bb9276d4413e5817098741961aab3ccd59dfa33132",
+    "bytes": 119694,
+    "reason": "相同内容只保留一个实体；编译/检查路径保留相对链接"
+  },
+  {
+    "action": "deduplicate_to_symlink",
+    "source": "RG-MTM/paper/manuscript/latex/figures/rgmtm_neighbourhood_preservation.png",
+    "destination": "RG-MTM/paper/figures_export/rgmtm_neighbourhood_preservation.png",
+    "sha256": "d0f36c24ec20c46ca3eb63030b3dd215130850fe9138b6042e2af4e155be8ea8",
+    "bytes": 160568,
+    "reason": "相同内容只保留一个实体；编译/检查路径保留相对链接"
+  },
+  {
+    "action": "deduplicate_to_symlink",
+    "source": "RG-MTM/paper/manuscript/latex/figures/rgmtm_neighbourhood_preservation.svg",
+    "destination": "RG-MTM/paper/figures_export/rgmtm_neighbourhood_preservation.svg",
+    "sha256": "db09ea6e17b377dc35f9706e9e0d8a1a83768901a8f8c28aca03496f98242ea1",
+    "bytes": 620482,
+    "reason": "相同内容只保留一个实体；编译/检查路径保留相对链接"
+  },
+  {
+    "action": "deduplicate_to_symlink",
+    "source": "RG-MTM/paper/manuscript/latex/figures/rgmtm_motion_window_sensitivity.pdf",
+    "destination": "RG-MTM/paper/figures_export/rgmtm_motion_window_sensitivity.pdf",
+    "sha256": "8bf62e05338bdab1ac28ae170e487497a762655ad781247b1b7a4a356b31c7b1",
+    "bytes": 125255,
+    "reason": "相同内容只保留一个实体；编译/检查路径保留相对链接"
+  },
+  {
+    "action": "deduplicate_to_symlink",
+    "source": "RG-MTM/paper/manuscript/latex/figures/rgmtm_motion_window_sensitivity.png",
+    "destination": "RG-MTM/paper/figures_export/rgmtm_motion_window_sensitivity.png",
+    "sha256": "4e557047d872bd20d66b270c39211cd15217a56237f01ac4643ae3c8b9b83287",
+    "bytes": 291325,
+    "reason": "相同内容只保留一个实体；编译/检查路径保留相对链接"
+  },
+  {
+    "action": "deduplicate_to_symlink",
+    "source": "RG-MTM/paper/manuscript/latex/figures/rgmtm_motion_window_sensitivity.svg",
+    "destination": "RG-MTM/paper/figures_export/rgmtm_motion_window_sensitivity.svg",
+    "sha256": "7f1bceb29dfbc831e571674f6b61c5f2cd0fd5d165a40f0807feaaa6279d9024",
+    "bytes": 687608,
+    "reason": "相同内容只保留一个实体；编译/检查路径保留相对链接"
+  },
+  {
+    "action": "deduplicate_to_symlink",
+    "source": "RG-MTM/paper/manuscript/latex/figures/rgmtm_topology_motion_tradeoff.pdf",
+    "destination": "RG-MTM/paper/figures_export/rgmtm_topology_motion_tradeoff.pdf",
+    "sha256": "f69728cf0cc781b3bf1d7d3896a23cbfac31e4cd190f582d6988fc4db92b137f",
+    "bytes": 111205,
+    "reason": "相同内容只保留一个实体；编译/检查路径保留相对链接"
+  },
+  {
+    "action": "deduplicate_to_symlink",
+    "source": "RG-MTM/paper/manuscript/latex/figures/rgmtm_topology_motion_tradeoff.png",
+    "destination": "RG-MTM/paper/figures_export/rgmtm_topology_motion_tradeoff.png",
+    "sha256": "4cf3a4785aabed075022f21bf2bae77e6ef125924c23e0f090ca9c110f611109",
+    "bytes": 154761,
+    "reason": "相同内容只保留一个实体；编译/检查路径保留相对链接"
+  },
+  {
+    "action": "deduplicate_to_symlink",
+    "source": "RG-MTM/paper/manuscript/latex/figures/rgmtm_topology_motion_tradeoff.svg",
+    "destination": "RG-MTM/paper/figures_export/rgmtm_topology_motion_tradeoff.svg",
+    "sha256": "805373fe0f9f83e026e573ba0746d757472c4c9a92579075b8f88a9853069a47",
+    "bytes": 573037,
+    "reason": "相同内容只保留一个实体；编译/检查路径保留相对链接"
+  },
+  {
+    "action": "deduplicate_to_symlink",
+    "source": "RG-MTM/paper/manuscript/latex/figures/Supplement_PositionScalarDiagnostic.pdf",
+    "destination": "RG-MTM/paper/figures_export/Supplement_PositionScalarDiagnostic.pdf",
+    "sha256": "9370982582d3f749d036abf10a28ee1cff82f0df113a6387c49a6d5e3195e51b",
+    "bytes": 184761,
+    "reason": "相同内容只保留一个实体；编译/检查路径保留相对链接"
+  },
+  {
+    "action": "deduplicate_to_symlink",
+    "source": "RG-MTM/paper/manuscript/latex/figures/Supplement_PositionScalarDiagnostic.png",
+    "destination": "RG-MTM/paper/figures_export/Supplement_PositionScalarDiagnostic.png",
+    "sha256": "aac69f37ec61274c6e6d507a423d7cc4ad5bc76a9fbeffd9b4e35ed757183484",
+    "bytes": 223665,
+    "reason": "相同内容只保留一个实体；编译/检查路径保留相对链接"
+  },
+  {
+    "action": "deduplicate_to_symlink",
+    "source": "RG-MTM/paper/manuscript/latex/figures/Supplement_PositionScalarDiagnostic.svg",
+    "destination": "RG-MTM/paper/figures_export/Supplement_PositionScalarDiagnostic.svg",
+    "sha256": "06edf73049ea5a75a22d65c191b0495789257af7428280abd9e902b5e6cf0528",
+    "bytes": 553845,
+    "reason": "相同内容只保留一个实体；编译/检查路径保留相对链接"
+  },
+  {
+    "action": "deduplicate_to_symlink",
+    "source": "RG-MTM/paper/manuscript/latex/figures/Supplement_Storms_Detail.pdf",
+    "destination": "RG-MTM/paper/figures_export/Supplement_Storms_Detail.pdf",
+    "sha256": "1eaf508a93deb6c91f1d244f856445eae2490dda031de82fd78de6d8efd15f9b",
+    "bytes": 508858,
+    "reason": "相同内容只保留一个实体；编译/检查路径保留相对链接"
+  },
+  {
+    "action": "deduplicate_to_symlink",
+    "source": "RG-MTM/paper/manuscript/latex/figures/Supplement_Storms_Detail.png",
+    "destination": "RG-MTM/paper/figures_export/Supplement_Storms_Detail.png",
+    "sha256": "2c835ca1e5217c67304893a19e5d961414ad9bf5642af04b1b8b67f321171b67",
+    "bytes": 1187879,
+    "reason": "相同内容只保留一个实体；编译/检查路径保留相对链接"
+  },
+  {
+    "action": "deduplicate_to_symlink",
+    "source": "RG-MTM/paper/manuscript/latex/figures/Supplement_Storms_Detail.svg",
+    "destination": "RG-MTM/paper/figures_export/Supplement_Storms_Detail.svg",
+    "sha256": "2c702b597fcf01836e4a8ea496c412bf1e5a55629fd6c83d546e17528ad22283",
+    "bytes": 502364,
+    "reason": "相同内容只保留一个实体；编译/检查路径保留相对链接"
+  },
+  {
+    "action": "deduplicate_to_symlink",
+    "source": "RG-MTM/paper/manuscript/latex/figures/Supplement_ReferenceControl_Full.pdf",
+    "destination": "RG-MTM/paper/figures_export/Supplement_ReferenceControl_Full.pdf",
+    "sha256": "594ddcc5696631c841260e4a0f1a8e8697c3885976d5b0839c15c97ddba25206",
+    "bytes": 220481,
+    "reason": "相同内容只保留一个实体；编译/检查路径保留相对链接"
+  },
+  {
+    "action": "deduplicate_to_symlink",
+    "source": "RG-MTM/paper/manuscript/latex/figures/Supplement_ReferenceControl_Full.png",
+    "destination": "RG-MTM/paper/figures_export/Supplement_ReferenceControl_Full.png",
+    "sha256": "d6b18e90fc2769409f5469b829b1ba4ea7e18f12499c04cce5352813e3123b33",
+    "bytes": 212860,
+    "reason": "相同内容只保留一个实体；编译/检查路径保留相对链接"
+  },
+  {
+    "action": "deduplicate_to_symlink",
+    "source": "RG-MTM/paper/manuscript/latex/figures/Supplement_ReferenceControl_Full.svg",
+    "destination": "RG-MTM/paper/figures_export/Supplement_ReferenceControl_Full.svg",
+    "sha256": "671df4f4cf072c0b06f22bec0b023d00bde8b30e70bfd28e7a002414f34cceef",
+    "bytes": 799406,
+    "reason": "相同内容只保留一个实体；编译/检查路径保留相对链接"
+  },
+  {
+    "action": "deduplicate_to_symlink",
+    "source": "RG-MTM/paper/manuscript/latex/figures/Supplement_Wildfires_Comparison.pdf",
+    "destination": "RG-MTM/paper/figures_export/Supplement_Wildfires_Comparison.pdf",
+    "sha256": "542b50085e908ace9d3535b62d75cab8391f550403873506614f8b58c2d60ff8",
+    "bytes": 263913,
+    "reason": "相同内容只保留一个实体；编译/检查路径保留相对链接"
+  },
+  {
+    "action": "deduplicate_to_symlink",
+    "source": "RG-MTM/paper/manuscript/latex/figures/Supplement_Wildfires_Comparison.png",
+    "destination": "RG-MTM/paper/figures_export/Supplement_Wildfires_Comparison.png",
+    "sha256": "46fad7acd6f44ea3851dfa03c2b2cfd70a8596e501669699d13e7194a27fa2e4",
+    "bytes": 226166,
+    "reason": "相同内容只保留一个实体；编译/检查路径保留相对链接"
+  },
+  {
+    "action": "deduplicate_to_symlink",
+    "source": "RG-MTM/paper/manuscript/latex/figures/Supplement_Wildfires_Comparison.svg",
+    "destination": "RG-MTM/paper/figures_export/Supplement_Wildfires_Comparison.svg",
+    "sha256": "f53edace49715c2ef41ef5b551caa1750946659060e5759ffa0426fc90846bbc",
+    "bytes": 707353,
+    "reason": "相同内容只保留一个实体；编译/检查路径保留相对链接"
+  },
+  {
+    "action": "deduplicate_to_symlink",
+    "source": "RG-MTM/paper/manuscript/latex/figures/Supplement_Nucleon_Comparison.pdf",
+    "destination": "RG-MTM/paper/figures_export/Supplement_Nucleon_Comparison.pdf",
+    "sha256": "0bc1854de848672d45fd1aa5dfe4cb80721e6c9d3c89bc4284cc56ee53a671d2",
+    "bytes": 140934,
+    "reason": "相同内容只保留一个实体；编译/检查路径保留相对链接"
+  },
+  {
+    "action": "deduplicate_to_symlink",
+    "source": "RG-MTM/paper/manuscript/latex/figures/Supplement_Nucleon_Comparison.png",
+    "destination": "RG-MTM/paper/figures_export/Supplement_Nucleon_Comparison.png",
+    "sha256": "1bb01abe92405f2c59f87f6583b1b5b70573ac92dfd075825dc95df8ce5fae26",
+    "bytes": 83793,
+    "reason": "相同内容只保留一个实体；编译/检查路径保留相对链接"
+  },
+  {
+    "action": "deduplicate_to_symlink",
+    "source": "RG-MTM/paper/manuscript/latex/figures/Supplement_Nucleon_Comparison.svg",
+    "destination": "RG-MTM/paper/figures_export/Supplement_Nucleon_Comparison.svg",
+    "sha256": "95ce6e54cacafc6e00cd2f5c172e11dd09f1d462cf22fb1ed7a84616a022a9c6",
+    "bytes": 566858,
+    "reason": "相同内容只保留一个实体；编译/检查路径保留相对链接"
+  },
+  {
+    "action": "deduplicate_to_symlink",
+    "source": "RG-MTM/paper/manuscript/latex/figures/Supplement_Benzene_Comparison.pdf",
+    "destination": "RG-MTM/paper/figures_export/Supplement_Benzene_Comparison.pdf",
+    "sha256": "47e936a87c9bb6a09297b3de050bdc789d78cbfef02c4707cca80fb9baabcad8",
+    "bytes": 270999,
+    "reason": "相同内容只保留一个实体；编译/检查路径保留相对链接"
+  },
+  {
+    "action": "deduplicate_to_symlink",
+    "source": "RG-MTM/paper/manuscript/latex/figures/Supplement_Benzene_Comparison.png",
+    "destination": "RG-MTM/paper/figures_export/Supplement_Benzene_Comparison.png",
+    "sha256": "57616296cf4cdc4159677d7c201726111edb3aa1cc6ce2c89ca63450d7064f41",
+    "bytes": 371179,
+    "reason": "相同内容只保留一个实体；编译/检查路径保留相对链接"
+  },
+  {
+    "action": "deduplicate_to_symlink",
+    "source": "RG-MTM/paper/manuscript/latex/figures/Supplement_Benzene_Comparison.svg",
+    "destination": "RG-MTM/paper/figures_export/Supplement_Benzene_Comparison.svg",
+    "sha256": "c61da5627d99a7bb7fbe31e3479aed3214764ebff98fb889edb48c6fb172478b",
+    "bytes": 664743,
+    "reason": "相同内容只保留一个实体；编译/检查路径保留相对链接"
+  },
+  {
+    "action": "deduplicate_to_symlink",
+    "source": "RG-MTM/paper/manuscript/latex/figures/Supplement_Dendrogram_Transfer.pdf",
+    "destination": "RG-MTM/paper/figures_export/Supplement_Dendrogram_Transfer.pdf",
+    "sha256": "7a63faadfe25350fb810bb47eca4bbfbe68712b8e34b0f51cbc2a254f4a6746a",
+    "bytes": 99548,
+    "reason": "相同内容只保留一个实体；编译/检查路径保留相对链接"
+  },
+  {
+    "action": "deduplicate_to_symlink",
+    "source": "RG-MTM/paper/manuscript/latex/figures/Supplement_Dendrogram_Transfer.png",
+    "destination": "RG-MTM/paper/figures_export/Supplement_Dendrogram_Transfer.png",
+    "sha256": "6cdf167a82aab810971dcf03f4924b166cc7df699d31520e4cbf5846ab235d1f",
+    "bytes": 184395,
+    "reason": "相同内容只保留一个实体；编译/检查路径保留相对链接"
+  },
+  {
+    "action": "deduplicate_to_symlink",
+    "source": "RG-MTM/paper/manuscript/latex/figures/Supplement_Dendrogram_Transfer.svg",
+    "destination": "RG-MTM/paper/figures_export/Supplement_Dendrogram_Transfer.svg",
+    "sha256": "d624a8bbdb046b6fc0752770cb3edca7c3adaaf95659efd1d5235104b0c99213",
+    "bytes": 577183,
+    "reason": "相同内容只保留一个实体；编译/检查路径保留相对链接"
+  },
+  {
+    "action": "deduplicate_to_symlink",
+    "source": "RG-MTM/paper/manuscript/latex/figures/Supplement_Tangaroa_Comparison.pdf",
+    "destination": "RG-MTM/paper/figures_export/Supplement_Tangaroa_Comparison.pdf",
+    "sha256": "75139973d33ced74150c9ac77371952ced886d55f53834d3a8567d4521dcb2ee",
+    "bytes": 413002,
+    "reason": "相同内容只保留一个实体；编译/检查路径保留相对链接"
+  },
+  {
+    "action": "deduplicate_to_symlink",
+    "source": "RG-MTM/paper/manuscript/latex/figures/Supplement_Tangaroa_Comparison.png",
+    "destination": "RG-MTM/paper/figures_export/Supplement_Tangaroa_Comparison.png",
+    "sha256": "6ab78a177f57145c782c072d3ef7ac40031d0a0064f8d1cb30da6fe17829eb61",
+    "bytes": 861455,
+    "reason": "相同内容只保留一个实体；编译/检查路径保留相对链接"
+  },
+  {
+    "action": "deduplicate_to_symlink",
+    "source": "RG-MTM/paper/manuscript/latex/figures/Supplement_Tangaroa_Comparison.svg",
+    "destination": "RG-MTM/paper/figures_export/Supplement_Tangaroa_Comparison.svg",
+    "sha256": "3a6161469a50db3d751cf72fc751819cd83be8d2734bba0e5ef26e0e2db4591c",
+    "bytes": 1202188,
+    "reason": "相同内容只保留一个实体；编译/检查路径保留相对链接"
+  },
+  {
+    "action": "deduplicate_to_symlink",
+    "source": "RG-MTM/paper/manuscript/latex/figures/Supplement_Cylinder_Comparison.pdf",
+    "destination": "RG-MTM/paper/figures_export/Supplement_Cylinder_Comparison.pdf",
+    "sha256": "6b1f6c8284cb38ada73009aa6b47693f5ff9e1bd7cc2c615fe9d80f57c7798c1",
+    "bytes": 404945,
+    "reason": "相同内容只保留一个实体；编译/检查路径保留相对链接"
+  },
+  {
+    "action": "deduplicate_to_symlink",
+    "source": "RG-MTM/paper/manuscript/latex/figures/Supplement_Cylinder_Comparison.png",
+    "destination": "RG-MTM/paper/figures_export/Supplement_Cylinder_Comparison.png",
+    "sha256": "ba041d6cd3030bfd29dde52e7d9203339fb1ab59ef3ab0c51c76bbf517b17904",
+    "bytes": 467708,
+    "reason": "相同内容只保留一个实体；编译/检查路径保留相对链接"
+  },
+  {
+    "action": "deduplicate_to_symlink",
+    "source": "RG-MTM/paper/manuscript/latex/figures/Supplement_Cylinder_Comparison.svg",
+    "destination": "RG-MTM/paper/figures_export/Supplement_Cylinder_Comparison.svg",
+    "sha256": "65285fdbc62010c45343fd53bca1db8eccbc7fdd5baaef10b166f28fade0e79a",
+    "bytes": 1198812,
+    "reason": "相同内容只保留一个实体；编译/检查路径保留相对链接"
+  },
+  {
+    "action": "deduplicate_to_symlink",
+    "source": "RG-MTM/paper/manuscript/latex/main.pdf",
+    "destination": "RG-MTM/paper/manuscript/Revised_RG-MTM.pdf",
+    "sha256": "30d092076dfc5b52713373394b3399289e02595204f5103bd4c95dacb6f7eaef",
+    "bytes": 3355812,
+    "reason": "相同内容只保留一个实体；编译/检查路径保留相对链接"
+  },
+  {
+    "action": "deduplicate_to_symlink",
+    "source": "RG-MTM/paper/manuscript/latex/supplement.pdf",
+    "destination": "RG-MTM/paper/manuscript/Revised_Supplement.pdf",
+    "sha256": "410c0fdad245c19e0790271d54b2c2e877487713a97bdc0ed394d8e1811eb4fa",
+    "bytes": 3097236,
+    "reason": "相同内容只保留一个实体；编译/检查路径保留相对链接"
+  },
+  {
+    "action": "repair_symlink",
+    "source": "其他/归档/旧论文/LaTeX源码/pacificvis2027-restructured",
+    "destination": "其他/归档/既有归档/legacy-paper-assets/pacificvis2027-restructured"
+  },
+  {
+    "action": "repair_symlink",
+    "source": "其他/归档/旧论文/LaTeX源码/pacificvis2027",
+    "destination": "其他/归档/既有归档/legacy-paper-assets/pacificvis2027"
+  },
+  {
+    "action": "repair_symlink",
+    "source": "其他/RA-MTM/data/real",
+    "destination": "RG-MTM/data/real"
+  },
+  {
+    "action": "repair_symlink",
+    "source": "其他/归档/旧配图/RG-MTM/historical",
+    "destination": "RG-MTM/code/results/legacy_publication"
+  },
+  {
+    "action": "repair_symlink",
+    "source": "其他/归档/旧配图/RG-MTM/current",
+    "destination": "RG-MTM/code/results/figures"
+  },
+  {
+    "action": "repair_symlink",
+    "source": "其他/归档/旧配图/RG-MTM/diagnostics",
+    "destination": "RG-MTM/code/results/visualizations"
+  },
+  {
+    "action": "repair_symlink",
+    "source": "其他/归档/旧配图/RG-MTM/volume3d",
+    "destination": "RG-MTM/code/results/volume3d"
+  },
+  {
+    "action": "repair_symlink",
+    "source": "其他/归档/旧配图/RA-MTM/ring/longest_tracks.png",
+    "destination": "其他/RA-MTM/results/ring/longest_tracks.png"
+  },
+  {
+    "action": "repair_symlink",
+    "source": "其他/归档/旧配图/RA-MTM/ring/comparison_maps.pdf",
+    "destination": "其他/RA-MTM/results/ring/comparison_maps.pdf"
+  },
+  {
+    "action": "repair_symlink",
+    "source": "其他/归档/旧配图/RA-MTM/ring/comparison_maps.png",
+    "destination": "其他/RA-MTM/results/ring/comparison_maps.png"
+  },
+  {
+    "action": "repair_symlink",
+    "source": "其他/归档/旧配图/RA-MTM/ring/longest_tracks.pdf",
+    "destination": "其他/RA-MTM/results/ring/longest_tracks.pdf"
+  },
+  {
+    "action": "repair_symlink",
+    "source": "其他/归档/旧配图/RA-MTM/ring/comparison_maps.svg",
+    "destination": "其他/RA-MTM/results/ring/comparison_maps.svg"
+  },
+  {
+    "action": "repair_symlink",
+    "source": "其他/归档/旧配图/RA-MTM/ring/longest_tracks.svg",
+    "destination": "其他/RA-MTM/results/ring/longest_tracks.svg"
+  },
+  {
+    "action": "repair_symlink",
+    "source": "其他/归档/旧配图/RA-MTM/ring/input_fields.svg",
+    "destination": "其他/RA-MTM/results/ring/input_fields.svg"
+  },
+  {
+    "action": "repair_symlink",
+    "source": "其他/归档/旧配图/RA-MTM/ring/input_fields.png",
+    "destination": "其他/RA-MTM/results/ring/input_fields.png"
+  },
+  {
+    "action": "repair_symlink",
+    "source": "其他/归档/旧配图/RA-MTM/ring/input_fields.pdf",
+    "destination": "其他/RA-MTM/results/ring/input_fields.pdf"
+  },
+  {
+    "action": "repair_symlink",
+    "source": "其他/归档/旧配图/RA-MTM/era5/longest_tracks.png",
+    "destination": "其他/RA-MTM/results/era5/longest_tracks.png"
+  },
+  {
+    "action": "repair_symlink",
+    "source": "其他/归档/旧配图/RA-MTM/era5/comparison_maps.pdf",
+    "destination": "其他/RA-MTM/results/era5/comparison_maps.pdf"
+  },
+  {
+    "action": "repair_symlink",
+    "source": "其他/归档/旧配图/RA-MTM/era5/comparison_maps.png",
+    "destination": "其他/RA-MTM/results/era5/comparison_maps.png"
+  },
+  {
+    "action": "repair_symlink",
+    "source": "其他/归档/旧配图/RA-MTM/era5/longest_tracks.pdf",
+    "destination": "其他/RA-MTM/results/era5/longest_tracks.pdf"
+  },
+  {
+    "action": "repair_symlink",
+    "source": "其他/归档/旧配图/RA-MTM/era5/comparison_maps.svg",
+    "destination": "其他/RA-MTM/results/era5/comparison_maps.svg"
+  },
+  {
+    "action": "repair_symlink",
+    "source": "其他/归档/旧配图/RA-MTM/era5/longest_tracks.svg",
+    "destination": "其他/RA-MTM/results/era5/longest_tracks.svg"
+  },
+  {
+    "action": "repair_symlink",
+    "source": "其他/归档/旧配图/RA-MTM/era5/input_fields.svg",
+    "destination": "其他/RA-MTM/results/era5/input_fields.svg"
+  },
+  {
+    "action": "repair_symlink",
+    "source": "其他/归档/旧配图/RA-MTM/era5/input_fields.png",
+    "destination": "其他/RA-MTM/results/era5/input_fields.png"
+  },
+  {
+    "action": "repair_symlink",
+    "source": "其他/归档/旧配图/RA-MTM/era5/input_fields.pdf",
+    "destination": "其他/RA-MTM/results/era5/input_fields.pdf"
+  },
+  {
+    "action": "repair_symlink",
+    "source": "RG-MTM/code/paper",
+    "destination": "其他/归档/旧论文/LaTeX源码"
+  },
+  {
+    "action": "repair_symlink",
+    "source": "RG-MTM/code/references/Kopp和Weinkauf - 2022 - Temporal Merge Tree MapsA Topology-Based Static Visualization for Temporal Scalar Data.pdf",
+    "destination": "RG-MTM/references/Kopp和Weinkauf - 2022 - Temporal Merge Tree MapsA Topology-Based Static Visualization for Temporal Scalar Data.pdf"
+  },
+  {
+    "action": "repair_symlink",
+    "source": "RG-MTM/code/references/Spatiotemporal Merge Tree Maps A Topology and Geometry Aware Visualization for Temporal Scalar Data.pdf",
+    "destination": "RG-MTM/references/Spatiotemporal Merge Tree Maps A Topology and Geometry Aware Visualization for Temporal Scalar Data.pdf"
+  },
+  {
+    "action": "repair_symlink",
+    "source": "RG-MTM/code/references/pacificvis2025/pdfs/visnerf_2025.pdf",
+    "destination": "RG-MTM/references/pacificvis2025/pdfs/visnerf_2025.pdf"
+  },
+  {
+    "action": "repair_symlink",
+    "source": "RG-MTM/code/references/pacificvis2025/pdfs/more_than_beautiful_2025.pdf",
+    "destination": "RG-MTM/references/pacificvis2025/pdfs/more_than_beautiful_2025.pdf"
+  },
+  {
+    "action": "repair_symlink",
+    "source": "RG-MTM/code/references/pacificvis2025/pdfs/parkview_2025.pdf",
+    "destination": "RG-MTM/references/pacificvis2025/pdfs/parkview_2025.pdf"
+  },
+  {
+    "action": "repair_symlink",
+    "source": "RG-MTM/code/data/real",
+    "destination": "RG-MTM/data/real"
+  },
+  {
+    "action": "repair_symlink",
+    "source": "RG-MTM/code/data/public_scalar",
+    "destination": "RG-MTM/data/RG-MTM-public-scalar"
+  },
+  {
+    "action": "repair_symlink",
+    "source": "其他/归档/代码临时/volume3d/paper-style-en-check/metrics.json",
+    "destination": "RG-MTM/code/results/volume3d/tangaroa-paper-p10-full201/metrics.json"
+  },
+  {
+    "action": "repair_symlink",
+    "source": "其他/归档/代码临时/volume3d/paper-style-en-check/parameters.json",
+    "destination": "RG-MTM/code/results/volume3d/tangaroa-paper-p10-full201/parameters.json"
+  },
+  {
+    "action": "repair_symlink",
+    "source": "其他/归档/代码临时/volume3d/paper-style-en-check/features.json",
+    "destination": "RG-MTM/code/results/volume3d/tangaroa-paper-p10-full201/features.json"
+  },
+  {
+    "action": "repair_symlink",
+    "source": "其他/归档/代码临时/volume3d/paper-style-en-check/display_maps.npz",
+    "destination": "RG-MTM/code/results/volume3d/tangaroa-paper-p10-full201/display_maps.npz"
+  },
+  {
+    "action": "repair_symlink",
+    "source": "其他/归档/代码临时/volume3d/paper-style-en-check/certificates.json",
+    "destination": "RG-MTM/code/results/volume3d/tangaroa-paper-p10-full201/certificates.json"
+  },
+  {
+    "action": "repair_symlink",
+    "source": "其他/归档/代码临时/volume3d/paper-style-en-check/reference.json",
+    "destination": "RG-MTM/code/results/volume3d/tangaroa-paper-p10-full201/reference.json"
+  },
+  {
+    "action": "repair_symlink",
+    "source": "其他/归档/代码临时/volume3d/paper-style-en-check/manifest.json",
+    "destination": "RG-MTM/code/results/volume3d/tangaroa-paper-p10-full201/manifest.json"
+  },
+  {
+    "action": "repair_symlink",
+    "source": "其他/归档/代码临时/volume3d/paper-style-en-check/protocol.json",
+    "destination": "RG-MTM/code/results/volume3d/tangaroa-paper-p10-full201/protocol.json"
+  },
+  {
+    "action": "repair_symlink",
+    "source": "其他/归档/代码临时/volume3d/paper-style-en-check/verification.json",
+    "destination": "RG-MTM/code/results/volume3d/tangaroa-paper-p10-full201/verification.json"
+  },
+  {
+    "action": "repair_symlink",
+    "source": "其他/归档/代码临时/volume3d/paper-style-en-check/frame_metrics.json",
+    "destination": "RG-MTM/code/results/volume3d/tangaroa-paper-p10-full201/frame_metrics.json"
+  },
+  {
+    "action": "repair_symlink",
+    "source": "其他/归档/代码临时/volume3d/paper-style-en-check/positions.json",
+    "destination": "RG-MTM/code/results/volume3d/tangaroa-paper-p10-full201/positions.json"
+  },
+  {
+    "action": "repair_symlink",
+    "source": "其他/归档/代码临时/volume3d/paper-style-en-check/tmtm_orders.json",
+    "destination": "RG-MTM/code/results/volume3d/tangaroa-paper-p10-full201/tmtm_orders.json"
+  },
+  {
+    "action": "repair_symlink",
+    "source": "RG-MTM/code/paper",
+    "destination": "RG-MTM/paper/manuscript/latex"
+  },
+  {
+    "action": "move",
+    "source": "其他/归档/历史或排除结果/legacy_publication/pacificvis2027",
+    "destination": "RG-MTM/code/results/legacy_publication/pacificvis2027",
+    "reason": "必要例外：publication2027 冻结manifest和验证仍引用这些原始图源，并非当前论文编辑入口"
+  },
+  {
+    "action": "move",
+    "source": "其他/归档/旧结果配图/dendrogram_demo.pdf",
+    "destination": "RG-MTM/code/results/dendrogram_demo.pdf",
+    "reason": "必要例外：当前附录原始图源安装脚本依赖此PDF"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/paper/PHASE1_AUDIT.md",
+    "destination": "其他/归档/旧说明/论文修订/PHASE1_AUDIT.md",
+    "reason": "历史修订/重命名记录；当前入口以新整理文档为准"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/paper/REVISION_REPORT.md",
+    "destination": "其他/归档/旧说明/论文修订/REVISION_REPORT.md",
+    "reason": "历史修订/重命名记录；当前入口以新整理文档为准"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/paper/CLEANUP_REPORT_20261020.json",
+    "destination": "其他/归档/旧说明/论文修订/CLEANUP_REPORT_20261020.json",
+    "reason": "历史修订/重命名记录；当前入口以新整理文档为准"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/paper/FILE_NAMING_MAP.json",
+    "destination": "其他/归档/旧说明/论文修订/FILE_NAMING_MAP.json",
+    "reason": "历史修订/重命名记录；当前入口以新整理文档为准"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/paper/manuscript/latex/bibliography_revision_20261019.md",
+    "destination": "其他/归档/旧说明/TeX修订/bibliography_revision_20261019.md",
+    "reason": "历史一次性修订说明"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/paper/manuscript/latex/event_revision_20261019.md",
+    "destination": "其他/归档/旧说明/TeX修订/event_revision_20261019.md",
+    "reason": "历史一次性修订说明"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/paper/manuscript/latex/revision_manifest_20261019.json",
+    "destination": "其他/归档/旧说明/TeX修订/revision_manifest_20261019.json",
+    "reason": "历史一次性修订说明"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/paper/manuscript/latex/revision_manifest_algorithms_refs_20261019.json",
+    "destination": "其他/归档/旧说明/TeX修订/revision_manifest_algorithms_refs_20261019.json",
+    "reason": "历史一次性修订说明"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/paper/manuscript/latex/revision_manifest_events_20261019.json",
+    "destination": "其他/归档/旧说明/TeX修订/revision_manifest_events_20261019.json",
+    "reason": "历史一次性修订说明"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/paper/evidence/fig1/README.md",
+    "destination": "其他/归档/旧说明/Fig1_历史README.md",
+    "reason": "118帧/六页等叙述已过时，改用当前744小时与方向比较记录"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/paper/checks/All_Figures_1792376004604.validation.json",
+    "destination": "其他/归档/历史图文核验/All_Figures_1792376004604.validation.json",
+    "reason": "历史编辑阶段收据/页面截图；当前以综合核验和索引为准"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/paper/checks/Fig1_validated_1792375995147.validation.json",
+    "destination": "其他/归档/历史图文核验/Fig1_validated_1792375995147.validation.json",
+    "reason": "历史编辑阶段收据/页面截图；当前以综合核验和索引为准"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/paper/checks/Fig2_1792376002375.validation.json",
+    "destination": "其他/归档/历史图文核验/Fig2_1792376002375.validation.json",
+    "reason": "历史编辑阶段收据/页面截图；当前以综合核验和索引为准"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/paper/checks/Fig3_manuscript_page.json",
+    "destination": "其他/归档/历史图文核验/Fig3_manuscript_page.json",
+    "reason": "历史编辑阶段收据/页面截图；当前以综合核验和索引为准"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/paper/checks/Fig3_paper_quality_20261020.log",
+    "destination": "其他/归档/历史图文核验/Fig3_paper_quality_20261020.log",
+    "reason": "历史编辑阶段收据/页面截图；当前以综合核验和索引为准"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/paper/checks/Fig3_single_column_page5.png",
+    "destination": "其他/归档/历史图文核验/Fig3_single_column_page5.png",
+    "reason": "历史编辑阶段收据/页面截图；当前以综合核验和索引为准"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/paper/checks/Fig3_supplied_geometry.json",
+    "destination": "其他/归档/历史图文核验/Fig3_supplied_geometry.json",
+    "reason": "历史编辑阶段收据/页面截图；当前以综合核验和索引为准"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/paper/checks/Fig3_validated_1792375995147.validation.json",
+    "destination": "其他/归档/历史图文核验/Fig3_validated_1792375995147.validation.json",
+    "reason": "历史编辑阶段收据/页面截图；当前以综合核验和索引为准"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/paper/checks/Fig4_validated_1792375995147.validation.json",
+    "destination": "其他/归档/历史图文核验/Fig4_validated_1792375995147.validation.json",
+    "reason": "历史编辑阶段收据/页面截图；当前以综合核验和索引为准"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/paper/checks/Fig5_validated_1792375995147.validation.json",
+    "destination": "其他/归档/历史图文核验/Fig5_validated_1792375995147.validation.json",
+    "reason": "历史编辑阶段收据/页面截图；当前以综合核验和索引为准"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/paper/checks/Fig6_validated_1792375995147.validation.json",
+    "destination": "其他/归档/历史图文核验/Fig6_validated_1792375995147.validation.json",
+    "reason": "历史编辑阶段收据/页面截图；当前以综合核验和索引为准"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/paper/checks/Fig7_validated_1792374394406.validation.json",
+    "destination": "其他/归档/历史图文核验/Fig7_validated_1792374394406.validation.json",
+    "reason": "历史编辑阶段收据/页面截图；当前以综合核验和索引为准"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/paper/checks/Fig9_validated_1792375995147.validation.json",
+    "destination": "其他/归档/历史图文核验/Fig9_validated_1792375995147.validation.json",
+    "reason": "历史编辑阶段收据/页面截图；当前以综合核验和索引为准"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/paper/checks/additional_datasets_20261022.json",
+    "destination": "其他/归档/历史图文核验/additional_datasets_20261022.json",
+    "reason": "历史编辑阶段收据/页面截图；当前以综合核验和索引为准"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/paper/checks/algorithm3_removal.json",
+    "destination": "其他/归档/历史图文核验/algorithm3_removal.json",
+    "reason": "历史编辑阶段收据/页面截图；当前以综合核验和索引为准"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/paper/checks/dendrogram_final_quality.log",
+    "destination": "其他/归档/历史图文核验/dendrogram_final_quality.log",
+    "reason": "历史编辑阶段收据/页面截图；当前以综合核验和索引为准"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/paper/checks/dendrogram_main_compile.log",
+    "destination": "其他/归档/历史图文核验/dendrogram_main_compile.log",
+    "reason": "历史编辑阶段收据/页面截图；当前以综合核验和索引为准"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/paper/checks/dendrogram_precision_supp.png",
+    "destination": "其他/归档/历史图文核验/dendrogram_precision_supp.png",
+    "reason": "历史编辑阶段收据/页面截图；当前以综合核验和索引为准"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/paper/checks/dendrogram_source_preview.png",
+    "destination": "其他/归档/历史图文核验/dendrogram_source_preview.png",
+    "reason": "历史编辑阶段收据/页面截图；当前以综合核验和索引为准"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/paper/checks/dendrogram_supplement_compile.log",
+    "destination": "其他/归档/历史图文核验/dendrogram_supplement_compile.log",
+    "reason": "历史编辑阶段收据/页面截图；当前以综合核验和索引为准"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/paper/checks/dendrogram_transfer_20261020.json",
+    "destination": "其他/归档/历史图文核验/dendrogram_transfer_20261020.json",
+    "reason": "历史编辑阶段收据/页面截图；当前以综合核验和索引为准"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/paper/checks/fig9_frame_and_title_cleanup.json",
+    "destination": "其他/归档/历史图文核验/fig9_frame_and_title_cleanup.json",
+    "reason": "历史编辑阶段收据/页面截图；当前以综合核验和索引为准"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/paper/checks/figure5_old_diagnostics_supplement.png",
+    "destination": "其他/归档/历史图文核验/figure5_old_diagnostics_supplement.png",
+    "reason": "历史编辑阶段收据/页面截图；当前以综合核验和索引为准"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/paper/checks/figure5_selected_main_final.png",
+    "destination": "其他/归档/历史图文核验/figure5_selected_main_final.png",
+    "reason": "历史编辑阶段收据/页面截图；当前以综合核验和索引为准"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/paper/checks/figure5_selected_main_page7.png",
+    "destination": "其他/归档/历史图文核验/figure5_selected_main_page7.png",
+    "reason": "历史编辑阶段收据/页面截图；当前以综合核验和索引为准"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/paper/checks/figure5_selected_page.txt",
+    "destination": "其他/归档/历史图文核验/figure5_selected_page.txt",
+    "reason": "历史编辑阶段收据/页面截图；当前以综合核验和索引为准"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/paper/checks/figure5_selected_quality.log",
+    "destination": "其他/归档/历史图文核验/figure5_selected_quality.log",
+    "reason": "历史编辑阶段收据/页面截图；当前以综合核验和索引为准"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/paper/checks/figure5_selected_scoped_quality.json",
+    "destination": "其他/归档/历史图文核验/figure5_selected_scoped_quality.json",
+    "reason": "历史编辑阶段收据/页面截图；当前以综合核验和索引为准"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/paper/checks/figure5_selected_supplement_final.png",
+    "destination": "其他/归档/历史图文核验/figure5_selected_supplement_final.png",
+    "reason": "历史编辑阶段收据/页面截图；当前以综合核验和索引为准"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/paper/checks/figure6_black_labels_20261022.json",
+    "destination": "其他/归档/历史图文核验/figure6_black_labels_20261022.json",
+    "reason": "历史编辑阶段收据/页面截图；当前以综合核验和索引为准"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/paper/checks/figure6_restored_ppt_20261022.json",
+    "destination": "其他/归档/历史图文核验/figure6_restored_ppt_20261022.json",
+    "reason": "历史编辑阶段收据/页面截图；当前以综合核验和索引为准"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/paper/checks/figure6_visual_refinement_20261021.json",
+    "destination": "其他/归档/历史图文核验/figure6_visual_refinement_20261021.json",
+    "reason": "历史编辑阶段收据/页面截图；当前以综合核验和索引为准"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/paper/checks/figure8_visual_refinement_20261021.json",
+    "destination": "其他/归档/历史图文核验/figure8_visual_refinement_20261021.json",
+    "reason": "历史编辑阶段收据/页面截图；当前以综合核验和索引为准"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/paper/checks/figure9_author_palette_20261022.json",
+    "destination": "其他/归档/历史图文核验/figure9_author_palette_20261022.json",
+    "reason": "历史编辑阶段收据/页面截图；当前以综合核验和索引为准"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/paper/checks/figure_directory_unification.json",
+    "destination": "其他/归档/历史图文核验/figure_directory_unification.json",
+    "reason": "历史编辑阶段收据/页面截图；当前以综合核验和索引为准"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/paper/checks/prior_work_combined_integrity.json",
+    "destination": "其他/归档/历史图文核验/prior_work_combined_integrity.json",
+    "reason": "历史编辑阶段收据/页面截图；当前以综合核验和索引为准"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/paper/checks/prior_work_draft_page2.png",
+    "destination": "其他/归档/历史图文核验/prior_work_draft_page2.png",
+    "reason": "历史编辑阶段收据/页面截图；当前以综合核验和索引为准"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/paper/checks/prior_work_final_page2.png",
+    "destination": "其他/归档/历史图文核验/prior_work_final_page2.png",
+    "reason": "历史编辑阶段收据/页面截图；当前以综合核验和索引为准"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/paper/checks/prior_work_final_page3.png",
+    "destination": "其他/归档/历史图文核验/prior_work_final_page3.png",
+    "reason": "历史编辑阶段收据/页面截图；当前以综合核验和索引为准"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/paper/checks/prior_work_final_quality.log",
+    "destination": "其他/归档/历史图文核验/prior_work_final_quality.log",
+    "reason": "历史编辑阶段收据/页面截图；当前以综合核验和索引为准"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/paper/checks/prior_work_page.txt",
+    "destination": "其他/归档/历史图文核验/prior_work_page.txt",
+    "reason": "历史编辑阶段收据/页面截图；当前以综合核验和索引为准"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/paper/checks/prior_work_supplied_integrity.json",
+    "destination": "其他/归档/历史图文核验/prior_work_supplied_integrity.json",
+    "reason": "历史编辑阶段收据/页面截图；当前以综合核验和索引为准"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/paper/checks/results_float_compile_20261021.log",
+    "destination": "其他/归档/历史图文核验/results_float_compile_20261021.log",
+    "reason": "历史编辑阶段收据/页面截图；当前以综合核验和索引为准"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/paper/checks/results_float_layout_20261021.json",
+    "destination": "其他/归档/历史图文核验/results_float_layout_20261021.json",
+    "reason": "历史编辑阶段收据/页面截图；当前以综合核验和索引为准"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/paper/checks/results_structure_draft-06.png",
+    "destination": "其他/归档/历史图文核验/results_structure_draft-06.png",
+    "reason": "历史编辑阶段收据/页面截图；当前以综合核验和索引为准"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/paper/checks/results_structure_draft-07.png",
+    "destination": "其他/归档/历史图文核验/results_structure_draft-07.png",
+    "reason": "历史编辑阶段收据/页面截图；当前以综合核验和索引为准"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/paper/checks/results_structure_final_page7.png",
+    "destination": "其他/归档/历史图文核验/results_structure_final_page7.png",
+    "reason": "历史编辑阶段收据/页面截图；当前以综合核验和索引为准"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/paper/checks/results_structure_final_quality.log",
+    "destination": "其他/归档/历史图文核验/results_structure_final_quality.log",
+    "reason": "历史编辑阶段收据/页面截图；当前以综合核验和索引为准"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/paper/checks/supplied_fig3_20261020.json",
+    "destination": "其他/归档/历史图文核验/supplied_fig3_20261020.json",
+    "reason": "历史编辑阶段收据/页面截图；当前以综合核验和索引为准"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/paper/checks/three_method_figure_selection.json",
+    "destination": "其他/归档/历史图文核验/three_method_figure_selection.json",
+    "reason": "历史编辑阶段收据/页面截图；当前以综合核验和索引为准"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/paper/checks/tmtm_sections4_6_revision_20261020.json",
+    "destination": "其他/归档/历史图文核验/tmtm_sections4_6_revision_20261020.json",
+    "reason": "历史编辑阶段收据/页面截图；当前以综合核验和索引为准"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/paper/checks/tmtm_structure_final_quality.log",
+    "destination": "其他/归档/历史图文核验/tmtm_structure_final_quality.log",
+    "reason": "历史编辑阶段收据/页面截图；当前以综合核验和索引为准"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/paper/checks/tmtm_structure_review-08.png",
+    "destination": "其他/归档/历史图文核验/tmtm_structure_review-08.png",
+    "reason": "历史编辑阶段收据/页面截图；当前以综合核验和索引为准"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/paper/checks/tmtm_structure_review-09.png",
+    "destination": "其他/归档/历史图文核验/tmtm_structure_review-09.png",
+    "reason": "历史编辑阶段收据/页面截图；当前以综合核验和索引为准"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/paper/checks/tmtm_structure_review-10.png",
+    "destination": "其他/归档/历史图文核验/tmtm_structure_review-10.png",
+    "reason": "历史编辑阶段收据/页面截图；当前以综合核验和索引为准"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/paper/checks/tmtm_structure_supplement_diagnostics.png",
+    "destination": "其他/归档/历史图文核验/tmtm_structure_supplement_diagnostics.png",
+    "reason": "历史编辑阶段收据/页面截图；当前以综合核验和索引为准"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/paper/checks/tmtm_structure_supplement_last.png",
+    "destination": "其他/归档/历史图文核验/tmtm_structure_supplement_last.png",
+    "reason": "历史编辑阶段收据/页面截图；当前以综合核验和索引为准"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/paper/checks/unified_algorithm_20261020.json",
+    "destination": "其他/归档/历史图文核验/unified_algorithm_20261020.json",
+    "reason": "历史编辑阶段收据/页面截图；当前以综合核验和索引为准"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/paper/checks/unified_algorithm_final_quality.log",
+    "destination": "其他/归档/历史图文核验/unified_algorithm_final_quality.log",
+    "reason": "历史编辑阶段收据/页面截图；当前以综合核验和索引为准"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/paper/checks/unified_algorithm_main_compile.log",
+    "destination": "其他/归档/历史图文核验/unified_algorithm_main_compile.log",
+    "reason": "历史编辑阶段收据/页面截图；当前以综合核验和索引为准"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/paper/checks/unified_algorithm_page4.png",
+    "destination": "其他/归档/历史图文核验/unified_algorithm_page4.png",
+    "reason": "历史编辑阶段收据/页面截图；当前以综合核验和索引为准"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/paper/checks/unified_algorithm_supp_compile.log",
+    "destination": "其他/归档/历史图文核验/unified_algorithm_supp_compile.log",
+    "reason": "历史编辑阶段收据/页面截图；当前以综合核验和索引为准"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/paper/checks/unified_algorithm_supp_page11.png",
+    "destination": "其他/归档/历史图文核验/unified_algorithm_supp_page11.png",
+    "reason": "历史编辑阶段收据/页面截图；当前以综合核验和索引为准"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/paper/checks/unified_algorithm_supp_page3.png",
+    "destination": "其他/归档/历史图文核验/unified_algorithm_supp_page3.png",
+    "reason": "历史编辑阶段收据/页面截图；当前以综合核验和索引为准"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/paper/checks/updated_workflow_20261020.json",
+    "destination": "其他/归档/历史图文核验/updated_workflow_20261020.json",
+    "reason": "历史编辑阶段收据/页面截图；当前以综合核验和索引为准"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/paper/checks/updated_workflow_combined_slide3.png",
+    "destination": "其他/归档/历史图文核验/updated_workflow_combined_slide3.png",
+    "reason": "历史编辑阶段收据/页面截图；当前以综合核验和索引为准"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/paper/checks/updated_workflow_paper_page5.png",
+    "destination": "其他/归档/历史图文核验/updated_workflow_paper_page5.png",
+    "reason": "历史编辑阶段收据/页面截图；当前以综合核验和索引为准"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/paper/checks/updated_workflow_quality.log",
+    "destination": "其他/归档/历史图文核验/updated_workflow_quality.log",
+    "reason": "历史编辑阶段收据/页面截图；当前以综合核验和索引为准"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/Tangaroa-FAU/paper_full_201/maps_paper-smoke",
+    "destination": "其他/其他研究数据/real/Tangaroa-FAU/paper_full_201/maps_paper-smoke",
+    "reason": "已被完整正式运行替代的旧试跑缓存，或明确退役数据集源"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/Tangaroa-FAU/prepared_speed_12.npz",
+    "destination": "其他/其他研究数据/real/Tangaroa-FAU/prepared_speed_12.npz",
+    "reason": "已被完整正式运行替代的旧试跑缓存，或明确退役数据集源"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/RG-MTM-public-scalar/raw/sst.day.mean.2024.nc",
+    "destination": "其他/其他研究数据/RG-MTM-public-scalar/raw/sst.day.mean.2024.nc",
+    "reason": "已被完整正式运行替代的旧试跑缓存，或明确退役数据集源"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000131.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000131.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000201.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000201.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000202.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000202.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000203.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000203.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000204.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000204.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000205.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000205.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000206.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000206.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000207.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000207.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000208.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000208.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000209.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000209.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000210.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000210.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000211.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000211.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000212.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000212.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000213.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000213.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000214.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000214.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000215.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000215.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000216.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000216.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000217.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000217.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000218.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000218.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000219.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000219.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000220.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000220.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000221.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000221.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000222.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000222.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000223.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000223.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000224.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000224.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000225.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000225.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000226.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000226.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000227.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000227.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000228.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000228.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000229.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000229.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000301.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000301.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000302.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000302.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000303.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000303.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000304.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000304.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000305.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000305.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000306.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000306.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000307.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000307.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000308.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000308.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000309.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000309.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000310.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000310.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000311.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000311.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000312.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000312.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000313.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000313.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000314.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000314.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000315.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000315.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000316.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000316.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000317.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000317.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000318.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000318.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000319.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000319.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000320.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000320.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000321.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000321.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000322.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000322.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000323.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000323.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000324.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000324.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000325.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000325.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000326.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000326.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000327.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000327.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000328.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000328.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000329.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000329.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000330.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000330.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000331.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000331.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000501.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000501.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000502.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000502.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000503.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000503.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000504.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000504.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000505.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000505.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000506.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000506.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000507.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000507.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000508.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000508.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000509.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000509.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000510.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000510.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000511.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000511.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000512.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000512.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000513.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000513.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000514.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000514.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000515.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000515.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000516.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000516.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000517.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000517.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000518.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000518.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000519.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000519.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000520.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000520.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000521.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000521.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000522.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000522.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000523.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000523.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000524.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000524.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000525.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000525.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000526.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000526.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000527.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000527.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000528.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000528.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000529.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000529.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000530.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000530.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000531.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000531.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000601.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000601.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000602.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000602.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000603.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000603.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000604.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000604.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000605.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000605.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000606.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000606.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000607.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000607.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000608.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000608.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000609.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000609.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000610.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000610.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000611.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000611.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000612.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000612.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000613.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000613.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000614.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000614.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000615.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000615.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000616.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000616.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000617.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000617.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000618.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000618.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000619.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000619.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000620.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000620.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000621.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000621.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000622.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000622.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000623.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000623.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000624.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000624.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000625.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000625.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000626.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000626.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000627.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000627.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000628.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000628.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000629.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000629.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000630.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000630.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000731.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000731.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000801.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000801.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000802.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000802.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000803.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000803.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000804.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000804.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000805.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000805.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000806.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000806.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000807.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000807.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000808.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000808.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000809.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000809.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000810.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000810.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000811.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000811.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000812.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000812.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000813.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000813.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000814.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000814.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000815.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000815.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000816.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000816.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000817.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000817.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000818.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000818.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000819.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000819.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000820.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000820.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000821.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000821.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000822.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000822.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000823.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000823.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000824.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000824.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000825.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000825.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000826.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000826.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000827.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000827.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000828.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000828.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000829.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000829.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000830.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000830.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000831.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000831.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000901.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000901.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000902.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000902.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000903.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000903.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000904.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000904.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000905.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000905.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000906.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000906.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000907.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000907.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000908.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000908.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000909.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000909.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000910.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000910.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000911.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000911.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000912.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000912.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000913.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000913.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000914.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000914.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000915.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000915.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000916.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000916.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000917.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000917.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000918.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000918.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000919.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000919.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000920.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000920.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000921.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000921.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000922.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000922.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000923.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000923.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000924.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000924.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000925.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000925.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000926.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000926.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000927.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000927.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000928.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000928.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000929.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000929.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20000930.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20000930.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20001031.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20001031.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20001101.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20001101.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20001102.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20001102.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20001103.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20001103.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20001104.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20001104.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20001105.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20001105.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20001106.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20001106.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20001107.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20001107.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20001108.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20001108.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20001109.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20001109.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20001110.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20001110.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20001111.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20001111.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20001112.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20001112.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20001113.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20001113.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20001114.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20001114.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20001115.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20001115.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20001116.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20001116.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20001117.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20001117.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20001118.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20001118.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20001119.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20001119.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20001120.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20001120.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20001121.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20001121.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20001122.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20001122.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20001123.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20001123.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20001124.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20001124.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20001125.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20001125.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20001126.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20001126.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20001127.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20001127.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20001128.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20001128.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20001129.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20001129.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20001130.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20001130.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20001201.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20001201.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20001202.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20001202.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20001203.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20001203.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20001204.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20001204.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20001205.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20001205.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20001206.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20001206.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20001207.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20001207.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20001208.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20001208.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20001209.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20001209.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20001210.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20001210.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20001211.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20001211.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20001212.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20001212.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20001213.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20001213.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20001214.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20001214.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20001215.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20001215.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20001216.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20001216.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20001217.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20001217.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20001218.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20001218.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20001219.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20001219.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20001220.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20001220.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20001221.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20001221.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20001222.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20001222.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20001223.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20001223.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20001224.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20001224.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20001225.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20001225.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20001226.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20001226.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20001227.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20001227.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20001228.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20001228.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20001229.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20001229.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20001230.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20001230.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/data/real/CN-Reanalysis/2000/20001231.nc",
+    "destination": "其他/其他研究数据/CN-Reanalysis-unused/20001231.nc",
+    "reason": "不在当前四份冻结季节source_files协议的120天输入集合中"
+  },
+  {
+    "action": "deduplicate_to_symlink",
+    "source": "RG-MTM/data/RG-MTM-public-scalar/pm25_20000101_20000130.nc",
+    "destination": "RG-MTM/data/RG-MTM-public-scalar/pm25_jan_20000101_20000130.nc",
+    "sha256": "21ea719f7c213b1a933bded2f1aea75baa8378129340c2f2e49b62f5ea8a84d1",
+    "bytes": 7006346,
+    "reason": "两个NC处理数组字节相同；两份不同协议JSON各自保留"
+  },
+  {
+    "action": "delete_cache",
+    "source": ".DS_Store",
+    "bytes": 12292,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "RG-MTM/paper/.DS_Store",
+    "bytes": 12292,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "RG-MTM/paper/scripts/__pycache__/replace_first_slide.cpython-310.pyc",
+    "bytes": 8073,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "RG-MTM/paper/scripts/__pycache__/install_prior_work_overview.cpython-310.pyc",
+    "bytes": 6263,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "RG-MTM/paper/scripts/__pycache__/_filesystem.cpython-310.pyc",
+    "bytes": 630,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "RG-MTM/paper/scripts/__pycache__/validate_fig1.cpython-310.pyc",
+    "bytes": 3501,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "RG-MTM/paper/scripts/__pycache__/scene.cpython-310.pyc",
+    "bytes": 10836,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "RG-MTM/paper/scripts/__pycache__/anchor_aligned_renderer.cpython-310.pyc",
+    "bytes": 3500,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "RG-MTM/code/tools/__pycache__/evaluate_public_metrics.cpython-310.pyc",
+    "bytes": 16658,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "RG-MTM/code/tools/__pycache__/prepare_cn_pm25.cpython-310.pyc",
+    "bytes": 4680,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "RG-MTM/code/tools/__pycache__/check_public_export.cpython-310.pyc",
+    "bytes": 1411,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "RG-MTM/code/tools/__pycache__/update_paper_evidence.cpython-310.pyc",
+    "bytes": 1425,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "RG-MTM/code/analysis/visualization/__pycache__/rendering.cpython-310.pyc",
+    "bytes": 4377,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "RG-MTM/code/analysis/visualization/__pycache__/metrics.cpython-310.pyc",
+    "bytes": 6098,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "RG-MTM/code/analysis/visualization/__pycache__/catalog.cpython-310.pyc",
+    "bytes": 1804,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "RG-MTM/code/analysis/visualization/__pycache__/__init__.cpython-310.pyc",
+    "bytes": 278,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "RG-MTM/code/analysis/__pycache__/native_merge_errors.cpython-310.pyc",
+    "bytes": 5130,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "RG-MTM/code/analysis/__pycache__/result_tables.cpython-310.pyc",
+    "bytes": 3457,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "RG-MTM/code/analysis/__pycache__/misreading.cpython-310.pyc",
+    "bytes": 12895,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "RG-MTM/code/analysis/__pycache__/dataset_suite.cpython-310.pyc",
+    "bytes": 663,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "RG-MTM/code/analysis/__pycache__/era5_expanded.cpython-310.pyc",
+    "bytes": 7960,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "RG-MTM/code/analysis/__pycache__/provenance.cpython-310.pyc",
+    "bytes": 2820,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "RG-MTM/code/analysis/__pycache__/evaluation.cpython-310.pyc",
+    "bytes": 19028,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "RG-MTM/code/analysis/__pycache__/fig_witness.cpython-310.pyc",
+    "bytes": 8545,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "RG-MTM/code/analysis/__pycache__/attainable.cpython-310.pyc",
+    "bytes": 17598,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "RG-MTM/code/analysis/__pycache__/real_case_evidence.cpython-310.pyc",
+    "bytes": 5579,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "RG-MTM/code/analysis/__pycache__/public_scalar.cpython-310.pyc",
+    "bytes": 9737,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "RG-MTM/code/analysis/__pycache__/real_case_studies.cpython-310.pyc",
+    "bytes": 12786,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "RG-MTM/code/analysis/__pycache__/relax_hierarchy.cpython-310.pyc",
+    "bytes": 17835,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "RG-MTM/code/analysis/__pycache__/geo.cpython-310.pyc",
+    "bytes": 3560,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "RG-MTM/code/analysis/__pycache__/general_method.cpython-310.pyc",
+    "bytes": 15095,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "RG-MTM/code/analysis/__pycache__/real_case_large.cpython-310.pyc",
+    "bytes": 21855,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "RG-MTM/code/analysis/__pycache__/real_case_figures.cpython-310.pyc",
+    "bytes": 41828,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "RG-MTM/code/analysis/__pycache__/persistence.cpython-310.pyc",
+    "bytes": 5073,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "RG-MTM/code/analysis/__pycache__/figstyle.cpython-310.pyc",
+    "bytes": 1495,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "RG-MTM/code/analysis/__pycache__/filling.cpython-310.pyc",
+    "bytes": 5223,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "RG-MTM/code/analysis/__pycache__/replicate.cpython-310.pyc",
+    "bytes": 8118,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "RG-MTM/code/analysis/__pycache__/task_reference.cpython-310.pyc",
+    "bytes": 9578,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "RG-MTM/code/analysis/__pycache__/pointcert.cpython-310.pyc",
+    "bytes": 3631,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "RG-MTM/code/analysis/__pycache__/conflict_strategies.cpython-310.pyc",
+    "bytes": 16777,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "RG-MTM/code/analysis/__pycache__/certificate_core.cpython-310.pyc",
+    "bytes": 4927,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "RG-MTM/code/analysis/__pycache__/theory.cpython-310.pyc",
+    "bytes": 8016,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "RG-MTM/code/analysis/__pycache__/datasets_extra.cpython-310.pyc",
+    "bytes": 5554,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "RG-MTM/code/experiments/paper1_suite/__pycache__/prepare_3d.cpython-310.pyc",
+    "bytes": 7336,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "RG-MTM/code/experiments/paper1_suite/__pycache__/acquire_cylinder.cpython-310.pyc",
+    "bytes": 4442,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "RG-MTM/code/experiments/paper1_suite/__pycache__/report_benzene_reconstructed.cpython-310.pyc",
+    "bytes": 14238,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "RG-MTM/code/experiments/paper1_suite/__pycache__/verify.cpython-310.pyc",
+    "bytes": 9190,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "RG-MTM/code/experiments/paper1_suite/__pycache__/report.cpython-310.pyc",
+    "bytes": 12322,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "RG-MTM/code/experiments/paper1_suite/__pycache__/audit_benzene_source.cpython-310.pyc",
+    "bytes": 4265,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "RG-MTM/code/experiments/paper1_suite/__pycache__/prepare.cpython-310.pyc",
+    "bytes": 9318,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "RG-MTM/code/experiments/paper1_suite/__pycache__/run.cpython-310.pyc",
+    "bytes": 12231,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "RG-MTM/code/experiments/paper1_suite/__pycache__/benzene_reconstructed.cpython-310.pyc",
+    "bytes": 6850,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "RG-MTM/code/experiments/paper1_suite/__pycache__/verify_benzene_reconstructed.cpython-310.pyc",
+    "bytes": 7448,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "RG-MTM/code/experiments/paper1_suite/__pycache__/__init__.cpython-310.pyc",
+    "bytes": 258,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "RG-MTM/code/experiments/__pycache__/era5.cpython-310.pyc",
+    "bytes": 38680,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "RG-MTM/code/experiments/__pycache__/__init__.cpython-310.pyc",
+    "bytes": 185,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "RG-MTM/code/experiments/publication2027/__pycache__/layout_figures.cpython-310.pyc",
+    "bytes": 21242,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "RG-MTM/code/experiments/publication2027/__pycache__/domain_filling_figures.cpython-310.pyc",
+    "bytes": 17469,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "RG-MTM/code/experiments/ring/__pycache__/dataset.cpython-310.pyc",
+    "bytes": 7095,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "RG-MTM/code/experiments/ring/__pycache__/__init__.cpython-310.pyc",
+    "bytes": 190,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "RG-MTM/code/experiments/baseline_audit/__pycache__/audit.cpython-310.pyc",
+    "bytes": 14224,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "RG-MTM/code/experiments/baseline_audit/__pycache__/verify_saved.cpython-310.pyc",
+    "bytes": 2405,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "RG-MTM/code/experiments/volume3d/__pycache__/build_native_ttk.cpython-310.pyc",
+    "bytes": 3332,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "RG-MTM/code/experiments/volume3d/__pycache__/paper_style.cpython-310.pyc",
+    "bytes": 19417,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "RG-MTM/code/experiments/volume3d/__pycache__/run_paper.cpython-310.pyc",
+    "bytes": 20259,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "RG-MTM/code/experiments/volume3d/__pycache__/paper_trees.cpython-310.pyc",
+    "bytes": 9585,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "RG-MTM/code/experiments/volume3d/__pycache__/setup_inputs.cpython-310.pyc",
+    "bytes": 2237,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "RG-MTM/code/experiments/volume3d/__pycache__/prepare_tangaroa_paper.cpython-310.pyc",
+    "bytes": 7143,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "RG-MTM/code/experiments/volume3d/__pycache__/verify.cpython-310.pyc",
+    "bytes": 5454,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "RG-MTM/code/experiments/volume3d/__pycache__/verify_paper.cpython-310.pyc",
+    "bytes": 12973,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "RG-MTM/code/experiments/volume3d/__pycache__/prepare_tangaroa_official.cpython-310.pyc",
+    "bytes": 10579,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "RG-MTM/code/experiments/volume3d/__pycache__/report.cpython-310.pyc",
+    "bytes": 19735,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "RG-MTM/code/experiments/volume3d/__pycache__/verify_tangaroa_audit.cpython-310.pyc",
+    "bytes": 3542,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "RG-MTM/code/experiments/volume3d/__pycache__/prepare.cpython-310.pyc",
+    "bytes": 10018,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "RG-MTM/code/experiments/volume3d/__pycache__/verify_tangaroa_input.cpython-310.pyc",
+    "bytes": 3740,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "RG-MTM/code/experiments/volume3d/__pycache__/export_input_evidence.cpython-310.pyc",
+    "bytes": 1927,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "RG-MTM/code/experiments/volume3d/__pycache__/report_paper.cpython-310.pyc",
+    "bytes": 23643,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "RG-MTM/code/experiments/volume3d/__pycache__/audit_tangaroa.cpython-310.pyc",
+    "bytes": 20645,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "RG-MTM/code/experiments/volume3d/__pycache__/verify_saved.cpython-310.pyc",
+    "bytes": 6147,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "RG-MTM/code/experiments/volume3d/__pycache__/scalable_layout.cpython-310.pyc",
+    "bytes": 14647,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "RG-MTM/code/experiments/volume3d/__pycache__/prepare_tangaroa.cpython-310.pyc",
+    "bytes": 9571,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "RG-MTM/code/experiments/volume3d/__pycache__/compact_tmtm.cpython-310.pyc",
+    "bytes": 7587,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "RG-MTM/code/experiments/volume3d/__pycache__/fetch_tangaroa_snapshots.cpython-310.pyc",
+    "bytes": 4305,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "RG-MTM/code/tests/__pycache__/test_volume3d_public.cpython-310.pyc",
+    "bytes": 1309,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "RG-MTM/code/tests/__pycache__/test_space_filling.cpython-310.pyc",
+    "bytes": 2498,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "RG-MTM/code/tests/__pycache__/test_native_merge_errors.cpython-310.pyc",
+    "bytes": 1911,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "RG-MTM/code/tests/__pycache__/test_provenance.cpython-310.pyc",
+    "bytes": 4244,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "RG-MTM/code/tests/__pycache__/test_projection_proxy.cpython-310.pyc",
+    "bytes": 1367,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "RG-MTM/code/tests/__pycache__/test_volume3d.cpython-310.pyc",
+    "bytes": 6444,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "RG-MTM/code/tests/__pycache__/test_public_scalar.cpython-310.pyc",
+    "bytes": 3800,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "RG-MTM/code/tests/__pycache__/test_visualization.cpython-310.pyc",
+    "bytes": 2749,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "RG-MTM/code/tests/__pycache__/test_paper_certificates.cpython-310.pyc",
+    "bytes": 5677,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "RG-MTM/code/tests/__pycache__/test_result_tables.cpython-310.pyc",
+    "bytes": 2367,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "RG-MTM/code/tests/__pycache__/test_cn_pm25.cpython-310.pyc",
+    "bytes": 4675,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "RG-MTM/code/tests/__pycache__/test_volume3d_large.cpython-310.pyc",
+    "bytes": 8957,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "RG-MTM/code/src/rgmtm/__pycache__/reference_anchored.cpython-310.pyc",
+    "bytes": 3200,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "RG-MTM/code/src/rgmtm/__pycache__/names.cpython-310.pyc",
+    "bytes": 625,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "RG-MTM/code/src/rgmtm/__pycache__/reference_guided.cpython-310.pyc",
+    "bytes": 3194,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "RG-MTM/code/src/rgmtm/__pycache__/error_budget.cpython-310.pyc",
+    "bytes": 15293,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "RG-MTM/code/src/rgmtm/__pycache__/reference_points.cpython-310.pyc",
+    "bytes": 1534,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "RG-MTM/code/src/rgmtm/__pycache__/__init__.cpython-310.pyc",
+    "bytes": 424,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "RG-MTM/code/src/rgmtm/baselines/__pycache__/stmtm.cpython-310.pyc",
+    "bytes": 43216,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "RG-MTM/code/src/rgmtm/baselines/__pycache__/space_filling.cpython-310.pyc",
+    "bytes": 4292,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "RG-MTM/code/src/rgmtm/baselines/__pycache__/tmtm.cpython-310.pyc",
+    "bytes": 27907,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "RG-MTM/code/src/rgmtm/baselines/__pycache__/__init__.cpython-310.pyc",
+    "bytes": 193,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "其他/RA-MTM/experiments/__pycache__/era5.cpython-310.pyc",
+    "bytes": 37801,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "其他/RA-MTM/experiments/__pycache__/__init__.cpython-310.pyc",
+    "bytes": 160,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "其他/RA-MTM/experiments/ring/__pycache__/dataset.cpython-310.pyc",
+    "bytes": 7070,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "其他/RA-MTM/experiments/ring/__pycache__/__init__.cpython-310.pyc",
+    "bytes": 165,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "其他/RA-MTM/tests/__pycache__/test_dual_reference.cpython-310.pyc",
+    "bytes": 10298,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "其他/RA-MTM/tests/__pycache__/test_projection_proxy.cpython-310.pyc",
+    "bytes": 1341,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "其他/RA-MTM/tests/__pycache__/test_reference_points.cpython-310.pyc",
+    "bytes": 2810,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "其他/RA-MTM/tests/__pycache__/test_paper_certificates.cpython-310.pyc",
+    "bytes": 5654,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "其他/RA-MTM/prototypes/__pycache__/misreading.cpython-310.pyc",
+    "bytes": 12874,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "其他/RA-MTM/prototypes/__pycache__/attainable.cpython-310.pyc",
+    "bytes": 16948,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "其他/RA-MTM/prototypes/__pycache__/relax_hierarchy.cpython-310.pyc",
+    "bytes": 17816,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "其他/RA-MTM/prototypes/__pycache__/general_method.cpython-310.pyc",
+    "bytes": 13435,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "其他/RA-MTM/prototypes/__pycache__/replicate.cpython-310.pyc",
+    "bytes": 7952,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "其他/RA-MTM/prototypes/__pycache__/task_reference.cpython-310.pyc",
+    "bytes": 16194,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "其他/RA-MTM/prototypes/__pycache__/conflict_strategies.cpython-310.pyc",
+    "bytes": 16756,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "其他/RA-MTM/prototypes/__pycache__/eval_v2.cpython-310.pyc",
+    "bytes": 17122,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "其他/RA-MTM/prototypes/__pycache__/certificate_core.cpython-310.pyc",
+    "bytes": 4904,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "其他/RA-MTM/prototypes/__pycache__/theory.cpython-310.pyc",
+    "bytes": 7993,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "其他/RA-MTM/prototypes/__pycache__/datasets_extra.cpython-310.pyc",
+    "bytes": 5531,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "其他/RA-MTM/src/ramtm/__pycache__/reference_anchored.cpython-310.pyc",
+    "bytes": 4044,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "其他/RA-MTM/src/ramtm/__pycache__/error_budget.cpython-310.pyc",
+    "bytes": 16328,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "其他/RA-MTM/src/ramtm/__pycache__/dual_evaluation.cpython-310.pyc",
+    "bytes": 3447,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "其他/RA-MTM/src/ramtm/__pycache__/reference_points.cpython-310.pyc",
+    "bytes": 2179,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "其他/RA-MTM/src/ramtm/__pycache__/__init__.cpython-310.pyc",
+    "bytes": 441,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "其他/RA-MTM/src/ramtm/baselines/__pycache__/stmtm.cpython-310.pyc",
+    "bytes": 43191,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "其他/RA-MTM/src/ramtm/baselines/__pycache__/tmtm.cpython-310.pyc",
+    "bytes": 27907,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "其他/RA-MTM/src/ramtm/baselines/__pycache__/__init__.cpython-310.pyc",
+    "bytes": 168,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "其他/归档/旧配图/.DS_Store",
+    "bytes": 8196,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "其他/归档/构建缓存/dataset-filenames-20261022/backup/.DS_Store",
+    "bytes": 10244,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "其他/归档/构建缓存/additional-datasets-20261022/backup/scripts/__pycache__/replace_first_slide.cpython-310.pyc",
+    "bytes": 8073,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "其他/归档/构建缓存/additional-datasets-20261022/backup/scripts/__pycache__/install_prior_work_overview.cpython-310.pyc",
+    "bytes": 6263,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "其他/归档/构建缓存/additional-datasets-20261022/backup/scripts/__pycache__/validate_fig1.cpython-310.pyc",
+    "bytes": 3501,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "其他/归档/构建缓存/additional-datasets-20261022/backup/scripts/__pycache__/scene.cpython-310.pyc",
+    "bytes": 10836,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "其他/归档/构建缓存/additional-datasets-20261022/backup/scripts/__pycache__/anchor_aligned_renderer.cpython-310.pyc",
+    "bytes": 3500,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "其他/归档/构建缓存/dimensional-results-20261022/backup/scripts/__pycache__/replace_first_slide.cpython-310.pyc",
+    "bytes": 8073,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "其他/归档/构建缓存/dimensional-results-20261022/backup/scripts/__pycache__/install_prior_work_overview.cpython-310.pyc",
+    "bytes": 6263,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "其他/归档/构建缓存/dimensional-results-20261022/backup/scripts/__pycache__/validate_fig1.cpython-310.pyc",
+    "bytes": 3501,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "其他/归档/构建缓存/dimensional-results-20261022/backup/scripts/__pycache__/scene.cpython-310.pyc",
+    "bytes": 10836,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "其他/归档/构建缓存/dimensional-results-20261022/backup/scripts/__pycache__/anchor_aligned_renderer.cpython-310.pyc",
+    "bytes": 3500,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "其他/归档/构建缓存/main-results-layout-20261022/backup/scripts/__pycache__/replace_first_slide.cpython-310.pyc",
+    "bytes": 8073,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "其他/归档/构建缓存/main-results-layout-20261022/backup/scripts/__pycache__/install_prior_work_overview.cpython-310.pyc",
+    "bytes": 6263,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "其他/归档/构建缓存/main-results-layout-20261022/backup/scripts/__pycache__/validate_fig1.cpython-310.pyc",
+    "bytes": 3501,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "其他/归档/构建缓存/main-results-layout-20261022/backup/scripts/__pycache__/scene.cpython-310.pyc",
+    "bytes": 10836,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "其他/归档/构建缓存/main-results-layout-20261022/backup/scripts/__pycache__/anchor_aligned_renderer.cpython-310.pyc",
+    "bytes": 3500,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "delete_cache",
+    "source": "其他/归档/旧论文/.DS_Store",
+    "bytes": 6148,
+    "reason": "可重新生成的系统或Python解释器缓存"
+  },
+  {
+    "action": "external_relocated",
+    "source": "paper_revision/CYLINDER_VIEW_REVISION.md",
+    "destination": "其他/归档/构建缓存/cylinder-horizontal-20261023/reverted_source/paper_revision/CYLINDER_VIEW_REVISION.md",
+    "reason": "盘点期间既有工作已撤回的相机修订；沿用当前canonical图件，不擅自恢复"
+  },
+  {
+    "action": "external_relocated",
+    "source": "paper_revision/scripts/install_cylinder_view.py",
+    "destination": "其他/归档/构建缓存/cylinder-horizontal-20261023/reverted_source/paper_revision/scripts/install_cylinder_view.py",
+    "reason": "盘点期间既有工作已撤回的相机修订；沿用当前canonical图件，不擅自恢复"
+  },
+  {
+    "action": "external_relocated",
+    "source": "paper_revision/scripts/render_cylinder_view.py",
+    "destination": "其他/归档/构建缓存/cylinder-horizontal-20261023/reverted_source/paper_revision/scripts/render_cylinder_view.py",
+    "reason": "盘点期间既有工作已撤回的相机修订；沿用当前canonical图件，不擅自恢复"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/code/tmp/volume3d/native-build/ttk",
+    "destination": "其他/归档/原TTK构建状态/native-build/ttk",
+    "reason": "迁移后应从固定源码重新配置，不沿用旧路径CMake缓存"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/code/tmp/volume3d/native-build/CMakeFiles",
+    "destination": "其他/归档/原TTK构建状态/native-build/CMakeFiles",
+    "reason": "迁移后应从固定源码重新配置，不沿用旧路径CMake缓存"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/code/tmp/volume3d/native-build/.ninja_deps",
+    "destination": "其他/归档/原TTK构建状态/native-build/.ninja_deps",
+    "reason": "迁移后应从固定源码重新配置，不沿用旧路径CMake缓存"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/code/tmp/volume3d/native-build/cmake_install.cmake",
+    "destination": "其他/归档/原TTK构建状态/native-build/cmake_install.cmake",
+    "reason": "迁移后应从固定源码重新配置，不沿用旧路径CMake缓存"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/code/tmp/volume3d/native-build/build.ninja",
+    "destination": "其他/归档/原TTK构建状态/native-build/build.ninja",
+    "reason": "迁移后应从固定源码重新配置，不沿用旧路径CMake缓存"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/code/tmp/volume3d/native-build/CPackConfig.cmake",
+    "destination": "其他/归档/原TTK构建状态/native-build/CPackConfig.cmake",
+    "reason": "迁移后应从固定源码重新配置，不沿用旧路径CMake缓存"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/code/tmp/volume3d/native-build/CPackSourceConfig.cmake",
+    "destination": "其他/归档/原TTK构建状态/native-build/CPackSourceConfig.cmake",
+    "reason": "迁移后应从固定源码重新配置，不沿用旧路径CMake缓存"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/code/tmp/volume3d/native-build/CMakeCache.txt",
+    "destination": "其他/归档/原TTK构建状态/native-build/CMakeCache.txt",
+    "reason": "迁移后应从固定源码重新配置，不沿用旧路径CMake缓存"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/code/tmp/volume3d/native-build/.ninja_log",
+    "destination": "其他/归档/原TTK构建状态/native-build/.ninja_log",
+    "reason": "迁移后应从固定源码重新配置，不沿用旧路径CMake缓存"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/code/tmp/volume3d/ttk-build",
+    "destination": "其他/归档/原TTK构建状态/ttk-build",
+    "reason": "旧CMake绝对路径构建状态；固定源码与运行二进制仍保留"
+  },
+  {
+    "action": "move",
+    "source": "RG-MTM/paper/scripts/verify_results_float_layout.py",
+    "destination": "其他/归档/过期或一次性脚本/verify_results_float_layout.py",
+    "reason": "旧9图/旧章节浮动位置检查已过时；由当前11图verify_comprehensive_revision取代"
+  },
+  {
+    "action": "edit_paths_or_index",
+    "source": "RG-MTM/paper/scripts/solve_fig1_december_xaxis.py",
+    "reason": "修复RG-MTM/code相对代码入口，包含脚本文内复现路径"
+  },
+  {
+    "action": "edit_paths_or_index",
+    "source": "RG-MTM/paper/scripts/fig1_audit_events.py",
+    "reason": "修复RG-MTM/code相对代码入口，包含脚本文内复现路径"
+  },
+  {
+    "action": "edit_paths_or_index",
+    "source": "RG-MTM/paper/scripts/prepare_cases.py",
+    "reason": "修复RG-MTM/code相对代码入口，包含脚本文内复现路径"
+  },
+  {
+    "action": "edit_paths_or_index",
+    "source": "RG-MTM/paper/scripts/run_fig1_december_xaxis.py",
+    "reason": "修复RG-MTM/code相对代码入口，包含脚本文内复现路径"
+  },
+  {
+    "action": "edit_paths_or_index",
+    "source": "RG-MTM/paper/scripts/prepare_fig1_direction_comparison.py",
+    "reason": "修复RG-MTM/code相对代码入口，包含脚本文内复现路径"
+  },
+  {
+    "action": "edit_paths_or_index",
+    "source": "RG-MTM/paper/scripts/install_dendrogram_transfer.py",
+    "reason": "修复RG-MTM/code相对代码入口，包含脚本文内复现路径"
+  },
+  {
+    "action": "edit_paths_or_index",
+    "source": "RG-MTM/paper/scripts/prepare_figure1.py",
+    "reason": "修复RG-MTM/code相对代码入口，包含脚本文内复现路径"
+  },
+  {
+    "action": "edit_paths_or_index",
+    "source": "RG-MTM/paper/scripts/diagnose_line_visibility.py",
+    "reason": "修复RG-MTM/code相对代码入口，包含脚本文内复现路径"
+  },
+  {
+    "action": "edit_paths_or_index",
+    "source": "RG-MTM/paper/scripts/validate_fig1_direction_data.py",
+    "reason": "修复RG-MTM/code相对代码入口，包含脚本文内复现路径"
+  },
+  {
+    "action": "edit_paths_or_index",
+    "source": "RG-MTM/paper/manuscript/latex/tools/export_event_figures.py",
+    "reason": "修复RG-MTM/code相对代码入口，包含脚本文内复现路径"
+  },
+  {
+    "action": "edit_paths_or_index",
+    "source": "RG-MTM/paper/manuscript/latex/tools/export_existing_figures.py",
+    "reason": "修复RG-MTM/code相对代码入口，包含脚本文内复现路径"
+  },
+  {
+    "action": "edit_paths_or_index",
+    "source": "RG-MTM/paper/manuscript/latex/tools/compose_tangaroa_existing.py",
+    "reason": "修复RG-MTM/code相对代码入口，包含脚本文内复现路径"
+  },
+  {
+    "action": "edit_paths_or_index",
+    "source": "RG-MTM/paper/scripts/_filesystem.py",
+    "reason": "增加同文件/软链接复制保护，避免集中资产的SameFileError"
+  },
+  {
+    "action": "edit_paths_or_index",
+    "source": "RG-MTM/paper/scripts/sync_figure_catalog.py",
+    "reason": "复制当前图/PDF时兼容单一物理文件和LaTeX软链接"
+  },
+  {
+    "action": "edit_paths_or_index",
+    "source": "RG-MTM/paper/scripts/sync_supplementary_catalog.py",
+    "reason": "复制当前图/PDF时兼容单一物理文件和LaTeX软链接"
+  },
+  {
+    "action": "edit_paths_or_index",
+    "source": "RG-MTM/paper/scripts/select_manuscript_teaser.py",
+    "reason": "复制当前图/PDF时兼容单一物理文件和LaTeX软链接"
+  },
+  {
+    "action": "edit_paths_or_index",
+    "source": "RG-MTM/paper/scripts/verify_results_float_layout.py",
+    "reason": "复制当前图/PDF时兼容单一物理文件和LaTeX软链接"
+  },
+  {
+    "action": "edit_paths_or_index",
+    "source": "RG-MTM/paper/scripts/install_selected_fig1.py",
+    "reason": "复制当前图/PDF时兼容单一物理文件和LaTeX软链接"
+  },
+  {
+    "action": "edit_paths_or_index",
+    "source": "RG-MTM/paper/scripts/publish_fig1_direction_comparison.py",
+    "reason": "复制当前图/PDF时兼容单一物理文件和LaTeX软链接"
+  },
+  {
+    "action": "edit_paths_or_index",
+    "source": "RG-MTM/paper/scripts/verify_comprehensive_revision.py",
+    "reason": "从归档中的既有全面复查基线读取可选protected证据，不创建根构建目录"
+  },
+  {
+    "action": "edit_paths_or_index",
+    "source": "RG-MTM/paper/scripts/publish_fig1_direction_comparison.py",
+    "reason": "图1方向变体仅发布至supplementary_variants，不回填正文资产目录"
+  },
+  {
+    "action": "edit_paths_or_index",
+    "source": "RG-MTM/paper/scripts/regenerate_fig1_direction_comparison.py",
+    "reason": "更新图1方向变体输出位置说明"
+  },
+  {
+    "action": "edit_paths_or_index",
+    "source": "RG-MTM/paper/scripts/install_selected_fig1.py",
+    "reason": "从supplementary_variants选择图1变体；按当前图目录保护其余全部11图"
+  },
+  {
+    "action": "edit_paths_or_index",
+    "source": ".venv/lib/python3.10/site-packages/__editable__.rg_mtm-1.0.0.pth",
+    "reason": "修复虚拟环境中可编辑包的本地源码路径"
+  },
+  {
+    "action": "edit_paths_or_index",
+    "source": ".venv/lib/python3.10/site-packages/__editable__.ra_mtm-0.1.0.pth",
+    "reason": "修复虚拟环境中可编辑包的本地源码路径"
+  },
+  {
+    "action": "edit_paths_or_index",
+    "source": "RG-MTM/paper/scripts/verify_comprehensive_revision.py",
+    "reason": "既有257文件protected基线中3个旧说明/未编译表格归档后，仍按精确新位置检查原哈希"
+  },
+  {
+    "action": "edit_paths_or_index",
+    "source": "其他/归档/整理前脚本/experiments/volume3d/verify_saved.py",
+    "reason": "保留路径修复前原verify_saved脚本全部字节，校验器源哈希可回溯"
+  },
+  {
+    "action": "edit_paths_or_index",
+    "source": "RG-MTM/code/experiments/volume3d/verify_saved.py",
+    "reason": "两份历史Tangaroa pilot验证凭据从精确归档路径读取，仍要求原status==passed；当前synthetic两份及所有科学哈希校验不变"
+  },
+  {
+    "action": "edit_paths_or_index",
+    "source": "RG-MTM/code/experiments/latest/manifest.json",
+    "reason": "仅维护导航索引files[experiments/volume3d/verify_saved.py]的bytes和sha256，不改科学结果manifest"
+  },
+  {
+    "action": "edit_paths_or_index",
+    "source": "RG-MTM/code/tools/build_latest_experiment_index.py",
+    "reason": "导航索引补齐当前新增静态/三维输入及案例审计；不修改实验算法"
+  }
+]

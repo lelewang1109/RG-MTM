@@ -1,0 +1,402 @@
+{
+  "chosen": {
+    "t": 18,
+    "witness": [
+      7,
+      1,
+      8
+    ],
+    "node": 871,
+    "bound": 20.792130615669763,
+    "tracks": [
+      3,
+      48,
+      52
+    ],
+    "persistent_three_frames": true,
+    "H": 0.13921149643185637,
+    "gain": 0.12121684405613914,
+    "errorP": 0.14754482976518962,
+    "errorR": 0.026327985709050483,
+    "delta": 0.6350617768029346,
+    "rule": "Among H>2% frames with a witness triple matched in all three adjacent frames and positive P-to-R max-error reduction and measured cost, choose largest H (earliest tie). Descriptive selection, not unbiased performance evidence.",
+    "snapshots": [
+      17,
+      18,
+      19
+    ],
+    "window": [
+      13,
+      24
+    ]
+  },
+  "candidates": [
+    {
+      "t": 3,
+      "witness": [
+        9,
+        2,
+        8
+      ],
+      "node": 2098,
+      "bound": 9.615694070448178,
+      "tracks": [
+        18,
+        9,
+        12
+      ],
+      "persistent_three_frames": false,
+      "H": 0.060537727743476114,
+      "gain": 0.05649793696514401,
+      "errorP": 0.06660070549076752,
+      "errorR": 0.010102768525623508,
+      "delta": 0.08587316143529874
+    },
+    {
+      "t": 6,
+      "witness": [
+        4,
+        0,
+        3
+      ],
+      "node": 942,
+      "bound": 9.499482987285319,
+      "tracks": [
+        7,
+        22,
+        15
+      ],
+      "persistent_three_frames": false,
+      "H": 0.06373182997929791,
+      "gain": 0.04854793885245738,
+      "errorP": 0.0720651633126312,
+      "errorR": 0.02351722446017382,
+      "delta": 0.30059238035317676
+    },
+    {
+      "t": 8,
+      "witness": [
+        8,
+        0,
+        4
+      ],
+      "node": 1070,
+      "bound": 24.704642583871255,
+      "tracks": [
+        26,
+        25,
+        15
+      ],
+      "persistent_three_frames": false,
+      "H": 0.15488271295456202,
+      "gain": 0.154882712954562,
+      "errorP": 0.16321604628789532,
+      "errorR": 0.00833333333333334,
+      "delta": 0.3122718265574964
+    },
+    {
+      "t": 9,
+      "witness": [
+        6,
+        2,
+        5
+      ],
+      "node": 3897,
+      "bound": 9.789387068428994,
+      "tracks": [
+        26,
+        9,
+        28
+      ],
+      "persistent_three_frames": false,
+      "H": 0.06182200438484036,
+      "gain": 0.058471716289185495,
+      "errorP": 0.06680504962251883,
+      "errorR": 0.00833333333333334,
+      "delta": 0.03750204760342932
+    },
+    {
+      "t": 10,
+      "witness": [
+        9,
+        0,
+        8
+      ],
+      "node": 1130,
+      "bound": 31.902354471384644,
+      "tracks": [
+        26,
+        30,
+        34
+      ],
+      "persistent_three_frames": false,
+      "H": 0.19465306057399376,
+      "gain": 0.19465306057399367,
+      "errorP": 0.20475582909961715,
+      "errorR": 0.010102768525623466,
+      "delta": 0.0007414822994196318
+    },
+    {
+      "t": 12,
+      "witness": [
+        10,
+        0,
+        7
+      ],
+      "node": 809,
+      "bound": 30.926409173006448,
+      "tracks": [
+        26,
+        30,
+        41
+      ],
+      "persistent_three_frames": false,
+      "H": 0.1911326494731657,
+      "gain": 0.1911326494731657,
+      "errorP": 0.20073216899084767,
+      "errorR": 0.009599519517681987,
+      "delta": 0.11112098061990242
+    },
+    {
+      "t": 13,
+      "witness": [
+        9,
+        4,
+        8
+      ],
+      "node": 2226,
+      "bound": 11.576315441893314,
+      "tracks": [
+        3,
+        37,
+        44
+      ],
+      "persistent_three_frames": false,
+      "H": 0.07384947165838017,
+      "gain": 0.07384947165838016,
+      "errorP": 0.08283863961356218,
+      "errorR": 0.008989167955182023,
+      "delta": 0.49693546376275155
+    },
+    {
+      "t": 15,
+      "witness": [
+        4,
+        1,
+        5
+      ],
+      "node": 2356,
+      "bound": 8.812194516523846,
+      "tracks": [
+        3,
+        37,
+        47
+      ],
+      "persistent_three_frames": false,
+      "H": 0.05573805532304313,
+      "gain": 0.05573805532304315,
+      "errorP": 0.06407138865637649,
+      "errorR": 0.00833333333333334,
+      "delta": 0.4490703551635341
+    },
+    {
+      "t": 16,
+      "witness": [
+        7,
+        2,
+        6
+      ],
+      "node": 1389,
+      "bound": 10.885285210550933,
+      "tracks": [
+        3,
+        37,
+        50
+      ],
+      "persistent_three_frames": false,
+      "H": 0.06975449288989066,
+      "gain": 0.06843939244850361,
+      "errorP": 0.07677272578183696,
+      "errorR": 0.00833333333333334,
+      "delta": 0.8231044199162044
+    },
+    {
+      "t": 17,
+      "witness": [
+        7,
+        1,
+        5
+      ],
+      "node": 924,
+      "bound": 20.38601545136322,
+      "tracks": [
+        3,
+        22,
+        49
+      ],
+      "persistent_three_frames": false,
+      "H": 0.12786168222579655,
+      "gain": 0.0703872240096824,
+      "errorP": 0.13675492558555571,
+      "errorR": 0.06636770157587331,
+      "delta": 0.029870267598252065
+    },
+    {
+      "t": 18,
+      "witness": [
+        7,
+        1,
+        8
+      ],
+      "node": 871,
+      "bound": 20.792130615669763,
+      "tracks": [
+        3,
+        48,
+        52
+      ],
+      "persistent_three_frames": true,
+      "H": 0.13921149643185637,
+      "gain": 0.12121684405613914,
+      "errorP": 0.14754482976518962,
+      "errorR": 0.026327985709050483,
+      "delta": 0.6350617768029346,
+      "rule": "Among H>2% frames with a witness triple matched in all three adjacent frames and positive P-to-R max-error reduction and measured cost, choose largest H (earliest tie). Descriptive selection, not unbiased performance evidence.",
+      "snapshots": [
+        17,
+        18,
+        19
+      ],
+      "window": [
+        13,
+        24
+      ]
+    },
+    {
+      "t": 19,
+      "witness": [
+        6,
+        1,
+        5
+      ],
+      "node": 807,
+      "bound": 15.20515959658593,
+      "tracks": [
+        3,
+        48,
+        49
+      ],
+      "persistent_three_frames": true,
+      "H": 0.1001159538148051,
+      "gain": 0.1001159538148052,
+      "errorP": 0.10951797947959949,
+      "errorR": 0.009402025664794287,
+      "delta": 0.5568607433913595
+    },
+    {
+      "t": 20,
+      "witness": [
+        7,
+        0,
+        4
+      ],
+      "node": 809,
+      "bound": 16.759665803724502,
+      "tracks": [
+        3,
+        48,
+        49
+      ],
+      "persistent_three_frames": true,
+      "H": 0.09974260343521188,
+      "gain": 0.0997426034352118,
+      "errorP": 0.11194983568948645,
+      "errorR": 0.012207232254274657,
+      "delta": 0.2668765834588491
+    },
+    {
+      "t": 21,
+      "witness": [
+        7,
+        3,
+        8
+      ],
+      "node": 3061,
+      "bound": 10.940272618314957,
+      "tracks": [
+        3,
+        9,
+        62
+      ],
+      "persistent_three_frames": false,
+      "H": 0.07083876364571169,
+      "gain": 0.07083876364571173,
+      "errorP": 0.07917209697904508,
+      "errorR": 0.00833333333333334,
+      "delta": 0.3513283597984166
+    },
+    {
+      "t": 22,
+      "witness": [
+        5,
+        0,
+        3
+      ],
+      "node": 744,
+      "bound": 15.777484237711509,
+      "tracks": [
+        3,
+        48,
+        49
+      ],
+      "persistent_three_frames": true,
+      "H": 0.10224814390151576,
+      "gain": 0.09523261346805925,
+      "errorP": 0.1035659468013926,
+      "errorR": 0.00833333333333334,
+      "delta": 0.01741737187389661
+    },
+    {
+      "t": 23,
+      "witness": [
+        6,
+        0,
+        4
+      ],
+      "node": 809,
+      "bound": 18.369159418627117,
+      "tracks": [
+        3,
+        48,
+        49
+      ],
+      "persistent_three_frames": false,
+      "H": 0.11637293546161345,
+      "gain": 0.1157826174305673,
+      "errorP": 0.12411595076390064,
+      "errorR": 0.00833333333333334,
+      "delta": 0.016215656897068716
+    },
+    {
+      "t": 28,
+      "witness": [
+        5,
+        1,
+        3
+      ],
+      "node": 744,
+      "bound": 8.292362776108366,
+      "tracks": [
+        61,
+        48,
+        71
+      ],
+      "persistent_three_frames": false,
+      "H": 0.05292854323614025,
+      "gain": 0.04648393586808468,
+      "errorP": 0.054817269201418016,
+      "errorR": 0.00833333333333334,
+      "delta": 0.09302838342060318
+    }
+  ]
+}

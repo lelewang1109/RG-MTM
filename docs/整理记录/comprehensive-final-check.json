@@ -1,0 +1,19 @@
+{
+  "name": "comprehensive_after_navigation",
+  "command": "../../.venv/bin/python scripts/verify_comprehensive_revision.py",
+  "exit_code": 0,
+  "frozen_files": 257,
+  "documents": [
+    {
+      "file": "manuscript/Revised_RG-MTM.pdf",
+      "pages": 14,
+      "sha256": "30d092076dfc5b52713373394b3399289e02595204f5103bd4c95dacb6f7eaef"
+    },
+    {
+      "file": "manuscript/Revised_Supplement.pdf",
+      "pages": 46,
+      "sha256": "410c0fdad245c19e0790271d54b2c2e877487713a97bdc0ed394d8e1811eb4fa"
+    }
+  ],
+  "source_package_matches_current_sources_and_figures": true
+}

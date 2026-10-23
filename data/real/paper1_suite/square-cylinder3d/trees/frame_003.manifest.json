@@ -1,0 +1,15 @@
+{
+  "input_sha256": "bb3f27ab5bb4297ea4a8af9cbdffadda2199da3d95519f38fb810decf74db3ce",
+  "binary_sha256": "f82bf82ad1e452a742df33bcd1632c361a3ae6895983b2e31aaf69afe84598e9",
+  "threshold": 0.006395254135131836,
+  "files": {
+    "frame_003.json": "f12a003c73394e9715013296cee735a0603ff0f02074d9b1f9e75c60b1ac1493",
+    "frame_003.pairs.csv": "d3b932f24bcb6e3e2101216cbb009d70c8262be9408be913047a2dd749dd2ace",
+    "frame_003.nodes.i32": "ef90b4d23bb1c1c90b4a5968edfd2550b7c77ef8cd6e3a312c0c5a5dfb711219",
+    "frame_003.arcs.i32": "e259f886b3150c3fff96da7eb4493e3a287e113610876444feaee66cbd32a71b",
+    "frame_003.regular.i32": "00d259dcdbaa9f224837d6124e4171419737bfb9aefa0bde538e989dbdc75d28",
+    "frame_003.owner.i32": "3901a82cae1d7c247e48b9a7ff7c015908ea9c7691d9b227a4737e9ee0224853",
+    "frame_003.values.f32": "cd1db598af2afc23aeb2d5fa8931cdd7ceefe2617e7929a0d01e5a2e6988cdc5",
+    "frame_003.offsets.i32": "2f147533a37bb3364080540ce7cc11b27f799119a4ce6e332b53b25987acc109"
+  }
+}

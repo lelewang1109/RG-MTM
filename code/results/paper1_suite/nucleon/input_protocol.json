@@ -1,0 +1,26 @@
+{
+  "source": "experiments/paper1_suite/source/nucleon41x41x41_centerslice_padded.raw",
+  "source_sha256": "6d481e40f03c360dffaad2945c0ace2f7cdbd5551ba11731ecccebbe9e4b00d4",
+  "source_url": "https://github.com/Wiebke/TemporalMergeTreeMaps",
+  "author_commit": "2c75a10ed2cd55177a25ff751e0c0a8261200717",
+  "scalar": "Nucleon uint8 scalar, original author padded 64x64 slice",
+  "persistence_fraction": 0.0,
+  "original_paper_nodes": 28,
+  "time_semantics": "one static frame; temporal metrics not applicable",
+  "correspondence": "same author input; different TTK execution environment",
+  "name": "nucleon",
+  "shape_tyx": [
+    1,
+    64,
+    64
+  ],
+  "scalar_scale": 247.0,
+  "canonical_transform": "f_join = -f_source / fixed_sequence_scalar_range",
+  "tree_kind": "join of negated field = split of source field",
+  "spatial_resampling": false,
+  "spatial_smoothing": false,
+  "per_frame_normalization": false,
+  "leaf_filter": false,
+  "native_binary_sha256": "f82bf82ad1e452a742df33bcd1632c361a3ae6895983b2e31aaf69afe84598e9",
+  "source_fields_sha256": "54f7502c95d052285d4dbec3f018813ae0980dcdba7049788bb503ec85388198"
+}

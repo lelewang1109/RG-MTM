@@ -1,0 +1,9 @@
+{
+  "status": "complete",
+  "frames": 12,
+  "source_total_frames": 201,
+  "archive_bytes": 14157973031,
+  "archive_fully_downloaded": false,
+  "checks": "ZIP64 directory, local headers, source member CRC32, sizes and SHA256",
+  "prepared_sha256": "c486e66da081af5283df8a2b382c7b797ab053804af5508b29f201435bb91c65"
+}

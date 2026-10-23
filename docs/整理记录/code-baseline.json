@@ -1,0 +1,31 @@
+{
+  "time": "2026-10-23",
+  "commands": [
+    {
+      "command": "PYTHONPATH=src:analysis:. ../.venv/bin/python -m unittest discover -s tests -q",
+      "cwd": "02-RG-MTM",
+      "exit_code": 0,
+      "tests": 43,
+      "seconds": 0.645,
+      "output": "Ran 43 tests in 0.645s\nOK"
+    },
+    {
+      "command": "PYTHONPATH=src:analysis:. ../.venv/bin/python experiments/publication2027/validate.py",
+      "cwd": "02-RG-MTM",
+      "chunk_id": "74a7f3",
+      "wall_time_seconds": 0.091289125,
+      "exit_code": 0,
+      "original_token_count": 38,
+      "output": "All evidence, tables, numeric render exports and figure hashes match\nMain numerical claims agree with result files, including sparse and negative cases\n"
+    },
+    {
+      "command": "PYTHONPATH=src:analysis:. ../.venv/bin/python tools/verify_rgmtm_migration.py",
+      "cwd": "02-RG-MTM",
+      "chunk_id": "af9be5",
+      "wall_time_seconds": 0.178439625,
+      "exit_code": 0,
+      "original_token_count": 53,
+      "output": "{\n  \"status\": \"passed\",\n  \"protected_numerical_files\": 177,\n  \"local_caches_checked\": 11,\n  \"reversible_source_edits\": 54,\n  \"figures\": 11,\n  \"formats\": [\n    \"PNG\",\n    \"SVG\"\n  ],\n  \"numerical_rerun\": false\n}\n"
+    }
+  ]
+}

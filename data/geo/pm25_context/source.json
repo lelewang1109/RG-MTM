@@ -1,0 +1,8 @@
+{
+  "source": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_50m_admin_1_states_provinces.geojson",
+  "publisher": "Natural Earth",
+  "license": "Public domain",
+  "source_sha256": "69a0e06e640b2d505858ae1cb63034e4677f3000b35a98e16312932b98c426b9",
+  "features": 31,
+  "scope": "Geographic context only; no scalar resampling or analytical region changes"
+}

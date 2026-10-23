@@ -1,0 +1,10 @@
+Metadata-Version: 2.4
+Name: cd-mtm
+Version: 1.0.0
+Summary: Certificate-Driven Merge Tree Maps and position-topology trade-off analysis
+Requires-Python: >=3.10
+Requires-Dist: numpy==2.0.2
+Requires-Dist: scipy==1.13.1
+Requires-Dist: matplotlib==3.9.4
+Requires-Dist: Pillow==12.3.0
+Requires-Dist: netCDF4==1.7.4

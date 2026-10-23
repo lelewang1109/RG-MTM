@@ -1,0 +1,576 @@
+{
+  "name": "square-cylinder3d",
+  "shape_tzyx": [
+    102,
+    48,
+    64,
+    135
+  ],
+  "original_velocity_shape_tzyxc": [
+    102,
+    48,
+    64,
+    192,
+    3
+  ],
+  "scalar": "Q = -0.5 trace(J^2), computed from original 3-component 3-D velocities before crop",
+  "source_url": "https://people.kth.se/~weinkauf/datasets/SquareCylinder.7z",
+  "source_page": "https://tinoweinkauf.net/notes/squarecylinder.html",
+  "source_archive_sha256": "c93cd4289f73f64d395b55edf334603c6ec71d939aca2bc656399c4b324cc7ff",
+  "sources": [
+    {
+      "index": 0,
+      "filename": "data/real/SquareCylinder/unpacked/flow_t0008.am",
+      "sha256": "d8324f569910c70d5d7eccc410a6516efcd5b485b35f2a0969a1c2523c2a08d2"
+    },
+    {
+      "index": 1,
+      "filename": "data/real/SquareCylinder/unpacked/flow_t0048.am",
+      "sha256": "8d0933642d7c6d18bb3009057ff26e6e28006005fdfe6be8c6a3160a0ace5c9f"
+    },
+    {
+      "index": 2,
+      "filename": "data/real/SquareCylinder/unpacked/flow_t0088.am",
+      "sha256": "4c6657d6e9ffe1dc187ff888a2a799626bbd55484a1357fcfa4643cf61fc2884"
+    },
+    {
+      "index": 3,
+      "filename": "data/real/SquareCylinder/unpacked/flow_t0128.am",
+      "sha256": "206a973c5b1a3cfd8274db6341a0f157beb1e091be7f427b4d990cba6a64f876"
+    },
+    {
+      "index": 4,
+      "filename": "data/real/SquareCylinder/unpacked/flow_t0168.am",
+      "sha256": "a417662c977fbc1de6d75acf651aac66b4e82a2559fdeacb5aa48dd2e8079e4a"
+    },
+    {
+      "index": 5,
+      "filename": "data/real/SquareCylinder/unpacked/flow_t0208.am",
+      "sha256": "26e5423b3a2b683a4dee7867e4113ac16dbcddd930a13c5391f9b13742aa317f"
+    },
+    {
+      "index": 6,
+      "filename": "data/real/SquareCylinder/unpacked/flow_t0248.am",
+      "sha256": "9f538eafa127ac04b7be0f75a09ee2dc71d1c38ef0e3bbca5202bb488c4e2de9"
+    },
+    {
+      "index": 7,
+      "filename": "data/real/SquareCylinder/unpacked/flow_t0288.am",
+      "sha256": "3a770a7806f7fbe154c548c17633e780346225edb2af1dab0d549da6dfbee0bb"
+    },
+    {
+      "index": 8,
+      "filename": "data/real/SquareCylinder/unpacked/flow_t0328.am",
+      "sha256": "c6acc634490b5531a6696056d38962705c36b94cf5a781a3371337ae05010152"
+    },
+    {
+      "index": 9,
+      "filename": "data/real/SquareCylinder/unpacked/flow_t0368.am",
+      "sha256": "1b0d2146c1e3c4fe3bdbbd2e56c3c108c1ca608ee3b0b568324f3f3c921699bb"
+    },
+    {
+      "index": 10,
+      "filename": "data/real/SquareCylinder/unpacked/flow_t0408.am",
+      "sha256": "145024b09b0faf70d297f96b37104e3a34045869544bb71cb89e25e731f82f7b"
+    },
+    {
+      "index": 11,
+      "filename": "data/real/SquareCylinder/unpacked/flow_t0448.am",
+      "sha256": "178f98e42225e5a40283781f718f0ac5f1a0ab784c8bd5e0e296a02b38618730"
+    },
+    {
+      "index": 12,
+      "filename": "data/real/SquareCylinder/unpacked/flow_t0488.am",
+      "sha256": "de6ce1350b24ecd137c4a135eb76af2b8d962eca7860dd69e7765c05487e4fae"
+    },
+    {
+      "index": 13,
+      "filename": "data/real/SquareCylinder/unpacked/flow_t0528.am",
+      "sha256": "5dbd663c5220cbb2ec339c1ba8b944d10306e38299c49794b83bfc72f1c8fa17"
+    },
+    {
+      "index": 14,
+      "filename": "data/real/SquareCylinder/unpacked/flow_t0568.am",
+      "sha256": "b01d694795a7e7e1cc4a7280cb8bb7b2b6418dba1bd3cf7eea41bef89ca08430"
+    },
+    {
+      "index": 15,
+      "filename": "data/real/SquareCylinder/unpacked/flow_t0608.am",
+      "sha256": "c1b98ff6744e98e5acc447c8b683c105db136bb8ea8c5dd168a01b1988e4c0a3"
+    },
+    {
+      "index": 16,
+      "filename": "data/real/SquareCylinder/unpacked/flow_t0648.am",
+      "sha256": "9b23ea9f70ba4040ae4376e09248c245fa159fe38f316a2e9a0ffe1401abd0ca"
+    },
+    {
+      "index": 17,
+      "filename": "data/real/SquareCylinder/unpacked/flow_t0688.am",
+      "sha256": "9495f742e3932475dea1706e21402f50c80e95e6f9cd4e0c9e60218d59e1fc9d"
+    },
+    {
+      "index": 18,
+      "filename": "data/real/SquareCylinder/unpacked/flow_t0728.am",
+      "sha256": "875406bdc13cd76bcffc580ebce8c75211873c339b209bd3679c63f3e187b0f0"
+    },
+    {
+      "index": 19,
+      "filename": "data/real/SquareCylinder/unpacked/flow_t0768.am",
+      "sha256": "1ff1d1cd45f282f98b56c85b1cd8a985548b912be6ed0965f5783956dd83e229"
+    },
+    {
+      "index": 20,
+      "filename": "data/real/SquareCylinder/unpacked/flow_t0808.am",
+      "sha256": "7f6cf6fe5e87b154da2fd86ff17976be5206812d7133e844319787198c71dba9"
+    },
+    {
+      "index": 21,
+      "filename": "data/real/SquareCylinder/unpacked/flow_t0848.am",
+      "sha256": "127f23da2d9e7e348c3790701112370a2fe91e911393c7f90f04aed9ed14680e"
+    },
+    {
+      "index": 22,
+      "filename": "data/real/SquareCylinder/unpacked/flow_t0888.am",
+      "sha256": "bcd1ff2aa0c82bb8d70c07e98897da13f9600f2d6155565bf40d591bc6ee7cfc"
+    },
+    {
+      "index": 23,
+      "filename": "data/real/SquareCylinder/unpacked/flow_t0928.am",
+      "sha256": "10f75d2d512f74303c61960237c698a8d3ea6207a968c10cfb0d0a4e7403a6b7"
+    },
+    {
+      "index": 24,
+      "filename": "data/real/SquareCylinder/unpacked/flow_t0968.am",
+      "sha256": "9614b2fde2d3dfcc24cd5c2be274de55e784ef58ad9a21b975bc63579748f2ef"
+    },
+    {
+      "index": 25,
+      "filename": "data/real/SquareCylinder/unpacked/flow_t1008.am",
+      "sha256": "043e0cbb4294a9191a4214f75787da86b9ff6bf4c06d1d77a51bb8c1a44b5ff5"
+    },
+    {
+      "index": 26,
+      "filename": "data/real/SquareCylinder/unpacked/flow_t1048.am",
+      "sha256": "51815e7696f01385ea1fe8816176fa1c1d3e2569ee2ae74b52bc60d0eaa969a5"
+    },
+    {
+      "index": 27,
+      "filename": "data/real/SquareCylinder/unpacked/flow_t1088.am",
+      "sha256": "d26d99911ca4f0c7888b92ae3b2e46fd4d2d627e19bb9a3f7fc9d796dfb0244a"
+    },
+    {
+      "index": 28,
+      "filename": "data/real/SquareCylinder/unpacked/flow_t1128.am",
+      "sha256": "a252b3126ed5fc10cdc6e8bc47adb2d8e93959049e402bbb553de5c6706f94a6"
+    },
+    {
+      "index": 29,
+      "filename": "data/real/SquareCylinder/unpacked/flow_t1168.am",
+      "sha256": "b6657cc167a70f979b8e92e0b05b5019f0e193e5f2a1c3e89b1827480d309d23"
+    },
+    {
+      "index": 30,
+      "filename": "data/real/SquareCylinder/unpacked/flow_t1208.am",
+      "sha256": "504be196ff08ab8e03008faedcbb688735134fe35ba5e97b8eb7dfb9725fb0c8"
+    },
+    {
+      "index": 31,
+      "filename": "data/real/SquareCylinder/unpacked/flow_t1248.am",
+      "sha256": "3e4c942fbd1d8078a4430a616bfc02aa330594374fbb603762c8d3652efd6e6c"
+    },
+    {
+      "index": 32,
+      "filename": "data/real/SquareCylinder/unpacked/flow_t1288.am",
+      "sha256": "de5801c80bfab622f56928a68a23d22782d9d3794d2b8a8be7182c94483fc2a6"
+    },
+    {
+      "index": 33,
+      "filename": "data/real/SquareCylinder/unpacked/flow_t1328.am",
+      "sha256": "d60fe9e2f72e1505f5cdf4102a67926eb899e647f629eb7198a470175f6ea628"
+    },
+    {
+      "index": 34,
+      "filename": "data/real/SquareCylinder/unpacked/flow_t1368.am",
+      "sha256": "8f0da7561f20becb760dfa581fa5afb70de46bfeaa75a032e2827722a193db70"
+    },
+    {
+      "index": 35,
+      "filename": "data/real/SquareCylinder/unpacked/flow_t1408.am",
+      "sha256": "8f826fd6ad9c6d17c79a34fa444c439457169a17b83ab30214ff00d117b525fc"
+    },
+    {
+      "index": 36,
+      "filename": "data/real/SquareCylinder/unpacked/flow_t1448.am",
+      "sha256": "5afeec421b04480f479bed31a58bce38d4003c2645123fbcb7ea5088b63eefeb"
+    },
+    {
+      "index": 37,
+      "filename": "data/real/SquareCylinder/unpacked/flow_t1488.am",
+      "sha256": "27386993d84a8c09f652b3d0315b137e1dd973b9821f86a185d44cfe161293a2"
+    },
+    {
+      "index": 38,
+      "filename": "data/real/SquareCylinder/unpacked/flow_t1528.am",
+      "sha256": "1c48516cbe125ff5909acdff9dd6fa232eb85d2ad7569a013b5d4a98ffae680d"
+    },
+    {
+      "index": 39,
+      "filename": "data/real/SquareCylinder/unpacked/flow_t1568.am",
+      "sha256": "7df4214531330e79cc5e168fcba298de96fe347edad992a85a5689b932045dd3"
+    },
+    {
+      "index": 40,
+      "filename": "data/real/SquareCylinder/unpacked/flow_t1608.am",
+      "sha256": "4c61f2e1135c02b6f12b1b47a4eb9d3675fc69565548b9da7275f0a42a7986fb"
+    },
+    {
+      "index": 41,
+      "filename": "data/real/SquareCylinder/unpacked/flow_t1648.am",
+      "sha256": "632495537c1fc28062e431140519dd6fef0d677999fa0da6a544845601fe84a6"
+    },
+    {
+      "index": 42,
+      "filename": "data/real/SquareCylinder/unpacked/flow_t1688.am",
+      "sha256": "13331284ef54b8d75bebe4d94cb7b95893835eda5beab78d4ecdfa2f4fbbfb41"
+    },
+    {
+      "index": 43,
+      "filename": "data/real/SquareCylinder/unpacked/flow_t1728.am",
+      "sha256": "d8928119b7e271a00d9afbee0997fb983d52610f7dc2962986d46ed7c209abd2"
+    },
+    {
+      "index": 44,
+      "filename": "data/real/SquareCylinder/unpacked/flow_t1768.am",
+      "sha256": "1f95703e42d235f1042022c60ef5ccc249a2f7bcd3ec8e39a1cdca08b5af34e8"
+    },
+    {
+      "index": 45,
+      "filename": "data/real/SquareCylinder/unpacked/flow_t1808.am",
+      "sha256": "6b834ab0aa9aa7849b268820bee7792ed2cb1638a1489a156ff916cc9094573e"
+    },
+    {
+      "index": 46,
+      "filename": "data/real/SquareCylinder/unpacked/flow_t1848.am",
+      "sha256": "57602d63ada1acdff349eb33a20ded98a2ed6ad60a4b805babe7d1b50625f313"
+    },
+    {
+      "index": 47,
+      "filename": "data/real/SquareCylinder/unpacked/flow_t1888.am",
+      "sha256": "566dd3ea1a2f2960b4785799690fc8e5cde6a36a1f60dc228da5dc030dc058ee"
+    },
+    {
+      "index": 48,
+      "filename": "data/real/SquareCylinder/unpacked/flow_t1928.am",
+      "sha256": "ab442d2afc8667f5df997490a83a2b7ec9efbeee7b22d45e613b4107deadbcaf"
+    },
+    {
+      "index": 49,
+      "filename": "data/real/SquareCylinder/unpacked/flow_t1968.am",
+      "sha256": "38b9870eaceba2c45914498db72fe2f106d30e62a3cfe7872b630714d50e71bc"
+    },
+    {
+      "index": 50,
+      "filename": "data/real/SquareCylinder/unpacked/flow_t2008.am",
+      "sha256": "ab53feba2a80fe1b9d3d2f258d1d05d811a8c2d11547155ef52a3beaea5ca676"
+    },
+    {
+      "index": 51,
+      "filename": "data/real/SquareCylinder/unpacked/flow_t2048.am",
+      "sha256": "ce46efba23bb865e083fd0405fd40c82efddff6ba51f0921f85015b7b18cfa6e"
+    },
+    {
+      "index": 52,
+      "filename": "data/real/SquareCylinder/unpacked/flow_t2088.am",
+      "sha256": "b731a92ef873fda43c74e846138aacf3fe2aaf125af1bac122aa5c4f2a0ac74a"
+    },
+    {
+      "index": 53,
+      "filename": "data/real/SquareCylinder/unpacked/flow_t2128.am",
+      "sha256": "a9e631e4ac64d789ec107684301b92862a175f6769f6dd428def4851c394df39"
+    },
+    {
+      "index": 54,
+      "filename": "data/real/SquareCylinder/unpacked/flow_t2168.am",
+      "sha256": "2e891b494261048dba743bdc0340496860204fdcc0bbd652096dfa59f1c9fe36"
+    },
+    {
+      "index": 55,
+      "filename": "data/real/SquareCylinder/unpacked/flow_t2208.am",
+      "sha256": "9c7d16ae5c65fd224b40aaf08e4ad88d2fba616a8259c4b7d846205d12db65a0"
+    },
+    {
+      "index": 56,
+      "filename": "data/real/SquareCylinder/unpacked/flow_t2248.am",
+      "sha256": "8c09be124e425e4bec6a6693d7d5ff1b1da4225ee77f5f84a8e699255696d72d"
+    },
+    {
+      "index": 57,
+      "filename": "data/real/SquareCylinder/unpacked/flow_t2288.am",
+      "sha256": "919c4c24f1bc8440cb325a84f95d4f48732507252e29d05e960023e254e4ed66"
+    },
+    {
+      "index": 58,
+      "filename": "data/real/SquareCylinder/unpacked/flow_t2328.am",
+      "sha256": "858d02a24b1d624ca284f0b92da23b4373bcc4e81284ea9f5cab6cf84be657b1"
+    },
+    {
+      "index": 59,
+      "filename": "data/real/SquareCylinder/unpacked/flow_t2368.am",
+      "sha256": "b7981f60008d657966fba59d15bfcbbc0fcefb9ff0e67f27c9b298219a553d45"
+    },
+    {
+      "index": 60,
+      "filename": "data/real/SquareCylinder/unpacked/flow_t2408.am",
+      "sha256": "f9eb59415d2d9b0414c233249dfa1a1f5f88c9a7cc68642c548668dad862e32f"
+    },
+    {
+      "index": 61,
+      "filename": "data/real/SquareCylinder/unpacked/flow_t2448.am",
+      "sha256": "8e4be03a5ee0239e2682af18ec0e8bbea754d5bf0aa10f2c33bb2ea5eb25669a"
+    },
+    {
+      "index": 62,
+      "filename": "data/real/SquareCylinder/unpacked/flow_t2488.am",
+      "sha256": "732d1361dba34eb23bf696867ab58f6988f960548cb584917bec095e2dd1591c"
+    },
+    {
+      "index": 63,
+      "filename": "data/real/SquareCylinder/unpacked/flow_t2528.am",
+      "sha256": "a4d2d9a8939d5a86428a10216c7f2df999f9a5f5c8811ab187b2eeafd3078967"
+    },
+    {
+      "index": 64,
+      "filename": "data/real/SquareCylinder/unpacked/flow_t2568.am",
+      "sha256": "0438c85b0808c17f7465c5194e1ef58fb24cf1826a89e64729c892aef5e5805e"
+    },
+    {
+      "index": 65,
+      "filename": "data/real/SquareCylinder/unpacked/flow_t2608.am",
+      "sha256": "f3486a844591d8d5c13eea85dc3ea6f030bbb17ce1aef67a671c161b3c8a4c34"
+    },
+    {
+      "index": 66,
+      "filename": "data/real/SquareCylinder/unpacked/flow_t2648.am",
+      "sha256": "46c90dc67417e5d92c6cfb7e9c09c30fe1760acf4f2fa826c1880fd160e47cae"
+    },
+    {
+      "index": 67,
+      "filename": "data/real/SquareCylinder/unpacked/flow_t2688.am",
+      "sha256": "630fbb1921ff5ddba9c8f5420dddbd7a26d5c1b117e6c1f9954114f3fc251e6a"
+    },
+    {
+      "index": 68,
+      "filename": "data/real/SquareCylinder/unpacked/flow_t2728.am",
+      "sha256": "bdb4f83b6c587ad62082cdb7d22b926fd61680dfec61f1df2984f2a373853b98"
+    },
+    {
+      "index": 69,
+      "filename": "data/real/SquareCylinder/unpacked/flow_t2768.am",
+      "sha256": "302eb0b5f0d063a4dfd6752d8cea98e341722cdebf3b3777d6eb295a40c2dabb"
+    },
+    {
+      "index": 70,
+      "filename": "data/real/SquareCylinder/unpacked/flow_t2808.am",
+      "sha256": "85cd2a18288a183a63199357a18b819c12790b8da6f9c6fc595cfc08619b6931"
+    },
+    {
+      "index": 71,
+      "filename": "data/real/SquareCylinder/unpacked/flow_t2848.am",
+      "sha256": "36c5c022327a2dad2aa2012ec924f1402c83d77c5690a1c039b082fa1a274672"
+    },
+    {
+      "index": 72,
+      "filename": "data/real/SquareCylinder/unpacked/flow_t2888.am",
+      "sha256": "aeefed97687a1c9608796709f63edc5f1829da2dddee1008945bb7db8f6aa0ec"
+    },
+    {
+      "index": 73,
+      "filename": "data/real/SquareCylinder/unpacked/flow_t2928.am",
+      "sha256": "a893f8451052dfca6d272d0a7c30eccb2d2d0db20ffcc8d1bde2d99ba6fa2cf3"
+    },
+    {
+      "index": 74,
+      "filename": "data/real/SquareCylinder/unpacked/flow_t2968.am",
+      "sha256": "997f4fd442cfc81ab762bf05fe15d3ef1c10b2576facd88bdea933913ff29dcf"
+    },
+    {
+      "index": 75,
+      "filename": "data/real/SquareCylinder/unpacked/flow_t3008.am",
+      "sha256": "7219783107472eb3b25343998e9b0cd65890f03911cd3b0a5a2ede99f66d788c"
+    },
+    {
+      "index": 76,
+      "filename": "data/real/SquareCylinder/unpacked/flow_t3048.am",
+      "sha256": "c397a6391f6058242c406b881cf4106c3b64ee3e30229ef213bfc0b417df3241"
+    },
+    {
+      "index": 77,
+      "filename": "data/real/SquareCylinder/unpacked/flow_t3088.am",
+      "sha256": "0905d0fd4e80915dd2e6bdbc13012604e09905038a46628b0f949cb2cb9e1cd8"
+    },
+    {
+      "index": 78,
+      "filename": "data/real/SquareCylinder/unpacked/flow_t3128.am",
+      "sha256": "1a41d9eed68a4833574403aa6ca5a5db4014fd968a289a1367eaa4cc72d8a366"
+    },
+    {
+      "index": 79,
+      "filename": "data/real/SquareCylinder/unpacked/flow_t3168.am",
+      "sha256": "132e64393399ce3bcb8cedd8f8ea8e9a4225caa25eb095fa1c5a4f5429f748c8"
+    },
+    {
+      "index": 80,
+      "filename": "data/real/SquareCylinder/unpacked/flow_t3208.am",
+      "sha256": "4fdfff926c09108d1670472ee88c4621d011a6fb4ad2e3d3080e85f6092e8530"
+    },
+    {
+      "index": 81,
+      "filename": "data/real/SquareCylinder/unpacked/flow_t3248.am",
+      "sha256": "07ba7b84f05d3530fc6f33af07e253f8954f560b9fabf25a107e7f34b1f131da"
+    },
+    {
+      "index": 82,
+      "filename": "data/real/SquareCylinder/unpacked/flow_t3288.am",
+      "sha256": "a69cff7645062f4f2ede61eecfce0965162309410a56b23128b0592be18d9611"
+    },
+    {
+      "index": 83,
+      "filename": "data/real/SquareCylinder/unpacked/flow_t3328.am",
+      "sha256": "775b7d8c03d1ce9727432e6609dd7754d65e5081ccf5c4363d8acf4f9d3adcb0"
+    },
+    {
+      "index": 84,
+      "filename": "data/real/SquareCylinder/unpacked/flow_t3368.am",
+      "sha256": "c1d5b80b738f36923d73c828e00818e09e10ed0c1bf8094bf33650d675e9ba0d"
+    },
+    {
+      "index": 85,
+      "filename": "data/real/SquareCylinder/unpacked/flow_t3408.am",
+      "sha256": "1c7a433be628966696624dee3106610ec71df38cd63f02fa58c8c3469f84a25b"
+    },
+    {
+      "index": 86,
+      "filename": "data/real/SquareCylinder/unpacked/flow_t3448.am",
+      "sha256": "552c2228c2e4bef4b423428c73e214404015d43ce86a84a95d9a98a78150e603"
+    },
+    {
+      "index": 87,
+      "filename": "data/real/SquareCylinder/unpacked/flow_t3488.am",
+      "sha256": "a7d633dc776cde17b3ba87c91c22c394996a7a1bc565469b40bee60cf85f4c46"
+    },
+    {
+      "index": 88,
+      "filename": "data/real/SquareCylinder/unpacked/flow_t3528.am",
+      "sha256": "3ac13712128609037c22912c60b2f24cdcd1506a55ba8792a392f1691562e844"
+    },
+    {
+      "index": 89,
+      "filename": "data/real/SquareCylinder/unpacked/flow_t3568.am",
+      "sha256": "494db536b22b2920844b99aad6d0b76551a746a3d6808ca7aa4403cd65f58023"
+    },
+    {
+      "index": 90,
+      "filename": "data/real/SquareCylinder/unpacked/flow_t3608.am",
+      "sha256": "438a77b79048e88b7d0400cb0bd747dabfddefae2e9a609be13d1641354a598c"
+    },
+    {
+      "index": 91,
+      "filename": "data/real/SquareCylinder/unpacked/flow_t3648.am",
+      "sha256": "f8b024fafab4e4fcc50623394726566992740389202a475b3a0b5fc1b97b98ab"
+    },
+    {
+      "index": 92,
+      "filename": "data/real/SquareCylinder/unpacked/flow_t3688.am",
+      "sha256": "2d07918a8ae024cb38dcf741e769846db1270b20f261954619a471c52ba0434c"
+    },
+    {
+      "index": 93,
+      "filename": "data/real/SquareCylinder/unpacked/flow_t3728.am",
+      "sha256": "16c1174bd49b248ffa380915ad5b7560c1e4ea57d9b8b49814882a5395240f70"
+    },
+    {
+      "index": 94,
+      "filename": "data/real/SquareCylinder/unpacked/flow_t3768.am",
+      "sha256": "e6aa5174c637209ae609ecfb31cf78627d2e436dcadb4b3e187618315aa06ac8"
+    },
+    {
+      "index": 95,
+      "filename": "data/real/SquareCylinder/unpacked/flow_t3808.am",
+      "sha256": "11822150191b7e30f77e46fc0103cc3f462c29ef2c872ea721f09fd6f8a62d4a"
+    },
+    {
+      "index": 96,
+      "filename": "data/real/SquareCylinder/unpacked/flow_t3848.am",
+      "sha256": "fe13b672f9239c91ece0c16c984983d726e9ca285e1dd3b2e292cfc794b8d4c4"
+    },
+    {
+      "index": 97,
+      "filename": "data/real/SquareCylinder/unpacked/flow_t3888.am",
+      "sha256": "50dfbdac44d5b3c49d2e53fceaef47066ee73bd3933a468371fe7c39280779a2"
+    },
+    {
+      "index": 98,
+      "filename": "data/real/SquareCylinder/unpacked/flow_t3928.am",
+      "sha256": "acbd43e35586998341fcd42aa235791bf3c8af4e47b239f33313718d493e124a"
+    },
+    {
+      "index": 99,
+      "filename": "data/real/SquareCylinder/unpacked/flow_t3968.am",
+      "sha256": "5f177cd1f141e5945f09edd5a8371dec206c2472e02fde7abdd860a47d07cb98"
+    },
+    {
+      "index": 100,
+      "filename": "data/real/SquareCylinder/unpacked/flow_t4008.am",
+      "sha256": "eb4ad53f6a8aa5b50972ab1c62a4c8ad3d16afee2e65ea9f688229b476e0f216"
+    },
+    {
+      "index": 101,
+      "filename": "data/real/SquareCylinder/unpacked/flow_t4048.am",
+      "sha256": "583d7fcd981dcb10a1f71f1e15a0168ba43b1a4d584c63c7778bd88385ea04d4"
+    }
+  ],
+  "scalar_scale": 25.811321258544922,
+  "source_fields_sha256": "90548c98755349e813d73eff685a1680146de34d021dd89dd7865debfafcfeca",
+  "canonical_transform": "f_join=-Q/fixed_sequence_Q_range; split tree of Q via join tree of -Q",
+  "persistence_fraction": 0.02,
+  "persistence_threshold_scope": "2% of each frame scalar range; no per-frame normalization",
+  "source_bounds": [
+    -12.0,
+    20.0,
+    -4.0,
+    4.0,
+    0.0,
+    6.0
+  ],
+  "crop": "original x grid indices [57,192); y,z unchanged",
+  "spatial_resampling": false,
+  "spatial_smoothing": false,
+  "leaf_filter": false,
+  "per_frame_normalization": false,
+  "derivatives": "central finite differences, second order one-sided at domain boundaries",
+  "periodic_boundary_note": "source flow is periodic in z; derivative uses provided endpoints with one-sided boundaries; boundary features flagged",
+  "time_semantics": "physical time sequence, author public archive full 102 frames; each frame is a 3-D volume",
+  "correspondence": "same original square-cylinder DNS/public author resampling; 102 frames rather than paper 508",
+  "volumetric_evidence": true,
+  "exact_paper_dataset": false,
+  "native_binary_sha256": "f82bf82ad1e452a742df33bcd1632c361a3ae6895983b2e31aaf69afe84598e9",
+  "reference": "fixed x axis, source physical coordinates",
+  "raster": 32768,
+  "methods": [
+    "TMTM",
+    "RG-MTM-P",
+    "RG-MTM-R 0.02",
+    "RG-MTM-R 0.2",
+    "RG-MTM-R 1"
+  ],
+  "tmtm_focus": 0,
+  "relaxation_gate_fraction": 0.02,
+  "relaxation_pruning": false,
+  "candidate_order_limit": 4,
+  "secondary_global_optimum_claimed": false,
+  "motion_truth": "computed feature-overlap matching; geometric proxy, not physical identities",
+  "original_342_frame_table_modified": false,
+  "gap_rule": "extent/max(240,4*sequence_max_leaf_count), fixed across all frames and methods",
+  "scalar_normalization": "one fixed sequence scalar range; NMLE in this normalized scalar",
+  "max_input_leaves": 75
+}

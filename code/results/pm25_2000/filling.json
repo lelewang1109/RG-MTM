@@ -1,0 +1,56 @@
+{
+ "pm25_2000": [
+  {
+   "cap": 0.0,
+   "pixels_changed_share": 0.0,
+   "columns_changed": 0,
+   "D_lca_share": 0.0,
+   "D_opt_share": 0.0,
+   "mean_lca_share": 0.0,
+   "mean_opt_share": 0.0,
+   "measured_vs_closed_form_max": 0.0,
+   "topology_exact_frames": 366,
+   "topology_exact_frames_lca": 366,
+   "frames": 366
+  },
+  {
+   "cap": 0.02,
+   "pixels_changed_share": 0.006525758837090164,
+   "columns_changed": 15,
+   "D_lca_share": 0.0210322696349775,
+   "D_opt_share": 0.010516134817488762,
+   "mean_lca_share": 0.00050245340717667,
+   "mean_opt_share": 0.00026228166629244765,
+   "measured_vs_closed_form_max": 3.2931269368039357e-07,
+   "topology_exact_frames": 351,
+   "topology_exact_frames_lca": 351,
+   "frames": 366
+  },
+  {
+   "cap": 0.2,
+   "pixels_changed_share": 0.015135384648224044,
+   "columns_changed": 36,
+   "D_lca_share": 0.0903157364711526,
+   "D_opt_share": 0.0466930572030318,
+   "mean_lca_share": 0.0032980216983321373,
+   "mean_opt_share": 0.001824068669695285,
+   "measured_vs_closed_form_max": 3.2931269368039357e-07,
+   "topology_exact_frames": 330,
+   "topology_exact_frames_lca": 330,
+   "frames": 366
+  },
+  {
+   "cap": Infinity,
+   "pixels_changed_share": 0.015135384648224044,
+   "columns_changed": 36,
+   "D_lca_share": 0.0903157364711526,
+   "D_opt_share": 0.0466930572030318,
+   "mean_lca_share": 0.0032980216983321373,
+   "mean_opt_share": 0.001824068669695285,
+   "measured_vs_closed_form_max": 3.2931269368039357e-07,
+   "topology_exact_frames": 330,
+   "topology_exact_frames_lca": 330,
+   "frames": 366
+  }
+ ]
+}

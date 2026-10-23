@@ -1,0 +1,59 @@
+{
+  "date": "2026-10-22",
+  "counting_rule": "corresponding dataset families; Benzene explicitly reconstructed with user authorization; Cylinder remains 3-D",
+  "datasets": [
+    {
+      "name": "Nucleon",
+      "status": "complete_verified",
+      "space_dimensions": 2,
+      "time_steps": 1,
+      "result": "nucleon"
+    },
+    {
+      "name": "Ring",
+      "status": "existing",
+      "space_dimensions": 2,
+      "time_steps": 40,
+      "result": "../replicate_ring.json"
+    },
+    {
+      "name": "Storms",
+      "status": "existing_ERA5",
+      "space_dimensions": 2,
+      "time_steps": 744,
+      "result": "../../../paper_revision/evidence/fig1/december1999_xaxis/protocol.json"
+    },
+    {
+      "name": "Tangaroa",
+      "status": "existing_complete_verified",
+      "space_dimensions": 3,
+      "time_steps": 201,
+      "result": "../volume3d/tangaroa-paper-p10-full201"
+    },
+    {
+      "name": "Cylinder",
+      "status": "complete_verified",
+      "space_dimensions": 3,
+      "time_steps": 102,
+      "result": "square-cylinder3d"
+    },
+    {
+      "name": "Benzene",
+      "status": "complete_verified_reconstruction",
+      "space_dimensions": 2,
+      "time_steps": 21,
+      "result": "benzene-potential-reconstructed2d",
+      "temporal_note": "21 static 2-D z sections; not physical time",
+      "reconstruction": true,
+      "exact_paper_dataset": false,
+      "original_file_available": false
+    }
+  ],
+  "excluded_results": [
+    "benzene-density",
+    "cylinder2d"
+  ],
+  "main_paper_modified": false,
+  "all_six_families_covered": true,
+  "all_original_author_inputs_available": false
+}
