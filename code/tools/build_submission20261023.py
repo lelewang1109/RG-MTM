@@ -130,7 +130,18 @@ def calculate():
             '241x241 mirror control and generic Gaussian primitives remain active.'])
     # Independently match the earlier read-only calculation, including exact source bytes.
     audit=json.loads((ROOT.parent/'docs/实验调整依据/去除Gaussian与统一指标_只读核算.json').read_text())
-    for n,h in audit['source_sha256'].items(): assert sha(Path(n))==h, n
+    for n,h in audit['source_sha256'].items():
+        # Keep the historical audit unchanged, but verify this checkout's bytes.
+        # A successful local check must not accidentally read another worktree.
+        recorded = Path(n)
+        if recorded.is_absolute():
+            prefix, marker, relative = n.partition('/RG-MTM/code/')
+            if not marker:
+                raise ValueError(f'Unknown historical source root: {n}')
+            recorded = Path(relative)
+        current = ROOT / recorded
+        assert current.resolve().is_relative_to(ROOT), n
+        assert sha(current)==h, n
     for d in rows:
         if d['name']=='PM2.5':continue # annual values checked against isolated saved arrays, not January audit
         a=next(x for x in audit['datasets'] if x['name']==d['name'])
