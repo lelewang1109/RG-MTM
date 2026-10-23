@@ -1,0 +1,171 @@
+\begin{thebibliography}{10}
+\renewcommand*{\sfdefault}{PTSansNarrow-TLF}
+
+\bibitem{Camarri:2005:Cylinder}
+S.~Camarri, M.-V. Salvetti, M.~Buffoni, and A.~Iollo.
+\newblock Simulation of the three-dimensional flow around a square cylinder
+  between parallel walls at moderate {Reynolds} numbers.
+\newblock In {\em XVII Congresso di Meccanica Teorica ed Applicata}, 2005.
+
+\bibitem{STMTM:2026}
+M.~Diaz, J.~Heredia, N.~Ferreira, and J.~Poco.
+\newblock Spatiotemporal merge tree maps: A topology and geometry aware
+  visualization for temporal scalar data, 2026.
+\newblock Preprint, SSRN 6604235. doi: \textsf{%
+10\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}2139\discretionary{/}{%
+}{/}ssrn\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}6604235}
+
+
+\bibitem{Dong:2026:PM25}
+Y.~Dong, L.~Wang, G.~Shan, and J.~Liu.
+\newblock {An Integrated Dataset of PM2.5, Elevation, and Meteorological
+  Variables over China at a 10-km Resolution (2000--2023)}, 2026.
+\newblock Version V2; year-2000 regional subset used for the annual experiment.
+  doi: \textsf{%
+10\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}57760\discretionary{/}{%
+}{/}sciencedb\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}35623}
+
+
+\bibitem{Franke:2021:1DP}
+M.~Franke, H.~Martin, S.~Koch, and K.~Kurzhals.
+\newblock Visual analysis of spatio-temporal phenomena with {1D} projections.
+\newblock {\em Computer Graphics Forum}, 40(3):335--347, June 2021. doi:
+  \textsf{%
+10\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}1111\discretionary{/}{%
+}{/}cgf\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}14311}
+
+
+\bibitem{Hersbach:2020:ERA5}
+H.~Hersbach, B.~Bell, P.~Berrisford, S.~Hirahara, A.~Hor{\'a}nyi,
+  J.~Mu{\~n}oz-Sabater, J.~Nicolas, C.~Peubey, R.~Radu, D.~Schepers,
+  A.~Simmons, C.~Soci, S.~Abdalla, X.~Abellan, G.~Balsamo, P.~Bechtold,
+  G.~Biavati, J.~Bidlot, M.~Bonavita, G.~De~Chiara, P.~Dahlgren, D.~Dee,
+  M.~Diamantakis, R.~Dragani, J.~Flemming, R.~Forbes, M.~Fuentes, A.~Geer,
+  L.~Haimberger, S.~Healy, R.~J. Hogan, E.~H{\'o}lm, M.~Janiskov{\'a},
+  S.~Keeley, P.~Laloyaux, P.~Lopez, C.~Lupu, G.~Radnoti, P.~de~Rosnay,
+  I.~Rozum, F.~Vamborg, S.~Villaume, and J.-N. Th{\'e}paut.
+\newblock The {ERA5} global reanalysis.
+\newblock {\em Quarterly Journal of the Royal Meteorological Society},
+  146(730):1999--2049, July 2020. doi: \textsf{%
+10\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}1002\discretionary{/}{%
+}{/}qj\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}3803}
+
+
+\bibitem{Inviwo:BenzeneGeometry}
+{Inviwo contributors}.
+\newblock Benzene molecular cube: Atomic coordinate header.
+\newblock Inviwo modules, revision 6152a00ab100ec10c1eb36f078fb42dc949010ab.
+\newblock Only atomic coordinates are used in the declared potential
+  reconstruction; density samples are not used.
+
+\bibitem{Jorgensen:2013:BOSS}
+W.~L. Jorgensen.
+\newblock {\em {BOSS}, Version 4.9: User's Manual}.
+\newblock Department of Chemistry, Yale University, 2013.
+\newblock Table 1, p. 67.
+
+\bibitem{Koepp:2023:TMTM}
+W.~K{\"o}pp and T.~Weinkauf.
+\newblock Temporal merge tree maps: A topology-based static visualization for
+  temporal scalar data.
+\newblock {\em IEEE Transactions on Visualization and Computer Graphics},
+  29(1):1157--1167, Jan. 2023. doi: \textsf{%
+10\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}1109\discretionary{/}{%
+}{/}tvcg\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}2022\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}3209387}
+
+
+\bibitem{NOAA:OLR}
+H.-T. Lee.
+\newblock {NOAA Climate Data Record of Daily Outgoing Longwave Radiation,
+  Version 1.2}, 2011.
+\newblock Tropical Indo-Pacific subset, 1 June--30 July 2024; accessed 12
+  October 2026. doi: \textsf{%
+10\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}7289\discretionary{/}{%
+}{/}V5SJ1HH2}
+
+
+\bibitem{Munch:2019:LINF}
+E.~Munch and A.~Stefanou.
+\newblock The $\ell^\infty$-cophenetic metric for phylogenetic trees as an
+  interleaving distance.
+\newblock In {\em Research in Data Science}, pp. 109--127. Springer, Cham,
+  Switzerland, 2019. doi: \textsf{%
+10\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}1007\discretionary{/}{%
+}{/}978\discretionary{%
+}{-}{-}3\discretionary{%
+}{-}{-}030\discretionary{%
+}{-}{-}11566\discretionary{%
+}{-}{-}1\_5}
+
+
+\bibitem{Smelser:2025:Scale}
+K.~Smelser, K.~Gunaratne, J.~Miller, and S.~Kobourov.
+\newblock How scale breaks ``normalized stress'' and {KL} divergence:
+  Rethinking quality metrics.
+\newblock arXiv:2510.08660, 2025. doi: \textsf{%
+10\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}48550\discretionary{/}{%
+}{/}arXiv\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}2510\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}08660}
+
+
+\bibitem{Tierny:2018:TTK}
+J.~Tierny, G.~Favelier, J.~A. Levine, C.~Gueunet, and M.~Michaux.
+\newblock The {Topology ToolKit}.
+\newblock {\em IEEE Transactions on Visualization and Computer Graphics},
+  24(1):832--842, 2018. doi: \textsf{%
+10\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}1109\discretionary{/}{%
+}{/}TVCG\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}2017\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}2743938}
+
+
+\bibitem{Venna:2001:NP}
+J.~Venna and S.~Kaski.
+\newblock Neighborhood preservation in nonlinear projection methods: An
+  experimental study.
+\newblock In {\em Proc.\ ICANN}, vol. 2130 of {\em LNCS}, pp. 485--491.
+  Springer, Berlin, Germany, 2001. doi: \textsf{%
+10\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}1007\discretionary{/}{%
+}{/}3\discretionary{%
+}{-}{-}540\discretionary{%
+}{-}{-}44668\discretionary{%
+}{-}{-}0\_68}
+
+
+\bibitem{Funck:2008:Smoke}
+W.~von Funck, T.~Weinkauf, H.~Theisel, and H.-P. Seidel.
+\newblock Smoke surfaces: An interactive flow visualization technique inspired
+  by real-world flow experiments.
+\newblock {\em IEEE Transactions on Visualization and Computer Graphics},
+  14(6):1396--1403, 2008. doi: \textsf{%
+10\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}1109\discretionary{/}{%
+}{/}TVCG\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}2008\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}163}
+
+
+\bibitem{Weinkauf:SquareCylinder}
+T.~Weinkauf.
+\newblock {3D} flow around a confined square cylinder.
+\newblock Public uniformly resampled simulation dataset.
+\newblock Accessed 22 October 2026.
+
+\end{thebibliography}

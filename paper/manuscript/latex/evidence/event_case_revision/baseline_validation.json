@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "input_sha256": {
+    "data/real/ERA5_MSLP/ERA5_MSLP_19991117_20000114_12h_arco_expanded.nc": "77d91ddeb8d61c839065ef20e7290a53c5d77bab5782b7a08dfb62f7c7eadb2f",
+    "data/real/wildfire/wildfire.json": "2a8dd31bf6d222d7de673c7e7b2af94550660f1996b0a5db256d97f2b9c2ed9f"
+  },
+  "algorithm_report_sha256": "5bbdde9d9db04b23fa3ec43736dba3c46645af58f39e65113310189a9788ad5e",
+  "preserved_original_numeric_files": 177,
+  "source_snapshots": "exactly reversible; no result rerun implied",
+  "metadata_correction": "all four Tangaroa generic presets use join; active full201 was already join",
+  "report_sha256": {
+    "REPORT_zh.md": "63ac83298f7e85b046c7550bea5576a625df6168c67016a991660fc1870fb26a",
+    "preset_correction.json": "59b3edc9895ce19eb895abe4371a26b06e50f0ed26e1477a64cef8124592c6c3"
+  }
+}

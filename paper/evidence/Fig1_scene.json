@@ -1,0 +1,2941 @@
+{
+  "number": 1,
+  "width": 1344,
+  "height": 640,
+  "title": "ERA5: fixed-reference conflict and four-method comparison",
+  "notes": "{\"source\": \"frozen real_case_studies/evidence\", \"case\": \"era5\", \"selection\": {\"t\": 48, \"witness\": [3, 4, 0], \"node\": 1937, \"bound\": 6.699526531238625, \"tracks\": [60, 38, 56], \"persistent_three_frames\": false, \"H\": 0.08448388930010664, \"gain\": 0.0803319508751224, \"errorP\": 0.08866528420845578, \"errorR\": 0.008333333333333375, \"delta\": 12.557165664888316, \"rule\": \"Retained interior witness frame 48 from fig_witness.py; selected before this presentation revision; not chosen by proxy accuracy.\", \"snapshots\": [47, 48, 49], \"window\": [43, 54]}, \"semantics\": \"TMTM full native sample-rank domain; ST-MTM full shared discretized native domain; RG fixed physical directional reference domain. Baselines are not geographical coordinates.\", \"additional_snapshots\": \"ERA5_Detail in alternatives and supplement preserves47/48/49\"}",
+  "objects": [
+    {
+      "kind": "text",
+      "name": "text_000",
+      "text": "(a) Spatial event and tree conflict",
+      "x": 20,
+      "y": 8,
+      "w": 480,
+      "h": 34,
+      "size": 23,
+      "color": "#263238",
+      "bold": true,
+      "align": "left"
+    },
+    {
+      "kind": "image",
+      "name": "era5_source_frame_48",
+      "path": "/Users/lele/Desktop/MergeTreeMaps/paper_revision/evidence/layers/storms_field_48.png",
+      "x": 110.77717998155575,
+      "y": 80,
+      "w": 217.4456400368885,
+      "h": 210
+    },
+    {
+      "kind": "line",
+      "name": "line_002",
+      "x1": 145.56848238745792,
+      "y1": 256.4,
+      "x2": 187.56062567994275,
+      "y2": 257.2123433408501,
+      "color": "#263238",
+      "width": 1.8,
+      "dash": false
+    },
+    {
+      "kind": "line",
+      "name": "line_003",
+      "x1": 181.6197725910771,
+      "y1": 254.09685548555115,
+      "x2": 187.56062567994275,
+      "y2": 257.2123433408501,
+      "color": "#263238",
+      "width": 1.5,
+      "dash": false
+    },
+    {
+      "kind": "line",
+      "name": "line_004",
+      "x1": 181.5037235423842,
+      "y1": 260.0957330987633,
+      "x2": 187.56062567994275,
+      "y2": 257.2123433408501,
+      "color": "#263238",
+      "width": 1.5,
+      "dash": false
+    },
+    {
+      "kind": "text",
+      "name": "text_005",
+      "text": "d",
+      "x": 190.56062567994275,
+      "y": 244.2123433408501,
+      "w": 24,
+      "h": 23,
+      "size": 17,
+      "color": "#263238",
+      "bold": true,
+      "align": "left"
+    },
+    {
+      "kind": "ellipse",
+      "name": "era5_space_60_t48",
+      "x": 153.07267427517473,
+      "y": 120.70000000000003,
+      "w": 8.6,
+      "h": 8.6,
+      "fill": "white",
+      "stroke": "#0072B2",
+      "width": 1.8
+    },
+    {
+      "kind": "text",
+      "name": "text_007",
+      "text": "A",
+      "x": 166.37267427517475,
+      "y": 102.00000000000003,
+      "w": 28,
+      "h": 25,
+      "size": 18,
+      "color": "#0072B2",
+      "bold": true,
+      "align": "left"
+    },
+    {
+      "kind": "ellipse",
+      "name": "era5_space_38_t48",
+      "x": 272.88965960162346,
+      "y": 99.27142857142854,
+      "w": 8.6,
+      "h": 8.6,
+      "fill": "white",
+      "stroke": "#D55E00",
+      "width": 1.8
+    },
+    {
+      "kind": "text",
+      "name": "text_009",
+      "text": "B",
+      "x": 286.1896596016235,
+      "y": 80.57142857142854,
+      "w": 28,
+      "h": 25,
+      "size": 18,
+      "color": "#D55E00",
+      "bold": true,
+      "align": "left"
+    },
+    {
+      "kind": "ellipse",
+      "name": "era5_space_56_t48",
+      "x": 237.38833061600906,
+      "y": 189.27142857142857,
+      "w": 8.6,
+      "h": 8.6,
+      "fill": "white",
+      "stroke": "#009E73",
+      "width": 1.8
+    },
+    {
+      "kind": "text",
+      "name": "text_011",
+      "text": "C",
+      "x": 250.68833061600907,
+      "y": 170.57142857142858,
+      "w": 28,
+      "h": 25,
+      "size": 18,
+      "color": "#009E73",
+      "bold": true,
+      "align": "left"
+    },
+    {
+      "kind": "text",
+      "name": "text_012",
+      "text": "f48  1999-12-11 00:00",
+      "x": 22,
+      "y": 55,
+      "w": 395,
+      "h": 24,
+      "size": 17,
+      "color": "#7B8790",
+      "bold": false,
+      "align": "left"
+    },
+    {
+      "kind": "text",
+      "name": "text_013",
+      "text": "Same feature IDs: A60 / B38 / C56",
+      "x": 22,
+      "y": 357,
+      "w": 470,
+      "h": 25,
+      "size": 19,
+      "color": "#263238",
+      "bold": true,
+      "align": "left"
+    },
+    {
+      "kind": "line",
+      "name": "line_014",
+      "x1": 60,
+      "y1": 496.0,
+      "x2": 110.0,
+      "y2": 460.94817883491874,
+      "color": "#7B8790",
+      "width": 1.7,
+      "dash": false
+    },
+    {
+      "kind": "line",
+      "name": "line_015",
+      "x1": 160.0,
+      "y1": 487.942493978659,
+      "x2": 110.0,
+      "y2": 460.94817883491874,
+      "color": "#7B8790",
+      "width": 1.7,
+      "dash": false
+    },
+    {
+      "kind": "line",
+      "name": "line_016",
+      "x1": 110.0,
+      "y1": 460.94817883491874,
+      "x2": 210.0,
+      "y2": 398.0,
+      "color": "#7B8790",
+      "width": 1.7,
+      "dash": false
+    },
+    {
+      "kind": "line",
+      "name": "line_017",
+      "x1": 310,
+      "y1": 409.33056887198745,
+      "x2": 210.0,
+      "y2": 398.0,
+      "color": "#7B8790",
+      "width": 1.7,
+      "dash": false
+    },
+    {
+      "kind": "ellipse",
+      "name": "ellipse_018",
+      "x": 55,
+      "y": 491.0,
+      "w": 10,
+      "h": 10,
+      "fill": "#0072B2",
+      "stroke": "#0072B2",
+      "width": 1.8
+    },
+    {
+      "kind": "text",
+      "name": "text_019",
+      "text": "A",
+      "x": 52,
+      "y": 505.0,
+      "w": 25,
+      "h": 25,
+      "size": 18,
+      "color": "#0072B2",
+      "bold": true,
+      "align": "left"
+    },
+    {
+      "kind": "ellipse",
+      "name": "ellipse_020",
+      "x": 155.0,
+      "y": 482.942493978659,
+      "w": 10,
+      "h": 10,
+      "fill": "#D55E00",
+      "stroke": "#D55E00",
+      "width": 1.8
+    },
+    {
+      "kind": "text",
+      "name": "text_021",
+      "text": "B",
+      "x": 152.0,
+      "y": 496.942493978659,
+      "w": 25,
+      "h": 25,
+      "size": 18,
+      "color": "#D55E00",
+      "bold": true,
+      "align": "left"
+    },
+    {
+      "kind": "ellipse",
+      "name": "ellipse_022",
+      "x": 305,
+      "y": 404.33056887198745,
+      "w": 10,
+      "h": 10,
+      "fill": "#009E73",
+      "stroke": "#009E73",
+      "width": 1.8
+    },
+    {
+      "kind": "text",
+      "name": "text_023",
+      "text": "C",
+      "x": 302,
+      "y": 418.33056887198745,
+      "w": 25,
+      "h": 25,
+      "size": 18,
+      "color": "#009E73",
+      "bold": true,
+      "align": "left"
+    },
+    {
+      "kind": "ellipse",
+      "name": "ellipse_024",
+      "x": 106.0,
+      "y": 456.94817883491874,
+      "w": 8,
+      "h": 8,
+      "fill": "#263238",
+      "stroke": "#263238",
+      "width": 1.8
+    },
+    {
+      "kind": "text",
+      "name": "text_025",
+      "text": "994.1",
+      "x": 118.0,
+      "y": 444.94817883491874,
+      "w": 100,
+      "h": 23,
+      "size": 17,
+      "color": "#7B8790",
+      "bold": false,
+      "align": "left"
+    },
+    {
+      "kind": "ellipse",
+      "name": "ellipse_026",
+      "x": 206.0,
+      "y": 394.0,
+      "w": 8,
+      "h": 8,
+      "fill": "#263238",
+      "stroke": "#263238",
+      "width": 1.8
+    },
+    {
+      "kind": "text",
+      "name": "text_027",
+      "text": "1009.4",
+      "x": 218.0,
+      "y": 382.0,
+      "w": 100,
+      "h": 23,
+      "size": 17,
+      "color": "#7B8790",
+      "bold": false,
+      "align": "left"
+    },
+    {
+      "kind": "text",
+      "name": "text_028",
+      "text": "A/B block excludes reference order:",
+      "x": 22,
+      "y": 535,
+      "w": 470,
+      "h": 27,
+      "size": 20,
+      "color": "#D55E00",
+      "bold": true,
+      "align": "left"
+    },
+    {
+      "kind": "line",
+      "name": "line_029",
+      "x1": 32,
+      "y1": 573,
+      "x2": 432,
+      "y2": 573,
+      "color": "#263238",
+      "width": 1.2,
+      "dash": false
+    },
+    {
+      "kind": "ellipse",
+      "name": "ellipse_030",
+      "x": 110.33333333333334,
+      "y": 568,
+      "w": 10,
+      "h": 10,
+      "fill": "#0072B2",
+      "stroke": "#0072B2",
+      "width": 1.8
+    },
+    {
+      "kind": "text",
+      "name": "text_031",
+      "text": "A .208",
+      "x": 90.33333333333334,
+      "y": 585,
+      "w": 80,
+      "h": 23,
+      "size": 17,
+      "color": "#0072B2",
+      "bold": true,
+      "align": "left"
+    },
+    {
+      "kind": "ellipse",
+      "name": "ellipse_032",
+      "x": 330.44264525075226,
+      "y": 568,
+      "w": 10,
+      "h": 10,
+      "fill": "#D55E00",
+      "stroke": "#D55E00",
+      "width": 1.8
+    },
+    {
+      "kind": "text",
+      "name": "text_033",
+      "text": "B .759",
+      "x": 310.44264525075226,
+      "y": 585,
+      "w": 80,
+      "h": 23,
+      "size": 17,
+      "color": "#D55E00",
+      "bold": true,
+      "align": "left"
+    },
+    {
+      "kind": "ellipse",
+      "name": "ellipse_034",
+      "x": 268.2081646589246,
+      "y": 568,
+      "w": 10,
+      "h": 10,
+      "fill": "#009E73",
+      "stroke": "#009E73",
+      "width": 1.8
+    },
+    {
+      "kind": "text",
+      "name": "text_035",
+      "text": "C .603",
+      "x": 248.2081646589246,
+      "y": 585,
+      "w": 80,
+      "h": 23,
+      "size": 17,
+      "color": "#009E73",
+      "bold": true,
+      "align": "left"
+    },
+    {
+      "kind": "text",
+      "name": "text_036",
+      "text": "Packing 0 + hierarchy H 8.45% L",
+      "x": 22,
+      "y": 614,
+      "w": 480,
+      "h": 24,
+      "size": 19,
+      "color": "#263238",
+      "bold": false,
+      "align": "left"
+    },
+    {
+      "kind": "line",
+      "name": "line_037",
+      "x1": 503,
+      "y1": 47,
+      "x2": 503,
+      "y2": 620,
+      "color": "#DFE4E8",
+      "width": 1,
+      "dash": false
+    },
+    {
+      "kind": "text",
+      "name": "text_038",
+      "text": "(b) Full 118-frame maps",
+      "x": 531,
+      "y": 8,
+      "w": 480,
+      "h": 34,
+      "size": 23,
+      "color": "#263238",
+      "bold": true,
+      "align": "left"
+    },
+    {
+      "kind": "text",
+      "name": "text_039",
+      "text": "(c) f43\u201353: same tracks",
+      "x": 1002,
+      "y": 8,
+      "w": 335,
+      "h": 34,
+      "size": 23,
+      "color": "#263238",
+      "bold": true,
+      "align": "left"
+    },
+    {
+      "kind": "text",
+      "name": "text_040",
+      "text": "TMTM: native rank",
+      "x": 557,
+      "y": 55,
+      "w": 427,
+      "h": 27,
+      "size": 20,
+      "color": "#263238",
+      "bold": true,
+      "align": "left"
+    },
+    {
+      "kind": "image",
+      "name": "era5_TMTM_saved_scalar_layer_0_118",
+      "path": "/Users/lele/Desktop/MergeTreeMaps/paper_revision/evidence/layers/storms_TMTM_0_118.png",
+      "x": 583,
+      "y": 87,
+      "w": 360,
+      "h": 72
+    },
+    {
+      "kind": "line",
+      "name": "line_042",
+      "x1": 730.9661016949153,
+      "y1": 87,
+      "x2": 730.9661016949153,
+      "y2": 159,
+      "color": "#263238",
+      "width": 1,
+      "dash": true
+    },
+    {
+      "kind": "rect",
+      "name": "rect_043",
+      "x": 583,
+      "y": 87,
+      "w": 360,
+      "h": 72,
+      "fill": "none",
+      "stroke": "#7B8790",
+      "width": 0.7
+    },
+    {
+      "kind": "text",
+      "name": "text_044",
+      "text": "0",
+      "x": 544,
+      "y": 149.0,
+      "w": 33,
+      "h": 21,
+      "size": 15,
+      "color": "#7B8790",
+      "bold": false,
+      "align": "right"
+    },
+    {
+      "kind": "text",
+      "name": "text_045",
+      "text": "1",
+      "x": 544,
+      "y": 77.0,
+      "w": 33,
+      "h": 21,
+      "size": 15,
+      "color": "#7B8790",
+      "bold": false,
+      "align": "right"
+    },
+    {
+      "kind": "text",
+      "name": "text_046",
+      "text": "0",
+      "x": 564.5254237288135,
+      "y": 162,
+      "w": 40,
+      "h": 22,
+      "size": 16,
+      "color": "#7B8790",
+      "bold": false,
+      "align": "center"
+    },
+    {
+      "kind": "text",
+      "name": "text_047",
+      "text": "117",
+      "x": 921.4745762711864,
+      "y": 162,
+      "w": 40,
+      "h": 22,
+      "size": 16,
+      "color": "#7B8790",
+      "bold": false,
+      "align": "center"
+    },
+    {
+      "kind": "ellipse",
+      "name": "era5_TMTM_60_exact_anchor",
+      "x": 726.9661016949153,
+      "y": 120.25999999999999,
+      "w": 8,
+      "h": 8,
+      "fill": "white",
+      "stroke": "#0072B2",
+      "width": 1.8
+    },
+    {
+      "kind": "ellipse",
+      "name": "era5_TMTM_38_exact_anchor",
+      "x": 726.9661016949153,
+      "y": 115.55,
+      "w": 8,
+      "h": 8,
+      "fill": "white",
+      "stroke": "#D55E00",
+      "width": 1.8
+    },
+    {
+      "kind": "ellipse",
+      "name": "era5_TMTM_56_exact_anchor",
+      "x": 726.9661016949153,
+      "y": 133.01,
+      "w": 8,
+      "h": 8,
+      "fill": "white",
+      "stroke": "#009E73",
+      "width": 1.8
+    },
+    {
+      "kind": "image",
+      "name": "era5_TMTM_saved_scalar_layer_43_54",
+      "path": "/Users/lele/Desktop/MergeTreeMaps/paper_revision/evidence/layers/storms_TMTM_43_54.png",
+      "x": 1021,
+      "y": 87,
+      "w": 270,
+      "h": 72
+    },
+    {
+      "kind": "line",
+      "name": "line_052",
+      "x1": 1156.0,
+      "y1": 87,
+      "x2": 1156.0,
+      "y2": 159,
+      "color": "#263238",
+      "width": 1,
+      "dash": true
+    },
+    {
+      "kind": "rect",
+      "name": "rect_053",
+      "x": 1021,
+      "y": 87,
+      "w": 270,
+      "h": 72,
+      "fill": "none",
+      "stroke": "#7B8790",
+      "width": 0.7
+    },
+    {
+      "kind": "text",
+      "name": "text_054",
+      "text": "0.26",
+      "x": 982,
+      "y": 149.0,
+      "w": 33,
+      "h": 21,
+      "size": 15,
+      "color": "#7B8790",
+      "bold": false,
+      "align": "right"
+    },
+    {
+      "kind": "text",
+      "name": "text_055",
+      "text": "0.74",
+      "x": 982,
+      "y": 77.0,
+      "w": 33,
+      "h": 21,
+      "size": 15,
+      "color": "#7B8790",
+      "bold": false,
+      "align": "right"
+    },
+    {
+      "kind": "text",
+      "name": "text_056",
+      "text": "43",
+      "x": 1013.2727272727273,
+      "y": 162,
+      "w": 40,
+      "h": 22,
+      "size": 16,
+      "color": "#7B8790",
+      "bold": false,
+      "align": "center"
+    },
+    {
+      "kind": "text",
+      "name": "text_057",
+      "text": "53",
+      "x": 1258.7272727272727,
+      "y": 162,
+      "w": 40,
+      "h": 22,
+      "size": 16,
+      "color": "#7B8790",
+      "bold": false,
+      "align": "center"
+    },
+    {
+      "kind": "path",
+      "name": "path_058",
+      "points": [
+        [
+          1156.0,
+          125.0847018150389
+        ],
+        [
+          1180.5454545454545,
+          126.45375972342265
+        ],
+        [
+          1205.090909090909,
+          123.40449438202248
+        ],
+        [
+          1229.6363636363635,
+          130.3742437337943
+        ],
+        [
+          1254.1818181818182,
+          130.68539325842696
+        ],
+        [
+          1278.7272727272727,
+          132.05445116681074
+        ]
+      ],
+      "color": "white",
+      "width": 4,
+      "dash": false
+    },
+    {
+      "kind": "path",
+      "name": "era5_TMTM_track_60_trace",
+      "points": [
+        [
+          1156.0,
+          125.0847018150389
+        ],
+        [
+          1180.5454545454545,
+          126.45375972342265
+        ],
+        [
+          1205.090909090909,
+          123.40449438202248
+        ],
+        [
+          1229.6363636363635,
+          130.3742437337943
+        ],
+        [
+          1254.1818181818182,
+          130.68539325842696
+        ],
+        [
+          1278.7272727272727,
+          132.05445116681074
+        ]
+      ],
+      "color": "#0072B2",
+      "width": 1.8,
+      "dash": false
+    },
+    {
+      "kind": "ellipse",
+      "name": "era5_TMTM_60_exact_anchor",
+      "x": 1152.0,
+      "y": 121.0847018150389,
+      "w": 8,
+      "h": 8,
+      "fill": "white",
+      "stroke": "#0072B2",
+      "width": 1.8
+    },
+    {
+      "kind": "line",
+      "name": "line_061",
+      "x1": 1156.0,
+      "y1": 125.0847018150389,
+      "x2": 1297,
+      "y2": 102.0,
+      "color": "#0072B2",
+      "width": 0.8,
+      "dash": false
+    },
+    {
+      "kind": "text",
+      "name": "text_062",
+      "text": "A",
+      "x": 1300,
+      "y": 92.0,
+      "w": 28,
+      "h": 22,
+      "size": 17,
+      "color": "#0072B2",
+      "bold": true,
+      "align": "left"
+    },
+    {
+      "kind": "path",
+      "name": "path_063",
+      "points": [
+        [
+          1033.2727272727273,
+          127.57389801210026
+        ],
+        [
+          1057.8181818181818,
+          126.0181503889369
+        ],
+        [
+          1082.3636363636363,
+          123.09334485738981
+        ],
+        [
+          1106.909090909091,
+          121.53759723422645
+        ],
+        [
+          1131.4545454545455,
+          119.04840103716508
+        ],
+        [
+          1156.0,
+          115.31460674157303
+        ],
+        [
+          1180.5454545454545,
+          113.75885911840967
+        ],
+        [
+          1205.090909090909,
+          110.83405358686257
+        ],
+        [
+          1229.6363636363635,
+          109.7761452031115
+        ],
+        [
+          1254.1818181818182,
+          113.01210025929127
+        ],
+        [
+          1278.7272727272727,
+          116.37251512532411
+        ]
+      ],
+      "color": "white",
+      "width": 4,
+      "dash": false
+    },
+    {
+      "kind": "path",
+      "name": "era5_TMTM_track_38_trace",
+      "points": [
+        [
+          1033.2727272727273,
+          127.57389801210026
+        ],
+        [
+          1057.8181818181818,
+          126.0181503889369
+        ],
+        [
+          1082.3636363636363,
+          123.09334485738981
+        ],
+        [
+          1106.909090909091,
+          121.53759723422645
+        ],
+        [
+          1131.4545454545455,
+          119.04840103716508
+        ],
+        [
+          1156.0,
+          115.31460674157303
+        ],
+        [
+          1180.5454545454545,
+          113.75885911840967
+        ],
+        [
+          1205.090909090909,
+          110.83405358686257
+        ],
+        [
+          1229.6363636363635,
+          109.7761452031115
+        ],
+        [
+          1254.1818181818182,
+          113.01210025929127
+        ],
+        [
+          1278.7272727272727,
+          116.37251512532411
+        ]
+      ],
+      "color": "#D55E00",
+      "width": 1.8,
+      "dash": false
+    },
+    {
+      "kind": "ellipse",
+      "name": "era5_TMTM_38_exact_anchor",
+      "x": 1152.0,
+      "y": 111.31460674157303,
+      "w": 8,
+      "h": 8,
+      "fill": "white",
+      "stroke": "#D55E00",
+      "width": 1.8
+    },
+    {
+      "kind": "line",
+      "name": "line_066",
+      "x1": 1156.0,
+      "y1": 115.31460674157303,
+      "x2": 1297,
+      "y2": 119.33333333333333,
+      "color": "#D55E00",
+      "width": 0.8,
+      "dash": false
+    },
+    {
+      "kind": "text",
+      "name": "text_067",
+      "text": "B",
+      "x": 1300,
+      "y": 109.33333333333333,
+      "w": 28,
+      "h": 22,
+      "size": 17,
+      "color": "#D55E00",
+      "bold": true,
+      "align": "left"
+    },
+    {
+      "kind": "path",
+      "name": "path_068",
+      "points": [
+        [
+          1131.4545454545455,
+          149.22990492653415
+        ],
+        [
+          1156.0,
+          151.5324114088159
+        ],
+        [
+          1180.5454545454545,
+          94.52981849611064
+        ]
+      ],
+      "color": "white",
+      "width": 4,
+      "dash": false
+    },
+    {
+      "kind": "path",
+      "name": "era5_TMTM_track_56_trace",
+      "points": [
+        [
+          1131.4545454545455,
+          149.22990492653415
+        ],
+        [
+          1156.0,
+          151.5324114088159
+        ],
+        [
+          1180.5454545454545,
+          94.52981849611064
+        ]
+      ],
+      "color": "#009E73",
+      "width": 1.8,
+      "dash": false
+    },
+    {
+      "kind": "ellipse",
+      "name": "era5_TMTM_56_exact_anchor",
+      "x": 1152.0,
+      "y": 147.5324114088159,
+      "w": 8,
+      "h": 8,
+      "fill": "white",
+      "stroke": "#009E73",
+      "width": 1.8
+    },
+    {
+      "kind": "line",
+      "name": "line_071",
+      "x1": 1156.0,
+      "y1": 151.5324114088159,
+      "x2": 1297,
+      "y2": 136.66666666666666,
+      "color": "#009E73",
+      "width": 0.8,
+      "dash": false
+    },
+    {
+      "kind": "text",
+      "name": "text_072",
+      "text": "C",
+      "x": 1300,
+      "y": 126.66666666666666,
+      "w": 28,
+      "h": 22,
+      "size": 17,
+      "color": "#009E73",
+      "bold": true,
+      "align": "left"
+    },
+    {
+      "kind": "rect",
+      "name": "rect_073",
+      "x": 714.1864406779661,
+      "y": 87,
+      "w": 33.559322033898304,
+      "h": 72,
+      "fill": "none",
+      "stroke": "#263238",
+      "width": 1.2
+    },
+    {
+      "kind": "text",
+      "name": "text_074",
+      "text": "ST-MTM: native rank",
+      "x": 557,
+      "y": 175,
+      "w": 427,
+      "h": 27,
+      "size": 20,
+      "color": "#263238",
+      "bold": true,
+      "align": "left"
+    },
+    {
+      "kind": "image",
+      "name": "era5_ST-MTM_saved_scalar_layer_0_118",
+      "path": "/Users/lele/Desktop/MergeTreeMaps/paper_revision/evidence/layers/storms_ST-MTM_0_118.png",
+      "x": 583,
+      "y": 207,
+      "w": 360,
+      "h": 72
+    },
+    {
+      "kind": "line",
+      "name": "line_076",
+      "x1": 730.9661016949153,
+      "y1": 207,
+      "x2": 730.9661016949153,
+      "y2": 279,
+      "color": "#263238",
+      "width": 1,
+      "dash": true
+    },
+    {
+      "kind": "rect",
+      "name": "rect_077",
+      "x": 583,
+      "y": 207,
+      "w": 360,
+      "h": 72,
+      "fill": "none",
+      "stroke": "#7B8790",
+      "width": 0.7
+    },
+    {
+      "kind": "text",
+      "name": "text_078",
+      "text": "0",
+      "x": 544,
+      "y": 269.0,
+      "w": 33,
+      "h": 21,
+      "size": 15,
+      "color": "#7B8790",
+      "bold": false,
+      "align": "right"
+    },
+    {
+      "kind": "text",
+      "name": "text_079",
+      "text": "1",
+      "x": 544,
+      "y": 197.0,
+      "w": 33,
+      "h": 21,
+      "size": 15,
+      "color": "#7B8790",
+      "bold": false,
+      "align": "right"
+    },
+    {
+      "kind": "text",
+      "name": "text_080",
+      "text": "0",
+      "x": 564.5254237288135,
+      "y": 282,
+      "w": 40,
+      "h": 22,
+      "size": 16,
+      "color": "#7B8790",
+      "bold": false,
+      "align": "center"
+    },
+    {
+      "kind": "text",
+      "name": "text_081",
+      "text": "117",
+      "x": 921.4745762711864,
+      "y": 282,
+      "w": 40,
+      "h": 22,
+      "size": 16,
+      "color": "#7B8790",
+      "bold": false,
+      "align": "center"
+    },
+    {
+      "kind": "ellipse",
+      "name": "era5_ST-MTM_60_exact_anchor",
+      "x": 726.9661016949153,
+      "y": 233.11868131868133,
+      "w": 8,
+      "h": 8,
+      "fill": "white",
+      "stroke": "#0072B2",
+      "width": 1.8
+    },
+    {
+      "kind": "ellipse",
+      "name": "era5_ST-MTM_38_exact_anchor",
+      "x": 726.9661016949153,
+      "y": 220.58241758241758,
+      "w": 8,
+      "h": 8,
+      "fill": "white",
+      "stroke": "#D55E00",
+      "width": 1.8
+    },
+    {
+      "kind": "ellipse",
+      "name": "era5_ST-MTM_56_exact_anchor",
+      "x": 726.9661016949153,
+      "y": 216.5032967032967,
+      "w": 8,
+      "h": 8,
+      "fill": "white",
+      "stroke": "#009E73",
+      "width": 1.8
+    },
+    {
+      "kind": "image",
+      "name": "era5_ST-MTM_saved_scalar_layer_43_54",
+      "path": "/Users/lele/Desktop/MergeTreeMaps/paper_revision/evidence/layers/storms_ST-MTM_43_54.png",
+      "x": 1021,
+      "y": 207,
+      "w": 270,
+      "h": 72
+    },
+    {
+      "kind": "line",
+      "name": "line_086",
+      "x1": 1156.0,
+      "y1": 207,
+      "x2": 1156.0,
+      "y2": 279,
+      "color": "#263238",
+      "width": 1,
+      "dash": true
+    },
+    {
+      "kind": "rect",
+      "name": "rect_087",
+      "x": 1021,
+      "y": 207,
+      "w": 270,
+      "h": 72,
+      "fill": "none",
+      "stroke": "#7B8790",
+      "width": 0.7
+    },
+    {
+      "kind": "text",
+      "name": "text_088",
+      "text": "0.46",
+      "x": 982,
+      "y": 269.0,
+      "w": 33,
+      "h": 21,
+      "size": 15,
+      "color": "#7B8790",
+      "bold": false,
+      "align": "right"
+    },
+    {
+      "kind": "text",
+      "name": "text_089",
+      "text": "0.87",
+      "x": 982,
+      "y": 197.0,
+      "w": 33,
+      "h": 21,
+      "size": 15,
+      "color": "#7B8790",
+      "bold": false,
+      "align": "right"
+    },
+    {
+      "kind": "text",
+      "name": "text_090",
+      "text": "43",
+      "x": 1013.2727272727273,
+      "y": 282,
+      "w": 40,
+      "h": 22,
+      "size": 16,
+      "color": "#7B8790",
+      "bold": false,
+      "align": "center"
+    },
+    {
+      "kind": "text",
+      "name": "text_091",
+      "text": "53",
+      "x": 1258.7272727272727,
+      "y": 282,
+      "w": 40,
+      "h": 22,
+      "size": 16,
+      "color": "#7B8790",
+      "bold": false,
+      "align": "center"
+    },
+    {
+      "kind": "path",
+      "name": "path_092",
+      "points": [
+        [
+          1156.0,
+          257.48032883147386
+        ],
+        [
+          1180.5454545454545,
+          260.94715208455665
+        ],
+        [
+          1205.090909090909,
+          265.51321197886085
+        ],
+        [
+          1229.6363636363635,
+          268.00763358778624
+        ],
+        [
+          1254.1818181818182,
+          270.03699354081033
+        ],
+        [
+          1278.7272727272727,
+          270.332941867293
+        ]
+      ],
+      "color": "white",
+      "width": 4,
+      "dash": false
+    },
+    {
+      "kind": "path",
+      "name": "era5_ST-MTM_track_60_trace",
+      "points": [
+        [
+          1156.0,
+          257.48032883147386
+        ],
+        [
+          1180.5454545454545,
+          260.94715208455665
+        ],
+        [
+          1205.090909090909,
+          265.51321197886085
+        ],
+        [
+          1229.6363636363635,
+          268.00763358778624
+        ],
+        [
+          1254.1818181818182,
+          270.03699354081033
+        ],
+        [
+          1278.7272727272727,
+          270.332941867293
+        ]
+      ],
+      "color": "#0072B2",
+      "width": 1.8,
+      "dash": false
+    },
+    {
+      "kind": "ellipse",
+      "name": "era5_ST-MTM_60_exact_anchor",
+      "x": 1152.0,
+      "y": 253.48032883147386,
+      "w": 8,
+      "h": 8,
+      "fill": "white",
+      "stroke": "#0072B2",
+      "width": 1.8
+    },
+    {
+      "kind": "line",
+      "name": "line_095",
+      "x1": 1156.0,
+      "y1": 257.48032883147386,
+      "x2": 1297,
+      "y2": 222.0,
+      "color": "#0072B2",
+      "width": 0.8,
+      "dash": false
+    },
+    {
+      "kind": "text",
+      "name": "text_096",
+      "text": "A",
+      "x": 1300,
+      "y": 212.0,
+      "w": 28,
+      "h": 22,
+      "size": 17,
+      "color": "#0072B2",
+      "bold": true,
+      "align": "left"
+    },
+    {
+      "kind": "path",
+      "name": "path_097",
+      "points": [
+        [
+          1033.2727272727273,
+          227.6318261890781
+        ],
+        [
+          1057.8181818181818,
+          227.5049911920141
+        ],
+        [
+          1082.3636363636363,
+          224.2918379330593
+        ],
+        [
+          1106.909090909091,
+          225.30651790957134
+        ],
+        [
+          1131.4545454545455,
+          228.35055783910747
+        ],
+        [
+          1156.0,
+          227.33587786259542
+        ],
+        [
+          1180.5454545454545,
+          227.8854961832061
+        ],
+        [
+          1205.090909090909,
+          222.93893129770993
+        ],
+        [
+          1229.6363636363635,
+          222.3047563123899
+        ],
+        [
+          1254.1818181818182,
+          222.60070463887257
+        ],
+        [
+          1278.7272727272727,
+          227.12448620082208
+        ]
+      ],
+      "color": "white",
+      "width": 4,
+      "dash": false
+    },
+    {
+      "kind": "path",
+      "name": "era5_ST-MTM_track_38_trace",
+      "points": [
+        [
+          1033.2727272727273,
+          227.6318261890781
+        ],
+        [
+          1057.8181818181818,
+          227.5049911920141
+        ],
+        [
+          1082.3636363636363,
+          224.2918379330593
+        ],
+        [
+          1106.909090909091,
+          225.30651790957134
+        ],
+        [
+          1131.4545454545455,
+          228.35055783910747
+        ],
+        [
+          1156.0,
+          227.33587786259542
+        ],
+        [
+          1180.5454545454545,
+          227.8854961832061
+        ],
+        [
+          1205.090909090909,
+          222.93893129770993
+        ],
+        [
+          1229.6363636363635,
+          222.3047563123899
+        ],
+        [
+          1254.1818181818182,
+          222.60070463887257
+        ],
+        [
+          1278.7272727272727,
+          227.12448620082208
+        ]
+      ],
+      "color": "#D55E00",
+      "width": 1.8,
+      "dash": false
+    },
+    {
+      "kind": "ellipse",
+      "name": "era5_ST-MTM_38_exact_anchor",
+      "x": 1152.0,
+      "y": 223.33587786259542,
+      "w": 8,
+      "h": 8,
+      "fill": "white",
+      "stroke": "#D55E00",
+      "width": 1.8
+    },
+    {
+      "kind": "line",
+      "name": "line_100",
+      "x1": 1156.0,
+      "y1": 227.33587786259542,
+      "x2": 1297,
+      "y2": 239.33333333333334,
+      "color": "#D55E00",
+      "width": 0.8,
+      "dash": false
+    },
+    {
+      "kind": "text",
+      "name": "text_101",
+      "text": "B",
+      "x": 1300,
+      "y": 229.33333333333334,
+      "w": 28,
+      "h": 22,
+      "size": 17,
+      "color": "#D55E00",
+      "bold": true,
+      "align": "left"
+    },
+    {
+      "kind": "path",
+      "name": "path_102",
+      "points": [
+        [
+          1131.4545454545455,
+          216.51262477980035
+        ],
+        [
+          1156.0,
+          217.5273047563124
+        ],
+        [
+          1180.5454545454545,
+          215.66705813270698
+        ]
+      ],
+      "color": "white",
+      "width": 4,
+      "dash": false
+    },
+    {
+      "kind": "path",
+      "name": "era5_ST-MTM_track_56_trace",
+      "points": [
+        [
+          1131.4545454545455,
+          216.51262477980035
+        ],
+        [
+          1156.0,
+          217.5273047563124
+        ],
+        [
+          1180.5454545454545,
+          215.66705813270698
+        ]
+      ],
+      "color": "#009E73",
+      "width": 1.8,
+      "dash": false
+    },
+    {
+      "kind": "ellipse",
+      "name": "era5_ST-MTM_56_exact_anchor",
+      "x": 1152.0,
+      "y": 213.5273047563124,
+      "w": 8,
+      "h": 8,
+      "fill": "white",
+      "stroke": "#009E73",
+      "width": 1.8
+    },
+    {
+      "kind": "line",
+      "name": "line_105",
+      "x1": 1156.0,
+      "y1": 217.5273047563124,
+      "x2": 1297,
+      "y2": 256.66666666666663,
+      "color": "#009E73",
+      "width": 0.8,
+      "dash": false
+    },
+    {
+      "kind": "text",
+      "name": "text_106",
+      "text": "C",
+      "x": 1300,
+      "y": 246.66666666666666,
+      "w": 28,
+      "h": 22,
+      "size": 17,
+      "color": "#009E73",
+      "bold": true,
+      "align": "left"
+    },
+    {
+      "kind": "rect",
+      "name": "rect_107",
+      "x": 714.1864406779661,
+      "y": 207,
+      "w": 33.559322033898304,
+      "h": 72,
+      "fill": "none",
+      "stroke": "#263238",
+      "width": 1.2
+    },
+    {
+      "kind": "text",
+      "name": "text_108",
+      "text": "RG-P: fixed reference",
+      "x": 557,
+      "y": 295,
+      "w": 427,
+      "h": 27,
+      "size": 20,
+      "color": "#263238",
+      "bold": true,
+      "align": "left"
+    },
+    {
+      "kind": "image",
+      "name": "era5_P_saved_scalar_layer_0_118",
+      "path": "/Users/lele/Desktop/MergeTreeMaps/paper_revision/evidence/layers/storms_P_0_118.png",
+      "x": 583,
+      "y": 327,
+      "w": 360,
+      "h": 72
+    },
+    {
+      "kind": "line",
+      "name": "line_110",
+      "x1": 730.9661016949153,
+      "y1": 327,
+      "x2": 730.9661016949153,
+      "y2": 399,
+      "color": "#263238",
+      "width": 1,
+      "dash": true
+    },
+    {
+      "kind": "rect",
+      "name": "rect_111",
+      "x": 583,
+      "y": 327,
+      "w": 360,
+      "h": 72,
+      "fill": "none",
+      "stroke": "#7B8790",
+      "width": 0.7
+    },
+    {
+      "kind": "text",
+      "name": "text_112",
+      "text": "0",
+      "x": 544,
+      "y": 389.0,
+      "w": 33,
+      "h": 21,
+      "size": 15,
+      "color": "#7B8790",
+      "bold": false,
+      "align": "right"
+    },
+    {
+      "kind": "text",
+      "name": "text_113",
+      "text": "1",
+      "x": 544,
+      "y": 317.0,
+      "w": 33,
+      "h": 21,
+      "size": 15,
+      "color": "#7B8790",
+      "bold": false,
+      "align": "right"
+    },
+    {
+      "kind": "text",
+      "name": "text_114",
+      "text": "0",
+      "x": 564.5254237288135,
+      "y": 402,
+      "w": 40,
+      "h": 22,
+      "size": 16,
+      "color": "#7B8790",
+      "bold": false,
+      "align": "center"
+    },
+    {
+      "kind": "text",
+      "name": "text_115",
+      "text": "117",
+      "x": 921.4745762711864,
+      "y": 402,
+      "w": 40,
+      "h": 22,
+      "size": 16,
+      "color": "#7B8790",
+      "bold": false,
+      "align": "center"
+    },
+    {
+      "kind": "ellipse",
+      "name": "era5_P_60_exact_anchor",
+      "x": 726.9661016949153,
+      "y": 380.6023625837349,
+      "w": 8,
+      "h": 8,
+      "fill": "white",
+      "stroke": "#0072B2",
+      "width": 1.8
+    },
+    {
+      "kind": "ellipse",
+      "name": "era5_P_38_exact_anchor",
+      "x": 726.9661016949153,
+      "y": 346.1621034510711,
+      "w": 8,
+      "h": 8,
+      "fill": "white",
+      "stroke": "#D55E00",
+      "width": 1.8
+    },
+    {
+      "kind": "ellipse",
+      "name": "era5_P_56_exact_anchor",
+      "x": 726.9661016949153,
+      "y": 345.19862989838475,
+      "w": 8,
+      "h": 8,
+      "fill": "white",
+      "stroke": "#009E73",
+      "width": 1.8
+    },
+    {
+      "kind": "image",
+      "name": "era5_P_saved_scalar_layer_43_54",
+      "path": "/Users/lele/Desktop/MergeTreeMaps/paper_revision/evidence/layers/storms_P_43_54.png",
+      "x": 1021,
+      "y": 327,
+      "w": 270,
+      "h": 72
+    },
+    {
+      "kind": "line",
+      "name": "line_120",
+      "x1": 1156.0,
+      "y1": 327,
+      "x2": 1156.0,
+      "y2": 399,
+      "color": "#263238",
+      "width": 1,
+      "dash": true
+    },
+    {
+      "kind": "rect",
+      "name": "rect_121",
+      "x": 1021,
+      "y": 327,
+      "w": 270,
+      "h": 72,
+      "fill": "none",
+      "stroke": "#7B8790",
+      "width": 0.7
+    },
+    {
+      "kind": "text",
+      "name": "text_122",
+      "text": "0.13",
+      "x": 982,
+      "y": 389.0,
+      "w": 33,
+      "h": 21,
+      "size": 15,
+      "color": "#7B8790",
+      "bold": false,
+      "align": "right"
+    },
+    {
+      "kind": "text",
+      "name": "text_123",
+      "text": "0.97",
+      "x": 982,
+      "y": 317.0,
+      "w": 33,
+      "h": 21,
+      "size": 15,
+      "color": "#7B8790",
+      "bold": false,
+      "align": "right"
+    },
+    {
+      "kind": "text",
+      "name": "text_124",
+      "text": "43",
+      "x": 1013.2727272727273,
+      "y": 402,
+      "w": 40,
+      "h": 22,
+      "size": 16,
+      "color": "#7B8790",
+      "bold": false,
+      "align": "center"
+    },
+    {
+      "kind": "text",
+      "name": "text_125",
+      "text": "53",
+      "x": 1258.7272727272727,
+      "y": 402,
+      "w": 40,
+      "h": 22,
+      "size": 16,
+      "color": "#7B8790",
+      "bold": false,
+      "align": "center"
+    },
+    {
+      "kind": "path",
+      "name": "path_126",
+      "points": [
+        [
+          1156.0,
+          393.02371509302975
+        ],
+        [
+          1180.5454545454545,
+          394.7129330951719
+        ],
+        [
+          1205.090909090909,
+          391.6267868592631
+        ],
+        [
+          1229.6363636363635,
+          391.65949706347396
+        ],
+        [
+          1254.1818181818182,
+          391.65949706347396
+        ],
+        [
+          1278.7272727272727,
+          391.7164021650822
+        ]
+      ],
+      "color": "white",
+      "width": 4,
+      "dash": false
+    },
+    {
+      "kind": "path",
+      "name": "era5_P_track_60_trace",
+      "points": [
+        [
+          1156.0,
+          393.02371509302975
+        ],
+        [
+          1180.5454545454545,
+          394.7129330951719
+        ],
+        [
+          1205.090909090909,
+          391.6267868592631
+        ],
+        [
+          1229.6363636363635,
+          391.65949706347396
+        ],
+        [
+          1254.1818181818182,
+          391.65949706347396
+        ],
+        [
+          1278.7272727272727,
+          391.7164021650822
+        ]
+      ],
+      "color": "#0072B2",
+      "width": 1.8,
+      "dash": false
+    },
+    {
+      "kind": "path",
+      "name": "era5_P_true_reference_60",
+      "points": [
+        [
+          1156.0,
+          392.3074912891986
+        ],
+        [
+          1180.5454545454545,
+          394.0910278745645
+        ],
+        [
+          1205.090909090909,
+          392.3402014934095
+        ],
+        [
+          1229.6363636363635,
+          392.37291169762034
+        ],
+        [
+          1254.1818181818182,
+          392.37291169762034
+        ],
+        [
+          1278.7272727272727,
+          390.5566649080436
+        ]
+      ],
+      "color": "#0072B2",
+      "width": 1,
+      "dash": true
+    },
+    {
+      "kind": "ellipse",
+      "name": "era5_P_60_exact_anchor",
+      "x": 1152.0,
+      "y": 389.02371509302975,
+      "w": 8,
+      "h": 8,
+      "fill": "white",
+      "stroke": "#0072B2",
+      "width": 1.8
+    },
+    {
+      "kind": "line",
+      "name": "line_130",
+      "x1": 1156.0,
+      "y1": 393.02371509302975,
+      "x2": 1297,
+      "y2": 342.0,
+      "color": "#0072B2",
+      "width": 0.8,
+      "dash": false
+    },
+    {
+      "kind": "text",
+      "name": "text_131",
+      "text": "A",
+      "x": 1300,
+      "y": 332.0,
+      "w": 28,
+      "h": 22,
+      "size": 17,
+      "color": "#0072B2",
+      "bold": true,
+      "align": "left"
+    },
+    {
+      "kind": "path",
+      "name": "path_132",
+      "points": [
+        [
+          1033.2727272727273,
+          382.7745243408556
+        ],
+        [
+          1057.8181818181818,
+          375.7712188162356
+        ],
+        [
+          1082.3636363636363,
+          367.37086832333387
+        ],
+        [
+          1106.909090909091,
+          367.0497971146715
+        ],
+        [
+          1131.4545454545455,
+          362.76908378751955
+        ],
+        [
+          1156.0,
+          352.07340697797224
+        ],
+        [
+          1180.5454545454545,
+          348.2259774052928
+        ],
+        [
+          1205.090909090909,
+          335.4726067747062
+        ],
+        [
+          1229.6363636363635,
+          332.0036642166071
+        ],
+        [
+          1254.1818181818182,
+          332.3603715336802
+        ],
+        [
+          1278.7272727272727,
+          334.20081322065425
+        ]
+      ],
+      "color": "white",
+      "width": 4,
+      "dash": false
+    },
+    {
+      "kind": "path",
+      "name": "era5_P_track_38_trace",
+      "points": [
+        [
+          1033.2727272727273,
+          382.7745243408556
+        ],
+        [
+          1057.8181818181818,
+          375.7712188162356
+        ],
+        [
+          1082.3636363636363,
+          367.37086832333387
+        ],
+        [
+          1106.909090909091,
+          367.0497971146715
+        ],
+        [
+          1131.4545454545455,
+          362.76908378751955
+        ],
+        [
+          1156.0,
+          352.07340697797224
+        ],
+        [
+          1180.5454545454545,
+          348.2259774052928
+        ],
+        [
+          1205.090909090909,
+          335.4726067747062
+        ],
+        [
+          1229.6363636363635,
+          332.0036642166071
+        ],
+        [
+          1254.1818181818182,
+          332.3603715336802
+        ],
+        [
+          1278.7272727272727,
+          334.20081322065425
+        ]
+      ],
+      "color": "#D55E00",
+      "width": 1.8,
+      "dash": false
+    },
+    {
+      "kind": "path",
+      "name": "era5_P_true_reference_38",
+      "points": [
+        [
+          1033.2727272727273,
+          383.48793897500195
+        ],
+        [
+          1057.8181818181818,
+          376.484633450382
+        ],
+        [
+          1082.3636363636363,
+          371.2648645111278
+        ],
+        [
+          1106.909090909091,
+          367.76321174881787
+        ],
+        [
+          1131.4545454545455,
+          360.79261642840873
+        ],
+        [
+          1156.0,
+          345.1987300190681
+        ],
+        [
+          1180.5454545454545,
+          339.978961079814
+        ],
+        [
+          1205.090909090909,
+          334.75919214055983
+        ],
+        [
+          1229.6363636363635,
+          331.2902495824608
+        ],
+        [
+          1254.1818181818182,
+          333.0737861678266
+        ],
+        [
+          1278.7272727272727,
+          333.0410759636157
+        ]
+      ],
+      "color": "#D55E00",
+      "width": 1,
+      "dash": true
+    },
+    {
+      "kind": "ellipse",
+      "name": "era5_P_38_exact_anchor",
+      "x": 1152.0,
+      "y": 348.07340697797224,
+      "w": 8,
+      "h": 8,
+      "fill": "white",
+      "stroke": "#D55E00",
+      "width": 1.8
+    },
+    {
+      "kind": "line",
+      "name": "line_136",
+      "x1": 1156.0,
+      "y1": 352.07340697797224,
+      "x2": 1297,
+      "y2": 359.3333333333333,
+      "color": "#D55E00",
+      "width": 0.8,
+      "dash": false
+    },
+    {
+      "kind": "text",
+      "name": "text_137",
+      "text": "B",
+      "x": 1300,
+      "y": 349.3333333333333,
+      "w": 28,
+      "h": 22,
+      "size": 17,
+      "color": "#D55E00",
+      "bold": true,
+      "align": "left"
+    },
+    {
+      "kind": "path",
+      "name": "path_138",
+      "points": [
+        [
+          1131.4545454545455,
+          360.07632238728996
+        ],
+        [
+          1156.0,
+          350.92781342447313
+        ],
+        [
+          1180.5454545454545,
+          347.0937548049535
+        ]
+      ],
+      "color": "white",
+      "width": 4,
+      "dash": false
+    },
+    {
+      "kind": "path",
+      "name": "era5_P_track_56_trace",
+      "points": [
+        [
+          1131.4545454545455,
+          360.07632238728996
+        ],
+        [
+          1156.0,
+          350.92781342447313
+        ],
+        [
+          1180.5454545454545,
+          347.0937548049535
+        ]
+      ],
+      "color": "#009E73",
+      "width": 1.8,
+      "dash": false
+    },
+    {
+      "kind": "path",
+      "name": "era5_P_true_reference_56",
+      "points": [
+        [
+          1131.4545454545455,
+          362.05278974640083
+        ],
+        [
+          1156.0,
+          358.51842677988
+        ],
+        [
+          1180.5454545454545,
+          356.767600398725
+        ]
+      ],
+      "color": "#009E73",
+      "width": 1,
+      "dash": true
+    },
+    {
+      "kind": "ellipse",
+      "name": "era5_P_56_exact_anchor",
+      "x": 1152.0,
+      "y": 346.92781342447313,
+      "w": 8,
+      "h": 8,
+      "fill": "white",
+      "stroke": "#009E73",
+      "width": 1.8
+    },
+    {
+      "kind": "line",
+      "name": "line_142",
+      "x1": 1156.0,
+      "y1": 350.92781342447313,
+      "x2": 1297,
+      "y2": 376.6666666666667,
+      "color": "#009E73",
+      "width": 0.8,
+      "dash": false
+    },
+    {
+      "kind": "text",
+      "name": "text_143",
+      "text": "C",
+      "x": 1300,
+      "y": 366.6666666666667,
+      "w": 28,
+      "h": 22,
+      "size": 17,
+      "color": "#009E73",
+      "bold": true,
+      "align": "left"
+    },
+    {
+      "kind": "rect",
+      "name": "rect_144",
+      "x": 714.1864406779661,
+      "y": 327,
+      "w": 33.559322033898304,
+      "h": 72,
+      "fill": "none",
+      "stroke": "#263238",
+      "width": 1.2
+    },
+    {
+      "kind": "text",
+      "name": "text_145",
+      "text": "RG-R20: fixed reference",
+      "x": 557,
+      "y": 415,
+      "w": 427,
+      "h": 27,
+      "size": 20,
+      "color": "#263238",
+      "bold": true,
+      "align": "left"
+    },
+    {
+      "kind": "image",
+      "name": "era5_R_saved_scalar_layer_0_118",
+      "path": "/Users/lele/Desktop/MergeTreeMaps/paper_revision/evidence/layers/storms_R_0_118.png",
+      "x": 583,
+      "y": 447,
+      "w": 360,
+      "h": 72
+    },
+    {
+      "kind": "line",
+      "name": "line_147",
+      "x1": 730.9661016949153,
+      "y1": 447,
+      "x2": 730.9661016949153,
+      "y2": 519,
+      "color": "#263238",
+      "width": 1,
+      "dash": true
+    },
+    {
+      "kind": "rect",
+      "name": "rect_148",
+      "x": 583,
+      "y": 447,
+      "w": 360,
+      "h": 72,
+      "fill": "none",
+      "stroke": "#7B8790",
+      "width": 0.7
+    },
+    {
+      "kind": "text",
+      "name": "text_149",
+      "text": "0",
+      "x": 544,
+      "y": 509.0,
+      "w": 33,
+      "h": 21,
+      "size": 15,
+      "color": "#7B8790",
+      "bold": false,
+      "align": "right"
+    },
+    {
+      "kind": "text",
+      "name": "text_150",
+      "text": "1",
+      "x": 544,
+      "y": 437.0,
+      "w": 33,
+      "h": 21,
+      "size": 15,
+      "color": "#7B8790",
+      "bold": false,
+      "align": "right"
+    },
+    {
+      "kind": "text",
+      "name": "text_151",
+      "text": "0",
+      "x": 564.5254237288135,
+      "y": 522,
+      "w": 40,
+      "h": 22,
+      "size": 16,
+      "color": "#7B8790",
+      "bold": false,
+      "align": "center"
+    },
+    {
+      "kind": "text",
+      "name": "text_152",
+      "text": "117",
+      "x": 921.4745762711864,
+      "y": 522,
+      "w": 40,
+      "h": 22,
+      "size": 16,
+      "color": "#7B8790",
+      "bold": false,
+      "align": "center"
+    },
+    {
+      "kind": "ellipse",
+      "name": "era5_R_60_exact_anchor",
+      "x": 726.9661016949153,
+      "y": 500.6,
+      "w": 8,
+      "h": 8,
+      "fill": "white",
+      "stroke": "#0072B2",
+      "width": 1.8
+    },
+    {
+      "kind": "ellipse",
+      "name": "era5_R_38_exact_anchor",
+      "x": 726.9661016949153,
+      "y": 460.09919438057676,
+      "w": 8,
+      "h": 8,
+      "fill": "white",
+      "stroke": "#D55E00",
+      "width": 1.8
+    },
+    {
+      "kind": "ellipse",
+      "name": "era5_R_56_exact_anchor",
+      "x": 726.9661016949153,
+      "y": 471.26110793581586,
+      "w": 8,
+      "h": 8,
+      "fill": "white",
+      "stroke": "#009E73",
+      "width": 1.8
+    },
+    {
+      "kind": "image",
+      "name": "era5_R_saved_scalar_layer_43_54",
+      "path": "/Users/lele/Desktop/MergeTreeMaps/paper_revision/evidence/layers/storms_R_43_54.png",
+      "x": 1021,
+      "y": 447,
+      "w": 270,
+      "h": 72
+    },
+    {
+      "kind": "line",
+      "name": "line_157",
+      "x1": 1156.0,
+      "y1": 447,
+      "x2": 1156.0,
+      "y2": 519,
+      "color": "#263238",
+      "width": 1,
+      "dash": true
+    },
+    {
+      "kind": "rect",
+      "name": "rect_158",
+      "x": 1021,
+      "y": 447,
+      "w": 270,
+      "h": 72,
+      "fill": "none",
+      "stroke": "#7B8790",
+      "width": 0.7
+    },
+    {
+      "kind": "text",
+      "name": "text_159",
+      "text": "0.13",
+      "x": 982,
+      "y": 509.0,
+      "w": 33,
+      "h": 21,
+      "size": 15,
+      "color": "#7B8790",
+      "bold": false,
+      "align": "right"
+    },
+    {
+      "kind": "text",
+      "name": "text_160",
+      "text": "0.97",
+      "x": 982,
+      "y": 437.0,
+      "w": 33,
+      "h": 21,
+      "size": 15,
+      "color": "#7B8790",
+      "bold": false,
+      "align": "right"
+    },
+    {
+      "kind": "text",
+      "name": "text_161",
+      "text": "43",
+      "x": 1013.2727272727273,
+      "y": 522,
+      "w": 40,
+      "h": 22,
+      "size": 16,
+      "color": "#7B8790",
+      "bold": false,
+      "align": "center"
+    },
+    {
+      "kind": "text",
+      "name": "text_162",
+      "text": "53",
+      "x": 1258.7272727272727,
+      "y": 522,
+      "w": 40,
+      "h": 22,
+      "size": 16,
+      "color": "#7B8790",
+      "bold": false,
+      "align": "center"
+    },
+    {
+      "kind": "path",
+      "name": "path_163",
+      "points": [
+        [
+          1156.0,
+          512.9251957089011
+        ],
+        [
+          1180.5454545454545,
+          514.7061467091911
+        ],
+        [
+          1205.090909090909,
+          511.5330976930421
+        ],
+        [
+          1229.6363636363635,
+          511.56576047741504
+        ],
+        [
+          1254.1818181818182,
+          511.56576047741504
+        ],
+        [
+          1278.7272727272727,
+          511.62258308394985
+        ]
+      ],
+      "color": "white",
+      "width": 4,
+      "dash": false
+    },
+    {
+      "kind": "path",
+      "name": "era5_R_track_60_trace",
+      "points": [
+        [
+          1156.0,
+          512.9251957089011
+        ],
+        [
+          1180.5454545454545,
+          514.7061467091911
+        ],
+        [
+          1205.090909090909,
+          511.5330976930421
+        ],
+        [
+          1229.6363636363635,
+          511.56576047741504
+        ],
+        [
+          1254.1818181818182,
+          511.56576047741504
+        ],
+        [
+          1278.7272727272727,
+          511.62258308394985
+        ]
+      ],
+      "color": "#0072B2",
+      "width": 1.8,
+      "dash": false
+    },
+    {
+      "kind": "path",
+      "name": "era5_R_true_reference_60",
+      "points": [
+        [
+          1156.0,
+          512.2128153087851
+        ],
+        [
+          1180.5454545454545,
+          513.9937663090751
+        ],
+        [
+          1205.090909090909,
+          512.2454780931581
+        ],
+        [
+          1229.6363636363635,
+          512.278140877531
+        ],
+        [
+          1254.1818181818182,
+          512.278140877531
+        ],
+        [
+          1278.7272727272727,
+          510.46452709286814
+        ]
+      ],
+      "color": "#0072B2",
+      "width": 1,
+      "dash": true
+    },
+    {
+      "kind": "ellipse",
+      "name": "era5_R_60_exact_anchor",
+      "x": 1152.0,
+      "y": 508.92519570890113,
+      "w": 8,
+      "h": 8,
+      "fill": "white",
+      "stroke": "#0072B2",
+      "width": 1.8
+    },
+    {
+      "kind": "line",
+      "name": "line_167",
+      "x1": 1156.0,
+      "y1": 512.9251957089011,
+      "x2": 1297,
+      "y2": 462.0,
+      "color": "#0072B2",
+      "width": 0.8,
+      "dash": false
+    },
+    {
+      "kind": "text",
+      "name": "text_168",
+      "text": "A",
+      "x": 1300,
+      "y": 452.0,
+      "w": 28,
+      "h": 22,
+      "size": 17,
+      "color": "#0072B2",
+      "bold": true,
+      "align": "left"
+    },
+    {
+      "kind": "path",
+      "name": "path_169",
+      "points": [
+        [
+          1033.2727272727273,
+          502.69366826033826
+        ],
+        [
+          1057.8181818181818,
+          495.7005153966702
+        ],
+        [
+          1082.3636363636363,
+          487.31234285461346
+        ],
+        [
+          1106.909090909091,
+          486.991737101458
+        ],
+        [
+          1131.4545454545455,
+          482.7172295054269
+        ],
+        [
+          1156.0,
+          464.8385621885943
+        ],
+        [
+          1180.5454545454545,
+          459.24776513739613
+        ],
+        [
+          1205.090909090909,
+          454.9136802174222
+        ],
+        [
+          1229.6363636363635,
+          451.9964104267889
+        ],
+        [
+          1254.1818181818182,
+          452.3526006268468
+        ],
+        [
+          1278.7272727272727,
+          454.1903742336716
+        ]
+      ],
+      "color": "white",
+      "width": 4,
+      "dash": false
+    },
+    {
+      "kind": "path",
+      "name": "era5_R_track_38_trace",
+      "points": [
+        [
+          1033.2727272727273,
+          502.69366826033826
+        ],
+        [
+          1057.8181818181818,
+          495.7005153966702
+        ],
+        [
+          1082.3636363636363,
+          487.31234285461346
+        ],
+        [
+          1106.909090909091,
+          486.991737101458
+        ],
+        [
+          1131.4545454545455,
+          482.7172295054269
+        ],
+        [
+          1156.0,
+          464.8385621885943
+        ],
+        [
+          1180.5454545454545,
+          459.24776513739613
+        ],
+        [
+          1205.090909090909,
+          454.9136802174222
+        ],
+        [
+          1229.6363636363635,
+          451.9964104267889
+        ],
+        [
+          1254.1818181818182,
+          452.3526006268468
+        ],
+        [
+          1278.7272727272727,
+          454.1903742336716
+        ]
+      ],
+      "color": "#D55E00",
+      "width": 1.8,
+      "dash": false
+    },
+    {
+      "kind": "path",
+      "name": "era5_R_true_reference_38",
+      "points": [
+        [
+          1033.2727272727273,
+          503.40604866045425
+        ],
+        [
+          1057.8181818181818,
+          496.4128957967862
+        ],
+        [
+          1082.3636363636363,
+          491.20069393340805
+        ],
+        [
+          1106.909090909091,
+          487.704117501574
+        ],
+        [
+          1131.4545454545455,
+          480.7436274222788
+        ],
+        [
+          1156.0,
+          465.17234740089026
+        ],
+        [
+          1180.5454545454545,
+          459.9601455375121
+        ],
+        [
+          1205.090909090909,
+          454.747943674134
+        ],
+        [
+          1229.6363636363635,
+          451.2840300266729
+        ],
+        [
+          1254.1818181818182,
+          453.0649810269628
+        ],
+        [
+          1278.7272727272727,
+          453.0323182425899
+        ]
+      ],
+      "color": "#D55E00",
+      "width": 1,
+      "dash": true
+    },
+    {
+      "kind": "ellipse",
+      "name": "era5_R_38_exact_anchor",
+      "x": 1152.0,
+      "y": 460.8385621885943,
+      "w": 8,
+      "h": 8,
+      "fill": "white",
+      "stroke": "#D55E00",
+      "width": 1.8
+    },
+    {
+      "kind": "line",
+      "name": "line_173",
+      "x1": 1156.0,
+      "y1": 464.8385621885943,
+      "x2": 1297,
+      "y2": 479.3333333333333,
+      "color": "#D55E00",
+      "width": 0.8,
+      "dash": false
+    },
+    {
+      "kind": "text",
+      "name": "text_174",
+      "text": "B",
+      "x": 1300,
+      "y": 469.3333333333333,
+      "w": 28,
+      "h": 22,
+      "size": 17,
+      "color": "#D55E00",
+      "bold": true,
+      "align": "left"
+    },
+    {
+      "kind": "path",
+      "name": "path_175",
+      "points": [
+        [
+          1131.4545454545455,
+          480.02837178945396
+        ],
+        [
+          1156.0,
+          478.09110959616294
+        ],
+        [
+          1180.5454545454545,
+          477.26709212686274
+        ]
+      ],
+      "color": "white",
+      "width": 4,
+      "dash": false
+    },
+    {
+      "kind": "path",
+      "name": "era5_R_track_56_trace",
+      "points": [
+        [
+          1131.4545454545455,
+          480.02837178945396
+        ],
+        [
+          1156.0,
+          478.09110959616294
+        ],
+        [
+          1180.5454545454545,
+          477.26709212686274
+        ]
+      ],
+      "color": "#009E73",
+      "width": 1.8,
+      "dash": false
+    },
+    {
+      "kind": "path",
+      "name": "era5_R_true_reference_56",
+      "points": [
+        [
+          1131.4545454545455,
+          482.00197387260204
+        ],
+        [
+          1156.0,
+          478.47273465639506
+        ],
+        [
+          1180.5454545454545,
+          476.72444644047806
+        ]
+      ],
+      "color": "#009E73",
+      "width": 1,
+      "dash": true
+    },
+    {
+      "kind": "ellipse",
+      "name": "era5_R_56_exact_anchor",
+      "x": 1152.0,
+      "y": 474.09110959616294,
+      "w": 8,
+      "h": 8,
+      "fill": "white",
+      "stroke": "#009E73",
+      "width": 1.8
+    },
+    {
+      "kind": "line",
+      "name": "line_179",
+      "x1": 1156.0,
+      "y1": 478.09110959616294,
+      "x2": 1297,
+      "y2": 496.6666666666667,
+      "color": "#009E73",
+      "width": 0.8,
+      "dash": false
+    },
+    {
+      "kind": "text",
+      "name": "text_180",
+      "text": "C",
+      "x": 1300,
+      "y": 486.6666666666667,
+      "w": 28,
+      "h": 22,
+      "size": 17,
+      "color": "#009E73",
+      "bold": true,
+      "align": "left"
+    },
+    {
+      "kind": "rect",
+      "name": "rect_181",
+      "x": 714.1864406779661,
+      "y": 447,
+      "w": 33.559322033898304,
+      "h": 72,
+      "fill": "none",
+      "stroke": "#263238",
+      "width": 1.2
+    },
+    {
+      "kind": "text",
+      "name": "text_182",
+      "text": "f48: max displacement 8.87% \u2192 0.83% L",
+      "x": 535,
+      "y": 578,
+      "w": 797,
+      "h": 29,
+      "size": 21,
+      "color": "#009E73",
+      "bold": true,
+      "align": "left"
+    },
+    {
+      "kind": "text",
+      "name": "text_183",
+      "text": "R20 merge cost: 12.558 hPa; actual NMLE 13.21%",
+      "x": 535,
+      "y": 610,
+      "w": 800,
+      "h": 27,
+      "size": 19,
+      "color": "#263238",
+      "bold": false,
+      "align": "left"
+    },
+    {
+      "kind": "image",
+      "name": "image_184",
+      "path": "/Users/lele/Desktop/MergeTreeMaps/paper_revision/evidence/layers/storms_bar.png",
+      "x": 123,
+      "y": 318,
+      "w": 250,
+      "h": 10
+    },
+    {
+      "kind": "text",
+      "name": "text_185",
+      "text": "952.06",
+      "x": 123,
+      "y": 330,
+      "w": 85,
+      "h": 22,
+      "size": 15,
+      "color": "#7B8790",
+      "bold": false,
+      "align": "left"
+    },
+    {
+      "kind": "text",
+      "name": "text_186",
+      "text": "1046.84",
+      "x": 293,
+      "y": 330,
+      "w": 80,
+      "h": 22,
+      "size": 15,
+      "color": "#7B8790",
+      "bold": false,
+      "align": "right"
+    },
+    {
+      "kind": "text",
+      "name": "text_187",
+      "text": "pressure (hPa)",
+      "x": 123,
+      "y": 293,
+      "w": 250,
+      "h": 24,
+      "size": 17,
+      "color": "#7B8790",
+      "bold": false,
+      "align": "center"
+    }
+  ]
+}

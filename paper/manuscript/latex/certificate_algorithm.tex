@@ -1,0 +1,16 @@
+\begin{algorithm}[H]
+\caption{Certificate $\tau^*$ at display resolution (Theorem~\ref{thm:dp}).}\label{alg:cert}
+\begin{algorithmic}[1]
+\Require hierarchy $T$; pixel widths $W_i$, gap $G$, references $q_i$, radii $h_i$; $N$ pixels; tolerance $\varepsilon$
+\Function{Earliest}{$S,\tau$} \Comment{array over starts $x=0,\dots,N$}
+  \If{$S$ is a leaf $i$}
+    \State $lo_i\gets\max(0,\lceil q_i-\tau-h_i-W_i/2\rceil)$, $hi_i\gets\min(N-W_i,\lfloor q_i+\tau+h_i-W_i/2\rfloor)$
+    \State \Return $x\mapsto\max(x,lo_i)+W_i+G$ if $\max(x,lo_i)\le hi_i$, else $\infty$
+  \EndIf
+  \State $E_c\gets$ \Call{Earliest}{$c,\tau$} for every child $c$ of $S$
+  \State $F_\emptyset\gets\mathrm{id}$;\ \ $F_M\gets\min_{c\in M}E_c\circ F_{M\setminus\{c\}}$ for all subsets $M$ of children
+  \State \Return $F_{\rm all\ children}$ \Comment{binary: $\min(E_B\circ E_A,\,E_A\circ E_B)$}
+\EndFunction
+\State $\tau^*\gets$ smallest $\tau$ with \Call{Earliest}{root$,\tau$}$(0)<\infty$, by bisection to $\varepsilon$
+\end{algorithmic}
+\end{algorithm}

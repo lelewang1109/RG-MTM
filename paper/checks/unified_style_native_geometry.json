@@ -1,0 +1,50 @@
+[
+  {
+    "figure": "Fig1",
+    "native_shapes": 121,
+    "preserved_native_paths": 60,
+    "unchanged_media": 10
+  },
+  {
+    "figure": "Fig2",
+    "native_shapes": 762,
+    "preserved_native_paths": 28,
+    "unchanged_media": 0
+  },
+  {
+    "figure": "Fig3",
+    "native_shapes": 3681,
+    "preserved_native_paths": 791,
+    "unchanged_media": 0
+  },
+  {
+    "figure": "Fig4",
+    "native_shapes": 96,
+    "preserved_native_paths": 23,
+    "unchanged_media": 0
+  },
+  {
+    "figure": "Fig8",
+    "native_shapes": 184,
+    "preserved_native_paths": 59,
+    "unchanged_media": 12
+  },
+  {
+    "figure": "Fig9",
+    "native_shapes": 136,
+    "preserved_native_paths": 39,
+    "unchanged_media": 10
+  },
+  {
+    "figure": "Supplement_Storms_Detail",
+    "native_shapes": 179,
+    "preserved_native_paths": 59,
+    "unchanged_media": 12
+  },
+  {
+    "figure": "Supplement_PositionScalarDiagnostic",
+    "native_shapes": 80,
+    "preserved_native_paths": 18,
+    "unchanged_media": 0
+  }
+]

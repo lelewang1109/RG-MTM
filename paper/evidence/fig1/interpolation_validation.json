@@ -1,0 +1,11 @@
+{
+  "all_118_original_frame_centers_rgba_exact": true,
+  "all_4096_scalar_rows_retained": true,
+  "local_raster_is_exact_crop_of_full_display": true,
+  "source_sha256_unchanged": true,
+  "actual_tracks_and_event_coordinates_unchanged": true,
+  "main_panel_trajectory_overlays": false,
+  "aligned_intervals": 93,
+  "fallback_intervals": 24,
+  "note": "Only inter-frame display samples reconstructed. Frozen scientific arrays and metrics unchanged."
+}

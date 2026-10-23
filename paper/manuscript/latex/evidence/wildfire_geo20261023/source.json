@@ -1,0 +1,8 @@
+{
+  "source": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_admin_1_states_provinces.geojson",
+  "description": "Natural Earth 1:10m admin-1 polygons, Australia subset",
+  "license": "public domain",
+  "download_sha256": "22d0e3ad85eb3e27f17cabf8ba2d50e554fbc27a87796ff891d958185da62fb5",
+  "subset_sha256": "9baf965a96eef53004360b17e4ea2e3a85d1de83ee3c3eaedb31f0e0a8942b4e",
+  "features": 11
+}

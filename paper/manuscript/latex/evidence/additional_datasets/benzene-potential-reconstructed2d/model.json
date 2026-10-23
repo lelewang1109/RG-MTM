@@ -1,0 +1,115 @@
+{
+  "model": "OPLS-AA 12-site fixed point charges; vacuum Coulomb potential",
+  "charge_e": {
+    "C": -0.115,
+    "H": 0.115
+  },
+  "charge_source_url": "https://zarbi.chem.yale.edu/doc/boss49.pdf",
+  "charge_source_page": 67,
+  "charge_source_table": 1,
+  "charge_source_sha256": "0e3a0e0fb14d06edc334c7310ea01ce6cb80fdd6e75390f765e4ddf4563ec5cd",
+  "charge_source_file": "data/real/paper1_suite/benzene-potential-reconstructed2d/boss49.pdf",
+  "geometry_source_url": "https://github.com/inviwo/modules/blob/6152a00ab100ec10c1eb36f078fb42dc949010ab/molvis/gaussian/data/volumes/benzene-dens.cube.xz",
+  "geometry_source_sha256": "87cfb46338c75256e2642e2458d7f35d66f74229ab30553e5533889b7f2af501",
+  "geometry_source_file": "data/real/paper1_suite/benzene-potential-reconstructed2d/benzene-geometry-source.cube.xz",
+  "atom_species": [
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "atom_positions_bohr": [
+    [
+      -1.902215,
+      -1.834961,
+      5e-06
+    ],
+    [
+      0.63828,
+      -2.564598,
+      0.000142
+    ],
+    [
+      2.540327,
+      -0.729842,
+      -0.000119
+    ],
+    [
+      1.902061,
+      1.835121,
+      1.6e-05
+    ],
+    [
+      -0.638066,
+      2.564646,
+      0.000124
+    ],
+    [
+      -2.54039,
+      0.729637,
+      -0.000118
+    ],
+    [
+      -3.380362,
+      -3.261498,
+      -0.000121
+    ],
+    [
+      1.134,
+      -4.558177,
+      0.000148
+    ],
+    [
+      4.514747,
+      -1.296879,
+      -0.000277
+    ],
+    [
+      3.380558,
+      3.261277,
+      1.8e-05
+    ],
+    [
+      -1.134246,
+      4.558098,
+      3.2e-05
+    ],
+    [
+      -4.514684,
+      1.297163,
+      -0.000106
+    ]
+  ],
+  "atom_charge_e": [
+    -0.115,
+    -0.115,
+    -0.115,
+    -0.115,
+    -0.115,
+    -0.115,
+    0.115,
+    0.115,
+    0.115,
+    0.115,
+    0.115,
+    0.115
+  ],
+  "net_charge_e": -2.7755575615628914e-17,
+  "formula": "V(r) = sum_i q_i / ||r-R_i||; r in bohr, q in elementary charge, V in atomic units",
+  "dielectric_relative": 1.0,
+  "softening_bohr": 0.0,
+  "clipping": false,
+  "electron_density_used": false,
+  "geometry_optimized": false,
+  "minimum_grid_distance_to_charge_bohr": 0.05195133345738095,
+  "generator_source_file": "experiments/paper1_suite/benzene_reconstructed.py",
+  "generator_source_sha256": "3ec68149ddaf84820dacf4381355489147f028ffdf5e78818538913a3a1b3882"
+}

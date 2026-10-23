@@ -1,0 +1,580 @@
+\begin{thebibliography}{10}
+\renewcommand*{\sfdefault}{PTSansNarrow-TLF}
+
+\bibitem{Bach:2017:STC}
+B.~Bach, P.~Dragicevic, D.~Archambault, C.~Hurter, and S.~Carpendale.
+\newblock A descriptive framework for temporal data visualizations based on
+  generalized space-time cubes.
+\newblock {\em Computer Graphics Forum}, 36(6):36--61, 2017. doi: \textsf{%
+10\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}1111\discretionary{/}{%
+}{/}cgf\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}12804}
+
+
+\bibitem{BarJoseph:2001:OLO}
+Z.~Bar-Joseph, D.~K. Gifford, and T.~S. Jaakkola.
+\newblock Fast optimal leaf ordering for hierarchical clustering.
+\newblock {\em Bioinformatics}, 17(Suppl. 1):S22--S29, June 2001. doi:
+  \textsf{%
+10\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}1093\discretionary{/}{%
+}{/}bioinformatics\discretionary{/}{%
+}{/}17\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}suppl\_1\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}s22}
+
+
+\bibitem{Beketayev:2012:GPTL}
+K.~Beketayev, G.~H. Weber, D.~Morozov, A.~Abzhanov, and B.~Hamann.
+\newblock Geometry-preserving topological landscapes.
+\newblock In {\em Proc.\ SIGGRAPH Asia Workshop on Apps (WASA)}, pp. 155--160.
+  ACM, New York, NY, USA, Nov. 2012. doi: \textsf{%
+10\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}1145\discretionary{/}{%
+}{/}2425296\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}2425324}
+
+
+\bibitem{Bremer:2010:Burning}
+P.-T. Bremer, G.~Weber, V.~Pascucci, M.~Day, and J.~Bell.
+\newblock Analyzing and tracking burning structures in lean premixed hydrogen
+  flames.
+\newblock {\em IEEE Transactions on Visualization and Computer Graphics},
+  16(2):248--260, 2010. doi: \textsf{%
+10\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}1109\discretionary{/}{%
+}{/}tvcg\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}2009\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}69}
+
+
+\bibitem{Buchmueller:2019:MR}
+J.~Buchm{\"u}ller, D.~J{\"a}ckle, E.~Cakmak, U.~Brandes, and D.~A. Keim.
+\newblock {MotionRugs}: Visualizing collective trends in space and time.
+\newblock {\em IEEE Transactions on Visualization and Computer Graphics},
+  25(1):76--86, Jan. 2019. doi: \textsf{%
+10\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}1109\discretionary{/}{%
+}{/}tvcg\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}2018\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}2865049}
+
+
+\bibitem{Camarri:2005:Cylinder}
+S.~Camarri, M.-V. Salvetti, M.~Buffoni, and A.~Iollo.
+\newblock Simulation of the three-dimensional flow around a square cylinder
+  between parallel walls at moderate {Reynolds} numbers.
+\newblock In {\em XVII Congresso di Meccanica Teorica ed Applicata}, 2005.
+
+\bibitem{Dafner:2000:CSFC}
+R.~Dafner, D.~Cohen-Or, and Y.~Matias.
+\newblock Context-based space filling curves.
+\newblock {\em Computer Graphics Forum}, 19(3):209--218, 2000. doi: \textsf{%
+10\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}1111\discretionary{/}{%
+}{/}1467\discretionary{%
+}{-}{-}8659\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}00413}
+
+
+\bibitem{STMTM:2026}
+M.~Diaz, J.~Heredia, N.~Ferreira, and J.~Poco.
+\newblock Spatiotemporal merge tree maps: A topology and geometry aware
+  visualization for temporal scalar data, 2026.
+\newblock Preprint, SSRN 6604235. doi: \textsf{%
+10\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}2139\discretionary{/}{%
+}{/}ssrn\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}6604235}
+
+
+\bibitem{Dong:2026:PM25}
+Y.~Dong, L.~Wang, G.~Shan, and J.~Liu.
+\newblock {An Integrated Dataset of PM2.5, Elevation, and Meteorological
+  Variables over China at a 10-km Resolution (2000--2023)}, 2026.
+\newblock Version V2; year-2000 regional subset used for the annual experiment.
+  doi: \textsf{%
+10\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}57760\discretionary{/}{%
+}{/}sciencedb\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}35623}
+
+
+\bibitem{Dwyer:2006:IPSEP}
+T.~Dwyer, Y.~Koren, and K.~Marriott.
+\newblock {IPSep-CoLa}: An incremental procedure for separation constraint
+  layout of graphs.
+\newblock {\em IEEE Transactions on Visualization and Computer Graphics},
+  12(5):821--828, Sept. 2006. doi: \textsf{%
+10\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}1109\discretionary{/}{%
+}{/}tvcg\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}2006\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}156}
+
+
+\bibitem{Edelsbrunner:2002:TPS}
+H.~Edelsbrunner, D.~Letscher, and A.~Zomorodian.
+\newblock Topological persistence and simplification.
+\newblock {\em Discrete \& Computational Geometry}, 28(4):511--533, Nov. 2002.
+  doi: \textsf{%
+10\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}1007\discretionary{/}{%
+}{/}s00454\discretionary{%
+}{-}{-}002\discretionary{%
+}{-}{-}2885\discretionary{%
+}{-}{-}2}
+
+
+\bibitem{Franke:2021:1DP}
+M.~Franke, H.~Martin, S.~Koch, and K.~Kurzhals.
+\newblock Visual analysis of spatio-temporal phenomena with {1D} projections.
+\newblock {\em Computer Graphics Forum}, 40(3):335--347, June 2021. doi:
+  \textsf{%
+10\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}1111\discretionary{/}{%
+}{/}cgf\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}14311}
+
+
+\bibitem{Guo:2006:SpatialOrder}
+D.~Guo and M.~Gahegan.
+\newblock Spatial ordering and encoding for geographic data mining and
+  visualization.
+\newblock {\em Journal of Intelligent Information Systems}, 27(3):243--266,
+  2006. doi: \textsf{%
+10\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}1007\discretionary{/}{%
+}{/}s10844\discretionary{%
+}{-}{-}006\discretionary{%
+}{-}{-}9952\discretionary{%
+}{-}{-}8}
+
+
+\bibitem{Hersbach:2020:ERA5}
+H.~Hersbach, B.~Bell, P.~Berrisford, S.~Hirahara, A.~Hor{\'a}nyi,
+  J.~Mu{\~n}oz-Sabater, J.~Nicolas, C.~Peubey, R.~Radu, D.~Schepers,
+  A.~Simmons, C.~Soci, S.~Abdalla, X.~Abellan, G.~Balsamo, P.~Bechtold,
+  G.~Biavati, J.~Bidlot, M.~Bonavita, G.~De~Chiara, P.~Dahlgren, D.~Dee,
+  M.~Diamantakis, R.~Dragani, J.~Flemming, R.~Forbes, M.~Fuentes, A.~Geer,
+  L.~Haimberger, S.~Healy, R.~J. Hogan, E.~H{\'o}lm, M.~Janiskov{\'a},
+  S.~Keeley, P.~Laloyaux, P.~Lopez, C.~Lupu, G.~Radnoti, P.~de~Rosnay,
+  I.~Rozum, F.~Vamborg, S.~Villaume, and J.-N. Th{\'e}paut.
+\newblock The {ERA5} global reanalysis.
+\newblock {\em Quarterly Journal of the Royal Meteorological Society},
+  146(730):1999--2049, July 2020. doi: \textsf{%
+10\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}1002\discretionary{/}{%
+}{/}qj\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}3803}
+
+
+\bibitem{Hovmoller:1949}
+E.~Hovm{\"o}ller.
+\newblock The trough-and-ridge diagram.
+\newblock {\em Tellus}, 1(2):62--66, May 1949. doi: \textsf{%
+10\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}1111\discretionary{/}{%
+}{/}j\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}2153\discretionary{%
+}{-}{-}3490\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}1949\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}tb01260\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}x}
+
+
+\bibitem{Inviwo:BenzeneGeometry}
+{Inviwo contributors}.
+\newblock Benzene molecular cube: Atomic coordinate header.
+\newblock Inviwo modules, revision 6152a00ab100ec10c1eb36f078fb42dc949010ab.
+\newblock Only atomic coordinates are used in the declared potential
+  reconstruction; density samples are not used.
+
+\bibitem{Jorgensen:2013:BOSS}
+W.~L. Jorgensen.
+\newblock {\em {BOSS}, Version 4.9: User's Manual}.
+\newblock Department of Chemistry, Yale University, 2013.
+\newblock Table 1, p. 67.
+
+\bibitem{Koepp:2019:TT}
+W.~K{\"o}pp and T.~Weinkauf.
+\newblock Temporal treemaps: Static visualization of evolving trees.
+\newblock {\em IEEE Transactions on Visualization and Computer Graphics},
+  25(1):534--543, Jan. 2019. doi: \textsf{%
+10\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}1109\discretionary{/}{%
+}{/}tvcg\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}2018\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}2865265}
+
+
+\bibitem{Koepp:2023:TMTM}
+W.~K{\"o}pp and T.~Weinkauf.
+\newblock Temporal merge tree maps: A topology-based static visualization for
+  temporal scalar data.
+\newblock {\em IEEE Transactions on Visualization and Computer Graphics},
+  29(1):1157--1167, Jan. 2023. doi: \textsf{%
+10\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}1109\discretionary{/}{%
+}{/}tvcg\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}2022\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}3209387}
+
+
+\bibitem{NOAA:OLR}
+H.-T. Lee.
+\newblock {NOAA Climate Data Record of Daily Outgoing Longwave Radiation,
+  Version 1.2}, 2011.
+\newblock Tropical Indo-Pacific subset, 1 June--30 July 2024; accessed 12
+  October 2026. doi: \textsf{%
+10\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}7289\discretionary{/}{%
+}{/}V5SJ1HH2}
+
+
+\bibitem{Li:2019:SOI}
+S.~Li and H.~Wang.
+\newblock Separating overlapped intervals on a line.
+\newblock {\em Journal of Computational Geometry}, 10(1):281--321, Sept. 2019.
+  doi: \textsf{%
+10\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}20382\discretionary{/}{%
+}{/}jocg\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}v10i1a11}
+
+
+\bibitem{Lohfink:2020:FCT}
+A.-P. Lohfink, F.~Wetzels, J.~Lukasczyk, G.~H. Weber, and C.~Garth.
+\newblock Fuzzy contour trees: Alignment and joint layout of multiple contour
+  trees.
+\newblock {\em Computer Graphics Forum}, 39(3):343--355, 2020. doi: \textsf{%
+10\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}1111\discretionary{/}{%
+}{/}cgf\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}13985}
+
+
+\bibitem{Lukasczyk:2020:DNTG}
+J.~Lukasczyk, C.~Garth, G.~H. Weber, T.~Biedert, R.~Maciejewski, and H.~Leitte.
+\newblock Dynamic nested tracking graphs.
+\newblock {\em IEEE Transactions on Visualization and Computer Graphics},
+  26(1):249--258, 2020. doi: \textsf{%
+10\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}1109\discretionary{/}{%
+}{/}TVCG\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}2019\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}2934368}
+
+
+\bibitem{Lukasczyk:2017:NTG}
+J.~Lukasczyk, G.~Weber, R.~Maciejewski, C.~Garth, and H.~Leitte.
+\newblock Nested tracking graphs.
+\newblock {\em Computer Graphics Forum}, 36(3):12--22, June 2017. doi:
+  \textsf{%
+10\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}1111\discretionary{/}{%
+}{/}cgf\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}13164}
+
+
+\bibitem{Munch:2019:LINF}
+E.~Munch and A.~Stefanou.
+\newblock The $\ell^\infty$-cophenetic metric for phylogenetic trees as an
+  interleaving distance.
+\newblock In {\em Research in Data Science}, pp. 109--127. Springer, Cham,
+  Switzerland, 2019. doi: \textsf{%
+10\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}1007\discretionary{/}{%
+}{/}978\discretionary{%
+}{-}{-}3\discretionary{%
+}{-}{-}030\discretionary{%
+}{-}{-}11566\discretionary{%
+}{-}{-}1\_5}
+
+
+\bibitem{NaturalEarth:WildfireAdmin1}
+{Natural Earth}.
+\newblock Admin 1 -- states and provinces, 1:10m.
+\newblock Natural Earth cultural vectors.
+\newblock Australia subset used for geographic context only; source hash
+  archived with the wildfire display, accessed 2026-10-23.
+
+\bibitem{NaturalEarth:Admin1}
+{Natural Earth}.
+\newblock Admin 1 -- states and provinces, 1:50m.
+\newblock Natural Earth cultural vectors.
+\newblock Geographic context only; local subset and source hash archived with
+  the PM2.5 case, accessed 2026-10-23.
+
+\bibitem{Nonato:2019:MP}
+L.~G. Nonato and M.~Aupetit.
+\newblock Multidimensional projection for visual analytics: Linking techniques
+  with distortions, tasks, and layout enrichment.
+\newblock {\em IEEE Transactions on Visualization and Computer Graphics},
+  25(8):2650--2673, Aug. 2019. doi: \textsf{%
+10\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}1109\discretionary{/}{%
+}{/}tvcg\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}2018\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}2846735}
+
+
+\bibitem{Oesterling:2017:TVMT}
+P.~Oesterling, C.~Heine, G.~H. Weber, D.~Morozov, and G.~Scheuermann.
+\newblock Computing and visualizing time-varying merge trees for
+  high-dimensional data.
+\newblock In H.~Carr, C.~Garth, and T.~Weinkauf, eds., {\em Topological Methods
+  in Data Analysis and Visualization IV}, pp. 87--101. Springer, 2017. doi:
+  \textsf{%
+10\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}1007\discretionary{/}{%
+}{/}978\discretionary{%
+}{-}{-}3\discretionary{%
+}{-}{-}319\discretionary{%
+}{-}{-}44684\discretionary{%
+}{-}{-}4\_5}
+
+
+\bibitem{Pont:2022:WMT}
+M.~Pont, J.~Vidal, J.~Delon, and J.~Tierny.
+\newblock Wasserstein distances, geodesics and barycenters of merge trees.
+\newblock {\em IEEE Transactions on Visualization and Computer Graphics},
+  28(1):291--301, Jan. 2022. doi: \textsf{%
+10\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}1109\discretionary{/}{%
+}{/}tvcg\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}2021\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}3114839}
+
+
+\bibitem{Popinet:2004:Tangaroa}
+S.~Popinet, M.~Smith, and C.~Stevens.
+\newblock Experimental and numerical study of the turbulence characteristics of
+  airflow around a research vessel.
+\newblock {\em Journal of Atmospheric and Oceanic Technology},
+  21(10):1575--1589, 2004. doi: \textsf{%
+10\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}1175\discretionary{/}{%
+}{/}1520\discretionary{%
+}{-}{-}0426\discretionary{%
+}{(}{(}2004\discretionary{)}{%
+}{)}021{\textless}1575\discretionary{:}{%
+}{:}EANSOT{\textgreater}2\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}0\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}CO\discretionary{;}{%
+}{;}2}
+
+
+\bibitem{Robertson:2008:Animation}
+G.~Robertson, R.~Fernandez, D.~Fisher, B.~Lee, and J.~Stasko.
+\newblock Effectiveness of animation in trend visualization.
+\newblock {\em IEEE Transactions on Visualization and Computer Graphics},
+  14(6):1325--1332, 2008. doi: \textsf{%
+10\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}1109\discretionary{/}{%
+}{/}tvcg\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}2008\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}125}
+
+
+\bibitem{Saikia:2017:GFT}
+H.~Saikia and T.~Weinkauf.
+\newblock Global feature tracking and similarity estimation in time-dependent
+  scalar fields.
+\newblock {\em Computer Graphics Forum}, 36(3):1--11, 2017. doi: \textsf{%
+10\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}1111\discretionary{/}{%
+}{/}cgf\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}13163}
+
+
+\bibitem{Samtaney:1994:Tracking}
+R.~Samtaney, D.~Silver, N.~Zabusky, and J.~Cao.
+\newblock Visualizing features and tracking their evolution.
+\newblock {\em Computer}, 27(7):20--27, 1994. doi: \textsf{%
+10\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}1109\discretionary{/}{%
+}{/}2\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}299407}
+
+
+\bibitem{Silver:1997:Tracking}
+D.~Silver and X.~Wang.
+\newblock Tracking and visualizing turbulent {3D} features.
+\newblock {\em IEEE Transactions on Visualization and Computer Graphics},
+  3(2):129--141, 1997. doi: \textsf{%
+10\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}1109\discretionary{/}{%
+}{/}2945\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}597796}
+
+
+\bibitem{Smelser:2025:Scale}
+K.~Smelser, K.~Gunaratne, J.~Miller, and S.~Kobourov.
+\newblock How scale breaks ``normalized stress'' and {KL} divergence:
+  Rethinking quality metrics.
+\newblock arXiv:2510.08660, 2025. doi: \textsf{%
+10\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}48550\discretionary{/}{%
+}{/}arXiv\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}2510\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}08660}
+
+
+\bibitem{Tierny:2018:TTK}
+J.~Tierny, G.~Favelier, J.~A. Levine, C.~Gueunet, and M.~Michaux.
+\newblock The {Topology ToolKit}.
+\newblock {\em IEEE Transactions on Visualization and Computer Graphics},
+  24(1):832--842, 2018. doi: \textsf{%
+10\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}1109\discretionary{/}{%
+}{/}TVCG\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}2017\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}2743938}
+
+
+\bibitem{Tierny:2012:GTS}
+J.~Tierny and V.~Pascucci.
+\newblock Generalized topological simplification of scalar fields on surfaces.
+\newblock {\em IEEE Transactions on Visualization and Computer Graphics},
+  18(12):2005--2013, Dec. 2012. doi: \textsf{%
+10\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}1109\discretionary{/}{%
+}{/}tvcg\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}2012\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}228}
+
+
+\bibitem{Tversky:2002:Animation}
+B.~Tversky, J.~B. Morrison, and M.~B{\'e}trancourt.
+\newblock Animation: Can it facilitate?
+\newblock {\em International Journal of Human-Computer Studies},
+  57(4):247--262, 2002. doi: \textsf{%
+10\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}1006\discretionary{/}{%
+}{/}ijhc\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}2002\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}1017}
+
+
+\bibitem{Venna:2001:NP}
+J.~Venna and S.~Kaski.
+\newblock Neighborhood preservation in nonlinear projection methods: An
+  experimental study.
+\newblock In {\em Proc.\ ICANN}, vol. 2130 of {\em LNCS}, pp. 485--491.
+  Springer, Berlin, Germany, 2001. doi: \textsf{%
+10\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}1007\discretionary{/}{%
+}{/}3\discretionary{%
+}{-}{-}540\discretionary{%
+}{-}{-}44668\discretionary{%
+}{-}{-}0\_68}
+
+
+\bibitem{Funck:2008:Smoke}
+W.~von Funck, T.~Weinkauf, H.~Theisel, and H.-P. Seidel.
+\newblock Smoke surfaces: An interactive flow visualization technique inspired
+  by real-world flow experiments.
+\newblock {\em IEEE Transactions on Visualization and Computer Graphics},
+  14(6):1396--1403, 2008. doi: \textsf{%
+10\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}1109\discretionary{/}{%
+}{/}TVCG\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}2008\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}163}
+
+
+\bibitem{Weber:2007:TL}
+G.~H. Weber, P.-T. Bremer, and V.~Pascucci.
+\newblock Topological landscapes: A terrain metaphor for scientific data.
+\newblock {\em IEEE Transactions on Visualization and Computer Graphics},
+  13(6):1416--1423, Nov. 2007. doi: \textsf{%
+10\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}1109\discretionary{/}{%
+}{/}tvcg\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}2007\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}70601}
+
+
+\bibitem{Weinkauf:SquareCylinder}
+T.~Weinkauf.
+\newblock {3D} flow around a confined square cylinder.
+\newblock Public uniformly resampled simulation dataset.
+\newblock Accessed 22 October 2026.
+
+\bibitem{Weissenboeck:2019:DVL}
+J.~Wei{\ss}enb{\"o}ck, B.~Fr{\"o}hler, E.~Gr{\"o}ller, J.~Kastner, and
+  C.~Heinzl.
+\newblock Dynamic volume lines: Visual comparison of {3D} volumes through
+  space-filling curves.
+\newblock {\em IEEE Transactions on Visualization and Computer Graphics},
+  25(1):1040--1049, 2019. doi: \textsf{%
+10\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}1109\discretionary{/}{%
+}{/}tvcg\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}2018\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}2864510}
+
+
+\bibitem{Wetzels:2022:BDI}
+F.~Wetzels, H.~Leitte, and C.~Garth.
+\newblock Branch decomposition-independent edit distances for merge trees.
+\newblock {\em Computer Graphics Forum}, 41(3):367--378, 2022. doi: \textsf{%
+10\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}1111\discretionary{/}{%
+}{/}cgf\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}14547}
+
+
+\bibitem{Widanagamaachchi:2012:DTG}
+W.~Widanagamaachchi, C.~Christensen, P.-T. Bremer, and V.~Pascucci.
+\newblock Interactive exploration of large-scale time-varying data using
+  dynamic tracking graphs.
+\newblock In {\em IEEE Symposium on Large Data Analysis and Visualization
+  (LDAV)}, pp. 9--17. IEEE, 2012. doi: \textsf{%
+10\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}1109\discretionary{/}{%
+}{/}ldav\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}2012\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}6378962}
+
+
+\bibitem{Yan:2022:GAMT}
+L.~Yan, T.~B. Masood, F.~Rasheed, I.~Hotz, and B.~Wang.
+\newblock Geometry-aware merge tree comparisons for time-varying data with
+  interleaving distances.
+\newblock {\em IEEE Transactions on Visualization and Computer Graphics},
+  29(8):3489--3506, Aug. 2023. doi: \textsf{%
+10\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}1109\discretionary{/}{%
+}{/}tvcg\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}2022\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}3163349}
+
+
+\bibitem{Yan:2021:Survey}
+L.~Yan, T.~B. Masood, R.~Sridharamurthy, F.~Rasheed, V.~Natarajan, I.~Hotz, and
+  B.~Wang.
+\newblock Scalar field comparison with topological descriptors: Properties and
+  applications for scientific visualization.
+\newblock {\em Computer Graphics Forum}, 40(3):599--633, 2021. doi: \textsf{%
+10\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}1111\discretionary{/}{%
+}{/}cgf\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}14331}
+
+
+\bibitem{Zhou:2021:DSF}
+L.~Zhou, C.~R. Johnson, and D.~Weiskopf.
+\newblock Data-driven space-filling curves.
+\newblock {\em IEEE Transactions on Visualization and Computer Graphics},
+  27(2):1591--1600, Feb. 2021. doi: \textsf{%
+10\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}1109\discretionary{/}{%
+}{/}tvcg\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}2020\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}3030473}
+
+
+\end{thebibliography}

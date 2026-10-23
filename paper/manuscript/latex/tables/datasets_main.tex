@@ -1,0 +1,17 @@
+\begin{table*}[t]
+\caption{All nine inputs evaluated with the shared error definitions. Source dimension describes the input, not the two-dimensional map output.}\label{tab:datasets_main}
+\centering\footnotesize\setlength{\tabcolsep}{4pt}
+\begin{tabular}{lllrlll}\toprule
+Data & Input & Scalar field & Processed grid & Samples & Leaves & Tree\\\midrule
+Storms & 2-D & Mean sea-level pressure & $49\times49$ & 118 frames & 1--8 & Join\\
+Wildfires & 2-D & $\log(1+\mathrm{FRP})$ & $64\times64$ & 30 frames & 6--11 & Split\\
+OLR & 2-D & Outgoing longwave radiation & $49\times49$ & 60 frames & 2--8 & Join\\
+PM$_{2.5}$ & 2-D & PM$_{2.5}$ concentration & $49\times49$ & 366 frames & 1--7 & Split\\
+Ring & 2-D & Synthetic ring intensity & $14\times14$ & 40 frames & 1--7 & Split\\
+Tangaroa & 3-D & Velocity magnitude & $300\times180\times120$ & 201 frames & 18--93 & Join\\
+Cylinder & 3-D & Q criterion & $135\times64\times48$ & 102 frames & 4--75 & Split\\
+Nucleon & 2-D & Nucleon scalar & $64\times64$ & 1 slice & 13 & Split\\
+Benzene & 2-D & Reconstructed electrostatic potential & $61\times61$ & 21 sections & 5--10 & Join\\
+\bottomrule\end{tabular}
+\par\smallskip{\footnotesize\raggedright Storms, Wildfires, OLR and PM$_{2.5}$ are observed fields; Ring is synthetic. Tangaroa and Cylinder are volumetric simulations. Cylinder Q is computed on the original $192\times64\times48$ velocity grid before the $135\times64\times48$ crop. Nucleon is one author-provided static planar slice; Benzene is a reconstructed point-charge potential evaluated on 21 static sections. Seven temporal sequences contain 917 frames; static sections and the independent mirror control are separate populations.\par}
+\end{table*}

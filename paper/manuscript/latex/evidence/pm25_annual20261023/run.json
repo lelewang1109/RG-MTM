@@ -1,0 +1,1302 @@
+{
+  "dataset": "pm25_2000",
+  "status": "complete_verified",
+  "frames": 366,
+  "region": {
+    "lon": [
+      102,
+      114
+    ],
+    "lat": [
+      28,
+      38
+    ]
+  },
+  "fixed_sigma_km": 100,
+  "grid": [
+    49,
+    49
+  ],
+  "stages": [
+    {
+      "stage": "replicate",
+      "seconds": 17.52497574998415,
+      "status": "complete"
+    },
+    {
+      "stage": "evaluation",
+      "seconds": 62.16731166699901,
+      "status": "complete"
+    },
+    {
+      "stage": "filling",
+      "seconds": 7.352626958017936,
+      "status": "complete"
+    },
+    {
+      "stage": "pointcert",
+      "seconds": 3.6142339170037303,
+      "status": "complete"
+    },
+    {
+      "stage": "attainable",
+      "seconds": 8.1052612499916,
+      "status": "complete"
+    },
+    {
+      "stage": "native_merge_errors",
+      "seconds": 9.229200077243149e-05,
+      "status": "deferred_to_export"
+    }
+  ],
+  "source_restoration": [
+    {
+      "file": "20000131.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000131.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000131.nc"
+    },
+    {
+      "file": "20000201.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000201.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000201.nc"
+    },
+    {
+      "file": "20000202.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000202.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000202.nc"
+    },
+    {
+      "file": "20000203.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000203.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000203.nc"
+    },
+    {
+      "file": "20000204.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000204.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000204.nc"
+    },
+    {
+      "file": "20000205.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000205.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000205.nc"
+    },
+    {
+      "file": "20000206.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000206.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000206.nc"
+    },
+    {
+      "file": "20000207.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000207.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000207.nc"
+    },
+    {
+      "file": "20000208.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000208.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000208.nc"
+    },
+    {
+      "file": "20000209.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000209.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000209.nc"
+    },
+    {
+      "file": "20000210.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000210.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000210.nc"
+    },
+    {
+      "file": "20000211.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000211.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000211.nc"
+    },
+    {
+      "file": "20000212.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000212.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000212.nc"
+    },
+    {
+      "file": "20000213.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000213.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000213.nc"
+    },
+    {
+      "file": "20000214.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000214.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000214.nc"
+    },
+    {
+      "file": "20000215.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000215.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000215.nc"
+    },
+    {
+      "file": "20000216.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000216.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000216.nc"
+    },
+    {
+      "file": "20000217.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000217.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000217.nc"
+    },
+    {
+      "file": "20000218.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000218.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000218.nc"
+    },
+    {
+      "file": "20000219.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000219.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000219.nc"
+    },
+    {
+      "file": "20000220.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000220.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000220.nc"
+    },
+    {
+      "file": "20000221.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000221.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000221.nc"
+    },
+    {
+      "file": "20000222.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000222.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000222.nc"
+    },
+    {
+      "file": "20000223.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000223.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000223.nc"
+    },
+    {
+      "file": "20000224.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000224.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000224.nc"
+    },
+    {
+      "file": "20000225.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000225.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000225.nc"
+    },
+    {
+      "file": "20000226.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000226.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000226.nc"
+    },
+    {
+      "file": "20000227.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000227.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000227.nc"
+    },
+    {
+      "file": "20000228.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000228.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000228.nc"
+    },
+    {
+      "file": "20000229.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000229.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000229.nc"
+    },
+    {
+      "file": "20000301.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000301.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000301.nc"
+    },
+    {
+      "file": "20000302.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000302.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000302.nc"
+    },
+    {
+      "file": "20000303.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000303.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000303.nc"
+    },
+    {
+      "file": "20000304.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000304.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000304.nc"
+    },
+    {
+      "file": "20000305.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000305.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000305.nc"
+    },
+    {
+      "file": "20000306.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000306.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000306.nc"
+    },
+    {
+      "file": "20000307.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000307.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000307.nc"
+    },
+    {
+      "file": "20000308.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000308.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000308.nc"
+    },
+    {
+      "file": "20000309.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000309.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000309.nc"
+    },
+    {
+      "file": "20000310.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000310.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000310.nc"
+    },
+    {
+      "file": "20000311.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000311.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000311.nc"
+    },
+    {
+      "file": "20000312.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000312.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000312.nc"
+    },
+    {
+      "file": "20000313.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000313.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000313.nc"
+    },
+    {
+      "file": "20000314.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000314.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000314.nc"
+    },
+    {
+      "file": "20000315.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000315.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000315.nc"
+    },
+    {
+      "file": "20000316.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000316.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000316.nc"
+    },
+    {
+      "file": "20000317.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000317.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000317.nc"
+    },
+    {
+      "file": "20000318.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000318.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000318.nc"
+    },
+    {
+      "file": "20000319.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000319.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000319.nc"
+    },
+    {
+      "file": "20000320.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000320.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000320.nc"
+    },
+    {
+      "file": "20000321.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000321.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000321.nc"
+    },
+    {
+      "file": "20000322.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000322.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000322.nc"
+    },
+    {
+      "file": "20000323.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000323.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000323.nc"
+    },
+    {
+      "file": "20000324.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000324.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000324.nc"
+    },
+    {
+      "file": "20000325.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000325.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000325.nc"
+    },
+    {
+      "file": "20000326.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000326.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000326.nc"
+    },
+    {
+      "file": "20000327.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000327.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000327.nc"
+    },
+    {
+      "file": "20000328.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000328.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000328.nc"
+    },
+    {
+      "file": "20000329.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000329.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000329.nc"
+    },
+    {
+      "file": "20000330.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000330.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000330.nc"
+    },
+    {
+      "file": "20000331.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000331.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000331.nc"
+    },
+    {
+      "file": "20000501.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000501.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000501.nc"
+    },
+    {
+      "file": "20000502.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000502.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000502.nc"
+    },
+    {
+      "file": "20000503.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000503.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000503.nc"
+    },
+    {
+      "file": "20000504.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000504.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000504.nc"
+    },
+    {
+      "file": "20000505.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000505.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000505.nc"
+    },
+    {
+      "file": "20000506.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000506.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000506.nc"
+    },
+    {
+      "file": "20000507.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000507.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000507.nc"
+    },
+    {
+      "file": "20000508.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000508.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000508.nc"
+    },
+    {
+      "file": "20000509.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000509.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000509.nc"
+    },
+    {
+      "file": "20000510.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000510.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000510.nc"
+    },
+    {
+      "file": "20000511.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000511.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000511.nc"
+    },
+    {
+      "file": "20000512.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000512.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000512.nc"
+    },
+    {
+      "file": "20000513.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000513.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000513.nc"
+    },
+    {
+      "file": "20000514.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000514.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000514.nc"
+    },
+    {
+      "file": "20000515.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000515.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000515.nc"
+    },
+    {
+      "file": "20000516.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000516.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000516.nc"
+    },
+    {
+      "file": "20000517.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000517.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000517.nc"
+    },
+    {
+      "file": "20000518.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000518.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000518.nc"
+    },
+    {
+      "file": "20000519.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000519.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000519.nc"
+    },
+    {
+      "file": "20000520.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000520.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000520.nc"
+    },
+    {
+      "file": "20000521.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000521.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000521.nc"
+    },
+    {
+      "file": "20000522.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000522.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000522.nc"
+    },
+    {
+      "file": "20000523.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000523.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000523.nc"
+    },
+    {
+      "file": "20000524.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000524.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000524.nc"
+    },
+    {
+      "file": "20000525.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000525.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000525.nc"
+    },
+    {
+      "file": "20000526.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000526.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000526.nc"
+    },
+    {
+      "file": "20000527.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000527.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000527.nc"
+    },
+    {
+      "file": "20000528.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000528.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000528.nc"
+    },
+    {
+      "file": "20000529.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000529.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000529.nc"
+    },
+    {
+      "file": "20000530.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000530.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000530.nc"
+    },
+    {
+      "file": "20000531.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000531.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000531.nc"
+    },
+    {
+      "file": "20000601.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000601.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000601.nc"
+    },
+    {
+      "file": "20000602.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000602.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000602.nc"
+    },
+    {
+      "file": "20000603.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000603.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000603.nc"
+    },
+    {
+      "file": "20000604.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000604.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000604.nc"
+    },
+    {
+      "file": "20000605.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000605.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000605.nc"
+    },
+    {
+      "file": "20000606.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000606.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000606.nc"
+    },
+    {
+      "file": "20000607.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000607.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000607.nc"
+    },
+    {
+      "file": "20000608.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000608.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000608.nc"
+    },
+    {
+      "file": "20000609.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000609.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000609.nc"
+    },
+    {
+      "file": "20000610.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000610.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000610.nc"
+    },
+    {
+      "file": "20000611.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000611.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000611.nc"
+    },
+    {
+      "file": "20000612.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000612.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000612.nc"
+    },
+    {
+      "file": "20000613.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000613.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000613.nc"
+    },
+    {
+      "file": "20000614.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000614.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000614.nc"
+    },
+    {
+      "file": "20000615.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000615.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000615.nc"
+    },
+    {
+      "file": "20000616.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000616.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000616.nc"
+    },
+    {
+      "file": "20000617.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000617.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000617.nc"
+    },
+    {
+      "file": "20000618.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000618.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000618.nc"
+    },
+    {
+      "file": "20000619.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000619.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000619.nc"
+    },
+    {
+      "file": "20000620.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000620.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000620.nc"
+    },
+    {
+      "file": "20000621.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000621.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000621.nc"
+    },
+    {
+      "file": "20000622.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000622.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000622.nc"
+    },
+    {
+      "file": "20000623.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000623.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000623.nc"
+    },
+    {
+      "file": "20000624.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000624.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000624.nc"
+    },
+    {
+      "file": "20000625.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000625.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000625.nc"
+    },
+    {
+      "file": "20000626.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000626.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000626.nc"
+    },
+    {
+      "file": "20000627.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000627.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000627.nc"
+    },
+    {
+      "file": "20000628.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000628.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000628.nc"
+    },
+    {
+      "file": "20000629.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000629.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000629.nc"
+    },
+    {
+      "file": "20000630.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000630.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000630.nc"
+    },
+    {
+      "file": "20000731.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000731.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000731.nc"
+    },
+    {
+      "file": "20000801.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000801.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000801.nc"
+    },
+    {
+      "file": "20000802.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000802.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000802.nc"
+    },
+    {
+      "file": "20000803.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000803.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000803.nc"
+    },
+    {
+      "file": "20000804.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000804.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000804.nc"
+    },
+    {
+      "file": "20000805.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000805.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000805.nc"
+    },
+    {
+      "file": "20000806.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000806.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000806.nc"
+    },
+    {
+      "file": "20000807.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000807.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000807.nc"
+    },
+    {
+      "file": "20000808.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000808.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000808.nc"
+    },
+    {
+      "file": "20000809.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000809.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000809.nc"
+    },
+    {
+      "file": "20000810.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000810.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000810.nc"
+    },
+    {
+      "file": "20000811.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000811.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000811.nc"
+    },
+    {
+      "file": "20000812.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000812.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000812.nc"
+    },
+    {
+      "file": "20000813.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000813.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000813.nc"
+    },
+    {
+      "file": "20000814.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000814.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000814.nc"
+    },
+    {
+      "file": "20000815.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000815.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000815.nc"
+    },
+    {
+      "file": "20000816.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000816.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000816.nc"
+    },
+    {
+      "file": "20000817.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000817.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000817.nc"
+    },
+    {
+      "file": "20000818.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000818.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000818.nc"
+    },
+    {
+      "file": "20000819.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000819.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000819.nc"
+    },
+    {
+      "file": "20000820.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000820.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000820.nc"
+    },
+    {
+      "file": "20000821.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000821.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000821.nc"
+    },
+    {
+      "file": "20000822.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000822.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000822.nc"
+    },
+    {
+      "file": "20000823.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000823.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000823.nc"
+    },
+    {
+      "file": "20000824.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000824.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000824.nc"
+    },
+    {
+      "file": "20000825.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000825.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000825.nc"
+    },
+    {
+      "file": "20000826.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000826.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000826.nc"
+    },
+    {
+      "file": "20000827.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000827.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000827.nc"
+    },
+    {
+      "file": "20000828.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000828.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000828.nc"
+    },
+    {
+      "file": "20000829.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000829.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000829.nc"
+    },
+    {
+      "file": "20000830.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000830.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000830.nc"
+    },
+    {
+      "file": "20000831.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000831.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000831.nc"
+    },
+    {
+      "file": "20000901.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000901.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000901.nc"
+    },
+    {
+      "file": "20000902.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000902.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000902.nc"
+    },
+    {
+      "file": "20000903.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000903.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000903.nc"
+    },
+    {
+      "file": "20000904.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000904.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000904.nc"
+    },
+    {
+      "file": "20000905.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000905.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000905.nc"
+    },
+    {
+      "file": "20000906.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000906.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000906.nc"
+    },
+    {
+      "file": "20000907.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000907.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000907.nc"
+    },
+    {
+      "file": "20000908.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000908.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000908.nc"
+    },
+    {
+      "file": "20000909.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000909.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000909.nc"
+    },
+    {
+      "file": "20000910.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000910.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000910.nc"
+    },
+    {
+      "file": "20000911.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000911.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000911.nc"
+    },
+    {
+      "file": "20000912.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000912.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000912.nc"
+    },
+    {
+      "file": "20000913.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000913.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000913.nc"
+    },
+    {
+      "file": "20000914.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000914.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000914.nc"
+    },
+    {
+      "file": "20000915.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000915.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000915.nc"
+    },
+    {
+      "file": "20000916.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000916.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000916.nc"
+    },
+    {
+      "file": "20000917.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000917.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000917.nc"
+    },
+    {
+      "file": "20000918.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000918.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000918.nc"
+    },
+    {
+      "file": "20000919.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000919.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000919.nc"
+    },
+    {
+      "file": "20000920.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000920.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000920.nc"
+    },
+    {
+      "file": "20000921.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000921.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000921.nc"
+    },
+    {
+      "file": "20000922.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000922.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000922.nc"
+    },
+    {
+      "file": "20000923.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000923.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000923.nc"
+    },
+    {
+      "file": "20000924.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000924.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000924.nc"
+    },
+    {
+      "file": "20000925.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000925.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000925.nc"
+    },
+    {
+      "file": "20000926.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000926.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000926.nc"
+    },
+    {
+      "file": "20000927.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000927.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000927.nc"
+    },
+    {
+      "file": "20000928.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000928.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000928.nc"
+    },
+    {
+      "file": "20000929.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000929.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000929.nc"
+    },
+    {
+      "file": "20000930.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20000930.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20000930.nc"
+    },
+    {
+      "file": "20001031.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20001031.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20001031.nc"
+    },
+    {
+      "file": "20001101.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20001101.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20001101.nc"
+    },
+    {
+      "file": "20001102.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20001102.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20001102.nc"
+    },
+    {
+      "file": "20001103.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20001103.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20001103.nc"
+    },
+    {
+      "file": "20001104.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20001104.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20001104.nc"
+    },
+    {
+      "file": "20001105.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20001105.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20001105.nc"
+    },
+    {
+      "file": "20001106.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20001106.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20001106.nc"
+    },
+    {
+      "file": "20001107.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20001107.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20001107.nc"
+    },
+    {
+      "file": "20001108.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20001108.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20001108.nc"
+    },
+    {
+      "file": "20001109.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20001109.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20001109.nc"
+    },
+    {
+      "file": "20001110.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20001110.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20001110.nc"
+    },
+    {
+      "file": "20001111.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20001111.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20001111.nc"
+    },
+    {
+      "file": "20001112.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20001112.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20001112.nc"
+    },
+    {
+      "file": "20001113.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20001113.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20001113.nc"
+    },
+    {
+      "file": "20001114.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20001114.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20001114.nc"
+    },
+    {
+      "file": "20001115.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20001115.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20001115.nc"
+    },
+    {
+      "file": "20001116.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20001116.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20001116.nc"
+    },
+    {
+      "file": "20001117.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20001117.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20001117.nc"
+    },
+    {
+      "file": "20001118.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20001118.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20001118.nc"
+    },
+    {
+      "file": "20001119.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20001119.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20001119.nc"
+    },
+    {
+      "file": "20001120.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20001120.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20001120.nc"
+    },
+    {
+      "file": "20001121.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20001121.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20001121.nc"
+    },
+    {
+      "file": "20001122.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20001122.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20001122.nc"
+    },
+    {
+      "file": "20001123.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20001123.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20001123.nc"
+    },
+    {
+      "file": "20001124.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20001124.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20001124.nc"
+    },
+    {
+      "file": "20001125.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20001125.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20001125.nc"
+    },
+    {
+      "file": "20001126.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20001126.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20001126.nc"
+    },
+    {
+      "file": "20001127.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20001127.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20001127.nc"
+    },
+    {
+      "file": "20001128.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20001128.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20001128.nc"
+    },
+    {
+      "file": "20001129.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20001129.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20001129.nc"
+    },
+    {
+      "file": "20001130.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20001130.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20001130.nc"
+    },
+    {
+      "file": "20001201.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20001201.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20001201.nc"
+    },
+    {
+      "file": "20001202.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20001202.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20001202.nc"
+    },
+    {
+      "file": "20001203.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20001203.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20001203.nc"
+    },
+    {
+      "file": "20001204.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20001204.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20001204.nc"
+    },
+    {
+      "file": "20001205.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20001205.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20001205.nc"
+    },
+    {
+      "file": "20001206.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20001206.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20001206.nc"
+    },
+    {
+      "file": "20001207.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20001207.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20001207.nc"
+    },
+    {
+      "file": "20001208.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20001208.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20001208.nc"
+    },
+    {
+      "file": "20001209.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20001209.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20001209.nc"
+    },
+    {
+      "file": "20001210.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20001210.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20001210.nc"
+    },
+    {
+      "file": "20001211.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20001211.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20001211.nc"
+    },
+    {
+      "file": "20001212.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20001212.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20001212.nc"
+    },
+    {
+      "file": "20001213.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20001213.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20001213.nc"
+    },
+    {
+      "file": "20001214.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20001214.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20001214.nc"
+    },
+    {
+      "file": "20001215.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20001215.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20001215.nc"
+    },
+    {
+      "file": "20001216.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20001216.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20001216.nc"
+    },
+    {
+      "file": "20001217.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20001217.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20001217.nc"
+    },
+    {
+      "file": "20001218.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20001218.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20001218.nc"
+    },
+    {
+      "file": "20001219.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20001219.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20001219.nc"
+    },
+    {
+      "file": "20001220.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20001220.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20001220.nc"
+    },
+    {
+      "file": "20001221.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20001221.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20001221.nc"
+    },
+    {
+      "file": "20001222.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20001222.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20001222.nc"
+    },
+    {
+      "file": "20001223.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20001223.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20001223.nc"
+    },
+    {
+      "file": "20001224.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20001224.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20001224.nc"
+    },
+    {
+      "file": "20001225.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20001225.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20001225.nc"
+    },
+    {
+      "file": "20001226.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20001226.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20001226.nc"
+    },
+    {
+      "file": "20001227.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20001227.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20001227.nc"
+    },
+    {
+      "file": "20001228.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20001228.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20001228.nc"
+    },
+    {
+      "file": "20001229.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20001229.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20001229.nc"
+    },
+    {
+      "file": "20001230.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20001230.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20001230.nc"
+    },
+    {
+      "file": "20001231.nc",
+      "from_path": "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5176\u4ed6\u7814\u7a76\u6570\u636e/CN-Reanalysis-unused/20001231.nc",
+      "to_path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/CN-Reanalysis/2000/20001231.nc"
+    }
+  ],
+  "leaves": [
+    1,
+    7
+  ],
+  "source_sha256": {
+    "tools/run_pm25_annual.py": "daf431ced1dffc1e0e7f1518f65093e126b4e8c80a70f71e28c5ed9b17f4d4bf",
+    "analysis/pm25_annual.py": "c97d70cc3a5a526944f85b57ad4269af65f5bb704f3b4b8ae3ad2296cd41b6f7",
+    "analysis/task_reference.py": "27131d3951a6b77a114afe3b92fb620b36ba330e1fde18d34c817554ad51c933",
+    "analysis/general_method.py": "b518774e7ce6a51de15f4390c5e09923a098fce1cbb5564cf4f1acb8d33381c9",
+    "analysis/relax_hierarchy.py": "f855bf7eb13726c19e492f56317758c4d6da48ee1cc3a35c3a271a258f99e335",
+    "analysis/replicate.py": "f94cca6c4ac8033200fadaf3a782e7317a6ace6ebe01fd8c3717ca05f05e95aa",
+    "analysis/evaluation.py": "c8399968bd9d6c743fe0b23373324c07fe2b1037ec395d3f788440dbd05c1fa3",
+    "analysis/attainable.py": "9ddc9513bc2b9857a3880a023180d8e5eec2dfec17d0cd12683c8ac806b3d1c2",
+    "analysis/filling.py": "17518b2e861e25791024ec7b4a80f20e16a5c702edfcbb1e96b6b38d0f0d50e0",
+    "analysis/pointcert.py": "dc4894ce3b1dcae0c602ff98b08260c452a94b2fd882a66d589892bc611e8888",
+    "analysis/native_merge_errors.py": "d2ff643779acc1496620bdf4994ee39dff300ce656865b806d4c15d4f0cc5f1d"
+  },
+  "validation": "validation.json"
+}

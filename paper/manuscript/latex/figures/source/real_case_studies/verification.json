@@ -1,0 +1,27 @@
+{
+  "status": "passed",
+  "cases": {
+    "era5": {
+      "frames": 118,
+      "coordinate_projection": "passed",
+      "shared_full_reference_axis": "passed",
+      "event_identity_claim": "temporal context only",
+      "baseline_panels": false
+    },
+    "wildfire": {
+      "frames": 30,
+      "coordinate_projection": "passed",
+      "shared_full_reference_axis": "passed",
+      "event_identity_claim": "temporal context only",
+      "baseline_panels": false
+    },
+    "tangaroa": {
+      "frames": 201,
+      "coordinate_projection": "passed",
+      "shared_full_reference_axis": "passed",
+      "event_identity_claim": "temporal context only",
+      "baseline_panels": false
+    }
+  },
+  "scope": "Figure inputs/output hashes, all-frame feature-coordinate projections, fixed axes and reference-event time conversions; no physical identity ground truth asserted."
+}

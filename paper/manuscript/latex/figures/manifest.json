@@ -1,0 +1,133 @@
+{
+  "scope": "Existing saved data and plotting geometry; editorial labels and vector export only; no new numerical experiments",
+  "figures": [
+    {
+      "stem": "rgmtm_teaser_focus",
+      "files": {
+        "pdf": "fcfb64b40836ee09b829112102d0304e34fa8388af72a73cb9c74f4eab87d22c",
+        "png": "5fe5ab9307662d72c9bf96d94d8e2be583029cc9b885999348efabba10f3bdf6",
+        "svg": "e4154a9cc565be8019d70c41301d7dabecf3910c9d57b1dc3d8493d682fe7879"
+      }
+    },
+    {
+      "stem": "rgmtm_diagnosis_tradeoff",
+      "files": {
+        "pdf": "97f8827a2a4f07cef7b57a490af4882b0ca883b7786dcd15525472411c149670",
+        "png": "7316d508b37d17544f608f4f59a7184ea5f272285caf033250ce217fff8646cc",
+        "svg": "ea855dbf47b979a4ff734e34e86f3adc0932f21eaa627c0838066870854219df"
+      }
+    },
+    {
+      "stem": "rgmtm_motion_scalar_cost",
+      "files": {
+        "pdf": "d0698d8635b00cd57481e1ebeead80b9407239707c2cbe3d4105d43f2508c31f",
+        "png": "5f438a17050ee0a4e02c67488bbdbb6021a64fdedcd73fc3722951dd742ec8b9",
+        "svg": "19aef48ad57f6a97904939bb23a1f53544c1414fb5ce24c9e5d303bf4b85bf5b"
+      }
+    },
+    {
+      "stem": "rgmtm_linked_cases",
+      "files": {
+        "pdf": "836317e917bb0be6c9afff3da7df921d078fca28328780ee24bc8c5393cf7fbc",
+        "png": "54e0943aa75767be5527638236f9694e8aa51f46ba9b1e4f324e2c83b54fd891",
+        "svg": "6e334fbf6e34f5f650c53a9cda4eaa93a3a4a16fb10fb67c7aca9cfd3b6ad140"
+      }
+    },
+    {
+      "stem": "rgmtm_full_domain_filling",
+      "files": {
+        "pdf": "bef8126c01da8a9a1c06716a904b525bc20d72e7bff7642dfe7d08384bc94403",
+        "png": "72f674cbc53b87faa832ab9e12e3c7b9a5a64d6c7748f480fea300daa63c55c2",
+        "svg": "a45f60c0b75aa712cf22f81ceba398372519706d77b7e8402808762929d8efc7"
+      }
+    },
+    {
+      "stem": "rgmtm_motion_error_comparison",
+      "files": {
+        "pdf": "ed0f0d1bdfc4327ba5fab1f84d64ac8b3ea332439d94ea179e7cc196275bf0cc",
+        "png": "678970d1676f4568bac10458a34542e4005b08f817e01ed5e77168c8303b6d3d",
+        "svg": "9a0068e658288966890e7ef3d8a0928103cae7f62953759e230b6904f648159f"
+      }
+    },
+    {
+      "stem": "rgmtm_topology_motion_tradeoff",
+      "files": {
+        "pdf": "1a111fe19e0810599bc20a0224c061d0e150561524d5133f56e28e63cd6813ea",
+        "png": "4bf86be30eebd24343f08d2161a5f263253a6423464f44e34513c0fd119b56a3",
+        "svg": "7505897ba56647dda2afd5edd0160fbd8aa0b6567308e12aa29cf45e399ea86e"
+      }
+    },
+    {
+      "stem": "rgmtm_neighbourhood_preservation",
+      "files": {
+        "pdf": "003f19df225c2c0b2c12f7e9b85f351b81996f90e875e65304e9ed6cc9b458c7",
+        "png": "d89f8eb605286acecca0800dae8a6d8eeee413339d8f33d3f9c11a4d6ac4a75e",
+        "svg": "2ead5976435cf3651bc94e85792d69bde03ed3c87075ecfefcd7be3cec6a1714"
+      }
+    },
+    {
+      "stem": "rgmtm_motion_window_sensitivity",
+      "files": {
+        "pdf": "87b095d8895b0db1867d97296de444af9652f94bce0192d5c18d3fcf9f8e33f4",
+        "png": "687b71a4886a763e536076ea3d62b5e0b544a3833293ce9f314e921f329b38ab",
+        "svg": "d23ce163002d7db323297971544fadbe2737718f11e82d4f7623a57f631283be"
+      }
+    },
+    {
+      "stem": "rgmtm_bisector_absolute_position",
+      "files": {
+        "pdf": "4b97b89f9ee542ba8e6d049af40d42b62333ced2d65b9de42545edc5071d2629",
+        "png": "d842ba218854b8d25967b43c8288f78881a850c289806adcd5e2d20410150f8f",
+        "svg": "f6363b4a7d4ee083ef2268045ed56dccc82f353a75bf6cc011ae2ace5791382f"
+      }
+    }
+  ],
+  "source_sha256": {
+    "02-RG-MTM/results/publication2027/figure_data/era5_render.npz": "bd2f2500c72b0aa60297ea79cfac0bd2cfe3b785dd16942e5257b5cf2769948d",
+    "02-RG-MTM/results/publication2027/figure_data/olr_render.npz": "d02bbead0d5c42d1f8684af5de46f50e0e46f44d33e1853e2db74bff4f9dc36a",
+    "02-RG-MTM/tools/build_rgmtm_figures.py": "a1293dd56e10f51a93259a3e19f910100633529160f71bac06c7c256ed82544e",
+    "02-RG-MTM/experiments/publication2027/layout_figures.py": "838464f2c278ecd26eeb0f12d524d2fedc68329665798572c1f3fc8d7455cafe",
+    "02-RG-MTM/experiments/publication2027/domain_filling_figures.py": "b833cf3bdfe0967b8cfcaf015e35ea3a929ab4f8e9aae86661e7d91de23c64fb",
+    "02-RG-MTM/experiments/publication2027/rgmtm_bisector_figure.py": "6108742e26447c956c05aea8d49fb6c443e581dc3f0bc98f695570e32c34b01a",
+    "02-RG-MTM/results/eval_projection.json": "f70a343b68ac04531d12480f8e043587b8dd7715ab752b5fd7c4c081d8836cda",
+    "02-RG-MTM/results/attainable_era5.json": "241a8cc451024eb988030815d85e5978f61d145bce6fa268ddf80ca68bf54342",
+    "02-RG-MTM/results/attainable_wildfire.json": "6a2fb2a4da5f67bcd962d0692780a1ca16e3646272e5142a515ce6fc828ece68",
+    "02-RG-MTM/results/publication2027/figure_data/domain_filling_example.json": "592211d7ede3001356f53b9dd55e45f9fb144cca387a0016ca197c88e0cef82d",
+    "02-RG-MTM/results/publication2027/bisector_control/bisector_highres_x_three_methods.npz": "676c5d3b4c323d7cfbcd1b735e8bf63c0cba7955fa5dbcd25e1d4ed3c48afb6f"
+  },
+  "case_selection": {
+    "era5": {
+      "frame": 48,
+      "window": [
+        38,
+        57
+      ],
+      "rule": "retained interior witness at step 48"
+    },
+    "olr": {
+      "frame": 32,
+      "window": [
+        26,
+        39
+      ],
+      "rule": "first maximum hierarchy-cost frame; not selected by proxy outcome"
+    }
+  },
+  "user_supplied_figures": [
+    {
+      "stem": "rgmtm_pipeline_v22",
+      "source": "figures/source/RG-MTM_pipeline_v22_editable.pptx",
+      "source_sha256": "2f4c3fad2ee7c918ba75d23f31e0de529e3a764a0bc2a543b22a9610a9e34417",
+      "export": "figures/rgmtm_pipeline_v22.pdf",
+      "export_sha256": "e3d9392ed526930aae75c6c109def59f103407f604b9c491cf84fa9f88d0fcb7",
+      "conversion": "LibreOffice PDF 1.5 export from original unchanged PPTX"
+    },
+    {
+      "stem": "rgmtm_reference_direction",
+      "source": "User attachment Unknown-20.png",
+      "export": "figures/rgmtm_reference_direction.png",
+      "sha256": "3ec523b8bf8d372b3d3b0a9b7ddee724fd16991a7bc6ccf95cac7c9f270dee60",
+      "conversion": "Unchanged PNG copy"
+    }
+  ]
+}

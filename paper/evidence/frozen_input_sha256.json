@@ -1,0 +1,21 @@
+{
+  "results/real_case_studies/evidence/era5.json": "2b5cdefe6a07c0c9fa953138d39a60869cad1dc81ccdcc85efe1dfc9f2e2c96a",
+  "results/real_case_studies/evidence/era5.npz": "45a7d45344ca69380db840f02b3ed9296593688deb14fa3d4ed39a55e91139a4",
+  "results/real_case_studies/evidence/era5_event.json": "c88f90e9c050e52c5f2e4f0b436ef969c495c2c5b49a3d683e0fb8f1706a0320",
+  "results/real_case_studies/evidence/era5_selection.json": "9beba07243db9833a84119643c5fdae7b35aee6a4910961d8ca19c459bba93c0",
+  "results/real_case_studies/evidence/tangaroa.json": "535b88f328522c84562fb0f6c65cd021b8ceaa047f4d998ffa3f85bf3d3113e1",
+  "results/real_case_studies/evidence/tangaroa.npz": "c893b7003e9c86a93b76208e90d232b3a6fe4c4ce8ad190496293d5d49286dae",
+  "results/real_case_studies/evidence/tangaroa_event.json": "4a06cc5595abc1a8292007a66da32f358bc38cb449c7a28c062545ca6ecb7777",
+  "results/real_case_studies/evidence/tangaroa_event_volumes.json": "51c12693f4534c5614152a358f483d763b1c58b420ff61a9b96bed1026165a14",
+  "results/real_case_studies/evidence/tangaroa_event_volumes.npz": "36f0d393bd95dc626e300bbf7ad89ef8583e843eac8980bf174ec5d3cf985847",
+  "results/real_case_studies/evidence/tangaroa_selection.json": "57cac701a8d6dd2bf55d533f09d991f2cb5635727e8b61a842f9320a5d0289de",
+  "results/real_case_studies/evidence/tangaroa_volumes.json": "f9c7c951408ecf200ddad1cd5b24f3081d26c3036c3d69b36635ec99391085d0",
+  "results/real_case_studies/evidence/tangaroa_volumes.npz": "e312a93bfa4392085e32e3141f474c1a616e8b379633c01b552c643c4bf1bb85",
+  "results/real_case_studies/evidence/wildfire.json": "3d5f4cc0341749201e376f17191e6ab933a5906185626aaf6774d7adab099c80",
+  "results/real_case_studies/evidence/wildfire.npz": "1bb6b2e907b8be9e4dd424ade3b3e68adbb70c806c675b08bc0ee99f65f93feb",
+  "results/real_case_studies/evidence/wildfire_event.json": "bc9a741be36faa9f21efd18c6bad53f36891d659b9e8b1d4de5f2626cd34f5b5",
+  "results/real_case_studies/evidence/wildfire_selection.json": "44e0a5d3cc10293a22ce92c1f215f215af444585c3f404b28cb2e1c6412d5442",
+  "results/attainable_era5.json": "241a8cc451024eb988030815d85e5978f61d145bce6fa268ddf80ca68bf54342",
+  "results/attainable_wildfire.json": "6a2fb2a4da5f67bcd962d0692780a1ca16e3646272e5142a515ce6fc828ece68",
+  "results/attainable_ring.json": "87d9a77042f96407b191fc4e1b3c8c9bdf085e49d68819304d9843e1c463b515"
+}

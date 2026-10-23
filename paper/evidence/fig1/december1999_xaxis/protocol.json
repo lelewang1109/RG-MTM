@@ -1,0 +1,34 @@
+{
+  "source": "/Users/lele/Desktop/MergeTreeMaps/02-RG-MTM/data/real/ERA5_MSLP/ERA5_MSLP_19991117_20000114.nc",
+  "source_sha256": "205584959947bdda8252187d7dc5f2dee8f85b4ffa0a62ee3dde65fa3e498677",
+  "period": [
+    "1999-12-01 00:00:00",
+    "1999-12-31 23:00:00"
+  ],
+  "frames": 744,
+  "step_hours": 1,
+  "direction": [
+    1.0,
+    0.0
+  ],
+  "field": "mean sea level pressure anomaly",
+  "units": "hPa",
+  "baseline": "centered 192-hour moving average, indices t-96 through t+95; actual surrounding hourly source observations",
+  "projection": "Lambert cylindrical equal area, standard parallel52.5",
+  "extent_lon": [
+    -30,
+    40
+  ],
+  "extent_lat": [
+    30,
+    75
+  ],
+  "grid": [
+    49,
+    49
+  ],
+  "smoothing_sigma_km": 250,
+  "boundary": "reflect for smoothing; non-interior minima removed by existing priority-flood minima imposition",
+  "same_as_reference": "time range and hourly sampling only; 49x49 analysis grid and 250km smoothing follow RG-MTM, not an exact replication of the papers preprocessing",
+  "seconds": 16.469132875005016
+}

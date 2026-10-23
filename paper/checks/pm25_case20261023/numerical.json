@@ -1,0 +1,42 @@
+{
+  "status": "passed",
+  "frames": 366,
+  "case_frame": 195,
+  "case_date": "2000-07-14",
+  "eligible_frames": [
+    185,
+    186,
+    195,
+    196,
+    317
+  ],
+  "source_hashes_verified": true,
+  "independent_annual_direction": [
+    -0.5625940065174558,
+    0.8267333208663099
+  ],
+  "unchanged_scientific_arrays": true,
+  "reference_verified_all_frames": true,
+  "displayed_anchor_error": {
+    "P": 0.14880906339640654,
+    "R20": 0.008373065523806122
+  },
+  "measured_NMLE_case": 0.011192097482450621,
+  "measured_NMLE_window_max": 0.03332004115957044,
+  "C_anchor_changes": [
+    {
+      "method": "reference",
+      "change_L": 0.016242574123531917
+    },
+    {
+      "method": "P",
+      "change_L": -0.3184371184371184
+    },
+    {
+      "method": "R20",
+      "change_L": 0.03272283272283272
+    }
+  ],
+  "former_figures_preserved_except_authorized_later_display_revisions": true,
+  "former_Fig13_preserved_as_Fig14": true
+}

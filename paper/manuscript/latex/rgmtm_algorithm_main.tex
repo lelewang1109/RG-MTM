@@ -1,0 +1,52 @@
+\begin{algorithm}[t]
+\caption{Reference-guided temporal merge tree maps.}\label{alg:rgmtm}
+\small
+\algrenewcommand{\algorithmicrequire}{\textbf{Data:}}
+\algrenewcommand{\algorithmicensure}{\textbf{Result:}}
+\algrenewcommand{\algorithmicfunction}{\textbf{Function}}
+\begin{algorithmic}
+\Require Augmented trees $T_t$, extrema, supports, matches, domain $\Omega$; mode P/R and parameters $\theta,\kappa,\beta,\mathcal G$
+\Ensure Temporal map $\mathcal V$; position bounds, anchor residuals, and measured merge errors
+\Function{BuildMap}{$\{T_t\},\mathrm{matches},\mathrm{mode}$}
+ \State $(d,q,[a,a+L])\gets\Call{SharedReference}{\mathrm{extrema},\mathrm{matches},\Omega}$
+ \For{each time step $t$}
+  \State Set support widths and check packing on $[a,a+L]$
+  \State $(\mathcal D_t,\underline H_t)\gets\Call{Diagnose}{T_t,q_t,\mathcal G_t}$
+  \State $T'_t\gets\Call{ChooseTree}{T_t,\underline H_t,\mathrm{mode}}$
+  \State $\overline\tau'_t\gets$ feasible certificate upper bound for $T'_t$
+  \State $B_t\gets\overline\tau'_t+\beta$
+  \State $\mathcal C_t\gets$ budget-feasible legal orders of $T'_t$: enumerate for small trees; at most four candidates for large trees
+  \State $(\pi,z,u)\gets$ best feasible layout from candidate QPs, using the preceding frame's matched layout
+  \State $(v_t,\alpha)\gets\Call{RasterizeAndFill}{T_t,\pi,z,u}$
+  \If{$T'_t\ne T_t$}
+   \State $(b,\delta^*)\gets\Call{OptimalBarriers}{\pi,T_t}$
+   \State Correct $v_t$ to barriers $b$ with strict-extremum clearance; retain anchor values at $\alpha$
+  \EndIf
+  \State Record $\mathcal D_t$, anchor residuals, and merge error measured from $v_t$ against $T_t$
+ \EndFor
+ \State \Return columns $[v_1\ \cdots\ v_K]$ with shared scalar colors
+\EndFunction
+\Statex
+\Function{ChooseTree}{$T,\underline H,\mathrm{mode}$}
+ \If{mode P or $\underline H\le\theta$} \State \Return $T$ \EndIf
+ \State $W\gets$ non-root branching nodes with $\gamma_v\le\kappa$
+ \State $T'\gets\mathrm{flat}(T,W)$
+ \If{planar protocol}
+  \State $b_0\gets$ grid-certificate score of $T'$
+  \State Restore constraints in $T'$ by decreasing $\gamma_v$ while its score stays within half a pixel of $b_0$
+ \EndIf
+ \State \Return $T'$
+\EndFunction
+\Statex
+\Function{OptimalBarriers}{$\pi,T$}
+ \If{fewer than two leaves} \State \Return no barriers, $0$ \EndIf
+ \State Renumber leaves by $\pi$; obtain original LCA levels $M_{ij}$
+ \State $C_k\gets\min_{i\le k<j}M_{ij}$ for each inter-anchor gap $k$
+ \State $\delta\gets\max(0,\max_k[\max(f_k,f_{k+1})-C_k])$
+ \For{each leaf pair $i<j$}
+  \State $\delta\gets\max\bigl(\delta,[M_{ij}-\max_{i\le k<j}C_k]/2\bigr)$
+ \EndFor
+ \State \Return $C+\delta$, $\delta$
+\EndFunction
+\end{algorithmic}
+\end{algorithm}

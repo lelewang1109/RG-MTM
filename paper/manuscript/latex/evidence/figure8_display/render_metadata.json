@@ -1,0 +1,408 @@
+{
+  "source_sha256": "1bb6b2e907b8be9e4dd424ade3b3e68adbb70c806c675b08bc0ee99f65f93feb",
+  "palette": [
+    "#FFFFFF",
+    "#FFF7BC",
+    "#FEE391",
+    "#FEC44F",
+    "#FE9929",
+    "#EC7014",
+    "#CC4C02",
+    "#993404",
+    "#662506"
+  ],
+  "under": "#D9E2E9",
+  "processed_range": [
+    0,
+    4.207268782981147
+  ],
+  "raw_range": [
+    0,
+    12.050886763399191
+  ],
+  "maps": [
+    {
+      "shape_id": 6,
+      "method": "TMTM",
+      "local": false,
+      "path": "TMTM_0_30.png",
+      "range": [
+        0,
+        1
+      ]
+    },
+    {
+      "shape_id": 16,
+      "method": "TMTM",
+      "local": true,
+      "path": "TMTM_13_24.png",
+      "range": [
+        0.23516483516483516,
+        0.7326007326007326
+      ],
+      "ends": [
+        {
+          "label": "A",
+          "frame": 23,
+          "point": [
+            1264.0,
+            72.0549828178694
+          ]
+        },
+        {
+          "label": "B",
+          "frame": 23,
+          "point": [
+            1264.0,
+            93.2233676975945
+          ]
+        },
+        {
+          "label": "C",
+          "frame": 19,
+          "point": [
+            1120.0,
+            110.9553264604811
+          ]
+        }
+      ]
+    },
+    {
+      "shape_id": 41,
+      "method": "ST-MTM",
+      "local": false,
+      "path": "ST-MTM_0_30.png",
+      "range": [
+        0,
+        1
+      ]
+    },
+    {
+      "shape_id": 51,
+      "method": "ST-MTM",
+      "local": true,
+      "path": "ST-MTM_13_24.png",
+      "range": [
+        0.15925744992672203,
+        0.8597948216902784
+      ],
+      "ends": [
+        {
+          "label": "A",
+          "frame": 23,
+          "point": [
+            1264.0,
+            195.18410041841005
+          ]
+        },
+        {
+          "label": "B",
+          "frame": 23,
+          "point": [
+            1264.0,
+            161.64853556485355
+          ]
+        },
+        {
+          "label": "C",
+          "frame": 19,
+          "point": [
+            1120.0,
+            150.61645746164575
+          ]
+        }
+      ]
+    },
+    {
+      "shape_id": 76,
+      "method": "P",
+      "local": false,
+      "path": "P_0_30.png",
+      "range": [
+        0,
+        1
+      ]
+    },
+    {
+      "shape_id": 86,
+      "method": "P",
+      "local": true,
+      "path": "P_13_24.png",
+      "range": [
+        0.10161211529066927,
+        0.7498778700537372
+      ],
+      "ends": [
+        {
+          "label": "A",
+          "frame": 23,
+          "point": [
+            1264.0,
+            296.6211356493189
+          ]
+        },
+        {
+          "label": "B",
+          "frame": 23,
+          "point": [
+            1264.0,
+            254.4517687810713
+          ]
+        },
+        {
+          "label": "C",
+          "frame": 19,
+          "point": [
+            1120.0,
+            279.83662732852565
+          ]
+        }
+      ]
+    },
+    {
+      "shape_id": 114,
+      "method": "R",
+      "local": false,
+      "path": "R_0_30.png",
+      "range": [
+        0,
+        1
+      ]
+    },
+    {
+      "shape_id": 124,
+      "method": "R",
+      "local": true,
+      "path": "R_13_24.png",
+      "range": [
+        0.09574987787005373,
+        0.7616023448949683
+      ],
+      "ends": [
+        {
+          "label": "A",
+          "frame": 23,
+          "point": [
+            1264.0,
+            389.38702319979654
+          ]
+        },
+        {
+          "label": "B",
+          "frame": 23,
+          "point": [
+            1264.0,
+            335.15409161880433
+          ]
+        },
+        {
+          "label": "C",
+          "frame": 19,
+          "point": [
+            1120.0,
+            364.08566112215465
+          ]
+        }
+      ]
+    }
+  ],
+  "snapshots": [
+    {
+      "frame": 17,
+      "date": "2019-12-05",
+      "rect": [
+        128,
+        490,
+        192,
+        192
+      ],
+      "path": "raw_17.png",
+      "markers": [
+        {
+          "label": "A",
+          "track": 3,
+          "xy": [
+            105.9375,
+            90.9375
+          ],
+          "point": [
+            297.5,
+            536.5
+          ]
+        },
+        {
+          "label": "B",
+          "track": 48,
+          "xy": [
+            66.5625,
+            12.1875
+          ],
+          "point": [
+            234.5,
+            662.5
+          ]
+        },
+        {
+          "label": "C",
+          "track": 52,
+          "xy": [
+            40.3125,
+            96.5625
+          ],
+          "point": [
+            192.5,
+            527.5
+          ]
+        }
+      ],
+      "direction": [
+        [
+          182.4,
+          627.6
+        ],
+        [
+          156.44986095516,
+          655.9045982757832
+        ]
+      ]
+    },
+    {
+      "frame": 18,
+      "date": "2019-12-07",
+      "rect": [
+        576,
+        490,
+        192,
+        192
+      ],
+      "path": "raw_18.png",
+      "markers": [
+        {
+          "label": "A",
+          "track": 3,
+          "xy": [
+            105.9375,
+            92.8125
+          ],
+          "point": [
+            745.5,
+            533.5
+          ]
+        },
+        {
+          "label": "B",
+          "track": 48,
+          "xy": [
+            66.5625,
+            12.1875
+          ],
+          "point": [
+            682.5,
+            662.5
+          ]
+        },
+        {
+          "label": "C",
+          "track": 52,
+          "xy": [
+            40.3125,
+            96.5625
+          ],
+          "point": [
+            640.5,
+            527.5
+          ]
+        }
+      ],
+      "direction": [
+        [
+          630.4,
+          627.6
+        ],
+        [
+          604.44986095516,
+          655.9045982757832
+        ]
+      ]
+    },
+    {
+      "frame": 19,
+      "date": "2019-12-09",
+      "rect": [
+        1024,
+        490,
+        192,
+        192
+      ],
+      "path": "raw_19.png",
+      "markers": [
+        {
+          "label": "A",
+          "track": 3,
+          "xy": [
+            102.1875,
+            77.8125
+          ],
+          "point": [
+            1187.5,
+            557.5
+          ]
+        },
+        {
+          "label": "B",
+          "track": 48,
+          "xy": [
+            66.5625,
+            12.1875
+          ],
+          "point": [
+            1130.5,
+            662.5
+          ]
+        },
+        {
+          "label": "C",
+          "track": 52,
+          "xy": [
+            40.3125,
+            96.5625
+          ],
+          "point": [
+            1088.5,
+            527.5
+          ]
+        }
+      ],
+      "direction": [
+        [
+          1078.4,
+          627.6
+        ],
+        [
+          1052.44986095516,
+          655.9045982757832
+        ]
+      ]
+    }
+  ],
+  "palette_name": "YlOrBr family, white low endpoint",
+  "palette_source": {
+    "paper": "Franke et al., Visual Analysis of Spatio-temporal Phenomena with 1D Projections, CGF 2021",
+    "url": "https://github.com/UniStuttgart-VISUS/spatiotemporal1d/blob/656e601a0a7328b29362c389756ca067d7adaf52/src/wildfire-vis.ts",
+    "implementation": "D3 interpolateYlOrBr with white below first threshold",
+    "original_raw_MW_thresholds": [
+      3,
+      9,
+      27,
+      81,
+      243,
+      729,
+      2187,
+      6561,
+      19683,
+      59049,
+      177147
+    ],
+    "adaptation": "Adopt hue family and white low background; retain this paper's existing continuous linear normalization of log1p values and separate raw/processed limits. Original MW thresholds are not applied to processed data."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "protected_numeric_evidence_and_table_files": 55,
+  "all_protected_files_unchanged": true,
+  "main_pages": 12,
+  "supplement_pages": 37,
+  "positions": {
+    "Figure 8:": 9,
+    "Figure 9:": 10,
+    "Table 3:": 10
+  },
+  "experiments_rerun": false
+}

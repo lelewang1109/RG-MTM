@@ -1,0 +1,193 @@
+{
+  "scientific_stages_run": false,
+  "layout_or_metrics_changed": false,
+  "volume_rerendered": false,
+  "rows": [
+    {
+      "dataset": "era5",
+      "frames": 118,
+      "events": [
+        {
+          "id": "E1",
+          "paper_time": "1999-12-03 18:00:00",
+          "name": "Anatol",
+          "snapshot": 34,
+          "source": "TMTM Fig.1; ST-MTM Fig.6",
+          "candidate": 37,
+          "frame_time": 33.5,
+          "frame_interval": [
+            33,
+            34
+          ],
+          "correspondence": "reference-paper time window only; candidate scalar minimum is not an independently validated cyclone identity",
+          "candidate_lonlat": [
+            16.020408163265312,
+            57.28741165335772
+          ],
+          "candidate_reference_y_R": 0.6264558032172036,
+          "candidate_reference_y_P": 0.6264558032172036
+        },
+        {
+          "id": "E2",
+          "paper_time": "1999-12-17 21:00:00",
+          "name": "Scandinavia storm",
+          "snapshot": 62,
+          "source": "TMTM Fig.1; ST-MTM Fig.6",
+          "candidate": 66,
+          "frame_time": 61.75,
+          "frame_interval": [
+            61,
+            62
+          ],
+          "correspondence": "reference-paper time window only; candidate scalar minimum is not an independently validated cyclone identity",
+          "candidate_lonlat": [
+            17.857142857142872,
+            61.14120166293665
+          ],
+          "candidate_reference_y_R": 0.6480265017200753,
+          "candidate_reference_y_P": 0.6006547706577754
+        },
+        {
+          "id": "E3",
+          "paper_time": "1999-12-24 23:00:00",
+          "name": "British Isles / Norway storm",
+          "snapshot": 76,
+          "source": "TMTM Fig.1; ST-MTM Fig.6",
+          "candidate": 87,
+          "frame_time": 75.91666666666667,
+          "frame_interval": [
+            75,
+            76
+          ],
+          "correspondence": "reference-paper time window only; candidate scalar minimum is not an independently validated cyclone identity",
+          "candidate_lonlat": [
+            -4.183673469387754,
+            58.52469879928499
+          ],
+          "candidate_reference_y_R": 0.38444331994838676,
+          "candidate_reference_y_P": 0.38444331994838676
+        },
+        {
+          "id": "E4",
+          "paper_time": "1999-12-26 10:00:00",
+          "name": "Lothar time window",
+          "snapshot": 79,
+          "source": "TMTM Fig.1; ST-MTM Fig.6",
+          "candidate": null,
+          "frame_time": 78.83333333333333,
+          "frame_interval": [
+            78,
+            79
+          ],
+          "correspondence": "reference-paper time window only; candidate scalar minimum is not an independently validated cyclone identity"
+        },
+        {
+          "id": "E5",
+          "paper_time": "1999-12-27 21:00:00",
+          "name": "Martin time window",
+          "snapshot": 82,
+          "source": "TMTM Fig.1; ST-MTM Fig.6",
+          "candidate": 93,
+          "frame_time": 81.75,
+          "frame_interval": [
+            81,
+            82
+          ],
+          "correspondence": "reference-paper time window only; candidate scalar minimum is not an independently validated cyclone identity",
+          "candidate_lonlat": [
+            6.836734693877554,
+            48.55626225832182
+          ],
+          "candidate_reference_y_R": 0.5272562416344083,
+          "candidate_reference_y_P": 0.5272562416344083
+        }
+      ],
+      "snapshots": [
+        34,
+        62,
+        76,
+        79,
+        82
+      ],
+      "methods": [
+        "RG-MTM-P",
+        "RG-MTM-R"
+      ],
+      "frozen_inputs": {
+        "02-RG-MTM/results/real_case_studies/evidence/era5.npz": "45a7d45344ca69380db840f02b3ed9296593688deb14fa3d4ed39a55e91139a4",
+        "02-RG-MTM/results/real_case_studies/evidence/era5.json": "2b5cdefe6a07c0c9fa953138d39a60869cad1dc81ccdcc85efe1dfc9f2e2c96a"
+      },
+      "output": "figures/rgmtm_event_storms.pdf",
+      "sha256": "51837c8056dcbe921a796bcd8e9885b430b923f23c42983f95e7450cfc9cfc58",
+      "display_only_changes": "7.05 x 3.10 inch reflow, readable labels, caption text externalized; unchanged arrays, extrema, full axes, event positions, source snapshots and colour scales"
+    },
+    {
+      "dataset": "wildfire",
+      "frames": 30,
+      "events": [
+        {
+          "id": "W1",
+          "frame_time": 18,
+          "name": "computed scalar-feature conflict"
+        }
+      ],
+      "snapshots": [
+        17,
+        18,
+        19
+      ],
+      "methods": [
+        "RG-MTM-P",
+        "RG-MTM-R"
+      ],
+      "frozen_inputs": {
+        "02-RG-MTM/results/real_case_studies/evidence/wildfire.npz": "1bb6b2e907b8be9e4dd424ade3b3e68adbb70c806c675b08bc0ee99f65f93feb",
+        "02-RG-MTM/results/real_case_studies/evidence/wildfire.json": "3d5f4cc0341749201e376f17191e6ab933a5906185626aaf6774d7adab099c80"
+      },
+      "output": "figures/rgmtm_event_wildfires.pdf",
+      "sha256": "020d5f78a6de8a2dad659b83e6fba12276537da64bb280dbb3856114a7c18683",
+      "display_only_changes": "7.05 x 3.10 inch reflow, readable labels, caption text externalized; unchanged arrays, extrema, full axes, event positions, source snapshots and colour scales"
+    },
+    {
+      "dataset": "tangaroa",
+      "frames": 201,
+      "events": [
+        {
+          "id": "T1",
+          "frame_time": 25,
+          "name": "paper: feature-group separation"
+        },
+        {
+          "id": "T2",
+          "frame_time": 100,
+          "name": "paper: spatial group context"
+        },
+        {
+          "id": "T3",
+          "frame_time": 145,
+          "name": "paper: departing group leaves domain"
+        }
+      ],
+      "snapshots": [
+        0,
+        25,
+        100,
+        145,
+        200
+      ],
+      "methods": [
+        "RG-MTM-P",
+        "RG-MTM-R"
+      ],
+      "frozen_inputs": {
+        "02-RG-MTM/results/real_case_studies/evidence/tangaroa.npz": "c893b7003e9c86a93b76208e90d232b3a6fe4c4ce8ad190496293d5d49286dae",
+        "02-RG-MTM/results/real_case_studies/evidence/tangaroa.json": "535b88f328522c84562fb0f6c65cd021b8ceaa047f4d998ffa3f85bf3d3113e1",
+        "02-RG-MTM/results/real_case_studies/evidence/tangaroa_event_volumes.npz": "36f0d393bd95dc626e300bbf7ad89ef8583e843eac8980bf174ec5d3cf985847"
+      },
+      "output": "figures/rgmtm_event_tangaroa.pdf",
+      "sha256": "86b7c7d0c5a9f834c9fe3f78137dd70ff258928cb2e807e3182fe61a1c9b0a04",
+      "display_only_changes": "7.05 x 3.10 inch reflow, readable labels, caption text externalized; unchanged arrays, extrema, full axes, event positions, source snapshots and colour scales"
+    }
+  ],
+  "exporter_sha256": "319f8b9c913cc027776608177b377e0bcd9fbdeec8ac82ed21c086412fef52a0"
+}

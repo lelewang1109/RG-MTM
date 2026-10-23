@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-22",
+  "files": {
+    "figures_ppt/Fig1_DataDirection.pptx": {
+      "bytes": 3067288,
+      "sha256": "ca6e6dca2025d24a2d97b6c4f4e027ffc360572dac05e40df6b8b3f828ecee7c"
+    },
+    "figures_export/Fig1_DataDirection.pdf": {
+      "bytes": 3064951,
+      "sha256": "1be5988290e576fe10a6a62d5b3818efe4ff810eb73ef032a7ca5475a5cf8823"
+    },
+    "figures_export/Fig1_DataDirection.png": {
+      "bytes": 3328105,
+      "sha256": "bacfa3ee606368dac71aef4f8ad5bd310271eac681deaf0761099c34360fc49b"
+    }
+  },
+  "original_main_figures_not_overwritten": true,
+  "source": "ERA5 actual hourly observations",
+  "frames": 744
+}

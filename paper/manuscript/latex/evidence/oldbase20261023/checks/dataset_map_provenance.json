@@ -1,0 +1,32 @@
+{
+  "olr": {
+    "cache": "/Users/lele/Desktop/MergeTreeMaps/其他/归档/历史或排除结果/visualization_cache/olr-299e1ce5e0ec8200289258f05e3dc3afdd1dc4e1e17d3fdf726ec63a6b177f00.npz",
+    "cache_sha256": "bcd1171ebb3cc7420ea70b8094fbff0c599abb5330ca1db308506141005e4df2",
+    "landmarks": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/code/results/public_metrics_20261016/olr_landmarks.npz",
+    "landmark_sha256": "08c7871c76c4af91240512f47264690c4ec5e6109838947e96eb689d3933a50c",
+    "frames": 60,
+    "same_feature_scalar_checks": 264,
+    "maximum_cross_method_scalar_difference": 0,
+    "cache_copies_identical": true
+  },
+  "pm25": {
+    "cache": "/Users/lele/Desktop/MergeTreeMaps/其他/归档/历史或排除结果/visualization_cache/pm25-062549a3b72bbd7c70630fa770025dbe54eea3d875f742bcf6980abfe8bf01ae.npz",
+    "cache_sha256": "3be2b13d0ab6625504a581c4b8928570692db849708a8090d7f9b6edabfd2171",
+    "landmarks": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/code/results/public_metrics_20261016/pm25_landmarks.npz",
+    "landmark_sha256": "ca9f2f5502c35e88707bdf2aca9cf7348a33e20f6d1f928741726b1f2fae2e4f",
+    "frames": 30,
+    "same_feature_scalar_checks": 73,
+    "maximum_cross_method_scalar_difference": 0,
+    "cache_copies_identical": true
+  },
+  "ring": {
+    "cache": "/Users/lele/Desktop/MergeTreeMaps/其他/归档/历史或排除结果/visualization_cache/ring-acfa16cc55f6b688a3b007e324181e740e1624d1a058fb50f473bbe81f5ba0b5.npz",
+    "cache_sha256": "29e9ff82b58a932d075bb7fe11937733a699c99b87ed0012ec45fe33d18e3f6c",
+    "landmarks": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/code/results/public_metrics_20261016/ring_landmarks.npz",
+    "landmark_sha256": "1b561763f52c6ef1274a15cee82d1015ef2227d3aa69a0ad1b343163ab924ba2",
+    "frames": 40,
+    "same_feature_scalar_checks": 165,
+    "maximum_cross_method_scalar_difference": 0,
+    "cache_copies_identical": true
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "frames": 1,
+  "maps_checked": 5,
+  "records": [
+    {
+      "index": 0,
+      "source_samples": 4096,
+      "leaves": 13,
+      "maps_checked": 5
+    }
+  ],
+  "scope": "all saved input scalar transforms, tree ownership and monotone arcs, direct parent-chain LCA, full-map barriers, TMTM sample multiplicities, RG hard constraints and independently recomputed summary metrics",
+  "limitation": "native TTK computes input topology; this audit does not independently reimplement 3-D persistence simplification",
+  "verifier_sha256": "c652752fc67bed6a4a9494f377966ba6ba1ff232da00bfc3d41f73ceaf63fde8",
+  "source_3d_Q_audit": null
+}

@@ -1,0 +1,65 @@
+{
+  "status": "passed",
+  "source_files_unchanged": 418,
+  "temporal_panels_verified": 28,
+  "complete_saved_frame_profile_columns_verified": 1918,
+  "pixel_rows_compared": 874752,
+  "integer_frame_pixels_exact_after_area_antialiasing": true,
+  "no_scalar_overshoot": true,
+  "all_native_slide_objects_byte_identical": true,
+  "source_views_and_marker_coordinates_preserved": true,
+  "wildfire_actual_cell_geometries_unchanged": true,
+  "cylinder_projection_original_centers_exact": 6480,
+  "other_figure_files_byte_identical": 105,
+  "figures_1_to_4_byte_identical": true,
+  "scientific_arrays_and_metrics_unchanged": true,
+  "changed_package_parts": {
+    "Fig7": [
+      "ppt/media/preserved_top_50001.png",
+      "ppt/media/preserved_top_50002.png",
+      "ppt/media/preserved_top_50003.png",
+      "ppt/media/preserved_top_50004.png",
+      "ppt/notesSlides/notesSlide1.xml"
+    ],
+    "Fig10": [
+      "ppt/media/image3.png",
+      "ppt/media/image4.png",
+      "ppt/media/image5.png",
+      "ppt/media/image6.png",
+      "ppt/notesSlides/notesSlide1.xml"
+    ],
+    "Fig11": [
+      "ppt/media/image2.png",
+      "ppt/media/image4.png",
+      "ppt/notesSlides/notesSlide1.xml",
+      "ppt/submission_case/ppt/media/image.png"
+    ],
+    "Supplement_Wildfires_Comparison": [
+      "ppt/media/image.png",
+      "ppt/media/image2.png",
+      "ppt/media/image3.png",
+      "ppt/media/image4.png",
+      "ppt/media/image5.png",
+      "ppt/media/image6.png",
+      "ppt/media/image7.png",
+      "ppt/media/image8.png",
+      "ppt/notesSlides/notesSlide1.xml"
+    ],
+    "Supplement_Tangaroa_Comparison": [
+      "ppt/media/image.png",
+      "ppt/media/image2.png",
+      "ppt/media/image3.png",
+      "ppt/media/image4.png",
+      "ppt/media/image5.png",
+      "ppt/media/image6.png",
+      "ppt/notesSlides/notesSlide1.xml"
+    ],
+    "Supplement_Cylinder_Comparison": [
+      "ppt/media/image.png",
+      "ppt/media/image2.png",
+      "ppt/media/image3.png",
+      "ppt/media/image4.png",
+      "ppt/notesSlides/notesSlide1.xml"
+    ]
+  }
+}

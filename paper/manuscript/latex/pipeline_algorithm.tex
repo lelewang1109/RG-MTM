@@ -1,0 +1,30 @@
+\begin{algorithm}[H]
+\caption{RG-MTM construction with optional relaxation.}\label{alg:pipeline}
+\begin{algorithmic}[1]
+\Require augmented input trees $T_t$ with arc samples, extrema $R_i$, supports $A_i$; feature tracks; mode
+\Statex \textbf{Parameters:} conflict threshold $\theta$; eligible merge gap $\kappa$; positional slack $\beta$
+\State $d\gets$ principal direction of tracked extremum displacements;\ $q_i\gets\langle R_i,d\rangle$ scaled to the axis
+\For{$t=1,\ldots,K$}
+  \State $\tau^*\gets\min_{\pi\in\Pi(T_t)}\tau(\pi)$; $\tau_\free\gets\min_{\pi\in S_n}\tau(\pi)$; $H_t\gets\tau^*-\tau_\free$
+  \State $T'\gets T_t$
+  \If{relaxed mode and $H_t>\theta$} \Comment{threshold and prune}
+    \State $W\gets\{v:\ v\text{ is non-root internal},\ \gamma_v\le\kappa\}$; $b_0\gets\widehat\tau(\mathrm{flat}(T_t,W))$
+    \For{$v\in W$ by decreasing $\gamma_v$}
+      \If{$\widehat\tau(\mathrm{flat}(T_t,W\setminus\{v\}))\le b_0+$ half a pixel}
+        \State $W\gets W\setminus\{v\}$
+      \EndIf
+    \EndFor
+    \State $T'\gets\mathrm{flat}(T_t,W)$
+  \EndIf
+  \State $B_t\gets\tau^*(T')+\beta$ \Comment{error budget}
+  \State $(\pi,z,u)\gets$ over $\pi\in\Pi(T')$ with $\tau(\pi)\le B_t$, minimize distance stress, reference error, eccentricity, and motion residual w.r.t.\ $t-1$ subject to (D)(C)(E) and $|u_i-q_i|\le B_t$ \Comment{one QP per order}
+  \State $(s,e,\alpha)\gets$ discretize intervals and anchors on the fixed canvas
+  \State $v_t\gets\operatorname{FullDomainFill}(T_t,\pi,s,e,\alpha)$ \Comment{original augmented tree}
+  \If{relaxed mode}
+    \State compute $C_k,\delta^*(\pi)$ against $T_t$; correct barriers (Prop.~\ref{prop:fill})
+  \EndIf
+  \State report $\tau^*$, $H_t$, $\max_i|u_i-q_i|$, and measured raster merge error
+\EndFor
+\State Assemble $\mathcal V=[v_1\ \cdots\ v_K]$ using shared scalar colours; annotate achieved errors
+\end{algorithmic}
+\end{algorithm}

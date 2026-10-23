@@ -1,0 +1,26 @@
+{
+  "renamed_files": 56,
+  "all_renamed_files_byte_identical": true,
+  "evidence_manifest_records_verified": 20,
+  "tables_byte_identical": 12,
+  "external_scientific_files_byte_identical": 991,
+  "figures_verified": 17,
+  "presentations_byte_identical": true,
+  "documents": [
+    {
+      "file": "Revised_RG-MTM.pdf",
+      "pages": 12,
+      "visually_changed_pages": [],
+      "sha256": "00bbc8ef3590f237048f58302031ae1a5386a72dd8bc486949de81c00c2024cc"
+    },
+    {
+      "file": "Revised_Supplement.pdf",
+      "pages": 37,
+      "visually_changed_pages": [
+        9
+      ],
+      "sha256": "a57cd6ab242f6749a1952f924e9b99b9e7c9a605903ed32e70d586c1eea2ef82"
+    }
+  ],
+  "mapping": "FILE_NAMING_MAP.json"
+}

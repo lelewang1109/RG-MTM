@@ -1,0 +1,1720 @@
+{
+  "number": 1,
+  "width": 1344,
+  "height": 640,
+  "title": "ERA5: RG-MTM-R20 temporal map and source-space event",
+  "notes": "{\"source\": \"/Users/lele/Desktop/MergeTreeMaps/02-RG-MTM/results/real_case_studies/evidence/era5.npz\", \"source_sha256\": \"45a7d45344ca69380db840f02b3ed9296593688deb14fa3d4ed39a55e91139a4\", \"original_ppt\": \"/Users/lele/Desktop/MergeTreeMaps/paper_revision/figures_ppt/All_Figures.pptx\", \"method\": \"RG-MTM-R20\", \"full_frames\": [0, 117], \"local_frames\": [43, 53], \"color_map\": \"RdBu_r\", \"pressure_hPa\": [952.0553938083871, 1046.8404145923128], \"projection\": \"Lambert cylindrical equal-area, standard parallel 52.5 degrees\", \"source_geographic_bounds\": {\"lon\": [-40, 50], \"lat\": [25, 80]}, \"projected_extent\": [16.841118186236063, 103.15888181376393, 18.31893810631073, 101.68106189368926], \"map_aspect_ratio\": 1.035455428747088, \"direction\": [0.9998129355353527, -0.019341508115477836], \"snapshots\": [{\"frame\": 20, \"date\": \"1999-11-27 00:00:00\", \"rect\": [60.0, 420, 172.8, 166.88308854499883], \"raw_frame_sha256\": \"8a312b478f32a567e3654c3aba386fe91e8e83902a971401e9258be1170483d3\"}, {\"frame\": 48, \"date\": \"1999-12-11 00:00:00\", \"rect\": [246.80000000000004, 420, 172.8, 166.88308854499883], \"raw_frame_sha256\": \"1a069d7eed1b994f2ebaf9d8c7dd99cf175c25f63fcfd272f907080613c1e194\"}, {\"frame\": 64, \"date\": \"1999-12-19 00:00:00\", \"rect\": [433.6, 420, 172.8, 166.88308854499883], \"raw_frame_sha256\": \"73a90c418d8c561776f7e1f3588323c358a6253ae324fce44bec79fec00bb675\"}, {\"frame\": 80, \"date\": \"1999-12-27 00:00:00\", \"rect\": [620.4000000000001, 420, 172.8, 166.88308854499883], \"raw_frame_sha256\": \"ff609888ee50b6ef0294fb0ab40679a6a70d2c1ed0177e89d147525174d3740e\"}, {\"frame\": 100, \"date\": \"2000-01-06 00:00:00\", \"rect\": [807.2, 420, 172.8, 166.88308854499883], \"raw_frame_sha256\": \"6170e46429ed382c8b45826071aa80d0eaa8db717ac4aeb01faf79ab6d0c3309\"}], \"extrema_f48\": [{\"label\": \"A\", \"track\": 60, \"leaf\": 1872, \"xy\": [35.337781820706326, 83.81774965353671], \"lonlat\": [-20.714285714285708, 59.80726491986953], \"slide_xy\": [1086.500966026312, 136.92857142857144]}, {\"label\": \"B\", \"track\": 38, \"leaf\": 2144, \"xy\": [82.90063116648699, 92.32408881551413], \"lonlat\": [28.877551020408177, 67.1766059549608], \"slide_xy\": [1251.3919601184248, 107.43877551020404]}, {\"label\": \"C\", \"track\": 56, \"leaf\": 1107, \"xy\": [68.80793506403346, 56.59746433520903], \"lonlat\": [14.183673469387763, 42.90356893792984], \"slide_xy\": [1202.5353692763172, 231.29591836734696]}], \"actual_tracks\": [{\"label\": \"A\", \"track\": 60, \"rows\": [{\"frame\": 48, \"anchor\": 0.19999999999999996, \"reference\": 0.20833333333333334, \"leaf\": 1872}, {\"frame\": 49, \"anchor\": 0.1791666666666667, \"reference\": 0.18750000000000003, \"leaf\": 1920}, {\"frame\": 50, \"anchor\": 0.21628458166021494, \"reference\": 0.20795124832688164, \"leaf\": 1921}, {\"frame\": 51, \"anchor\": 0.21590249665376332, \"reference\": 0.20756916332043002, \"leaf\": 1970}, {\"frame\": 52, \"anchor\": 0.21590249665376332, \"reference\": 0.20756916332043002, \"leaf\": 1970}, {\"frame\": 53, \"anchor\": 0.21523779318768496, \"reference\": 0.22878458166021498, \"leaf\": 1873}]}, {\"label\": \"B\", \"track\": 38, \"rows\": [{\"frame\": 43, \"anchor\": 0.31968707831397847, \"reference\": 0.3113537449806451, \"leaf\": 1779}, {\"frame\": 44, \"anchor\": 0.40149207162150513, \"reference\": 0.39315873828817177, \"leaf\": 1783}, {\"frame\": 45, \"anchor\": 0.499615823817793, \"reference\": 0.45413039826236506, \"leaf\": 1835}, {\"frame\": 46, \"anchor\": 0.5033662282494619, \"reference\": 0.49503289491612856, \"leaf\": 1837}, {\"frame\": 47, \"anchor\": 0.5533688625552252, \"reference\": 0.5764558032172037, \"leaf\": 1890}, {\"frame\": 48, \"anchor\": 0.7625111891586563, \"reference\": 0.7586066131268807, \"leaf\": 2144}, {\"frame\": 49, \"anchor\": 0.8279116064344073, \"reference\": 0.819578273101074, \"leaf\": 2196}, {\"frame\": 50, \"anchor\": 0.8786111685324609, \"reference\": 0.8805499330752674, \"leaf\": 2248}, {\"frame\": 51, \"anchor\": 0.9127370113892456, \"reference\": 0.921070344722579, \"leaf\": 2299}, {\"frame\": 52, \"anchor\": 0.9085703447225792, \"reference\": 0.900237011389246, \"leaf\": 2347}, {\"frame\": 53, \"anchor\": 0.8870723079231675, \"reference\": 0.9006190963956976, \"leaf\": 2298}]}, {\"label\": \"C\", \"track\": 56, \"rows\": [{\"frame\": 47, \"anchor\": 0.5848227706490752, \"reference\": 0.5617358299870967, \"leaf\": 1154}, {\"frame\": 48, \"anchor\": 0.6074846120025572, \"reference\": 0.6030204116473116, \"leaf\": 1107}, {\"frame\": 49, \"anchor\": 0.6171238612618721, \"reference\": 0.6234716599741933, \"leaf\": 1108}]}], \"source_semantics\": \"Native supplied ERA5 pressure shown separately from the existing projected/resampled/smoothed analysis field. Extrema belong to the analysis field.\", \"selected_main_minimum_tracks\": [], \"event_annotations\": [{\"frame\": 20, \"date\": \"1999-11-27 00:00:00\", \"track\": 19, \"label\": \"Norwegian Sea low\", \"anchor\": 0.46055330656344023, \"scalar\": 974.23089356586, \"lonlat\": [1.3265306122449034, 65.53737602100487], \"target\": [219.83050847457628, 217.12396754910986], \"rect\": [79, 285, 174, 30], \"identity_scope\": \"computed minimum; no named-cyclone identity claim\"}, {\"frame\": 48, \"date\": \"1999-12-11 00:00:00\", \"track\": 56, \"label\": \"Reference-order conflict\", \"anchor\": 0.6074846120025572, \"scalar\": 1006.6927662307169, \"lonlat\": [14.183673469387763, 42.90356893792984], \"target\": [438.135593220339, 175.68933941527888], \"rect\": [278, 87, 195, 30], \"identity_scope\": \"computed minimum; no named-cyclone identity claim\"}, {\"frame\": 64, \"date\": \"1999-12-19 00:00:00\", \"track\": 73, \"label\": \"Northern Europe low\", \"anchor\": 0.7476349531526871, \"scalar\": 977.6848465329285, \"lonlat\": [27.040816326530607, 62.53404994247191], \"target\": [562.8813559322034, 136.16694321094224], \"rect\": [511, 175, 178, 30], \"identity_scope\": \"computed minimum; no named-cyclone identity claim\"}, {\"frame\": 80, \"date\": \"1999-12-27 00:00:00\", \"track\": 78, \"label\": \"North Atlantic low\", \"anchor\": 0.34865572066332084, \"scalar\": 967.1670054423809, \"lonlat\": [-7.857142857142858, 67.1766059549608], \"target\": [687.6271186440678, 248.67908677294352], \"rect\": [618, 285, 169, 30], \"identity_scope\": \"computed minimum; no named-cyclone identity claim\"}, {\"frame\": 100, \"date\": \"2000-01-06 00:00:00\", \"track\": 93, \"label\": \"January low\", \"anchor\": 0.4029841432430103, \"scalar\": 974.5523916904781, \"lonlat\": [-2.3469387755102082, 65.53737602100487], \"target\": [843.5593220338983, 233.3584716054711], \"rect\": [811, 99, 158, 30], \"identity_scope\": \"computed minimum; no named-cyclone identity claim\"}], \"annotation_scope\": \"Five real saved feature/frame locations; no main-panel dark trajectory overlays. Line contrast comes from scalar display reconstruction. No attribution to Anatol, Lothar or Martin. Five snapshots and event guides remain f20/48/64/80/100.\", \"rendering\": \"Saved scalar arrays re-rendered with conservative anchor-aligned display interpolation in 93 of 117 intervals; crossings and jumps over 0.2L retain fixed-position interpolation. All 118 original frame centers and 4096 rows are unchanged. Intermediate columns are display reconstruction, not new observations. Source maps use bilinear scalar display interpolation. Main and local map use one shared full-domain reconstruction. No main-panel dark trajectory overlays, Gaussian blur, changes to frozen arrays or experimental rerun.\", \"display_interpolation\": {\"temporal\": \"conservative anchor-aligned piecewise linear display reconstruction\", \"samples_per_frame\": 41, \"aligned_intervals\": 93, \"fallback_intervals\": [[10, 11], [24, 25], [26, 27], [27, 28], [35, 36], [37, 38], [47, 48], [59, 60], [62, 63], [67, 68], [69, 70], [85, 86], [86, 87], [87, 88], [89, 90], [90, 91], [92, 93], [100, 101], [101, 102], [102, 103], [103, 104], [106, 107], [107, 108], [114, 115]], \"spatial\": \"bilinear on original projected raw-field grid\", \"original_frame_centers_exact\": true, \"original_scalar_rows\": 4096, \"gaussian_blur\": false, \"main_panel_trajectory_overlays\": false, \"shared_full_and_local_reconstruction\": true}, \"selected_event_frames\": [20, 48, 64, 80, 100], \"frame_time_mapping\": \"frame t is centered at (t+0.5)/118 of the main map\", \"missing_identity_intervals\": \"A60 absent f43\u201347; C56 absent f43\u201346 and f50\u201353. No synthetic continuation.\"}",
+  "objects": [
+    {
+      "kind": "text",
+      "name": "a_panel_title",
+      "text": "(a) RG-MTM temporal map",
+      "x": 18,
+      "y": 8,
+      "w": 520,
+      "h": 30,
+      "size": 22,
+      "color": "#000000",
+      "bold": true,
+      "align": "left"
+    },
+    {
+      "kind": "text",
+      "name": "a_reference_axis_title",
+      "text": "Reference position",
+      "x": 5,
+      "y": 105,
+      "w": 24,
+      "h": 202,
+      "size": 18,
+      "color": "#000000",
+      "bold": false,
+      "align": "center",
+      "textOrientation": "vert270"
+    },
+    {
+      "kind": "image",
+      "name": "a_R20_saved_scalar_map_4096x118",
+      "path": "/Users/lele/Desktop/MergeTreeMaps/paper_revision/evidence/fig1/assets/storms_R20_full_f0_f117.png",
+      "x": 60,
+      "y": 65,
+      "w": 920,
+      "h": 282
+    },
+    {
+      "kind": "line",
+      "name": "line_003",
+      "x1": 60,
+      "y1": 65,
+      "x2": 60,
+      "y2": 347,
+      "color": "#000000",
+      "width": 0.8,
+      "dash": false
+    },
+    {
+      "kind": "line",
+      "name": "line_004",
+      "x1": 60,
+      "y1": 347,
+      "x2": 980,
+      "y2": 347,
+      "color": "#000000",
+      "width": 0.8,
+      "dash": false
+    },
+    {
+      "kind": "line",
+      "name": "line_005",
+      "x1": 56,
+      "y1": 347.0,
+      "x2": 60,
+      "y2": 347.0,
+      "color": "#000000",
+      "width": 0.8,
+      "dash": false
+    },
+    {
+      "kind": "text",
+      "name": "axis_y_0_0",
+      "text": "0",
+      "x": 25,
+      "y": 337.0,
+      "w": 28,
+      "h": 21,
+      "size": 16,
+      "color": "#000000",
+      "bold": false,
+      "align": "right"
+    },
+    {
+      "kind": "line",
+      "name": "line_007",
+      "x1": 56,
+      "y1": 206.0,
+      "x2": 60,
+      "y2": 206.0,
+      "color": "#000000",
+      "width": 0.8,
+      "dash": false
+    },
+    {
+      "kind": "text",
+      "name": "axis_y_0_0.5",
+      "text": "0.5",
+      "x": 25,
+      "y": 196.0,
+      "w": 28,
+      "h": 21,
+      "size": 16,
+      "color": "#000000",
+      "bold": false,
+      "align": "right"
+    },
+    {
+      "kind": "line",
+      "name": "line_009",
+      "x1": 56,
+      "y1": 65.0,
+      "x2": 60,
+      "y2": 65.0,
+      "color": "#000000",
+      "width": 0.8,
+      "dash": false
+    },
+    {
+      "kind": "text",
+      "name": "axis_y_0_1",
+      "text": "1",
+      "x": 25,
+      "y": 55.0,
+      "w": 28,
+      "h": 21,
+      "size": 16,
+      "color": "#000000",
+      "bold": false,
+      "align": "right"
+    },
+    {
+      "kind": "line",
+      "name": "line_011",
+      "x1": 63.898305084745765,
+      "y1": 347,
+      "x2": 63.898305084745765,
+      "y2": 351,
+      "color": "#000000",
+      "width": 0.8,
+      "dash": false
+    },
+    {
+      "kind": "text",
+      "name": "axis_frame_0_0",
+      "text": "0",
+      "x": 40.898305084745765,
+      "y": 353,
+      "w": 46,
+      "h": 22,
+      "size": 16,
+      "color": "#000000",
+      "bold": false,
+      "align": "center"
+    },
+    {
+      "kind": "line",
+      "name": "line_013",
+      "x1": 219.83050847457628,
+      "y1": 347,
+      "x2": 219.83050847457628,
+      "y2": 351,
+      "color": "#000000",
+      "width": 0.8,
+      "dash": false
+    },
+    {
+      "kind": "text",
+      "name": "axis_frame_0_20",
+      "text": "20",
+      "x": 196.83050847457628,
+      "y": 353,
+      "w": 46,
+      "h": 22,
+      "size": 16,
+      "color": "#000000",
+      "bold": false,
+      "align": "center"
+    },
+    {
+      "kind": "line",
+      "name": "line_015",
+      "x1": 375.76271186440675,
+      "y1": 347,
+      "x2": 375.76271186440675,
+      "y2": 351,
+      "color": "#000000",
+      "width": 0.8,
+      "dash": false
+    },
+    {
+      "kind": "text",
+      "name": "axis_frame_0_40",
+      "text": "40",
+      "x": 352.76271186440675,
+      "y": 353,
+      "w": 46,
+      "h": 22,
+      "size": 16,
+      "color": "#000000",
+      "bold": false,
+      "align": "center"
+    },
+    {
+      "kind": "line",
+      "name": "line_017",
+      "x1": 531.6949152542372,
+      "y1": 347,
+      "x2": 531.6949152542372,
+      "y2": 351,
+      "color": "#000000",
+      "width": 0.8,
+      "dash": false
+    },
+    {
+      "kind": "text",
+      "name": "axis_frame_0_60",
+      "text": "60",
+      "x": 508.69491525423723,
+      "y": 353,
+      "w": 46,
+      "h": 22,
+      "size": 16,
+      "color": "#000000",
+      "bold": false,
+      "align": "center"
+    },
+    {
+      "kind": "line",
+      "name": "line_019",
+      "x1": 687.6271186440678,
+      "y1": 347,
+      "x2": 687.6271186440678,
+      "y2": 351,
+      "color": "#000000",
+      "width": 0.8,
+      "dash": false
+    },
+    {
+      "kind": "text",
+      "name": "axis_frame_0_80",
+      "text": "80",
+      "x": 664.6271186440678,
+      "y": 353,
+      "w": 46,
+      "h": 22,
+      "size": 16,
+      "color": "#000000",
+      "bold": false,
+      "align": "center"
+    },
+    {
+      "kind": "line",
+      "name": "line_021",
+      "x1": 843.5593220338983,
+      "y1": 347,
+      "x2": 843.5593220338983,
+      "y2": 351,
+      "color": "#000000",
+      "width": 0.8,
+      "dash": false
+    },
+    {
+      "kind": "text",
+      "name": "axis_frame_0_100",
+      "text": "100",
+      "x": 820.5593220338983,
+      "y": 353,
+      "w": 46,
+      "h": 22,
+      "size": 16,
+      "color": "#000000",
+      "bold": false,
+      "align": "center"
+    },
+    {
+      "kind": "line",
+      "name": "line_023",
+      "x1": 976.1016949152543,
+      "y1": 347,
+      "x2": 976.1016949152543,
+      "y2": 351,
+      "color": "#000000",
+      "width": 0.8,
+      "dash": false
+    },
+    {
+      "kind": "text",
+      "name": "axis_frame_0_117",
+      "text": "117",
+      "x": 953.1016949152543,
+      "y": 353,
+      "w": 46,
+      "h": 22,
+      "size": 16,
+      "color": "#000000",
+      "bold": false,
+      "align": "center"
+    },
+    {
+      "kind": "line",
+      "name": "a_time_axis_extension",
+      "x1": 980,
+      "y1": 347,
+      "x2": 987,
+      "y2": 347,
+      "color": "#000000",
+      "width": 0.8,
+      "dash": false
+    },
+    {
+      "kind": "line",
+      "name": "a_time_axis_arrow_-1",
+      "x1": 983,
+      "y1": 344.5,
+      "x2": 987,
+      "y2": 347,
+      "color": "#000000",
+      "width": 0.8,
+      "dash": false
+    },
+    {
+      "kind": "line",
+      "name": "a_time_axis_arrow_1",
+      "x1": 983,
+      "y1": 349.5,
+      "x2": 987,
+      "y2": 347,
+      "color": "#000000",
+      "width": 0.8,
+      "dash": false
+    },
+    {
+      "kind": "line",
+      "name": "a_reference_axis_extension",
+      "x1": 60,
+      "y1": 65,
+      "x2": 60,
+      "y2": 58,
+      "color": "#000000",
+      "width": 0.8,
+      "dash": false
+    },
+    {
+      "kind": "line",
+      "name": "a_reference_axis_arrow_-1",
+      "x1": 57.5,
+      "y1": 62,
+      "x2": 60,
+      "y2": 58,
+      "color": "#000000",
+      "width": 0.8,
+      "dash": false
+    },
+    {
+      "kind": "line",
+      "name": "a_reference_axis_arrow_1",
+      "x1": 62.5,
+      "y1": 62,
+      "x2": 60,
+      "y2": 58,
+      "color": "#000000",
+      "width": 0.8,
+      "dash": false
+    },
+    {
+      "kind": "text",
+      "name": "a_time_axis_title",
+      "text": "Time (frame)",
+      "x": 60,
+      "y": 377,
+      "w": 150,
+      "h": 24,
+      "size": 18,
+      "color": "#000000",
+      "bold": false,
+      "align": "left"
+    },
+    {
+      "kind": "line",
+      "name": "a_event_f20_true_time",
+      "x1": 219.83050847457628,
+      "y1": 65,
+      "x2": 219.83050847457628,
+      "y2": 347,
+      "color": "#87929A",
+      "width": 0.9,
+      "dash": true
+    },
+    {
+      "kind": "text",
+      "name": "a_event_label_f20",
+      "text": "f20",
+      "x": 191.83050847457628,
+      "y": 40,
+      "w": 56,
+      "h": 24,
+      "size": 16,
+      "color": "#000000",
+      "bold": false,
+      "align": "center"
+    },
+    {
+      "kind": "path",
+      "name": "ab_snapshot_leader_f20",
+      "points": [
+        [
+          219.83050847457628,
+          379
+        ],
+        [
+          219.83050847457628,
+          403
+        ],
+        [
+          146.4,
+          403
+        ],
+        [
+          146.4,
+          414
+        ]
+      ],
+      "color": "#A3ADB5",
+      "width": 0.8,
+      "dash": false
+    },
+    {
+      "kind": "image",
+      "name": "b_ERA5_actual_source_f20",
+      "path": "/Users/lele/Desktop/MergeTreeMaps/paper_revision/evidence/fig1/assets/storms_source_f20.png",
+      "x": 60.0,
+      "y": 420,
+      "w": 172.8,
+      "h": 166.88308854499883
+    },
+    {
+      "kind": "rect",
+      "name": "rect_036",
+      "x": 60.0,
+      "y": 420,
+      "w": 172.8,
+      "h": 166.88308854499883,
+      "fill": "none",
+      "stroke": "#D6DCE0",
+      "width": 0.5
+    },
+    {
+      "kind": "text",
+      "name": "b_snapshot_date_f20",
+      "text": "1999-11-27 00:00",
+      "x": 58.0,
+      "y": 596,
+      "w": 176.8,
+      "h": 24,
+      "size": 16,
+      "color": "#000000",
+      "bold": false,
+      "align": "center"
+    },
+    {
+      "kind": "line",
+      "name": "a_event_f48_true_time",
+      "x1": 438.135593220339,
+      "y1": 65,
+      "x2": 438.135593220339,
+      "y2": 347,
+      "color": "#D55E00",
+      "width": 1.25,
+      "dash": true
+    },
+    {
+      "kind": "text",
+      "name": "a_event_label_f48",
+      "text": "f48",
+      "x": 410.135593220339,
+      "y": 40,
+      "w": 56,
+      "h": 24,
+      "size": 16,
+      "color": "#000000",
+      "bold": false,
+      "align": "center"
+    },
+    {
+      "kind": "path",
+      "name": "ab_snapshot_leader_f48",
+      "points": [
+        [
+          438.135593220339,
+          379
+        ],
+        [
+          438.135593220339,
+          403
+        ],
+        [
+          333.20000000000005,
+          403
+        ],
+        [
+          333.20000000000005,
+          414
+        ]
+      ],
+      "color": "#A3ADB5",
+      "width": 0.8,
+      "dash": false
+    },
+    {
+      "kind": "image",
+      "name": "b_ERA5_actual_source_f48",
+      "path": "/Users/lele/Desktop/MergeTreeMaps/paper_revision/evidence/fig1/assets/storms_source_f48.png",
+      "x": 246.80000000000004,
+      "y": 420,
+      "w": 172.8,
+      "h": 166.88308854499883
+    },
+    {
+      "kind": "rect",
+      "name": "rect_042",
+      "x": 246.80000000000004,
+      "y": 420,
+      "w": 172.8,
+      "h": 166.88308854499883,
+      "fill": "none",
+      "stroke": "#D55E00",
+      "width": 1.45
+    },
+    {
+      "kind": "text",
+      "name": "b_snapshot_date_f48",
+      "text": "1999-12-11 00:00",
+      "x": 244.80000000000004,
+      "y": 596,
+      "w": 176.8,
+      "h": 24,
+      "size": 16,
+      "color": "#000000",
+      "bold": false,
+      "align": "center"
+    },
+    {
+      "kind": "line",
+      "name": "a_event_f64_true_time",
+      "x1": 562.8813559322034,
+      "y1": 65,
+      "x2": 562.8813559322034,
+      "y2": 347,
+      "color": "#87929A",
+      "width": 0.9,
+      "dash": true
+    },
+    {
+      "kind": "text",
+      "name": "a_event_label_f64",
+      "text": "f64",
+      "x": 534.8813559322034,
+      "y": 40,
+      "w": 56,
+      "h": 24,
+      "size": 16,
+      "color": "#000000",
+      "bold": false,
+      "align": "center"
+    },
+    {
+      "kind": "path",
+      "name": "ab_snapshot_leader_f64",
+      "points": [
+        [
+          562.8813559322034,
+          379
+        ],
+        [
+          562.8813559322034,
+          403
+        ],
+        [
+          520.0,
+          403
+        ],
+        [
+          520.0,
+          414
+        ]
+      ],
+      "color": "#A3ADB5",
+      "width": 0.8,
+      "dash": false
+    },
+    {
+      "kind": "image",
+      "name": "b_ERA5_actual_source_f64",
+      "path": "/Users/lele/Desktop/MergeTreeMaps/paper_revision/evidence/fig1/assets/storms_source_f64.png",
+      "x": 433.6,
+      "y": 420,
+      "w": 172.8,
+      "h": 166.88308854499883
+    },
+    {
+      "kind": "rect",
+      "name": "rect_048",
+      "x": 433.6,
+      "y": 420,
+      "w": 172.8,
+      "h": 166.88308854499883,
+      "fill": "none",
+      "stroke": "#D6DCE0",
+      "width": 0.5
+    },
+    {
+      "kind": "text",
+      "name": "b_snapshot_date_f64",
+      "text": "1999-12-19 00:00",
+      "x": 431.6,
+      "y": 596,
+      "w": 176.8,
+      "h": 24,
+      "size": 16,
+      "color": "#000000",
+      "bold": false,
+      "align": "center"
+    },
+    {
+      "kind": "line",
+      "name": "a_event_f80_true_time",
+      "x1": 687.6271186440678,
+      "y1": 65,
+      "x2": 687.6271186440678,
+      "y2": 347,
+      "color": "#87929A",
+      "width": 0.9,
+      "dash": true
+    },
+    {
+      "kind": "text",
+      "name": "a_event_label_f80",
+      "text": "f80",
+      "x": 659.6271186440678,
+      "y": 40,
+      "w": 56,
+      "h": 24,
+      "size": 16,
+      "color": "#000000",
+      "bold": false,
+      "align": "center"
+    },
+    {
+      "kind": "path",
+      "name": "ab_snapshot_leader_f80",
+      "points": [
+        [
+          687.6271186440678,
+          379
+        ],
+        [
+          687.6271186440678,
+          403
+        ],
+        [
+          706.8000000000001,
+          403
+        ],
+        [
+          706.8000000000001,
+          414
+        ]
+      ],
+      "color": "#A3ADB5",
+      "width": 0.8,
+      "dash": false
+    },
+    {
+      "kind": "image",
+      "name": "b_ERA5_actual_source_f80",
+      "path": "/Users/lele/Desktop/MergeTreeMaps/paper_revision/evidence/fig1/assets/storms_source_f80.png",
+      "x": 620.4000000000001,
+      "y": 420,
+      "w": 172.8,
+      "h": 166.88308854499883
+    },
+    {
+      "kind": "rect",
+      "name": "rect_054",
+      "x": 620.4000000000001,
+      "y": 420,
+      "w": 172.8,
+      "h": 166.88308854499883,
+      "fill": "none",
+      "stroke": "#D6DCE0",
+      "width": 0.5
+    },
+    {
+      "kind": "text",
+      "name": "b_snapshot_date_f80",
+      "text": "1999-12-27 00:00",
+      "x": 618.4000000000001,
+      "y": 596,
+      "w": 176.8,
+      "h": 24,
+      "size": 16,
+      "color": "#000000",
+      "bold": false,
+      "align": "center"
+    },
+    {
+      "kind": "line",
+      "name": "a_event_f100_true_time",
+      "x1": 843.5593220338983,
+      "y1": 65,
+      "x2": 843.5593220338983,
+      "y2": 347,
+      "color": "#87929A",
+      "width": 0.9,
+      "dash": true
+    },
+    {
+      "kind": "text",
+      "name": "a_event_label_f100",
+      "text": "f100",
+      "x": 815.5593220338983,
+      "y": 40,
+      "w": 56,
+      "h": 24,
+      "size": 16,
+      "color": "#000000",
+      "bold": false,
+      "align": "center"
+    },
+    {
+      "kind": "path",
+      "name": "ab_snapshot_leader_f100",
+      "points": [
+        [
+          843.5593220338983,
+          379
+        ],
+        [
+          843.5593220338983,
+          403
+        ],
+        [
+          893.6,
+          403
+        ],
+        [
+          893.6,
+          414
+        ]
+      ],
+      "color": "#A3ADB5",
+      "width": 0.8,
+      "dash": false
+    },
+    {
+      "kind": "image",
+      "name": "b_ERA5_actual_source_f100",
+      "path": "/Users/lele/Desktop/MergeTreeMaps/paper_revision/evidence/fig1/assets/storms_source_f100.png",
+      "x": 807.2,
+      "y": 420,
+      "w": 172.8,
+      "h": 166.88308854499883
+    },
+    {
+      "kind": "rect",
+      "name": "rect_060",
+      "x": 807.2,
+      "y": 420,
+      "w": 172.8,
+      "h": 166.88308854499883,
+      "fill": "none",
+      "stroke": "#D6DCE0",
+      "width": 0.5
+    },
+    {
+      "kind": "text",
+      "name": "b_snapshot_date_f100",
+      "text": "2000-01-06 00:00",
+      "x": 805.2,
+      "y": 596,
+      "w": 176.8,
+      "h": 24,
+      "size": 16,
+      "color": "#000000",
+      "bold": false,
+      "align": "center"
+    },
+    {
+      "kind": "line",
+      "name": "a_event_callout_f20_leader",
+      "x1": 166.0,
+      "y1": 285.0,
+      "x2": 218.27706079314223,
+      "y2": 219.08274275342688,
+      "color": "#000000",
+      "width": 0.85,
+      "dash": false
+    },
+    {
+      "kind": "line",
+      "name": "a_event_callout_f20_arrow_-1",
+      "x1": 213.60314526682052,
+      "y1": 221.7575350169137,
+      "x2": 218.27706079314223,
+      "y2": 219.08274275342688,
+      "color": "#000000",
+      "width": 0.85,
+      "dash": false
+    },
+    {
+      "kind": "line",
+      "name": "a_event_callout_f20_arrow_1",
+      "x1": 216.73718559372773,
+      "y1": 224.24305130720816,
+      "x2": 218.27706079314223,
+      "y2": 219.08274275342688,
+      "color": "#000000",
+      "width": 0.85,
+      "dash": false
+    },
+    {
+      "kind": "rect",
+      "name": "a_event_callout_f20_box",
+      "x": 79,
+      "y": 285,
+      "w": 174,
+      "h": 30,
+      "fill": "#FFFFFF",
+      "stroke": "#000000",
+      "width": 0.6
+    },
+    {
+      "kind": "text",
+      "name": "a_event_callout_f20_text",
+      "text": "Norwegian Sea low",
+      "x": 85,
+      "y": 289,
+      "w": 162,
+      "h": 22,
+      "size": 16,
+      "color": "#000000",
+      "bold": false,
+      "align": "center"
+    },
+    {
+      "kind": "line",
+      "name": "a_event_callout_f48_leader",
+      "x1": 375.5,
+      "y1": 117.0,
+      "x2": 436.3112920757239,
+      "y2": 173.97997540087002,
+      "color": "#000000",
+      "width": 0.85,
+      "dash": false
+    },
+    {
+      "kind": "line",
+      "name": "a_event_callout_f48_arrow_-1",
+      "x1": 434.0301809980207,
+      "y1": 169.10180645636024,
+      "x2": 436.3112920757239,
+      "y2": 173.97997540087002,
+      "color": "#000000",
+      "width": 0.85,
+      "dash": false
+    },
+    {
+      "kind": "line",
+      "name": "a_event_callout_f48_arrow_1",
+      "x1": 431.29519857496655,
+      "y1": 172.0206882877444,
+      "x2": 436.3112920757239,
+      "y2": 173.97997540087002,
+      "color": "#000000",
+      "width": 0.85,
+      "dash": false
+    },
+    {
+      "kind": "rect",
+      "name": "a_event_callout_f48_box",
+      "x": 278,
+      "y": 87,
+      "w": 195,
+      "h": 30,
+      "fill": "#FFFFFF",
+      "stroke": "#000000",
+      "width": 0.6
+    },
+    {
+      "kind": "text",
+      "name": "a_event_callout_f48_text",
+      "text": "Reference-order conflict",
+      "x": 284,
+      "y": 91,
+      "w": 183,
+      "h": 22,
+      "size": 16,
+      "color": "#000000",
+      "bold": false,
+      "align": "center"
+    },
+    {
+      "kind": "line",
+      "name": "a_event_callout_f64_leader",
+      "x1": 600.0,
+      "y1": 175.0,
+      "x2": 564.6087801126391,
+      "y2": 137.97415257923518,
+      "color": "#000000",
+      "width": 0.85,
+      "dash": false
+    },
+    {
+      "kind": "line",
+      "name": "a_event_callout_f64_arrow_-1",
+      "x1": 566.6178609788764,
+      "y1": 142.9705106601697,
+      "x2": 564.6087801126391,
+      "y2": 137.97415257923518,
+      "color": "#000000",
+      "width": 0.85,
+      "dash": false
+    },
+    {
+      "kind": "line",
+      "name": "a_event_callout_f64_arrow_1",
+      "x1": 569.509395968145,
+      "y1": 140.2066319714725,
+      "x2": 564.6087801126391,
+      "y2": 137.97415257923518,
+      "color": "#000000",
+      "width": 0.85,
+      "dash": false
+    },
+    {
+      "kind": "rect",
+      "name": "a_event_callout_f64_box",
+      "x": 511,
+      "y": 175,
+      "w": 178,
+      "h": 30,
+      "fill": "#FFFFFF",
+      "stroke": "#000000",
+      "width": 0.6
+    },
+    {
+      "kind": "text",
+      "name": "a_event_callout_f64_text",
+      "text": "Northern Europe low",
+      "x": 517,
+      "y": 179,
+      "w": 166,
+      "h": 22,
+      "size": 16,
+      "color": "#000000",
+      "bold": false,
+      "align": "center"
+    },
+    {
+      "kind": "line",
+      "name": "a_event_callout_f80_leader",
+      "x1": 702.5,
+      "y1": 285.0,
+      "x2": 688.5744824074702,
+      "y2": 250.99263424377526,
+      "color": "#000000",
+      "width": 0.85,
+      "dash": false
+    },
+    {
+      "kind": "line",
+      "name": "a_event_callout_f80_arrow_-1",
+      "x1": 688.6183719576097,
+      "y1": 256.3776201961607,
+      "x2": 688.5744824074702,
+      "y2": 250.99263424377526,
+      "color": "#000000",
+      "width": 0.85,
+      "dash": false
+    },
+    {
+      "kind": "line",
+      "name": "a_event_callout_f80_arrow_1",
+      "x1": 692.3200479109405,
+      "y1": 254.8618381747168,
+      "x2": 688.5744824074702,
+      "y2": 250.99263424377526,
+      "color": "#000000",
+      "width": 0.85,
+      "dash": false
+    },
+    {
+      "kind": "rect",
+      "name": "a_event_callout_f80_box",
+      "x": 618,
+      "y": 285,
+      "w": 169,
+      "h": 30,
+      "fill": "#FFFFFF",
+      "stroke": "#000000",
+      "width": 0.6
+    },
+    {
+      "kind": "text",
+      "name": "a_event_callout_f80_text",
+      "text": "North Atlantic low",
+      "x": 624,
+      "y": 289,
+      "w": 157,
+      "h": 22,
+      "size": 16,
+      "color": "#000000",
+      "bold": false,
+      "align": "center"
+    },
+    {
+      "kind": "line",
+      "name": "a_event_callout_f100_leader",
+      "x1": 890.0,
+      "y1": 129.0,
+      "x2": 844.5757488613716,
+      "y2": 231.07442333444166,
+      "color": "#000000",
+      "width": 0.85,
+      "dash": false
+    },
+    {
+      "kind": "line",
+      "name": "a_event_callout_f100_arrow_-1",
+      "x1": 848.4358411331418,
+      "y1": 227.3194682543614,
+      "x2": 844.5757488613716,
+      "y2": 231.07442333444166,
+      "color": "#000000",
+      "width": 0.85,
+      "dash": false
+    },
+    {
+      "kind": "line",
+      "name": "a_event_callout_f100_arrow_1",
+      "x1": 844.7813638994946,
+      "y1": 225.69318533040413,
+      "x2": 844.5757488613716,
+      "y2": 231.07442333444166,
+      "color": "#000000",
+      "width": 0.85,
+      "dash": false
+    },
+    {
+      "kind": "rect",
+      "name": "a_event_callout_f100_box",
+      "x": 811,
+      "y": 99,
+      "w": 158,
+      "h": 30,
+      "fill": "#FFFFFF",
+      "stroke": "#000000",
+      "width": 0.6
+    },
+    {
+      "kind": "text",
+      "name": "a_event_callout_f100_text",
+      "text": "January low",
+      "x": 817,
+      "y": 103,
+      "w": 146,
+      "h": 22,
+      "size": 16,
+      "color": "#000000",
+      "bold": false,
+      "align": "center"
+    },
+    {
+      "kind": "text",
+      "name": "c_panel_title",
+      "text": "(b) Conflict and local tracks",
+      "x": 1012,
+      "y": 8,
+      "w": 322,
+      "h": 30,
+      "size": 22,
+      "color": "#000000",
+      "bold": true,
+      "align": "left"
+    },
+    {
+      "kind": "text",
+      "name": "c_event_frame",
+      "text": "1999-12-11 00:00 (f48)",
+      "x": 1012,
+      "y": 42,
+      "w": 320,
+      "h": 24,
+      "size": 16,
+      "color": "#000000",
+      "bold": false,
+      "align": "center"
+    },
+    {
+      "kind": "image",
+      "name": "c_ERA5_actual_source_f48",
+      "path": "/Users/lele/Desktop/MergeTreeMaps/paper_revision/evidence/fig1/assets/storms_source_f48.png",
+      "x": 1022.3766905460458,
+      "y": 75,
+      "w": 299.24661890790844,
+      "h": 289
+    },
+    {
+      "kind": "ellipse",
+      "name": "c_extremum_A_track60_f48",
+      "x": 1082.000966026312,
+      "y": 132.42857142857144,
+      "w": 9.0,
+      "h": 9.0,
+      "fill": "white",
+      "stroke": "#000000",
+      "width": 1.8
+    },
+    {
+      "kind": "text",
+      "name": "c_source_label_A",
+      "text": "A",
+      "x": 1095.500966026312,
+      "y": 112.92857142857144,
+      "w": 30,
+      "h": 26,
+      "size": 18,
+      "color": "#000000",
+      "bold": true,
+      "align": "left"
+    },
+    {
+      "kind": "ellipse",
+      "name": "c_extremum_B_track38_f48",
+      "x": 1246.8919601184248,
+      "y": 102.93877551020404,
+      "w": 9.0,
+      "h": 9.0,
+      "fill": "white",
+      "stroke": "#000000",
+      "width": 1.8
+    },
+    {
+      "kind": "text",
+      "name": "c_source_label_B",
+      "text": "B",
+      "x": 1260.3919601184248,
+      "y": 83.43877551020404,
+      "w": 30,
+      "h": 26,
+      "size": 18,
+      "color": "#000000",
+      "bold": true,
+      "align": "left"
+    },
+    {
+      "kind": "ellipse",
+      "name": "c_extremum_C_track56_f48",
+      "x": 1198.0353692763172,
+      "y": 226.79591836734696,
+      "w": 9.0,
+      "h": 9.0,
+      "fill": "white",
+      "stroke": "#000000",
+      "width": 1.8
+    },
+    {
+      "kind": "text",
+      "name": "c_source_label_C",
+      "text": "C",
+      "x": 1212.5353692763172,
+      "y": 208.29591836734696,
+      "w": 30,
+      "h": 26,
+      "size": 18,
+      "color": "#000000",
+      "bold": true,
+      "align": "left"
+    },
+    {
+      "kind": "line",
+      "name": "c_fixed_projection_direction_d",
+      "x1": 1070.2561495713112,
+      "y1": 317.76,
+      "x2": 1133.824256012649,
+      "y2": 318.98973308598204,
+      "color": "#000000",
+      "width": 1.9,
+      "dash": false
+    },
+    {
+      "kind": "line",
+      "name": "c_d_arrowhead_-1",
+      "x1": 1126.8932607423058,
+      "y1": 315.35499725479997,
+      "x2": 1133.824256012649,
+      "y2": 318.98973308598204,
+      "color": "#000000",
+      "width": 1.8,
+      "dash": false
+    },
+    {
+      "kind": "line",
+      "name": "c_d_arrowhead_1",
+      "x1": 1126.7578701854973,
+      "y1": 322.3536878035475,
+      "x2": 1133.824256012649,
+      "y2": 318.98973308598204,
+      "color": "#000000",
+      "width": 1.8,
+      "dash": false
+    },
+    {
+      "kind": "text",
+      "name": "c_direction_label",
+      "text": "d",
+      "x": 1138.824256012649,
+      "y": 302.98973308598204,
+      "w": 25,
+      "h": 25,
+      "size": 18,
+      "color": "#000000",
+      "bold": true,
+      "align": "left"
+    },
+    {
+      "kind": "text",
+      "name": "c_local_title",
+      "text": "Local tracks (f43\u201353)",
+      "x": 1012,
+      "y": 410,
+      "w": 320,
+      "h": 26,
+      "size": 18,
+      "color": "#000000",
+      "bold": true,
+      "align": "center"
+    },
+    {
+      "kind": "blockArrow",
+      "name": "c_source_to_local_arrow",
+      "x": 1160,
+      "y": 372,
+      "w": 24,
+      "h": 30,
+      "rotation": 0,
+      "fill": "#A5AEB6",
+      "stroke": "none",
+      "width": 0
+    },
+    {
+      "kind": "image",
+      "name": "c_R20_saved_local_scalar_map",
+      "path": "/Users/lele/Desktop/MergeTreeMaps/paper_revision/evidence/fig1/assets/storms_R20_local_f43_f53.png",
+      "x": 1052,
+      "y": 446,
+      "w": 260,
+      "h": 140
+    },
+    {
+      "kind": "line",
+      "name": "line_103",
+      "x1": 1052,
+      "y1": 446,
+      "x2": 1052,
+      "y2": 586,
+      "color": "#000000",
+      "width": 0.8,
+      "dash": false
+    },
+    {
+      "kind": "line",
+      "name": "line_104",
+      "x1": 1052,
+      "y1": 586,
+      "x2": 1312,
+      "y2": 586,
+      "color": "#000000",
+      "width": 0.8,
+      "dash": false
+    },
+    {
+      "kind": "line",
+      "name": "line_105",
+      "x1": 1048,
+      "y1": 574.323161871549,
+      "x2": 1052,
+      "y2": 574.323161871549,
+      "color": "#000000",
+      "width": 0.8,
+      "dash": false
+    },
+    {
+      "kind": "text",
+      "name": "axis_y_43_0.2",
+      "text": "0.2",
+      "x": 1017,
+      "y": 564.323161871549,
+      "w": 28,
+      "h": 21,
+      "size": 16,
+      "color": "#000000",
+      "bold": false,
+      "align": "right"
+    },
+    {
+      "kind": "line",
+      "name": "line_107",
+      "x1": 1048,
+      "y1": 507.67974426038944,
+      "x2": 1052,
+      "y2": 507.67974426038944,
+      "color": "#000000",
+      "width": 0.8,
+      "dash": false
+    },
+    {
+      "kind": "text",
+      "name": "axis_y_43_0.6",
+      "text": "0.6",
+      "x": 1017,
+      "y": 497.67974426038944,
+      "w": 28,
+      "h": 21,
+      "size": 16,
+      "color": "#000000",
+      "bold": false,
+      "align": "right"
+    },
+    {
+      "kind": "line",
+      "name": "line_109",
+      "x1": 1063.8181818181818,
+      "y1": 586,
+      "x2": 1063.8181818181818,
+      "y2": 590,
+      "color": "#000000",
+      "width": 0.8,
+      "dash": false
+    },
+    {
+      "kind": "text",
+      "name": "axis_frame_43_43",
+      "text": "43",
+      "x": 1040.8181818181818,
+      "y": 592,
+      "w": 46,
+      "h": 22,
+      "size": 16,
+      "color": "#000000",
+      "bold": false,
+      "align": "center"
+    },
+    {
+      "kind": "line",
+      "name": "line_111",
+      "x1": 1182.0,
+      "y1": 586,
+      "x2": 1182.0,
+      "y2": 590,
+      "color": "#000000",
+      "width": 0.8,
+      "dash": false
+    },
+    {
+      "kind": "text",
+      "name": "axis_frame_43_48",
+      "text": "48",
+      "x": 1159.0,
+      "y": 592,
+      "w": 46,
+      "h": 22,
+      "size": 16,
+      "color": "#000000",
+      "bold": false,
+      "align": "center"
+    },
+    {
+      "kind": "line",
+      "name": "line_113",
+      "x1": 1300.1818181818182,
+      "y1": 586,
+      "x2": 1300.1818181818182,
+      "y2": 590,
+      "color": "#000000",
+      "width": 0.8,
+      "dash": false
+    },
+    {
+      "kind": "text",
+      "name": "axis_frame_43_53",
+      "text": "53",
+      "x": 1277.1818181818182,
+      "y": 592,
+      "w": 46,
+      "h": 22,
+      "size": 16,
+      "color": "#000000",
+      "bold": false,
+      "align": "center"
+    },
+    {
+      "kind": "text",
+      "name": "c_time_axis_title",
+      "text": "Time (frame)",
+      "x": 1082,
+      "y": 618,
+      "w": 200,
+      "h": 22,
+      "size": 16,
+      "color": "#000000",
+      "bold": false,
+      "align": "center"
+    },
+    {
+      "kind": "line",
+      "name": "c_f48_true_time_guide",
+      "x1": 1182.0,
+      "y1": 446,
+      "x2": 1182.0,
+      "y2": 586,
+      "color": "#66717A",
+      "width": 0.95,
+      "dash": true
+    },
+    {
+      "kind": "path",
+      "name": "c_actual_track_60_halo_0",
+      "points": [
+        [
+          1182.0,
+          574.323161871549
+        ],
+        [
+          1205.6363636363637,
+          577.7941732054635
+        ],
+        [
+          1229.2727272727273,
+          571.6100114310372
+        ],
+        [
+          1252.909090909091,
+          571.6736700576569
+        ],
+        [
+          1276.5454545454545,
+          571.6736700576569
+        ],
+        [
+          1300.1818181818182,
+          571.7844153343506
+        ]
+      ],
+      "color": "white",
+      "width": 3.9,
+      "dash": false
+    },
+    {
+      "kind": "path",
+      "name": "c_actual_track_60_polyline_0",
+      "points": [
+        [
+          1182.0,
+          574.323161871549
+        ],
+        [
+          1205.6363636363637,
+          577.7941732054635
+        ],
+        [
+          1229.2727272727273,
+          571.6100114310372
+        ],
+        [
+          1252.909090909091,
+          571.6736700576569
+        ],
+        [
+          1276.5454545454545,
+          571.6736700576569
+        ],
+        [
+          1300.1818181818182,
+          571.7844153343506
+        ]
+      ],
+      "color": "#000000",
+      "width": 2.0,
+      "dash": false
+    },
+    {
+      "kind": "ellipse",
+      "name": "c_actual_f48_anchor_A_track60",
+      "x": 1177.7,
+      "y": 570.0231618715491,
+      "w": 8.6,
+      "h": 8.6,
+      "fill": "white",
+      "stroke": "#000000",
+      "width": 1.8
+    },
+    {
+      "kind": "text",
+      "name": "c_local_label_A",
+      "text": "A",
+      "x": 1277.1818181818182,
+      "y": 549.7844153343506,
+      "w": 24,
+      "h": 25,
+      "size": 18,
+      "color": "#000000",
+      "bold": true,
+      "align": "left"
+    },
+    {
+      "kind": "path",
+      "name": "c_actual_track_38_halo_0",
+      "points": [
+        [
+          1063.8181818181818,
+          554.3822720147039
+        ],
+        [
+          1087.4545454545455,
+          540.7528611855249
+        ],
+        [
+          1111.090909090909,
+          524.404605697547
+        ],
+        [
+          1134.7272727272727,
+          523.7797562756709
+        ],
+        [
+          1158.3636363636365,
+          515.4488901764282
+        ],
+        [
+          1182.0,
+          480.6039916464232
+        ],
+        [
+          1205.6363636363637,
+          469.7077233452933
+        ],
+        [
+          1229.2727272727273,
+          461.2607431212846
+        ],
+        [
+          1252.909090909091,
+          455.57508612919077
+        ],
+        [
+          1276.5454545454545,
+          456.26928839597366
+        ],
+        [
+          1300.1818181818182,
+          459.85104500658184
+        ]
+      ],
+      "color": "white",
+      "width": 3.9,
+      "dash": false
+    },
+    {
+      "kind": "path",
+      "name": "c_actual_track_38_polyline_0",
+      "points": [
+        [
+          1063.8181818181818,
+          554.3822720147039
+        ],
+        [
+          1087.4545454545455,
+          540.7528611855249
+        ],
+        [
+          1111.090909090909,
+          524.404605697547
+        ],
+        [
+          1134.7272727272727,
+          523.7797562756709
+        ],
+        [
+          1158.3636363636365,
+          515.4488901764282
+        ],
+        [
+          1182.0,
+          480.6039916464232
+        ],
+        [
+          1205.6363636363637,
+          469.7077233452933
+        ],
+        [
+          1229.2727272727273,
+          461.2607431212846
+        ],
+        [
+          1252.909090909091,
+          455.57508612919077
+        ],
+        [
+          1276.5454545454545,
+          456.26928839597366
+        ],
+        [
+          1300.1818181818182,
+          459.85104500658184
+        ]
+      ],
+      "color": "#000000",
+      "width": 2.0,
+      "dash": false
+    },
+    {
+      "kind": "ellipse",
+      "name": "c_actual_f48_anchor_B_track38",
+      "x": 1177.7,
+      "y": 476.3039916464232,
+      "w": 8.6,
+      "h": 8.6,
+      "fill": "white",
+      "stroke": "#000000",
+      "width": 1.8
+    },
+    {
+      "kind": "text",
+      "name": "c_local_label_B",
+      "text": "B",
+      "x": 1277.1818181818182,
+      "y": 467.85104500658184,
+      "w": 24,
+      "h": 25,
+      "size": 18,
+      "color": "#000000",
+      "bold": true,
+      "align": "left"
+    },
+    {
+      "kind": "path",
+      "name": "c_actual_track_56_halo_0",
+      "points": [
+        [
+          1158.3636363636365,
+          510.2084003449245
+        ],
+        [
+          1182.0,
+          506.4327439520296
+        ],
+        [
+          1205.6363636363637,
+          504.82676266741316
+        ]
+      ],
+      "color": "white",
+      "width": 3.9,
+      "dash": false
+    },
+    {
+      "kind": "path",
+      "name": "c_actual_track_56_polyline_0",
+      "points": [
+        [
+          1158.3636363636365,
+          510.2084003449245
+        ],
+        [
+          1182.0,
+          506.4327439520296
+        ],
+        [
+          1205.6363636363637,
+          504.82676266741316
+        ]
+      ],
+      "color": "#000000",
+      "width": 2.0,
+      "dash": false
+    },
+    {
+      "kind": "ellipse",
+      "name": "c_actual_f48_anchor_C_track56",
+      "x": 1177.7,
+      "y": 502.1327439520296,
+      "w": 8.6,
+      "h": 8.6,
+      "fill": "white",
+      "stroke": "#000000",
+      "width": 1.8
+    },
+    {
+      "kind": "text",
+      "name": "c_local_label_C",
+      "text": "C",
+      "x": 1213.6363636363637,
+      "y": 482.82676266741316,
+      "w": 24,
+      "h": 25,
+      "size": 18,
+      "color": "#000000",
+      "bold": true,
+      "align": "left"
+    }
+  ]
+}

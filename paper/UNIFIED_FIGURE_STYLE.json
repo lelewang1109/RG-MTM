@@ -1,0 +1,233 @@
+{
+  "version": 1,
+  "font": {
+    "family": "Arial",
+    "allowed_styles": [
+      "regular",
+      "bold"
+    ],
+    "italic": false,
+    "subscripts": "same-family native baseline and size, not fallback Unicode glyphs"
+  },
+  "panel_labels": "(a), (b), (c), ...; restart per figure",
+  "feature_labels": "A, B, C, D (identity labels, not panel indices)",
+  "feature_colors": {
+    "A": "#0072B2",
+    "B": "#D55E00",
+    "C": "#009E73",
+    "D": "#CC79A7",
+    "A2 (only if required)": "#56B4E9"
+  },
+  "neutral_colors": {
+    "ink": "#000000",
+    "secondary": "#000000",
+    "grid": "#DFE4E8",
+    "panel": "#F7F9FA",
+    "header": "#E7EDF0"
+  },
+  "comparison_roles": {
+    "LCA filling": "#CC79A7",
+    "optimal filling": "#009E73",
+    "baseline": "#7B8790"
+  },
+  "scientific_scalar_colormaps": "Preserve variable, domain, numerical limits and normalization. Figure 6 uses the viridis positive hue segment for continuous scalar fields/maps, following the comparison design of ST-MTM Figure 2. Figure 7 uses the source prototype's YlOrBr hue family. Other scalar palettes remain unchanged. Identity colors never substitute for scalar values.",
+  "legacy_palette_correspondence": {
+    "Fig2": {
+      "347ED9": "A",
+      "39B59F": "B",
+      "ED6B65": "C",
+      "B38EDC": "internal subgroup (grey)",
+      "F4BF57": "trunk (grey)"
+    },
+    "Fig3": {
+      "4C86A5": "A",
+      "72A58A": "B",
+      "9A80B4": "C",
+      "CF8960": "D"
+    },
+    "Fig4": {
+      "178AC3": "A",
+      "CF6D9F": "B",
+      "12A282": "C"
+    }
+  },
+  "scope": {
+    "main_figures": 11,
+    "supplementary_figures": 15
+  },
+  "invariants": [
+    "No experimental values or original result records changed",
+    "Scientific coordinates and within-group geometry preserved under display transforms",
+    "Selected Figure 5 data pixels retained",
+    "Same branches retain their identities through layouts and time"
+  ],
+  "standalone_figure_titles": false,
+  "figure6_display": {
+    "palette": [
+      "#2A788E",
+      "#22A884",
+      "#7AD151",
+      "#FDE725"
+    ],
+    "scalar_range": [
+      0,
+      1.05
+    ],
+    "layout": "Six source fields with d-axis projections above TMTM/ST-MTM/RG-MTM-R comparisons; restored as a main double-column figure using the latest reviewed PPT.",
+    "coordinate_semantics": "TMTM/ST-MTM: native map ordinate normalized to [0,1]. RG-MTM-R: source x [0,120].",
+    "curves": "Temporal bands are scalar-image data, with no overlaid trajectory curves; endpoint labels use saved native anchors.",
+    "palette_name": "viridis positive segment [0.4,1], linear scalar normalization [0,1.05]",
+    "rendering": "Latest reviewed full six-source/three-method master; projection guides, source-peak symbols, font and color as reviewed in the separate Figure 6 chat.",
+    "reference_design": {
+      "paper": "Spatiotemporal Merge Tree Maps: A Topology and Geometry Aware Visualization for Temporal Scalar Data",
+      "figure": 2,
+      "local_pdf_page": 4,
+      "local_pdf_sha256": "9f9da0e8dda3e92dded7c59492b3c4a729761b9f712ca2631c2eaa88c390b2aa",
+      "adaptation": "Continuous source fields and scalar temporal maps; feature labels rather than source point glyphs. The saved bisector-control field, nonnegative values, Gaussian widths, anchor coordinates and metrics remain unchanged. The reference paper's negative-valued region is not copied into this separate control."
+    },
+    "identity_label_color": "#000000"
+  },
+  "feature_label_color_overrides": {
+    "Fig6": {
+      "A": "#000000",
+      "B": "#000000",
+      "C": "#000000",
+      "scope": "All native text is black Arial; projection markers use the corresponding scalar source-peak color and black guides, following the latest dedicated figure review."
+    },
+    "Fig4": {
+      "A": "#000000",
+      "B": "#000000",
+      "C": "#000000",
+      "scope": "Reviewed native text is black; scientific branch and block identity colors are retained."
+    }
+  },
+  "additional_dataset_figures": {
+    "Fig8": "Nucleon: one static 2-D slice, P/R complete profile, two labelled source windows.",
+    "Fig9": "Benzene: reconstructed static 2-D potential; five z sections with shared coolwarm SymLog scale.",
+    "Fig11": "Cylinder: coolwarm fixed SymLog Q; original-grid isosurfaces and shared physical frame."
+  },
+  "figure4_display": {
+    "text_color": "#000000",
+    "font_family": "Arial",
+    "allowed_styles": [
+      "regular",
+      "bold"
+    ],
+    "text_hierarchy": "font size and bold only, including identities, axes, formulas, annotations and legends",
+    "annotations": "Each filling panel has its own baseline/method legend, d_top formula and gamma definition in its upper-right corner. No footer legend.",
+    "geometry": "Saved curve vertices and scalar differences unchanged; both curve plots translated downward by 55 CSS pixels; canvas 900 x 575.",
+    "order_exchange": "Upper B connects to lower B with an orange arrow, and upper C connects to lower C with a green arrow. Native attached connectors cross to show the swap; all text remains black Arial."
+  },
+  "figure7_display": {
+    "layout": "Full/local maps above; three equal-sized raw snapshots across the bottom; no lower-right statistics or color bar",
+    "scalar_palette": [
+      "#FFFFFF",
+      "#FFF7BC",
+      "#FEE391",
+      "#FEC44F",
+      "#FE9929",
+      "#EC7014",
+      "#CC4C02",
+      "#993404",
+      "#662506"
+    ],
+    "negative_connections": "#D9E2E9",
+    "processed_range": [
+      0,
+      4.207268782981147
+    ],
+    "raw_range": [
+      0,
+      12.050886763399191
+    ],
+    "normalization": "linear, fixed across methods and frames",
+    "palette_name": "YlOrBr family, white low endpoint",
+    "palette_source": {
+      "paper": "Franke et al., Visual Analysis of Spatio-temporal Phenomena with 1D Projections, CGF 2021",
+      "url": "https://github.com/UniStuttgart-VISUS/spatiotemporal1d/blob/656e601a0a7328b29362c389756ca067d7adaf52/src/wildfire-vis.ts",
+      "implementation": "D3 interpolateYlOrBr with white below first threshold",
+      "original_raw_MW_thresholds": [
+        3,
+        9,
+        27,
+        81,
+        243,
+        729,
+        2187,
+        6561,
+        19683,
+        59049,
+        177147
+      ],
+      "adaptation": "Adopt hue family and white low background; retain this paper's existing continuous linear normalization of log1p values and separate raw/processed limits. Original MW thresholds are not applied to processed data."
+    }
+  },
+  "main_column_placement": {
+    "single": [
+      2,
+      4,
+      8
+    ],
+    "double": [
+      1,
+      3,
+      5,
+      6,
+      7,
+      9,
+      10,
+      11
+    ]
+  },
+  "main_results_visibility": "Planar dataset plots (7--9) precede volumetric dataset plots (10--11). Figure6 retains the complete method comparison.",
+  "helper_text": "Delete gray explanatory subtitles and inline metric footnotes; retain necessary scientific axes, ticks and units in black.",
+  "figure10_layout": "Full/local maps above; three framed 3D snapshots across the bottom; no lower-right statistics block or color bar.",
+  "figure10_palette": {
+    "name": "author purple-white-orange/brown",
+    "source": "https://github.com/Wiebke/TemporalMergeTreeMaps/blob/2c75a10ed2cd55177a25ff751e0c0a8261200717/modules/mergetreemaps/data/workspaces/sequence_tangaroa_volRendering.inv",
+    "range": [
+      0,
+      2
+    ],
+    "verified_all_six_scalar_maps_and_three_volumes": true,
+    "provider_thumbnail_is_vorticity_not_speed": true
+  },
+  "dimensional_groups": {
+    "planar": [
+      "Storms",
+      "Wildfires",
+      "OLR",
+      "PM2.5",
+      "Ring",
+      "Gaussian",
+      "Nucleon",
+      "Benzene"
+    ],
+    "volumetric": [
+      "Tangaroa",
+      "Cylinder"
+    ],
+    "planar_main_tables": [
+      1,
+      2
+    ],
+    "volumetric_main_table": 3
+  },
+  "compact_review_20261022": {
+    "main_figures_reflowed": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "Figure8_panels": [
+      "(a) Source field",
+      "(b) RG-MTM-P / R"
+    ],
+    "scientific_assets": "Original embedded media bytes retained; only display geometry and redundant annotations changed",
+    "text": "Arial regular/bold with sufficient gaps between ticks, labels, and panels"
+  }
+}

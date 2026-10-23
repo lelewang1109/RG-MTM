@@ -1,0 +1,434 @@
+{
+  "display_revision_only": true,
+  "frames": [
+    17,
+    18,
+    19
+  ],
+  "tracks": [
+    3,
+    48,
+    52
+  ],
+  "source": "Franke et al., hierarchically aggregated satellite FRP, supplied 10 km cells",
+  "source_sha256": {
+    "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/real/wildfire/wildfire.json": "2a8dd31bf6d222d7de673c7e7b2af94550660f1996b0a5db256d97f2b9c2ed9f",
+    "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/code/results/real_case_studies/evidence/wildfire.npz": "1bb6b2e907b8be9e4dd424ade3b3e68adbb70c806c675b08bc0ee99f65f93feb",
+    "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/code/results/real_case_studies/evidence/wildfire.json": "3d5f4cc0341749201e376f17191e6ab933a5906185626aaf6774d7adab099c80",
+    "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/code/results/real_case_studies/evidence/wildfire_event.json": "bc9a741be36faa9f21efd18c6bad53f36891d659b9e8b1d4de5f2626cd34f5b5",
+    "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/geo/wildfire_context/australia_admin1.geojson": "9baf965a96eef53004360b17e4ea2e3a85d1de83ee3c3eaedb31f0e0a8942b4e",
+    "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/data/geo/wildfire_context/source.json": "6734fd56bb68b2ee150c12b338c9b7f2941f55f79f2ed82a013d38662b076ba5"
+  },
+  "projection": {
+    "type": "existing equirectangular coordinates",
+    "cos_phi0": 0.8428449975274017,
+    "x0_km": 13160.951216013425,
+    "y0_km": -4274.791808586651,
+    "side_km": 1298.3527628070003,
+    "extent_lonlat": [
+      [
+        140.2705074543924,
+        -38.661407330981746
+      ],
+      [
+        154.10845867118266,
+        -26.919047171743248
+      ]
+    ]
+  },
+  "analysis": {
+    "grid": 64,
+    "cell_km": 20.28676191885938,
+    "sigma_cells": 2.5,
+    "sigma_km": 50.71690479714845,
+    "background": "1e-3 * ptp(smoothed) * Gaussian(raw_log, sigma=16, truncate=50) / maximum",
+    "raw_grid_exact": true,
+    "processed_exact": true
+  },
+  "snapshots": [
+    {
+      "frame": 17,
+      "date_start": "2019-12-05",
+      "date_end": "2019-12-06",
+      "positive_source_cells": 283,
+      "positive_64_grid_cells": 141
+    },
+    {
+      "frame": 18,
+      "date_start": "2019-12-07",
+      "date_end": "2019-12-08",
+      "positive_source_cells": 221,
+      "positive_64_grid_cells": 120
+    },
+    {
+      "frame": 19,
+      "date_start": "2019-12-09",
+      "date_end": "2019-12-10",
+      "positive_source_cells": 206,
+      "positive_64_grid_cells": 111
+    }
+  ],
+  "source_color_range": [
+    0,
+    12.050886763399191
+  ],
+  "analysis_color_range": [
+    0,
+    4.207268782981147
+  ],
+  "markers": [
+    {
+      "frame": 17,
+      "analysis": false,
+      "label": "A",
+      "track": 3,
+      "layout_xy": [
+        105.9375,
+        90.9375
+      ],
+      "lonlat": [
+        152.48682376296503,
+        -29.76290002280882
+      ],
+      "slide_xy": [
+        254.21875,
+        388.28125
+      ]
+    },
+    {
+      "frame": 17,
+      "analysis": false,
+      "label": "B",
+      "track": 48,
+      "layout_xy": [
+        66.5625,
+        12.1875
+      ],
+      "lonlat": [
+        147.94624601995574,
+        -37.468823877309084
+      ],
+      "slide_xy": [
+        182.03125,
+        532.65625
+      ]
+    },
+    {
+      "frame": 17,
+      "analysis": false,
+      "label": "C",
+      "track": 52,
+      "layout_xy": [
+        40.3125,
+        96.5625
+      ],
+      "lonlat": [
+        144.91919419128286,
+        -29.21247689034452
+      ],
+      "slide_xy": [
+        133.90625,
+        377.96875
+      ]
+    },
+    {
+      "frame": 18,
+      "analysis": false,
+      "label": "A",
+      "track": 3,
+      "layout_xy": [
+        105.9375,
+        92.8125
+      ],
+      "lonlat": [
+        152.48682376296503,
+        -29.579425645320722
+      ],
+      "slide_xy": [
+        537.21875,
+        384.84375
+      ]
+    },
+    {
+      "frame": 18,
+      "analysis": false,
+      "label": "B",
+      "track": 48,
+      "layout_xy": [
+        66.5625,
+        12.1875
+      ],
+      "lonlat": [
+        147.94624601995574,
+        -37.468823877309084
+      ],
+      "slide_xy": [
+        465.03125,
+        532.65625
+      ]
+    },
+    {
+      "frame": 18,
+      "analysis": false,
+      "label": "C",
+      "track": 52,
+      "layout_xy": [
+        40.3125,
+        96.5625
+      ],
+      "lonlat": [
+        144.91919419128286,
+        -29.21247689034452
+      ],
+      "slide_xy": [
+        416.90625,
+        377.96875
+      ]
+    },
+    {
+      "frame": 19,
+      "analysis": false,
+      "label": "A",
+      "track": 3,
+      "layout_xy": [
+        102.1875,
+        77.8125
+      ],
+      "lonlat": [
+        152.05438778744036,
+        -31.04722066522553
+      ],
+      "slide_xy": [
+        813.34375,
+        412.34375
+      ]
+    },
+    {
+      "frame": 19,
+      "analysis": false,
+      "label": "B",
+      "track": 48,
+      "layout_xy": [
+        66.5625,
+        12.1875
+      ],
+      "lonlat": [
+        147.94624601995574,
+        -37.468823877309084
+      ],
+      "slide_xy": [
+        748.03125,
+        532.65625
+      ]
+    },
+    {
+      "frame": 19,
+      "analysis": false,
+      "label": "C",
+      "track": 52,
+      "layout_xy": [
+        40.3125,
+        96.5625
+      ],
+      "lonlat": [
+        144.91919419128286,
+        -29.21247689034452
+      ],
+      "slide_xy": [
+        699.90625,
+        377.96875
+      ]
+    },
+    {
+      "frame": 17,
+      "analysis": true,
+      "label": "A",
+      "track": 3,
+      "layout_xy": [
+        105.9375,
+        90.9375
+      ],
+      "lonlat": [
+        152.48682376296503,
+        -29.76290002280882
+      ],
+      "slide_xy": [
+        254.21875,
+        733.28125
+      ]
+    },
+    {
+      "frame": 17,
+      "analysis": true,
+      "label": "B",
+      "track": 48,
+      "layout_xy": [
+        66.5625,
+        12.1875
+      ],
+      "lonlat": [
+        147.94624601995574,
+        -37.468823877309084
+      ],
+      "slide_xy": [
+        182.03125,
+        877.65625
+      ]
+    },
+    {
+      "frame": 17,
+      "analysis": true,
+      "label": "C",
+      "track": 52,
+      "layout_xy": [
+        40.3125,
+        96.5625
+      ],
+      "lonlat": [
+        144.91919419128286,
+        -29.21247689034452
+      ],
+      "slide_xy": [
+        133.90625,
+        722.96875
+      ]
+    },
+    {
+      "frame": 18,
+      "analysis": true,
+      "label": "A",
+      "track": 3,
+      "layout_xy": [
+        105.9375,
+        92.8125
+      ],
+      "lonlat": [
+        152.48682376296503,
+        -29.579425645320722
+      ],
+      "slide_xy": [
+        537.21875,
+        729.84375
+      ]
+    },
+    {
+      "frame": 18,
+      "analysis": true,
+      "label": "B",
+      "track": 48,
+      "layout_xy": [
+        66.5625,
+        12.1875
+      ],
+      "lonlat": [
+        147.94624601995574,
+        -37.468823877309084
+      ],
+      "slide_xy": [
+        465.03125,
+        877.65625
+      ]
+    },
+    {
+      "frame": 18,
+      "analysis": true,
+      "label": "C",
+      "track": 52,
+      "layout_xy": [
+        40.3125,
+        96.5625
+      ],
+      "lonlat": [
+        144.91919419128286,
+        -29.21247689034452
+      ],
+      "slide_xy": [
+        416.90625,
+        722.96875
+      ]
+    },
+    {
+      "frame": 19,
+      "analysis": true,
+      "label": "A",
+      "track": 3,
+      "layout_xy": [
+        102.1875,
+        77.8125
+      ],
+      "lonlat": [
+        152.05438778744036,
+        -31.04722066522553
+      ],
+      "slide_xy": [
+        813.34375,
+        757.34375
+      ]
+    },
+    {
+      "frame": 19,
+      "analysis": true,
+      "label": "B",
+      "track": 48,
+      "layout_xy": [
+        66.5625,
+        12.1875
+      ],
+      "lonlat": [
+        147.94624601995574,
+        -37.468823877309084
+      ],
+      "slide_xy": [
+        748.03125,
+        877.65625
+      ]
+    },
+    {
+      "frame": 19,
+      "analysis": true,
+      "label": "C",
+      "track": 52,
+      "layout_xy": [
+        40.3125,
+        96.5625
+      ],
+      "lonlat": [
+        144.91919419128286,
+        -29.21247689034452
+      ],
+      "slide_xy": [
+        699.90625,
+        722.96875
+      ]
+    }
+  ],
+  "pairs": [
+    {
+      "pair": "AB",
+      "source": 0.060799693879450493,
+      "P": 0.060799693879450493,
+      "R": -0.5742620829234841
+    },
+    {
+      "pair": "AC",
+      "source": 0.0036173000043960707,
+      "P": 0.0036173000043960707,
+      "R": 0.0011437994999446977
+    },
+    {
+      "pair": "BC",
+      "source": 0.0036173000043960707,
+      "P": 0.0036173000043960707,
+      "R": -0.5742620829234841
+    }
+  ],
+  "interpretation": "Actual supplied cell polygons, no interpolation of source observations. Analysis smoothing is explicitly separate. Zero source cells are omitted. No fire boundary or burned area is inferred.",
+  "basemap_source": {
+    "source": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_admin_1_states_provinces.geojson",
+    "description": "Natural Earth 1:10m admin-1 polygons, Australia subset",
+    "license": "public domain",
+    "download_sha256": "22d0e3ad85eb3e27f17cabf8ba2d50e554fbc27a87796ff891d958185da62fb5",
+    "subset_sha256": "9baf965a96eef53004360b17e4ea2e3a85d1de83ee3c3eaedb31f0e0a8942b4e",
+    "features": 11
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "source": "/Users/lele/Downloads/TMTM_STMTM_%E5%85%A8%E5%BD%A2%E7%8A%B6%E5%8F%AF%E7%BC%96%E8%BE%91%E6%B5%81%E7%A8%8B%E5%9B%BE.pptx",
+  "source_sha256": "75efd9b824c614d3b1a04602a89f071d546964d820f153d3c5a74a5fc7f75b63",
+  "ppt": "figures_ppt/Prior_Work_Overview.pptx",
+  "asset": "figures/Prior_Work_Overview.pdf",
+  "label": "fig:prior_work",
+  "placement": "Section 3.1: From Augmented Trees to Temporal Maps",
+  "manuscript_column": "single",
+  "source_attribution": {
+    "TMTM_path": "ST-MTM Fig.1 and TMTM original",
+    "ST_MTM_path": "ST-MTM Fig.3 and Section 4"
+  },
+  "native_shapes": 756,
+  "raster_layers": 0,
+  "scientific_results_changed": false,
+  "combined_slide_count": 7,
+  "combined_display_position": 2,
+  "original_six_slide_parts_byte_identical": true,
+  "combined_sha256": "a2cc7f14b7b94ed7933e72f5e15e3bddc2387562cd76b9f927d5753c8dc2a4d9",
+  "manuscript_figure_number": 2,
+  "manuscript_page": 2,
+  "main_pdf_pages": 12,
+  "single_column_verified": true,
+  "primary_reference_review": "ST-MTM local PDF pages 3--5: Figure 1, Figure 3, Sections 3.2 and 4.1--4.2"
+}

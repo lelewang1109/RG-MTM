@@ -1,0 +1,16 @@
+{
+  "source_sha256": "85d8bdf9309f88f8aabe81e8003757c1e10eb2162ed476e5793e406d5c49182b",
+  "original_entry_count": 257,
+  "original_entries_preserved": 254,
+  "changed_original_parts": [
+    "ppt/slides/slide1.xml",
+    "ppt/slides/_rels/slide1.xml.rels",
+    "[Content_Types].xml"
+  ],
+  "added_parts": 37,
+  "slide_2_to_6_and_original_resources_byte_identical": true,
+  "slide_count": 6,
+  "groups": 3,
+  "native_shapes": 121,
+  "raster_data_layers": 8
+}

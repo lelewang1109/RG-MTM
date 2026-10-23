@@ -1,0 +1,42 @@
+{
+  "frames": 614,
+  "active_planar_datasets": [
+    "era5",
+    "wildfire",
+    "olr",
+    "pm25",
+    "ring"
+  ],
+  "frontier": {
+    "era5": {
+      "frames": 118,
+      "on_frontier_R20": 118,
+      "conflict_frames": 40
+    },
+    "wildfire": {
+      "frames": 30,
+      "on_frontier_R20": 28,
+      "conflict_frames": 19
+    },
+    "olr": {
+      "frames": 60,
+      "on_frontier_R20": 60,
+      "conflict_frames": 7
+    },
+    "pm25": {
+      "frames": 366,
+      "on_frontier_R20": 366,
+      "conflict_frames": 36
+    },
+    "ring": {
+      "frames": 40,
+      "on_frontier_R20": 39,
+      "conflict_frames": 21
+    }
+  },
+  "R20_on_frontier": 611,
+  "conflict_frames_total": 123,
+  "primary_datasets": 9,
+  "temporal_frames": 917,
+  "static_sections": 22
+}

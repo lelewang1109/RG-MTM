@@ -1,0 +1,75 @@
+{
+  "scientific_arrays_modified": false,
+  "snapshots": {
+    "Wildfires": {
+      "frames": [
+        13,
+        17,
+        18,
+        19,
+        23
+      ],
+      "source_sha256": "1bb6b2e907b8be9e4dd424ade3b3e68adbb70c806c675b08bc0ee99f65f93feb",
+      "raw_range": [
+        0,
+        12.050886763399191
+      ]
+    },
+    "Nucleon": {
+      "single_static_input": true,
+      "source_sha256": "54f7502c95d052285d4dbec3f018813ae0980dcdba7049788bb503ec85388198",
+      "local_windows_xy": [
+        [
+          16,
+          39,
+          16,
+          39
+        ],
+        [
+          28,
+          51,
+          16,
+          39
+        ]
+      ],
+      "normalization": [
+        0,
+        247
+      ]
+    },
+    "Benzene": {
+      "section_indices": [
+        0,
+        5,
+        10,
+        15,
+        20
+      ],
+      "z_bohr": [
+        -2,
+        -1,
+        0,
+        1,
+        2
+      ],
+      "source_sha256": "e44cdefde1bad99fe16f9907350aaf89e50cd5ab2fca1474d2172b5edd5dbb69",
+      "normalization": {
+        "normalization": "shared symmetric logarithmic",
+        "linthresh_potential_au": 0.07842339515686035,
+        "vmin": -2.2076358795166016,
+        "vmax": 2.2076358795166016,
+        "scalar_arrays_modified": false,
+        "minima_markers": "all retained leaves, including boundary leaves",
+        "source_slice_indices": [
+          0,
+          5,
+          10,
+          15,
+          20
+        ],
+        "map_sampling": "full maps interpolated onto 32768 common display coordinates",
+        "physical_time": false
+      }
+    }
+  }
+}

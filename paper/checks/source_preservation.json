@@ -1,0 +1,17 @@
+{
+  "protected_results": {
+    "count": 177,
+    "all_unchanged": true,
+    "failed": []
+  },
+  "source_code_sha256": {
+    "count": 208,
+    "all_unchanged": true,
+    "failed": []
+  },
+  "previous_manuscript_sha256": {
+    "count": 51,
+    "all_unchanged": true,
+    "failed": []
+  }
+}

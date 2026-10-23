@@ -1,0 +1,471 @@
+{
+  "source_arrays_modified": false,
+  "scientific_metrics_recomputed": false,
+  "source_hashes": {
+    "02-RG-MTM/data/real/paper1_suite/square-cylinder3d/source_fields.npy": "90548c98755349e813d73eff685a1680146de34d021dd89dd7865debfafcfeca",
+    "02-RG-MTM/data/real/paper1_suite/nucleon/source_fields.npy": "54f7502c95d052285d4dbec3f018813ae0980dcdba7049788bb503ec85388198"
+  },
+  "Cylinder": {
+    "frames": [
+      0,
+      51,
+      101
+    ],
+    "shape_tzyx": [
+      102,
+      48,
+      64,
+      135
+    ],
+    "normalization": {
+      "normalization": "shared symmetric logarithmic",
+      "linear_threshold_Q": 0.02,
+      "vmin": -20.46343994140625,
+      "vmax": 20.46343994140625,
+      "scalar_arrays_modified": false,
+      "source_figure": "orthogonal source-volume planes; each displayed plane is not a timestep",
+      "maps": "2048-row display previews plus every preserved extremum marker; metrics use full arrays"
+    },
+    "surfaces": [
+      {
+        "frame": 0,
+        "source_frame_sha256": "3c4eec486fc52b3267e7fcc99c49b5517e950ea6879038f8b5ec0760070e4297",
+        "levels": [
+          {
+            "Q": 0.1,
+            "alpha": 0.18,
+            "vertices": 2088,
+            "triangles": 4128
+          },
+          {
+            "Q": 0.5,
+            "alpha": 0.9,
+            "vertices": 2086,
+            "triangles": 4120
+          }
+        ],
+        "image_size": [
+          1000,
+          570
+        ],
+        "corners_xyz": [
+          [
+            -2.450261780104711,
+            -4.0,
+            0.0
+          ],
+          [
+            -2.450261780104711,
+            -4.0,
+            6.0
+          ],
+          [
+            -2.450261780104711,
+            4.0,
+            0.0
+          ],
+          [
+            -2.450261780104711,
+            4.0,
+            6.0
+          ],
+          [
+            20.0,
+            -4.0,
+            0.0
+          ],
+          [
+            20.0,
+            -4.0,
+            6.0
+          ],
+          [
+            20.0,
+            4.0,
+            0.0
+          ],
+          [
+            20.0,
+            4.0,
+            6.0
+          ]
+        ],
+        "projected_xy_pixels": [
+          [
+            190.25107335152643,
+            340.5118720661294
+          ],
+          [
+            190.25107335152643,
+            191.65553808946197
+          ],
+          [
+            280.7177120941459,
+            267.8358206127862
+          ],
+          [
+            280.7177120941459,
+            118.97948663611874
+          ],
+          [
+            734.6876933112595,
+            435.6151079584755
+          ],
+          [
+            734.6876933112595,
+            286.7587739818081
+          ],
+          [
+            825.154332053879,
+            362.9390565051324
+          ],
+          [
+            825.154332053879,
+            214.08272252846496
+          ]
+        ],
+        "file": "assets/Cylinder_source_f0.png"
+      },
+      {
+        "frame": 51,
+        "source_frame_sha256": "dfaa0341cf4a854ecce88a251c174c54640445a446e4d94e43e59965abca1b55",
+        "levels": [
+          {
+            "Q": 0.1,
+            "alpha": 0.18,
+            "vertices": 17914,
+            "triangles": 35448
+          },
+          {
+            "Q": 0.5,
+            "alpha": 0.9,
+            "vertices": 9130,
+            "triangles": 18060
+          }
+        ],
+        "image_size": [
+          1000,
+          570
+        ],
+        "corners_xyz": [
+          [
+            -2.450261780104711,
+            -4.0,
+            0.0
+          ],
+          [
+            -2.450261780104711,
+            -4.0,
+            6.0
+          ],
+          [
+            -2.450261780104711,
+            4.0,
+            0.0
+          ],
+          [
+            -2.450261780104711,
+            4.0,
+            6.0
+          ],
+          [
+            20.0,
+            -4.0,
+            0.0
+          ],
+          [
+            20.0,
+            -4.0,
+            6.0
+          ],
+          [
+            20.0,
+            4.0,
+            0.0
+          ],
+          [
+            20.0,
+            4.0,
+            6.0
+          ]
+        ],
+        "projected_xy_pixels": [
+          [
+            190.25107335152643,
+            340.5118720661294
+          ],
+          [
+            190.25107335152643,
+            191.65553808946197
+          ],
+          [
+            280.7177120941459,
+            267.8358206127862
+          ],
+          [
+            280.7177120941459,
+            118.97948663611874
+          ],
+          [
+            734.6876933112595,
+            435.6151079584755
+          ],
+          [
+            734.6876933112595,
+            286.7587739818081
+          ],
+          [
+            825.154332053879,
+            362.9390565051324
+          ],
+          [
+            825.154332053879,
+            214.08272252846496
+          ]
+        ],
+        "file": "assets/Cylinder_source_f51.png"
+      },
+      {
+        "frame": 101,
+        "source_frame_sha256": "22fc19092aa425badb5cab5dc91ee5e50cb4898d1a1888855c908cafa520f333",
+        "levels": [
+          {
+            "Q": 0.1,
+            "alpha": 0.18,
+            "vertices": 30753,
+            "triangles": 60986
+          },
+          {
+            "Q": 0.5,
+            "alpha": 0.9,
+            "vertices": 11002,
+            "triangles": 21742
+          }
+        ],
+        "image_size": [
+          1000,
+          570
+        ],
+        "corners_xyz": [
+          [
+            -2.450261780104711,
+            -4.0,
+            0.0
+          ],
+          [
+            -2.450261780104711,
+            -4.0,
+            6.0
+          ],
+          [
+            -2.450261780104711,
+            4.0,
+            0.0
+          ],
+          [
+            -2.450261780104711,
+            4.0,
+            6.0
+          ],
+          [
+            20.0,
+            -4.0,
+            0.0
+          ],
+          [
+            20.0,
+            -4.0,
+            6.0
+          ],
+          [
+            20.0,
+            4.0,
+            0.0
+          ],
+          [
+            20.0,
+            4.0,
+            6.0
+          ]
+        ],
+        "projected_xy_pixels": [
+          [
+            190.25107335152643,
+            340.5118720661294
+          ],
+          [
+            190.25107335152643,
+            191.65553808946197
+          ],
+          [
+            280.7177120941459,
+            267.8358206127862
+          ],
+          [
+            280.7177120941459,
+            118.97948663611874
+          ],
+          [
+            734.6876933112595,
+            435.6151079584755
+          ],
+          [
+            734.6876933112595,
+            286.7587739818081
+          ],
+          [
+            825.154332053879,
+            362.9390565051324
+          ],
+          [
+            825.154332053879,
+            214.08272252846496
+          ]
+        ],
+        "file": "assets/Cylinder_source_f101.png"
+      }
+    ],
+    "camera": {
+      "projection": "orthographic",
+      "elevation": 22,
+      "azimuth": -65,
+      "physical_box_aspect": [
+        1.9497031364308166,
+        0.694763617646056,
+        0.521072713234542
+      ]
+    },
+    "isosurface_input": "raw Q before persistence simplification; time maps display common TTK-processed fields and rendered barrier changes"
+  },
+  "Nucleon": {
+    "source_shape_yx": [
+      64,
+      64
+    ],
+    "scalar_range": [
+      0,
+      247
+    ],
+    "normalization": "linear",
+    "profiles": [
+      {
+        "method": "TMTM",
+        "source_array": "02-RG-MTM/data/real/paper1_suite/nucleon/maps/TMTM_000.npy",
+        "sha256": "8684aa63853ea52cc65f387f67f12aaabfca911a2fc0b6a952cc9fdce997bcf7",
+        "samples": 4096,
+        "scalar_conversion": "-f_join *247",
+        "all_samples_plotted": true
+      },
+      {
+        "method": "RG-MTM-P",
+        "source_array": "02-RG-MTM/data/real/paper1_suite/nucleon/maps/RG-MTM-P_000.npy",
+        "sha256": "b1c011461b7ec8694f253cd8802bf2f03376cdb9d99b684821aa04a26d961f53",
+        "samples": 32768,
+        "scalar_conversion": "-f_join *247",
+        "all_samples_plotted": true
+      }
+    ],
+    "R_profiles_identical_to_P": true
+  },
+  "Benzene": {
+    "reconstruction": true,
+    "physical_time": false,
+    "input_shape_tyx": [
+      21,
+      61,
+      61
+    ],
+    "display_normalization": {
+      "normalization": "shared symmetric logarithmic",
+      "linthresh_potential_au": 0.07842339515686035,
+      "vmin": -2.2076358795166016,
+      "vmax": 2.2076358795166016,
+      "scalar_arrays_modified": false,
+      "minima_markers": "all retained leaves, including boundary leaves",
+      "source_slice_indices": [
+        0,
+        5,
+        10,
+        15,
+        20
+      ],
+      "map_sampling": "full maps interpolated onto 32768 common display coordinates",
+      "physical_time": false
+    },
+    "source_array_sha256": "e44cdefde1bad99fe16f9907350aaf89e50cd5ab2fca1474d2172b5edd5dbb69",
+    "full_profile_hashes": {
+      "02-RG-MTM/data/real/paper1_suite/benzene-potential-reconstructed2d/maps/TMTM_000.npy": "50df95bac177de9ebf5649715d7410fe7d90b0bbbc0c78fcfd6e70785527a38a",
+      "02-RG-MTM/data/real/paper1_suite/benzene-potential-reconstructed2d/maps/TMTM_001.npy": "ee4a3ace63afb6dc28482a30756447b8a07799e56470055ea4f82c9c77872b9b",
+      "02-RG-MTM/data/real/paper1_suite/benzene-potential-reconstructed2d/maps/TMTM_002.npy": "55006c8ea7061571e640610963340f2df1a67ccb740d0f8b45e50eeefe070358",
+      "02-RG-MTM/data/real/paper1_suite/benzene-potential-reconstructed2d/maps/TMTM_003.npy": "3a8dd8722a0df4c291dc734246c9acced943d2a84a7e443affecbce103d24773",
+      "02-RG-MTM/data/real/paper1_suite/benzene-potential-reconstructed2d/maps/TMTM_004.npy": "6123b7dec0f370acba90f76978d9ea5d642fa6d9ed38e22aab96d6fbd1112a62",
+      "02-RG-MTM/data/real/paper1_suite/benzene-potential-reconstructed2d/maps/TMTM_005.npy": "a5aa87a69bce45d3a81805d4488cd3877da74338004a05be0b8a3240185220c2",
+      "02-RG-MTM/data/real/paper1_suite/benzene-potential-reconstructed2d/maps/TMTM_006.npy": "bc12f78247112756780c02b9c2410a1bdfe4a24c2662f3b1c76f3846f5295a60",
+      "02-RG-MTM/data/real/paper1_suite/benzene-potential-reconstructed2d/maps/TMTM_007.npy": "1457d15a493da47b4d7c51f39ee66ed300194cc444c77e7dac388727e8236afb",
+      "02-RG-MTM/data/real/paper1_suite/benzene-potential-reconstructed2d/maps/TMTM_008.npy": "f1fabc0beb14a9adc52b3a4dc62795d4240906275583ff8246bc5f3a49b810c5",
+      "02-RG-MTM/data/real/paper1_suite/benzene-potential-reconstructed2d/maps/TMTM_009.npy": "abd23ad65bb32d49eaf8c79ee019a4079162f86c1bb8af0f39de422f8da7f8cf",
+      "02-RG-MTM/data/real/paper1_suite/benzene-potential-reconstructed2d/maps/TMTM_010.npy": "28587dd80de78d95414313c484e4d9f5653013a6a9563b06f110e0f7b031cd10",
+      "02-RG-MTM/data/real/paper1_suite/benzene-potential-reconstructed2d/maps/TMTM_011.npy": "8a3ed9b79e377eec0504a8a91d0b215b1ad5b39d8ee4b084491fe56b63027014",
+      "02-RG-MTM/data/real/paper1_suite/benzene-potential-reconstructed2d/maps/TMTM_012.npy": "421d0eb5633fe1f91e399cbdfb7b74b5465509ac5a46170d367511b5643cbef5",
+      "02-RG-MTM/data/real/paper1_suite/benzene-potential-reconstructed2d/maps/TMTM_013.npy": "94cbf3ebaf2b78ac0e75e3458788d832605a338b14f3f4792c531390f76c7e76",
+      "02-RG-MTM/data/real/paper1_suite/benzene-potential-reconstructed2d/maps/TMTM_014.npy": "91d77fbcf4f42deaade7119dcb041dbf126cb1f8f6361f816e6c24fdb49b28de",
+      "02-RG-MTM/data/real/paper1_suite/benzene-potential-reconstructed2d/maps/TMTM_015.npy": "69d4a97bec44e459fb0d93825ada5ff9e8795d7104c89a3c26ed1e46146ad074",
+      "02-RG-MTM/data/real/paper1_suite/benzene-potential-reconstructed2d/maps/TMTM_016.npy": "bf0fa23b53aaa2c95b79fb8eaa82d319709ee77181a087fef05ac88acd778c95",
+      "02-RG-MTM/data/real/paper1_suite/benzene-potential-reconstructed2d/maps/TMTM_017.npy": "a8ecab0c28dd64eea8bf8610b8b205d6494ec51f00e5781248fb67ed1eabaaa9",
+      "02-RG-MTM/data/real/paper1_suite/benzene-potential-reconstructed2d/maps/TMTM_018.npy": "6790f05468b45d7abdd53b5362b3b2a31edb45c0d80f555b79ea86e8cf5291e1",
+      "02-RG-MTM/data/real/paper1_suite/benzene-potential-reconstructed2d/maps/TMTM_019.npy": "2b806c932596c79486cb85b971552dd6ba4483046060438ef50870b1d5bfe6a8",
+      "02-RG-MTM/data/real/paper1_suite/benzene-potential-reconstructed2d/maps/TMTM_020.npy": "e4094b8ad7808aff5134a16a81a47f0df91469e0eb734ae5d8bdcbf9219562e1",
+      "02-RG-MTM/data/real/paper1_suite/benzene-potential-reconstructed2d/maps/RG-MTM-P_000.npy": "679a005a5573d9149e08611380447dbe3b5cfa9e1ef027f652762575edbb0f04",
+      "02-RG-MTM/data/real/paper1_suite/benzene-potential-reconstructed2d/maps/RG-MTM-P_001.npy": "a476b6a3dbba0426c886432fbc50fe41b05cb2b1cbdc529d03320658dbb18b73",
+      "02-RG-MTM/data/real/paper1_suite/benzene-potential-reconstructed2d/maps/RG-MTM-P_002.npy": "501264fe1bb488ded6f4d6e7e03f2e7687f82cdbc7972f05c894d7f92a9f9b8b",
+      "02-RG-MTM/data/real/paper1_suite/benzene-potential-reconstructed2d/maps/RG-MTM-P_003.npy": "cb8e33e9a21d46d12f1a800ec70f7e73b7be2ea4c7e83851abf6fafa90dacd1f",
+      "02-RG-MTM/data/real/paper1_suite/benzene-potential-reconstructed2d/maps/RG-MTM-P_004.npy": "0ab5e61fcec93d2732c8c7bd6051f94b220b4ab5c9a15913e1bb68023a1bb74a",
+      "02-RG-MTM/data/real/paper1_suite/benzene-potential-reconstructed2d/maps/RG-MTM-P_005.npy": "31811616277c70abe0072a66815e3701a5edfeeb2d7f21197d3a048a99eeefe1",
+      "02-RG-MTM/data/real/paper1_suite/benzene-potential-reconstructed2d/maps/RG-MTM-P_006.npy": "0c8e16c101395b1047d8f2536187a70d502370eb66f0e4f0d5dffd76fc99a55d",
+      "02-RG-MTM/data/real/paper1_suite/benzene-potential-reconstructed2d/maps/RG-MTM-P_007.npy": "e44e5610bc86338d99f954152683b61b59b2537f72000a455b7ed26e936dbf64",
+      "02-RG-MTM/data/real/paper1_suite/benzene-potential-reconstructed2d/maps/RG-MTM-P_008.npy": "e0d70f0071fbb18f076d5e94432c093374aad1d11d74a4250f76feb9357740e9",
+      "02-RG-MTM/data/real/paper1_suite/benzene-potential-reconstructed2d/maps/RG-MTM-P_009.npy": "bf0217fe9e7c8d49baa4c87f832c84f8d20d26374e8edc9a9ed5a7ed6879839e",
+      "02-RG-MTM/data/real/paper1_suite/benzene-potential-reconstructed2d/maps/RG-MTM-P_010.npy": "663ed03d8ab663aacc3bba5c3689b33a3344b77bc5febf480c62e3eb65a2de11",
+      "02-RG-MTM/data/real/paper1_suite/benzene-potential-reconstructed2d/maps/RG-MTM-P_011.npy": "0c5f8ce3bb883a2247ebdbbce0585ab6aa9e24ed09001a80b860968579450c0a",
+      "02-RG-MTM/data/real/paper1_suite/benzene-potential-reconstructed2d/maps/RG-MTM-P_012.npy": "ca863dd27473d6f99f3601510d16c2669dc0579214822c48a12e1f94913a7c98",
+      "02-RG-MTM/data/real/paper1_suite/benzene-potential-reconstructed2d/maps/RG-MTM-P_013.npy": "3a2bfeca895baffb4f713d92b6fdddfce32729712100e852696656b73cae024b",
+      "02-RG-MTM/data/real/paper1_suite/benzene-potential-reconstructed2d/maps/RG-MTM-P_014.npy": "34ab04b8fee13b15de491e95b8166c4f5824cc1e77a34d5739f2b55612ad9028",
+      "02-RG-MTM/data/real/paper1_suite/benzene-potential-reconstructed2d/maps/RG-MTM-P_015.npy": "fc318dd38fa1d6eb0a0a434a8d425cf8b9db2ffbe40f4c224ebf101957e14052",
+      "02-RG-MTM/data/real/paper1_suite/benzene-potential-reconstructed2d/maps/RG-MTM-P_016.npy": "22a5ce84fe7ae8d3f1072425292d6f614bfa83cc41ab42a08cde36c3a8d4e750",
+      "02-RG-MTM/data/real/paper1_suite/benzene-potential-reconstructed2d/maps/RG-MTM-P_017.npy": "31a1f11dbcb520bc69e81271d2622cb6870273289d3ae62f84470dbd137b78c8",
+      "02-RG-MTM/data/real/paper1_suite/benzene-potential-reconstructed2d/maps/RG-MTM-P_018.npy": "f320b5064ca2cf590b2317b8a4568bb52de9116e0d205874193e9b3c76bfdbd1",
+      "02-RG-MTM/data/real/paper1_suite/benzene-potential-reconstructed2d/maps/RG-MTM-P_019.npy": "aea36e7ccf37f8f2717cd1d61f86225c62a72e88f1894658f5a8611e643b8510",
+      "02-RG-MTM/data/real/paper1_suite/benzene-potential-reconstructed2d/maps/RG-MTM-P_020.npy": "abb284026ecf2ab614a5a88cc581feace52a0086dd007381df1f29ac4b0f9c7c",
+      "02-RG-MTM/data/real/paper1_suite/benzene-potential-reconstructed2d/maps/RG-MTM-R_0.02_000.npy": "679a005a5573d9149e08611380447dbe3b5cfa9e1ef027f652762575edbb0f04",
+      "02-RG-MTM/data/real/paper1_suite/benzene-potential-reconstructed2d/maps/RG-MTM-R_0.02_001.npy": "a476b6a3dbba0426c886432fbc50fe41b05cb2b1cbdc529d03320658dbb18b73",
+      "02-RG-MTM/data/real/paper1_suite/benzene-potential-reconstructed2d/maps/RG-MTM-R_0.02_002.npy": "501264fe1bb488ded6f4d6e7e03f2e7687f82cdbc7972f05c894d7f92a9f9b8b",
+      "02-RG-MTM/data/real/paper1_suite/benzene-potential-reconstructed2d/maps/RG-MTM-R_0.02_003.npy": "cf913ed4d350a1ddff805d03d600a1108abbdd3035f0d8841a6799e6a23a5862",
+      "02-RG-MTM/data/real/paper1_suite/benzene-potential-reconstructed2d/maps/RG-MTM-R_0.02_004.npy": "8c175a43cff7deeae36993c353a38e851565d9655019381288d53bd93b4310e1",
+      "02-RG-MTM/data/real/paper1_suite/benzene-potential-reconstructed2d/maps/RG-MTM-R_0.02_005.npy": "4897d7e8b6a8a0e8140ef83aac6e77a9672037f36389c8d6f797e880ceccb04b",
+      "02-RG-MTM/data/real/paper1_suite/benzene-potential-reconstructed2d/maps/RG-MTM-R_0.02_006.npy": "ca71a411e9e9a5860169f6e4f5624fc07ae85a8d1e2a000c612b96a048e6ce49",
+      "02-RG-MTM/data/real/paper1_suite/benzene-potential-reconstructed2d/maps/RG-MTM-R_0.02_007.npy": "135b191ed08b76cf330be22d32bb234cc912481e9726c4a465a0ddef79eef06e",
+      "02-RG-MTM/data/real/paper1_suite/benzene-potential-reconstructed2d/maps/RG-MTM-R_0.02_008.npy": "cc638a7f0c8a2b53832cdcd3041cb84d641501f028a80f1a7f9671e3e04d1dbc",
+      "02-RG-MTM/data/real/paper1_suite/benzene-potential-reconstructed2d/maps/RG-MTM-R_0.02_009.npy": "8e5b578f1e297bdbe6141f948d58eb9cbe676f8fa8684143cc0ba86af8a87c46",
+      "02-RG-MTM/data/real/paper1_suite/benzene-potential-reconstructed2d/maps/RG-MTM-R_0.02_010.npy": "e49a71370f3ebb21c98c17cf3e56703283f540226bf3884080e87f8eefecd5fb",
+      "02-RG-MTM/data/real/paper1_suite/benzene-potential-reconstructed2d/maps/RG-MTM-R_0.02_011.npy": "f2fdefbfaae3fc54fe9f1549999e9016a9d9890cc957a7b064dc81b4825aa0c1",
+      "02-RG-MTM/data/real/paper1_suite/benzene-potential-reconstructed2d/maps/RG-MTM-R_0.02_012.npy": "be90b628cbb0f39c2db69003d763aed1f42d05a3283594c567ab1e47bfdefb37",
+      "02-RG-MTM/data/real/paper1_suite/benzene-potential-reconstructed2d/maps/RG-MTM-R_0.02_013.npy": "439e37dc60645b4ed13aad99d791ed66235762d604f7a6a72c7181e31d574984",
+      "02-RG-MTM/data/real/paper1_suite/benzene-potential-reconstructed2d/maps/RG-MTM-R_0.02_014.npy": "5021ae3a6cf3d99acfab471691b08da0cb17dd9548c66cd9c4adfe4c58ddf58b",
+      "02-RG-MTM/data/real/paper1_suite/benzene-potential-reconstructed2d/maps/RG-MTM-R_0.02_015.npy": "d7566df8de11bdaf510d9b96ebcab9de5af43a8b936d8e42589fc54fca00a04d",
+      "02-RG-MTM/data/real/paper1_suite/benzene-potential-reconstructed2d/maps/RG-MTM-R_0.02_016.npy": "009f922dabdb28df7ed2029a92849c22c8a33866b365f15a7eaab836c698a24a",
+      "02-RG-MTM/data/real/paper1_suite/benzene-potential-reconstructed2d/maps/RG-MTM-R_0.02_017.npy": "dd3b9274065ae5ce01960017bc9eebaadc877fdd5d5ee9e0df5897dfa404447c",
+      "02-RG-MTM/data/real/paper1_suite/benzene-potential-reconstructed2d/maps/RG-MTM-R_0.02_018.npy": "eb60643006767653a940f695f08fda6ed46ee7f14b5542c320a71e50ab2dc9c3",
+      "02-RG-MTM/data/real/paper1_suite/benzene-potential-reconstructed2d/maps/RG-MTM-R_0.02_019.npy": "83766f56526abccdf93a081bc115d6d81ff71a8f2e0e9997d72f1a158090a1bc",
+      "02-RG-MTM/data/real/paper1_suite/benzene-potential-reconstructed2d/maps/RG-MTM-R_0.02_020.npy": "dad5359a5ac09a48ca13d1c13e61c96edd0dd8a0afc604f5fe7f2f9b174d405d"
+    },
+    "scalar_sign": 1,
+    "source_sections": [
+      0,
+      5,
+      10,
+      15,
+      20
+    ],
+    "R_displayed": "RG-MTM-R 0.02"
+  }
+}

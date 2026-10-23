@@ -1,0 +1,168 @@
+{
+  "dataset": "PM2.5",
+  "frames": 30,
+  "cache_files": [
+    "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5f52\u6863/\u5386\u53f2\u6216\u6392\u9664\u7ed3\u679c/visualization_cache/pm25-062549a3b72bbd7c70630fa770025dbe54eea3d875f742bcf6980abfe8bf01ae.npz",
+    "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5f52\u6863/\u5386\u53f2\u6216\u6392\u9664\u7ed3\u679c/visualization_cache/pm25-160d4528890f3304544fbe72f82ab9b18885911fc12b252b0030afea7dd79bdc.npz",
+    "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5f52\u6863/\u5386\u53f2\u6216\u6392\u9664\u7ed3\u679c/visualization_cache/pm25-432cf9e6d8386b2a84679bafeaecdd2c2cdfcb8c2f615694ee91b8eaa674cfab.npz",
+    "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5f52\u6863/\u5386\u53f2\u6216\u6392\u9664\u7ed3\u679c/visualization_cache/pm25-8b549c112fa682eeeff48f68986090d2b265d4cdf2ca8e21d7bf7241f1ad8b98.npz",
+    "/Users/lele/Desktop/MergeTreeMaps/\u5176\u4ed6/\u5f52\u6863/\u5386\u53f2\u6216\u6392\u9664\u7ed3\u679c/visualization_cache/pm25-ed055d8f26c48f8374612af7d95ed92420687dc681c9d9aa02776d9f8ffb7cc6.npz"
+  ],
+  "cache_arrays_all_identical": true,
+  "OLR_PR_match_publication_render": false,
+  "range": [
+    23.323004902554256,
+    122.2810329015297
+  ],
+  "units": "ug m-3",
+  "scalar_palette": "RdBu_r",
+  "axis_semantics": "Baselines show their complete saved native rank domain. P/R share the fixed reference axis. Each axis normalized separately to [0,1], so baseline ordinate is not a geographic coordinate.",
+  "construction": "No layouts recomputed. All four complete saved arrays, no temporal crop. Maps native scalar raster, all text and axes editable.",
+  "proxy": [
+    {
+      "dataset": "pm25",
+      "method": "TMTM",
+      "k": 2,
+      "eps_frac": 0.02,
+      "pairs": 10,
+      "T2D_clear": 7,
+      "T2D_reversal_rate": 0.2857142857142857,
+      "T2D_null_reversal_rate": 0.35428571428571426,
+      "T2D_ci95": [
+        0.0,
+        0.6666666666666666
+      ],
+      "T2D_missed_rate": 0.42857142857142855,
+      "T2D_frame_flag_recall": 0.5,
+      "T2D_frame_flag_share": 0.5714285714285714,
+      "T2D_rev_rate_flagged": 0.25,
+      "T2D_rev_rate_unflagged": 0.3333333333333333,
+      "T2D_frame_flag_lift": 0.75,
+      "claim_clear": 7,
+      "claim_reversal_rate": 0.2857142857142857,
+      "claim_null_reversal_rate": 0.34428571428571425,
+      "claim_ci95": [
+        0.0,
+        0.6666666666666666
+      ],
+      "claim_missed_rate": 0.42857142857142855,
+      "claim_frame_flag_recall": 0.5,
+      "claim_frame_flag_share": 0.5714285714285714,
+      "claim_rev_rate_flagged": 0.25,
+      "claim_rev_rate_unflagged": 0.3333333333333333,
+      "claim_frame_flag_lift": 0.75
+    },
+    {
+      "dataset": "pm25",
+      "method": "ST-MTM",
+      "k": 2,
+      "eps_frac": 0.02,
+      "pairs": 10,
+      "T2D_clear": 7,
+      "T2D_reversal_rate": 0.42857142857142855,
+      "T2D_null_reversal_rate": 0.5271428571428571,
+      "T2D_ci95": [
+        0.14285714285714285,
+        0.7142857142857143
+      ],
+      "T2D_missed_rate": 0.0,
+      "T2D_frame_flag_recall": 0.6666666666666666,
+      "T2D_frame_flag_share": 0.5714285714285714,
+      "T2D_rev_rate_flagged": 0.5,
+      "T2D_rev_rate_unflagged": 0.3333333333333333,
+      "T2D_frame_flag_lift": 1.5,
+      "claim_clear": 7,
+      "claim_reversal_rate": 0.42857142857142855,
+      "claim_null_reversal_rate": 0.5171428571428571,
+      "claim_ci95": [
+        0.06785714285714306,
+        0.7142857142857143
+      ],
+      "claim_missed_rate": 0.0,
+      "claim_frame_flag_recall": 0.6666666666666666,
+      "claim_frame_flag_share": 0.5714285714285714,
+      "claim_rev_rate_flagged": 0.5,
+      "claim_rev_rate_unflagged": 0.3333333333333333,
+      "claim_frame_flag_lift": 1.5
+    },
+    {
+      "dataset": "pm25",
+      "method": "ours: auto direction",
+      "k": 2,
+      "eps_frac": 0.02,
+      "pairs": 10,
+      "T2D_clear": 7,
+      "T2D_reversal_rate": 0.42857142857142855,
+      "T2D_null_reversal_rate": 0.4121428571428571,
+      "T2D_ci95": [
+        0.125,
+        0.8333333333333334
+      ],
+      "T2D_missed_rate": 0.0,
+      "T2D_frame_flag_recall": 0.6666666666666666,
+      "T2D_frame_flag_share": 0.5714285714285714,
+      "T2D_rev_rate_flagged": 0.5,
+      "T2D_rev_rate_unflagged": 0.3333333333333333,
+      "T2D_frame_flag_lift": 1.5,
+      "T2D_feature_flag_recall": 0.6666666666666666,
+      "T2D_feature_flag_share": 0.5714285714285714,
+      "T2D_unwarned_reversal_rate": 0.14285714285714285,
+      "claim_clear": 9,
+      "claim_reversal_rate": 0.0,
+      "claim_null_reversal_rate": 0.39166666666666666,
+      "claim_ci95": [
+        0.0,
+        0.0
+      ],
+      "claim_missed_rate": 0.2222222222222222,
+      "claim_frame_flag_recall": 0.0,
+      "claim_frame_flag_share": 0.5555555555555556,
+      "claim_rev_rate_flagged": 0.0,
+      "claim_rev_rate_unflagged": 0.0,
+      "claim_frame_flag_lift": null,
+      "claim_feature_flag_recall": 0.0,
+      "claim_feature_flag_share": 0.6666666666666666,
+      "claim_unwarned_reversal_rate": 0.0
+    },
+    {
+      "dataset": "pm25",
+      "method": "ours: relaxed",
+      "k": 2,
+      "eps_frac": 0.02,
+      "pairs": 10,
+      "T2D_clear": 7,
+      "T2D_reversal_rate": 0.2857142857142857,
+      "T2D_null_reversal_rate": 0.3935714285714285,
+      "T2D_ci95": [
+        0.0,
+        0.6666666666666666
+      ],
+      "T2D_missed_rate": 0.14285714285714285,
+      "T2D_frame_flag_recall": 0.5,
+      "T2D_frame_flag_share": 0.5714285714285714,
+      "T2D_rev_rate_flagged": 0.25,
+      "T2D_rev_rate_unflagged": 0.3333333333333333,
+      "T2D_frame_flag_lift": 0.75,
+      "T2D_feature_flag_recall": 0.0,
+      "T2D_feature_flag_share": 0.0,
+      "T2D_unwarned_reversal_rate": 0.2857142857142857,
+      "claim_clear": 9,
+      "claim_reversal_rate": 0.0,
+      "claim_null_reversal_rate": 0.3794444444444444,
+      "claim_ci95": [
+        0.0,
+        0.0
+      ],
+      "claim_missed_rate": 0.2222222222222222,
+      "claim_frame_flag_recall": 0.0,
+      "claim_frame_flag_share": 0.5555555555555556,
+      "claim_rev_rate_flagged": 0.0,
+      "claim_rev_rate_unflagged": 0.0,
+      "claim_frame_flag_lift": null,
+      "claim_feature_flag_recall": 0.0,
+      "claim_feature_flag_share": 0.1111111111111111,
+      "claim_unwarned_reversal_rate": 0.0
+    }
+  ],
+  "selection": "Whole sequence only, no event selection"
+}

@@ -1,0 +1,14 @@
+import fs from 'node:fs/promises';
+import path from 'node:path';
+import {pathToFileURL} from 'node:url';
+const ROOT=path.resolve(import.meta.dirname,'..');
+const SKILL='/Users/lele/.codex/plugins/cache/openai-primary-runtime/presentations/26.1015.12040/skills/presentations';
+const RT='/Users/lele/.cache/codex-runtimes/codex-primary-runtime/dependencies';
+process.env.RUNTIME_NODE=RT+'/node/bin/node';process.env.RUNTIME_NODE_MODULES=RT+'/node/node_modules';
+const {finalizePresentation}=await import(pathToFileURL(SKILL+'/container_tools/artifact_tool_utils.mjs').href);
+const stem=process.argv[2];const B=ROOT+'/.build/fig1_december/';
+await fs.mkdir(B+'final',{recursive:true});
+const scene=JSON.parse(await fs.readFile(B+stem+'_scene.json','utf8'));
+const expectedSize=Math.round(scene.width*9525)+','+Math.round(scene.height*9525);
+const result=await finalizePresentation({workspaceDir:ROOT,candidatePath:B+stem+'_patched.pptx',finalPath:B+'final/'+stem+'.pptx',pythonExecutable:RT+'/python/bin/python3',integrityValidatorPath:SKILL+'/container_tools/inspect_presentation_package_integrity.py',layoutValidatorPath:SKILL+'/container_tools/inspect_presentation_layout_geometry.py',layoutArgs:['--expected-slide-size-emu',expectedSize,'--validate-heading-fit'],explicitTotalSlideCount:1,fontPolicy:{basis:'design',families:['Arial']},verifyArtifactToolImport:true,receiptPath:B+stem+'_validation_'+Date.now()+'.json'});
+console.log(JSON.stringify({validated:stem}));

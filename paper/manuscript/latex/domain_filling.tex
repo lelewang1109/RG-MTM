@@ -1,0 +1,60 @@
+\subsection{Full-domain filling and node semantics}\label{sec:supp_filling}
+The positional model operates on a contracted branching hierarchy, while the scalar renderer retains the augmented input tree and its regular samples. The implementation validates that each input sample belongs to one critical node or one arc, and that samples are monotone along each arc. This input ownership does not imply one-to-one ownership in the display: resampling can repeat or omit samples, paths can reuse arcs, and interpolation can introduce values absent from the input.
+
+\paragraph{Relation to prior constructions.}
+TMTM recursively allocates integer positions to the augmented tree's original samples, placing branching nodes between child blocks~\cite{Koepp:2023:TMTM}. Our initial filling instead follows ST-MTM's leaf-interval and LCA-path construction (its Section 4.2)~\cite{STMTM:2026}. This is a borrowed rendering component, distinct from ST-MTM's ordering and layout optimizer. The certificate-guided order and optional minimax barrier correction are separate stages.
+
+\begin{table}[H]\centering\small
+\caption{How the complete augmented input contributes to a RG-MTM column.}\label{tab:node_semantics}
+\begin{tabular}{p{.22\linewidth}p{.70\linewidth}}\toprule
+Input entity & Display treatment\\\midrule
+Every retained leaf & One extremum anchor and one support interval, including leaves outside a witness triple.\\
+Leaf-arc regular sample & Uniformly resampled into the leaf interval; positions alternate outward from the anchor.\\
+Branching merge node & Its LCA value separates adjacent child blocks in a legal order; all labelled leaf-pair levels encode the branching hierarchy.\\
+Internal-arc sample & Resampled along an LCA path in an inter-interval gap, or along an outer root-to-leaf path.\\
+Root and outer context & Border paths fill the remaining canvas. Finite root endpoints and unary tails are not guaranteed by pairwise merge fidelity.\\\bottomrule
+\end{tabular}
+\end{table}
+
+\paragraph{Sampling conventions.}
+Let $\alpha_i$ be an integer anchor and $[s_i,e_i]$ its interval. Place $f(i)$ at $\alpha_i$ and visit available positions $\alpha_i-1,\alpha_i+1,\alpha_i-2,\alpha_i+2,\ldots$, skipping positions outside the interval. Regular samples are ordered from the leaf toward its parent. Uniform resampling uses equally spaced indices and nearest-index rounding; an empty arc uses linear interpolation within its own endpoint values. Internal paths allocate integer sample counts proportional to arc sizes, distribute remaining pixels by largest fractional remainder, and concatenate samples in path order. Empty arcs receive a unit allocation weight. Deep--deep gaps first divide their non-LCA pixels proportionally between the two path sizes. Sibling gaps use quadratic interpolation toward the LCA, as in ST-MTM.
+
+\begin{algorithm}[H]
+\caption{FullDomainFill: initial scalar column from the augmented input.}\label{alg:full_filling}
+\begin{algorithmic}[1]
+\Require Augmented input $T$; all leaves in order $\pi$; integer starts $s$, ends $e$, anchors $\alpha$; pixel count $N$
+\State Initialize $v[0,\ldots,N-1]$ as unassigned
+\For{each leaf $i$ in $\pi$}
+  \State $v[\alpha_i]\gets f(i)$
+  \State Resample its leaf-arc values into alternating positions in $[s_i,e_i]\setminus\{\alpha_i\}$
+\EndFor
+\For{each consecutive pair $(i,j)$ in $\pi$}
+  \State $v\gets\lca_T(i,j)$; obtain both paths above the already-filled leaf arcs
+  \If{both leaves are direct children of $v$}
+    \State Place $f(v)$ at the gap midpoint; quadratically interpolate both sides
+  \ElsIf{exactly one leaf is a direct child of $v$}
+    \State Place $f(v)$ beside that leaf interval; resample the deeper path into the remainder
+  \Else
+    \State Split non-LCA pixels by path sizes; place $f(v)$ at the split; resample both paths
+  \EndIf
+\EndFor
+\State Fill both outer regions by resampling paths between the root and the outermost leaves
+\State Verify every pixel is assigned and finite; \Return $v$
+\end{algorithmic}
+\end{algorithm}
+
+\paragraph{Correction uses the original tree.}
+The flattened tree $T'$ defines admissible orders only. Original merge levels $M_{ij}$ and gap bounds $C_k$ always come from $T$. In the relaxed mode, each open inter-anchor segment is clipped to its target barrier, and its existing maximum is raised to that barrier if needed. Anchors remain fixed. Split-tree processing negates values before filling/correction and negates them back afterwards. A positive clearance above adjacent leaf values keeps extrema strict when the theoretical optimum would produce a plateau. At least one interior pixel per inter-anchor segment is required; raster layouts that collapse the required separation are rejected or rendered at higher resolution.
+
+\paragraph{Executed five-leaf example.}
+the worked filling example uses $T=(((A_1,A_2)_2,B)_4,(C,D)_3)_8$, with all five leaf values zero and two regular samples on each arc. Here $A=\{A_1,A_2\}$ is a subtree, not a single leaf interval. A tree-consistent order $A_1,A_2,B,C,D$ has barriers $(2,4,8,3)$ and zero pairwise error. For order $A_1,A_2,C,B,D$, the gap bounds are $C=(2,4,3,3)$ and $\delta^*=2.5$. Our minimax construction gives barriers $(4.5,6.5,5.5,5.5)$ and measured maximum error $2.5$.
+
+Although $A_1,A_2$ remain consecutive, their merge moves from $2$ to $4.5$. Flattened ordering constraints, actually non-contiguous subtrees, and numerically changed merge levels are therefore different sets. This construction minimizes the largest leaf-pair error, not the number of modified relations. Protecting selected internal merge levels would define a different constrained filling problem and is not part of the evaluated method.
+
+\paragraph{Tracing white and grey nodes to pixels.}
+With anchors $(10,30,50,70,90)$ and four interval pixels on either side, white $r_1$ has value $2/3$ on the $A_1$ leaf arc and fills pixels $8,9,11,12$. White $r_2$ has value $8/3$ on the internal A-to-parent arc and fills pixels $35$--$39$ between $A_2$ and B. Grey $S$ is the $A_1$--$A_2$ merge: $f(S)=2$ occupies midpoint pixel $20$. Thus white nodes supply resampled values, while grey nodes supply merge thresholds; neither receives a leaf's geographic anchor optimization. The exported trace verifies these values against actual pixels. Relaxed pixel $20$ carries barrier $4.5$, marking a changed relation rather than an unchanged source sample.
+
+
+
+\paragraph{Verification and scope.}
+Checks cover all 120 orders, ten leaf pairs, and independent gap-witness feasibility, including failure below the optimal positive budget. These synthetic validations add no real-data outcomes.

@@ -1,0 +1,83 @@
+% IEEE PacificVis 2027 -- Conference Paper Track. VGTC conference template (2024.02.14).
+% Compile with pdfLaTeX + BibTeX (e.g., upload the folder to Overleaf).
+% Experiment entry points and result provenance are documented in README.md.
+% Full derivations are included in supplement_proofs.tex.
+
+\documentclass[review]{vgtc}                 % review version (double blind)
+%\documentclass{vgtc}                         % final (conference style)
+
+\usepackage{iftex}
+\usepackage{graphicx}
+\ifPDFTeX
+  \pdfoutput=1\relax
+  \pdfcompresslevel=9
+  \pdfoptionpdfminorversion=7
+\fi%
+\DeclareGraphicsExtensions{.pdf,.png,.jpg,.jpeg,.eps}
+
+\usepackage[T1]{fontenc}
+\usepackage{times}
+\renewcommand*\ttdefault{txtt}
+\usepackage{booktabs}
+\usepackage{flushend}
+\usepackage{placeins}
+\usepackage{multirow,colortbl}
+\setcounter{dbltopnumber}{2}
+\renewcommand{\dbltopfraction}{0.9}
+\renewcommand{\topfraction}{0.9}
+\renewcommand{\bottomfraction}{0.8}
+\renewcommand{\textfraction}{0.08}
+\renewcommand{\floatpagefraction}{0.85}
+\renewcommand{\dblfloatpagefraction}{0.85}
+\setlength{\textfloatsep}{10pt plus 2pt minus 2pt}
+\setlength{\dbltextfloatsep}{10pt plus 2pt minus 2pt}
+\usepackage{mathptmx}
+\usepackage{cite} % ascending numeric citations, as required by VGTC
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{algorithm}
+\usepackage[noend]{algpseudocode}
+% vgtcinsertpkg loads xcolor with svgnames; do not load it without options first.
+\newtheorem{lemma}{Lemma}
+\newtheorem{theorem}{Theorem}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{definition}[theorem]{Definition}
+\newcommand{\free}{\mathrm{free}}
+\newcommand{\dtop}{d_{\mathrm{top}}}
+\newcommand{\lca}{\operatorname{lca}}
+
+
+\input{frontmatter}
+\begin{document}
+\firstsection{Introduction}
+\maketitle
+\raggedbottom
+\setlength{\emergencystretch}{1em}
+\input{introduction}
+\input{related_work}
+\input{background}
+\input{distortion_analysis}
+\input{method}
+\input{evaluation}
+\input{applications}
+\input{additional_datasets}
+% Finish all planar result panels before the volumetric group.
+\FloatBarrier
+\input{volume3d}
+\input{cylinder_results}
+\input{remaining_temporal_results}
+\input{pm25_case_results}
+\input{eligibility_results}
+% Keep all Results figures and tables ahead of the closing discussion.
+\FloatBarrier
+\input{discussion}
+\input{conclusion}
+\section*{Acknowledgments}
+OpenAI Codex assisted manuscript editing, figure/evidence code, and earlier experiment orchestration. We thank the ERA5, FRP, OLR, PM2.5, Natural Earth, and Tangaroa providers. We also acknowledge the square-cylinder simulation by Camarri, Salvetti, Buffoni, and Iollo and its uniform resampling by Tino Weinkauf, and the public Inviwo molecular geometry used in the Benzene reconstruction.
+% Results floats have already been drained; let references follow the text.
+\begingroup
+\interlinepenalty=10000
+\bibliographystyle{abbrv-doi-narrow}
+\bibliography{refs}
+\endgroup
+\end{document}

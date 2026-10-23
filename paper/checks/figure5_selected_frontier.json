@@ -1,0 +1,28 @@
+{
+  "source": "/Users/lele/Desktop/MergeTreeMaps/paper_revision/evidence/figure5_selected/original_screenshot.png",
+  "source_sha256": "6644da8d1e571e7d77274c9490ecdd18d0fbcb05437883adbc4f8207beebb36e",
+  "original_pixels": [
+    1348,
+    450
+  ],
+  "visible_source_rectangle": [
+    0,
+    0,
+    1348,
+    340
+  ],
+  "source_pixels_modified": false,
+  "source_caption_excluded": true,
+  "output": "/Users/lele/Desktop/MergeTreeMaps/paper_revision/figures_export/Fig5_Selected_Frontier.pdf",
+  "output_sha256": "827310a56ee8a0d089c5a3d1170da5eef8fa2d88d06d4427030a5efd1c0c10a9",
+  "panels": [
+    "ERA5 1999/2000",
+    "ERA5 2013/14 (archive)",
+    "Wildfire 2019",
+    "Ring",
+    "Gaussians"
+  ],
+  "archived_panel_not_pooled_into_main_suite": true,
+  "old_editable_diagnosis_figure": "Retained as supplementary certificate/filling evidence; not the source of this bitmap plot.",
+  "underlying_experiments_rerun": false
+}

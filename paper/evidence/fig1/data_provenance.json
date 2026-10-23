@@ -1,0 +1,530 @@
+{
+  "source": "/Users/lele/Desktop/MergeTreeMaps/02-RG-MTM/results/real_case_studies/evidence/era5.npz",
+  "source_sha256": "45a7d45344ca69380db840f02b3ed9296593688deb14fa3d4ed39a55e91139a4",
+  "original_ppt": "/Users/lele/Desktop/MergeTreeMaps/paper_revision/figures_ppt/All_Figures.pptx",
+  "method": "RG-MTM-R20",
+  "full_frames": [
+    0,
+    117
+  ],
+  "local_frames": [
+    43,
+    53
+  ],
+  "color_map": "RdBu_r",
+  "pressure_hPa": [
+    952.0553938083871,
+    1046.8404145923128
+  ],
+  "projection": "Lambert cylindrical equal-area, standard parallel 52.5 degrees",
+  "source_geographic_bounds": {
+    "lon": [
+      -40,
+      50
+    ],
+    "lat": [
+      25,
+      80
+    ]
+  },
+  "projected_extent": [
+    16.841118186236063,
+    103.15888181376393,
+    18.31893810631073,
+    101.68106189368926
+  ],
+  "map_aspect_ratio": 1.035455428747088,
+  "direction": [
+    0.9998129355353527,
+    -0.019341508115477836
+  ],
+  "snapshots": [
+    {
+      "frame": 20,
+      "date": "1999-11-27 00:00:00",
+      "rect": [
+        60.0,
+        420,
+        172.8,
+        166.88308854499883
+      ],
+      "raw_frame_sha256": "8a312b478f32a567e3654c3aba386fe91e8e83902a971401e9258be1170483d3"
+    },
+    {
+      "frame": 48,
+      "date": "1999-12-11 00:00:00",
+      "rect": [
+        246.80000000000004,
+        420,
+        172.8,
+        166.88308854499883
+      ],
+      "raw_frame_sha256": "1a069d7eed1b994f2ebaf9d8c7dd99cf175c25f63fcfd272f907080613c1e194"
+    },
+    {
+      "frame": 64,
+      "date": "1999-12-19 00:00:00",
+      "rect": [
+        433.6,
+        420,
+        172.8,
+        166.88308854499883
+      ],
+      "raw_frame_sha256": "73a90c418d8c561776f7e1f3588323c358a6253ae324fce44bec79fec00bb675"
+    },
+    {
+      "frame": 80,
+      "date": "1999-12-27 00:00:00",
+      "rect": [
+        620.4000000000001,
+        420,
+        172.8,
+        166.88308854499883
+      ],
+      "raw_frame_sha256": "ff609888ee50b6ef0294fb0ab40679a6a70d2c1ed0177e89d147525174d3740e"
+    },
+    {
+      "frame": 100,
+      "date": "2000-01-06 00:00:00",
+      "rect": [
+        807.2,
+        420,
+        172.8,
+        166.88308854499883
+      ],
+      "raw_frame_sha256": "6170e46429ed382c8b45826071aa80d0eaa8db717ac4aeb01faf79ab6d0c3309"
+    }
+  ],
+  "extrema_f48": [
+    {
+      "label": "A",
+      "track": 60,
+      "leaf": 1872,
+      "xy": [
+        35.337781820706326,
+        83.81774965353671
+      ],
+      "lonlat": [
+        -20.714285714285708,
+        59.80726491986953
+      ],
+      "slide_xy": [
+        1086.500966026312,
+        136.92857142857144
+      ]
+    },
+    {
+      "label": "B",
+      "track": 38,
+      "leaf": 2144,
+      "xy": [
+        82.90063116648699,
+        92.32408881551413
+      ],
+      "lonlat": [
+        28.877551020408177,
+        67.1766059549608
+      ],
+      "slide_xy": [
+        1251.3919601184248,
+        107.43877551020404
+      ]
+    },
+    {
+      "label": "C",
+      "track": 56,
+      "leaf": 1107,
+      "xy": [
+        68.80793506403346,
+        56.59746433520903
+      ],
+      "lonlat": [
+        14.183673469387763,
+        42.90356893792984
+      ],
+      "slide_xy": [
+        1202.5353692763172,
+        231.29591836734696
+      ]
+    }
+  ],
+  "actual_tracks": [
+    {
+      "label": "A",
+      "track": 60,
+      "rows": [
+        {
+          "frame": 48,
+          "anchor": 0.19999999999999996,
+          "reference": 0.20833333333333334,
+          "leaf": 1872
+        },
+        {
+          "frame": 49,
+          "anchor": 0.1791666666666667,
+          "reference": 0.18750000000000003,
+          "leaf": 1920
+        },
+        {
+          "frame": 50,
+          "anchor": 0.21628458166021494,
+          "reference": 0.20795124832688164,
+          "leaf": 1921
+        },
+        {
+          "frame": 51,
+          "anchor": 0.21590249665376332,
+          "reference": 0.20756916332043002,
+          "leaf": 1970
+        },
+        {
+          "frame": 52,
+          "anchor": 0.21590249665376332,
+          "reference": 0.20756916332043002,
+          "leaf": 1970
+        },
+        {
+          "frame": 53,
+          "anchor": 0.21523779318768496,
+          "reference": 0.22878458166021498,
+          "leaf": 1873
+        }
+      ]
+    },
+    {
+      "label": "B",
+      "track": 38,
+      "rows": [
+        {
+          "frame": 43,
+          "anchor": 0.31968707831397847,
+          "reference": 0.3113537449806451,
+          "leaf": 1779
+        },
+        {
+          "frame": 44,
+          "anchor": 0.40149207162150513,
+          "reference": 0.39315873828817177,
+          "leaf": 1783
+        },
+        {
+          "frame": 45,
+          "anchor": 0.499615823817793,
+          "reference": 0.45413039826236506,
+          "leaf": 1835
+        },
+        {
+          "frame": 46,
+          "anchor": 0.5033662282494619,
+          "reference": 0.49503289491612856,
+          "leaf": 1837
+        },
+        {
+          "frame": 47,
+          "anchor": 0.5533688625552252,
+          "reference": 0.5764558032172037,
+          "leaf": 1890
+        },
+        {
+          "frame": 48,
+          "anchor": 0.7625111891586563,
+          "reference": 0.7586066131268807,
+          "leaf": 2144
+        },
+        {
+          "frame": 49,
+          "anchor": 0.8279116064344073,
+          "reference": 0.819578273101074,
+          "leaf": 2196
+        },
+        {
+          "frame": 50,
+          "anchor": 0.8786111685324609,
+          "reference": 0.8805499330752674,
+          "leaf": 2248
+        },
+        {
+          "frame": 51,
+          "anchor": 0.9127370113892456,
+          "reference": 0.921070344722579,
+          "leaf": 2299
+        },
+        {
+          "frame": 52,
+          "anchor": 0.9085703447225792,
+          "reference": 0.900237011389246,
+          "leaf": 2347
+        },
+        {
+          "frame": 53,
+          "anchor": 0.8870723079231675,
+          "reference": 0.9006190963956976,
+          "leaf": 2298
+        }
+      ]
+    },
+    {
+      "label": "C",
+      "track": 56,
+      "rows": [
+        {
+          "frame": 47,
+          "anchor": 0.5848227706490752,
+          "reference": 0.5617358299870967,
+          "leaf": 1154
+        },
+        {
+          "frame": 48,
+          "anchor": 0.6074846120025572,
+          "reference": 0.6030204116473116,
+          "leaf": 1107
+        },
+        {
+          "frame": 49,
+          "anchor": 0.6171238612618721,
+          "reference": 0.6234716599741933,
+          "leaf": 1108
+        }
+      ]
+    }
+  ],
+  "source_semantics": "Native supplied ERA5 pressure shown separately from the existing projected/resampled/smoothed analysis field. Extrema belong to the analysis field.",
+  "selected_main_minimum_tracks": [],
+  "event_annotations": [
+    {
+      "frame": 20,
+      "date": "1999-11-27 00:00:00",
+      "track": 19,
+      "label": "Norwegian Sea low",
+      "anchor": 0.46055330656344023,
+      "scalar": 974.23089356586,
+      "lonlat": [
+        1.3265306122449034,
+        65.53737602100487
+      ],
+      "target": [
+        219.83050847457628,
+        217.12396754910986
+      ],
+      "rect": [
+        79,
+        285,
+        174,
+        30
+      ],
+      "identity_scope": "computed minimum; no named-cyclone identity claim"
+    },
+    {
+      "frame": 48,
+      "date": "1999-12-11 00:00:00",
+      "track": 56,
+      "label": "Reference-order conflict",
+      "anchor": 0.6074846120025572,
+      "scalar": 1006.6927662307169,
+      "lonlat": [
+        14.183673469387763,
+        42.90356893792984
+      ],
+      "target": [
+        438.135593220339,
+        175.68933941527888
+      ],
+      "rect": [
+        278,
+        87,
+        195,
+        30
+      ],
+      "identity_scope": "computed minimum; no named-cyclone identity claim"
+    },
+    {
+      "frame": 64,
+      "date": "1999-12-19 00:00:00",
+      "track": 73,
+      "label": "Northern Europe low",
+      "anchor": 0.7476349531526871,
+      "scalar": 977.6848465329285,
+      "lonlat": [
+        27.040816326530607,
+        62.53404994247191
+      ],
+      "target": [
+        562.8813559322034,
+        136.16694321094224
+      ],
+      "rect": [
+        511,
+        175,
+        178,
+        30
+      ],
+      "identity_scope": "computed minimum; no named-cyclone identity claim"
+    },
+    {
+      "frame": 80,
+      "date": "1999-12-27 00:00:00",
+      "track": 78,
+      "label": "North Atlantic low",
+      "anchor": 0.34865572066332084,
+      "scalar": 967.1670054423809,
+      "lonlat": [
+        -7.857142857142858,
+        67.1766059549608
+      ],
+      "target": [
+        687.6271186440678,
+        248.67908677294352
+      ],
+      "rect": [
+        618,
+        285,
+        169,
+        30
+      ],
+      "identity_scope": "computed minimum; no named-cyclone identity claim"
+    },
+    {
+      "frame": 100,
+      "date": "2000-01-06 00:00:00",
+      "track": 93,
+      "label": "January low",
+      "anchor": 0.4029841432430103,
+      "scalar": 974.5523916904781,
+      "lonlat": [
+        -2.3469387755102082,
+        65.53737602100487
+      ],
+      "target": [
+        843.5593220338983,
+        233.3584716054711
+      ],
+      "rect": [
+        811,
+        99,
+        158,
+        30
+      ],
+      "identity_scope": "computed minimum; no named-cyclone identity claim"
+    }
+  ],
+  "annotation_scope": "Five real saved feature/frame locations; no main-panel dark trajectory overlays. Line contrast comes from scalar display reconstruction. No attribution to Anatol, Lothar or Martin. Five snapshots and event guides remain f20/48/64/80/100.",
+  "rendering": "Saved scalar arrays re-rendered with conservative anchor-aligned display interpolation in 93 of 117 intervals; crossings and jumps over 0.2L retain fixed-position interpolation. All 118 original frame centers and 4096 rows are unchanged. Intermediate columns are display reconstruction, not new observations. Source maps use bilinear scalar display interpolation. Main and local map use one shared full-domain reconstruction. No main-panel dark trajectory overlays, Gaussian blur, changes to frozen arrays or experimental rerun.",
+  "display_interpolation": {
+    "temporal": "conservative anchor-aligned piecewise linear display reconstruction",
+    "samples_per_frame": 41,
+    "aligned_intervals": 93,
+    "fallback_intervals": [
+      [
+        10,
+        11
+      ],
+      [
+        24,
+        25
+      ],
+      [
+        26,
+        27
+      ],
+      [
+        27,
+        28
+      ],
+      [
+        35,
+        36
+      ],
+      [
+        37,
+        38
+      ],
+      [
+        47,
+        48
+      ],
+      [
+        59,
+        60
+      ],
+      [
+        62,
+        63
+      ],
+      [
+        67,
+        68
+      ],
+      [
+        69,
+        70
+      ],
+      [
+        85,
+        86
+      ],
+      [
+        86,
+        87
+      ],
+      [
+        87,
+        88
+      ],
+      [
+        89,
+        90
+      ],
+      [
+        90,
+        91
+      ],
+      [
+        92,
+        93
+      ],
+      [
+        100,
+        101
+      ],
+      [
+        101,
+        102
+      ],
+      [
+        102,
+        103
+      ],
+      [
+        103,
+        104
+      ],
+      [
+        106,
+        107
+      ],
+      [
+        107,
+        108
+      ],
+      [
+        114,
+        115
+      ]
+    ],
+    "spatial": "bilinear on original projected raw-field grid",
+    "original_frame_centers_exact": true,
+    "original_scalar_rows": 4096,
+    "gaussian_blur": false,
+    "main_panel_trajectory_overlays": false,
+    "shared_full_and_local_reconstruction": true
+  },
+  "selected_event_frames": [
+    20,
+    48,
+    64,
+    80,
+    100
+  ],
+  "frame_time_mapping": "frame t is centered at (t+0.5)/118 of the main map",
+  "missing_identity_intervals": "A60 absent f43\u201347; C56 absent f43\u201346 and f50\u201353. No synthetic continuation."
+}

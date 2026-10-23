@@ -1,0 +1,28 @@
+\section{Position--Topology Analysis}\label{sec:analysis}\label{sec:cert}
+\subsection{An Attained Position Certificate}
+For order $\pi$, let $\tau(\pi)$ be the minimum maximum anchor displacement under the interval geometry $\mathcal G$. A trial budget $\tau$ gives each centre a window of radius $\tau+h_i$ around $q_i$, clipped to the canvas. Place intervals from left to right at their earliest feasible centres, reserving the prescribed gaps; a placement beyond an upper window makes that budget infeasible. Delaying an earlier interval cannot rescue a later upper-window violation. This test yields an attained minimum, computed directly from pairwise separation and boundary bounds by \textsc{IntervalCost}. Supplement S1 gives the closed form and proof; \textsc{Diagnose} in Algorithm~\ref{alg:rgmtm} uses these order costs to obtain certificates.
+
+Minimizing over tree-consistent and unrestricted orders separates the two sources of displacement:
+\begin{equation}
+\begin{aligned}
+\tau^*(T)&=\min_{\pi\in\Pi(T)}\tau(\pi),&
+\tau_\free&=\min_{\pi\in S_n}\tau(\pi),\\
+H&=\tau^*(T)-\tau_\free\ge0 .
+\end{aligned}\label{eq:certificate}
+\end{equation}
+The hierarchy-free optimum $\tau_\free$ measures packing and boundary cost; $H$ measures the extra displacement imposed by hierarchy under the same geometry. Flattening an internal branching node releases a contiguity constraint and can only decrease the optimum.
+
+\subsection{Explaining a Conflict}
+A conflict triple contains two leaves $i,j$ of one subtree and an outside leaf $k$ with $q_i<q_k<q_j$. Contiguity places $k$ before or after the complete subtree, reversing one reference relation and forcing displacement of at least $\tfrac12\min(q_k-q_i,q_j-q_k)$ in the point model. The complete certificate also incorporates interval widths, boundaries, and interacting triples.
+
+For example, let $T=((A,B),C)$, references $(q_A,q_B,q_C)=(20,100,60)$, canvas $[0,120]$, widths 8, gap 2, and $\rho=0.5$. The desired order $A,C,B$ is excluded. The best tree-consistent point order needs maximum displacement 20; the full interval certificate is 23. The unrestricted interval order has zero error, giving $H=23$. This example distinguishes order incompatibility from the additional displacement introduced by the display geometry.
+
+\subsection{Optimal Scalar Cost for a Fixed Order}\label{sec:topological}
+If a non-root subtree $v$ becomes non-contiguous, every line profile incurs $d_{\rm top}\ge\gamma_v/2$, where $\gamma_v=f(p(v))-f(v)$ is its parent merge gap. An outside leaf inserted between two subtree leaves creates an enclosing interval whose source merge requirements differ by at least $\gamma_v$. One of those requirements must change by half that gap.
+
+\textsc{OptimalBarriers} in Algorithm~\ref{alg:rgmtm} computes the exact cost $\delta^*(\pi)$ with fixed extremum values. For every gap, it first finds the smallest original merge level among leaf pairs spanning that gap. These levels $C_k$ are the tightest barrier ceilings at zero error. It then increases a common allowance $\delta$ to accommodate the adjacent extremum values and every pair's required merge level. In the non-strict extremum model, barriers $C_k+\delta$ attain the minimum: each lies below every spanning pair's upper limit, and their interval maxima meet all lower limits. Positive clearance retains strict extrema in the rendered implementation; Supplement S1 derives the complete expression.
+
+In the three-leaf example, assign leaf values 0, an $A/B$ merge at 1, and the root merge at 3. For order $A,C,B$, both optimal barriers equal 2 and $\delta^*=1$. The improved reference order therefore has an explicit scalar price.
+
+\subsection{Attainable Trade-offs}
+Coordinates and barriers can realize their fixed-order optima together in the non-strict model; positive-clearance filling approaches the scalar optimum while retaining strict extrema. To compute the frontier at scalar budget $\delta$, enumerate leaf orders, retain those whose \textsc{OptimalBarriers} cost does not exceed $\delta$, and take their smallest \textsc{IntervalCost}. Denote this value by $F_T(\delta)$. For strictly separated branching levels, $F_T(0)=\tau^*$ and $F_T(\infty)=\tau_\free$. A necessary lower frontier $\Phi_T$ follows by flattening nodes with $\gamma_v\le2\delta$ and recomputing the certificate. Fixed leaf values and interacting constraints determine the gap between $\Phi_T$ and $F_T$. Exact enumeration supplies the small-tree reference frontiers evaluated below.

@@ -1,0 +1,53 @@
+For Wildfires, the active 10-km source cells are binned into a square $64\times64$ field. Consecutive pairs of days are summed before applying $\log(1+\mathrm{FRP})$. The candidate Gaussian scales are 1, 1.5, 2, 2.5, 3, 4, 5, 6, and 8 cells. The selected 2.5-cell scale corresponds to 50.7\,km; the processed field has 6--11 maxima per frame. A broad 16-cell Gaussian background with coefficient $10^{-3}$ of the field range removes zero plateaus. This background changes the field on which the tree is computed; the reported topology is the topology of that processed field.
+
+OLR and PM2.5 preprocessing uses a spherical Lambert cylindrical equal-area projection, a $49\times49$ interior grid, and five-cell buffers. The priority-flood boundary operation can change cropped samples, so it is part of the field definition rather than a display-only operation. Source hashes, scale trials, fallback flags, and per-frame modification statistics appear in the protocol JSON files. The main quantitative comparisons share these processed fields exactly. No claim is made about preserving the topology of the unprocessed observations.
+
+\subsection{Synthetic fields and correspondences}
+Ring uses the archived author generator associated with TMTM~\cite{Koepp:2023:TMTM}. Its 40 frames sample an expanding radial Gaussian on a $14\times14$ endpoint-inclusive grid over $[0,210]^2$:
+\begin{equation}f_t(x,y)=p_t\exp\!\left[-\frac12\left(\frac{\|(x,y)-c\|-r_t}{s_t}\right)^2\right].\end{equation}
+The declared parameters are $c=(30.4,40.6)$, $p_t=1+0.3t$, $r_t=1.94t$, and $s_t=12.16+0.05t$, with $t=0,\dots,39$. The adapter uses their archived float32 property representations. No smoothing, added noise, interpolation, or random seed is used. The adapter records generator/workspace hashes and transposes the source x,y arrays to time,y,x pipeline order. Grid discretization can create several extrema in a radial field, explaining the observed 1--7 leaves.
+
+All comparison methods share feature IDs, supports, merge trees, and frame correspondences from the common extraction/tracking code. Tracks are computational associations between extrema, not manual annotations. The automatic reference uses the same matched displacements that enter the evaluation. The protocol provides no held-out direction-fitting split; fixed axes assess direction sensitivity without establishing predictive generalization.
+
+\subsection{Layout objective and operating parameters}
+For candidate order $\pi$, let $\mathcal P_\pi=\{(\pi_r,\pi_s):r<s\}$ and use matched leaf pairs $\mathcal M_t$ from the shared-reference construction in the main paper. Define
+\begin{equation}
+\begin{aligned}
+E_{\mathrm{ref}}&=\frac1n\sum_i(u_i^t-q_i^t)^2,\\
+E_{\mathrm{dist}}&=\frac1{\max(1,|\mathcal P_\pi|)}
+ \sum_{(i,j)\in\mathcal P_\pi}\bigl[(u_j^t-u_i^t)-\lVert G_j^t-G_i^t\rVert_2\bigr]^2,\\
+E_{\mathrm{motion}}&=\frac1{\max(1,|\mathcal M_t|)}
+ \sum_{(j,i)\in\mathcal M_t}\bigl[(u_i^t-u_j^{t-1})-(q_i^t-q_j^{t-1})\bigr]^2,\\
+E_{\mathrm{ecc}}&=\frac1n\sum_i(z_i^t-u_i^t)^2.
+\end{aligned}
+\end{equation}
+The evaluated solver weights these normalized terms by $4,1,0.5,0.1$, respectively. Matches are unweighted in this construction. The indices $j$ and $i$ explicitly refer to the previous and current leaf, avoiding an assumption that frame-local IDs stay unchanged. All geometry and reference coordinates use the same length units. The quadratic programs obey the interval constraints and $|u_i-q_i|\le\tau^*(T'_t)+\beta$. Motion penalizes deviation from the projected reference displacement, not movement itself. Unmatched features have no temporal term, and frames are optimized sequentially rather than jointly.
+
+The global width scale assigns domain area to half the reference extent. The evaluated settings use $g=L/240$, $\rho=0.5$, $\beta=L/120$, and $\theta=0.02L$. Relaxation thresholds are 2\%, 20\%, and infinity of the sequence's processed scalar range. The heuristic score uses a 4096-pixel grid and a fixed half-pixel pruning tolerance; the final budget uses the continuous optimum. These parameters control computation and geometry; no perceptual calibration study establishes them as visibility thresholds.
+
+\subsection{Baselines and metric compatibility}
+TMTM and ST-MTM preserve tree order; ST-MTM is reimplemented from its paper description~\cite{STMTM:2026}, not compared through the original authors' executable. Native Hilbert/Morton retain every processed grid sample without refilling, using a minimal power-of-two square with exterior samples discarded. Curve orientation is fixed with x=column and y=row. Native scalar maxima/minima along a sample interval define pairwise merge errors. Optimal barrier filling is applied to RG-MTM relaxation and the packed-sort control. Thus a comparison concerns both ordering and each stated rendering protocol; it does not isolate the effect of ordering alone.
+
+Packed sorting shares interval constraints and secondary objectives but removes hierarchy. Exact projection is a reference control without a rendered scalar topology, and its projected-coordinate error is zero by definition. Fixed-X is a robustness control. Main position comparisons permit monotone calibration and are optimistic order diagnostics; they cannot validate faithful 2-D distances or native pixel coordinates. Stable source-feature order resolves raster ties consistently. The order-only metric then allows a separate monotone coordinate for each tie-broken leaf, so it remains an optimistic lower diagnostic rather than an attained calibration of tied pixels.
+
+
+\subsection{Exact baseline configuration}
+The shared forward ST-MTM runner uses temporal mode and Start=0. Except Ring, parameters are uniform pair weights, $r=0.95$, temporal weight $0.5$, size exponent $\alpha=1$, minimum continuous anchor spacing $0.01$, SLSQP tolerance $10^{-11}$, and at most 2000 optimizer iterations. Its fixed leaf extent is $K_{\mathrm{native}}=c_{\rm native}\sum_i A_i(0)$, where $c_{\rm native}$ maps domain area to half the native canvas span. Ring uses the supplied preset: uniform weights, $K_{\mathrm{native}}=1$, $r=0.95$, temporal weight $1.5$, $\alpha=1$, spacing $10^{-3}$, and tolerance $10^{-9}$. These are our declared comparison settings, not the original preprint's complete real-data configurations.
+
+Nominal ST-MTM lengths are 4096 pixels for Storms, OLR, and PM2.5; 2048 for Wildfires; and 196 for Ring. Global scaling, padding, and rasterization follow the reimplemented skeleton/filling code. TMTM uses temporal overlap optimization and its native augmented sample order. The positional comparison does not use adaptive raster refinement; separate native-merge checks retain nominal-resolution diagnostics. The ST-MTM parameter-grid evidence is an exploratory control, rather than post hoc selection of the best baseline for every reported metric.
+
+Feature correspondences use a maximum intersection-count Hungarian assignment of leaf supports, accepting positive overlaps only. New leaves receive new track identifiers. Tracks are shared across methods. This differs from manually validated physical trajectories, and overlapping time-window events can reuse the same tracks and frames.
+
+\subsection{Shared-reference calculation}
+For matched extrema, let $\Delta R_{ji}^{t}=R_i^t-R_j^{t-1}$. The construction accumulates $S_R=\sum_{t=2}^{K}\sum_{(j,i)\in\mathcal M_t}\Delta R_{ji}^{t}(\Delta R_{ji}^{t})^\top$ and uses a unit principal eigenvector $d$. Its sign is oriented toward nonnegative total projected motion; a degenerate scatter requires a supplied direction. References are $q_i^t=\langle R_i^t,d\rangle$, with $a=\min_{x\in\Omega}\langle x,d\rangle$ and $L=\max_{x\in\Omega}\langle x,d\rangle-a$. These bounds are shared across frames. Widths satisfy $w_i^t=cA_i^t$, $c|\Omega|=L/2$, and $h_i^t=\rho w_i^t/2$.
+
+\subsection{Metric roles and correspondence to ST-MTM}
+Our $P$, $\tau^*$, and $H$ are specific to the supplied reference and display constraints. The scalar comparison $\dtop$ uses labelled pairwise merge levels, with sequence summaries $D$ (mean normalized framewise maximum) and $D_{\max}$ (sequence maximum). Motion error ME measures the fraction of clear approach/separation events that are reversed or missed at the declared window and thresholds; it is not participant accuracy.
+
+ST-MTM~\cite{STMTM:2026} adopts scale-normalized stress (SNS) and trustworthiness (TW), and defines temporal displacement (TD) as a sum of displayed matched-feature displacements. Our stored stress uses the square root of normalized residuals and extremum locations, whereas its stated SNS uses squared residuals and feature centroids. The sequence mean stress cannot simply be squared to obtain mean SNS. Nearest-neighbor agreement is not TW, and our motion error is not TD. Supplement S3 separately recomputes SNS, TW, and canvas-normalized TD on the four fixed main configurations, using the definitions and valid-frame subsets stated there. TD also depends on display scale and the number of matched steps; a low value alone does not establish faithful source motion. Optimization and total times require uniform stage boundaries and repeated timings on common hardware, which the current evidence does not provide.
+
+The five planar temporal inputs compare four primary configurations (TMTM, ST-MTM, RG-MTM-P, RG-MTM-R); static and volumetric inputs compare the three available configurations without ST-MTM. The common main tables disclose availability, and Supplement S3 retains the planar standard metrics. Supplemental all-method tables retain native curves, Packed Sort, fixed-axis sensitivity, and exact-projection controls under their declared protocols. Bold minima are specific to each table's comparison population, not universal winners.
+
+
+\paragraph{Main algorithm interfaces.}
+Main Algorithm 1 combines temporal construction, hierarchy selection, and optimal scalar barriers in one function-based listing. Shared-reference estimation and the diagnosis interface are explained in main Section 5.1; the full display-grid recurrence and planar construction appear in Supplement S1. Continuous position budgets use legal-order enumeration at the suite's small feature counts; pruning uses rounded widths and gaps on a 4096-pixel grid and a fixed initial score $b_0$. Large-tree diagnosis retains bounds and layout evaluates at most four candidate QPs (S6). A grid optimum is not identified with an unrestricted continuous optimum.

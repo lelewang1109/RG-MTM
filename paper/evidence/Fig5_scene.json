@@ -1,0 +1,3119 @@
+{
+  "number": 5,
+  "width": 1344,
+  "height": 640,
+  "title": "wildfire: source features and temporal maps",
+  "notes": "{\"source\": \"saved real_case_studies/evidence\", \"case\": \"wildfire\", \"selection\": {\"t\": 18, \"witness\": [7, 1, 8], \"node\": 871, \"bound\": 20.792130615669763, \"tracks\": [3, 48, 52], \"persistent_three_frames\": true, \"H\": 0.13921149643185637, \"gain\": 0.12121684405613914, \"errorP\": 0.14754482976518962, \"errorR\": 0.026327985709050483, \"delta\": 0.6350617768029346, \"rule\": \"Among H>2% frames with a witness triple matched in all three adjacent frames and positive P-to-R max-error reduction and measured cost, choose largest H (earliest tie). Descriptive selection, not unbiased performance evidence.\", \"snapshots\": [17, 18, 19], \"window\": [13, 24]}, \"identity\": \"computed positive-overlap Hungarian scalar-feature assignment; not physical entity truth\", \"baseline_vertical_semantics\": \"TMTM full native sample-rank domain; ST-MTM full shared discretized native domain; RG fixed physical directional reference domain. Baselines are not geographical coordinates.\", \"rendering\": \"exact saved anchors over native scalar maps; 3D display map is subsampled; no scientific values recomputed\"}",
+  "objects": [
+    {
+      "kind": "text",
+      "name": "text_000",
+      "text": "Wildfire: source evolution versus layout displacement",
+      "x": 18,
+      "y": 4,
+      "w": 1230,
+      "h": 32,
+      "size": 24,
+      "color": "#263238",
+      "bold": true,
+      "align": "left"
+    },
+    {
+      "kind": "text",
+      "name": "text_001",
+      "text": "Full sequence (30 frames); vertical guide: f18",
+      "x": 151,
+      "y": 41,
+      "w": 650,
+      "h": 26,
+      "size": 18,
+      "color": "#263238",
+      "bold": true,
+      "align": "left"
+    },
+    {
+      "kind": "text",
+      "name": "text_002",
+      "text": "Local window; circles: exact saved anchors",
+      "x": 879,
+      "y": 41,
+      "w": 460,
+      "h": 26,
+      "size": 18,
+      "color": "#263238",
+      "bold": true,
+      "align": "left"
+    },
+    {
+      "kind": "text",
+      "name": "text_003",
+      "text": "TMTM",
+      "x": 16,
+      "y": 85,
+      "w": 111,
+      "h": 26,
+      "size": 20,
+      "color": "#263238",
+      "bold": true,
+      "align": "left"
+    },
+    {
+      "kind": "text",
+      "name": "text_004",
+      "text": "native rank",
+      "x": 16,
+      "y": 116,
+      "w": 113,
+      "h": 22,
+      "size": 16,
+      "color": "#7B8790",
+      "bold": false,
+      "align": "left"
+    },
+    {
+      "kind": "image",
+      "name": "wildfire_TMTM_saved_scalar_layer_0_30",
+      "path": "/Users/lele/Desktop/MergeTreeMaps/paper_revision/evidence/layers/wildfires_TMTM_0_30.png",
+      "x": 153,
+      "y": 80,
+      "w": 618,
+      "h": 70
+    },
+    {
+      "kind": "line",
+      "name": "line_006",
+      "x1": 534.1,
+      "y1": 80,
+      "x2": 534.1,
+      "y2": 150,
+      "color": "#263238",
+      "width": 1,
+      "dash": true
+    },
+    {
+      "kind": "rect",
+      "name": "rect_007",
+      "x": 153,
+      "y": 80,
+      "w": 618,
+      "h": 70,
+      "fill": "none",
+      "stroke": "#7B8790",
+      "width": 0.7
+    },
+    {
+      "kind": "text",
+      "name": "text_008",
+      "text": "0",
+      "x": 114,
+      "y": 140.0,
+      "w": 33,
+      "h": 21,
+      "size": 15,
+      "color": "#7B8790",
+      "bold": false,
+      "align": "right"
+    },
+    {
+      "kind": "text",
+      "name": "text_009",
+      "text": "1",
+      "x": 114,
+      "y": 70.0,
+      "w": 33,
+      "h": 21,
+      "size": 15,
+      "color": "#7B8790",
+      "bold": false,
+      "align": "right"
+    },
+    {
+      "kind": "text",
+      "name": "text_010",
+      "text": "0",
+      "x": 143.3,
+      "y": 153,
+      "w": 40,
+      "h": 22,
+      "size": 16,
+      "color": "#7B8790",
+      "bold": false,
+      "align": "center"
+    },
+    {
+      "kind": "text",
+      "name": "text_011",
+      "text": "29",
+      "x": 740.6999999999999,
+      "y": 153,
+      "w": 40,
+      "h": 22,
+      "size": 16,
+      "color": "#7B8790",
+      "bold": false,
+      "align": "center"
+    },
+    {
+      "kind": "ellipse",
+      "name": "wildfire_TMTM_3_exact_anchor",
+      "x": 530.1,
+      "y": 108.0,
+      "w": 8,
+      "h": 8,
+      "fill": "white",
+      "stroke": "#0072B2",
+      "width": 1.8
+    },
+    {
+      "kind": "ellipse",
+      "name": "wildfire_TMTM_48_exact_anchor",
+      "x": 530.1,
+      "y": 98.22222222222223,
+      "w": 8,
+      "h": 8,
+      "fill": "white",
+      "stroke": "#D55E00",
+      "width": 1.8
+    },
+    {
+      "kind": "ellipse",
+      "name": "wildfire_TMTM_52_exact_anchor",
+      "x": 530.1,
+      "y": 124.2051282051282,
+      "w": 8,
+      "h": 8,
+      "fill": "white",
+      "stroke": "#009E73",
+      "width": 1.8
+    },
+    {
+      "kind": "image",
+      "name": "wildfire_TMTM_saved_scalar_layer_13_24",
+      "path": "/Users/lele/Desktop/MergeTreeMaps/paper_revision/evidence/layers/wildfires_TMTM_13_24.png",
+      "x": 886,
+      "y": 80,
+      "w": 396,
+      "h": 70
+    },
+    {
+      "kind": "line",
+      "name": "line_016",
+      "x1": 1084.0,
+      "y1": 80,
+      "x2": 1084.0,
+      "y2": 150,
+      "color": "#263238",
+      "width": 1,
+      "dash": true
+    },
+    {
+      "kind": "rect",
+      "name": "rect_017",
+      "x": 886,
+      "y": 80,
+      "w": 396,
+      "h": 70,
+      "fill": "none",
+      "stroke": "#7B8790",
+      "width": 0.7
+    },
+    {
+      "kind": "text",
+      "name": "text_018",
+      "text": "0.24",
+      "x": 847,
+      "y": 140.0,
+      "w": 33,
+      "h": 21,
+      "size": 15,
+      "color": "#7B8790",
+      "bold": false,
+      "align": "right"
+    },
+    {
+      "kind": "text",
+      "name": "text_019",
+      "text": "0.73",
+      "x": 847,
+      "y": 70.0,
+      "w": 33,
+      "h": 21,
+      "size": 15,
+      "color": "#7B8790",
+      "bold": false,
+      "align": "right"
+    },
+    {
+      "kind": "text",
+      "name": "text_020",
+      "text": "13",
+      "x": 884.0,
+      "y": 153,
+      "w": 40,
+      "h": 22,
+      "size": 16,
+      "color": "#7B8790",
+      "bold": false,
+      "align": "center"
+    },
+    {
+      "kind": "text",
+      "name": "text_021",
+      "text": "23",
+      "x": 1244.0,
+      "y": 153,
+      "w": 40,
+      "h": 22,
+      "size": 16,
+      "color": "#7B8790",
+      "bold": false,
+      "align": "center"
+    },
+    {
+      "kind": "path",
+      "name": "path_022",
+      "points": [
+        [
+          904.0,
+          115.53264604810997
+        ],
+        [
+          940.0,
+          109.69072164948453
+        ],
+        [
+          976.0,
+          106.04810996563575
+        ],
+        [
+          1012.0,
+          108.96907216494844
+        ],
+        [
+          1048.0,
+          107.45704467353951
+        ],
+        [
+          1084.0,
+          106.70103092783505
+        ],
+        [
+          1120.0,
+          105.01718213058417
+        ],
+        [
+          1156.0,
+          105.60137457044671
+        ],
+        [
+          1192.0,
+          117.83505154639175
+        ],
+        [
+          1228.0,
+          104.98281786941578
+        ],
+        [
+          1264.0,
+          104.0549828178694
+        ]
+      ],
+      "color": "white",
+      "width": 4,
+      "dash": false
+    },
+    {
+      "kind": "path",
+      "name": "wildfire_TMTM_track_3_trace",
+      "points": [
+        [
+          904.0,
+          115.53264604810997
+        ],
+        [
+          940.0,
+          109.69072164948453
+        ],
+        [
+          976.0,
+          106.04810996563575
+        ],
+        [
+          1012.0,
+          108.96907216494844
+        ],
+        [
+          1048.0,
+          107.45704467353951
+        ],
+        [
+          1084.0,
+          106.70103092783505
+        ],
+        [
+          1120.0,
+          105.01718213058417
+        ],
+        [
+          1156.0,
+          105.60137457044671
+        ],
+        [
+          1192.0,
+          117.83505154639175
+        ],
+        [
+          1228.0,
+          104.98281786941578
+        ],
+        [
+          1264.0,
+          104.0549828178694
+        ]
+      ],
+      "color": "#0072B2",
+      "width": 1.8,
+      "dash": false
+    },
+    {
+      "kind": "ellipse",
+      "name": "wildfire_TMTM_3_exact_anchor",
+      "x": 1080.0,
+      "y": 102.70103092783505,
+      "w": 8,
+      "h": 8,
+      "fill": "white",
+      "stroke": "#0072B2",
+      "width": 1.8
+    },
+    {
+      "kind": "line",
+      "name": "line_025",
+      "x1": 1084.0,
+      "y1": 106.70103092783505,
+      "x2": 1288,
+      "y2": 95.0,
+      "color": "#0072B2",
+      "width": 0.8,
+      "dash": false
+    },
+    {
+      "kind": "text",
+      "name": "text_026",
+      "text": "A",
+      "x": 1291,
+      "y": 85.0,
+      "w": 28,
+      "h": 22,
+      "size": 17,
+      "color": "#0072B2",
+      "bold": true,
+      "align": "left"
+    },
+    {
+      "kind": "path",
+      "name": "path_027",
+      "points": [
+        [
+          1012.0,
+          135.60137457044675
+        ],
+        [
+          1048.0,
+          91.40893470790377
+        ],
+        [
+          1084.0,
+          87.04467353951891
+        ],
+        [
+          1120.0,
+          119.14089347079039
+        ],
+        [
+          1156.0,
+          121.71821305841924
+        ],
+        [
+          1192.0,
+          89.38144329896907
+        ],
+        [
+          1228.0,
+          89.14089347079037
+        ],
+        [
+          1264.0,
+          125.2233676975945
+        ]
+      ],
+      "color": "white",
+      "width": 4,
+      "dash": false
+    },
+    {
+      "kind": "path",
+      "name": "wildfire_TMTM_track_48_trace",
+      "points": [
+        [
+          1012.0,
+          135.60137457044675
+        ],
+        [
+          1048.0,
+          91.40893470790377
+        ],
+        [
+          1084.0,
+          87.04467353951891
+        ],
+        [
+          1120.0,
+          119.14089347079039
+        ],
+        [
+          1156.0,
+          121.71821305841924
+        ],
+        [
+          1192.0,
+          89.38144329896907
+        ],
+        [
+          1228.0,
+          89.14089347079037
+        ],
+        [
+          1264.0,
+          125.2233676975945
+        ]
+      ],
+      "color": "#D55E00",
+      "width": 1.8,
+      "dash": false
+    },
+    {
+      "kind": "ellipse",
+      "name": "wildfire_TMTM_48_exact_anchor",
+      "x": 1080.0,
+      "y": 83.04467353951891,
+      "w": 8,
+      "h": 8,
+      "fill": "white",
+      "stroke": "#D55E00",
+      "width": 1.8
+    },
+    {
+      "kind": "line",
+      "name": "line_030",
+      "x1": 1084.0,
+      "y1": 87.04467353951891,
+      "x2": 1288,
+      "y2": 111.66666666666667,
+      "color": "#D55E00",
+      "width": 0.8,
+      "dash": false
+    },
+    {
+      "kind": "text",
+      "name": "text_031",
+      "text": "B",
+      "x": 1291,
+      "y": 101.66666666666667,
+      "w": 28,
+      "h": 22,
+      "size": 17,
+      "color": "#D55E00",
+      "bold": true,
+      "align": "left"
+    },
+    {
+      "kind": "path",
+      "name": "path_032",
+      "points": [
+        [
+          1048.0,
+          141.1683848797251
+        ],
+        [
+          1084.0,
+          139.27835051546393
+        ],
+        [
+          1120.0,
+          142.9553264604811
+        ]
+      ],
+      "color": "white",
+      "width": 4,
+      "dash": false
+    },
+    {
+      "kind": "path",
+      "name": "wildfire_TMTM_track_52_trace",
+      "points": [
+        [
+          1048.0,
+          141.1683848797251
+        ],
+        [
+          1084.0,
+          139.27835051546393
+        ],
+        [
+          1120.0,
+          142.9553264604811
+        ]
+      ],
+      "color": "#009E73",
+      "width": 1.8,
+      "dash": false
+    },
+    {
+      "kind": "ellipse",
+      "name": "wildfire_TMTM_52_exact_anchor",
+      "x": 1080.0,
+      "y": 135.27835051546393,
+      "w": 8,
+      "h": 8,
+      "fill": "white",
+      "stroke": "#009E73",
+      "width": 1.8
+    },
+    {
+      "kind": "line",
+      "name": "line_035",
+      "x1": 1084.0,
+      "y1": 139.27835051546393,
+      "x2": 1288,
+      "y2": 128.33333333333334,
+      "color": "#009E73",
+      "width": 0.8,
+      "dash": false
+    },
+    {
+      "kind": "text",
+      "name": "text_036",
+      "text": "C",
+      "x": 1291,
+      "y": 118.33333333333334,
+      "w": 28,
+      "h": 22,
+      "size": 17,
+      "color": "#009E73",
+      "bold": true,
+      "align": "left"
+    },
+    {
+      "kind": "rect",
+      "name": "rect_037",
+      "x": 420.8,
+      "y": 80,
+      "w": 226.6,
+      "h": 70,
+      "fill": "none",
+      "stroke": "#263238",
+      "width": 1.2
+    },
+    {
+      "kind": "text",
+      "name": "text_038",
+      "text": "ST-MTM",
+      "x": 16,
+      "y": 178,
+      "w": 111,
+      "h": 26,
+      "size": 20,
+      "color": "#263238",
+      "bold": true,
+      "align": "left"
+    },
+    {
+      "kind": "text",
+      "name": "text_039",
+      "text": "native rank",
+      "x": 16,
+      "y": 209,
+      "w": 113,
+      "h": 22,
+      "size": 16,
+      "color": "#7B8790",
+      "bold": false,
+      "align": "left"
+    },
+    {
+      "kind": "image",
+      "name": "wildfire_ST-MTM_saved_scalar_layer_0_30",
+      "path": "/Users/lele/Desktop/MergeTreeMaps/paper_revision/evidence/layers/wildfires_ST-MTM_0_30.png",
+      "x": 153,
+      "y": 173,
+      "w": 618,
+      "h": 70
+    },
+    {
+      "kind": "line",
+      "name": "line_041",
+      "x1": 534.1,
+      "y1": 173,
+      "x2": 534.1,
+      "y2": 243,
+      "color": "#263238",
+      "width": 1,
+      "dash": true
+    },
+    {
+      "kind": "rect",
+      "name": "rect_042",
+      "x": 153,
+      "y": 173,
+      "w": 618,
+      "h": 70,
+      "fill": "none",
+      "stroke": "#7B8790",
+      "width": 0.7
+    },
+    {
+      "kind": "text",
+      "name": "text_043",
+      "text": "0",
+      "x": 114,
+      "y": 233.0,
+      "w": 33,
+      "h": 21,
+      "size": 15,
+      "color": "#7B8790",
+      "bold": false,
+      "align": "right"
+    },
+    {
+      "kind": "text",
+      "name": "text_044",
+      "text": "1",
+      "x": 114,
+      "y": 163.0,
+      "w": 33,
+      "h": 21,
+      "size": 15,
+      "color": "#7B8790",
+      "bold": false,
+      "align": "right"
+    },
+    {
+      "kind": "text",
+      "name": "text_045",
+      "text": "0",
+      "x": 143.3,
+      "y": 246,
+      "w": 40,
+      "h": 22,
+      "size": 16,
+      "color": "#7B8790",
+      "bold": false,
+      "align": "center"
+    },
+    {
+      "kind": "text",
+      "name": "text_046",
+      "text": "29",
+      "x": 740.6999999999999,
+      "y": 246,
+      "w": 40,
+      "h": 22,
+      "size": 16,
+      "color": "#7B8790",
+      "bold": false,
+      "align": "center"
+    },
+    {
+      "kind": "ellipse",
+      "name": "wildfire_ST-MTM_3_exact_anchor",
+      "x": 530.1,
+      "y": 198.37469467513435,
+      "w": 8,
+      "h": 8,
+      "fill": "white",
+      "stroke": "#0072B2",
+      "width": 1.8
+    },
+    {
+      "kind": "ellipse",
+      "name": "wildfire_ST-MTM_48_exact_anchor",
+      "x": 530.1,
+      "y": 219.85002442598926,
+      "w": 8,
+      "h": 8,
+      "fill": "white",
+      "stroke": "#D55E00",
+      "width": 1.8
+    },
+    {
+      "kind": "ellipse",
+      "name": "wildfire_ST-MTM_52_exact_anchor",
+      "x": 530.1,
+      "y": 182.33659013190035,
+      "w": 8,
+      "h": 8,
+      "fill": "white",
+      "stroke": "#009E73",
+      "width": 1.8
+    },
+    {
+      "kind": "image",
+      "name": "wildfire_ST-MTM_saved_scalar_layer_13_24",
+      "path": "/Users/lele/Desktop/MergeTreeMaps/paper_revision/evidence/layers/wildfires_ST-MTM_13_24.png",
+      "x": 886,
+      "y": 173,
+      "w": 396,
+      "h": 70
+    },
+    {
+      "kind": "line",
+      "name": "line_051",
+      "x1": 1084.0,
+      "y1": 173,
+      "x2": 1084.0,
+      "y2": 243,
+      "color": "#263238",
+      "width": 1,
+      "dash": true
+    },
+    {
+      "kind": "rect",
+      "name": "rect_052",
+      "x": 886,
+      "y": 173,
+      "w": 396,
+      "h": 70,
+      "fill": "none",
+      "stroke": "#7B8790",
+      "width": 0.7
+    },
+    {
+      "kind": "text",
+      "name": "text_053",
+      "text": "0.16",
+      "x": 847,
+      "y": 233.0,
+      "w": 33,
+      "h": 21,
+      "size": 15,
+      "color": "#7B8790",
+      "bold": false,
+      "align": "right"
+    },
+    {
+      "kind": "text",
+      "name": "text_054",
+      "text": "0.86",
+      "x": 847,
+      "y": 163.0,
+      "w": 33,
+      "h": 21,
+      "size": 15,
+      "color": "#7B8790",
+      "bold": false,
+      "align": "right"
+    },
+    {
+      "kind": "text",
+      "name": "text_055",
+      "text": "13",
+      "x": 884.0,
+      "y": 246,
+      "w": 40,
+      "h": 22,
+      "size": 16,
+      "color": "#7B8790",
+      "bold": false,
+      "align": "center"
+    },
+    {
+      "kind": "text",
+      "name": "text_056",
+      "text": "23",
+      "x": 1244.0,
+      "y": 246,
+      "w": 40,
+      "h": 22,
+      "size": 16,
+      "color": "#7B8790",
+      "bold": false,
+      "align": "center"
+    },
+    {
+      "kind": "path",
+      "name": "path_057",
+      "points": [
+        [
+          904.0,
+          196.87029288702928
+        ],
+        [
+          940.0,
+          191.84239888423988
+        ],
+        [
+          976.0,
+          193.3068340306834
+        ],
+        [
+          1012.0,
+          197.5536959553696
+        ],
+        [
+          1048.0,
+          201.55648535564853
+        ],
+        [
+          1084.0,
+          200.92189679218967
+        ],
+        [
+          1120.0,
+          197.6513249651325
+        ],
+        [
+          1156.0,
+          194.1854951185495
+        ],
+        [
+          1192.0,
+          193.5020920502092
+        ],
+        [
+          1228.0,
+          208.92747559274756
+        ],
+        [
+          1264.0,
+          227.18410041841005
+        ]
+      ],
+      "color": "white",
+      "width": 4,
+      "dash": false
+    },
+    {
+      "kind": "path",
+      "name": "wildfire_ST-MTM_track_3_trace",
+      "points": [
+        [
+          904.0,
+          196.87029288702928
+        ],
+        [
+          940.0,
+          191.84239888423988
+        ],
+        [
+          976.0,
+          193.3068340306834
+        ],
+        [
+          1012.0,
+          197.5536959553696
+        ],
+        [
+          1048.0,
+          201.55648535564853
+        ],
+        [
+          1084.0,
+          200.92189679218967
+        ],
+        [
+          1120.0,
+          197.6513249651325
+        ],
+        [
+          1156.0,
+          194.1854951185495
+        ],
+        [
+          1192.0,
+          193.5020920502092
+        ],
+        [
+          1228.0,
+          208.92747559274756
+        ],
+        [
+          1264.0,
+          227.18410041841005
+        ]
+      ],
+      "color": "#0072B2",
+      "width": 1.8,
+      "dash": false
+    },
+    {
+      "kind": "ellipse",
+      "name": "wildfire_ST-MTM_3_exact_anchor",
+      "x": 1080.0,
+      "y": 196.92189679218967,
+      "w": 8,
+      "h": 8,
+      "fill": "white",
+      "stroke": "#0072B2",
+      "width": 1.8
+    },
+    {
+      "kind": "line",
+      "name": "line_060",
+      "x1": 1084.0,
+      "y1": 200.92189679218967,
+      "x2": 1288,
+      "y2": 188.0,
+      "color": "#0072B2",
+      "width": 0.8,
+      "dash": false
+    },
+    {
+      "kind": "text",
+      "name": "text_061",
+      "text": "A",
+      "x": 1291,
+      "y": 178.0,
+      "w": 28,
+      "h": 22,
+      "size": 17,
+      "color": "#0072B2",
+      "bold": true,
+      "align": "left"
+    },
+    {
+      "kind": "path",
+      "name": "path_062",
+      "points": [
+        [
+          1012.0,
+          233.139470013947
+        ],
+        [
+          1048.0,
+          230.94281729428172
+        ],
+        [
+          1084.0,
+          231.5774058577406
+        ],
+        [
+          1120.0,
+          229.91771269177127
+        ],
+        [
+          1156.0,
+          233.139470013947
+        ],
+        [
+          1192.0,
+          237.9721059972106
+        ],
+        [
+          1228.0,
+          187.4002789400279
+        ],
+        [
+          1264.0,
+          193.64853556485355
+        ]
+      ],
+      "color": "white",
+      "width": 4,
+      "dash": false
+    },
+    {
+      "kind": "path",
+      "name": "wildfire_ST-MTM_track_48_trace",
+      "points": [
+        [
+          1012.0,
+          233.139470013947
+        ],
+        [
+          1048.0,
+          230.94281729428172
+        ],
+        [
+          1084.0,
+          231.5774058577406
+        ],
+        [
+          1120.0,
+          229.91771269177127
+        ],
+        [
+          1156.0,
+          233.139470013947
+        ],
+        [
+          1192.0,
+          237.9721059972106
+        ],
+        [
+          1228.0,
+          187.4002789400279
+        ],
+        [
+          1264.0,
+          193.64853556485355
+        ]
+      ],
+      "color": "#D55E00",
+      "width": 1.8,
+      "dash": false
+    },
+    {
+      "kind": "ellipse",
+      "name": "wildfire_ST-MTM_48_exact_anchor",
+      "x": 1080.0,
+      "y": 227.5774058577406,
+      "w": 8,
+      "h": 8,
+      "fill": "white",
+      "stroke": "#D55E00",
+      "width": 1.8
+    },
+    {
+      "kind": "line",
+      "name": "line_065",
+      "x1": 1084.0,
+      "y1": 231.5774058577406,
+      "x2": 1288,
+      "y2": 204.66666666666666,
+      "color": "#D55E00",
+      "width": 0.8,
+      "dash": false
+    },
+    {
+      "kind": "text",
+      "name": "text_066",
+      "text": "B",
+      "x": 1291,
+      "y": 194.66666666666666,
+      "w": 28,
+      "h": 22,
+      "size": 17,
+      "color": "#D55E00",
+      "bold": true,
+      "align": "left"
+    },
+    {
+      "kind": "path",
+      "name": "path_067",
+      "points": [
+        [
+          1048.0,
+          178.07670850767084
+        ],
+        [
+          1084.0,
+          178.0278940027894
+        ],
+        [
+          1120.0,
+          182.61645746164575
+        ]
+      ],
+      "color": "white",
+      "width": 4,
+      "dash": false
+    },
+    {
+      "kind": "path",
+      "name": "wildfire_ST-MTM_track_52_trace",
+      "points": [
+        [
+          1048.0,
+          178.07670850767084
+        ],
+        [
+          1084.0,
+          178.0278940027894
+        ],
+        [
+          1120.0,
+          182.61645746164575
+        ]
+      ],
+      "color": "#009E73",
+      "width": 1.8,
+      "dash": false
+    },
+    {
+      "kind": "ellipse",
+      "name": "wildfire_ST-MTM_52_exact_anchor",
+      "x": 1080.0,
+      "y": 174.0278940027894,
+      "w": 8,
+      "h": 8,
+      "fill": "white",
+      "stroke": "#009E73",
+      "width": 1.8
+    },
+    {
+      "kind": "line",
+      "name": "line_070",
+      "x1": 1084.0,
+      "y1": 178.0278940027894,
+      "x2": 1288,
+      "y2": 221.33333333333334,
+      "color": "#009E73",
+      "width": 0.8,
+      "dash": false
+    },
+    {
+      "kind": "text",
+      "name": "text_071",
+      "text": "C",
+      "x": 1291,
+      "y": 211.33333333333334,
+      "w": 28,
+      "h": 22,
+      "size": 17,
+      "color": "#009E73",
+      "bold": true,
+      "align": "left"
+    },
+    {
+      "kind": "rect",
+      "name": "rect_072",
+      "x": 420.8,
+      "y": 173,
+      "w": 226.6,
+      "h": 70,
+      "fill": "none",
+      "stroke": "#263238",
+      "width": 1.2
+    },
+    {
+      "kind": "text",
+      "name": "text_073",
+      "text": "RG-P",
+      "x": 16,
+      "y": 271,
+      "w": 111,
+      "h": 26,
+      "size": 20,
+      "color": "#263238",
+      "bold": true,
+      "align": "left"
+    },
+    {
+      "kind": "text",
+      "name": "text_074",
+      "text": "fixed q axis",
+      "x": 16,
+      "y": 302,
+      "w": 113,
+      "h": 22,
+      "size": 16,
+      "color": "#7B8790",
+      "bold": false,
+      "align": "left"
+    },
+    {
+      "kind": "image",
+      "name": "wildfire_P_saved_scalar_layer_0_30",
+      "path": "/Users/lele/Desktop/MergeTreeMaps/paper_revision/evidence/layers/wildfires_P_0_30.png",
+      "x": 153,
+      "y": 266,
+      "w": 618,
+      "h": 70
+    },
+    {
+      "kind": "line",
+      "name": "line_076",
+      "x1": 534.1,
+      "y1": 266,
+      "x2": 534.1,
+      "y2": 336,
+      "color": "#263238",
+      "width": 1,
+      "dash": true
+    },
+    {
+      "kind": "rect",
+      "name": "rect_077",
+      "x": 153,
+      "y": 266,
+      "w": 618,
+      "h": 70,
+      "fill": "none",
+      "stroke": "#7B8790",
+      "width": 0.7
+    },
+    {
+      "kind": "text",
+      "name": "text_078",
+      "text": "0",
+      "x": 114,
+      "y": 326.0,
+      "w": 33,
+      "h": 21,
+      "size": 15,
+      "color": "#7B8790",
+      "bold": false,
+      "align": "right"
+    },
+    {
+      "kind": "text",
+      "name": "text_079",
+      "text": "1",
+      "x": 114,
+      "y": 256.0,
+      "w": 33,
+      "h": 21,
+      "size": 15,
+      "color": "#7B8790",
+      "bold": false,
+      "align": "right"
+    },
+    {
+      "kind": "text",
+      "name": "text_080",
+      "text": "0",
+      "x": 143.3,
+      "y": 339,
+      "w": 40,
+      "h": 22,
+      "size": 16,
+      "color": "#7B8790",
+      "bold": false,
+      "align": "center"
+    },
+    {
+      "kind": "text",
+      "name": "text_081",
+      "text": "29",
+      "x": 740.6999999999999,
+      "y": 339,
+      "w": 40,
+      "h": 22,
+      "size": 16,
+      "color": "#7B8790",
+      "bold": false,
+      "align": "center"
+    },
+    {
+      "kind": "ellipse",
+      "name": "wildfire_P_3_exact_anchor",
+      "x": 530.1,
+      "y": 318.468504641749,
+      "w": 8,
+      "h": 8,
+      "fill": "white",
+      "stroke": "#0072B2",
+      "width": 1.8
+    },
+    {
+      "kind": "ellipse",
+      "name": "wildfire_P_48_exact_anchor",
+      "x": 530.1,
+      "y": 294.40675195142956,
+      "w": 8,
+      "h": 8,
+      "fill": "white",
+      "stroke": "#D55E00",
+      "width": 1.8
+    },
+    {
+      "kind": "ellipse",
+      "name": "wildfire_P_52_exact_anchor",
+      "x": 530.1,
+      "y": 293.5618015933567,
+      "w": 8,
+      "h": 8,
+      "fill": "white",
+      "stroke": "#009E73",
+      "width": 1.8
+    },
+    {
+      "kind": "image",
+      "name": "wildfire_P_saved_scalar_layer_13_24",
+      "path": "/Users/lele/Desktop/MergeTreeMaps/paper_revision/evidence/layers/wildfires_P_13_24.png",
+      "x": 886,
+      "y": 266,
+      "w": 396,
+      "h": 70
+    },
+    {
+      "kind": "line",
+      "name": "line_086",
+      "x1": 1084.0,
+      "y1": 266,
+      "x2": 1084.0,
+      "y2": 336,
+      "color": "#263238",
+      "width": 1,
+      "dash": true
+    },
+    {
+      "kind": "rect",
+      "name": "rect_087",
+      "x": 886,
+      "y": 266,
+      "w": 396,
+      "h": 70,
+      "fill": "none",
+      "stroke": "#7B8790",
+      "width": 0.7
+    },
+    {
+      "kind": "text",
+      "name": "text_088",
+      "text": "0.10",
+      "x": 847,
+      "y": 326.0,
+      "w": 33,
+      "h": 21,
+      "size": 15,
+      "color": "#7B8790",
+      "bold": false,
+      "align": "right"
+    },
+    {
+      "kind": "text",
+      "name": "text_089",
+      "text": "0.75",
+      "x": 847,
+      "y": 256.0,
+      "w": 33,
+      "h": 21,
+      "size": 15,
+      "color": "#7B8790",
+      "bold": false,
+      "align": "right"
+    },
+    {
+      "kind": "text",
+      "name": "text_090",
+      "text": "13",
+      "x": 884.0,
+      "y": 339,
+      "w": 40,
+      "h": 22,
+      "size": 16,
+      "color": "#7B8790",
+      "bold": false,
+      "align": "center"
+    },
+    {
+      "kind": "text",
+      "name": "text_091",
+      "text": "23",
+      "x": 1244.0,
+      "y": 339,
+      "w": 40,
+      "h": 22,
+      "size": 16,
+      "color": "#7B8790",
+      "bold": false,
+      "align": "center"
+    },
+    {
+      "kind": "path",
+      "name": "path_092",
+      "points": [
+        [
+          904.0,
+          321.56977545665063
+        ],
+        [
+          940.0,
+          328.80509693767664
+        ],
+        [
+          976.0,
+          323.59627085202
+        ],
+        [
+          1012.0,
+          320.226790425762
+        ],
+        [
+          1048.0,
+          314.853695450962
+        ],
+        [
+          1084.0,
+          326.09874076990224
+        ],
+        [
+          1120.0,
+          308.09624156916675
+        ],
+        [
+          1156.0,
+          315.8925647377461
+        ],
+        [
+          1192.0,
+          323.7115389493988
+        ],
+        [
+          1228.0,
+          326.49146685610634
+        ],
+        [
+          1264.0,
+          328.6211356493189
+        ]
+      ],
+      "color": "white",
+      "width": 4,
+      "dash": false
+    },
+    {
+      "kind": "path",
+      "name": "wildfire_P_track_3_trace",
+      "points": [
+        [
+          904.0,
+          321.56977545665063
+        ],
+        [
+          940.0,
+          328.80509693767664
+        ],
+        [
+          976.0,
+          323.59627085202
+        ],
+        [
+          1012.0,
+          320.226790425762
+        ],
+        [
+          1048.0,
+          314.853695450962
+        ],
+        [
+          1084.0,
+          326.09874076990224
+        ],
+        [
+          1120.0,
+          308.09624156916675
+        ],
+        [
+          1156.0,
+          315.8925647377461
+        ],
+        [
+          1192.0,
+          323.7115389493988
+        ],
+        [
+          1228.0,
+          326.49146685610634
+        ],
+        [
+          1264.0,
+          328.6211356493189
+        ]
+      ],
+      "color": "#0072B2",
+      "width": 1.8,
+      "dash": false
+    },
+    {
+      "kind": "path",
+      "name": "wildfire_P_true_reference_3",
+      "points": [
+        [
+          904.0,
+          328.71505202301137
+        ],
+        [
+          940.0,
+          328.7894323220311
+        ],
+        [
+          976.0,
+          328.71505202301137
+        ],
+        [
+          1012.0,
+          327.00107730979016
+        ],
+        [
+          1048.0,
+          327.82087451689085
+        ],
+        [
+          1084.0,
+          328.71505202301137
+        ],
+        [
+          1120.0,
+          319.92203755984633
+        ],
+        [
+          1156.0,
+          326.18128010268947
+        ],
+        [
+          1192.0,
+          330.577787334272
+        ],
+        [
+          1228.0,
+          327.07545760881
+        ],
+        [
+          1264.0,
+          327.9696351149304
+        ]
+      ],
+      "color": "#0072B2",
+      "width": 1,
+      "dash": true
+    },
+    {
+      "kind": "ellipse",
+      "name": "wildfire_P_3_exact_anchor",
+      "x": 1080.0,
+      "y": 322.09874076990224,
+      "w": 8,
+      "h": 8,
+      "fill": "white",
+      "stroke": "#0072B2",
+      "width": 1.8
+    },
+    {
+      "kind": "line",
+      "name": "line_096",
+      "x1": 1084.0,
+      "y1": 326.09874076990224,
+      "x2": 1288,
+      "y2": 281.0,
+      "color": "#0072B2",
+      "width": 0.8,
+      "dash": false
+    },
+    {
+      "kind": "text",
+      "name": "text_097",
+      "text": "A",
+      "x": 1291,
+      "y": 271.0,
+      "w": 28,
+      "h": 22,
+      "size": 17,
+      "color": "#0072B2",
+      "bold": true,
+      "align": "left"
+    },
+    {
+      "kind": "path",
+      "name": "path_098",
+      "points": [
+        [
+          1012.0,
+          272.15905534701477
+        ],
+        [
+          1048.0,
+          285.7665444543569
+        ],
+        [
+          1084.0,
+          288.9816286696129
+        ],
+        [
+          1120.0,
+          273.3976119199535
+        ],
+        [
+          1156.0,
+          273.04027647498515
+        ],
+        [
+          1192.0,
+          271.43705326430734
+        ],
+        [
+          1228.0,
+          283.9481772039542
+        ],
+        [
+          1264.0,
+          286.45176878107134
+        ]
+      ],
+      "color": "white",
+      "width": 4,
+      "dash": false
+    },
+    {
+      "kind": "path",
+      "name": "wildfire_P_track_48_trace",
+      "points": [
+        [
+          1012.0,
+          272.15905534701477
+        ],
+        [
+          1048.0,
+          285.7665444543569
+        ],
+        [
+          1084.0,
+          288.9816286696129
+        ],
+        [
+          1120.0,
+          273.3976119199535
+        ],
+        [
+          1156.0,
+          273.04027647498515
+        ],
+        [
+          1192.0,
+          271.43705326430734
+        ],
+        [
+          1228.0,
+          283.9481772039542
+        ],
+        [
+          1264.0,
+          286.45176878107134
+        ]
+      ],
+      "color": "#D55E00",
+      "width": 1.8,
+      "dash": false
+    },
+    {
+      "kind": "path",
+      "name": "wildfire_P_true_reference_48",
+      "points": [
+        [
+          1012.0,
+          273.0496779107176
+        ],
+        [
+          1048.0,
+          273.0496779107176
+        ],
+        [
+          1084.0,
+          273.0496779107176
+        ],
+        [
+          1120.0,
+          273.0496779107176
+        ],
+        [
+          1156.0,
+          273.94385541683806
+        ],
+        [
+          1192.0,
+          273.0496779107176
+        ],
+        [
+          1228.0,
+          273.0496779107176
+        ],
+        [
+          1264.0,
+          273.0496779107176
+        ]
+      ],
+      "color": "#D55E00",
+      "width": 1,
+      "dash": true
+    },
+    {
+      "kind": "ellipse",
+      "name": "wildfire_P_48_exact_anchor",
+      "x": 1080.0,
+      "y": 284.9816286696129,
+      "w": 8,
+      "h": 8,
+      "fill": "white",
+      "stroke": "#D55E00",
+      "width": 1.8
+    },
+    {
+      "kind": "line",
+      "name": "line_102",
+      "x1": 1084.0,
+      "y1": 288.9816286696129,
+      "x2": 1288,
+      "y2": 297.6666666666667,
+      "color": "#D55E00",
+      "width": 0.8,
+      "dash": false
+    },
+    {
+      "kind": "text",
+      "name": "text_103",
+      "text": "B",
+      "x": 1291,
+      "y": 287.6666666666667,
+      "w": 28,
+      "h": 22,
+      "size": 17,
+      "color": "#D55E00",
+      "bold": true,
+      "align": "left"
+    },
+    {
+      "kind": "path",
+      "name": "path_104",
+      "points": [
+        [
+          1048.0,
+          316.57735730153934
+        ],
+        [
+          1084.0,
+          287.67822747671516
+        ],
+        [
+          1120.0,
+          311.83662732852565
+        ]
+      ],
+      "color": "white",
+      "width": 4,
+      "dash": false
+    },
+    {
+      "kind": "path",
+      "name": "wildfire_P_track_52_trace",
+      "points": [
+        [
+          1048.0,
+          316.57735730153934
+        ],
+        [
+          1084.0,
+          287.67822747671516
+        ],
+        [
+          1120.0,
+          311.83662732852565
+        ]
+      ],
+      "color": "#009E73",
+      "width": 1.8,
+      "dash": false
+    },
+    {
+      "kind": "path",
+      "name": "wildfire_P_true_reference_52",
+      "points": [
+        [
+          1048.0,
+          301.8105047867283
+        ],
+        [
+          1084.0,
+          301.8105047867283
+        ],
+        [
+          1120.0,
+          301.8105047867283
+        ]
+      ],
+      "color": "#009E73",
+      "width": 1,
+      "dash": true
+    },
+    {
+      "kind": "ellipse",
+      "name": "wildfire_P_52_exact_anchor",
+      "x": 1080.0,
+      "y": 283.67822747671516,
+      "w": 8,
+      "h": 8,
+      "fill": "white",
+      "stroke": "#009E73",
+      "width": 1.8
+    },
+    {
+      "kind": "line",
+      "name": "line_108",
+      "x1": 1084.0,
+      "y1": 287.67822747671516,
+      "x2": 1288,
+      "y2": 314.3333333333333,
+      "color": "#009E73",
+      "width": 0.8,
+      "dash": false
+    },
+    {
+      "kind": "text",
+      "name": "text_109",
+      "text": "C",
+      "x": 1291,
+      "y": 304.3333333333333,
+      "w": 28,
+      "h": 22,
+      "size": 17,
+      "color": "#009E73",
+      "bold": true,
+      "align": "left"
+    },
+    {
+      "kind": "rect",
+      "name": "rect_110",
+      "x": 420.8,
+      "y": 266,
+      "w": 226.6,
+      "h": 70,
+      "fill": "none",
+      "stroke": "#263238",
+      "width": 1.2
+    },
+    {
+      "kind": "text",
+      "name": "text_111",
+      "text": "RG-R20",
+      "x": 16,
+      "y": 364,
+      "w": 111,
+      "h": 26,
+      "size": 20,
+      "color": "#263238",
+      "bold": true,
+      "align": "left"
+    },
+    {
+      "kind": "text",
+      "name": "text_112",
+      "text": "fixed q axis",
+      "x": 16,
+      "y": 395,
+      "w": 113,
+      "h": 22,
+      "size": 16,
+      "color": "#7B8790",
+      "bold": false,
+      "align": "left"
+    },
+    {
+      "kind": "image",
+      "name": "wildfire_R_saved_scalar_layer_0_30",
+      "path": "/Users/lele/Desktop/MergeTreeMaps/paper_revision/evidence/layers/wildfires_R_0_30.png",
+      "x": 153,
+      "y": 359,
+      "w": 618,
+      "h": 70
+    },
+    {
+      "kind": "line",
+      "name": "line_114",
+      "x1": 534.1,
+      "y1": 359,
+      "x2": 534.1,
+      "y2": 429,
+      "color": "#263238",
+      "width": 1,
+      "dash": true
+    },
+    {
+      "kind": "rect",
+      "name": "rect_115",
+      "x": 153,
+      "y": 359,
+      "w": 618,
+      "h": 70,
+      "fill": "none",
+      "stroke": "#7B8790",
+      "width": 0.7
+    },
+    {
+      "kind": "text",
+      "name": "text_116",
+      "text": "0",
+      "x": 114,
+      "y": 419.0,
+      "w": 33,
+      "h": 21,
+      "size": 15,
+      "color": "#7B8790",
+      "bold": false,
+      "align": "right"
+    },
+    {
+      "kind": "text",
+      "name": "text_117",
+      "text": "1",
+      "x": 114,
+      "y": 349.0,
+      "w": 33,
+      "h": 21,
+      "size": 15,
+      "color": "#7B8790",
+      "bold": false,
+      "align": "right"
+    },
+    {
+      "kind": "text",
+      "name": "text_118",
+      "text": "0",
+      "x": 143.3,
+      "y": 432,
+      "w": 40,
+      "h": 22,
+      "size": 16,
+      "color": "#7B8790",
+      "bold": false,
+      "align": "center"
+    },
+    {
+      "kind": "text",
+      "name": "text_119",
+      "text": "29",
+      "x": 740.6999999999999,
+      "y": 432,
+      "w": 40,
+      "h": 22,
+      "size": 16,
+      "color": "#7B8790",
+      "bold": false,
+      "align": "center"
+    },
+    {
+      "kind": "ellipse",
+      "name": "wildfire_R_3_exact_anchor",
+      "x": 530.1,
+      "y": 413.3707207856768,
+      "w": 8,
+      "h": 8,
+      "fill": "white",
+      "stroke": "#0072B2",
+      "width": 1.8
+    },
+    {
+      "kind": "ellipse",
+      "name": "wildfire_R_48_exact_anchor",
+      "x": 530.1,
+      "y": 375.67948335097446,
+      "w": 8,
+      "h": 8,
+      "fill": "white",
+      "stroke": "#D55E00",
+      "width": 1.8
+    },
+    {
+      "kind": "ellipse",
+      "name": "wildfire_R_52_exact_anchor",
+      "x": 530.1,
+      "y": 395.46963712391545,
+      "w": 8,
+      "h": 8,
+      "fill": "white",
+      "stroke": "#009E73",
+      "width": 1.8
+    },
+    {
+      "kind": "image",
+      "name": "wildfire_R_saved_scalar_layer_13_24",
+      "path": "/Users/lele/Desktop/MergeTreeMaps/paper_revision/evidence/layers/wildfires_R_13_24.png",
+      "x": 886,
+      "y": 359,
+      "w": 396,
+      "h": 70
+    },
+    {
+      "kind": "line",
+      "name": "line_124",
+      "x1": 1084.0,
+      "y1": 359,
+      "x2": 1084.0,
+      "y2": 429,
+      "color": "#263238",
+      "width": 1,
+      "dash": true
+    },
+    {
+      "kind": "rect",
+      "name": "rect_125",
+      "x": 886,
+      "y": 359,
+      "w": 396,
+      "h": 70,
+      "fill": "none",
+      "stroke": "#7B8790",
+      "width": 0.7
+    },
+    {
+      "kind": "text",
+      "name": "text_126",
+      "text": "0.10",
+      "x": 847,
+      "y": 419.0,
+      "w": 33,
+      "h": 21,
+      "size": 15,
+      "color": "#7B8790",
+      "bold": false,
+      "align": "right"
+    },
+    {
+      "kind": "text",
+      "name": "text_127",
+      "text": "0.76",
+      "x": 847,
+      "y": 349.0,
+      "w": 33,
+      "h": 21,
+      "size": 15,
+      "color": "#7B8790",
+      "bold": false,
+      "align": "right"
+    },
+    {
+      "kind": "text",
+      "name": "text_128",
+      "text": "13",
+      "x": 884.0,
+      "y": 432,
+      "w": 40,
+      "h": 22,
+      "size": 16,
+      "color": "#7B8790",
+      "bold": false,
+      "align": "center"
+    },
+    {
+      "kind": "text",
+      "name": "text_129",
+      "text": "23",
+      "x": 1244.0,
+      "y": 432,
+      "w": 40,
+      "h": 22,
+      "size": 16,
+      "color": "#7B8790",
+      "bold": false,
+      "align": "center"
+    },
+    {
+      "kind": "path",
+      "name": "path_130",
+      "points": [
+        [
+          904.0,
+          422.12632251875885
+        ],
+        [
+          940.0,
+          422.03970091097545
+        ],
+        [
+          976.0,
+          421.81671433858264
+        ],
+        [
+          1012.0,
+          420.4460465777637
+        ],
+        [
+          1048.0,
+          415.1956266997608
+        ],
+        [
+          1084.0,
+          421.6007816935292
+        ],
+        [
+          1120.0,
+          413.7188261918008
+        ],
+        [
+          1156.0,
+          419.4906370337512
+        ],
+        [
+          1192.0,
+          423.71008737388615
+        ],
+        [
+          1228.0,
+          419.7692386884659
+        ],
+        [
+          1264.0,
+          421.38702319979654
+        ]
+      ],
+      "color": "white",
+      "width": 4,
+      "dash": false
+    },
+    {
+      "kind": "path",
+      "name": "wildfire_R_track_3_trace",
+      "points": [
+        [
+          904.0,
+          422.12632251875885
+        ],
+        [
+          940.0,
+          422.03970091097545
+        ],
+        [
+          976.0,
+          421.81671433858264
+        ],
+        [
+          1012.0,
+          420.4460465777637
+        ],
+        [
+          1048.0,
+          415.1956266997608
+        ],
+        [
+          1084.0,
+          421.6007816935292
+        ],
+        [
+          1120.0,
+          413.7188261918008
+        ],
+        [
+          1156.0,
+          419.4906370337512
+        ],
+        [
+          1192.0,
+          423.71008737388615
+        ],
+        [
+          1228.0,
+          419.7692386884659
+        ],
+        [
+          1264.0,
+          421.38702319979654
+        ]
+      ],
+      "color": "#0072B2",
+      "width": 1.8,
+      "dash": false
+    },
+    {
+      "kind": "path",
+      "name": "wildfire_R_true_reference_3",
+      "points": [
+        [
+          904.0,
+          421.2911768411857
+        ],
+        [
+          940.0,
+          421.3635925835182
+        ],
+        [
+          976.0,
+          421.2911768411857
+        ],
+        [
+          1012.0,
+          419.6224721864208
+        ],
+        [
+          1048.0,
+          420.42061664263696
+        ],
+        [
+          1084.0,
+          421.2911768411857
+        ],
+        [
+          1120.0,
+          412.73040634036397
+        ],
+        [
+          1156.0,
+          418.8243277302047
+        ],
+        [
+          1192.0,
+          423.1047129806155
+        ],
+        [
+          1228.0,
+          419.69488792875336
+        ],
+        [
+          1264.0,
+          420.56544812730203
+        ]
+      ],
+      "color": "#0072B2",
+      "width": 1,
+      "dash": true
+    },
+    {
+      "kind": "ellipse",
+      "name": "wildfire_R_3_exact_anchor",
+      "x": 1080.0,
+      "y": 417.6007816935292,
+      "w": 8,
+      "h": 8,
+      "fill": "white",
+      "stroke": "#0072B2",
+      "width": 1.8
+    },
+    {
+      "kind": "line",
+      "name": "line_134",
+      "x1": 1084.0,
+      "y1": 421.6007816935292,
+      "x2": 1288,
+      "y2": 374.0,
+      "color": "#0072B2",
+      "width": 0.8,
+      "dash": false
+    },
+    {
+      "kind": "text",
+      "name": "text_135",
+      "text": "A",
+      "x": 1291,
+      "y": 364.0,
+      "w": 28,
+      "h": 22,
+      "size": 17,
+      "color": "#0072B2",
+      "bold": true,
+      "align": "left"
+    },
+    {
+      "kind": "path",
+      "name": "path_136",
+      "points": [
+        [
+          1012.0,
+          366.2332193566038
+        ],
+        [
+          1048.0,
+          364.26429959864583
+        ],
+        [
+          1084.0,
+          364.99479267750894
+        ],
+        [
+          1120.0,
+          366.10763487161694
+        ],
+        [
+          1156.0,
+          367.59559819440636
+        ],
+        [
+          1192.0,
+          366.21998477930225
+        ],
+        [
+          1228.0,
+          367.2747954602767
+        ],
+        [
+          1264.0,
+          367.15409161880433
+        ]
+      ],
+      "color": "white",
+      "width": 4,
+      "dash": false
+    },
+    {
+      "kind": "path",
+      "name": "wildfire_R_track_48_trace",
+      "points": [
+        [
+          1012.0,
+          366.2332193566038
+        ],
+        [
+          1048.0,
+          364.26429959864583
+        ],
+        [
+          1084.0,
+          364.99479267750894
+        ],
+        [
+          1120.0,
+          366.10763487161694
+        ],
+        [
+          1156.0,
+          367.59559819440636
+        ],
+        [
+          1192.0,
+          366.21998477930225
+        ],
+        [
+          1228.0,
+          367.2747954602767
+        ],
+        [
+          1264.0,
+          367.15409161880433
+        ]
+      ],
+      "color": "#D55E00",
+      "width": 1.8,
+      "dash": false
+    },
+    {
+      "kind": "path",
+      "name": "wildfire_R_true_reference_48",
+      "points": [
+        [
+          1012.0,
+          367.0960547230538
+        ],
+        [
+          1048.0,
+          367.0960547230538
+        ],
+        [
+          1084.0,
+          367.0960547230538
+        ],
+        [
+          1120.0,
+          367.0960547230538
+        ],
+        [
+          1156.0,
+          367.96661492160246
+        ],
+        [
+          1192.0,
+          367.0960547230538
+        ],
+        [
+          1228.0,
+          367.0960547230538
+        ],
+        [
+          1264.0,
+          367.0960547230538
+        ]
+      ],
+      "color": "#D55E00",
+      "width": 1,
+      "dash": true
+    },
+    {
+      "kind": "ellipse",
+      "name": "wildfire_R_48_exact_anchor",
+      "x": 1080.0,
+      "y": 360.99479267750894,
+      "w": 8,
+      "h": 8,
+      "fill": "white",
+      "stroke": "#D55E00",
+      "width": 1.8
+    },
+    {
+      "kind": "line",
+      "name": "line_140",
+      "x1": 1084.0,
+      "y1": 364.99479267750894,
+      "x2": 1288,
+      "y2": 390.6666666666667,
+      "color": "#D55E00",
+      "width": 0.8,
+      "dash": false
+    },
+    {
+      "kind": "text",
+      "name": "text_141",
+      "text": "B",
+      "x": 1291,
+      "y": 380.6666666666667,
+      "w": 28,
+      "h": 22,
+      "size": 17,
+      "color": "#D55E00",
+      "bold": true,
+      "align": "left"
+    },
+    {
+      "kind": "path",
+      "name": "path_142",
+      "points": [
+        [
+          1048.0,
+          389.88223394435914
+        ],
+        [
+          1084.0,
+          394.7163222249853
+        ],
+        [
+          1120.0,
+          396.08566112215465
+        ]
+      ],
+      "color": "white",
+      "width": 4,
+      "dash": false
+    },
+    {
+      "kind": "path",
+      "name": "wildfire_R_track_52_trace",
+      "points": [
+        [
+          1048.0,
+          389.88223394435914
+        ],
+        [
+          1084.0,
+          394.7163222249853
+        ],
+        [
+          1120.0,
+          396.08566112215465
+        ]
+      ],
+      "color": "#009E73",
+      "width": 1.8,
+      "dash": false
+    },
+    {
+      "kind": "path",
+      "name": "wildfire_R_true_reference_52",
+      "points": [
+        [
+          1048.0,
+          395.09724127071786
+        ],
+        [
+          1084.0,
+          395.09724127071786
+        ],
+        [
+          1120.0,
+          395.09724127071786
+        ]
+      ],
+      "color": "#009E73",
+      "width": 1,
+      "dash": true
+    },
+    {
+      "kind": "ellipse",
+      "name": "wildfire_R_52_exact_anchor",
+      "x": 1080.0,
+      "y": 390.7163222249853,
+      "w": 8,
+      "h": 8,
+      "fill": "white",
+      "stroke": "#009E73",
+      "width": 1.8
+    },
+    {
+      "kind": "line",
+      "name": "line_146",
+      "x1": 1084.0,
+      "y1": 394.7163222249853,
+      "x2": 1288,
+      "y2": 407.3333333333333,
+      "color": "#009E73",
+      "width": 0.8,
+      "dash": false
+    },
+    {
+      "kind": "text",
+      "name": "text_147",
+      "text": "C",
+      "x": 1291,
+      "y": 397.3333333333333,
+      "w": 28,
+      "h": 22,
+      "size": 17,
+      "color": "#009E73",
+      "bold": true,
+      "align": "left"
+    },
+    {
+      "kind": "rect",
+      "name": "rect_148",
+      "x": 420.8,
+      "y": 359,
+      "w": 226.6,
+      "h": 70,
+      "fill": "none",
+      "stroke": "#263238",
+      "width": 1.2
+    },
+    {
+      "kind": "image",
+      "name": "wildfire_source_frame_17",
+      "path": "/Users/lele/Desktop/MergeTreeMaps/paper_revision/evidence/layers/wildfires_field_17.png",
+      "x": 80.0,
+      "y": 491,
+      "w": 118.0,
+      "h": 118
+    },
+    {
+      "kind": "line",
+      "name": "line_150",
+      "x1": 98.88,
+      "y1": 590.12,
+      "x2": 82.93147704535875,
+      "y2": 607.5155343569918,
+      "color": "white",
+      "width": 1.8,
+      "dash": false
+    },
+    {
+      "kind": "line",
+      "name": "line_151",
+      "x1": 89.19748301141055,
+      "y1": 605.1202954892788,
+      "x2": 82.93147704535875,
+      "y2": 607.5155343569918,
+      "color": "white",
+      "width": 1.5,
+      "dash": false
+    },
+    {
+      "kind": "line",
+      "name": "line_152",
+      "x1": 84.77488953081942,
+      "y1": 601.0655862635226,
+      "x2": 82.93147704535875,
+      "y2": 607.5155343569918,
+      "color": "white",
+      "width": 1.5,
+      "dash": false
+    },
+    {
+      "kind": "text",
+      "name": "text_153",
+      "text": "d",
+      "x": 85.93147704535875,
+      "y": 594.5155343569918,
+      "w": 24,
+      "h": 23,
+      "size": 17,
+      "color": "white",
+      "bold": true,
+      "align": "left"
+    },
+    {
+      "kind": "ellipse",
+      "name": "wildfire_space_3_t17",
+      "x": 179.871875,
+      "y": 515.278125,
+      "w": 8.6,
+      "h": 8.6,
+      "fill": "white",
+      "stroke": "#0072B2",
+      "width": 1.8
+    },
+    {
+      "kind": "text",
+      "name": "text_155",
+      "text": "A",
+      "x": 163.171875,
+      "y": 496.578125,
+      "w": 28,
+      "h": 25,
+      "size": 18,
+      "color": "#0072B2",
+      "bold": true,
+      "align": "left"
+    },
+    {
+      "kind": "ellipse",
+      "name": "wildfire_space_48_t17",
+      "x": 141.153125,
+      "y": 592.715625,
+      "w": 8.6,
+      "h": 8.6,
+      "fill": "white",
+      "stroke": "#D55E00",
+      "width": 1.8
+    },
+    {
+      "kind": "text",
+      "name": "text_157",
+      "text": "B",
+      "x": 154.453125,
+      "y": 574.015625,
+      "w": 28,
+      "h": 25,
+      "size": 18,
+      "color": "#D55E00",
+      "bold": true,
+      "align": "left"
+    },
+    {
+      "kind": "ellipse",
+      "name": "wildfire_space_52_t17",
+      "x": 115.340625,
+      "y": 509.746875,
+      "w": 8.6,
+      "h": 8.6,
+      "fill": "white",
+      "stroke": "#009E73",
+      "width": 1.8
+    },
+    {
+      "kind": "text",
+      "name": "text_159",
+      "text": "C",
+      "x": 128.640625,
+      "y": 491.046875,
+      "w": 28,
+      "h": 25,
+      "size": 18,
+      "color": "#009E73",
+      "bold": true,
+      "align": "left"
+    },
+    {
+      "kind": "text",
+      "name": "text_160",
+      "text": "f17  2019-12-05",
+      "x": 15,
+      "y": 466,
+      "w": 248,
+      "h": 24,
+      "size": 17,
+      "color": "#7B8790",
+      "bold": false,
+      "align": "left"
+    },
+    {
+      "kind": "image",
+      "name": "wildfire_source_frame_18",
+      "path": "/Users/lele/Desktop/MergeTreeMaps/paper_revision/evidence/layers/wildfires_field_18.png",
+      "x": 345.0,
+      "y": 491,
+      "w": 118.0,
+      "h": 118
+    },
+    {
+      "kind": "line",
+      "name": "line_162",
+      "x1": 363.88,
+      "y1": 590.12,
+      "x2": 347.93147704535875,
+      "y2": 607.5155343569918,
+      "color": "white",
+      "width": 1.8,
+      "dash": false
+    },
+    {
+      "kind": "line",
+      "name": "line_163",
+      "x1": 354.19748301141055,
+      "y1": 605.1202954892788,
+      "x2": 347.93147704535875,
+      "y2": 607.5155343569918,
+      "color": "white",
+      "width": 1.5,
+      "dash": false
+    },
+    {
+      "kind": "line",
+      "name": "line_164",
+      "x1": 349.77488953081945,
+      "y1": 601.0655862635226,
+      "x2": 347.93147704535875,
+      "y2": 607.5155343569918,
+      "color": "white",
+      "width": 1.5,
+      "dash": false
+    },
+    {
+      "kind": "text",
+      "name": "text_165",
+      "text": "d",
+      "x": 350.93147704535875,
+      "y": 594.5155343569918,
+      "w": 24,
+      "h": 23,
+      "size": 17,
+      "color": "white",
+      "bold": true,
+      "align": "left"
+    },
+    {
+      "kind": "ellipse",
+      "name": "wildfire_space_3_t18",
+      "x": 444.871875,
+      "y": 513.434375,
+      "w": 8.6,
+      "h": 8.6,
+      "fill": "white",
+      "stroke": "#0072B2",
+      "width": 1.8
+    },
+    {
+      "kind": "text",
+      "name": "text_167",
+      "text": "A",
+      "x": 428.171875,
+      "y": 494.734375,
+      "w": 28,
+      "h": 25,
+      "size": 18,
+      "color": "#0072B2",
+      "bold": true,
+      "align": "left"
+    },
+    {
+      "kind": "ellipse",
+      "name": "wildfire_space_48_t18",
+      "x": 406.153125,
+      "y": 592.715625,
+      "w": 8.6,
+      "h": 8.6,
+      "fill": "white",
+      "stroke": "#D55E00",
+      "width": 1.8
+    },
+    {
+      "kind": "text",
+      "name": "text_169",
+      "text": "B",
+      "x": 419.453125,
+      "y": 574.015625,
+      "w": 28,
+      "h": 25,
+      "size": 18,
+      "color": "#D55E00",
+      "bold": true,
+      "align": "left"
+    },
+    {
+      "kind": "ellipse",
+      "name": "wildfire_space_52_t18",
+      "x": 380.340625,
+      "y": 509.746875,
+      "w": 8.6,
+      "h": 8.6,
+      "fill": "white",
+      "stroke": "#009E73",
+      "width": 1.8
+    },
+    {
+      "kind": "text",
+      "name": "text_171",
+      "text": "C",
+      "x": 393.640625,
+      "y": 491.046875,
+      "w": 28,
+      "h": 25,
+      "size": 18,
+      "color": "#009E73",
+      "bold": true,
+      "align": "left"
+    },
+    {
+      "kind": "text",
+      "name": "text_172",
+      "text": "f18  2019-12-07",
+      "x": 280,
+      "y": 466,
+      "w": 248,
+      "h": 24,
+      "size": 17,
+      "color": "#7B8790",
+      "bold": false,
+      "align": "left"
+    },
+    {
+      "kind": "image",
+      "name": "wildfire_source_frame_19",
+      "path": "/Users/lele/Desktop/MergeTreeMaps/paper_revision/evidence/layers/wildfires_field_19.png",
+      "x": 610.0,
+      "y": 491,
+      "w": 118.0,
+      "h": 118
+    },
+    {
+      "kind": "line",
+      "name": "line_174",
+      "x1": 628.88,
+      "y1": 590.12,
+      "x2": 612.9314770453587,
+      "y2": 607.5155343569918,
+      "color": "white",
+      "width": 1.8,
+      "dash": false
+    },
+    {
+      "kind": "line",
+      "name": "line_175",
+      "x1": 619.1974830114106,
+      "y1": 605.1202954892788,
+      "x2": 612.9314770453587,
+      "y2": 607.5155343569918,
+      "color": "white",
+      "width": 1.5,
+      "dash": false
+    },
+    {
+      "kind": "line",
+      "name": "line_176",
+      "x1": 614.7748895308195,
+      "y1": 601.0655862635226,
+      "x2": 612.9314770453587,
+      "y2": 607.5155343569918,
+      "color": "white",
+      "width": 1.5,
+      "dash": false
+    },
+    {
+      "kind": "text",
+      "name": "text_177",
+      "text": "d",
+      "x": 615.9314770453587,
+      "y": 594.5155343569918,
+      "w": 24,
+      "h": 23,
+      "size": 17,
+      "color": "white",
+      "bold": true,
+      "align": "left"
+    },
+    {
+      "kind": "ellipse",
+      "name": "wildfire_space_3_t19",
+      "x": 706.184375,
+      "y": 528.184375,
+      "w": 8.6,
+      "h": 8.6,
+      "fill": "white",
+      "stroke": "#0072B2",
+      "width": 1.8
+    },
+    {
+      "kind": "text",
+      "name": "text_179",
+      "text": "A",
+      "x": 689.484375,
+      "y": 509.484375,
+      "w": 28,
+      "h": 25,
+      "size": 18,
+      "color": "#0072B2",
+      "bold": true,
+      "align": "left"
+    },
+    {
+      "kind": "ellipse",
+      "name": "wildfire_space_48_t19",
+      "x": 671.153125,
+      "y": 592.715625,
+      "w": 8.6,
+      "h": 8.6,
+      "fill": "white",
+      "stroke": "#D55E00",
+      "width": 1.8
+    },
+    {
+      "kind": "text",
+      "name": "text_181",
+      "text": "B",
+      "x": 684.453125,
+      "y": 574.015625,
+      "w": 28,
+      "h": 25,
+      "size": 18,
+      "color": "#D55E00",
+      "bold": true,
+      "align": "left"
+    },
+    {
+      "kind": "ellipse",
+      "name": "wildfire_space_52_t19",
+      "x": 645.340625,
+      "y": 509.746875,
+      "w": 8.6,
+      "h": 8.6,
+      "fill": "white",
+      "stroke": "#009E73",
+      "width": 1.8
+    },
+    {
+      "kind": "text",
+      "name": "text_183",
+      "text": "C",
+      "x": 658.640625,
+      "y": 491.046875,
+      "w": 28,
+      "h": 25,
+      "size": 18,
+      "color": "#009E73",
+      "bold": true,
+      "align": "left"
+    },
+    {
+      "kind": "text",
+      "name": "text_184",
+      "text": "f19  2019-12-09",
+      "x": 545,
+      "y": 466,
+      "w": 248,
+      "h": 24,
+      "size": 17,
+      "color": "#7B8790",
+      "bold": false,
+      "align": "left"
+    },
+    {
+      "kind": "text",
+      "name": "text_185",
+      "text": "A/B/C IDs: 3, 48, 52",
+      "x": 829,
+      "y": 454,
+      "w": 490,
+      "h": 26,
+      "size": 19,
+      "color": "#263238",
+      "bold": true,
+      "align": "left"
+    },
+    {
+      "kind": "text",
+      "name": "text_186",
+      "text": "f18: max displacement (% L)",
+      "x": 829,
+      "y": 490,
+      "w": 490,
+      "h": 26,
+      "size": 19,
+      "color": "#263238",
+      "bold": true,
+      "align": "left"
+    },
+    {
+      "kind": "text",
+      "name": "text_187",
+      "text": "P 14.75 \u2192 R 2.63",
+      "x": 829,
+      "y": 519,
+      "w": 490,
+      "h": 27,
+      "size": 22,
+      "color": "#009E73",
+      "bold": true,
+      "align": "left"
+    },
+    {
+      "kind": "text",
+      "name": "text_188",
+      "text": "Hierarchy 13.92% L; NMLE 15.09%",
+      "x": 829,
+      "y": 552,
+      "w": 490,
+      "h": 27,
+      "size": 19,
+      "color": "#263238",
+      "bold": false,
+      "align": "left"
+    },
+    {
+      "kind": "image",
+      "name": "image_189",
+      "path": "/Users/lele/Desktop/MergeTreeMaps/paper_revision/evidence/layers/wildfires_bar.png",
+      "x": 829,
+      "y": 605,
+      "w": 410,
+      "h": 10
+    },
+    {
+      "kind": "text",
+      "name": "text_190",
+      "text": "0.00",
+      "x": 829,
+      "y": 617,
+      "w": 85,
+      "h": 22,
+      "size": 15,
+      "color": "#7B8790",
+      "bold": false,
+      "align": "left"
+    },
+    {
+      "kind": "text",
+      "name": "text_191",
+      "text": "4.21",
+      "x": 1159,
+      "y": 617,
+      "w": 80,
+      "h": 22,
+      "size": 15,
+      "color": "#7B8790",
+      "bold": false,
+      "align": "right"
+    },
+    {
+      "kind": "text",
+      "name": "text_192",
+      "text": "processed log1p FRP",
+      "x": 829,
+      "y": 580,
+      "w": 410,
+      "h": 24,
+      "size": 17,
+      "color": "#7B8790",
+      "bold": false,
+      "align": "center"
+    },
+    {
+      "kind": "rect",
+      "name": "rect_193",
+      "x": 810,
+      "y": 605,
+      "w": 10,
+      "h": 10,
+      "fill": "#56B4E9",
+      "stroke": "#56B4E9",
+      "width": 0
+    },
+    {
+      "kind": "text",
+      "name": "text_194",
+      "text": "<0",
+      "x": 801,
+      "y": 617,
+      "w": 35,
+      "h": 22,
+      "size": 15,
+      "color": "#7B8790",
+      "bold": false,
+      "align": "left"
+    },
+    {
+      "kind": "text",
+      "name": "text_195",
+      "text": "Raw source snapshots: log1p FRP 0\u201312.05 (fixed)",
+      "x": 15,
+      "y": 614,
+      "w": 780,
+      "h": 24,
+      "size": 17,
+      "color": "#7B8790",
+      "bold": false,
+      "align": "left"
+    }
+  ]
+}

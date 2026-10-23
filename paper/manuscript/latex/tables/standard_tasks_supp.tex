@@ -1,0 +1,28 @@
+\begingroup\small\setlength{\tabcolsep}{4pt}
+\begin{longtable}{llrrrrr}
+\caption{Standard order correlations and three-class geometric motion scores.}\label{tab:standard_tasks}\\\toprule
+Data & Method & $\tau_b\uparrow$ & $\rho\uparrow$ & BA (\%)$\uparrow$ & F1 (\%)$\uparrow$ & Windows\\\midrule\endfirsthead
+\toprule Data & Method & $\tau_b\uparrow$ & $\rho\uparrow$ & BA (\%)$\uparrow$ & F1 (\%)$\uparrow$ & Windows\\\midrule\endhead
+\bottomrule\endfoot
+Storms & TMTM & -0.0011 & -0.0181 & 48.2 & 47.3 & 127\\
+Storms & ST-MTM & -0.0072 & 0.0033 & 55.8 & 54.6 & 127\\
+Storms & RG-MTM-P & 0.7653 & 0.8268 & 57.5 & 56.2 & 127\\
+Storms & RG-MTM-R & 0.8924 & 0.9282 & 63.1 & 62.9 & 127\\
+Wildfires & TMTM & 0.3023 & 0.3409 & 50.9 & 45.8 & 238\\
+Wildfires & ST-MTM & 0.2039 & 0.2660 & 53.0 & 46.6 & 238\\
+Wildfires & RG-MTM-P & 0.8433 & 0.9132 & 55.7 & 47.9 & 238\\
+Wildfires & RG-MTM-R & 0.9793 & 0.9926 & 68.3 & 66.3 & 238\\
+OLR & TMTM & -0.1351 & -0.1808 & 41.7 & 41.7 & 63\\
+OLR & ST-MTM & 0.0101 & 0.0078 & 71.4 & 68.5 & 63\\
+OLR & RG-MTM-P & 0.9683 & 0.9812 & 91.7 & 89.2 & 63\\
+OLR & RG-MTM-R & 1.0000 & 1.0000 & 96.4 & 93.4 & 63\\
+PM2.5 & TMTM & 0.4892 & 0.5431 & 40.6 & 38.8 & 123\\
+PM2.5 & ST-MTM & 0.3489 & 0.3878 & 42.4 & 42.7 & 123\\
+PM2.5 & RG-MTM-P & 0.8386 & 0.8842 & 47.2 & 47.3 & 123\\
+PM2.5 & RG-MTM-R & 0.9832 & 0.9877 & 46.4 & 46.7 & 123\\
+Ring & TMTM & -0.1855 & -0.2561 & 32.9 & 31.9 & 209\\
+Ring & ST-MTM & 0.2892 & 0.3458 & 52.1 & 49.9 & 209\\
+Ring & RG-MTM-P & 0.6780 & 0.7778 & 52.2 & 46.2 & 209\\
+Ring & RG-MTM-R & 0.9111 & 0.9317 & 70.4 & 63.5 & 209\\
+\end{longtable}
+\noindent Correlations use the common $n\ge3$ frames and one fixed orientation calibration; BA and macro-F1 use all two-step tracked-pair windows, including unchanged truth. Annual PM2.5 has 123 windows (95 clear). These are computational proxies, not participant responses.\endgroup

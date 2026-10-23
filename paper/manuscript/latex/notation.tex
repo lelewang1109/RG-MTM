@@ -1,0 +1,22 @@
+\paragraph{Notation and pipeline interfaces.}
+Table~\ref{tab:notation} separates source geometry, display geometry, and scalar values. Time indices are omitted only in single-frame derivations. In the filling derivation, $i,j$ denote positions in $\pi$; elsewhere they identify leaves. $K$ counts frames, while the native ST-MTM extent parameter is written $K_{\mathrm{native}}$.
+\begin{table}[H]\centering\small
+\caption{Notation used throughout the construction.}\label{tab:notation}
+\begin{tabular}{p{.25\linewidth}p{.67\linewidth}}\toprule
+Symbols & Meaning and role\\\midrule
+$F_t,\Omega,K$ & Processed scalar field, common spatial domain, and number of frames.\\
+$T_t,T'_t,\psi_t$ & Augmented source tree, ordering hierarchy after optional flattening, and displayed scalar profile.\\
+$e_i^t\;(R_i^t),G_i^t,\mu_i^t\;(A_i^t)$ & Extremum position, support centroid, and support area or volume; parentheses give legacy protocol symbols. The position and centroid need not coincide.\\
+$\mathcal M_t,S_R,d$ & Previous/current leaf correspondences, global motion scatter, and shared unit reference direction.\\
+$q_i,u_i,z_i$ & Reference target, actual extremum anchor, and display-interval centre, in common length units.\\
+$w_i,h_i,g,a,L$ & Interval width, anchor radius, minimum gap, canvas origin, and fixed extent.\\
+$\pi,\Pi(T)$ & All-leaf display permutation and the orders that preserve subtree contiguity.\\
+$\tau^*,\tau_\free,H$ & Best tree-consistent position error, hierarchy-free packing/boundary optimum, and their difference.\\
+$\theta,\beta,B_t$ & Conflict trigger, extra positional slack, and achieved-error upper budget; length units.\\
+$\gamma_v,\kappa$ & Adjacent merge gap and eligible-gap threshold; scalar units, not an error guarantee.\\
+$M_{ij},C_k,b_k$ & Original merge level for display-ranked leaves, spanning-pair gap bound, and displayed barrier.\\
+$\delta^*(\pi),\dtop$ & Best filling error for an order and measured error of a rendered column; scalar units.\\
+$P,D_{\rm mean},D_{\rm max}$ & NROE (normalized reference-order error) and frame-mean/worst-frame NMLE (normalized merge-level error); reported as percentages.\\
+$N,\alpha_i,v_t,\mathcal V$ & Raster length, integer anchor pixel, one filled column, and $N\times K$ temporal array.\\\bottomrule
+\end{tabular}
+\end{table}

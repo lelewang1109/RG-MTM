@@ -1,0 +1,7989 @@
+{
+  "dataset": "ERA5 December1999 hourly X-axis",
+  "closed_form_vs_lp_max_diff": 1.4210854715202004e-14,
+  "reference": "Eastward reference d=(1,0)",
+  "theta": 1.6384329286483443,
+  "canvas": 81.92164643241722,
+  "frames": 744,
+  "frames_relaxed": 81,
+  "nodes_relaxed_total": 103,
+  "frames_still_over_theta_after_relax": 4,
+  "field_range": 54.746857097027345,
+  "seconds": 6.719700624991674,
+  "value_cap_fraction": 0.2,
+  "policy": "threshold",
+  "max_legal_orders_after_relax": 120,
+  "frame_log": [
+    {
+      "t": 0,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 1,
+      "leaves": 2,
+      "tau_hier": 1.3492249504839247,
+      "tau_free": 1.3492249504839273,
+      "tau_relaxed": 1.3492249504839247,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 2,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 3,
+      "leaves": 3,
+      "tau_hier": 3.258867661339541,
+      "tau_free": 3.2588676613395458,
+      "tau_relaxed": 3.258867661339541,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 4,
+      "leaves": 3,
+      "tau_hier": 3.5343139857231494,
+      "tau_free": 3.534313985723154,
+      "tau_relaxed": 3.5343139857231494,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 5,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 6,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 7,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 8,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 9,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 10,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 11,
+      "leaves": 4,
+      "tau_hier": 7.329786628423165,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 1,
+      "steps": [
+        {
+          "node": 2319,
+          "merge_level_change": 3.739525354842239
+        }
+      ],
+      "orders_after": 12
+    },
+    {
+      "t": 12,
+      "leaves": 3,
+      "tau_hier": 7.515313055943477,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 1,
+      "steps": [
+        {
+          "node": 2319,
+          "merge_level_change": 2.5744314669591297
+        }
+      ],
+      "orders_after": 6
+    },
+    {
+      "t": 13,
+      "leaves": 3,
+      "tau_hier": 8.430505682121256,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 1,
+      "steps": [
+        {
+          "node": 2270,
+          "merge_level_change": 2.1330267737985746
+        }
+      ],
+      "orders_after": 6
+    },
+    {
+      "t": 14,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 15,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 16,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 17,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 18,
+      "leaves": 3,
+      "tau_hier": 10.263023422149473,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 1,
+      "steps": [
+        {
+          "node": 2223,
+          "merge_level_change": 1.1951559268886407
+        }
+      ],
+      "orders_after": 6
+    },
+    {
+      "t": 19,
+      "leaves": 3,
+      "tau_hier": 11.146228733237544,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 1,
+      "steps": [
+        {
+          "node": 2223,
+          "merge_level_change": 0.9353635332387882
+        }
+      ],
+      "orders_after": 6
+    },
+    {
+      "t": 20,
+      "leaves": 3,
+      "tau_hier": 11.167553609964015,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 1,
+      "steps": [
+        {
+          "node": 2223,
+          "merge_level_change": 0.642309470183877
+        }
+      ],
+      "orders_after": 6
+    },
+    {
+      "t": 21,
+      "leaves": 3,
+      "tau_hier": 11.180348535999906,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 1,
+      "steps": [
+        {
+          "node": 2174,
+          "merge_level_change": 0.49133440508578596
+        }
+      ],
+      "orders_after": 6
+    },
+    {
+      "t": 22,
+      "leaves": 3,
+      "tau_hier": 12.074216285451211,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 1,
+      "steps": [
+        {
+          "node": 2174,
+          "merge_level_change": 0.3568572427702492
+        }
+      ],
+      "orders_after": 6
+    },
+    {
+      "t": 23,
+      "leaves": 3,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 24,
+      "leaves": 3,
+      "tau_hier": 1.474970640247676,
+      "tau_free": 1.4749706402476654,
+      "tau_relaxed": 1.474970640247676,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 25,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 26,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 27,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 28,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 29,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 30,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 31,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 32,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 33,
+      "leaves": 3,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 34,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 35,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 36,
+      "leaves": 3,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 37,
+      "leaves": 3,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 38,
+      "leaves": 2,
+      "tau_hier": 7.746048222123908,
+      "tau_free": 7.746048222123908,
+      "tau_relaxed": 7.746048222123908,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 39,
+      "leaves": 2,
+      "tau_hier": 5.702414202503626,
+      "tau_free": 5.702414202503626,
+      "tau_relaxed": 5.702414202503626,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 40,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 41,
+      "leaves": 3,
+      "tau_hier": 0.2321568246288629,
+      "tau_free": 0.2321568246288631,
+      "tau_relaxed": 0.2321568246288629,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 42,
+      "leaves": 4,
+      "tau_hier": 0.18310960815798327,
+      "tau_free": 0.1831096081579825,
+      "tau_relaxed": 0.18310960815798327,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 43,
+      "leaves": 3,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 44,
+      "leaves": 3,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 45,
+      "leaves": 3,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 46,
+      "leaves": 3,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 47,
+      "leaves": 3,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 48,
+      "leaves": 4,
+      "tau_hier": 0.4478934941783465,
+      "tau_free": 0.44789349417834445,
+      "tau_relaxed": 0.4478934941783465,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 49,
+      "leaves": 3,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 50,
+      "leaves": 4,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 51,
+      "leaves": 4,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 52,
+      "leaves": 3,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 53,
+      "leaves": 3,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 54,
+      "leaves": 2,
+      "tau_hier": 0.07179375164578516,
+      "tau_free": 0.07179375164577362,
+      "tau_relaxed": 0.07179375164578516,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 55,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 56,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 57,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 58,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 59,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 60,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 61,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 62,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 63,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 64,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 65,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 66,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 67,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 68,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 69,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 70,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 71,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 72,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 73,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 74,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 75,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 76,
+      "leaves": 3,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 77,
+      "leaves": 3,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 78,
+      "leaves": 4,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 79,
+      "leaves": 3,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 80,
+      "leaves": 3,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 81,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 82,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 83,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 84,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 85,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 86,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 87,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 88,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 89,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 90,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 91,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 92,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 93,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 94,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 95,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 96,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 97,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 98,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 99,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 100,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 101,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 102,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 103,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 104,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 105,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 106,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 107,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 108,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 109,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 110,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 111,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 112,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 113,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 114,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 115,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 116,
+      "leaves": 3,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 117,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 118,
+      "leaves": 3,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 119,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 120,
+      "leaves": 3,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 121,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 122,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 123,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 124,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 125,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 126,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 127,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 128,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 129,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 130,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 131,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 132,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 133,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 134,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 135,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 136,
+      "leaves": 3,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 137,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 138,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 139,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 140,
+      "leaves": 4,
+      "tau_hier": 1.313754572195555,
+      "tau_free": 1.313754572195555,
+      "tau_relaxed": 1.313754572195555,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 141,
+      "leaves": 3,
+      "tau_hier": 2.0686552083126846,
+      "tau_free": 2.0686552083126846,
+      "tau_relaxed": 2.0686552083126846,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 142,
+      "leaves": 3,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 143,
+      "leaves": 3,
+      "tau_hier": 0.07399732224085809,
+      "tau_free": 0.07399732224086031,
+      "tau_relaxed": 0.07399732224085809,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 144,
+      "leaves": 4,
+      "tau_hier": 1.0304180434231596,
+      "tau_free": 0.0,
+      "tau_relaxed": 1.0304180434231596,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 145,
+      "leaves": 4,
+      "tau_hier": 12.975192327144688,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.005009351317048842,
+      "relaxed_nodes": 2,
+      "steps": [
+        {
+          "node": 940,
+          "merge_level_change": 0.0002472424878254831
+        },
+        {
+          "node": 2032,
+          "merge_level_change": 10.664867082233695
+        }
+      ],
+      "orders_after": 24
+    },
+    {
+      "t": 146,
+      "leaves": 3,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 147,
+      "leaves": 4,
+      "tau_hier": 3.1611286430098775,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 1,
+      "steps": [
+        {
+          "node": 1943,
+          "merge_level_change": 9.057165660661262
+        }
+      ],
+      "orders_after": 12
+    },
+    {
+      "t": 148,
+      "leaves": 4,
+      "tau_hier": 3.9803593239185355,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 1,
+      "steps": [
+        {
+          "node": 1943,
+          "merge_level_change": 9.078254636183587
+        }
+      ],
+      "orders_after": 12
+    },
+    {
+      "t": 149,
+      "leaves": 4,
+      "tau_hier": 4.82091488155366,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 1,
+      "steps": [
+        {
+          "node": 1943,
+          "merge_level_change": 8.794760090267314
+        }
+      ],
+      "orders_after": 12
+    },
+    {
+      "t": 150,
+      "leaves": 5,
+      "tau_hier": 4.332575204517438,
+      "tau_free": 0.9511605849230993,
+      "tau_relaxed": 0.9600372489992034,
+      "relaxed_nodes": 2,
+      "steps": [
+        {
+          "node": 1943,
+          "merge_level_change": 8.900763564252431
+        },
+        {
+          "node": 1188,
+          "merge_level_change": 0.2656941330143905
+        }
+      ],
+      "orders_after": 48
+    },
+    {
+      "t": 151,
+      "leaves": 5,
+      "tau_hier": 5.1837932005158045,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 3,
+      "steps": [
+        {
+          "node": 2080,
+          "merge_level_change": 0.5558135454019242
+        },
+        {
+          "node": 1944,
+          "merge_level_change": 9.308758881056546
+        },
+        {
+          "node": 1189,
+          "merge_level_change": 0.31565985072832836
+        }
+      ],
+      "orders_after": 120
+    },
+    {
+      "t": 152,
+      "leaves": 5,
+      "tau_hier": 5.215780515605515,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 3,
+      "steps": [
+        {
+          "node": 2080,
+          "merge_level_change": 0.3263385073295142
+        },
+        {
+          "node": 1943,
+          "merge_level_change": 9.262381756203226
+        },
+        {
+          "node": 1139,
+          "merge_level_change": 0.8062807640687342
+        }
+      ],
+      "orders_after": 120
+    },
+    {
+      "t": 153,
+      "leaves": 5,
+      "tau_hier": 6.105383289711533,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 3,
+      "steps": [
+        {
+          "node": 2080,
+          "merge_level_change": 0.2078273544459437
+        },
+        {
+          "node": 1944,
+          "merge_level_change": 9.47252992968072
+        },
+        {
+          "node": 1139,
+          "merge_level_change": 0.8153717559625786
+        }
+      ],
+      "orders_after": 120
+    },
+    {
+      "t": 154,
+      "leaves": 4,
+      "tau_hier": 4.392284859351568,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 1,
+      "steps": [
+        {
+          "node": 2128,
+          "merge_level_change": 9.848663498627701
+        }
+      ],
+      "orders_after": 12
+    },
+    {
+      "t": 155,
+      "leaves": 4,
+      "tau_hier": 4.323689839214744,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 1,
+      "steps": [
+        {
+          "node": 2128,
+          "merge_level_change": 9.779915026746496
+        }
+      ],
+      "orders_after": 12
+    },
+    {
+      "t": 156,
+      "leaves": 4,
+      "tau_hier": 5.200497687284873,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 1,
+      "steps": [
+        {
+          "node": 2128,
+          "merge_level_change": 9.720633862092711
+        }
+      ],
+      "orders_after": 12
+    },
+    {
+      "t": 157,
+      "leaves": 4,
+      "tau_hier": 5.253809879101055,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 1,
+      "steps": [
+        {
+          "node": 2128,
+          "merge_level_change": 9.060706689479279
+        }
+      ],
+      "orders_after": 12
+    },
+    {
+      "t": 158,
+      "leaves": 4,
+      "tau_hier": 4.443109148882992,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 1,
+      "steps": [
+        {
+          "node": 2129,
+          "merge_level_change": 8.307477056879023
+        }
+      ],
+      "orders_after": 12
+    },
+    {
+      "t": 159,
+      "leaves": 4,
+      "tau_hier": 4.511348754407705,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 1,
+      "steps": [
+        {
+          "node": 2179,
+          "merge_level_change": 8.323552430189393
+        }
+      ],
+      "orders_after": 12
+    },
+    {
+      "t": 160,
+      "leaves": 4,
+      "tau_hier": 4.652092940802422,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 1,
+      "steps": [
+        {
+          "node": 2130,
+          "merge_level_change": 8.275942014851625
+        }
+      ],
+      "orders_after": 12
+    },
+    {
+      "t": 161,
+      "leaves": 4,
+      "tau_hier": 4.5859858229503585,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 1,
+      "steps": [
+        {
+          "node": 2180,
+          "merge_level_change": 7.861896547508458
+        }
+      ],
+      "orders_after": 12
+    },
+    {
+      "t": 162,
+      "leaves": 3,
+      "tau_hier": 4.551866020188004,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 1,
+      "steps": [
+        {
+          "node": 2180,
+          "merge_level_change": 7.775824833805432
+        }
+      ],
+      "orders_after": 6
+    },
+    {
+      "t": 163,
+      "leaves": 2,
+      "tau_hier": 0.5811739737188015,
+      "tau_free": 0.581173973718802,
+      "tau_relaxed": 0.5811739737188015,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 164,
+      "leaves": 3,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 165,
+      "leaves": 3,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 166,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 167,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 168,
+      "leaves": 3,
+      "tau_hier": 8.072247753116525,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 1,
+      "steps": [
+        {
+          "node": 2182,
+          "merge_level_change": 5.428770729653614
+        }
+      ],
+      "orders_after": 6
+    },
+    {
+      "t": 169,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 170,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 171,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 172,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 173,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 174,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 175,
+      "leaves": 3,
+      "tau_hier": 4.37522495797039,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 1,
+      "steps": [
+        {
+          "node": 2173,
+          "merge_level_change": 2.150656036661848
+        }
+      ],
+      "orders_after": 6
+    },
+    {
+      "t": 176,
+      "leaves": 3,
+      "tau_hier": 3.487754671537019,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 1,
+      "steps": [
+        {
+          "node": 2124,
+          "merge_level_change": 1.9362870481410481
+        }
+      ],
+      "orders_after": 6
+    },
+    {
+      "t": 177,
+      "leaves": 4,
+      "tau_hier": 4.328310229172143,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 1,
+      "steps": [
+        {
+          "node": 2174,
+          "merge_level_change": 1.6144631330377732
+        }
+      ],
+      "orders_after": 12
+    },
+    {
+      "t": 178,
+      "leaves": 4,
+      "tau_hier": 3.4792247208464295,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 2,
+      "steps": [
+        {
+          "node": 2175,
+          "merge_level_change": 1.375186749955414
+        },
+        {
+          "node": 2188,
+          "merge_level_change": 0.34151864326712855
+        }
+      ],
+      "orders_after": 24
+    },
+    {
+      "t": 179,
+      "leaves": 4,
+      "tau_hier": 4.332575204517445,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 1,
+      "steps": [
+        {
+          "node": 2175,
+          "merge_level_change": 1.5129937262134623
+        }
+      ],
+      "orders_after": 12
+    },
+    {
+      "t": 180,
+      "leaves": 3,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 181,
+      "leaves": 3,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 182,
+      "leaves": 3,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 183,
+      "leaves": 3,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 184,
+      "leaves": 3,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 185,
+      "leaves": 3,
+      "tau_hier": 0.4129917792693476,
+      "tau_free": 0.41299177926933517,
+      "tau_relaxed": 0.4129917792693476,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 186,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 187,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 188,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 189,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 190,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 191,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 192,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 193,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 194,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 195,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 196,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 197,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 198,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 199,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 200,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 201,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 202,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 203,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 204,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 205,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 206,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 207,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 208,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 209,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 210,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 211,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 212,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 213,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 214,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 215,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 216,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 217,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 218,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 219,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 220,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 221,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 222,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 223,
+      "leaves": 3,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 224,
+      "leaves": 3,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 225,
+      "leaves": 3,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 226,
+      "leaves": 3,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 227,
+      "leaves": 3,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 228,
+      "leaves": 3,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 229,
+      "leaves": 3,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 230,
+      "leaves": 3,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 231,
+      "leaves": 3,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 232,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 233,
+      "leaves": 3,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 234,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 235,
+      "leaves": 3,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 236,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 237,
+      "leaves": 3,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 238,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 239,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 240,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 241,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 242,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 243,
+      "leaves": 4,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 244,
+      "leaves": 4,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 245,
+      "leaves": 3,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 246,
+      "leaves": 3,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 247,
+      "leaves": 4,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 248,
+      "leaves": 3,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 249,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 250,
+      "leaves": 4,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 251,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 252,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 253,
+      "leaves": 3,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 254,
+      "leaves": 3,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 255,
+      "leaves": 3,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 256,
+      "leaves": 3,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 257,
+      "leaves": 4,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 258,
+      "leaves": 4,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 259,
+      "leaves": 4,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 260,
+      "leaves": 4,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 261,
+      "leaves": 3,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 262,
+      "leaves": 3,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 263,
+      "leaves": 3,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 264,
+      "leaves": 3,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 265,
+      "leaves": 4,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 266,
+      "leaves": 4,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 267,
+      "leaves": 4,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 268,
+      "leaves": 4,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 269,
+      "leaves": 4,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 270,
+      "leaves": 4,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 271,
+      "leaves": 3,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 272,
+      "leaves": 3,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 273,
+      "leaves": 3,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 274,
+      "leaves": 3,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 275,
+      "leaves": 3,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 276,
+      "leaves": 3,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 277,
+      "leaves": 3,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 278,
+      "leaves": 3,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 279,
+      "leaves": 4,
+      "tau_hier": 12.477967284805764,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 2,
+      "steps": [
+        {
+          "node": 1829,
+          "merge_level_change": 1.2595219125863018
+        },
+        {
+          "node": 1016,
+          "merge_level_change": 3.910944374211012
+        }
+      ],
+      "orders_after": 24
+    },
+    {
+      "t": 280,
+      "leaves": 4,
+      "tau_hier": 13.33771523149472,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 2,
+      "steps": [
+        {
+          "node": 1830,
+          "merge_level_change": 1.336721487216466
+        },
+        {
+          "node": 967,
+          "merge_level_change": 3.693541217294511
+        }
+      ],
+      "orders_after": 24
+    },
+    {
+      "t": 281,
+      "leaves": 5,
+      "tau_hier": 13.373967521929721,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.00501524037430885,
+      "relaxed_nodes": 2,
+      "steps": [
+        {
+          "node": 1829,
+          "merge_level_change": 0.6636560734435453
+        },
+        {
+          "node": 967,
+          "merge_level_change": 4.068109305748905
+        }
+      ],
+      "orders_after": 48
+    },
+    {
+      "t": 282,
+      "leaves": 4,
+      "tau_hier": 12.490762210841648,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 2,
+      "steps": [
+        {
+          "node": 1829,
+          "merge_level_change": 0.4760081064678525
+        },
+        {
+          "node": 967,
+          "merge_level_change": 4.192457225875167
+        }
+      ],
+      "orders_after": 24
+    },
+    {
+      "t": 283,
+      "leaves": 4,
+      "tau_hier": 14.139886011022199,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 2,
+      "steps": [
+        {
+          "node": 1829,
+          "merge_level_change": 0.07863903603871081
+        },
+        {
+          "node": 968,
+          "merge_level_change": 4.766096090141797
+        }
+      ],
+      "orders_after": 24
+    },
+    {
+      "t": 284,
+      "leaves": 3,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 285,
+      "leaves": 3,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 286,
+      "leaves": 3,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 287,
+      "leaves": 3,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 288,
+      "leaves": 3,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 289,
+      "leaves": 3,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 290,
+      "leaves": 3,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 291,
+      "leaves": 3,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 292,
+      "leaves": 3,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 293,
+      "leaves": 4,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 294,
+      "leaves": 4,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 295,
+      "leaves": 6,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 296,
+      "leaves": 5,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 297,
+      "leaves": 6,
+      "tau_hier": 0.36685896261775064,
+      "tau_free": 0.36685896261774653,
+      "tau_relaxed": 0.36685896261775064,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 298,
+      "leaves": 7,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 299,
+      "leaves": 6,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 300,
+      "leaves": 5,
+      "tau_hier": 1.245799298360533,
+      "tau_free": 0.0,
+      "tau_relaxed": 1.245799298360533,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 301,
+      "leaves": 4,
+      "tau_hier": 0.36899145029039865,
+      "tau_free": 0.36899145029039293,
+      "tau_relaxed": 0.36899145029039865,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 302,
+      "leaves": 4,
+      "tau_hier": 1.198884569562294,
+      "tau_free": 0.0,
+      "tau_relaxed": 1.198884569562294,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 303,
+      "leaves": 3,
+      "tau_hier": 1.1882221311990566,
+      "tau_free": 0.0,
+      "tau_relaxed": 1.1882221311990566,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 304,
+      "leaves": 3,
+      "tau_hier": 0.3284741845100999,
+      "tau_free": 0.32847418451009885,
+      "tau_relaxed": 0.3284741845100999,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 305,
+      "leaves": 3,
+      "tau_hier": 0.31781174614686364,
+      "tau_free": 0.3178117461468615,
+      "tau_relaxed": 0.31781174614686364,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 306,
+      "leaves": 3,
+      "tau_hier": 0.31354677080156906,
+      "tau_free": 0.3135467708015707,
+      "tau_relaxed": 0.31354677080156906,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 307,
+      "leaves": 3,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 308,
+      "leaves": 4,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 309,
+      "leaves": 4,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 310,
+      "leaves": 6,
+      "tau_hier": 3.6267217848711972,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 2,
+      "steps": [
+        {
+          "node": 940,
+          "merge_level_change": 9.21311423200419
+        },
+        {
+          "node": 1403,
+          "merge_level_change": 6.705951211275753
+        }
+      ],
+      "orders_after": 96
+    },
+    {
+      "t": 311,
+      "leaves": 6,
+      "tau_hier": 2.8053586162898982,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 2,
+      "steps": [
+        {
+          "node": 990,
+          "merge_level_change": 8.922673520593639
+        },
+        {
+          "node": 1404,
+          "merge_level_change": 7.680848258311411
+        }
+      ],
+      "orders_after": 96
+    },
+    {
+      "t": 312,
+      "leaves": 6,
+      "tau_hier": 2.8309484683616657,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 2,
+      "steps": [
+        {
+          "node": 941,
+          "merge_level_change": 8.521245086800429
+        },
+        {
+          "node": 1405,
+          "merge_level_change": 8.367900689011263
+        }
+      ],
+      "orders_after": 96
+    },
+    {
+      "t": 313,
+      "leaves": 5,
+      "tau_hier": 2.8501408574154836,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.005001926813280555,
+      "relaxed_nodes": 2,
+      "steps": [
+        {
+          "node": 991,
+          "merge_level_change": 8.22854582684602
+        },
+        {
+          "node": 1356,
+          "merge_level_change": 9.307870454790704
+        }
+      ],
+      "orders_after": 48
+    },
+    {
+      "t": 314,
+      "leaves": 4,
+      "tau_hier": 4.101911121259431,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 1,
+      "steps": [
+        {
+          "node": 1356,
+          "merge_level_change": 10.117333782628013
+        }
+      ],
+      "orders_after": 12
+    },
+    {
+      "t": 315,
+      "leaves": 3,
+      "tau_hier": 3.68820851276586,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 1,
+      "steps": [
+        {
+          "node": 1357,
+          "merge_level_change": 0.300243697015409
+        }
+      ],
+      "orders_after": 6
+    },
+    {
+      "t": 316,
+      "leaves": 4,
+      "tau_hier": 2.7005113057180767,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 1,
+      "steps": [
+        {
+          "node": 1357,
+          "merge_level_change": 1.2171508644471924
+        }
+      ],
+      "orders_after": 12
+    },
+    {
+      "t": 317,
+      "leaves": 4,
+      "tau_hier": 2.630139212520716,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 1,
+      "steps": [
+        {
+          "node": 1357,
+          "merge_level_change": 1.8437084476343906
+        }
+      ],
+      "orders_after": 12
+    },
+    {
+      "t": 318,
+      "leaves": 4,
+      "tau_hier": 3.398190189285834,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 1,
+      "steps": [
+        {
+          "node": 1358,
+          "merge_level_change": 2.3328159735753573
+        }
+      ],
+      "orders_after": 12
+    },
+    {
+      "t": 319,
+      "leaves": 4,
+      "tau_hier": 3.3470104851422993,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 1,
+      "steps": [
+        {
+          "node": 1407,
+          "merge_level_change": 2.9369983759636815
+        }
+      ],
+      "orders_after": 12
+    },
+    {
+      "t": 320,
+      "leaves": 4,
+      "tau_hier": 3.291565805653464,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 1,
+      "steps": [
+        {
+          "node": 1408,
+          "merge_level_change": 3.7053525356029082
+        }
+      ],
+      "orders_after": 12
+    },
+    {
+      "t": 321,
+      "leaves": 4,
+      "tau_hier": 3.2766383919449327,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 1,
+      "steps": [
+        {
+          "node": 1408,
+          "merge_level_change": 4.165607666479035
+        }
+      ],
+      "orders_after": 12
+    },
+    {
+      "t": 322,
+      "leaves": 4,
+      "tau_hier": 3.2339886384919954,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 1,
+      "steps": [
+        {
+          "node": 1359,
+          "merge_level_change": 5.21123551533167
+        }
+      ],
+      "orders_after": 12
+    },
+    {
+      "t": 323,
+      "leaves": 4,
+      "tau_hier": 3.2083987864202275,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 1,
+      "steps": [
+        {
+          "node": 1359,
+          "merge_level_change": 6.350701376781243
+        }
+      ],
+      "orders_after": 12
+    },
+    {
+      "t": 324,
+      "leaves": 3,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 325,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 326,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 327,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 328,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 329,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 330,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 331,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 332,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 333,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 334,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 335,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 336,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 337,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 338,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 339,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 340,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 341,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 342,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 343,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 344,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 345,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 346,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 347,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 348,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 349,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 350,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 351,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 352,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 353,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 354,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 355,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 356,
+      "leaves": 3,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 357,
+      "leaves": 3,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 358,
+      "leaves": 3,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 359,
+      "leaves": 3,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 360,
+      "leaves": 4,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 361,
+      "leaves": 3,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 362,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 363,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 364,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 365,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 366,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 367,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 368,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 369,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 370,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 371,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 372,
+      "leaves": 3,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 373,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 374,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 375,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 376,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 377,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 378,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 379,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 380,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 381,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 382,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 383,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 384,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 385,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 386,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 387,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 388,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 389,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 390,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 391,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 392,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 393,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 394,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 395,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 396,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 397,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 398,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 399,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 400,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 401,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 402,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 403,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 404,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 405,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 406,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 407,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 408,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 409,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 410,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 411,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 412,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 413,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 414,
+      "leaves": 4,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 415,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 416,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 417,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 418,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 419,
+      "leaves": 3,
+      "tau_hier": 10.544511794938915,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 1,
+      "steps": [
+        {
+          "node": 1392,
+          "merge_level_change": 6.872729642895246
+        }
+      ],
+      "orders_after": 6
+    },
+    {
+      "t": 420,
+      "leaves": 3,
+      "tau_hier": 11.39786227860993,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 1,
+      "steps": [
+        {
+          "node": 1342,
+          "merge_level_change": 6.748899965551067
+        }
+      ],
+      "orders_after": 6
+    },
+    {
+      "t": 421,
+      "leaves": 4,
+      "tau_hier": 12.23628534857241,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 2,
+      "steps": [
+        {
+          "node": 1075,
+          "merge_level_change": 0.002831831500116344
+        },
+        {
+          "node": 1344,
+          "merge_level_change": 6.8420765029569095
+        }
+      ],
+      "orders_after": 24
+    },
+    {
+      "t": 422,
+      "leaves": 3,
+      "tau_hier": 9.418558303781158,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 1,
+      "steps": [
+        {
+          "node": 1345,
+          "merge_level_change": 6.608301667663364
+        }
+      ],
+      "orders_after": 6
+    },
+    {
+      "t": 423,
+      "leaves": 4,
+      "tau_hier": 8.447920998114547,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.005010812852312155,
+      "relaxed_nodes": 1,
+      "steps": [
+        {
+          "node": 1347,
+          "merge_level_change": 6.356228739323644
+        }
+      ],
+      "orders_after": 12
+    },
+    {
+      "t": 424,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 425,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 426,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 427,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 428,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 429,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 430,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 431,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 432,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 433,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 434,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 435,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 436,
+      "leaves": 3,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 437,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 438,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 439,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 440,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 441,
+      "leaves": 3,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 442,
+      "leaves": 4,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 443,
+      "leaves": 3,
+      "tau_hier": 1.9072258914932907,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 1,
+      "steps": [
+        {
+          "node": 661,
+          "merge_level_change": 0.16638043298840266
+        }
+      ],
+      "orders_after": 6
+    },
+    {
+      "t": 444,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 445,
+      "leaves": 3,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 446,
+      "leaves": 3,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 447,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 448,
+      "leaves": 3,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 449,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 450,
+      "leaves": 1,
+      "tau_hier": 5.1158379266807685,
+      "tau_free": 5.115837926680765,
+      "tau_relaxed": 5.1158379266807685,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 451,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 452,
+      "leaves": 4,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 453,
+      "leaves": 4,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 454,
+      "leaves": 5,
+      "tau_hier": 1.2266069093067073,
+      "tau_free": 0.0,
+      "tau_relaxed": 1.2266069093067073,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 455,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 456,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 457,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 458,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 459,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 460,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 461,
+      "leaves": 3,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 462,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 463,
+      "leaves": 3,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 464,
+      "leaves": 3,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 465,
+      "leaves": 3,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 466,
+      "leaves": 3,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 467,
+      "leaves": 3,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 468,
+      "leaves": 3,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 469,
+      "leaves": 3,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 470,
+      "leaves": 3,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 471,
+      "leaves": 3,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 472,
+      "leaves": 3,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 473,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 474,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 475,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 476,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 477,
+      "leaves": 3,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 478,
+      "leaves": 4,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 479,
+      "leaves": 4,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 480,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 481,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 482,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 483,
+      "leaves": 3,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 484,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 485,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 486,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 487,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 488,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 489,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 490,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 491,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 492,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 493,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 494,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 495,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 496,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 497,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 498,
+      "leaves": 3,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 499,
+      "leaves": 3,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 500,
+      "leaves": 3,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 501,
+      "leaves": 3,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 502,
+      "leaves": 3,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 503,
+      "leaves": 3,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 504,
+      "leaves": 3,
+      "tau_hier": 0.7055690879565547,
+      "tau_free": 0.7055690879565532,
+      "tau_relaxed": 0.7055690879565547,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 505,
+      "leaves": 3,
+      "tau_hier": 0.6799792358847871,
+      "tau_free": 0.6799792358847883,
+      "tau_relaxed": 0.6799792358847871,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 506,
+      "leaves": 3,
+      "tau_hier": 1.593039374389926,
+      "tau_free": 1.5930393743899243,
+      "tau_relaxed": 1.593039374389926,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 507,
+      "leaves": 3,
+      "tau_hier": 1.5290647442105088,
+      "tau_free": 1.5290647442105072,
+      "tau_relaxed": 1.5290647442105088,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 508,
+      "leaves": 3,
+      "tau_hier": 1.4842825030849152,
+      "tau_free": 1.4842825030849158,
+      "tau_relaxed": 1.4842825030849152,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 509,
+      "leaves": 4,
+      "tau_hier": 0.3561965242545143,
+      "tau_free": 0.35619652425451365,
+      "tau_relaxed": 0.3561965242545143,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 510,
+      "leaves": 3,
+      "tau_hier": 1.3989829961790257,
+      "tau_free": 1.398982996179025,
+      "tau_relaxed": 1.3989829961790257,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 511,
+      "leaves": 4,
+      "tau_hier": 0.35832901192716166,
+      "tau_free": 0.3583290119271599,
+      "tau_relaxed": 0.35832901192716166,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 512,
+      "leaves": 3,
+      "tau_hier": 1.2518413467663643,
+      "tau_free": 1.2518413467663612,
+      "tau_relaxed": 1.2518413467663643,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 513,
+      "leaves": 3,
+      "tau_hier": 1.1814692535690048,
+      "tau_free": 1.1814692535690026,
+      "tau_relaxed": 1.1814692535690048,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 514,
+      "leaves": 5,
+      "tau_hier": 0.39031632701687063,
+      "tau_free": 0.39031632701686925,
+      "tau_relaxed": 0.39031632701687063,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 515,
+      "leaves": 4,
+      "tau_hier": 0.6845996258421929,
+      "tau_free": 0.6845996258421919,
+      "tau_relaxed": 0.6845996258421929,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 516,
+      "leaves": 6,
+      "tau_hier": 1.288449051813478,
+      "tau_free": 0.0,
+      "tau_relaxed": 1.288449051813478,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 517,
+      "leaves": 4,
+      "tau_hier": 0.7400443053310215,
+      "tau_free": 0.7400443053310213,
+      "tau_relaxed": 0.7400443053310215,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 518,
+      "leaves": 4,
+      "tau_hier": 0.7741641080933779,
+      "tau_free": 0.7741641080933772,
+      "tau_relaxed": 0.7741641080933779,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 519,
+      "leaves": 4,
+      "tau_hier": 0.9085108314701552,
+      "tau_free": 0.9085108314701552,
+      "tau_relaxed": 0.9085108314701552,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 520,
+      "leaves": 4,
+      "tau_hier": 0.9788829246675147,
+      "tau_free": 0.9788829246675127,
+      "tau_relaxed": 0.9788829246675147,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 521,
+      "leaves": 4,
+      "tau_hier": 1.008737752084577,
+      "tau_free": 1.0087377520845766,
+      "tau_relaxed": 1.008737752084577,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 522,
+      "leaves": 5,
+      "tau_hier": 1.027930141138402,
+      "tau_free": 1.0279301411384019,
+      "tau_relaxed": 1.027930141138402,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 523,
+      "leaves": 4,
+      "tau_hier": 1.0428575548469325,
+      "tau_free": 1.0428575548469319,
+      "tau_relaxed": 1.0428575548469325,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 524,
+      "leaves": 3,
+      "tau_hier": 1.686868831986406,
+      "tau_free": 1.6868688319864071,
+      "tau_relaxed": 1.686868831986406,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 525,
+      "leaves": 3,
+      "tau_hier": 0.9529376579836444,
+      "tau_free": 0.9529376579836457,
+      "tau_relaxed": 0.9529376579836444,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 526,
+      "leaves": 3,
+      "tau_hier": 0.27445116346970533,
+      "tau_free": 0.2744511634697051,
+      "tau_relaxed": 0.27445116346970533,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 527,
+      "leaves": 3,
+      "tau_hier": 1.2962681732798536,
+      "tau_free": 1.296268173279854,
+      "tau_relaxed": 1.2962681732798536,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 528,
+      "leaves": 3,
+      "tau_hier": 2.147486169278213,
+      "tau_free": 2.147486169278212,
+      "tau_relaxed": 2.147486169278213,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 529,
+      "leaves": 4,
+      "tau_hier": 10.229259033999227,
+      "tau_free": 0.11487000263327138,
+      "tau_relaxed": 0.11500525659935089,
+      "relaxed_nodes": 1,
+      "steps": [
+        {
+          "node": 26,
+          "merge_level_change": 1.3977338644497617
+        }
+      ],
+      "orders_after": 12
+    },
+    {
+      "t": 530,
+      "leaves": 3,
+      "tau_hier": 3.047751381747469,
+      "tau_free": 1.3410504144054372,
+      "tau_relaxed": 1.3400323594950467,
+      "relaxed_nodes": 1,
+      "steps": [
+        {
+          "node": 26,
+          "merge_level_change": 1.5153895846780139
+        }
+      ],
+      "orders_after": 6
+    },
+    {
+      "t": 531,
+      "leaves": 4,
+      "tau_hier": 10.186609280546282,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 1,
+      "steps": [
+        {
+          "node": 26,
+          "merge_level_change": 1.2445950677707764
+        }
+      ],
+      "orders_after": 12
+    },
+    {
+      "t": 532,
+      "leaves": 4,
+      "tau_hier": 9.32899382152998,
+      "tau_free": 0.05729283547178739,
+      "tau_relaxed": 0.06501343099653024,
+      "relaxed_nodes": 1,
+      "steps": [
+        {
+          "node": 26,
+          "merge_level_change": 1.2651479504030427
+        }
+      ],
+      "orders_after": 12
+    },
+    {
+      "t": 533,
+      "leaves": 4,
+      "tau_hier": 9.36737859963763,
+      "tau_free": 0.07648522452561222,
+      "tau_relaxed": 0.08001673501229334,
+      "relaxed_nodes": 1,
+      "steps": [
+        {
+          "node": 26,
+          "merge_level_change": 0.7562200568710051
+        }
+      ],
+      "orders_after": 12
+    },
+    {
+      "t": 534,
+      "leaves": 4,
+      "tau_hier": 1.906870476881184,
+      "tau_free": 0.20016950953915336,
+      "tau_relaxed": 0.20835092697363625,
+      "relaxed_nodes": 2,
+      "steps": [
+        {
+          "node": 27,
+          "merge_level_change": 0.14959244100341307
+        },
+        {
+          "node": 1867,
+          "merge_level_change": 7.39688491420347
+        }
+      ],
+      "orders_after": 24
+    },
+    {
+      "t": 535,
+      "leaves": 4,
+      "tau_hier": 2.766618423570141,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 1,
+      "steps": [
+        {
+          "node": 1916,
+          "merge_level_change": 7.7208436397549445
+        }
+      ],
+      "orders_after": 12
+    },
+    {
+      "t": 536,
+      "leaves": 3,
+      "tau_hier": 3.5965115428420287,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 1,
+      "steps": [
+        {
+          "node": 1916,
+          "merge_level_change": 8.261455548303047
+        }
+      ],
+      "orders_after": 6
+    },
+    {
+      "t": 537,
+      "leaves": 3,
+      "tau_hier": 4.428537149786571,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 1,
+      "steps": [
+        {
+          "node": 1917,
+          "merge_level_change": 8.356050173381274
+        }
+      ],
+      "orders_after": 6
+    },
+    {
+      "t": 538,
+      "leaves": 4,
+      "tau_hier": 2.7794133496060214,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.005010324084401912,
+      "relaxed_nodes": 1,
+      "steps": [
+        {
+          "node": 1967,
+          "merge_level_change": 8.134845431036304
+        }
+      ],
+      "orders_after": 12
+    },
+    {
+      "t": 539,
+      "leaves": 3,
+      "tau_hier": 3.6882085127658577,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 1,
+      "steps": [
+        {
+          "node": 2017,
+          "merge_level_change": 8.255996755588951
+        }
+      ],
+      "orders_after": 6
+    },
+    {
+      "t": 540,
+      "leaves": 3,
+      "tau_hier": 5.174907835213112,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 1,
+      "steps": [
+        {
+          "node": 1968,
+          "merge_level_change": 8.648845044862657
+        }
+      ],
+      "orders_after": 6
+    },
+    {
+      "t": 541,
+      "leaves": 4,
+      "tau_hier": 9.45232269193141,
+      "tau_free": 1.396850508506375,
+      "tau_relaxed": 1.4017019074838655,
+      "relaxed_nodes": 1,
+      "steps": [
+        {
+          "node": 2019,
+          "merge_level_change": 7.967407120676096
+        }
+      ],
+      "orders_after": 12
+    },
+    {
+      "t": 542,
+      "leaves": 3,
+      "tau_hier": 1.5781119606813963,
+      "tau_free": 1.5781119606813947,
+      "tau_relaxed": 1.5781119606813963,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 543,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 544,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 545,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 546,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 547,
+      "leaves": 3,
+      "tau_hier": 0.16178473143150368,
+      "tau_free": 0.16178473143150146,
+      "tau_relaxed": 0.16178473143150368,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 548,
+      "leaves": 2,
+      "tau_hier": 0.7158761117076877,
+      "tau_free": 0.715876111707686,
+      "tau_relaxed": 0.7158761117076877,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 549,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 550,
+      "leaves": 2,
+      "tau_hier": 0.6988162103265099,
+      "tau_free": 0.6988162103265099,
+      "tau_relaxed": 0.6988162103265099,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 551,
+      "leaves": 2,
+      "tau_hier": 0.7563933774879859,
+      "tau_free": 0.7563933774879832,
+      "tau_relaxed": 0.7563933774879859,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 552,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 553,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 554,
+      "leaves": 2,
+      "tau_hier": 0.7393334761068009,
+      "tau_free": 0.7393334761068018,
+      "tau_relaxed": 0.7393334761068009,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 555,
+      "leaves": 3,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 556,
+      "leaves": 3,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 557,
+      "leaves": 3,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 558,
+      "leaves": 4,
+      "tau_hier": 5.685283218200019,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 2,
+      "steps": [
+        {
+          "node": 1771,
+          "merge_level_change": 5.735670416624032
+        },
+        {
+          "node": 2378,
+          "merge_level_change": 4.9551672397427104
+        }
+      ],
+      "orders_after": 24
+    },
+    {
+      "t": 559,
+      "leaves": 4,
+      "tau_hier": 3.92100508369652,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 2,
+      "steps": [
+        {
+          "node": 1771,
+          "merge_level_change": 6.481824800201965
+        },
+        {
+          "node": 2379,
+          "merge_level_change": 4.06596311531292
+        }
+      ],
+      "orders_after": 24
+    },
+    {
+      "t": 560,
+      "leaves": 3,
+      "tau_hier": 3.925270059041814,
+      "tau_free": 0.0,
+      "tau_relaxed": 3.9317466868858113,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": 4
+    },
+    {
+      "t": 561,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 562,
+      "leaves": 3,
+      "tau_hier": 1.375881046392016,
+      "tau_free": 0.0,
+      "tau_relaxed": 1.375881046392016,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 563,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 564,
+      "leaves": 3,
+      "tau_hier": 3.895415231624752,
+      "tau_free": 0.0,
+      "tau_relaxed": 3.903419647521775,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": 4
+    },
+    {
+      "t": 565,
+      "leaves": 4,
+      "tau_hier": 3.9295350343871127,
+      "tau_free": 0.0,
+      "tau_relaxed": 2.913401711879924,
+      "relaxed_nodes": 1,
+      "steps": [
+        {
+          "node": 110,
+          "merge_level_change": 0.03212057377898586
+        }
+      ],
+      "orders_after": 12
+    },
+    {
+      "t": 566,
+      "leaves": 3,
+      "tau_hier": 3.071919575370799,
+      "tau_free": 0.0,
+      "tau_relaxed": 3.0717344952843204,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": 4
+    },
+    {
+      "t": 567,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 568,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 569,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 570,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 571,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 572,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 573,
+      "leaves": 3,
+      "tau_hier": 0.37752140098098685,
+      "tau_free": 0.3775214009809875,
+      "tau_relaxed": 0.37752140098098685,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 574,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 575,
+      "leaves": 3,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 576,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 577,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 578,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 579,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 580,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 581,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 582,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 583,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 584,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 585,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 586,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 587,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 588,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 589,
+      "leaves": 3,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 590,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 591,
+      "leaves": 4,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 592,
+      "leaves": 4,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 593,
+      "leaves": 3,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 594,
+      "leaves": 3,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 595,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 596,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 597,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 598,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 599,
+      "leaves": 3,
+      "tau_hier": 3.7162862671223857,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 1,
+      "steps": [
+        {
+          "node": 2023,
+          "merge_level_change": 3.3410284513597226
+        }
+      ],
+      "orders_after": 6
+    },
+    {
+      "t": 600,
+      "leaves": 3,
+      "tau_hier": 4.582431676829284,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 1,
+      "steps": [
+        {
+          "node": 2073,
+          "merge_level_change": 2.6353116638514305
+        }
+      ],
+      "orders_after": 6
+    },
+    {
+      "t": 601,
+      "leaves": 3,
+      "tau_hier": 6.263542792099541,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 1,
+      "steps": [
+        {
+          "node": 2024,
+          "merge_level_change": 1.93977776305932
+        }
+      ],
+      "orders_after": 6
+    },
+    {
+      "t": 602,
+      "leaves": 3,
+      "tau_hier": 8.006496049876564,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 1,
+      "steps": [
+        {
+          "node": 2024,
+          "merge_level_change": 1.1285128198283392
+        }
+      ],
+      "orders_after": 6
+    },
+    {
+      "t": 603,
+      "leaves": 3,
+      "tau_hier": 7.513535982882942,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 1,
+      "steps": [
+        {
+          "node": 1975,
+          "merge_level_change": 0.7566594051788265
+        }
+      ],
+      "orders_after": 6
+    },
+    {
+      "t": 604,
+      "leaves": 5,
+      "tau_hier": 6.698570277319578,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.005012920514910474,
+      "relaxed_nodes": 1,
+      "steps": [
+        {
+          "node": 1926,
+          "merge_level_change": 0.3142255659556312
+        }
+      ],
+      "orders_after": 24
+    },
+    {
+      "t": 605,
+      "leaves": 6,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 606,
+      "leaves": 5,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 607,
+      "leaves": 5,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 608,
+      "leaves": 4,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 609,
+      "leaves": 4,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 610,
+      "leaves": 3,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 611,
+      "leaves": 3,
+      "tau_hier": 0.296486869420391,
+      "tau_free": 0.2964868694203892,
+      "tau_relaxed": 0.296486869420391,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 612,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 613,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 614,
+      "leaves": 3,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 615,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 616,
+      "leaves": 3,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 617,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 618,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 619,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 620,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 621,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 622,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 623,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 624,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 625,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 626,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 627,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 628,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 629,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 630,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 631,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 632,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 633,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 634,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 635,
+      "leaves": 3,
+      "tau_hier": 2.3593132780945103,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 1,
+      "steps": [
+        {
+          "node": 1053,
+          "merge_level_change": 2.1548326238845963
+        }
+      ],
+      "orders_after": 6
+    },
+    {
+      "t": 636,
+      "leaves": 4,
+      "tau_hier": 2.1844492889374316,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 1,
+      "steps": [
+        {
+          "node": 1103,
+          "merge_level_change": 3.1591766845106335
+        }
+      ],
+      "orders_after": 12
+    },
+    {
+      "t": 637,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 638,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 639,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 640,
+      "leaves": 3,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 641,
+      "leaves": 3,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 642,
+      "leaves": 3,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 643,
+      "leaves": 3,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 644,
+      "leaves": 3,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 645,
+      "leaves": 3,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 646,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 647,
+      "leaves": 3,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 648,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 649,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 650,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 651,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 652,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 653,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 654,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 655,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 656,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 657,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 658,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 659,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 660,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 661,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 662,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 663,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 664,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 665,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 666,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 667,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 668,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 669,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 670,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 671,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 672,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 673,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 674,
+      "leaves": 3,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 675,
+      "leaves": 3,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 676,
+      "leaves": 4,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 677,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 678,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 679,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 680,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 681,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 682,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 683,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 684,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 685,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 686,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 687,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 688,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 689,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 690,
+      "leaves": 3,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 691,
+      "leaves": 4,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 692,
+      "leaves": 4,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 693,
+      "leaves": 4,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 694,
+      "leaves": 3,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 695,
+      "leaves": 3,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 696,
+      "leaves": 3,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 697,
+      "leaves": 2,
+      "tau_hier": 4.776061557505656,
+      "tau_free": 4.776061557505651,
+      "tau_relaxed": 4.776061557505656,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 698,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 699,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 700,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 701,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 702,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 703,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 704,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 705,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 706,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 707,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 708,
+      "leaves": 2,
+      "tau_hier": 6.475014486303727,
+      "tau_free": 6.47501448630373,
+      "tau_relaxed": 6.475014486303727,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 709,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 710,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 711,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 712,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 713,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 714,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 715,
+      "leaves": 3,
+      "tau_hier": 3.0402876748932024,
+      "tau_free": 3.0402876748932033,
+      "tau_relaxed": 3.0402876748932024,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 716,
+      "leaves": 2,
+      "tau_hier": 3.040287674893206,
+      "tau_free": 3.0402876748932033,
+      "tau_relaxed": 3.040287674893206,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 717,
+      "leaves": 2,
+      "tau_hier": 2.2807666488186698,
+      "tau_free": 2.2807666488186724,
+      "tau_relaxed": 2.2807666488186698,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 718,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 719,
+      "leaves": 3,
+      "tau_hier": 2.4770265976246457,
+      "tau_free": 2.2978265501998503,
+      "tau_relaxed": 2.4770265976246457,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 720,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 721,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 722,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 723,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 724,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 725,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 726,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 727,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 728,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 729,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 730,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 731,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 732,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 733,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 734,
+      "leaves": 3,
+      "tau_hier": 12.048981847991556,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 1,
+      "steps": [
+        {
+          "node": 787,
+          "merge_level_change": 1.5968721223763365
+        }
+      ],
+      "orders_after": 6
+    },
+    {
+      "t": 735,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 736,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 737,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 738,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 739,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 740,
+      "leaves": 2,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 741,
+      "leaves": 1,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 742,
+      "leaves": 3,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    },
+    {
+      "t": 743,
+      "leaves": 3,
+      "tau_hier": 0.0,
+      "tau_free": 0.0,
+      "tau_relaxed": 0.0,
+      "relaxed_nodes": 0,
+      "steps": [],
+      "orders_after": null
+    }
+  ],
+  "seconds_total": 51.69649916701019,
+  "scalar_fill": "existing filling.optimal_fill",
+  "direction": [
+    1.0,
+    0.0
+  ],
+  "original_results_modified": false,
+  "results_before_optimal_scalar_fill": {
+    "A_full_hierarchy": {
+      "ref_err_mean": 1.501827630335864,
+      "ref_err_p95": 5.857588222149921,
+      "ref_err_max": 14.822566397959015,
+      "frames_err_over_theta": 120,
+      "topology_exact_frames": 744,
+      "topology_exact_unrelaxed_frames": 744,
+      "unrelaxed_frames": 744,
+      "pairs": 1696,
+      "pairs_merge_changed": 0,
+      "merge_err_max": 0.0,
+      "merge_err_mean_changed": 0.0,
+      "raster_length": 4096
+    },
+    "R_relaxed": {
+      "ref_err_mean": 0.7411921874073054,
+      "ref_err_p95": 1.9092872962435194,
+      "ref_err_max": 8.42872860906072,
+      "frames_err_over_theta": 42,
+      "topology_exact_frames": 663,
+      "topology_exact_unrelaxed_frames": 663,
+      "unrelaxed_frames": 663,
+      "pairs": 1696,
+      "pairs_merge_changed": 140,
+      "merge_err_max": 17.536416281636726,
+      "merge_err_mean_changed": 5.7512033500269855,
+      "raster_length": 4096
+    }
+  },
+  "actual_output_verification": "verification.json"
+}

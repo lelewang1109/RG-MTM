@@ -1,0 +1,83 @@
+{
+  "source": "Saved frame_metrics.json layout.x and layout.reference; canvas in parameters.json. No optimizer or experiment rerun.",
+  "values": {
+    "nucleon": {
+      "RG-MTM-P": {
+        "E_pool_percent": 1.9245351676222842,
+        "E_infinity_percent": 3.43177432105655,
+        "rendered_anchor_MAE_percent": 1.9246224116978208,
+        "anchor_count": 13
+      },
+      "RG-MTM-R 0.02": {
+        "E_pool_percent": 1.9245351676222842,
+        "E_infinity_percent": 3.43177432105655,
+        "rendered_anchor_MAE_percent": 1.9246224116978208,
+        "anchor_count": 13
+      },
+      "RG-MTM-R 0.2": {
+        "E_pool_percent": 1.9245351676222842,
+        "E_infinity_percent": 3.43177432105655,
+        "rendered_anchor_MAE_percent": 1.9246224116978208,
+        "anchor_count": 13
+      },
+      "RG-MTM-R 1": {
+        "E_pool_percent": 1.9245351676222842,
+        "E_infinity_percent": 3.43177432105655,
+        "rendered_anchor_MAE_percent": 1.9246224116978208,
+        "anchor_count": 13
+      }
+    },
+    "benzene-potential-reconstructed2d": {
+      "RG-MTM-P": {
+        "E_pool_percent": 1.5970318583014953,
+        "E_infinity_percent": 15.39151979088562,
+        "rendered_anchor_MAE_percent": 1.4790810150165594,
+        "anchor_count": 180
+      },
+      "RG-MTM-R 0.02": {
+        "E_pool_percent": 0.522627500173738,
+        "E_infinity_percent": 1.7505374899220734,
+        "rendered_anchor_MAE_percent": 0.5595282904160724,
+        "anchor_count": 180
+      },
+      "RG-MTM-R 0.2": {
+        "E_pool_percent": 0.522627500173738,
+        "E_infinity_percent": 1.7505374899220734,
+        "rendered_anchor_MAE_percent": 0.5595282904160724,
+        "anchor_count": 180
+      },
+      "RG-MTM-R 1": {
+        "E_pool_percent": 0.522627500173738,
+        "E_infinity_percent": 1.7505374899220734,
+        "rendered_anchor_MAE_percent": 0.5595282904160724,
+        "anchor_count": 180
+      }
+    },
+    "square-cylinder3d": {
+      "RG-MTM-P": {
+        "E_pool_percent": 5.400223164202237,
+        "E_infinity_percent": 32.08093182992734,
+        "rendered_anchor_MAE_percent": 5.730255606224851,
+        "anchor_count": 2032
+      },
+      "RG-MTM-R 0.02": {
+        "E_pool_percent": 0.6231149447068849,
+        "E_infinity_percent": 5.271996768904331,
+        "rendered_anchor_MAE_percent": 0.5279372083114451,
+        "anchor_count": 2032
+      },
+      "RG-MTM-R 0.2": {
+        "E_pool_percent": 0.5500989456336708,
+        "E_infinity_percent": 5.271996768904331,
+        "rendered_anchor_MAE_percent": 0.5089397850031264,
+        "anchor_count": 2032
+      },
+      "RG-MTM-R 1": {
+        "E_pool_percent": 0.5500189300665499,
+        "E_infinity_percent": 5.271996768904331,
+        "rendered_anchor_MAE_percent": 0.5088227705084342,
+        "anchor_count": 2032
+      }
+    }
+  }
+}

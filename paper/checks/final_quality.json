@@ -1,0 +1,296 @@
+{
+  "page_limit_enforced": false,
+  "page_limit_policy": "User requested content-first revision without a page-count limit on 2026-10-19.",
+  "additional_control_figure": {
+    "source": "/Users/lele/Desktop/MergeTreeMaps/03-figures/pdf/three_method_position_comparison/bisector_absolute_position_comparison.png",
+    "asset": "/Users/lele/Desktop/MergeTreeMaps/paper_revision/manuscript/latex/figures/bisector_three_methods_selected.png",
+    "sha256": "ca61e4adad3c7d20f8e95a1701ff1b2194225483600b8823d0370e1097860bb5",
+    "placement": "Section 6 Absolute-Reference Control",
+    "figure_label": "fig:bisector",
+    "historical_image_label": "CD-MTM = RG-MTM-R",
+    "independent_frames": 64,
+    "main_suite_frames": 342,
+    "original_image_changed": false
+  },
+  "manuscript_teaser_selection": {
+    "source": "/Users/lele/Desktop/MergeTreeMaps/paper_revision/figures_export/Fig1.png",
+    "manuscript_asset": "/Users/lele/Desktop/MergeTreeMaps/paper_revision/manuscript/latex/figures/Fig1_Corrected.png",
+    "sha256": "a0a07e9a45a36e529e367da1c525e72dac76265a1e60cc917fe9afff41b80b8a",
+    "method": "RG-MTM-R20",
+    "frame_count": 118,
+    "local_frames": [
+      43,
+      53
+    ],
+    "display_interpolation": "anchor-aligned; crossing/large-jump fallback; original frames unchanged",
+    "Fig1_ppt_is_current_teaser": true
+  },
+  "native_editability": [
+    {
+      "figure": 1,
+      "native_shapes": 121,
+      "raster_layers": 8,
+      "native_groups": 3,
+      "sha256": "13ea8cbaf9c770a4240985ffb394a62fd2793733957d6a2b4fffe15718ed6da6",
+      "scope": "Current Fig1 PPT corresponds to the selected manuscript PNG.",
+      "manuscript_figure_number": 1
+    },
+    {
+      "figure": 2,
+      "native_shapes": 3681,
+      "raster_layers": 0,
+      "native_groups": 17,
+      "sha256": "ecae14706927f97c5321968e32150087674fb3d99c3edae3c29dc089b568bbac",
+      "manuscript_figure_number": 3
+    },
+    {
+      "figure": 3,
+      "native_shapes": 78,
+      "raster_layers": 0,
+      "native_groups": 0,
+      "sha256": "7366fa7d55f5365bd52764a621b6778f26fa34a9f2ae716e57dade10d71896cb",
+      "scope": "Supplied three-leaf conflict schematic; now manuscript Figure 4, single column.",
+      "manuscript_figure_number": 4
+    },
+    {
+      "figure": 4,
+      "native_shapes": 80,
+      "raster_layers": 0,
+      "native_groups": 0,
+      "sha256": "b1327fa6da4b2b8ca4697237065adc6121d8a98b935c711120cec8b67e6aeae0",
+      "manuscript_figure_number": null,
+      "scope": "Editable certificate/filling diagnostics now retained in Supplement S8; not the selected raster Figure 5."
+    },
+    {
+      "figure": 5,
+      "native_shapes": 184,
+      "raster_layers": 12,
+      "native_groups": 0,
+      "sha256": "059989adc044e72ecd356f2649339b8c1c139c5738a1f7872d8dfe5ad77c7bda",
+      "manuscript_figure_number": 8
+    },
+    {
+      "figure": 6,
+      "native_shapes": 136,
+      "raster_layers": 10,
+      "native_groups": 0,
+      "sha256": "29fae9c60a90284f1ebfa7d4b3af34ae63f28d0bd264f4bbf9ab5471233bf8c1",
+      "manuscript_figure_number": 9
+    }
+  ],
+  "five_leaf_barrier_error": {
+    "P": 0.0,
+    "R_LCA": 5.0,
+    "R_optimal": 2.5
+  },
+  "reconstructed_selected_frame_NROE": {
+    "era5": {
+      "TMTM": 0.1973435391569891,
+      "ST-MTM": 0.07779310073978457,
+      "P": 0.07779310073978457,
+      "R": 0.0
+    },
+    "wildfire": {
+      "TMTM": 0.3802635495140445,
+      "ST-MTM": 0.3802635495140445,
+      "P": 0.13317613673133555,
+      "R": 0.01586554267519641
+    },
+    "tangaroa": {
+      "TMTM": 0.15528751417397826,
+      "P": 0.13495015967219576,
+      "R": 0.005316881109285021
+    }
+  },
+  "unchanged_source_tables": {
+    "datasets_supp.tex": true,
+    "standard_metrics_supp.tex": true,
+    "certificates_supp.tex": true,
+    "standard_metrics_main.tex": true,
+    "standard_tasks_supp.tex": true,
+    "supplement_generated.tex": true,
+    "achieved_reference_main.tex": true,
+    "comparison_revision.tex": true,
+    "achieved_reference_supp.tex": true,
+    "motion_supp.tex": true,
+    "hidden_quality_supp.tex": true,
+    "volume3d_main.tex": true
+  },
+  "pdfs": {
+    "main": {
+      "pages": 13,
+      "sha256": "5273c036f572e5254cbdd74325092c606e5ead78178748412bb4018e8bed938b",
+      "figure_captions": 9,
+      "reference42": true,
+      "ack_page": 10,
+      "algorithm_captions": 1
+    },
+    "supplement": {
+      "pages": 37,
+      "sha256": "eca319b6259a543e28e046db596744260f0cb90622fb4c3f8bd7a9b7878f2294",
+      "figure_captions": 8,
+      "reference42": false,
+      "ack_page": null
+    }
+  },
+  "original_figure2_preserved": false,
+  "mac_powerpoint_app_present": false,
+  "native_powerpoint_render_verified": false,
+  "cross_application_render": "LibreOfficeDev 26.8; archived six-slide set rendered; current manuscript PNG selections checked separately",
+  "supplied_figure3": {
+    "source": "/Users/lele/Desktop/MergeTreeMaps/paper_revision/figures_ppt/Fig3.pptx",
+    "source_sha256": "7366fa7d55f5365bd52764a621b6778f26fa34a9f2ae716e57dade10d71896cb",
+    "combined_sha256": "f2fc431ea3eed17c65bf9e77044069591fb44b0b7f810f5378f2c66d40ef4121",
+    "native_shapes": 78,
+    "raster_layers": 0,
+    "changed_existing_parts": [
+      "[Content_Types].xml",
+      "ppt/slides/slide3.xml",
+      "ppt/slides/_rels/slide3.xml.rels"
+    ],
+    "other_slides_byte_identical": true,
+    "standalone_size_emu": [
+      8229600,
+      11850624
+    ],
+    "combined_uniform_scale": 0.51440329218107,
+    "manuscript_column": "single",
+    "schematic_cost": {
+      "LCA": "gamma",
+      "optimal": "gamma/2",
+      "condition": "fixed leaf values below (s1+s2)/2"
+    },
+    "illustrative_scalar_check": {
+      "s1": 1,
+      "s2": 3,
+      "LCA_error": 2,
+      "optimal_error": 1,
+      "source": "symbolic schematic instantiation; no data experiment rerun"
+    },
+    "supplied_original_sha256": "7366fa7d55f5365bd52764a621b6778f26fa34a9f2ae716e57dade10d71896cb"
+  },
+  "author_updated_workflow": {
+    "author_authorized_current_source": true,
+    "source": "/Users/lele/Desktop/MergeTreeMaps/paper_revision/figures_ppt/Fig2.pptx",
+    "source_sha256": "ecae14706927f97c5321968e32150087674fb3d99c3edae3c29dc089b568bbac",
+    "archived_source_sha256": "2f4c3fad2ee7c918ba75d23f31e0de529e3a764a0bc2a543b22a9610a9e34417",
+    "source_changed_parts": [
+      "ppt/slides/slide1.xml"
+    ],
+    "manuscript_figure_number": 3,
+    "combined_display_position": 3,
+    "combined_changed_existing_parts": [
+      "ppt/slides/slide2.xml"
+    ],
+    "other_combined_parts_byte_identical": true,
+    "native_shapes": 3681,
+    "raster_layers": 0,
+    "combined_sha256": "97b3891dadde09da12ec7d869435684b249803c85f3078991082131da2914304",
+    "export_pdf_sha256": "ecf7d439b581afebb3d942f9782feefe991e32927c35321e409318cb57ce9dfe",
+    "source_ppt_unmodified": true,
+    "original_archive_unmodified": true,
+    "exports": {
+      "pdf": "ecf7d439b581afebb3d942f9782feefe991e32927c35321e409318cb57ce9dfe",
+      "svg": "b0d44e899e61dec7dc802032ebcac2239292b08d60ef4ab300277a913e46d42e",
+      "png": "290c1b8daf8839042a61775c63db61e740c87373c65a3d0ec5ac9ac65f256d6e"
+    },
+    "manuscript_page": 5,
+    "main_pdf_sha256": "865fdb6cc776a9ea0e6414a3f372f508cd01fb1aa0d285c55a5d19c93d9b5139",
+    "main_pages": 12,
+    "source_and_paper_render_visually_checked": true,
+    "combined_slide_render_visually_checked": true,
+    "all_original_numeric_tables_unchanged": true,
+    "native_powerpoint_app_tested": false
+  },
+  "five_leaf_barrier_error_scope": "Archived numerical fixture; independent of the current three-leaf schematic.",
+  "prior_work_overview": {
+    "source": "/Users/lele/Downloads/TMTM_STMTM_%E5%85%A8%E5%BD%A2%E7%8A%B6%E5%8F%AF%E7%BC%96%E8%BE%91%E6%B5%81%E7%A8%8B%E5%9B%BE.pptx",
+    "source_sha256": "75efd9b824c614d3b1a04602a89f071d546964d820f153d3c5a74a5fc7f75b63",
+    "ppt": "figures_ppt/Prior_Work_Overview.pptx",
+    "asset": "figures/Prior_Work_Overview.pdf",
+    "label": "fig:prior_work",
+    "placement": "Section 3.1: From Augmented Trees to Temporal Maps",
+    "manuscript_column": "single",
+    "source_attribution": {
+      "TMTM_path": "ST-MTM Fig.1 and TMTM original",
+      "ST_MTM_path": "ST-MTM Fig.3 and Section 4"
+    },
+    "native_shapes": 756,
+    "raster_layers": 0,
+    "scientific_results_changed": false,
+    "combined_slide_count": 7,
+    "combined_display_position": 2,
+    "original_six_slide_parts_byte_identical": true,
+    "combined_sha256": "a2cc7f14b7b94ed7933e72f5e15e3bddc2387562cd76b9f927d5753c8dc2a4d9",
+    "manuscript_figure_number": 2,
+    "manuscript_page": 2,
+    "main_pdf_pages": 12,
+    "single_column_verified": true,
+    "primary_reference_review": "ST-MTM local PDF pages 3--5: Figure 1, Figure 3, Sections 3.2 and 4.1--4.2"
+  },
+  "selected_frontier_figure5": {
+    "source": "/Users/lele/Desktop/MergeTreeMaps/paper_revision/evidence/figure5_selected/original_screenshot.png",
+    "source_sha256": "6644da8d1e571e7d77274c9490ecdd18d0fbcb05437883adbc4f8207beebb36e",
+    "original_pixels": [
+      1348,
+      450
+    ],
+    "visible_source_rectangle": [
+      0,
+      0,
+      1348,
+      340
+    ],
+    "source_pixels_modified": false,
+    "source_caption_excluded": true,
+    "output": "/Users/lele/Desktop/MergeTreeMaps/paper_revision/figures_export/Fig5_Selected_Frontier.pdf",
+    "output_sha256": "827310a56ee8a0d089c5a3d1170da5eef8fa2d88d06d4427030a5efd1c0c10a9",
+    "panels": [
+      "ERA5 1999/2000",
+      "ERA5 2013/14 (archive)",
+      "Wildfire 2019",
+      "Ring",
+      "Gaussians"
+    ],
+    "archived_panel_not_pooled_into_main_suite": true,
+    "old_editable_diagnosis_figure": "Retained as supplementary certificate/filling evidence; not the source of this bitmap plot.",
+    "underlying_experiments_rerun": false
+  },
+  "dendrogram_transfer": {
+    "source_records": {
+      "dendrogram_demo.pdf": "d7ad2ee11dd317052239849a3403c6fd047734b6f8c21100d1d6d4086ca5d5cc",
+      "dendrogram_demo.json": "6fc9e882f9806979f32c40fb1b06e8a21e5e4e6210c4a7216f11563d7be27f37",
+      "generality.json": "7296627d49cfa0682095ff1c1470e6f4e72f061c0fdf56b81ddcf3ade0862462"
+    },
+    "source_figure": "02-RG-MTM/results/dendrogram_demo.pdf",
+    "source_figure_palette": "Blues (archived PDF; screenshot uses a different palette)",
+    "original_records_unmodified": true,
+    "experiment_rerun": false,
+    "figures_redrawn": false,
+    "manuscript_figure_number": 7,
+    "manuscript_section": "6.4",
+    "leaf_count": 1024,
+    "observations_per_leaf": 30,
+    "normalization": "1024-row canvas height; maxima over cells",
+    "olo_max_percent": 88.22877733749789,
+    "hierarchy_saved_endpoint_percent": 67.28557348251343,
+    "hierarchy_tolerance_rows": 0.25,
+    "hierarchy_optimum_percent_bracket": [
+      67.26115942001343,
+      67.28557348251343
+    ],
+    "free_packing_percent": 20.551025233687646,
+    "additional_hierarchy_cost_pp": 46.73454824882578,
+    "main_suite_pooling": false,
+    "role": "Positional certification for a clustering tree; scalar-barrier claims remain in merge-tree experiments.",
+    "main_page_count": 13,
+    "figure_page": 8,
+    "main_text_section": "6.4 Absolute Reference and Hierarchical Ordering",
+    "visual_review": [
+      "archived vector source",
+      "main pages 6--8",
+      "supplement page 22"
+    ],
+    "numeric_precision_explicit": true
+  }
+}

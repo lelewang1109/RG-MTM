@@ -1,0 +1,740 @@
+{
+  "case": "wildfire",
+  "selection": {
+    "t": 18,
+    "witness": [
+      7,
+      1,
+      8
+    ],
+    "node": 871,
+    "bound": 20.792130615669763,
+    "tracks": [
+      3,
+      48,
+      52
+    ],
+    "persistent_three_frames": true,
+    "H": 0.13921149643185637,
+    "gain": 0.12121684405613914,
+    "errorP": 0.14754482976518962,
+    "errorR": 0.026327985709050483,
+    "delta": 0.6350617768029346,
+    "rule": "Among H>2% frames with a witness triple matched in all three adjacent frames and positive P-to-R max-error reduction and measured cost, choose largest H (earliest tie). Descriptive selection, not unbiased performance evidence.",
+    "snapshots": [
+      17,
+      18,
+      19
+    ],
+    "window": [
+      13,
+      24
+    ]
+  },
+  "reference_direction": [
+    -0.6757848709593748,
+    -0.7370989134318549
+  ],
+  "reference_origin": -168.2214755790808,
+  "reference_extent": 166.89689703121402,
+  "frame_metrics": {
+    "F": 0.0,
+    "H": 0.13921149643185637,
+    "full_interval_certificate": 0.13921149643185637,
+    "witness_width_free": 0.12458069014776889,
+    "achieved_max_P": 0.14754482976518962,
+    "achieved_max_R": 0.026327985709050483,
+    "actual_max_merge_error": 0.6350617768029346,
+    "actual_NMLE": 0.15094396704165566,
+    "kappa_eligibility": 0.2,
+    "NROE": {
+      "TMTM": 0.3802635495140445,
+      "ST-MTM": 0.3802635495140445,
+      "P": 0.13317613673133555,
+      "R": 0.01586554267519641
+    }
+  },
+  "observations": [
+    {
+      "frame": 13,
+      "date": "2019-11-27",
+      "label": "A",
+      "track_id": 3,
+      "leaf_id": 3192,
+      "coordinate": [
+        105.9375,
+        92.8125
+      ],
+      "scalar": 1.5422524689221555,
+      "reference": -140.0029526701528,
+      "reference_normalized": 0.16907757670084417,
+      "anchor_TMTM": 0.4800976800976801,
+      "anchor_ST-MTM": 0.6209086468001954,
+      "anchor_P": 0.23524954964773967,
+      "anchor_R": 0.1611335222760253
+    },
+    {
+      "frame": 14,
+      "date": "2019-11-29",
+      "label": "A",
+      "track_id": 3,
+      "leaf_id": 3255,
+      "coordinate": [
+        104.0625,
+        94.6875
+      ],
+      "scalar": 0.2820920343318092,
+      "reference": -140.1179164997887,
+      "reference_normalized": 0.16838874526250783,
+      "anchor_TMTM": 0.5216117216117216,
+      "anchor_ST-MTM": 0.6712261846604788,
+      "anchor_P": 0.16824367620701428,
+      "anchor_R": 0.16195748243660005
+    },
+    {
+      "frame": 15,
+      "date": "2019-12-01",
+      "label": "A",
+      "track_id": 3,
+      "leaf_id": 3192,
+      "coordinate": [
+        105.9375,
+        92.8125
+      ],
+      "scalar": 1.6781545697900393,
+      "reference": -140.0029526701528,
+      "reference_normalized": 0.16907757670084417,
+      "anchor_TMTM": 0.5474969474969474,
+      "anchor_ST-MTM": 0.6565705911089399,
+      "anchor_P": 0.21648229869055396,
+      "anchor_R": 0.1640785704271888
+    },
+    {
+      "frame": 16,
+      "date": "2019-12-03",
+      "label": "A",
+      "track_id": 3,
+      "leaf_id": 3127,
+      "coordinate": [
+        104.0625,
+        90.9375
+      ],
+      "scalar": 2.0452857022960846,
+      "reference": -137.35379557441922,
+      "reference_normalized": 0.1849505925738602,
+      "anchor_TMTM": 0.5267399267399268,
+      "anchor_ST-MTM": 0.6140693698094772,
+      "anchor_P": 0.24768685257180456,
+      "anchor_R": 0.17711660628451464
+    },
+    {
+      "frame": 16,
+      "date": "2019-12-03",
+      "label": "B",
+      "track_id": 48,
+      "leaf_id": 419,
+      "coordinate": [
+        66.5625,
+        12.1875
+      ],
+      "scalar": 0.15608491776898667,
+      "reference": -53.96532348068411,
+      "reference_normalized": 0.684591230459053,
+      "anchor_TMTM": 0.3374847374847374,
+      "anchor_ST-MTM": 0.25793844650708353,
+      "anchor_P": 0.692839232008594,
+      "anchor_R": 0.6927986741360112
+    },
+    {
+      "frame": 17,
+      "date": "2019-12-05",
+      "label": "A",
+      "track_id": 3,
+      "leaf_id": 3128,
+      "coordinate": [
+        105.9375,
+        90.9375
+      ],
+      "scalar": 3.145745092437417,
+      "reference": -138.62089220746805,
+      "reference_normalized": 0.17735850035652054,
+      "anchor_TMTM": 0.5374847374847375,
+      "anchor_ST-MTM": 0.5740107474352711,
+      "anchor_P": 0.29744675927540953,
+      "anchor_R": 0.22705953526572734
+    },
+    {
+      "frame": 17,
+      "date": "2019-12-05",
+      "label": "B",
+      "track_id": 48,
+      "leaf_id": 419,
+      "coordinate": [
+        66.5625,
+        12.1875
+      ],
+      "scalar": 0.67461541300812,
+      "reference": -53.96532348068411,
+      "reference_normalized": 0.684591230459053,
+      "anchor_TMTM": 0.6515262515262515,
+      "anchor_ST-MTM": 0.2799218368343918,
+      "anchor_P": 0.5668211006285743,
+      "anchor_R": 0.7115273895390168
+    },
+    {
+      "frame": 17,
+      "date": "2019-12-05",
+      "label": "C",
+      "track_id": 52,
+      "leaf_id": 3285,
+      "coordinate": [
+        40.3125,
+        96.5625
+      ],
+      "scalar": 0.162612757970338,
+      "reference": -98.41869143881328,
+      "reference_normalized": 0.4182389569963819,
+      "anchor_TMTM": 0.2979242979242979,
+      "anchor_ST-MTM": 0.8089887640449438,
+      "anchor_P": 0.28148403141082623,
+      "anchor_R": 0.4678450354793669
+    },
+    {
+      "frame": 18,
+      "date": "2019-12-07",
+      "label": "A",
+      "track_id": 3,
+      "leaf_id": 3192,
+      "coordinate": [
+        105.9375,
+        92.8125
+      ],
+      "scalar": 2.4081548455921324,
+      "reference": -140.0029526701528,
+      "reference_normalized": 0.16907757670084417,
+      "anchor_TMTM": 0.5428571428571428,
+      "anchor_ST-MTM": 0.5803615046409379,
+      "anchor_P": 0.19330707654644239,
+      "anchor_R": 0.16613256020461786
+    },
+    {
+      "frame": 18,
+      "date": "2019-12-07",
+      "label": "B",
+      "track_id": 48,
+      "leaf_id": 419,
+      "coordinate": [
+        66.5625,
+        12.1875
+      ],
+      "scalar": 0.7653621073729967,
+      "reference": -53.96532348068411,
+      "reference_normalized": 0.684591230459053,
+      "anchor_TMTM": 0.6825396825396824,
+      "anchor_ST-MTM": 0.27357107962872496,
+      "anchor_P": 0.5370464006938633,
+      "anchor_R": 0.7045788092717935
+    },
+    {
+      "frame": 18,
+      "date": "2019-12-07",
+      "label": "C",
+      "track_id": 52,
+      "leaf_id": 3285,
+      "coordinate": [
+        40.3125,
+        96.5625
+      ],
+      "scalar": 0.19326039994405603,
+      "reference": -98.41869143881328,
+      "reference_normalized": 0.4182389569963819,
+      "anchor_TMTM": 0.31135531135531136,
+      "anchor_ST-MTM": 0.8094772838299951,
+      "anchor_P": 0.549117120094905,
+      "anchor_R": 0.4218623268012078
+    },
+    {
+      "frame": 19,
+      "date": "2019-12-09",
+      "label": "A",
+      "track_id": 3,
+      "leaf_id": 2678,
+      "coordinate": [
+        102.1875,
+        77.8125
+      ],
+      "scalar": 1.6511230697001043,
+      "reference": -126.41227570257732,
+      "reference_normalized": 0.2505091503809329,
+      "anchor_TMTM": 0.554822954822955,
+      "anchor_ST-MTM": 0.6130923302393747,
+      "anchor_P": 0.3600271298605324,
+      "anchor_R": 0.24110712471613863
+    },
+    {
+      "frame": 19,
+      "date": "2019-12-09",
+      "label": "B",
+      "track_id": 48,
+      "leaf_id": 419,
+      "coordinate": [
+        66.5625,
+        12.1875
+      ],
+      "scalar": 0.9894908636543892,
+      "reference": -53.96532348068411,
+      "reference_normalized": 0.684591230459053,
+      "anchor_TMTM": 0.45445665445665445,
+      "anchor_ST-MTM": 0.29018075232046897,
+      "anchor_P": 0.6813690347004101,
+      "anchor_R": 0.6939932561238473
+    },
+    {
+      "frame": 19,
+      "date": "2019-12-09",
+      "label": "C",
+      "track_id": 52,
+      "leaf_id": 3285,
+      "coordinate": [
+        40.3125,
+        96.5625
+      ],
+      "scalar": 0.19577873992925318,
+      "reference": -98.41869143881328,
+      "reference_normalized": 0.4182389569963819,
+      "anchor_TMTM": 0.2852258852258852,
+      "anchor_ST-MTM": 0.7635564240351734,
+      "anchor_P": 0.32538764418344907,
+      "anchor_R": 0.40883693133158766
+    },
+    {
+      "frame": 20,
+      "date": "2019-12-11",
+      "label": "A",
+      "track_id": 3,
+      "leaf_id": 3126,
+      "coordinate": [
+        102.1875,
+        90.9375
+      ],
+      "scalar": 0.8384319002182589,
+      "reference": -136.0866989413704,
+      "reference_normalized": 0.1925426847911999,
+      "anchor_TMTM": 0.5506715506715508,
+      "anchor_ST-MTM": 0.6477772349780166,
+      "anchor_P": 0.28782585381401976,
+      "anchor_R": 0.18620463202594084
+    },
+    {
+      "frame": 20,
+      "date": "2019-12-11",
+      "label": "B",
+      "track_id": 48,
+      "leaf_id": 483,
+      "coordinate": [
+        66.5625,
+        14.0625
+      ],
+      "scalar": 0.3219393312004925,
+      "reference": -55.34738394336884,
+      "reference_normalized": 0.6763103068033768,
+      "anchor_TMTM": 0.4361416361416362,
+      "anchor_ST-MTM": 0.25793844650708353,
+      "anchor_P": 0.6846782965852095,
+      "anchor_R": 0.6798394839906773
+    },
+    {
+      "frame": 21,
+      "date": "2019-12-13",
+      "label": "A",
+      "track_id": 3,
+      "leaf_id": 3383,
+      "coordinate": [
+        104.0625,
+        98.4375
+      ],
+      "scalar": 0.3840167305480527,
+      "reference": -142.88203742515816,
+      "reference_normalized": 0.15182689795115545,
+      "anchor_TMTM": 0.4637362637362637,
+      "anchor_ST-MTM": 0.6546165119687347,
+      "anchor_P": 0.21541480783130557,
+      "anchor_R": 0.14606846890496977
+    },
+    {
+      "frame": 21,
+      "date": "2019-12-13",
+      "label": "B",
+      "track_id": 48,
+      "leaf_id": 419,
+      "coordinate": [
+        66.5625,
+        12.1875
+      ],
+      "scalar": 0.4334258978737725,
+      "reference": -53.96532348068411,
+      "reference_normalized": 0.684591230459053,
+      "anchor_TMTM": 0.6659340659340659,
+      "anchor_ST-MTM": 0.20957498778700537,
+      "anchor_P": 0.6995256495098341,
+      "anchor_R": 0.6929245637923863
+    },
+    {
+      "frame": 22,
+      "date": "2019-12-15",
+      "label": "A",
+      "track_id": 3,
+      "leaf_id": 3190,
+      "coordinate": [
+        102.1875,
+        92.8125
+      ],
+      "scalar": 1.9094083283111432,
+      "reference": -137.46875940405513,
+      "reference_normalized": 0.1842617611355237,
+      "anchor_TMTM": 0.5550671550671552,
+      "anchor_ST-MTM": 0.5002442598925256,
+      "anchor_P": 0.18967006407946754,
+      "anchor_R": 0.18355452346724083
+    },
+    {
+      "frame": 22,
+      "date": "2019-12-15",
+      "label": "B",
+      "track_id": 48,
+      "leaf_id": 419,
+      "coordinate": [
+        66.5625,
+        12.1875
+      ],
+      "scalar": 0.5935457238516555,
+      "reference": -53.96532348068411,
+      "reference_normalized": 0.684591230459053,
+      "anchor_TMTM": 0.6676434676434676,
+      "anchor_ST-MTM": 0.7156814851001465,
+      "anchor_P": 0.583660889457414,
+      "anchor_R": 0.6828910167327993
+    },
+    {
+      "frame": 23,
+      "date": "2019-12-17",
+      "label": "A",
+      "track_id": 3,
+      "leaf_id": 3254,
+      "coordinate": [
+        102.1875,
+        94.6875
+      ],
+      "scalar": 1.5649593693656432,
+      "reference": -138.85081986673987,
+      "reference_normalized": 0.17598083747984752,
+      "anchor_TMTM": 0.5616605616605618,
+      "anchor_ST-MTM": 0.31753786028334147,
+      "anchor_P": 0.16994733054193506,
+      "anchor_R": 0.16816586906746667
+    },
+    {
+      "frame": 23,
+      "date": "2019-12-17",
+      "label": "B",
+      "track_id": 48,
+      "leaf_id": 419,
+      "coordinate": [
+        66.5625,
+        12.1875
+      ],
+      "scalar": 0.8781488656975479,
+      "reference": -53.96532348068411,
+      "reference_normalized": 0.684591230459053,
+      "anchor_TMTM": 0.41123321123321127,
+      "anchor_ST-MTM": 0.6531509526135808,
+      "anchor_P": 0.5604752796951523,
+      "anchor_R": 0.6840391731702821
+    }
+  ],
+  "matching_links": [
+    {
+      "t": 13,
+      "current": 3192,
+      "previous": 3257,
+      "track": 3,
+      "iou": 0.5301204819277109,
+      "boundary": false
+    },
+    {
+      "t": 14,
+      "current": 3255,
+      "previous": 3192,
+      "track": 3,
+      "iou": 0.32608695652173914,
+      "boundary": false
+    },
+    {
+      "t": 15,
+      "current": 3192,
+      "previous": 3255,
+      "track": 3,
+      "iou": 0.42424242424242425,
+      "boundary": false
+    },
+    {
+      "t": 16,
+      "current": 3127,
+      "previous": 3192,
+      "track": 3,
+      "iou": 0.28125,
+      "boundary": false
+    },
+    {
+      "t": 17,
+      "current": 3128,
+      "previous": 3127,
+      "track": 3,
+      "iou": 0.42857142857142855,
+      "boundary": false
+    },
+    {
+      "t": 17,
+      "current": 419,
+      "previous": 419,
+      "track": 48,
+      "iou": 0.5703125,
+      "boundary": false
+    },
+    {
+      "t": 18,
+      "current": 3192,
+      "previous": 3128,
+      "track": 3,
+      "iou": 0.3055555555555556,
+      "boundary": false
+    },
+    {
+      "t": 18,
+      "current": 419,
+      "previous": 419,
+      "track": 48,
+      "iou": 0.8928571428571429,
+      "boundary": false
+    },
+    {
+      "t": 18,
+      "current": 3285,
+      "previous": 3285,
+      "track": 52,
+      "iou": 0.7459016393442623,
+      "boundary": false
+    },
+    {
+      "t": 19,
+      "current": 2678,
+      "previous": 3192,
+      "track": 3,
+      "iou": 0.3157894736842105,
+      "boundary": false
+    },
+    {
+      "t": 19,
+      "current": 419,
+      "previous": 419,
+      "track": 48,
+      "iou": 0.7873563218390804,
+      "boundary": true
+    },
+    {
+      "t": 19,
+      "current": 3285,
+      "previous": 3285,
+      "track": 52,
+      "iou": 0.9838709677419355,
+      "boundary": false
+    },
+    {
+      "t": 20,
+      "current": 3126,
+      "previous": 2678,
+      "track": 3,
+      "iou": 0.02631578947368421,
+      "boundary": false
+    },
+    {
+      "t": 20,
+      "current": 483,
+      "previous": 419,
+      "track": 48,
+      "iou": 0.4482758620689655,
+      "boundary": true
+    },
+    {
+      "t": 21,
+      "current": 3383,
+      "previous": 3126,
+      "track": 3,
+      "iou": 0.08333333333333333,
+      "boundary": false
+    },
+    {
+      "t": 21,
+      "current": 419,
+      "previous": 483,
+      "track": 48,
+      "iou": 0.3627906976744186,
+      "boundary": true
+    },
+    {
+      "t": 22,
+      "current": 3190,
+      "previous": 3383,
+      "track": 3,
+      "iou": 0.2222222222222222,
+      "boundary": false
+    },
+    {
+      "t": 22,
+      "current": 419,
+      "previous": 419,
+      "track": 48,
+      "iou": 0.5953488372093023,
+      "boundary": true
+    },
+    {
+      "t": 23,
+      "current": 3254,
+      "previous": 3190,
+      "track": 3,
+      "iou": 0.43478260869565216,
+      "boundary": false
+    },
+    {
+      "t": 23,
+      "current": 419,
+      "previous": 419,
+      "track": 48,
+      "iou": 0.9142857142857143,
+      "boundary": true
+    }
+  ],
+  "pair_merge_levels": [
+    {
+      "pair": "AB",
+      "lca_node": 871,
+      "true": 0.060799693879450493,
+      "P": 0.060799693879450493,
+      "R": -0.5742620829234841
+    },
+    {
+      "pair": "AC",
+      "lca_node": 2341,
+      "true": 0.0036173000043960707,
+      "P": 0.0036173000043960707,
+      "R": 0.0011437994999446977
+    },
+    {
+      "pair": "BC",
+      "lca_node": 2341,
+      "true": 0.0036173000043960707,
+      "P": 0.0036173000043960707,
+      "R": -0.5742620829234841
+    }
+  ],
+  "identity_scope": "computed positive-overlap Hungarian scalar-feature assignment; not physical entity truth",
+  "baseline_vertical_semantics": "TMTM full native sample-rank domain; ST-MTM full shared discretized native domain; RG fixed physical directional reference domain. Baselines are not geographical coordinates.",
+  "frozen_sequence_metrics": {
+    "hidden": {
+      "TMTM": {
+        "order_flip_rate": 0.3342036553524804,
+        "jitter": 0.10213495402836216,
+        "stress": 0.45823124213906896,
+        "spearman": 0.5937122126702337,
+        "nn_preservation": 0.6392099567099567,
+        "neighbourhood_frames": 30,
+        "matched_steps": 161
+      },
+      "ST-MTM": {
+        "order_flip_rate": 0.07571801566579635,
+        "jitter": 0.05334018735040944,
+        "stress": 0.25625718820410853,
+        "spearman": 0.842550465631425,
+        "nn_preservation": 0.7533513708513709,
+        "neighbourhood_frames": 30,
+        "matched_steps": 161
+      },
+      "P": {
+        "order_flip_rate": 0.09399477806788512,
+        "jitter": 0.053839358326826,
+        "stress": 0.26072510050305914,
+        "spearman": 0.821254382315102,
+        "nn_preservation": 0.6580940355940358,
+        "neighbourhood_frames": 30,
+        "matched_steps": 161
+      },
+      "R": {
+        "order_flip_rate": 0.02610966057441253,
+        "jitter": 0.021588792851129152,
+        "stress": 0.22093978168647171,
+        "spearman": 0.8615154224786907,
+        "nn_preservation": 0.6298015873015874,
+        "neighbourhood_frames": 30,
+        "matched_steps": 161
+      }
+    },
+    "proxy": [
+      {
+        "method": "TMTM",
+        "k": 2,
+        "eps": 0.02,
+        "clear": 112,
+        "reversal": 0.21428571428571427,
+        "miss": 0.17857142857142858,
+        "error": 0.39285714285714285,
+        "committed_reversal": 0.2608695652173913,
+        "null_reversal": 0.3604464285714286,
+        "feature_flag_share": 1.0,
+        "feature_flag_recall": 1.0,
+        "feature_flag_lift": null
+      },
+      {
+        "method": "ST-MTM",
+        "k": 2,
+        "eps": 0.02,
+        "clear": 112,
+        "reversal": 0.21428571428571427,
+        "miss": 0.14285714285714285,
+        "error": 0.35714285714285715,
+        "committed_reversal": 0.25,
+        "null_reversal": 0.3659375,
+        "feature_flag_share": 0.9375,
+        "feature_flag_recall": 1.0,
+        "feature_flag_lift": null
+      },
+      {
+        "method": "A",
+        "k": 2,
+        "eps": 0.02,
+        "clear": 112,
+        "reversal": 0.16071428571428573,
+        "miss": 0.16071428571428573,
+        "error": 0.32142857142857145,
+        "committed_reversal": 0.19148936170212766,
+        "null_reversal": 0.369375,
+        "feature_flag_share": 0.7142857142857143,
+        "feature_flag_recall": 0.8888888888888888,
+        "feature_flag_lift": 3.2
+      },
+      {
+        "method": "R 20%",
+        "k": 2,
+        "eps": 0.02,
+        "clear": 112,
+        "reversal": 0.0625,
+        "miss": 0.25,
+        "error": 0.3125,
+        "committed_reversal": 0.08333333333333333,
+        "null_reversal": 0.2542857142857143,
+        "feature_flag_share": 0.11607142857142858,
+        "feature_flag_recall": 0.5714285714285714,
+        "feature_flag_lift": 10.153846153846153
+      }
+    ]
+  }
+}

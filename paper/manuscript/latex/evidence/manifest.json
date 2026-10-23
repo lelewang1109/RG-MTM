@@ -1,0 +1,105 @@
+{
+  "scope": "Unchanged saved numerical results; processed field/render arrays remain in the full workspace",
+  "records": [
+    {
+      "source": "02-RG-MTM/results/final_performance.json",
+      "packaged_as": "evidence/final_performance.json",
+      "sha256": "af9be2b5e38d148f3b7875e07bff62a802de3fa97ed68b743109563cb149f2e9"
+    },
+    {
+      "source": "02-RG-MTM/results/eval_projection.json",
+      "packaged_as": "evidence/eval_projection.json",
+      "sha256": "f70a343b68ac04531d12480f8e043587b8dd7715ab752b5fd7c4c081d8836cda"
+    },
+    {
+      "source": "02-RG-MTM/results/filling.json",
+      "packaged_as": "evidence/filling.json",
+      "sha256": "21391204df5994165010abeb3c5079b4a7f847118fae2edb6dcc2ac17f92307c"
+    },
+    {
+      "source": "02-RG-MTM/results/attainable_era5.json",
+      "packaged_as": "evidence/attainable_storms.json",
+      "sha256": "241a8cc451024eb988030815d85e5978f61d145bce6fa268ddf80ca68bf54342"
+    },
+    {
+      "source": "02-RG-MTM/results/attainable_wildfire.json",
+      "packaged_as": "evidence/attainable_wildfires.json",
+      "sha256": "6a2fb2a4da5f67bcd962d0692780a1ca16e3646272e5142a515ce6fc828ece68"
+    },
+    {
+      "source": "02-RG-MTM/results/replicate_era5.json",
+      "packaged_as": "evidence/replicate_storms.json",
+      "sha256": "b03e03ad1c1e2f70b7c5c0080e0075fe79ee11c910d25f450ea49f14b9d84562"
+    },
+    {
+      "source": "02-RG-MTM/results/replicate_wildfire.json",
+      "packaged_as": "evidence/replicate_wildfires.json",
+      "sha256": "71eca5d9fa07d8d6b52ea9ca168c0e66c02ed0cf15124a8fb3f1705a951e1ae9"
+    },
+    {
+      "source": "02-RG-MTM/results/replicate_olr.json",
+      "packaged_as": "evidence/replicate_olr.json",
+      "sha256": "b767adcf8cb8f051547b10ae69665d1d0be0ae198a74dca91255d0a1d714be7c"
+    },
+    {
+      "source": "02-RG-MTM/results/replicate_pm25.json",
+      "packaged_as": "evidence/replicate_pm25.json",
+      "sha256": "8f80c03aeb7be4f6ce0c6b1d15414f574e23707cfe931865ccc1bec0e3c2b9fc"
+    },
+    {
+      "source": "02-RG-MTM/results/replicate_ring.json",
+      "packaged_as": "evidence/replicate_ring.json",
+      "sha256": "757ba6d219d5df4714869f13b2fed8f3a467b949f3bdc9f8adac000c4194eec2"
+    },
+    {
+      "source": "02-RG-MTM/results/replicate_gaussians.json",
+      "packaged_as": "evidence/replicate_gaussian.json",
+      "sha256": "902dfb4fcbcc78a4a48e470b4ae966bc8ccbe803ba39e7ebe2c1604f4c12a336"
+    },
+    {
+      "source": "02-RG-MTM/results/publication2027/figure_data/domain_filling_example.json",
+      "packaged_as": "evidence/publication2027/figure_data/domain_filling_example.json",
+      "sha256": "592211d7ede3001356f53b9dd55e45f9fb144cca387a0016ca197c88e0cef82d"
+    },
+    {
+      "source": "02-RG-MTM/results/publication2027/figure_data/motion_scalar_plot_values.csv",
+      "packaged_as": "evidence/publication2027/figure_data/motion_scalar_plot_values.csv",
+      "sha256": "c6445429e95722a8c1f3ea9a8c7e88a31a1254b4b6c6fcaf23054fa0b32a2c45"
+    },
+    {
+      "source": "02-RG-MTM/results/publication2027/bisector_control/bisector_highres_x_three_methods.json",
+      "packaged_as": "evidence/publication2027/bisector_control/bisector_highres_x_three_methods.json",
+      "sha256": "a2d6f1b9d4e5014a62660e1829485254b4a72b2e5d99ad8edb8a359ff714012b"
+    },
+    {
+      "source": "02-RG-MTM/results/publication2027/bisector_control/bisector_highres_metrics.csv",
+      "packaged_as": "evidence/publication2027/bisector_control/bisector_highres_metrics.csv",
+      "sha256": "78fd44301063cd7cf07a5278d2617dd1076aea827cee225bb1fb045faf3f54f4"
+    },
+    {
+      "source": "02-RG-MTM/results/public_metrics_20261016/summary.csv",
+      "packaged_as": "evidence/public_metrics_20261016/summary.csv",
+      "sha256": "275fc8789fc8ad7304099f2ba6e1cd3167d525b933d1f986755c23b2237cc467"
+    },
+    {
+      "source": "02-RG-MTM/results/public_metrics_20261016/reference_tasks/rank_summary.csv",
+      "packaged_as": "evidence/public_metrics_20261016/reference_tasks/rank_summary.csv",
+      "sha256": "40a0be016e48b90bb75c3e2e68a95caf06d166eefc9657075c5b781f52df19c1"
+    },
+    {
+      "source": "02-RG-MTM/results/public_metrics_20261016/reference_tasks/motion_summary.csv",
+      "packaged_as": "evidence/public_metrics_20261016/reference_tasks/motion_summary.csv",
+      "sha256": "988eb57e8852d69e66bf4d3b5b6bdbfb18cf482a06edc1da86a584c16050446a"
+    },
+    {
+      "source": "04-paper/优化说明/数值与来源.json",
+      "packaged_as": "evidence/数值与来源.json",
+      "sha256": "7e7a40d978f61db3f8434a67e82cd8f5eea8c4a281223aad9c677ce9bcc167bc"
+    },
+    {
+      "source": "04-paper/优化说明/主表原始数值.csv",
+      "packaged_as": "evidence/主表原始数值.csv",
+      "sha256": "e81b0f5d8ac03cb01809e82a9720cfc6c134cdb63bd7dbcc1711857d3b0d168e"
+    }
+  ]
+}

@@ -1,0 +1,1760 @@
+{
+  "status": "passed",
+  "frames": 201,
+  "indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120,
+    121,
+    122,
+    123,
+    124,
+    125,
+    126,
+    127,
+    128,
+    129,
+    130,
+    131,
+    132,
+    133,
+    134,
+    135,
+    136,
+    137,
+    138,
+    139,
+    140,
+    141,
+    142,
+    143,
+    144,
+    145,
+    146,
+    147,
+    148,
+    149,
+    150,
+    151,
+    152,
+    153,
+    154,
+    155,
+    156,
+    157,
+    158,
+    159,
+    160,
+    161,
+    162,
+    163,
+    164,
+    165,
+    166,
+    167,
+    168,
+    169,
+    170,
+    171,
+    172,
+    173,
+    174,
+    175,
+    176,
+    177,
+    178,
+    179,
+    180,
+    181,
+    182,
+    183,
+    184,
+    185,
+    186,
+    187,
+    188,
+    189,
+    190,
+    191,
+    192,
+    193,
+    194,
+    195,
+    196,
+    197,
+    198,
+    199,
+    200
+  ],
+  "source_samples_per_frame": 6480000,
+  "raw_source_recomputed": true,
+  "all_input_samples_exactly_matched": true,
+  "input_max_difference": 0.0,
+  "primary_certificate_max_bracket_width": 1.394602627824426e-10,
+  "independent_quantized_certificate_checks": [
+    {
+      "index": 0,
+      "independent_lower": 0.1126519591960304,
+      "primary_upper": 0.11267586551001402,
+      "gap": 2.3906313983620975e-05
+    },
+    {
+      "index": 20,
+      "independent_lower": 0.0722384094442215,
+      "primary_upper": 0.07224550255228342,
+      "gap": 7.093108061920206e-06
+    },
+    {
+      "index": 40,
+      "independent_lower": 0.07273742034791737,
+      "primary_upper": 0.07275895124608117,
+      "gap": 2.153089816379905e-05
+    },
+    {
+      "index": 60,
+      "independent_lower": 0.05092092017835814,
+      "primary_upper": 0.0509331716242181,
+      "gap": 1.225144585995791e-05
+    },
+    {
+      "index": 80,
+      "independent_lower": 0.09668787339436617,
+      "primary_upper": 0.09670204027051262,
+      "gap": 1.4166876146443075e-05
+    },
+    {
+      "index": 100,
+      "independent_lower": 0.07416988061654774,
+      "primary_upper": 0.07419818764055593,
+      "gap": 2.830702400818952e-05
+    },
+    {
+      "index": 120,
+      "independent_lower": 0.0769608610214295,
+      "primary_upper": 0.07697010738461423,
+      "gap": 9.246363184722828e-06
+    },
+    {
+      "index": 140,
+      "independent_lower": 0.09791139721619711,
+      "primary_upper": 0.09791605172175484,
+      "gap": 4.654505557727395e-06
+    },
+    {
+      "index": 160,
+      "independent_lower": 0.0814704962058419,
+      "primary_upper": 0.08147758942019173,
+      "gap": 7.0932143498292355e-06
+    },
+    {
+      "index": 180,
+      "independent_lower": 0.07316643291158584,
+      "primary_upper": 0.07317100592025486,
+      "gap": 4.573008669017664e-06
+    },
+    {
+      "index": 200,
+      "independent_lower": 0.08429295560230117,
+      "primary_upper": 0.08430174859515431,
+      "gap": 8.792992853140502e-06
+    }
+  ],
+  "all_saved_full_arrays_remeasured": true,
+  "tmtm_original_sample_ids_and_declared_virtual_copies_checked": true,
+  "secondary_global_optimum_claimed": false,
+  "verification_source_sha256": "2cc5eaac8a499857653cb5649ede92e9186c0fc43226172480a079e13cb3866a",
+  "default_motion_crosscheck": [
+    {
+      "method": "TMTM",
+      "truth": "3d",
+      "clear": 6755
+    },
+    {
+      "method": "TMTM",
+      "truth": "projected",
+      "clear": 9631
+    },
+    {
+      "method": "RG-MTM-P",
+      "truth": "3d",
+      "clear": 6755
+    },
+    {
+      "method": "RG-MTM-P",
+      "truth": "projected",
+      "clear": 9631
+    },
+    {
+      "method": "RG-MTM-R 0.02",
+      "truth": "3d",
+      "clear": 6755
+    },
+    {
+      "method": "RG-MTM-R 0.02",
+      "truth": "projected",
+      "clear": 9631
+    },
+    {
+      "method": "RG-MTM-R 0.2",
+      "truth": "3d",
+      "clear": 6755
+    },
+    {
+      "method": "RG-MTM-R 0.2",
+      "truth": "projected",
+      "clear": 9631
+    },
+    {
+      "method": "RG-MTM-R 1",
+      "truth": "3d",
+      "clear": 6755
+    },
+    {
+      "method": "RG-MTM-R 1",
+      "truth": "projected",
+      "clear": 9631
+    },
+    {
+      "method": "Exact projection",
+      "truth": "3d",
+      "clear": 6755
+    },
+    {
+      "method": "Exact projection",
+      "truth": "projected",
+      "clear": 9631
+    }
+  ],
+  "independent_helper_sha256": {
+    "analysis/evaluation.py": "c8399968bd9d6c743fe0b23373324c07fe2b1037ec395d3f788440dbd05c1fa3",
+    "analysis/theory.py": "4f455d250466df2cb6db1079c4e452301e2c737cc094085ad82b4c75385d112e"
+  },
+  "manifest_sha256": "c61e86fa320046dcd0436d07cc3f0209b9eee56643edc7b10ffcdf39056d4dea",
+  "records": [
+    {
+      "index": 0,
+      "samples": 6480000,
+      "leaves": 93,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 1,
+      "samples": 6480000,
+      "leaves": 78,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 2,
+      "samples": 6480000,
+      "leaves": 64,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 3,
+      "samples": 6480000,
+      "leaves": 57,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 4,
+      "samples": 6480000,
+      "leaves": 58,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 5,
+      "samples": 6480000,
+      "leaves": 57,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 6,
+      "samples": 6480000,
+      "leaves": 55,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 7,
+      "samples": 6480000,
+      "leaves": 54,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 8,
+      "samples": 6480000,
+      "leaves": 58,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 9,
+      "samples": 6480000,
+      "leaves": 60,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 10,
+      "samples": 6480000,
+      "leaves": 63,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 11,
+      "samples": 6480000,
+      "leaves": 61,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 12,
+      "samples": 6480000,
+      "leaves": 59,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 13,
+      "samples": 6480000,
+      "leaves": 63,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 14,
+      "samples": 6480000,
+      "leaves": 66,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 15,
+      "samples": 6480000,
+      "leaves": 65,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 16,
+      "samples": 6480000,
+      "leaves": 62,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 17,
+      "samples": 6480000,
+      "leaves": 63,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 18,
+      "samples": 6480000,
+      "leaves": 59,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 19,
+      "samples": 6480000,
+      "leaves": 56,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 20,
+      "samples": 6480000,
+      "leaves": 49,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 21,
+      "samples": 6480000,
+      "leaves": 49,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 22,
+      "samples": 6480000,
+      "leaves": 42,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 23,
+      "samples": 6480000,
+      "leaves": 39,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 24,
+      "samples": 6480000,
+      "leaves": 38,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 25,
+      "samples": 6480000,
+      "leaves": 38,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 26,
+      "samples": 6480000,
+      "leaves": 38,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 27,
+      "samples": 6480000,
+      "leaves": 37,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 28,
+      "samples": 6480000,
+      "leaves": 38,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 29,
+      "samples": 6480000,
+      "leaves": 38,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 30,
+      "samples": 6480000,
+      "leaves": 41,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 31,
+      "samples": 6480000,
+      "leaves": 38,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 32,
+      "samples": 6480000,
+      "leaves": 37,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 33,
+      "samples": 6480000,
+      "leaves": 35,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 34,
+      "samples": 6480000,
+      "leaves": 33,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 35,
+      "samples": 6480000,
+      "leaves": 29,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 36,
+      "samples": 6480000,
+      "leaves": 30,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 37,
+      "samples": 6480000,
+      "leaves": 27,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 38,
+      "samples": 6480000,
+      "leaves": 32,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 39,
+      "samples": 6480000,
+      "leaves": 31,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 40,
+      "samples": 6480000,
+      "leaves": 34,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 41,
+      "samples": 6480000,
+      "leaves": 36,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 42,
+      "samples": 6480000,
+      "leaves": 37,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 43,
+      "samples": 6480000,
+      "leaves": 39,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 44,
+      "samples": 6480000,
+      "leaves": 41,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 45,
+      "samples": 6480000,
+      "leaves": 47,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 46,
+      "samples": 6480000,
+      "leaves": 46,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 47,
+      "samples": 6480000,
+      "leaves": 41,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 48,
+      "samples": 6480000,
+      "leaves": 45,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 49,
+      "samples": 6480000,
+      "leaves": 39,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 50,
+      "samples": 6480000,
+      "leaves": 35,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 51,
+      "samples": 6480000,
+      "leaves": 32,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 52,
+      "samples": 6480000,
+      "leaves": 33,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 53,
+      "samples": 6480000,
+      "leaves": 30,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 54,
+      "samples": 6480000,
+      "leaves": 35,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 55,
+      "samples": 6480000,
+      "leaves": 37,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 56,
+      "samples": 6480000,
+      "leaves": 33,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 57,
+      "samples": 6480000,
+      "leaves": 37,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 58,
+      "samples": 6480000,
+      "leaves": 35,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 59,
+      "samples": 6480000,
+      "leaves": 37,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 60,
+      "samples": 6480000,
+      "leaves": 42,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 61,
+      "samples": 6480000,
+      "leaves": 39,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 62,
+      "samples": 6480000,
+      "leaves": 43,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 63,
+      "samples": 6480000,
+      "leaves": 45,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 64,
+      "samples": 6480000,
+      "leaves": 49,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 65,
+      "samples": 6480000,
+      "leaves": 51,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 66,
+      "samples": 6480000,
+      "leaves": 39,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 67,
+      "samples": 6480000,
+      "leaves": 40,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 68,
+      "samples": 6480000,
+      "leaves": 36,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 69,
+      "samples": 6480000,
+      "leaves": 34,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 70,
+      "samples": 6480000,
+      "leaves": 35,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 71,
+      "samples": 6480000,
+      "leaves": 35,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 72,
+      "samples": 6480000,
+      "leaves": 34,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 73,
+      "samples": 6480000,
+      "leaves": 44,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 74,
+      "samples": 6480000,
+      "leaves": 44,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 75,
+      "samples": 6480000,
+      "leaves": 42,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 76,
+      "samples": 6480000,
+      "leaves": 41,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 77,
+      "samples": 6480000,
+      "leaves": 35,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 78,
+      "samples": 6480000,
+      "leaves": 39,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 79,
+      "samples": 6480000,
+      "leaves": 38,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 80,
+      "samples": 6480000,
+      "leaves": 34,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 81,
+      "samples": 6480000,
+      "leaves": 33,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 82,
+      "samples": 6480000,
+      "leaves": 35,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 83,
+      "samples": 6480000,
+      "leaves": 33,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 84,
+      "samples": 6480000,
+      "leaves": 35,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 85,
+      "samples": 6480000,
+      "leaves": 39,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 86,
+      "samples": 6480000,
+      "leaves": 39,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 87,
+      "samples": 6480000,
+      "leaves": 40,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 88,
+      "samples": 6480000,
+      "leaves": 40,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 89,
+      "samples": 6480000,
+      "leaves": 31,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 90,
+      "samples": 6480000,
+      "leaves": 31,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 91,
+      "samples": 6480000,
+      "leaves": 29,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 92,
+      "samples": 6480000,
+      "leaves": 31,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 93,
+      "samples": 6480000,
+      "leaves": 34,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 94,
+      "samples": 6480000,
+      "leaves": 32,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 95,
+      "samples": 6480000,
+      "leaves": 38,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 96,
+      "samples": 6480000,
+      "leaves": 34,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 97,
+      "samples": 6480000,
+      "leaves": 37,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 98,
+      "samples": 6480000,
+      "leaves": 35,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 99,
+      "samples": 6480000,
+      "leaves": 37,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 100,
+      "samples": 6480000,
+      "leaves": 35,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 101,
+      "samples": 6480000,
+      "leaves": 39,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 102,
+      "samples": 6480000,
+      "leaves": 35,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 103,
+      "samples": 6480000,
+      "leaves": 35,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 104,
+      "samples": 6480000,
+      "leaves": 31,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 105,
+      "samples": 6480000,
+      "leaves": 27,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 106,
+      "samples": 6480000,
+      "leaves": 27,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 107,
+      "samples": 6480000,
+      "leaves": 28,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 108,
+      "samples": 6480000,
+      "leaves": 28,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 109,
+      "samples": 6480000,
+      "leaves": 29,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 110,
+      "samples": 6480000,
+      "leaves": 30,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 111,
+      "samples": 6480000,
+      "leaves": 27,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 112,
+      "samples": 6480000,
+      "leaves": 28,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 113,
+      "samples": 6480000,
+      "leaves": 27,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 114,
+      "samples": 6480000,
+      "leaves": 26,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 115,
+      "samples": 6480000,
+      "leaves": 27,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 116,
+      "samples": 6480000,
+      "leaves": 26,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 117,
+      "samples": 6480000,
+      "leaves": 29,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 118,
+      "samples": 6480000,
+      "leaves": 32,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 119,
+      "samples": 6480000,
+      "leaves": 34,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 120,
+      "samples": 6480000,
+      "leaves": 36,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 121,
+      "samples": 6480000,
+      "leaves": 36,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 122,
+      "samples": 6480000,
+      "leaves": 32,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 123,
+      "samples": 6480000,
+      "leaves": 34,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 124,
+      "samples": 6480000,
+      "leaves": 36,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 125,
+      "samples": 6480000,
+      "leaves": 31,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 126,
+      "samples": 6480000,
+      "leaves": 28,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 127,
+      "samples": 6480000,
+      "leaves": 33,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 128,
+      "samples": 6480000,
+      "leaves": 32,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 129,
+      "samples": 6480000,
+      "leaves": 33,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 130,
+      "samples": 6480000,
+      "leaves": 30,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 131,
+      "samples": 6480000,
+      "leaves": 30,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 132,
+      "samples": 6480000,
+      "leaves": 32,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 133,
+      "samples": 6480000,
+      "leaves": 32,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 134,
+      "samples": 6480000,
+      "leaves": 30,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 135,
+      "samples": 6480000,
+      "leaves": 38,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 136,
+      "samples": 6480000,
+      "leaves": 40,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 137,
+      "samples": 6480000,
+      "leaves": 38,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 138,
+      "samples": 6480000,
+      "leaves": 33,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 139,
+      "samples": 6480000,
+      "leaves": 27,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 140,
+      "samples": 6480000,
+      "leaves": 27,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 141,
+      "samples": 6480000,
+      "leaves": 26,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 142,
+      "samples": 6480000,
+      "leaves": 25,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 143,
+      "samples": 6480000,
+      "leaves": 25,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 144,
+      "samples": 6480000,
+      "leaves": 27,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 145,
+      "samples": 6480000,
+      "leaves": 26,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 146,
+      "samples": 6480000,
+      "leaves": 24,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 147,
+      "samples": 6480000,
+      "leaves": 24,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 148,
+      "samples": 6480000,
+      "leaves": 24,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 149,
+      "samples": 6480000,
+      "leaves": 24,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 150,
+      "samples": 6480000,
+      "leaves": 25,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 151,
+      "samples": 6480000,
+      "leaves": 24,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 152,
+      "samples": 6480000,
+      "leaves": 24,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 153,
+      "samples": 6480000,
+      "leaves": 26,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 154,
+      "samples": 6480000,
+      "leaves": 24,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 155,
+      "samples": 6480000,
+      "leaves": 25,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 156,
+      "samples": 6480000,
+      "leaves": 25,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 157,
+      "samples": 6480000,
+      "leaves": 27,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 158,
+      "samples": 6480000,
+      "leaves": 26,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 159,
+      "samples": 6480000,
+      "leaves": 29,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 160,
+      "samples": 6480000,
+      "leaves": 25,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 161,
+      "samples": 6480000,
+      "leaves": 27,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 162,
+      "samples": 6480000,
+      "leaves": 26,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 163,
+      "samples": 6480000,
+      "leaves": 24,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 164,
+      "samples": 6480000,
+      "leaves": 25,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 165,
+      "samples": 6480000,
+      "leaves": 22,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 166,
+      "samples": 6480000,
+      "leaves": 20,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 167,
+      "samples": 6480000,
+      "leaves": 18,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 168,
+      "samples": 6480000,
+      "leaves": 21,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 169,
+      "samples": 6480000,
+      "leaves": 20,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 170,
+      "samples": 6480000,
+      "leaves": 19,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 171,
+      "samples": 6480000,
+      "leaves": 19,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 172,
+      "samples": 6480000,
+      "leaves": 22,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 173,
+      "samples": 6480000,
+      "leaves": 23,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 174,
+      "samples": 6480000,
+      "leaves": 22,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 175,
+      "samples": 6480000,
+      "leaves": 24,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 176,
+      "samples": 6480000,
+      "leaves": 24,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 177,
+      "samples": 6480000,
+      "leaves": 29,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 178,
+      "samples": 6480000,
+      "leaves": 28,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 179,
+      "samples": 6480000,
+      "leaves": 24,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 180,
+      "samples": 6480000,
+      "leaves": 24,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 181,
+      "samples": 6480000,
+      "leaves": 22,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 182,
+      "samples": 6480000,
+      "leaves": 20,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 183,
+      "samples": 6480000,
+      "leaves": 20,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 184,
+      "samples": 6480000,
+      "leaves": 19,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 185,
+      "samples": 6480000,
+      "leaves": 22,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 186,
+      "samples": 6480000,
+      "leaves": 24,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 187,
+      "samples": 6480000,
+      "leaves": 23,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 188,
+      "samples": 6480000,
+      "leaves": 21,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 189,
+      "samples": 6480000,
+      "leaves": 21,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 190,
+      "samples": 6480000,
+      "leaves": 22,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 191,
+      "samples": 6480000,
+      "leaves": 20,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 192,
+      "samples": 6480000,
+      "leaves": 22,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 193,
+      "samples": 6480000,
+      "leaves": 21,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 194,
+      "samples": 6480000,
+      "leaves": 23,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 195,
+      "samples": 6480000,
+      "leaves": 23,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 196,
+      "samples": 6480000,
+      "leaves": 21,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 197,
+      "samples": 6480000,
+      "leaves": 19,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 198,
+      "samples": 6480000,
+      "leaves": 20,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 199,
+      "samples": 6480000,
+      "leaves": 22,
+      "methods": 5,
+      "input_max_difference": 0.0
+    },
+    {
+      "index": 200,
+      "samples": 6480000,
+      "leaves": 25,
+      "methods": 5,
+      "input_max_difference": 0.0
+    }
+  ]
+}

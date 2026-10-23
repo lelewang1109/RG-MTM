@@ -1,0 +1,22 @@
+{
+  "status": "passed",
+  "source_hashes_verified": true,
+  "source_aggregation_exact": true,
+  "analysis_input_unchanged": true,
+  "native_polygons_exact": true,
+  "positive_native_cells": [
+    283,
+    221,
+    206
+  ],
+  "positive_binned_cells": [
+    141,
+    120,
+    111
+  ],
+  "marker_projections_verified": 18,
+  "profiles_and_pair_levels_unchanged": true,
+  "original_panels_a_b_preserved_objects": 76,
+  "other_figure_files_byte_identical": 105,
+  "interpretation": "Detected FRP cell records and declared smoothed analysis field are distinct. No burn perimeter inferred."
+}

@@ -1,0 +1,93 @@
+{
+  "name": "benzene-potential-reconstructed2d",
+  "label": "Benzene electrostatic potential reconstruction (OPLS-AA); NOT author original",
+  "reconstruction": true,
+  "exact_paper_dataset": false,
+  "original_file_available": false,
+  "user_authorization": "user accepted explicitly labeled reconstructed potential; clarified Benzene is 2-D",
+  "correspondence": "same molecule and scalar type; independently chosen 12-site model, geometry and domain",
+  "scalar": "electrostatic potential of OPLS-AA partial charges, not electron density or ab-initio potential",
+  "scalar_unit": "atomic unit of electrostatic potential (Hartree/e)",
+  "shape_tyx": [
+    21,
+    61,
+    61
+  ],
+  "spatial_dimensions_per_frame": 2,
+  "x_bounds_bohr": [
+    -6.0,
+    6.0
+  ],
+  "y_bounds_bohr": [
+    -6.0,
+    6.0
+  ],
+  "slice_z_bohr": [
+    -2.0,
+    -1.8,
+    -1.6,
+    -1.4,
+    -1.2,
+    -1.0,
+    -0.7999999999999998,
+    -0.5999999999999999,
+    -0.3999999999999999,
+    -0.19999999999999996,
+    0.0,
+    0.20000000000000018,
+    0.40000000000000036,
+    0.6000000000000001,
+    0.8000000000000003,
+    1.0,
+    1.2000000000000002,
+    1.4000000000000004,
+    1.6,
+    1.8000000000000003,
+    2.0
+  ],
+  "scalar_scale": 3.9211697578430176,
+  "canonical_sign": 1,
+  "canonical_transform": "f_join = +V_source / fixed_sequence_scalar_range",
+  "tree_kind": "join tree of physical potential minima",
+  "source_fields_sha256": "e44cdefde1bad99fe16f9907350aaf89e50cd5ab2fca1474d2172b5edd5dbb69",
+  "model_sha256": "6af92515d8372a60221595926f98a1baf1504334da89a2fd8d67abd8d1f36756",
+  "native_binary_sha256": "f82bf82ad1e452a742df33bcd1632c361a3ae6895983b2e31aaf69afe84598e9",
+  "persistence_fraction": 0.0005,
+  "persistence_threshold_scope": "0.05% of each frame range; applied identically for all methods",
+  "grid_adjacency": "TTK implicit regular-grid triangulation; nonperiodic 2-D sections",
+  "spatial_resampling": false,
+  "spatial_smoothing": false,
+  "per_frame_normalization": false,
+  "leaf_filter": false,
+  "physical_time": false,
+  "time_semantics": "21 parallel 2-D sections of a static 3-D point-charge field; z is not time",
+  "original_paper_shape_tyx": [
+    21,
+    61,
+    61
+  ],
+  "original_paper_nodes": [
+    14,
+    68
+  ],
+  "difference_from_original": "not the author potential file or fractional-charge construction; node counts not fitted",
+  "original_342_frame_table_modified": false,
+  "reference": "fixed x axis, source physical coordinates",
+  "raster": 32768,
+  "methods": [
+    "TMTM",
+    "RG-MTM-P",
+    "RG-MTM-R 0.02",
+    "RG-MTM-R 0.2",
+    "RG-MTM-R 1"
+  ],
+  "tmtm_focus": 0,
+  "relaxation_gate_fraction": 0.02,
+  "relaxation_pruning": false,
+  "candidate_order_limit": 4,
+  "secondary_global_optimum_claimed": false,
+  "motion_truth": "computed feature-overlap matching; geometric proxy, not physical identities",
+  "gap_rule": "extent/max(240,4*sequence_max_leaf_count), fixed across all frames and methods",
+  "scalar_normalization": "one fixed sequence scalar range; NMLE in this normalized scalar",
+  "max_input_leaves": 10
+}

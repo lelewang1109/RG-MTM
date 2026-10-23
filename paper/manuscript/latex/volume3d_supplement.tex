@@ -1,0 +1,46 @@
+\section{Original-Grid Tangaroa Protocol and Complete Evidence}
+\subsection{Input processing and extracted features}
+The formal volumetric entry point is \path{experiments/volume3d/run_paper.py}. The input contains all 201 official Tangaroa velocity fields, indices 0--200, time increment 0.01, on the original XYZ grid $300\times180\times120$. Physical bounds are $[-0.35,0.65]\times[-0.3,0.3]\times[-0.5,-0.3]$. Velocity magnitude uses float64 arithmetic followed by float32 storage. Values below $10^{-6}$ are replaced by 1; values are clipped to $[0,2]$. There is no spatial downsampling, Gaussian smoothing, per-frame normalization, or leaf-count-based frame selection.
+
+TTK 0.9.9~\cite{Tierny:2018:TTK} traditional topological simplification modifies the scalar field at absolute persistence threshold 0.2, using regular-grid implicit triangulation, nonperiodic boundaries, no added scalar perturbation, and the returned symbolic offsets. The simplified field supplies the augmented join tree. This one persistence setting is fixed throughout the formal comparison. The actual trees contain 36--186 nodes and 18--93 leaves. TMTM reports 50--186 nodes for its 10\% row; the author-final scalar export and binary environment are unavailable, so exact derived-tree identity is unresolved. The public input grid and frame count agree, as do recorded magnitude fingerprints, including the initial raw maximum 3.0590057373046875.
+
+Each leaf support contains its extremum vertex and incident leaf-arc regular samples. Its centroid and extremum position are computed in physical three-dimensional coordinates. Support volume equals sample count times the fixed physical sample measure. Positive original-voxel support intersections define a one-to-one Hungarian match. There are 6925 leaf-support instances, of which 2459 touch the boundary. The reference direction $(0.1019540600,-0.9945466284,-0.0219630047)$ uses 6214 matched extremum displacements and captures 0.5768552452 of their squared motion. The eight projected domain corners give origin $-0.3274590081$ and extent $L=0.7030746380$.
+
+\subsection{Shared parameters and method-specific construction}
+All rendered methods share the same TTK-simplified inputs and source merge targets. RG parameters are $c|\Omega|=L/2$, $g=L/240$, $\rho=0.5$, and allowance $\beta=L/120$. The hierarchy trigger is $H>0.02L$; eligibility fractions are 0.02, 0.2, and 1 of the declared scalar range 2. Volumetric R flattens every eligible non-root branching node and disables the optional two-dimensional restoration/pruning stage.
+
+For continuous primary certificates, low-arity nodes use earliest-finish Pareto DP with bisection. Higher-arity cases use workload bounds or a 2-second HiGHS MILP, retaining feasible primal and dual bounds. With tree bounds $[l_T,u_T]$ and free-order bounds $[l_f,u_f]$, the hierarchy cost lies within $[\max(0,l_T-u_f),u_T-l_f]$. The gate activates when its lower bound exceeds $0.02L$, stays inactive when its upper bound does not, and preserves the hierarchy in unresolved cases. The formal run has 201 active, zero inactive, and zero unresolved original-tree gates.
+
+Each layout uses the primary upper bound plus $\beta$. Candidate orders include the certificate witness, reference-preferred recursive order, previous-position-preferred recursive order, and TMTM order when legal and within budget. Duplicate candidates are removed; at most four are configured and at most three occur in the saved run. The convex QP records the constraint slack and the first-order gap from an independent linear oracle. This solves the secondary objective on the evaluated candidate set. Frames are processed sequentially.
+
+TMTM starts at frame 100 and propagates top-down normal/reversed child decisions forward and backward using subtree overlaps. An $m$-way saddle requires $m-1$ separators: its source sample and $m-2$ additional copies at the same scalar value. Exactly 27 extra separators occur across the sequence. The source volume remains unchanged; saved sample IDs independently verify one occurrence of every original sample plus precisely those copies. ST-MTM layout was not run in this formal original-grid comparison; its scalar/path filler is reused by RG. Separate synthetic three-dimensional extensions are retained outside this real-data table.
+
+\subsection{Metric aggregation and complete parameter comparison}
+NROE is the temporal mean of framewise width-free order error. Actual RG MAE averages rendered-anchor error within each frame and then over the 201 frames; this differs from the pooled continuous feature-frame displacement used for the planar suite. NMLE measures maximum pairwise source-LCA versus actual-profile merge discrepancy in each frame, divides by the declared scalar range 2, and reports temporal mean and maximum.
+
+Motion compares labelled pairs shared by frames separated by lag 1, 2, or 4, with thresholds 1\%, 2\%, or 5\%. Spatial truth uses physical three-dimensional distance and domain diagonal; projected truth uses reference distance and $L$. Display decisions use the same fraction of each method's sequence-wide occupied anchor range. Default lag 2 and 2\% gives 6755 spatial clear events, including 1422 fully interior events, and 9631 projected clear events. These are different event sets. Table~\ref{tab:s_volume_complete} gives the default decomposition.
+
+\begin{table}[H]\centering\small
+\caption{Complete default Tangaroa measurements. Errors are percentages. Motion entries are reversal + miss counts; denominators are 6755 in 3D and 9631 for projected distance.}\label{tab:s_volume_complete}
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{lrrrrll}\toprule
+Method & NROE & MAE & NMLE mean & NMLE max & 3D & Projected\\\midrule
+TMTM & 20.09230 & -- & 0 & 0 & 185+6400 & 240+9168\\
+P & 9.60801 & 5.12470 & 0 & 0 & 1613+2084 & 2072+2973\\
+R2 & 8.56031 & 4.31072 & 3.51512 & 11.53659 & 1467+1811 & 1601+2322\\
+R20 & 0.018945 & 1.06487 & 14.44212 & 31.02051 & 826+1234 & 22+218\\
+R100 & 0.018945 & 1.06487 & 14.44212 & 31.02051 & 826+1234 & 22+218\\
+Exact projection & 0 & 0 & -- & -- & 763+1297 & 0+0\\
+\bottomrule\end{tabular}
+\end{table}
+
+P and TMTM have zero measured source-leaf merge error in all 201 frames; R2 has three zero-error frames and R20/R100 have none at tolerance $10^{-6}$. The primary P certificate has maximum bracket width $1.98358\times10^{-10}L$. R2 has 48 brackets not closed to tolerance and maximum width $0.0956105L$; R20/R100 close to tolerance in this sequence. The maximum selected-QP first-order gap, normalized by $L^2$, is $2.03871\times10^{-7}$; over all evaluated candidates it is approximately $2.06326\times10^{-7}$. Maximum anchor-rounding and interval-width errors are $3.81427\times10^{-6}L$ and $7.61058\times10^{-6}L$.
+
+\subsection{Independent verification and display provenance}
+The retained full numerical verification independently re-read 201 original velocity volumes, checked ZIP CRC32 and SHA256, reconstructed all 1,302,480,000 preprocessed scalar samples, and obtained zero maximum difference. It verified augmented sample ownership, arc monotonicity, physical extrema and centroids, support measures, direct parent-chain LCA targets, every full saved map's measured barriers, layout budgets, interval constraints, and TMTM sample-ID multiplicities. A separate rounded-down grid check provided continuous-certificate lower bounds at eleven uniformly spaced frames. These results are stored in \path{results/volume3d/tangaroa-paper-p10-full201/verification.json}.
+
+\path{metrics.json} stores all motion settings; \path{frame_metrics.json} stores complete per-frame measurements, layouts, bounds, and array hashes; \path{protocol.json}, \path{manifest.json}, \path{features.json}, \path{reference.json}, and \path{certificates.json} bind the inputs, source code, and numerical results. Full source volumes, simplified scalars, and 131072-row RG maps remain in local prepared-data storage. The lightweight \path{verify_saved.py} checks distributed evidence bindings, whereas \path{verify_paper.py} performs full numerical verification with the local arrays.
+
+Main-paper Figure~10 and the complete comparison in S10 reuse frozen 4096-row display samples for all 201 frames, with a local window at 135--145 and source-volume views at 139--141. The source views show pre-TTK near-zero-replaced and clipped magnitudes; simplified-input renderings and earlier context views at 0, 100, and 200 remain separately archived. The main views share the original purple--white--orange transfer function and one full-domain orthographic camera; S8 records the camera and projected-marker provenance. These display choices do not change the trees, layouts, or metrics, which use the full arrays. R100 duplicates R20 in this formal comparison, while input persistence remains fixed at 10\%.
+
+\input{tables/volume3d_settings_supp}

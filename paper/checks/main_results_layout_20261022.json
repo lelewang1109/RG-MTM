@@ -1,0 +1,95 @@
+{
+  "date": "2026-10-22",
+  "main_pdf_pages": 13,
+  "previous_main_pdf_pages": 15,
+  "supplement_pdf_pages": 48,
+  "main_figure_count": 11,
+  "supplementary_master_count": 15,
+  "figure_caption_pages": {
+    "1": 1,
+    "2": 2,
+    "3": 5,
+    "4": 5,
+    "5": 7,
+    "6": 8,
+    "7": 9,
+    "8": 9,
+    "9": 10,
+    "10": 10,
+    "11": 11
+  },
+  "conclusion_page": 11,
+  "column_placement": {
+    "single": [
+      2,
+      4,
+      6,
+      10,
+      11
+    ],
+    "double": [
+      1,
+      3,
+      5,
+      7,
+      8,
+      9
+    ]
+  },
+  "main_results_only_own_method_and_source_images": true,
+  "full_comparisons_and_dendrogram_in": "Supplement S10",
+  "scientific_image_audit": [
+    {
+      "main_figure": 7,
+      "previous_main_figure": 8,
+      "visible_scientific_images": 7,
+      "unchanged_images": 7,
+      "whitespace_only_crops": 0,
+      "baseline_panels_removed": true
+    },
+    {
+      "main_figure": 8,
+      "previous_main_figure": 9,
+      "visible_scientific_images": 7,
+      "unchanged_images": 7,
+      "whitespace_only_crops": 0,
+      "baseline_panels_removed": true
+    },
+    {
+      "main_figure": 9,
+      "previous_main_figure": 10,
+      "visible_scientific_images": 6,
+      "unchanged_images": 3,
+      "whitespace_only_crops": 3,
+      "baseline_panels_removed": true
+    },
+    {
+      "main_figure": 10,
+      "previous_main_figure": 11,
+      "visible_scientific_images": 3,
+      "unchanged_images": 3,
+      "whitespace_only_crops": 0,
+      "baseline_panels_removed": true
+    },
+    {
+      "main_figure": 11,
+      "previous_main_figure": 12,
+      "visible_scientific_images": 6,
+      "unchanged_images": 6,
+      "whitespace_only_crops": 0,
+      "baseline_panels_removed": true
+    }
+  ],
+  "frozen_evidence_files_unchanged": 130,
+  "no_overfull_or_undefined_references": true,
+  "pending_manuscript_sync": [
+    {
+      "stem": "Fig4",
+      "reason": "Figure exports and PPT updated with native B-to-B and C-to-C crossing correspondence arrows. Manuscript synchronization deferred as requested."
+    },
+    {
+      "stem": "Fig6",
+      "reason": "The concurrent figure-6 review explicitly requests PPT and image edits only, with manuscript synchronization deferred. The paper retains its compact control panel; the PPT/export retains the restored three-method comparison."
+    }
+  ]
+}

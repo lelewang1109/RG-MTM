@@ -1,0 +1,31 @@
+{
+  "source": "/Users/lele/Desktop/MergeTreeMaps/paper_revision/figures_export/Fig1.png",
+  "manuscript_asset": "/Users/lele/Desktop/MergeTreeMaps/paper_revision/manuscript/latex/figures/Fig1.png",
+  "sha256": "bacfa3ee606368dac71aef4f8ad5bd310271eac681deaf0761099c34360fc49b",
+  "method": "RG-MTM-R20",
+  "frame_count": 744,
+  "event_frames": [
+    66,
+    405,
+    575,
+    610,
+    645
+  ],
+  "direction": [
+    0.94783175,
+    -0.31877104
+  ],
+  "selected_variant": "Fig1_DataDirection",
+  "local_utc_interval": [
+    "1999-12-26 00:00",
+    "1999-12-26 23:00"
+  ],
+  "local_event_utc": "1999-12-26 10:00",
+  "local_track_ids": {
+    "A": 130,
+    "B": 113,
+    "C": 133
+  },
+  "display_interpolation": "anchor-aligned; crossing/large-jump fallback; original frames unchanged",
+  "Fig1_ppt_is_current_teaser": true
+}

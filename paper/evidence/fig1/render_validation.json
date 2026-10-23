@@ -1,0 +1,165 @@
+{
+  "slides_2_to_6_render_comparison": [
+    {
+      "slide": 2,
+      "pixels_identical": true,
+      "size": [
+        1400,
+        667
+      ]
+    },
+    {
+      "slide": 3,
+      "pixels_identical": true,
+      "size": [
+        1400,
+        667
+      ]
+    },
+    {
+      "slide": 4,
+      "pixels_identical": true,
+      "size": [
+        1400,
+        667
+      ]
+    },
+    {
+      "slide": 5,
+      "pixels_identical": true,
+      "size": [
+        1400,
+        667
+      ]
+    },
+    {
+      "slide": 6,
+      "pixels_identical": true,
+      "size": [
+        1400,
+        667
+      ]
+    }
+  ],
+  "first_slide_pdf_pages": 1,
+  "first_slide_vector_path_operations": 489,
+  "first_slide_vector_text_operations": 61,
+  "first_slide_png": [
+    5600,
+    2667
+  ],
+  "native_powerpoint_execution": false,
+  "render_engine": "LibreOffice Impress and Poppler",
+  "display_interpolation": {
+    "temporal": "conservative anchor-aligned piecewise linear display reconstruction",
+    "samples_per_frame": 41,
+    "aligned_intervals": 93,
+    "fallback_intervals": [
+      [
+        10,
+        11
+      ],
+      [
+        24,
+        25
+      ],
+      [
+        26,
+        27
+      ],
+      [
+        27,
+        28
+      ],
+      [
+        35,
+        36
+      ],
+      [
+        37,
+        38
+      ],
+      [
+        47,
+        48
+      ],
+      [
+        59,
+        60
+      ],
+      [
+        62,
+        63
+      ],
+      [
+        67,
+        68
+      ],
+      [
+        69,
+        70
+      ],
+      [
+        85,
+        86
+      ],
+      [
+        86,
+        87
+      ],
+      [
+        87,
+        88
+      ],
+      [
+        89,
+        90
+      ],
+      [
+        90,
+        91
+      ],
+      [
+        92,
+        93
+      ],
+      [
+        100,
+        101
+      ],
+      [
+        101,
+        102
+      ],
+      [
+        102,
+        103
+      ],
+      [
+        103,
+        104
+      ],
+      [
+        106,
+        107
+      ],
+      [
+        107,
+        108
+      ],
+      [
+        114,
+        115
+      ]
+    ],
+    "spatial": "bilinear on original projected raw-field grid",
+    "original_frame_centers_exact": true,
+    "original_scalar_rows": 4096,
+    "gaussian_blur": false,
+    "main_panel_trajectory_overlays": false,
+    "shared_full_and_local_reconstruction": true
+  },
+  "five_snapshots_and_main_event_guides_agree": true,
+  "event_callouts_on_saved_anchors": true,
+  "dark_overlay_scope": "No main-panel trajectory overlays; scalar raster uses disclosed conservative anchor-aligned display reconstruction. Native A/B/C tracks remain in local panel."
+}

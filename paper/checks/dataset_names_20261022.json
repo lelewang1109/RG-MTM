@@ -1,0 +1,172 @@
+{
+  "date": "2026-10-22",
+  "display_names": {
+    "era5": "Storms",
+    "wildfire": "Wildfires",
+    "ring": "Ring",
+    "gaussians": "Gaussian",
+    "tangaroa": "Tangaroa",
+    "olr": "OLR",
+    "pm25": "PM2.5"
+  },
+  "references": [
+    {
+      "paper": "Temporal Merge Tree Maps",
+      "locations": "Section 4.1 and Table 1",
+      "names": [
+        "Storms",
+        "Ring",
+        "Tangaroa"
+      ]
+    },
+    {
+      "paper": "Spatiotemporal Merge Tree Maps",
+      "locations": "Section 5.1 and Table 1",
+      "names": [
+        "Gaussian",
+        "Ring",
+        "Wildfires",
+        "Storms"
+      ]
+    }
+  ],
+  "scope": "Display names in manuscript, supplement, tables, captions, native PPT labels and combined decks. ERA5 provider names, citation keys and frozen evidence filenames retained.",
+  "protocol_distinctions": {
+    "Storms": "Same ERA5 source family; this paper uses different date windows, 12-hour sampling and processed MSLP rather than original hourly anomalies.",
+    "Wildfires": "Same Australian 2019 source family; this paper uses two-day aggregation and its declared smoothing.",
+    "Gaussian": "Local 64x64 variant inspired by the ST-MTM 128x128 construction, not an identical original input.",
+    "mirror_motion": "Separate 241x241 bisector control; not renamed to Gaussian."
+  },
+  "native_ppt_labels_checked": [
+    "Fig1",
+    "Fig2",
+    "Fig3",
+    "Fig4",
+    "Fig5",
+    "Fig6",
+    "Fig7",
+    "Fig8",
+    "Fig9",
+    "rgmtm_linked_cases",
+    "rgmtm_motion_scalar_cost",
+    "rgmtm_motion_error_comparison",
+    "rgmtm_neighbourhood_preservation",
+    "rgmtm_motion_window_sensitivity",
+    "rgmtm_topology_motion_tradeoff",
+    "Supplement_PositionScalarDiagnostic",
+    "Supplement_Storms_Detail"
+  ],
+  "all_17_figure_fonts_and_style_checked": true,
+  "changed_scientific_media": [
+    {
+      "figure": "Fig1",
+      "native_labels_changed": 5,
+      "scientific_media_unchanged": 10,
+      "custom_geometry_unchanged": 60
+    },
+    {
+      "figure": "Fig5",
+      "native_labels_changed": 4,
+      "scientific_media_unchanged": 1,
+      "custom_geometry_unchanged": 2
+    },
+    {
+      "figure": "Supplement_PositionScalarDiagnostic",
+      "native_labels_changed": 4,
+      "scientific_media_unchanged": 0,
+      "custom_geometry_unchanged": 18
+    },
+    {
+      "figure": "rgmtm_linked_cases",
+      "native_labels_changed": 1,
+      "scientific_media_unchanged": 2,
+      "custom_geometry_unchanged": 0
+    },
+    {
+      "figure": "rgmtm_motion_error_comparison",
+      "native_labels_changed": 3,
+      "scientific_media_unchanged": 2,
+      "custom_geometry_unchanged": 0
+    },
+    {
+      "figure": "rgmtm_motion_scalar_cost",
+      "native_labels_changed": 2,
+      "scientific_media_unchanged": 2,
+      "custom_geometry_unchanged": 0
+    },
+    {
+      "figure": "rgmtm_motion_window_sensitivity",
+      "native_labels_changed": 3,
+      "scientific_media_unchanged": 2,
+      "custom_geometry_unchanged": 0
+    },
+    {
+      "figure": "rgmtm_neighbourhood_preservation",
+      "native_labels_changed": 3,
+      "scientific_media_unchanged": 2,
+      "custom_geometry_unchanged": 0
+    },
+    {
+      "figure": "rgmtm_topology_motion_tradeoff",
+      "native_labels_changed": 2,
+      "scientific_media_unchanged": 2,
+      "custom_geometry_unchanged": 0
+    }
+  ],
+  "frozen_scientific_and_evidence_files_verified_unchanged": 1063,
+  "tables_with_unchanged_numbers": [
+    "datasets_supp.tex",
+    "standard_metrics_supp.tex",
+    "certificates_supp.tex",
+    "standard_metrics_main.tex",
+    "standard_tasks_supp.tex",
+    "supplement_generated.tex",
+    "achieved_reference_main.tex",
+    "comparison_revision.tex",
+    "achieved_reference_supp.tex",
+    "motion_supp.tex",
+    "hidden_quality_supp.tex",
+    "volume3d_main.tex"
+  ],
+  "papers": [
+    {
+      "file": "Revised_RG-MTM.pdf",
+      "pages": 12,
+      "sha256": "3856abafc3eff36aa44b4514ef2b95e55542c36d54100a4b6100d5649f251989"
+    },
+    {
+      "file": "Revised_Supplement.pdf",
+      "pages": 37,
+      "sha256": "7fb3e7a0cffb6bbfc1be29dba415f36a4ed0a63ddee747b28b3cd090ab2f871c"
+    }
+  ],
+  "tex_changed": [
+    "revision_evidence_supplement.tex",
+    "main_content.tex",
+    "dataset_details.tex",
+    "sensitivity_notes.tex",
+    "standard_metric_checks.tex",
+    "evaluation.tex",
+    "conclusion.tex",
+    "supplement.tex",
+    "event_case_supplement.tex",
+    "frontmatter.tex",
+    "applications.tex",
+    "protocol_details.tex",
+    "supplement_visuals.tex",
+    "tables/datasets_supp.tex",
+    "tables/standard_metrics_supp.tex",
+    "tables/certificates_supp.tex",
+    "tables/standard_metrics_main.tex",
+    "tables/standard_tasks_supp.tex",
+    "tables/supplement_generated.tex",
+    "tables/achieved_reference_main.tex",
+    "tables/comparison_revision.tex",
+    "tables/achieved_reference_supp.tex",
+    "tables/motion_supp.tex",
+    "tables/hidden_quality_supp.tex",
+    "figures/wildfires_events.tex",
+    "figures/diagnosis.tex",
+    "figures/cases.tex"
+  ]
+}

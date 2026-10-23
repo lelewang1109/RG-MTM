@@ -1,0 +1,146 @@
+{
+  "date": "2026-10-23",
+  "experiments_rerun": false,
+  "frozen_evidence_and_table_files_unchanged": 257,
+  "main_figures": [
+    {
+      "number": 1,
+      "canvas_emu": [
+        12801600,
+        6096000
+      ],
+      "native_shapes": 137,
+      "images": 9
+    },
+    {
+      "number": 2,
+      "canvas_emu": [
+        9144000,
+        4000500
+      ],
+      "native_shapes": 762,
+      "images": 0
+    },
+    {
+      "number": 3,
+      "canvas_emu": [
+        24955500,
+        7915275
+      ],
+      "native_shapes": 3678,
+      "images": 0
+    },
+    {
+      "number": 4,
+      "canvas_emu": [
+        8572500,
+        5476875
+      ],
+      "native_shapes": 100,
+      "images": 0
+    },
+    {
+      "number": 5,
+      "canvas_emu": [
+        12839700,
+        3057525
+      ],
+      "native_shapes": 69,
+      "images": 1,
+      "canvas_area_reduction_percent": 5.59,
+      "embedded_scientific_assets_byte_identical": true
+    },
+    {
+      "number": 6,
+      "canvas_emu": [
+        12382500,
+        5943600
+      ],
+      "native_shapes": 237,
+      "images": 10,
+      "canvas_area_reduction_percent": 5.69,
+      "embedded_scientific_assets_byte_identical": true
+    },
+    {
+      "number": 7,
+      "canvas_emu": [
+        12192000,
+        5019675
+      ],
+      "native_shapes": 107,
+      "images": 9,
+      "canvas_area_reduction_percent": 7.05,
+      "embedded_scientific_assets_byte_identical": true
+    },
+    {
+      "number": 8,
+      "canvas_emu": [
+        7658100,
+        3733800
+      ],
+      "native_shapes": 24,
+      "images": 3,
+      "canvas_area_reduction_percent": 55.07,
+      "embedded_scientific_assets_byte_identical": true
+    },
+    {
+      "number": 9,
+      "canvas_emu": [
+        10953750,
+        5905500
+      ],
+      "native_shapes": 76,
+      "images": 8,
+      "canvas_area_reduction_percent": 18.38,
+      "embedded_scientific_assets_byte_identical": true
+    },
+    {
+      "number": 10,
+      "canvas_emu": [
+        11887200,
+        4600575
+      ],
+      "native_shapes": 137,
+      "images": 7,
+      "canvas_area_reduction_percent": 12.57,
+      "embedded_scientific_assets_byte_identical": true
+    },
+    {
+      "number": 11,
+      "canvas_emu": [
+        11811000,
+        5391150
+      ],
+      "native_shapes": 97,
+      "images": 6,
+      "canvas_area_reduction_percent": 15.09,
+      "embedded_scientific_assets_byte_identical": true
+    }
+  ],
+  "main_figure_caption_pages": {
+    "1": 1,
+    "2": 2,
+    "3": 5,
+    "4": 5,
+    "5": 7,
+    "6": 8,
+    "7": 9,
+    "8": 9,
+    "9": 10,
+    "10": 11,
+    "11": 12
+  },
+  "documents": [
+    {
+      "file": "manuscript/Revised_RG-MTM.pdf",
+      "pages": 14,
+      "sha256": "30d092076dfc5b52713373394b3399289e02595204f5103bd4c95dacb6f7eaef"
+    },
+    {
+      "file": "manuscript/Revised_Supplement.pdf",
+      "pages": 46,
+      "sha256": "410c0fdad245c19e0790271d54b2c2e877487713a97bdc0ed394d8e1811eb4fa"
+    }
+  ],
+  "source_package_matches_current_sources_and_figures": true
+}

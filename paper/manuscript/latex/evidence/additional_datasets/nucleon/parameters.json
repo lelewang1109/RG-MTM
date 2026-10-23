@@ -1,0 +1,14 @@
+{
+  "canvas": 63.0,
+  "width_scale": 0.0076904296875,
+  "gap": 0.2625,
+  "rho": 0.5,
+  "extra_budget": 0.525,
+  "motion_weight": 0.5,
+  "eccentricity_weight": 0.1,
+  "reference_weight": 4.0,
+  "geometry_weight": 1.0,
+  "normalize_terms": true,
+  "temporal_mode": "residual",
+  "canvas_origin": 0.0
+}

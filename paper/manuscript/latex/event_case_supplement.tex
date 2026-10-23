@@ -1,0 +1,89 @@
+\section{Event Correspondence and Baseline Audit}\label{sec:event_audit}
+\subsection{Frozen case figures and selection}
+The event-linked drawings use the existing arrays in \path{results/real_case_studies/evidence/}: retained scalar profiles, extremum coordinates, overlap matches, and original-observation or original-grid volume views. The three-page \path{rgmtm_large_figures.pdf} and its individual vector pages are preserved in \path{figures/source/real_case_studies/}. The preceding P/R-only panels remain as traceable sources. The main paper shows source-linked P/R maps; S10 retains saved TMTM/ST-MTM planar profiles and saved TMTM volumetric profiles, using their native ordinates alongside the RG reference axis. Complete-frame maps retain all time steps; local enlargements state their own coordinate ranges. Source markers and temporal anchors use recorded transformations (S8). The plotting export calls no extraction, layout solver, metric evaluation, or volume renderer.
+
+Storms frame 48 is the previously retained interior hierarchy witness. W1 selects the largest hierarchy cost, with earliest-frame tie-breaking, among above-trigger Wildfires frames having a three-frame matched conflict triple and positive displacement reduction and scalar cost. These choices explain individual constructions; the complete-sequence tables provide the performance evidence. The archived Storms storm-time guides and Tangaroa context views follow the reference papers' selected temporal contexts independently of these witness-selection rules. Current main figures instead use the hourly Storms visualization and the Tangaroa frame-140 conflict window; their distinct populations and coordinates are documented in S8.
+
+\subsection{Storms storm-time correspondence}
+TMTM Fig.~1~\cite{Koepp:2023:TMTM} supplies five December 1999 times; ST-MTM Fig.~6~\cite{STMTM:2026} discusses the same month's storms. Convert an elapsed time from 17 November 1999 00 UTC into frame index by dividing by 12 hours. Table~\ref{tab:s_era_event_times} separates each fractional guide position from the discrete snapshot. The circles locate nearby computed pressure minima, identified by the stored overlap-track IDs. Event labels specify temporal correspondence, not independently validated cyclone identity. E4 carries a time guide and a source snapshot without an assigned named-storm leaf.
+
+\begin{table}[H]\centering\small
+\caption{Reference-paper storm times and local Storms snapshots. Dates are in December 1999, UTC; fractional indices locate the dashed guides.}\label{tab:s_era_event_times}
+\setlength{\tabcolsep}{5pt}
+\begin{tabular}{llrrrr}\toprule
+Guide & Reference-paper context & Day/time & Index & Snapshot & Track\\\midrule
+E1 & Anatol & 03 / 18:00 & 33.500 & 34 & 37\\
+E2 & Scandinavia storm & 17 / 21:00 & 61.750 & 62 & 66\\
+E3 & British Isles/Norway storm & 24 / 23:00 & 75.917 & 76 & 87\\
+E4 & Lothar time window & 26 / 10:00 & 78.833 & 79 & --\\
+E5 & Martin time window & 27 / 21:00 & 81.750 & 82 & 93\\
+\bottomrule\end{tabular}\end{table}
+
+The reference papers use 744 hourly pressure-anomaly fields. The quantitative sequence audited here instead uses 118 half-day MSLP fields, a different region, and 250-km smoothing/minimum extraction. The main-paper teaser is a separate 744-hour anomaly visualization with its own extrema and track identifiers. Storms frame 79 contains two retained leaves and no independently identified Lothar leaf. These input differences determine what can be matched beyond a calendar time. Track 66 at frame 62 has normalized reference 0.637427, P anchor 0.600655, and R anchor 0.648027; the plotted markers use these saved coordinates.
+
+\subsection{Wildfires witness, scalar values, and temporal links}
+W1 is frame 18, the two-day FRP aggregate starting 7 December 2019. The source snapshots show unsmoothed log-transformed observations; the circles are extrema of the processed split-tree field. Tracks $A,B,C$ are IDs 3, 48, and 52, corresponding to local leaves 3192, 419, and 3285 at W1. Their preceding positive support-overlap IoUs are 0.306, 0.893, and 0.746, and all three continue to the next frame. The reference order is $A,C,B$; the original subtree joins $A,B$ before the outside leaf $C$.
+
+\begin{table}[H]\centering\small
+\caption{Saved normalized reference and anchor coordinates of the W1 triple at frame 18. These use the complete shared reference extent.}\label{tab:s_fire_positions}
+\begin{tabular}{lrrrrr}\toprule
+Feature & Track & Reference & P anchor & R anchor & Extremum value\\\midrule
+A & 3 & 0.169078 & 0.193307 & 0.166133 & 2.408155\\
+B & 48 & 0.684591 & 0.537046 & 0.704579 & 0.765362\\
+C & 52 & 0.418239 & 0.549117 & 0.421862 & 0.193260\\
+\bottomrule\end{tabular}\end{table}
+
+The original split-tree connection levels for $AB$, $AC$, and $BC$ are 0.060800, 0.003617, and 0.003617. P retains them. The measured relaxed levels are $-0.574262$, 0.001144, and $-0.574262$, giving analytical fixed-order error 0.635062. The saved profile has measured worst-pair error 0.635063 after strict-extremum clearance, or 15.0944\% of the processed sequence range (S8). Negative output levels are artificial connection values introduced by the fixed-extremum minimax correction; they are not negative FRP observations and are shown with an explicit blue under-range colour. The local scalar range and the theoretical fixed-order cost remain distinct from this measured output discrepancy. No physical fire-entity identification is inferred from the computational track IDs.
+
+\subsection{Tangaroa temporal context and display provenance}
+The T1--T3 indices 25, 100, and 145 correspond to source times 0.25, 1.00, and 1.45 in the original 201-frame sequence. They follow TMTM Fig.~15 and its Tangaroa discussion: approximately frame 25 for reported group separation, frame 100 for the two-group volume illustration, and approximately frame 145 for a departing group's disappearance. TMTM Fig.~14 instead concerns Cylinder; its phase labels are not transferred to Tangaroa. ST-MTM provides no corresponding real three-dimensional experiment.
+
+These are temporal context links, not verified cross-method feature-group identities. The RG axis is a fixed directional projection and differs from the original TMTM linearization coordinate. Source-volume snapshots at 0, 25, 100, 145, and 200 reuse \path{tangaroa_event_volumes.npz}; the views at 25 and 145 were added in the preceding case-study task, and all five were already cached before manuscript integration. They show pre-TTK near-zero-replaced and clipped magnitudes; the time maps retain the fixed-10\%-persistence join-tree inputs specified in S6. These archived context views are distinct from the current main-paper views at frames 139--141, whose camera and marker provenance are documented in S8.
+
+\subsection{Baseline algorithm checks on 148 real-data frames}
+The existing audit covers 118 Storms frames and 30 Wildfires frames. TMTM is checked against the official repository at \url{https://github.com/Wiebke/TemporalMergeTreeMaps}. The fixed revision is recorded separately:
+\begin{quote}\small\texttt{2c75a10ed2cd55177a25ff751e0c0a8261200717}\end{quote}
+A harness compiles the author's \texttt{LandscapeInfo}, \texttt{objectiveForSeveralArcs}, \texttt{decideGreedy}, and \texttt{decideGreedyTree} core, supplying the same extracted real trees and spatial overlap counts. Every one of 486 branch decisions and 1118 interval/anchor records agrees. All processed samples appear once, subtree leaves remain contiguous, and measured pairwise merge error is zero in all 148 frames. This verifies the tested binary core, separately from a complete author Inviwo/TTK environment.
+
+ST-MTM checks reconstruct the distance/temporal objective and relative-width objective independently in matrix form, with feasibility and nonnegative-multiplier KKT stationarity checks. The audit also checks concordance, threshold/orientation logic, and all four filling-path cases. The 148 rendered profiles retain zero pairwise merge-level error and have no failed complete topology signatures. Table~\ref{tab:s_baseline_audit} reports the primary-setting residuals; they are optimizer residuals, not layout-quality scores.
+
+\begin{table}[H]\centering\small
+\caption{Independent baseline audit. ST entries are maximum relative KKT residuals for the paper's first and second optimization problems under the current shared-input settings.}\label{tab:s_baseline_audit}
+\begin{tabular}{lrrrrrr}\toprule
+Data & Frames & TMTM decisions & Intervals/anchors & ST Eq.1 & ST Eq.2 & OLO gaps\\\midrule
+Storms & 118 & 285 & 687 & $3.55\times10^{-8}$ & $1.25\times10^{-8}$ & 1\\
+Wildfires & 30 & 201 & 431 & $1.89\times10^{-8}$ & $9.63\times10^{-7}$ & 7\\
+\bottomrule\end{tabular}\end{table}
+
+\paragraph{Ordering heuristic.} ST-MTM's stated SciPy OLO step is retained as a heuristic. With SciPy 1.13.1, independent exhaustive legal-order checks find larger adjacency costs in eight frames (Table~\ref{tab:s_olo_gaps}); the implementation is not silently replaced by an exhaustive sorter. Subsequent temporal orientation and quadratic optimization follow their declared protocol. Author-code equivalence is not claimed for ST-MTM: the available preprint states that its complete implementation will be released after acceptance.
+
+\begin{table}[H]\centering\small
+\caption{All audited frames where the SciPy OLO adjacency cost exceeds the exhaustive legal-order minimum. Costs use the corresponding input-coordinate distance units.}\label{tab:s_olo_gaps}
+\begin{tabular}{lrrr}\toprule
+Data & Frame & SciPy cost & Exhaustive minimum\\\midrule
+Storms & 24 & 182.717226 & 152.485568\\
+Wildfires & 0 & 134.960780 & 127.765618\\
+Wildfires & 1 & 185.488174 & 149.395419\\
+Wildfires & 3 & 211.222797 & 209.969161\\
+Wildfires & 8 & 302.781490 & 251.500432\\
+Wildfires & 10 & 256.211632 & 256.089992\\
+Wildfires & 11 & 254.944394 & 242.866054\\
+Wildfires & 17 & 226.294598 & 221.158409\\
+\bottomrule\end{tabular}\end{table}
+
+\paragraph{Shared-input settings and original-paper settings.} The main comparison uses an ST-MTM reimplementation under the shared-input protocol. Its dataset configuration differs from the original paper's configuration (Table~\ref{tab:s_baseline_parameters}). $K$ has input-coordinate length units; frame counts, scalar preprocessing, and tree inputs also differ. The audit checks equations and constraints without substituting original-paper parameters or changing any reported result.
+
+\begin{table}[H]\centering\small
+\caption{Current ST-MTM comparison settings and reference-paper settings. $N$ is layout raster length; $\lambda$ is temporal weight.}\label{tab:s_baseline_parameters}
+\setlength{\tabcolsep}{5pt}
+\begin{tabular}{lllrrrrr}\toprule
+Data & Protocol & Weights & $K$ & $r$ & $\lambda$ & $N$ & Start\\\midrule
+Storms & Current & uniform & 5.644221 & 0.95 & 0.5 & 4096 & 0\\
+Storms & Reference & inverse & 135 & 0.65 & 0.05 & 4096 & 40\\
+Wildfires & Current & uniform & 6.269531 & 0.95 & 0.5 & 2048 & 0\\
+Wildfires & Reference & uniform & 10 & 0.85 & 0.5 & 4096 & 5\\
+\bottomrule\end{tabular}\end{table}
+
+\paragraph{Tangaroa provenance.} The audit rechecks the bindings of the saved 201-frame independent verification. Four generic Tangaroa preset entries were corrected from split to join trees; the active original-grid 201-frame pipeline already used join trees and its saved results are unchanged. The same-value multiway-saddle separators disclosed in S6 remain a declared extension of the original binary-tree TMTM core. The 36--186 derived-node range and the absence of a completed real-3D ST-MTM layout run retain the scope stated in S6.
+
+\paragraph{Evidence preservation.} The audit's \path{validation.json} reports 177 protected numerical files unchanged. No scientific stage is rerun for this manuscript revision. The paper package includes the existing audit JSON, preset-correction record, event-correspondence JSON, per-case event evidence, and figure hashes in \path{evidence/event_case_revision/} and \path{figures/source/real_case_studies/}. The full local sources remain \path{results/baseline_audit_20261019/} and \path{results/real_case_studies/}; the manuscript's publication-size figure export records its frozen-input hashes separately.

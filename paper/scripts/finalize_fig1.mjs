@@ -1,0 +1,11 @@
+import fs from 'node:fs/promises';
+import path from 'node:path';
+import {pathToFileURL} from 'node:url';
+const ROOT=path.resolve(import.meta.dirname,'..');
+const SKILL='/Users/lele/.codex/plugins/cache/openai-primary-runtime/presentations/26.1015.12040/skills/presentations';
+const RT='/Users/lele/.cache/codex-runtimes/codex-primary-runtime/dependencies';
+process.env.RUNTIME_NODE=RT+'/node/bin/node';process.env.RUNTIME_NODE_MODULES=RT+'/node/node_modules';
+const {finalizePresentation}=await import(pathToFileURL(SKILL+'/container_tools/artifact_tool_utils.mjs').href);
+await fs.mkdir(ROOT+'/.build/fig1',{recursive:true});
+const result=await finalizePresentation({workspaceDir:ROOT,candidatePath:ROOT+'/.build/fig1/All_Figures_candidate.pptx',finalPath:process.argv[2]||ROOT+'/.build/fig1/All_Figures_Fig1_Revised.pptx',pythonExecutable:RT+'/python/bin/python3',integrityValidatorPath:SKILL+'/container_tools/inspect_presentation_package_integrity.py',layoutValidatorPath:SKILL+'/container_tools/inspect_presentation_layout_geometry.py',layoutArgs:['--expected-slide-size-emu','12801600,6096000','--validate-heading-fit'],explicitTotalSlideCount:JSON.parse(await fs.readFile(ROOT+'/FIGURE_INDEX.json','utf8')).main_figure_count,verifyArtifactToolImport:true,receiptPath:ROOT+'/.build/fig1/final_validation_'+Date.now()+'.json'});
+console.log(JSON.stringify(result));

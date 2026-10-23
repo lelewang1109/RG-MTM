@@ -1,0 +1,13 @@
+\begin{table}[H]
+\caption{Evaluated fields. Leaf counts refer to the processed extrema and merge trees.}\label{tab:data}
+\centering\footnotesize\setlength{\tabcolsep}{3pt}
+\begin{tabular}{llrllll}\toprule
+Data & Period / construction & Frames & Grid & Leaves & Tree & Smoothing\\\midrule
+Storms & 1999-11-17--2000-01-14 & 118 & $49\times49$ & 1--8 & Join & 250 km\\
+Wildfires & Nov.--Dec. 2019 & 30 & $64\times64$ & 6--11 & Split & 50.7 km\\
+OLR & 2024-06-01--2024-07-30 & 60 & $49\times49$ & 2--8 & Join & 500 km\\
+PM2.5 & 2000-01-01--2000-12-31 & 366 & $49\times49$ & 1--7 & Split & 100 km\\
+Ring & Synthetic expansion & 40 & $14\times14$ & 1--7 & Split & --\\
+\bottomrule\end{tabular}
+\par\smallskip{\footnotesize\raggedright Five planar temporal sequences, 614 frames. Storms is sampled every 12 hours; Wildfires uses two-day aggregates; OLR and PM2.5 supply one sample per day. Smoothing denotes the fixed Gaussian scale. PM2.5 uses the full year; January remains an exploratory historical control.\par}
+\end{table}

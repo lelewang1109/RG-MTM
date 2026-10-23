@@ -1,0 +1,20 @@
+\begin{table}[t]
+\caption{Detailed volumetric settings under the same shared metric definitions (percent and errors/clear events).}\label{tab:volume}
+\centering\footnotesize\setlength{\tabcolsep}{4pt}
+\resizebox{\linewidth}{!}{\begin{tabular}{llrrrrll}\toprule
+Data & Method & NROE & $E_{\rm pool}$ & NMLE mean & NMLE max & Spatial motion & Projected motion\\\midrule
+Tangaroa & TMTM & 20.092 & n/a & 0.000 & 0.000 & 6585/6755 & 9408/9631\\
+Tangaroa & RG-MTM-P & 9.608 & 5.013 & 0.000 & 0.000 & 3697/6755 & 5045/9631\\
+Tangaroa & R, $\kappa=2\%$ & 8.560 & 4.165 & 3.515 & 11.537 & 3278/6755 & 3923/9631\\
+Tangaroa & R, $\kappa=20\%$ & 0.019 & 1.176 & 14.442 & 31.021 & 2060/6755 & 240/9631\\
+Tangaroa & R, $\kappa=100\%$ & 0.019 & 1.176 & 14.442 & 31.021 & 2060/6755 & 240/9631\\
+Tangaroa & Exact projection & 0 & 0 & n/a & n/a & 2060/6755 & 0/9631\\
+Cylinder & TMTM & 26.617 & n/a & 0.000 & 0.000 & 2141/3196 & 1845/2934\\
+Cylinder & RG-MTM-P & 12.262 & 5.400 & 0.000 & 0.000 & 1191/3196 & 870/2934\\
+Cylinder & R, $\kappa=2\%$ & 0.249 & 0.623 & 0.692 & 4.886 & 617/3196 & 123/2934\\
+Cylinder & R, $\kappa=20\%$ & 0.084 & 0.550 & 2.810 & 14.281 & 605/3196 & 108/2934\\
+Cylinder & R, $\kappa=100\%$ & 0.084 & 0.550 & 3.190 & 14.281 & 606/3196 & 107/2934\\
+Cylinder & Exact projection & 0 & 0 & n/a & n/a & 603/3196 & 0/2934\\
+\bottomrule\end{tabular}}
+\par\smallskip{\footnotesize\raggedright The main paper common result tables include these inputs; this supplementary table expands only the parameter and projection checks. $E_{\rm pool}$ uses continuous, pooled anchors. Spatial and projected motion have their own denominators and cannot be subtracted as a causal decomposition. Optional strongest-first hierarchy pruning is disabled for these larger inputs; $\kappa$ is not a measured scalar cap. ST-MTM is not run.\par}
+\end{table}

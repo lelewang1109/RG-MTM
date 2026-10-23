@@ -1,0 +1,9 @@
+{
+  "normalization": "shared symmetric logarithmic",
+  "linear_threshold_Q": 0.02,
+  "vmin": -20.46343994140625,
+  "vmax": 20.46343994140625,
+  "scalar_arrays_modified": false,
+  "source_figure": "orthogonal source-volume planes; each displayed plane is not a timestep",
+  "maps": "2048-row display previews plus every preserved extremum marker; metrics use full arrays"
+}

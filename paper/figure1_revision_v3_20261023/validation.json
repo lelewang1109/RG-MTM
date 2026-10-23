@@ -1,0 +1,26 @@
+{
+  "original_files_verified_unchanged": 40,
+  "five_selected_frames": [
+    601,
+    602,
+    603,
+    605,
+    607
+  ],
+  "full_leaf_counts": [
+    3,
+    3,
+    3,
+    6,
+    5
+  ],
+  "right_P_R_maps": "same seven original hourly scalar columns, same time and position bounds",
+  "old_candidates_deleted": true,
+  "standalone_build_after_cleanup_passed": true,
+  "pdf_visual_check": true,
+  "output_sha256": {
+    "Fig1_RG_MTM_v3.pdf": "7b1aa887e59129528fe921c65fce06a250cfd05337a708125b7b3ffd40e6e204",
+    "Fig1_RG_MTM_v3.png": "28a59b5db0299564b572960e35593d6244344d41f6ef981d090ac994aeb4126b",
+    "Fig1_RG_MTM_v3.svg": "b562090dd1c3ea2424f877d29b20b81f6e48882452b6bacaf2bea49a3e3bae22"
+  }
+}

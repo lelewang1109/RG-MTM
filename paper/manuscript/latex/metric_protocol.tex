@@ -1,0 +1,39 @@
+\subsection{Metric definitions and aggregation}\label{sec:metric_protocol}
+The five-sequence evaluation distinguishes mathematical optima, achieved anchor displacement, measured raster errors and geometric motion outcomes. Each quantity is aggregated over its stated frame, feature or event population.
+
+\paragraph{Normalized Reference-Order Error (NROE, $P$).}
+For each frame, stable sorting of displayed anchors gives $\pi$. The point-model optimum is $\tau_{\rm pt}(\pi)=\frac12\max\{0,\max_{r<s}(q_{\pi_r}-q_{\pi_s})\}$. Its temporal mean divided by the fixed sequence reference extent $L$ is $P$. This removes widths, gaps, canvas bounds, and anchor radii, permitting a monotone calibration of distinct anchors. Stable tie-breaking assigns separate calibrated values to tied pixels; it is an optimistic diagnostic in that case. $\tau^*_{\rm pt}$ minimizes this point cost over tree-consistent orders. Neither $P$ nor $\tau^*_{\rm pt}$ equals achieved reference displacement under the full interval model.
+
+\paragraph{Achieved continuous displacement.}
+For each retained feature-frame anchor define $e_i^t=|u_i^t-q_i^t|$. Report
+\[
+ E_{\rm pool}=\frac{\sum_t\sum_{i=1}^{n_t}e_i^t}{L\sum_tn_t},\qquad
+ E_\infty=\frac{\max_{t,i}e_i^t}{L}.
+\]
+The original record also saves the pooled 95th percentile. Pooling weights frames by their retained feature count; the maximum weights no frame average. The full certificate $\tau_t^*$ instead bounds a frame's maximum, so it must not be compared directly with $E_{\rm pool}$. Values here use continuous RG-MTM-P and RG-MTM-R anchors in reference units, before raster rounding. TMTM/ST-MTM native axes have different units and width models and are not assigned these direct-reference scores without an explicit calibration protocol.
+The achieved displacement values are reported in main Table 2; the accompanying numerical ledger also retains the pooled 95th percentile.
+
+\paragraph{Normalized Merge-Level Error (NMLE, $D$).}
+$\Delta_F=\max_{t,x}F_t(x)-\min_{t,x}F_t(x)$ is fixed per processed sequence. $D_t=d_{\rm top}(\psi_t,T_t)/\Delta_F$ measures the maximum pairwise labelled merge discrepancy in frame $t$. $D_{\rm mean}=K^{-1}\sum_tD_t$ averages frames; $D_{\rm max}=\max_tD_t$ is the worst frame. These are displayed as NMLE$_{\rm mean}$ and NMLE$_{\rm max}$; the symbols and saved numerical keys are unchanged. The fixed-label cophenetic basis follows existing labelled-tree metrics~\cite{Munch:2019:LINF}; the experiment-specific normalization does not create a new unlabelled tree distance. One retained leaf gives zero pairwise error. For split trees the profile and original levels are negated before taking maxima. Native-curve barriers are measured on unchanged sample traversals. The revised main table uses \path{results/filling.json}'s measured optimal-filling summaries, while \path{results/eval_projection.json}'s \texttt{dstar} is the fixed-order closed-form optimum. Their small clearance/raster discrepancies are checked separately rather than silently identifying an optimum with a measurement.
+
+\paragraph{Motion events and inference.}
+A pair of tracks must be present at $t$ and $t+k$; its true distance is the Euclidean distance between retained extrema. A clear event has distance change exceeding $\epsilon_{2D}=0.02\,\mathrm{diag}(\Omega)$ in magnitude. Main results fix $k=2$. Displayed pair distance uses actual anchors and a method-specific threshold $\epsilon_m=0.02A_m$, where $A_m$ is that method's full-sequence occupied anchor range. A nonzero opposite sign is a reversal; a change within $[-\epsilon_m,\epsilon_m]$ is a miss. ME is $(N_{\rm rev}+N_{\rm miss})/N_{\rm clear}$. The same true events are compared across methods, but the no-change thresholds depend on declared display ranges. If $N_{\rm clear}=0$, error rates are undefined; they are not perfect scores. Motion labels are computational geometry, not participant responses. Projected-reference events use a different truth and threshold and must not be subtracted from 2D-truth rates to estimate projection loss.
+
+Paired differences reuse the same events and employ circular moving-block bootstrap over time, with block length $k+2=4$ at the primary setting. The retained intervals are exploratory and have no multiplicity correction. The historical sparse January PM2.5 events cannot establish a seasonal superiority claim; threshold/window and fixed-direction results remain controls.
+
+\paragraph{Geometry and stability diagnostics.}
+For unordered extremum pairs in a frame, set $a_{ij}=|u_i-u_j|$, $b_{ij}=\|R_i-R_j\|$, and $\alpha=(\sum a_{ij}b_{ij})/(\sum a_{ij}^2)$. The implementation averages
+\[
+ S_t=\sqrt{\frac{\sum_{i<j}(\alpha a_{ij}-b_{ij})^2}{\sum_{i<j}b_{ij}^2}}
+\]
+over frames with at least three leaves. NN is the framewise mean agreement of each extremum's nearest neighbour under $a$ and $b$, then averaged over the same frames. Stable array order resolves distance ties as implemented. Report the number of eligible frames; degenerate cases need explicit treatment if this protocol is extended beyond the present suite.
+
+Flips counts sign changes in display order among pairs matched across consecutive frames, divided by the number of eligible matched pairs. $J$ averages $|u_i^t-u_j^{t-1}|/A_m$ over individual matches. These stability diagnostics do not compare motion with a source target: true crossings or rapid source motion can increase either score. The QP's distance objective uses support centroids; the retained diagnostic $S$ uses extremum locations. These choices answer different questions and are not silently interchanged.
+
+ST-MTM's stated SNS has squared residuals and centroid distances, TW penalizes introduced neighbours by original-space ranks, and TD sums matched displacements. SNS and TW are adopted from prior work~\cite{Smelser:2025:Scale,Venna:2001:NP}, while ST-MTM specifies TD for its matched display positions. NN is not TW, $J$ is not TD, and $(\mathrm{mean}\,S_t)^2$ is not $\mathrm{mean}\,(S_t^2)$. The separate standard-metric re-evaluation below uses the required entities and aggregation without changing these historical diagnostics.
+
+\paragraph{Source mapping.}
+Order statistics use \path{results/final_performance.json}; motion and geometry use \path{results/eval_projection.json}; measured barrier costs use \path{results/filling.json}; achieved anchors use \path{results/replicate_<dataset>.json}'s \texttt{tradeoff} entries at caps 0 and 0.2, normalized by its \texttt{certificate.axis}. The main-paper ledger stores source hashes and unrounded values. No metric selection or bold-face ranking is inferred from a combined score.
+
+\paragraph{Method-name mapping.}
+RG-MTM means Reference-Guided Merge Tree Maps. RG-MTM-P is the hierarchy-preserving mode; RG-MTM-R is the relaxed mode. In the saved records, \texttt{A} denotes RG-MTM-P and \texttt{R 20\%} denotes RG-MTM-R at $\kappa=0.2\Delta_F$. Keys \texttt{R 2\%} and \texttt{R inf} identify the other eligibility settings. The current code directory is \texttt{RG-MTM/code}; historical \texttt{CD-MTM} labels identify the same relaxed method.

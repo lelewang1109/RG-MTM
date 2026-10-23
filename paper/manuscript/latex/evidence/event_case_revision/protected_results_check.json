@@ -1,0 +1,6 @@
+{
+  "protected_result_files": 177,
+  "mismatches": [],
+  "method": "read-only SHA256 against retained protected-result ledger; no experiment rerun",
+  "ledger": "02-RG-MTM/provenance/rgmtm_rename_20261016.json"
+}

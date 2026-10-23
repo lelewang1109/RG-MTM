@@ -1,0 +1,103 @@
+\section{Additional Reference-Dataset Experiments}\label{sec:additional_experiments}
+This section documents the Nucleon, Cylinder, and reconstructed Benzene additions independently of the 614-frame planar suite, the 744-hour Storms visualization, the 64-frame mirror control, and the 201-frame Tangaroa experiment. Existing measurements and figures are retained. Saved result records and their SHA-256 bindings are packaged under \path{evidence/additional_datasets/}. Every new dataset has \texttt{status=complete\_verified}; complete-map verification covers 5 Nucleon maps, 510 Cylinder maps, and 105 Benzene maps.
+
+\subsection{Data correspondence and coverage}
+\begin{table}[H]\centering\small
+\caption{Correspondence with the six dataset families in TMTM. Coverage of a family does not imply identical final author inputs.}\label{tab:s_reference_coverage}
+\begin{tabular}{lll}\toprule
+Name & Current input & Correspondence / scope\\\midrule
+Nucleon & $64\times64$, 1 slice & Original author padded slice; static\\
+Ring & $14\times14$, 40 frames & Archived author generator\\
+Storms & $49\times49$, 744 hours & ERA5 anomaly overview; 118-frame statistics separate\\
+Tangaroa & $300\times180\times120$, 201 volumes & Author source; declared speed and TTK protocol\\
+Cylinder & $135\times64\times48$, 102 volumes & Public resampling; reference reports 508 frames\\
+Benzene & $61\times61$, 21 $z$ sections & Reconstructed OPLS-AA electrostatic potential\\
+\bottomrule\end{tabular}\end{table}
+The Benzene author potential file remains unavailable; the newly accepted reconstruction supplies a related scalar model rather than its original fractional-charge calculation. The earlier electron-density and two-dimensional circular-cylinder pilots are excluded. Cylinder remains a genuinely three-dimensional spatial input, while Benzene is a sequence of two-dimensional spatial sections of a static field.
+
+\subsection{Shared construction and numerical scope}
+All five methods in each new experiment share the same processed fields, extracted extrema, supports, and overlap correspondences. They compare TMTM, RG-MTM-P, and RG-MTM-R at eligibility fractions 0.02, 0.20, and 1.00; ST-MTM was not run in these additions. The reference is fixed to the physical $x$ axis. Scalar normalization uses one sequence-wide range, with no per-frame scalar normalization. NROE uses the full leaf population and NMLE is independently measured on complete saved profiles. A figure preview is not a metric input.
+
+Nucleon and Cylinder use a join tree of the negated, scaled source scalar, equivalent to its split tree; displayed values recover the original sign and units. Benzene instead uses the positive, scaled potential and its join tree. A sign inversion is not silently reused across these datasets. The RG raster has 32768 rows; TMTM retains every input sample with its declared virtual saddle multiplicities. At most four declared legal orders enter the secondary convex optimization. Relaxation pruning is disabled; bounds and finite candidate sets do not imply global secondary optimality.
+
+Independent verification checks scalar transforms, augmented-tree sample ownership and monotone arcs, parent-chain LCAs, full-map barriers, TMTM sample multiplicities, and RG hard constraints. Cylinder additionally recomputes all three-dimensional $Q$ values using an independent Amira parser and the rotation/strain Frobenius-norm identity. Benzene recomputes all 78,141 source-potential samples using scalar distances and \texttt{math.fsum}; saved float32 source values agree exactly. Native TTK still supplies persistence simplification, which is not independently reimplemented by these audits. No new claim about cross-hardware runtime or perceptual accuracy is made.
+
+\subsection{Nucleon protocol}
+The source is the TMTM author's padded uint8 centre slice from the archived author revision recorded in the packaged input protocol. It is used without smoothing, spatial resampling, or persistence removal. Scalar range is 247, and $x,y=0,\ldots,63$. The extracted input has 13 leaves and 26 nodes versus 28 nodes in the reference table. This mismatch is retained rather than tuning the input to match the published count. All three R maps are exactly equal to the saved P array. One static slice cannot support temporal or volumetric claims.
+
+\subsection{Benzene reconstructed potential}
+The declared 12-site vacuum Coulomb model is $V(r)=\sum_iq_i/\|r-R_i\|$, with six carbon charges $-0.115e$ and six hydrogen charges $+0.115e$ from Table 1, page 67 of the BOSS 4.9 manual~\cite{Jorgensen:2013:BOSS}. The public Inviwo molecular cube supplies atomic coordinates only~\cite{Inviwo:BenzeneGeometry}; no electron-density samples are interpreted as potential. Coordinates are in bohr and potential is in Hartree/$e$. No softening radius, clipping, smoothing, charge fitting, or post hoc symmetry enforcement is applied. The minimum grid-to-charge distance is 0.0519513 bohr, so the sampled grid avoids singularities. The model, geometry, and domain were fixed before layout comparison.
+
+Each $61\times61$ section spans $[-6,6]^2$, and 21 parallel sections span $z=-2,-1.8,\ldots,2$. The signed potential is divided by one fixed range 3.92116975784 before join-tree extraction. Traditional persistence simplification uses 0.05\% of each section's range. There are 5--10 leaves and 10--20 nodes, versus the reference table's 14--68 nodes. Four leaf extrema lie on the rectangular boundary in every section. An interior-extremum diagnostic uses only the 15 sections with at least two interior leaves; this is distinct from whether a leaf's support touches the boundary. Full-population results remain primary.
+
+The source geometry is nearly planar rather than exactly planar: the maximum $\pm z$ source-field discrepancy is 0.0241\% of the sequence range. The map mirror diagnostic compares ten $\pm z$ pairs at the same 32768 common map coordinates, without a fitted reflection or alignment. Adjacent-section displacement residual is the absolute difference between displayed anchor change and projected-source change divided by domain width; all methods share 170 overlap matches. These quantities measure section coherence and approximate reflection, not physical molecular motion. The Benzene comparison in S10 uses a common coolwarm symmetric-log display, linear inside $\pm0.0784234$ a.u., with fixed endpoints $\pm2.20763588$ a.u. The display does not change scalar arrays. TMTM is not optimized for the prescribed $x$ reference; its NROE is a reference-compatibility diagnostic rather than its original objective.
+
+\subsection{Cylinder input, motion, and rendering}
+The velocity archive is the public uniformly resampled square-cylinder simulation credited to Camarri, Salvetti, Buffoni, and Iollo~\cite{Camarri:2005:Cylinder,Weinkauf:SquareCylinder,Funck:2008:Smoke}. Spatial derivatives use physical coordinates on the full $192\times64\times48$ source grid. Only afterward are source $x$ indices 57--191 retained, giving $x\in[-2.45026178,20]$, $y\in[-4,4]$, and $z\in[0,6]$. All 102 archive members are used. There is no smoothing, downsampling, or leaf-count filtering. The source is spanwise-periodic, but this implementation does not connect the $z$ endpoints: it uses second-order one-sided derivatives at boundaries and marks boundary-touching features. This treatment and the 102-versus-508-frame difference limit equivalence to the original paper's final $Q$ fields.
+
+Persistence simplification uses 2\% of each source frame's range. The fixed sequence scalar scale is 25.8113212585. The retained trees have 8--150 nodes and 4--75 leaves. Motion uses overlap-linked extrema, a two-step window, and a 2\%-of-domain-diagonal change threshold for three-dimensional truth. The projected diagnostic uses 2\% of the $x$ extent and has its own clear-event population. Error counts and exact projection are given below. Neither diagnostic is a physical vortex-label ground truth.
+
+The maps use the saved 2048-row previews with no additional point or trajectory overlay. Coolwarm is normalized by a shared symmetric logarithm, linear inside $[-0.02,0.02]$, with fixed endpoints $\pm20.4634399414$. Main Figure~11 shows raw source isosurfaces at $Q=0.1$ and $0.5$ for the fixed first, middle, and last snapshots (frames 0, 51, 101). Marching cubes uses the original physical grid and no smoothing. The camera is orthographic, elevation $22^\circ$, azimuth $-65^\circ$; physical aspect, levels, and opacity are fixed across all views. Native domain edges project the same eight physical corners. These source views precede TTK simplification, while the maps show the common processed scalar and method-specific filling. Rendering records and source-frame hashes are in \path{evidence/additional_datasets/render_metadata.json}.
+
+\subsection{Complete two-dimensional measurements}
+\begin{table}[H]\centering\small
+\caption{Nucleon static input: complete saved configuration comparison. NROE and NMLE are percentages.}
+\begin{tabular}{lrrrr}\toprule Method & NROE & NMLE mean & NMLE max & Exact-topology frames\\\midrule
+TMTM & 11.9048 & 0.0000 & 0.0000 & 1/1\\
+RG-MTM-P & 2.3810 & 0.0000 & 0.0000 & 1/1\\
+RG-MTM-R2 & 2.3810 & 0.0000 & 0.0000 & 1/1\\
+RG-MTM-R20 & 2.3810 & 0.0000 & 0.0000 & 1/1\\
+RG-MTM-R100 & 2.3810 & 0.0000 & 0.0000 & 1/1\\
+\bottomrule\end{tabular}\end{table}
+
+\begin{table}[H]\centering\small
+\caption{Benzene 21 reconstructed-potential sections: complete saved configuration comparison. NROE and NMLE are percentages.}
+\begin{tabular}{lrrrr}\toprule Method & NROE & NMLE mean & NMLE max & Exact-topology frames\\\midrule
+TMTM & 50.0000 & 0.0000 & 0.0000 & 21/21\\
+RG-MTM-P & 4.2063 & 0.0000 & 0.0000 & 21/21\\
+RG-MTM-R2 & 0.0000 & 0.0025 & 0.0080 & 6/21\\
+RG-MTM-R20 & 0.0000 & 0.0025 & 0.0080 & 6/21\\
+RG-MTM-R100 & 0.0000 & 0.0025 & 0.0080 & 6/21\\
+\bottomrule\end{tabular}\end{table}
+
+\begin{table}[H]\centering\small
+\caption{Benzene boundary and section-coherence diagnostics, all in percent. Interior NROE uses 15 eligible sections; residual uses 170 adjacent-section matches; mirror MAE uses ten section pairs. The full-population table above remains primary.}
+\begin{tabular}{lrrr}\toprule Method & Interior NROE & Displacement residual & Mirror-map MAE\\\midrule
+TMTM & 12.5000 & 2.7546 & 0.0185\\
+RG-MTM-P & 5.8889 & 1.2191 & 0.0064\\
+RG-MTM-R2 & 0.0000 & 0.1373 & 0.0030\\
+RG-MTM-R20 & 0.0000 & 0.1373 & 0.0030\\
+RG-MTM-R100 & 0.0000 & 0.1373 & 0.0030\\
+\bottomrule\end{tabular}\end{table}
+
+\subsection{Complete three-dimensional measurements}
+\begin{table}[H]\centering\small
+\caption{Cylinder 102 three-dimensional fields: complete saved configuration comparison. NROE and NMLE are percentages.}
+\begin{tabular}{lrrrr}\toprule Method & NROE & NMLE mean & NMLE max & Exact-topology frames\\\midrule
+TMTM & 26.6169 & 0.0000 & 0.0000 & 102/102\\
+RG-MTM-P & 12.2622 & 0.0000 & 0.0000 & 102/102\\
+RG-MTM-R2 & 0.2488 & 0.6919 & 4.8865 & 8/102\\
+RG-MTM-R20 & 0.0841 & 2.8096 & 14.2811 & 5/102\\
+RG-MTM-R100 & 0.0841 & 3.1901 & 14.2811 & 5/102\\
+\bottomrule\end{tabular}\end{table}
+
+\begin{table}[H]\centering\small
+\caption{Cylinder motion proxies. Three-dimensional truth has 3196 clear events; projected truth has 2934. Counts show reversal + miss. Exact projection has no rendered scalar topology and is a reference control.}
+\begin{tabular}{lrrrr}\toprule Method & 3D count & 3D error (\%) & Projected count & Projected error (\%)\\\midrule
+TMTM & 845+1296 & 66.990 & 867+978 & 62.883\\
+RG-MTM-P & 598+593 & 37.265 & 510+360 & 29.652\\
+RG-MTM-R2 & 76+541 & 19.305 & 0+123 & 4.192\\
+RG-MTM-R20 & 71+534 & 18.930 & 0+108 & 3.681\\
+RG-MTM-R100 & 72+534 & 18.961 & 0+107 & 3.647\\
+Exact $x$ projection & 69+534 & 18.867 & 0+0 & 0.000\\
+\bottomrule\end{tabular}\end{table}
+
+\paragraph{Optimization records.}
+\begin{center}\small
+\begin{tabular}{lrrr}\toprule
+Dataset & Max. bracket / $L$ & QP gap / $L^2$ & Failed QPs\\\midrule
+Nucleon & $1.926\times10^{-10}$ & $8.382\times10^{-8}$ & 0\\
+Cylinder & $0.00830968$ & $7.037\times10^{-6}$ & 0\\
+Benzene & $1.985\times10^{-10}$ & $8.957\times10^{-7}$ & 0\\
+\bottomrule\end{tabular}\end{center}
+A finite certificate gap remains on some Cylinder cases. Verification establishes the stated saved-map and feasibility checks rather than exact continuous optimality of every certificate or a global optimum over all secondary orders.

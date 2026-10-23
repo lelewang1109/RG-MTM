@@ -1,0 +1,24 @@
+{
+  "scope": "Display composition from frozen arrays; no extraction, layout, metric, or volume-rendering rerun",
+  "sources": {
+    "02-RG-MTM/results/volume3d/tangaroa-paper-p10-full201/paper_style/display_samples.npz": "b5ccdbcc2307b0488525a1d0b84d448ec9e80cb36a794d752f90e215b17154d3",
+    "02-RG-MTM/results/volume3d/tangaroa-paper-p10-full201/paper_style/volume_cache.npz": "cd810c74b64d5577129da96acf4c5100e7ba3c595552dfa2ac4bdfbf424f3916",
+    "02-RG-MTM/results/volume3d/tangaroa-input-audit-20261018/author_settings.json": "b70b14d7806cc86267c0e74720adf2793c79402fc01114c3b2a671c607fa93d6"
+  },
+  "generator": "04-paper/LaTeX\u6e90\u7801/pacificvis2027-integrated/tools/compose_tangaroa_existing.py",
+  "outputs": {
+    "pdf": "bfc8b0dac3d58819228b63f24ce9f659c28ed0ca8553d078f44f486a4e51529d",
+    "png": "4fe8b07516097e84fab35a12c35daa4128239b309e4350fd2874525f29978c4a",
+    "svg": "9f0e4aeb8126c994c2dddca8b64f61b96980105ed394acdf6c1dced833c0dc2e"
+  },
+  "panels": [
+    "TMTM",
+    "RG-MTM-P",
+    "RG-MTM-R 0.02",
+    "RG-MTM-R 0.2"
+  ],
+  "volume_stage": "near-zero replacement and clipping, before TTK simplification",
+  "persistence_percent": 10,
+  "reference_extent_shared_for_RG": true,
+  "full_domain_for_each_method": true
+}

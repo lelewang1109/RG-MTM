@@ -1,0 +1,688 @@
+{
+  "case": "era5",
+  "selection": {
+    "t": 48,
+    "witness": [
+      3,
+      4,
+      0
+    ],
+    "node": 1937,
+    "bound": 6.699526531238625,
+    "tracks": [
+      60,
+      38,
+      56
+    ],
+    "persistent_three_frames": false,
+    "H": 0.08448388930010664,
+    "gain": 0.0803319508751224,
+    "errorP": 0.08866528420845578,
+    "errorR": 0.008333333333333375,
+    "delta": 12.557165664888316,
+    "rule": "Retained interior witness frame 48 from fig_witness.py; selected before this presentation revision; not chosen by proxy accuracy.",
+    "snapshots": [
+      47,
+      48,
+      49
+    ],
+    "window": [
+      43,
+      54
+    ]
+  },
+  "reference_direction": [
+    0.9998129355353527,
+    -0.019341508115477836
+  ],
+  "reference_origin": 15.768384011702341,
+  "reference_extent": 86.11980326698031,
+  "frame_metrics": {
+    "F": 0.0,
+    "H": 0.08448388930010664,
+    "full_interval_certificate": 0.08448388930010664,
+    "witness_width_free": 0.07779310073978454,
+    "achieved_max_P": 0.08866528420845578,
+    "achieved_max_R": 0.008333333333333375,
+    "actual_max_merge_error": 12.557165664888316,
+    "actual_NMLE": 0.13206812171082358,
+    "kappa_eligibility": 0.2,
+    "NROE": {
+      "TMTM": 0.1973435391569891,
+      "ST-MTM": 0.07779310073978457,
+      "P": 0.07779310073978457,
+      "R": 0.0
+    }
+  },
+  "observations": [
+    {
+      "frame": 43,
+      "date": "1999-12-08 12:00:00",
+      "label": "B",
+      "track_id": 38,
+      "leaf_id": 1779,
+      "coordinate": [
+        44.145716884739784,
+        80.41521398874576
+      ],
+      "scalar": 974.5465093533796,
+      "reference": 42.58210727587306,
+      "reference_normalized": 0.3113537449806451,
+      "anchor_TMTM": 0.4658333333333334,
+      "anchor_ST-MTM": 0.7540903540903541,
+      "anchor_P": 0.31968707831397847,
+      "anchor_R": 0.31968707831397847
+    },
+    {
+      "frame": 44,
+      "date": "1999-12-09 00:00:00",
+      "label": "B",
+      "track_id": 38,
+      "leaf_id": 1783,
+      "coordinate": [
+        51.19206493596655,
+        80.41521398874576
+      ],
+      "scalar": 973.6590607396695,
+      "reference": 49.6271372057739,
+      "reference_normalized": 0.39315873828817177,
+      "anchor_TMTM": 0.47625000000000006,
+      "anchor_ST-MTM": 0.7548229548229548,
+      "anchor_P": 0.40149207162150513,
+      "anchor_R": 0.40149207162150513
+    },
+    {
+      "frame": 45,
+      "date": "1999-12-09 12:00:00",
+      "label": "B",
+      "track_id": 38,
+      "leaf_id": 1835,
+      "coordinate": [
+        56.476825974386614,
+        82.11648182114126
+      ],
+      "scalar": 976.5127404909789,
+      "reference": 54.87800456761264,
+      "reference_normalized": 0.45413039826236506,
+      "anchor_TMTM": 0.49583333333333335,
+      "anchor_ST-MTM": 0.7733821733821734,
+      "anchor_P": 0.499615823817793,
+      "anchor_R": 0.499615823817793
+    },
+    {
+      "frame": 46,
+      "date": "1999-12-10 00:00:00",
+      "label": "B",
+      "track_id": 38,
+      "leaf_id": 1837,
+      "coordinate": [
+        60.0,
+        82.11648182114126
+      ],
+      "scalar": 980.8542393195056,
+      "reference": 58.40051953256307,
+      "reference_normalized": 0.49503289491612856,
+      "anchor_TMTM": 0.50625,
+      "anchor_ST-MTM": 0.7675213675213676,
+      "anchor_P": 0.5033662282494619,
+      "anchor_R": 0.5033662282494619
+    },
+    {
+      "frame": 47,
+      "date": "1999-12-10 12:00:00",
+      "label": "B",
+      "track_id": 38,
+      "leaf_id": 1890,
+      "coordinate": [
+        67.04634805122677,
+        83.81774965353671
+      ],
+      "scalar": 986.1361894172558,
+      "reference": 65.41264437687704,
+      "reference_normalized": 0.5764558032172037,
+      "anchor_TMTM": 0.5229166666666667,
+      "anchor_ST-MTM": 0.7499389499389499,
+      "anchor_P": 0.5533688625552252,
+      "anchor_R": 0.5533688625552252
+    },
+    {
+      "frame": 47,
+      "date": "1999-12-10 12:00:00",
+      "label": "C",
+      "track_id": 56,
+      "leaf_id": 1154,
+      "coordinate": [
+        65.28476103842007,
+        58.29873216760452
+      ],
+      "scalar": 1006.7497750144009,
+      "reference": 64.144963178205,
+      "reference_normalized": 0.5617358299870967,
+      "anchor_TMTM": 0.32083333333333336,
+      "anchor_ST-MTM": 0.8183150183150183,
+      "anchor_P": 0.5848227706490752,
+      "anchor_R": 0.5848227706490752
+    },
+    {
+      "frame": 48,
+      "date": "1999-12-11 00:00:00",
+      "label": "A",
+      "track_id": 60,
+      "leaf_id": 1872,
+      "coordinate": [
+        35.337781820706326,
+        83.81774965353671
+      ],
+      "scalar": 985.6084423819829,
+      "reference": 33.71000969232324,
+      "reference_normalized": 0.20833333333333334,
+      "anchor_TMTM": 0.48250000000000004,
+      "anchor_ST-MTM": 0.5816849816849817,
+      "anchor_P": 0.1999671863370154,
+      "anchor_R": 0.19999999999999996
+    },
+    {
+      "frame": 48,
+      "date": "1999-12-11 00:00:00",
+      "label": "B",
+      "track_id": 38,
+      "leaf_id": 2144,
+      "coordinate": [
+        82.90063116648699,
+        92.32408881551413
+      ],
+      "scalar": 987.5686152382711,
+      "reference": 81.09943629121955,
+      "reference_normalized": 0.7586066131268807,
+      "anchor_TMTM": 0.5479166666666667,
+      "anchor_ST-MTM": 0.7557997557997558,
+      "anchor_P": 0.6783041187351231,
+      "anchor_R": 0.7625111891586563
+    },
+    {
+      "frame": 48,
+      "date": "1999-12-11 00:00:00",
+      "label": "C",
+      "track_id": 56,
+      "leaf_id": 1107,
+      "coordinate": [
+        68.80793506403346,
+        56.59746433520903
+      ],
+      "scalar": 1006.6927662307169,
+      "reference": 67.7003832287423,
+      "reference_normalized": 0.6030204116473116,
+      "anchor_TMTM": 0.30541666666666667,
+      "anchor_ST-MTM": 0.8124542124542125,
+      "anchor_P": 0.6916856958557673,
+      "anchor_R": 0.6074846120025572
+    },
+    {
+      "frame": 49,
+      "date": "1999-12-11 12:00:00",
+      "label": "A",
+      "track_id": 60,
+      "leaf_id": 1920,
+      "coordinate": [
+        33.57619480789963,
+        85.51901748593221
+      ],
+      "scalar": 985.0708469585261,
+      "reference": 31.915847124261152,
+      "reference_normalized": 0.18750000000000003,
+      "anchor_TMTM": 0.47333333333333333,
+      "anchor_ST-MTM": 0.5616605616605617,
+      "anchor_P": 0.180235580044187,
+      "anchor_R": 0.1791666666666667
+    },
+    {
+      "frame": 49,
+      "date": "1999-12-11 12:00:00",
+      "label": "B",
+      "track_id": 38,
+      "leaf_id": 2196,
+      "coordinate": [
+        88.18539220490706,
+        94.0253566479096
+      ],
+      "scalar": 987.3732959545388,
+      "reference": 86.35030365305829,
+      "reference_normalized": 0.819578273101074,
+      "anchor_TMTM": 0.5583333333333333,
+      "anchor_ST-MTM": 0.7526251526251526,
+      "anchor_P": 0.7232456037721193,
+      "anchor_R": 0.8279116064344073
+    },
+    {
+      "frame": 49,
+      "date": "1999-12-11 12:00:00",
+      "label": "C",
+      "track_id": 56,
+      "leaf_id": 1108,
+      "coordinate": [
+        70.56952207684014,
+        56.59746433520903
+      ],
+      "scalar": 1008.7967162613065,
+      "reference": 69.46164071121751,
+      "reference_normalized": 0.6234716599741933,
+      "anchor_TMTM": 0.6870833333333334,
+      "anchor_ST-MTM": 0.8231990231990232,
+      "anchor_P": 0.7364709959698148,
+      "anchor_R": 0.6171238612618721
+    },
+    {
+      "frame": 50,
+      "date": "1999-12-12 00:00:00",
+      "label": "A",
+      "track_id": 60,
+      "leaf_id": 1921,
+      "coordinate": [
+        35.337781820706326,
+        85.51901748593221
+      ],
+      "scalar": 986.6304173899089,
+      "reference": 33.67710460673636,
+      "reference_normalized": 0.20795124832688164,
+      "anchor_TMTM": 0.49375,
+      "anchor_ST-MTM": 0.5352869352869353,
+      "anchor_P": 0.21628458166021494,
+      "anchor_R": 0.21628458166021494
+    },
+    {
+      "frame": 50,
+      "date": "1999-12-12 00:00:00",
+      "label": "B",
+      "track_id": 38,
+      "leaf_id": 2248,
+      "coordinate": [
+        93.47015324332713,
+        95.72662448030508
+      ],
+      "scalar": 987.3242072989564,
+      "reference": 91.60117101489705,
+      "reference_normalized": 0.8805499330752674,
+      "anchor_TMTM": 0.5779166666666667,
+      "anchor_ST-MTM": 0.7811965811965812,
+      "anchor_P": 0.872216599741934,
+      "anchor_R": 0.8786111685324609
+    },
+    {
+      "frame": 51,
+      "date": "1999-12-12 12:00:00",
+      "label": "A",
+      "track_id": 60,
+      "leaf_id": 1970,
+      "coordinate": [
+        35.337781820706326,
+        87.22028531832771
+      ],
+      "scalar": 989.4913891646755,
+      "reference": 33.64419952114948,
+      "reference_normalized": 0.20756916332043002,
+      "anchor_TMTM": 0.4470833333333334,
+      "anchor_ST-MTM": 0.5208791208791209,
+      "anchor_P": 0.21590249665376332,
+      "anchor_R": 0.21590249665376332
+    },
+    {
+      "frame": 51,
+      "date": "1999-12-12 12:00:00",
+      "label": "B",
+      "track_id": 38,
+      "leaf_id": 2299,
+      "coordinate": [
+        96.9933272689405,
+        97.42789231270058
+      ],
+      "scalar": 991.5820276959553,
+      "reference": 95.09078089426058,
+      "reference_normalized": 0.921070344722579,
+      "anchor_TMTM": 0.5850000000000001,
+      "anchor_ST-MTM": 0.7848595848595848,
+      "anchor_P": 0.9127370113892456,
+      "anchor_R": 0.9127370113892456
+    },
+    {
+      "frame": 52,
+      "date": "1999-12-13 00:00:00",
+      "label": "A",
+      "track_id": 60,
+      "leaf_id": 1970,
+      "coordinate": [
+        35.337781820706326,
+        87.22028531832771
+      ],
+      "scalar": 993.5293482587578,
+      "reference": 33.64419952114948,
+      "reference_normalized": 0.20756916332043002,
+      "anchor_TMTM": 0.44500000000000006,
+      "anchor_ST-MTM": 0.5091575091575091,
+      "anchor_P": 0.21590249665376332,
+      "anchor_R": 0.21590249665376332
+    },
+    {
+      "frame": 52,
+      "date": "1999-12-13 00:00:00",
+      "label": "B",
+      "track_id": 38,
+      "leaf_id": 2347,
+      "coordinate": [
+        95.23174025613383,
+        99.12916014509605
+      ],
+      "scalar": 995.2939478112381,
+      "reference": 93.29661832619851,
+      "reference_normalized": 0.900237011389246,
+      "anchor_TMTM": 0.5633333333333334,
+      "anchor_ST-MTM": 0.7831501831501831,
+      "anchor_P": 0.9085703447225792,
+      "anchor_R": 0.9085703447225792
+    },
+    {
+      "frame": 53,
+      "date": "1999-12-13 12:00:00",
+      "label": "A",
+      "track_id": 60,
+      "leaf_id": 1873,
+      "coordinate": [
+        37.09936883351301,
+        83.81774965353671
+      ],
+      "scalar": 1000.5167127644798,
+      "reference": 35.47126717479845,
+      "reference_normalized": 0.22878458166021498,
+      "anchor_TMTM": 0.43583333333333335,
+      "anchor_ST-MTM": 0.5074481074481074,
+      "anchor_P": 0.21523779318768496,
+      "anchor_R": 0.21523779318768496
+    },
+    {
+      "frame": 53,
+      "date": "1999-12-13 12:00:00",
+      "label": "B",
+      "track_id": 38,
+      "leaf_id": 2298,
+      "coordinate": [
+        95.23174025613383,
+        97.42789231270058
+      ],
+      "scalar": 996.7757592164235,
+      "reference": 93.32952341178539,
+      "reference_normalized": 0.9006190963956976,
+      "anchor_TMTM": 0.5408333333333334,
+      "anchor_ST-MTM": 0.757020757020757,
+      "anchor_P": 0.8870723079231675,
+      "anchor_R": 0.8870723079231675
+    }
+  ],
+  "matching_links": [
+    {
+      "t": 43,
+      "current": 1779,
+      "previous": 1775,
+      "track": 38,
+      "iou": 0.43356643356643354,
+      "boundary": false
+    },
+    {
+      "t": 44,
+      "current": 1783,
+      "previous": 1779,
+      "track": 38,
+      "iou": 0.5384615384615384,
+      "boundary": false
+    },
+    {
+      "t": 45,
+      "current": 1835,
+      "previous": 1783,
+      "track": 38,
+      "iou": 0.6245487364620939,
+      "boundary": false
+    },
+    {
+      "t": 46,
+      "current": 1837,
+      "previous": 1835,
+      "track": 38,
+      "iou": 0.6923076923076923,
+      "boundary": false
+    },
+    {
+      "t": 47,
+      "current": 1890,
+      "previous": 1837,
+      "track": 38,
+      "iou": 0.6959706959706959,
+      "boundary": false
+    },
+    {
+      "t": 48,
+      "current": 2144,
+      "previous": 1890,
+      "track": 38,
+      "iou": 0.5248868778280543,
+      "boundary": false
+    },
+    {
+      "t": 48,
+      "current": 1107,
+      "previous": 1154,
+      "track": 56,
+      "iou": 0.047619047619047616,
+      "boundary": false
+    },
+    {
+      "t": 49,
+      "current": 1920,
+      "previous": 1872,
+      "track": 60,
+      "iou": 0.14285714285714285,
+      "boundary": false
+    },
+    {
+      "t": 49,
+      "current": 2196,
+      "previous": 2144,
+      "track": 38,
+      "iou": 0.5279187817258884,
+      "boundary": true
+    },
+    {
+      "t": 49,
+      "current": 1108,
+      "previous": 1107,
+      "track": 56,
+      "iou": 0.19047619047619047,
+      "boundary": false
+    },
+    {
+      "t": 50,
+      "current": 1921,
+      "previous": 1920,
+      "track": 60,
+      "iou": 0.5,
+      "boundary": false
+    },
+    {
+      "t": 50,
+      "current": 2248,
+      "previous": 2196,
+      "track": 38,
+      "iou": 0.6705202312138728,
+      "boundary": true
+    },
+    {
+      "t": 51,
+      "current": 1970,
+      "previous": 1921,
+      "track": 60,
+      "iou": 0.6333333333333333,
+      "boundary": false
+    },
+    {
+      "t": 51,
+      "current": 2299,
+      "previous": 2248,
+      "track": 38,
+      "iou": 0.6016260162601627,
+      "boundary": true
+    },
+    {
+      "t": 52,
+      "current": 1970,
+      "previous": 1970,
+      "track": 60,
+      "iou": 0.7317073170731707,
+      "boundary": false
+    },
+    {
+      "t": 52,
+      "current": 2347,
+      "previous": 2299,
+      "track": 38,
+      "iou": 0.527027027027027,
+      "boundary": true
+    },
+    {
+      "t": 53,
+      "current": 1873,
+      "previous": 1970,
+      "track": 60,
+      "iou": 0.024390243902439025,
+      "boundary": false
+    },
+    {
+      "t": 53,
+      "current": 2298,
+      "previous": 2347,
+      "track": 38,
+      "iou": 0.46153846153846156,
+      "boundary": true
+    }
+  ],
+  "pair_merge_levels": [
+    {
+      "pair": "AB",
+      "lca_node": 1937,
+      "true": 994.1356005658286,
+      "P": 994.1356005658286,
+      "R": 1006.6937739234831
+    },
+    {
+      "pair": "AC",
+      "lca_node": 1401,
+      "true": 1009.4491865784461,
+      "P": 1009.4491865784461,
+      "R": 1006.6937739234831
+    },
+    {
+      "pair": "BC",
+      "lca_node": 1401,
+      "true": 1009.4491865784461,
+      "P": 1009.4491865784461,
+      "R": 1006.6937739234831
+    }
+  ],
+  "identity_scope": "computed positive-overlap Hungarian scalar-feature assignment; not physical entity truth",
+  "baseline_vertical_semantics": "TMTM full native sample-rank domain; ST-MTM full shared discretized native domain; RG fixed physical directional reference domain. Baselines are not geographical coordinates.",
+  "frozen_sequence_metrics": {
+    "hidden": {
+      "TMTM": {
+        "order_flip_rate": 0.09174311926605505,
+        "jitter": 0.04623151958542906,
+        "stress": 0.3170468516653738,
+        "spearman": 0.5824496245293659,
+        "nn_preservation": 0.7464015151515152,
+        "neighbourhood_frames": 88,
+        "matched_steps": 270
+      },
+      "ST-MTM": {
+        "order_flip_rate": 0.05045871559633028,
+        "jitter": 0.027164508180015933,
+        "stress": 0.1935717279692967,
+        "spearman": 0.7872292039856695,
+        "nn_preservation": 0.8770833333333333,
+        "neighbourhood_frames": 88,
+        "matched_steps": 270
+      },
+      "P": {
+        "order_flip_rate": 0.11009174311926606,
+        "jitter": 0.10140879466390564,
+        "stress": 0.3268374160918471,
+        "spearman": 0.6298906034897415,
+        "nn_preservation": 0.73125,
+        "neighbourhood_frames": 88,
+        "matched_steps": 270
+      },
+      "R": {
+        "order_flip_rate": 0.07339449541284404,
+        "jitter": 0.08854977296506521,
+        "stress": 0.30801797054041685,
+        "spearman": 0.601272577996716,
+        "nn_preservation": 0.7,
+        "neighbourhood_frames": 88,
+        "matched_steps": 270
+      }
+    },
+    "proxy": [
+      {
+        "method": "TMTM",
+        "k": 2,
+        "eps": 0.02,
+        "clear": 104,
+        "reversal": 0.2692307692307692,
+        "miss": 0.20192307692307693,
+        "error": 0.47115384615384615,
+        "committed_reversal": 0.3373493975903614,
+        "null_reversal": 0.36076923076923073,
+        "feature_flag_share": 0.9519230769230769,
+        "feature_flag_recall": 0.9642857142857143,
+        "feature_flag_lift": 1.3636363636363635
+      },
+      {
+        "method": "ST-MTM",
+        "k": 2,
+        "eps": 0.02,
+        "clear": 104,
+        "reversal": 0.21153846153846154,
+        "miss": 0.20192307692307693,
+        "error": 0.41346153846153844,
+        "committed_reversal": 0.26506024096385544,
+        "null_reversal": 0.3573076923076923,
+        "feature_flag_share": 0.8461538461538461,
+        "feature_flag_recall": 1.0,
+        "feature_flag_lift": null
+      },
+      {
+        "method": "A",
+        "k": 2,
+        "eps": 0.02,
+        "clear": 104,
+        "reversal": 0.19230769230769232,
+        "miss": 0.038461538461538464,
+        "error": 0.23076923076923078,
+        "committed_reversal": 0.2,
+        "null_reversal": 0.46543269230769224,
+        "feature_flag_share": 0.625,
+        "feature_flag_recall": 0.75,
+        "feature_flag_lift": 1.8000000000000003
+      },
+      {
+        "method": "R 20%",
+        "k": 2,
+        "eps": 0.02,
+        "clear": 104,
+        "reversal": 0.1346153846153846,
+        "miss": 0.04807692307692308,
+        "error": 0.18269230769230768,
+        "committed_reversal": 0.1414141414141414,
+        "null_reversal": 0.450625,
+        "feature_flag_share": 0.3173076923076923,
+        "feature_flag_recall": 0.5,
+        "feature_flag_lift": 2.151515151515152
+      }
+    ]
+  }
+}

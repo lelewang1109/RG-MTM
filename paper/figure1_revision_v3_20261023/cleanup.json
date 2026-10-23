@@ -1,0 +1,10 @@
+{
+  "deleted_candidate_directories": [
+    "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/paper/figure1_revision_proposal_20261023",
+    "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/paper/figure1_revision_v2_20261023"
+  ],
+  "deleted_bytes": 29429218,
+  "retained_directory": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/paper/figure1_revision_v3_20261023",
+  "original_files_verified_unchanged": 40,
+  "retained_data_scope": "five selected P anchor sets and seven hourly P columns only; original R/fields are read in place"
+}

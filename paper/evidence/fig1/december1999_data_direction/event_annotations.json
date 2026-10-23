@@ -1,0 +1,67 @@
+[
+  {
+    "frame": 66,
+    "date": "1999-12-03 18:00",
+    "label": "Cyclone Anatol",
+    "computed_track_id": 10,
+    "computed_minimum_lonlat": [
+      10.714285714285714,
+      55.898925088212714
+    ],
+    "anchor": 0.5083428819489186,
+    "value_hPa": -23.769877835416683,
+    "association": "nearest computed extremum to published event region; no independently verified physical tracking identity"
+  },
+  {
+    "frame": 405,
+    "date": "1999-12-17 21:00",
+    "label": "Strong storm over Scandinavia",
+    "computed_track_id": 68,
+    "computed_minimum_lonlat": [
+      15.000000000000002,
+      61.11526665243035
+    ],
+    "anchor": 0.5279911954434983,
+    "value_hPa": -26.117821436974296,
+    "association": "nearest computed extremum to published event region; no independently verified physical tracking identity"
+  },
+  {
+    "frame": 575,
+    "date": "1999-12-24 23:00",
+    "label": "Strong storm over the British Isles and Norway",
+    "computed_track_id": 113,
+    "computed_minimum_lonlat": [
+      -2.142857142857143,
+      55.898925088212714
+    ],
+    "anchor": 0.3747037527199593,
+    "value_hPa": -25.9252721915634,
+    "association": "nearest computed extremum to published event region; no independently verified physical tracking identity"
+  },
+  {
+    "frame": 610,
+    "date": "1999-12-26 10:00",
+    "label": "Cyclone Lothar",
+    "computed_track_id": 130,
+    "computed_minimum_lonlat": [
+      7.857142857142858,
+      50.44356386922743
+    ],
+    "anchor": 0.517861235120954,
+    "value_hPa": -21.563336802880915,
+    "association": "nearest computed extremum to published event region; no independently verified physical tracking identity"
+  },
+  {
+    "frame": 645,
+    "date": "1999-12-27 21:00",
+    "label": "Cyclone Martin",
+    "computed_track_id": 141,
+    "computed_minimum_lonlat": [
+      3.5714285714285743,
+      47.135364049152884
+    ],
+    "anchor": 0.48891695139322705,
+    "value_hPa": -27.33887300096107,
+    "association": "nearest computed extremum to published event region; no independently verified physical tracking identity"
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "method": "TMTM",
+    "truth": "spatial",
+    "lag": 2,
+    "epsilon": 0.02,
+    "clear_events": 3196,
+    "reversal": 845,
+    "miss": 1296,
+    "error": 0.6698998748435544
+  },
+  {
+    "method": "TMTM",
+    "truth": "projected",
+    "lag": 2,
+    "epsilon": 0.02,
+    "clear_events": 2934,
+    "reversal": 867,
+    "miss": 978,
+    "error": 0.6288343558282209
+  },
+  {
+    "method": "RG-MTM-P",
+    "truth": "spatial",
+    "lag": 2,
+    "epsilon": 0.02,
+    "clear_events": 3196,
+    "reversal": 598,
+    "miss": 593,
+    "error": 0.37265331664580725
+  },
+  {
+    "method": "RG-MTM-P",
+    "truth": "projected",
+    "lag": 2,
+    "epsilon": 0.02,
+    "clear_events": 2934,
+    "reversal": 510,
+    "miss": 360,
+    "error": 0.2965235173824131
+  },
+  {
+    "method": "RG-MTM-R 0.02",
+    "truth": "spatial",
+    "lag": 2,
+    "epsilon": 0.02,
+    "clear_events": 3196,
+    "reversal": 76,
+    "miss": 541,
+    "error": 0.1930538172715895
+  },
+  {
+    "method": "RG-MTM-R 0.02",
+    "truth": "projected",
+    "lag": 2,
+    "epsilon": 0.02,
+    "clear_events": 2934,
+    "reversal": 0,
+    "miss": 123,
+    "error": 0.041922290388548056
+  },
+  {
+    "method": "RG-MTM-R 0.2",
+    "truth": "spatial",
+    "lag": 2,
+    "epsilon": 0.02,
+    "clear_events": 3196,
+    "reversal": 71,
+    "miss": 534,
+    "error": 0.1892991239048811
+  },
+  {
+    "method": "RG-MTM-R 0.2",
+    "truth": "projected",
+    "lag": 2,
+    "epsilon": 0.02,
+    "clear_events": 2934,
+    "reversal": 0,
+    "miss": 108,
+    "error": 0.03680981595092025
+  },
+  {
+    "method": "RG-MTM-R 1",
+    "truth": "spatial",
+    "lag": 2,
+    "epsilon": 0.02,
+    "clear_events": 3196,
+    "reversal": 72,
+    "miss": 534,
+    "error": 0.18961201501877348
+  },
+  {
+    "method": "RG-MTM-R 1",
+    "truth": "projected",
+    "lag": 2,
+    "epsilon": 0.02,
+    "clear_events": 2934,
+    "reversal": 0,
+    "miss": 107,
+    "error": 0.03646898432174506
+  },
+  {
+    "method": "Exact x projection",
+    "truth": "spatial",
+    "lag": 2,
+    "epsilon": 0.02,
+    "clear_events": 3196,
+    "reversal": 69,
+    "miss": 534,
+    "error": 0.18867334167709637
+  },
+  {
+    "method": "Exact x projection",
+    "truth": "projected",
+    "lag": 2,
+    "epsilon": 0.02,
+    "clear_events": 2934,
+    "reversal": 0,
+    "miss": 0,
+    "error": 0.0
+  }
+]
