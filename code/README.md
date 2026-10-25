@@ -1,6 +1,10 @@
+> 当前主线（2026-10-26）：[统一体系说明](../docs/统一体系贡献说明_20261025.md)。同模型实验为code/experiments/unified/，结果为unified20261025；旧framework20261025是独立连续前沿实验。原生方法不再作为“切换构造模式”的统一贡献。
+
 # RG-MTM 代码与可复现证据
 
-代码历史保留于仓库提交中。当前论文编辑入口在 [../paper](../paper/README.md)。旧 `publications/` 无图 PDF 已移出本次投稿目录。
+2026-10-25 的独立连续前沿实验入口：[预算化体系实验](experiments/framework/README.md)，实现为 `src/rgmtm/framework.py`，新结果为 `results/framework20261025/`。原 P/R、九数据与 3D 结果保留为单独构造模式的证据，不作为新 LP witness 的时序/运动测试。
+
+本目录保留独立 Git 仓库。当前论文编辑入口在 [../paper](../paper/README.md)，`paper` 兼容链接指向同一当前 LaTeX 源码。旧 `publications/` 无图 PDF 已移出本次投稿目录。
 
 | 目录 | 作用 |
 |---|---|
@@ -20,9 +24,9 @@
 在本目录运行轻量复核：
 
 ```sh
-PYTHONPATH=src ../.venv/bin/python -m unittest discover -s tests -v
-PYTHONPATH=src ../.venv/bin/python experiments/publication2027/validate.py
-PYTHONPATH=src ../.venv/bin/python tools/verify_rgmtm_migration.py
+PYTHONPATH=src ../../.venv/bin/python -m unittest discover -s tests -v
+PYTHONPATH=src ../../.venv/bin/python experiments/publication2027/validate.py
+PYTHONPATH=src ../../.venv/bin/python tools/verify_rgmtm_migration.py
 ```
 
 这些检查验证已存证据与实现，不会重跑整套科学实验。当前主结果、冻结数值和必要旧图源各有不同角色；阅读 [研究证据边界](../docs/研究证据边界与补充研究.md)，避免把不同实验总体或旧试跑混为同一比较。

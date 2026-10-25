@@ -9,7 +9,7 @@ import numpy as np
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT/'analysis'))
 from dataset_suite import PAPER_DATASETS
-from provenance import verify_saved_file
+from provenance import verify_saved_file, historical_source_bytes
 OUT = ROOT/'results/submission20261023'
 PAPER = ROOT.parent/'paper/manuscript/latex'
 EVIDENCE = PAPER/'evidence/submission20261023'
@@ -22,7 +22,7 @@ def sha(p): return hashlib.sha256(p.read_bytes()).hexdigest()
 def frozen_authoring_sha():
     """Preserve the frozen manifest through an explicitly recorded path-only fix."""
     ledger = json.loads((ROOT/'provenance/github_portability_20261023.json').read_text())
-    assert sha(Path(__file__)) == ledger['after_sha256'], 'Unregistered builder change'
+    assert hashlib.sha256(historical_source_bytes(ROOT, 'tools/build_submission20261023.py')).hexdigest() == ledger['after_sha256'], 'Unregistered builder change'
     original = ledger['before_source'].encode('utf-8')
     assert hashlib.sha256(original).hexdigest() == ledger['before_sha256']
     return ledger['before_sha256']
@@ -229,8 +229,11 @@ def outputs(summary):
     detail=detail.replace(r'\begin{tabular}',r'\resizebox{\linewidth}{!}{\begin{tabular}',1).replace(r'\bottomrule\end{tabular}',r'\bottomrule\end{tabular}}',1)
     result['tables/volume3d_settings_supp.tex']=detail
     # Existing supplement diagnostics are filtered selections, never rewritten raw evidence.
+    # This historical snapshot excludes tables from later experiments.
+    frozen_outputs=json.loads((OUT/'manifest.json').read_text())['generated_sha256']
     for p in sorted((PAPER/'tables').glob('*.tex')):
         rel='tables/'+p.name
+        if rel not in frozen_outputs: continue
         if rel in result: continue
         s=p.read_text();s='\n'.join(line for line in s.splitlines() if not line.startswith(('Gaussian &','Gaussians &')))+'\n'
         s=s.replace('Six sequences, 342 frames.','Five planar temporal sequences, 278 frames.').replace('six-dataset suite','five-dataset planar suite')

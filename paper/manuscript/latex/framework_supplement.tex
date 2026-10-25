@@ -1,0 +1,32 @@
+\subsection{Unified model: regimes, constraints and feasibility}\label{supp:framework}
+The main model uses the same interval widths, canvas, variable set, four-term layout objective and source-value renderer in every operating regime. Native TMTM and ST-MTM are comparison methods. The topology--time and topology--geometry regimes express their design priorities without changing to their representations or pipelines.
+
+\paragraph{Objective restrictions.}
+For a fixed order, ordered distances are linear signed differences. Each term is a nonnegative sum of squared affine residuals, so the constrained layout is convex. Zeroing a weight removes that residual; it leaves any separate hard constraints intact. With $\lambda_R=0$, $B=\infty$ and $\eta=0$, both the feasible set and objective are independent of the values of $q$ at fixed canvas, geometry and candidate pool. A free translation is fixed using the canvas centre. A candidate pool that changes when $q$ changes can still change the searched orders; the invariance claim is conditional on the same pool.
+
+The temporal target $p_i+\eta(q_i^t-q_i^{t-1})$ continuously interpolates stationary alignment and projected-motion following. At $\eta=0$ and fixed order, the geometry-plus-time objective has the stress/anchor form used by ST-MTM, but mean normalization, weight ratios, fixed widths, canvas boundaries and eccentricity regularization are declared differences. The topology--time mode is an anchor-level temporal-alignment surrogate, not TMTM's all-subtree overlap energy.
+
+\paragraph{Removing the hidden reference constraint.}
+The retained construction sets an automatic allowance $\tau^*+\beta$. Even at zero reference weight this cap still controls the positions. For two supports at distance 10 with references 20 and 100, widths 6, gap 1, canvas length 120 and $\beta=1$, the old cap gives anchors 21 and 99. Explicitly disabling it allows a distance of 10 and a canvas-centred mean of 60. This is a numerical regression test, not an application-data result. The historical default remains available for the retained P/R construction.
+
+\paragraph{Scalar-budget solver.}
+For order $\pi$, let $P_{ij}$ be the source merge level, $C_k=\min_{i\le k<j}P_{ij}$, and $\ell_k=\max(f_{\pi_k},f_{\pi_{k+1}})$ in join convention. The minimum labelled error is
+\[
+\delta^*(\pi)=\max\left(0,\max_k(\ell_k-C_k),\max_{i<j}\frac{P_{ij}-\max_{i\le k<j}C_k}{2}\right).
+\]
+The witness barriers are $C_k+\delta^*(\pi)$. The position cost follows the interval-window formula derived below. Exhaustively enumerating permutations and rejecting $\delta^*>\varepsilon\Delta_F$ and $\tau>BL$ yields the exact continuous feasibility answer. Minimizing the remaining $\tau$ gives the reference frontier; minimizing the QP objective instead gives a design compromise within the same admissible set.
+
+\paragraph{Nested sets and endpoints.}
+For $\varepsilon_1\le\varepsilon_2$, every order admitted at $\varepsilon_1$ is admitted at $\varepsilon_2$. This proves non-increasing optimal reference error for all permutations or a fixed candidate pool. Increasing a position allowance similarly cannot increase the least required scalar error. With fixed preceding anchors and weights, the optimum of the composite objective also cannot increase. Sequential histories may differ across a sweep, so this last statement is not a monotonicity guarantee for the recomputed temporal sequence or any individual component score.
+
+At zero scalar allowance, only zero-error orders are admitted; with distinct branching values these are the hierarchy-compatible orders. An unrestricted allowance admits every order. Candidate-only searches retain nesting within their pools but not a full-space optimality or global infeasibility guarantee.
+
+\paragraph{Three-leaf transition.}
+For leaves $A,B,C$ of value zero, source merges $P_{AB}=1$ and $P_{AC}=P_{BC}=3$, the order $A,C,B$ requires $\delta^*=1$. With references $(1,9,5)$ for $(A,B,C)$, widths $0.2$, gap $0.1$, a canvas of length 10, and zero eccentricity, the topology-preserving minimax displacement is 2.15. A scalar allowance below 1 excludes the reference order; at allowance 1, zero position error becomes feasible. The critical normalized allowance is $1/3$ for scalar range 3. A requested zero position error below this allowance is infeasible.
+
+\paragraph{Reproducibility and independent evidence.}
+The common-QP runner and exporter are in \path{experiments/unified/}; complete controls, per-frame inputs, candidate pools, QP witnesses, native similarity controls and scalar maps are in \path{results/unified20261025/}. Native comparison is descriptive similarity after one sequence-wide affine gauge fit including reflection, with no framewise fitting. Pair-order agreement and anchor RMSE are reported separately. Results are not used to tune parameters toward native output equality.
+
+The independent exhaustive frontier experiment remains in \path{experiments/framework/} and \path{results/framework20261025/}: 614 frames, 603 exhaustive and 11 candidate-only, nine topology settings, 5526 witnesses and 3684 inverse queries. Its historical native-wrapper comparison is an interface regression, not evidence for unification. Seven new tests check reference deactivation, temporal interpolation, scalar transitions, fixed-history objective nesting, track matching, infeasibility, search-coverage reporting and canonical placement in objective null spaces. The complete suite now contains 57 tests.
+
+Strict-extremum clearance and raster rounding require separate measured-error checks. The analytical guarantees refer to continuous non-strict profiles. The historical P/R eligibility settings and their measured application results remain separate from the new true-error budgets and common-QP experiments.

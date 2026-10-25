@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-25",
+  "status": "passed",
+  "frames": 614,
+  "exact_frames": 603,
+  "witnesses": 5526,
+  "inverse_queries": 3684,
+  "documents": [
+    {
+      "file": "Revised_RG-MTM.pdf",
+      "pages": 22,
+      "sha256": "24d97d3f4fb51b286d81ecd2256ab695e466e791cb83fbd484ef66ead1b8839b"
+    },
+    {
+      "file": "Revised_Supplement.pdf",
+      "pages": 49,
+      "sha256": "94b3eb5ee0313168f756e909a56af98cfc61db364c4e42e5f15396d1a87a0a63"
+    }
+  ],
+  "tests": 50,
+  "native_compatibility": "zero array difference on 40 Ring fields",
+  "model": "continuous non-strict; 11 candidate-only frames; no reused motion score"
+}

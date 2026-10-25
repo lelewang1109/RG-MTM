@@ -26,4 +26,4 @@ A fixed projection assigns $q_i^t=\langle e_i^t,d\rangle$ to one canvas $[a,a+L]
 
 The width scale $c$, gap $g>0$, slack fraction $0\le\rho\le1$, and canvas remain fixed across time. Packing requires $\sum_iw_i+(n-1)g\le L$. Positive gaps separate the ordered anchors while allowing motion within their allocated intervals. Supplement S1 gives the complete linear constraints.
 
-The primary position objective minimizes $\max_i|u_i-q_i|$. The scalar objective minimizes Equation~\eqref{eq:merge_error} with fixed extremum values. Temporal layout follows the projected displacement of matched extrema. These objectives connect source coordinates, scalar connectivity, and temporal evolution within one explicit display model.
+The positional certificate minimizes $\max_i|u_i-q_i|$, and the scalar certificate minimizes Equation~\eqref{eq:merge_error} with fixed extremum values. These costs describe what the common geometry permits. Section~\ref{sec:framework} combines them with geometric and temporal preferences in one constrained layout model; the native methods remain independent baselines.

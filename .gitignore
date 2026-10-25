@@ -24,3 +24,6 @@ __pycache__/
 /data/**/*.bin
 /data/**/*.vti
 /data/**/*.am
+
+# LaTeX table-of-contents cache
+*.toc

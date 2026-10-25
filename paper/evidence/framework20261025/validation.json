@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-25",
+  "frames": 614,
+  "exact_frames": 603,
+  "candidate_only_frames": 11,
+  "budget_levels": 9,
+  "LP_barrier_witnesses": 5526,
+  "inverse_queries": 3684,
+  "budget_violations": 0,
+  "monotonicity_violations": 0,
+  "native_compatibility": {
+    "frames": 40,
+    "TMTM_map_max_abs_difference": 0.0,
+    "STMTM_map_max_abs_difference": 0.0,
+    "note": "Native-profile compatibility regression, not independent validation of published authors implementations or a new solver."
+  },
+  "tests": 50,
+  "scope": "new continuous non-strict framewise budget experiments, no temporal-QP or raster guarantee",
+  "source_sha256": {
+    "src/rgmtm/framework.py": "f6d12306cbbe3b25311dd1c8bb7aac05f0fdf394d6a545d018b5b2592e96cfc0",
+    "experiments/framework/run.py": "0a078986fcf69f7a240fa49cf7fdeb5cca8dc7b5a24d88e3dcbb150484c5611f",
+    "experiments/framework/export.py": "d4f3cae01290f5cd7392b7016d482f49fd2daa383adbf33f031b83b2c86e3a36"
+  }
+}

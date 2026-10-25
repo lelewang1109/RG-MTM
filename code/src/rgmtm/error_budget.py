@@ -5,7 +5,7 @@ Only leaf intervals are produced: no claim of full scalar-field reconstruction.
 from dataclasses import dataclass, asdict
 from itertools import product, permutations, combinations
 import numpy as np
-from scipy.optimize import linprog, minimize
+from scipy.optimize import linprog, minimize, LinearConstraint
 from scipy.linalg import null_space
 from types import SimpleNamespace
 
@@ -23,6 +23,11 @@ class Parameters:
     normalize_terms: bool = True
     temporal_mode: str = 'residual'
     canvas_origin: float = 0.0
+    # None retains the historical certificate-plus-slack policy. Infinity
+    # disables the reference cap, including when reference_weight is zero.
+    reference_budget: float | None = None
+    motion_fraction: float | None = None
+    compact_tiebreak: bool = False
 
 class InfeasibleLayout(ValueError):
     pass
@@ -98,7 +103,8 @@ def checked_lp(c, A, b, bounds):
     return r
 
 def solve_frame(centers, measure, hierarchy, previous=None, previous_q=None, p=Parameters(), matched=None,
-                reference=None, temporal_confidence=None, *, reference_direction=None, reference_axis=None):
+                reference=None, temporal_confidence=None, *, reference_direction=None, reference_axis=None,
+                candidate_orders=None):
     c=np.asarray(centers,float)
     if c.ndim != 2 or not len(c):raise ValueError("centers must be a nonempty matrix")
     n=len(c)
@@ -124,7 +130,8 @@ def solve_frame(centers, measure, hierarchy, previous=None, previous_q=None, p=P
         previous_q=np.asarray(previous_q,float) if previous_q is not None else None
         if previous.shape!=(n,) or not np.isfinite(previous[mask]).all():
             raise ValueError('invalid matched previous positions')
-        if p.temporal_mode=='residual' and (previous_q is None or previous_q.shape!=(n,) or not np.isfinite(previous_q[mask]).all()):
+        fraction=p.motion_fraction if p.motion_fraction is not None else (1. if p.temporal_mode=='residual' else 0.)
+        if fraction>0 and (previous_q is None or previous_q.shape!=(n,) or not np.isfinite(previous_q[mask]).all()):
             raise ValueError('invalid matched previous references')
     weights=[p.reference_weight,p.geometry_weight,p.motion_weight,p.eccentricity_weight]
     if (not np.isfinite(c).all() or not 0<=p.rho<=1 or p.extra_budget<0
@@ -132,7 +139,12 @@ def solve_frame(centers, measure, hierarchy, previous=None, previous_q=None, p=P
             or not np.isfinite([p.canvas,p.canvas_origin,p.width_scale,p.gap,p.extra_budget,p.rho]).all()
             or p.canvas<=0 or p.width_scale<=0 or p.gap<0):
         raise ValueError('invalid geometry or parameters')
-    legal=leaf_orders(hierarchy)
+    if p.reference_budget is not None and (np.isnan(p.reference_budget) or p.reference_budget<0):
+        raise ValueError('reference budget must be nonnegative; infinity disables it')
+    if p.motion_fraction is not None and (not np.isfinite(p.motion_fraction) or not 0<=p.motion_fraction<=1):
+        raise ValueError('motion fraction must lie in [0,1]')
+    legal=leaf_orders(hierarchy) if candidate_orders is None else sorted(set(tuple(o) for o in candidate_orders))
+    if not legal:raise InfeasibleLayout('no candidate orders supplied')
     if any(sorted(o)!=list(range(n)) for o in legal):
         raise ValueError('hierarchy must contain every leaf exactly once')
     candidates=[]; records=[]
@@ -145,12 +157,14 @@ def solve_frame(centers, measure, hierarchy, previous=None, previous_q=None, p=P
         records.append(dict(order=list(order),tau=None if lp is None else float(lp.fun)))
         if lp is not None:candidates.append((order,A,b,bounds,lp))
     if not candidates:raise InfeasibleLayout('no legal hierarchy order can fit')
-    tau=min(r[-1].fun for r in candidates); budget=tau+p.extra_budget
+    tau=min(r[-1].fun for r in candidates)
+    budget=tau+p.extra_budget if p.reference_budget is None else float(p.reference_budget)
     best=None;qp_records=[]
     for order,A,b,bounds,lp in candidates:
         if lp.fun>budget+1e-8:continue
         R=np.c_[np.eye(n),np.zeros((n,n))]
-        A=np.vstack([A,R,-R]); b=np.r_[b,q-budget,-q-budget]
+        if np.isfinite(budget):
+            A=np.vstack([A,R,-R]); b=np.r_[b,q-budget,-q-budget]
         start=checked_lp(np.zeros(2*n),-A,-b,bounds)
         if start is None:continue
         pairs=list(combinations(order,2)); B=np.zeros((len(pairs),2*n))
@@ -159,7 +173,9 @@ def solve_frame(centers, measure, hierarchy, previous=None, previous_q=None, p=P
         D=np.c_[-np.eye(n),np.eye(n)]
         if p.temporal_mode not in ('residual','stationary'):
             raise ValueError('temporal_mode must be residual or stationary')
-        goal=None if previous is None or not mask.any() else (previous[mask]+q[mask]-previous_q[mask] if p.temporal_mode=='residual' else previous[mask])
+        fraction=p.motion_fraction if p.motion_fraction is not None else (1. if p.temporal_mode=='residual' else 0.)
+        goal=None if previous is None or not mask.any() else previous[mask].copy()
+        if goal is not None and fraction>0:goal+=fraction*(q[mask]-previous_q[mask])
         # Means keep the balance independent of the number of leaves/pairs.
         # Every residual is a length; dividing the whole objective by canvas^2
         # would only change solver units, not its minimizer.
@@ -214,6 +230,64 @@ def solve_frame(centers, measure, hierarchy, previous=None, previous_q=None, p=P
         if not opt.success:raise RuntimeError('QP numerical failure: '+opt.message)
         opt.x=transform@opt.x
         if not np.isfinite(opt.x).all():raise RuntimeError('QP returned nonfinite coordinates')
+        if p.compact_tiebreak:
+            # Resolve ONLY null directions of the primary quadratic. This
+            # secondary canonical placement neither changes its optimum nor
+            # introduces reference guidance when the reference is inactive.
+            design=[np.sqrt(gw)*B,np.sqrt(ew)*D,np.sqrt(rw)*R]
+            if goal is not None and tw>0:
+                design.append(np.sqrt(tw)*R[mask])
+            N=null_space(np.vstack(design))
+            if N.shape[1]:
+                origin=opt.x.copy()
+                packed=np.cumsum(w[list(order)])-w[list(order)]/2+p.gap*np.arange(n)
+                packed+=p.canvas_origin+(p.canvas-w.sum()-p.gap*(n-1))/2
+                target=np.empty(n);target[list(order)]=packed
+                fullA=np.vstack([A,np.eye(2*n),-np.eye(2*n)])
+                fullb=np.r_[b,[lo for lo,hi in bounds],[-hi for lo,hi in bounds]]
+                G=fullA@N;h=fullb-fullA@origin;active=np.max(abs(G),axis=1)>1e-10
+                G,h=G[active],h[active]
+                Q=R@N;v=origin[:n]-target
+                secondary=minimize(lambda y:float(np.sum((v+Q@y)**2)/p.canvas**2),np.zeros(N.shape[1]),
+                    jac=lambda y:2*Q.T@(v+Q@y)/p.canvas**2,method='SLSQP',
+                    constraints={'type':'ineq','fun':lambda y:G@y-h,'jac':lambda y:G},
+                    options={'ftol':1e-12,'maxiter':1000})
+                if not secondary.success:
+                    # Fixed matched anchors can leave a face of zero volume.
+                    # Solve in that SAME face, as in the primary-QP repair.
+                    dim=N.shape[1]
+                    feasible=checked_lp(np.zeros(dim),-G,-h,[(None,None)]*dim)
+                    if feasible is None:raise RuntimeError('canonical null-space face is infeasible')
+                    tight=[]
+                    for row,limit in zip(G,h):
+                        probe=checked_lp(-row,-G,-h,[(None,None)]*dim)
+                        if probe is None:raise RuntimeError('canonical face oracle is infeasible')
+                        if row@probe.x-limit<1e-8:tight.append(row)
+                    F=null_space(np.array(tight).reshape(-1,dim)) if tight else np.eye(dim)
+                    offset=feasible.x
+                    if F.shape[1]==0:
+                        secondary=SimpleNamespace(success=True,x=offset,message='fixed canonical face')
+                    else:
+                        GG=G@F;hh=h-G@offset;keep=np.max(abs(GG),axis=1)>1e-10
+                        GG,hh=GG[keep],hh[keep];QQ=Q@F;vv=v+Q@offset
+                        rr=minimize(lambda y:float(np.sum((vv+QQ@y)**2)/p.canvas**2),np.zeros(F.shape[1]),
+                            jac=lambda y:2*QQ.T@(vv+QQ@y)/p.canvas**2,method='SLSQP',
+                            constraints={'type':'ineq','fun':lambda y:GG@y-hh,'jac':lambda y:GG},
+                            options={'ftol':1e-12,'maxiter':1000})
+                        if not rr.success:
+                            rr=minimize(lambda y:float(np.sum((vv+QQ@y)**2)/p.canvas**2),np.zeros(F.shape[1]),
+                                jac=lambda y:2*QQ.T@(vv+QQ@y)/p.canvas**2,
+                                hess=lambda y:2*QQ.T@QQ/p.canvas**2,method='trust-constr',
+                                constraints=LinearConstraint(GG,hh,np.inf),
+                                options={'gtol':1e-10,'xtol':1e-12,'barrier_tol':1e-12,
+                                         'maxiter':1000,'factorization_method':'SVDFactorization'})
+                        secondary=SimpleNamespace(success=rr.success,x=offset+F@rr.x,message=rr.message)
+                candidate=origin+N@secondary.x
+                if not secondary.success or np.min(fullA@candidate-fullb)<-1e-6:
+                    raise RuntimeError('canonical QP tie-break failed: '+secondary.message)
+                if abs(fun(candidate)-fun(origin))>1e-7*max(1.,fun(origin)):
+                    raise RuntimeError('canonical tie-break changed the primary objective')
+                opt.x=candidate
         if p.reference_weight == 0 and (goal is None or p.motion_weight == 0):
             # The first-frame objective is translation invariant. Fix its free
             # gauge by the closest feasible mean reference, without changing
@@ -221,7 +295,8 @@ def solve_frame(centers, measure, hierarchy, previous=None, previous_q=None, p=P
             low=max(float(np.max(q-budget-opt.x[:n])),float(np.max(p.canvas_origin+w/2-opt.x[n:])))
             high=min(float(np.min(q+budget-opt.x[:n])),float(np.min(p.canvas_origin+p.canvas-w/2-opt.x[n:])))
             if low <= high + 1e-8:
-                opt.x += np.clip(float(np.mean(q-opt.x[:n])),low,max(low,high))
+                shift=float(np.mean(q-opt.x[:n])) if np.isfinite(budget) else float(p.canvas_origin+p.canvas/2-np.mean(opt.x[:n]))
+                opt.x += np.clip(shift,low,max(low,high))
         slack=float(np.min(A@opt.x-b))
         if not np.isfinite(slack) or slack < -1e-6:raise RuntimeError('QP returned an invalid layout')
         val=fun(opt.x)
@@ -246,7 +321,7 @@ def solve_frame(centers, measure, hierarchy, previous=None, previous_q=None, p=P
         if best is None or val<best['objective']-1e-9:
             best=dict(x=opt.x[:n],z=opt.x[n:],w=w,order=order,tau=float(tau),budget=float(budget),
                       objective=val,min_constraint_slack=slack,qp_gap_bound=gap_bound,lp_orders=records)
-    if best is None:raise RuntimeError('no QP solution after a feasible LP')
+    if best is None:raise InfeasibleLayout('no candidate meets the declared reference budget')
     best['qp_orders']=qp_records
     best['global_gap_bound']=max(0.,best['objective']-min(v['objective']-v['gap_bound'] for v in qp_records))
     best['reference']=q.copy()

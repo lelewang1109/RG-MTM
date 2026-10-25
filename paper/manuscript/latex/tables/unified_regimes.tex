@@ -1,0 +1,31 @@
+\begin{table*}[t]
+\caption{New common-model results on all 614 planar frames, with five settings each (3070 layouts). All numbers are percentages: pooled absolute reference error (R-MAE), root mean framewise geometry/temporal squared residual (G-RMS, stationary S-RMS and projected-motion M-RMS), and worst continuous labelled merge error (Top-max). Geometry and temporal quantities use the common fixed canvas, not native-baseline scales. Empty pair/match terms contribute zero. First-frame temporal terms are zero. Different components express competing priorities; lower reference error need not improve every score.}\label{tab:unified_regimes}
+\centering\small
+\begin{tabular}{llrrrrr}\toprule
+Input & Regime & R-MAE & G-RMS & S-RMS & M-RMS & Top-max\\\midrule
+Ring & Topology--time & 27.37 & 18.15 & 0.28 & 2.64 & 0.00 \\
+Ring & Topology--geometry & 29.75 & 5.88 & 2.66 & 3.67 & 0.00 \\
+Ring & Reference, 0\% & 2.57 & 8.58 & 3.97 & 3.42 & 0.00 \\
+Ring & Reference, 2\% & 2.28 & 8.41 & 3.33 & 2.66 & 1.49 \\
+Ring & Reference, 10\% & 1.17 & 8.15 & 2.65 & 1.20 & 9.40 \\
+Storms & Topology--time & 25.31 & 47.41 & 0.38 & 18.65 & 0.00 \\
+Storms & Topology--geometry & 33.56 & 11.73 & 8.86 & 19.46 & 0.00 \\
+Storms & Reference, 0\% & 6.09 & 20.68 & 20.67 & 9.50 & 0.00 \\
+Storms & Reference, 2\% & 5.78 & 20.61 & 20.67 & 8.51 & 1.31 \\
+Storms & Reference, 10\% & 5.06 & 19.91 & 20.04 & 6.82 & 8.51 \\
+Wildfires & Topology--time & 16.67 & 29.88 & 1.02 & 2.83 & 0.00 \\
+Wildfires & Topology--geometry & 13.94 & 8.62 & 7.05 & 7.07 & 0.00 \\
+Wildfires & Reference, 0\% & 3.19 & 10.03 & 6.89 & 6.13 & 0.00 \\
+Wildfires & Reference, 2\% & 2.72 & 9.65 & 6.26 & 5.29 & 1.85 \\
+Wildfires & Reference, 10\% & 1.84 & 9.01 & 5.16 & 4.13 & 8.35 \\
+OLR & Topology--time & 24.43 & 35.53 & 0.56 & 9.42 & 0.00 \\
+OLR & Topology--geometry & 42.71 & 4.26 & 4.94 & 11.63 & 0.00 \\
+OLR & Reference, 0\% & 1.31 & 4.93 & 9.14 & 2.45 & 0.00 \\
+OLR & Reference, 2\% & 1.17 & 4.80 & 9.11 & 2.37 & 1.79 \\
+OLR & Reference, 10\% & 1.04 & 4.52 & 9.06 & 2.28 & 5.15 \\
+PM$_{2.5}$ & Topology--time & 21.71 & 21.60 & 0.74 & 21.88 & 0.00 \\
+PM$_{2.5}$ & Topology--geometry & 25.03 & 6.40 & 4.38 & 22.24 & 0.00 \\
+PM$_{2.5}$ & Reference, 0\% & 3.05 & 10.60 & 22.07 & 5.44 & 0.00 \\
+PM$_{2.5}$ & Reference, 2\% & 2.43 & 9.93 & 21.98 & 4.40 & 1.81 \\
+PM$_{2.5}$ & Reference, 10\% & 2.15 & 9.61 & 21.80 & 3.54 & 4.67 \\
+\bottomrule\end{tabular}\end{table*}

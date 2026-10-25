@@ -1,0 +1,29 @@
+{
+  "date": "2026-10-26",
+  "run_id": "unified20261025",
+  "frames": 614,
+  "settings": 5,
+  "layouts": 3070,
+  "grid_queries": 360,
+  "native_similarity_frames": 316,
+  "source_sha256": {
+    "src/rgmtm/unified.py": "d3a80c2093f9c2127df580cecb3dba60e3ef39c4e7e3d7309fb80d847172408a",
+    "src/rgmtm/error_budget.py": "67ada4d8a8219533d92132527877333ea9760273db9c1a45709e49a75c6f6c60",
+    "experiments/unified/run.py": "b5b1049c4fc431d92117b96d86a878800272952a137f6f459a9c6bbbc019225d",
+    "experiments/unified/export.py": "50af53faf174705a5ed9dcb06f88ea8ecdb49246afe04e406c0a364213b7203f"
+  },
+  "results_sha256": {
+    "wildfire_maps.npz": "1df750f3fd00f1f515d941c6180ada8bd5581724a6dac6515529d261ed48f32e",
+    "olr_maps.npz": "15c683fcef4a976fd24d3dca5becc6a7fa8ffe70b804344085fd76907dc11bf8",
+    "ring_maps.npz": "ffbb8d05ff5f299d5662909355c7a4b20475b25954739086d4f9d8ecb5b11d80",
+    "era5_maps.npz": "f5a2bf90eec7964ef6bb58c8b379a0b9a602a81ab14eafd2e3ce78386ec0a80c",
+    "pm25_2000.json": "03e15f522ce1809095f9db6956f4a4b1ae1f38d73a068ed354280f8731019b96",
+    "era5.json": "3ad88e0de82330685cb559cb722b1d9d0f1ad385daec32027e0a5f160be0195f",
+    "wildfire.json": "7ad74fec04bad784af22e189a59ee15df89e212c5f86242c01d7fc684edbe14d",
+    "olr.json": "c4f50c5eea6d58f19d13f1af4051ee8f2fbcc596dfe8240cc29146d6354b94bf",
+    "ring.json": "c48b3bbe62db8b3f2d477fa78aeff32c3df85f6d070e676c8c2b98429f1dce8d",
+    "pm25_2000_maps.npz": "804bd318e3524470a71aa2f746df7f15c1a834fc52108f76d834d87c9829c0af"
+  },
+  "interpretation": "same-model design-principle regimes, not exact native special cases; sequential candidate QPs",
+  "historical_results": "unchanged numerical files in framework20261025 and earlier folders"
+}

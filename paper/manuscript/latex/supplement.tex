@@ -19,7 +19,7 @@
 \renewcommand{\thefigure}{S\arabic{figure}}
 \renewcommand{\thetable}{S\arabic{table}}
 \renewcommand{\theequation}{S\arabic{equation}}
-\title{Reference-Guided Merge Tree Maps:\\Quantifying Position--Topology Trade-offs\\Supplementary Material}
+\title{Reference-Guided Merge Tree Maps:\\A Unified Position--Topology Framework\\Supplementary Material}
 \author{Anonymous Authors}\date{}
 \makeatletter
 \renewcommand*\l@section{\@dottedtocline{1}{0em}{2.6em}}
@@ -30,7 +30,8 @@ This supplement provides derivations, algorithms, data protocols, complete metri
 S1--S3 establish the formal model, planar protocols, and validation; S4 retains additional visuals; S5 records reproducibility. S6 details Tangaroa, S7 audits the event cases and baselines, S8 records figure coordinates and aggregations, S9 documents the additional inputs, and S10 collects complete visual comparisons. The main figures retain their source arrays and scalar scales; full-resolution profiles, rather than figure previews, supply the reported errors.
 \begingroup\small\tableofcontents\endgroup\clearpage
 \section{Formal Derivations and Algorithms}
-The main paper presents one function-based construction algorithm, combining reference setup, diagnosis, hierarchy selection, layout, and scalar barriers. Its workflow figure supplies the visual overview. This section retains the full interval constraints, closed-form costs, frontier definition, display-grid recurrence, and detailed planar construction; S2 specifies the quadratic objective, and S6 records the large-tree bounds and candidate-search protocol.
+The main paper presents one four-term interval model, its parameter regimes, a feasibility oracle, and a retained eligibility-based construction. The workflow figure illustrates the latter policy. This section retains the full interval constraints, closed-form costs, frontier definition, display-grid recurrence, and detailed planar construction; S2 specifies the quadratic objective, and S6 records the large-tree bounds and candidate-search protocol.
+\input{framework_supplement}
 \input{supplement_proofs}
 \subsection{Display certificate pseudocode}
 \input{certificate_algorithm}
@@ -66,7 +67,7 @@ The code repository contains experiment orchestration, method implementations, t
 
 \paragraph{Evidence packaging.} \path{experiments/publication2027/build.py} checks source hashes for positional and native-merge evidence, consistent frame counts, unique motion rows, and hierarchy lower bounds. It exports unrounded comparisons, a claim ledger, generated LaTeX tables, and source/snapshot hashes. The current submission snapshot in \path{results/submission20261023/} filters the five active small-tree sequences and adds the common-input static and volumetric summaries. The earlier five-sequence snapshot remains historical evidence and is not relabelled as a five-sequence run. Sensitivity, formal validation, protocols, and dendrogram transfer have separate folders. The original records remain available for historical traceability.
 
-\paragraph{Numerical checks.} The existing test suite includes independent LP comparisons, grid lower-bound checks, projected-motion margins, native sample and barrier semantics, preprocessing contracts, and no-event handling. The current implementation-validation run passed 43 tests; the separate standard-metric re-evaluation adds metric and reconstruction checks without method changes. The validation checks cover numerical optimization, rendering semantics, and metric reconstruction.
+\paragraph{Numerical checks.} The existing test suite includes independent LP comparisons, grid lower-bound checks, projected-motion margins, native sample and barrier semantics, preprocessing contracts, and no-event handling. The historical implementation-validation run passed 43 tests; the current unified-model suite passes 57 tests; the separate standard-metric re-evaluation adds metric and reconstruction checks without method changes. The validation checks cover numerical optimization, rendering semantics, and metric reconstruction.
 
 \paragraph{Publication configuration.} The main source uses the unmodified IEEE VGTC conference class in review mode. The main manuscript retains the supplied five-stage pipeline and integrates feature-linked Storms, Wildfires, and Tangaroa figures with the certificate and scalar-filling analysis. This supplement provides full derivations, pseudocode, protocols, complete geometric comparisons, and the volumetric evidence ledger. The additional mirror-motion control, static inputs, and volumetric sequences are reported separately from the five-sequence planar suite. Submission ID 0 is to be replaced with the PCS identifier; Codex assistance is disclosed in the acknowledgments.
 \clearpage

@@ -1,21 +1,21 @@
-# 当前完整论文与图件
+# 当前论文：统一位置—拓扑框架
 
-当前编辑入口只有这一套完整稿：正文19页、14图，附录48页、18图。以用户指定的修改前版本为基准，图1—4保持原样，已合并前一扩展稿中的有效补充分析。PM2.5使用完整2000年366场和污染配色；全年结果替换主表，一月只作为历史探索控制。新增图13给出PM2.5全年总览、源场与局部追踪案例；原参数图顺延为图14。
+2026-10-26 当前副标题为 **A Unified Position–Topology Framework**。在原有四项公式、共同区间表示、QP和绘制流程内，通过权重、时间目标和双预算表达不同设计原则。
 
 | 入口 | 内容 |
 |---|---|
-| [正文](manuscript/Revised_RG-MTM.pdf) / [附录](manuscript/Revised_Supplement.pdf) | 当前完整PDF |
-| [main.tex](manuscript/latex/main.tex) / [supplement.tex](manuscript/latex/supplement.tex) | 当前编辑源文件 |
-| [源码包](https://github.com/lelewang1109/RG-MTM/releases/tag/research-2026-10-23) | 可独立编译的投稿源包 |
-| [正文14图PPT](figures_ppt/All_Figures.pptx) / [附录18图PPT](figures_ppt/All_Supplementary_Figures.pptx) | 每页对应一幅论文图，单图母版用于编辑 |
-| [修改前版本](修改前版本_20261023/README.md) | 用户要求保留的原14页正文、46页附录及源码 |
-| [材料索引](../docs/正文与附录材料索引.md) / [图号索引](FIGURE_INDEX.json) | 九数据与当前图件对应 |
-| [修订记录](OLD_BASE_REVISION.md) / [颜色与显示规则](COLOR_AND_DISPLAY_POLICY.md) | 本轮更改与证据边界 |
+| [正文](manuscript/Revised_RG-MTM.pdf) / [附录](manuscript/Revised_Supplement.pdf) | 当前改稿，25页正文、50页附录 |
+| [LaTeX项目](manuscript/latex/README.md) / [源码ZIP](https://github.com/lelewang1109/RG-MTM/releases/download/research-2026-10-26/RG-MTM_LaTeX.zip) | 当前TeX、图与证据，可独立编译 |
+| [贡献说明](../docs/统一体系贡献说明_20261025.md) / [论证大纲](MANUSCRIPT_OUTLINE.md) | 统一模型、冲突解释、受控实验三项贡献 |
+| [新实验](../code/experiments/unified/README.md) / [新结果](../code/results/unified20261025/) | 614帧×5设置、15,141个QP、双预算矩阵和原生相似性 |
+| [图16](figures_export/Fig16.svg) / [图17](figures_export/Fig17.svg) | 原生/统一工作区域对照；拓扑×位置阈值矩阵 |
+| [图件索引](FIGURE_INDEX.json) / [核验范围](COMPREHENSIVE_REVIEW.md) | 17张正文图的身份与来源 |
+| [原PPT合集](figures_ppt/All_Figures.pptx) / [附录PPT](figures_ppt/All_Supplementary_Figures.pptx) | 分别覆盖原图1—14、附图1—18；图15—17使用代码/SVG |
 
-九数据使用共同的评价定义，并连续列在结果表中；不在Nucleon/Benzene前另设分隔线。当前全年PM2.5的参考顺序改善不等于运动改善：P42/95错误，R20 47/95错误。原科学数组与历史一月记录保留，显示插值不增加科学样本。
+新QP实验有496帧穷举、118帧候选搜索；独立前沿实验framework20261025保留其603/11的覆盖身份，不能混用。七项新增检查后完整套件为57项。
 
-图7现用数据提供的10 km FRP网格真实边界，增加澳大利亚州界、海岸线、经纬度及200 km比例尺。17—19帧的实际记录与原有平滑分析场分上下两排，同一组A/B/C对应。实际记录保持稀疏，不据此推断连续火场；原P/R锚点、剖面和连接数值保持，时序背景改为保守显示插值。复现入口为scripts/prepare_wildfire_geographic.py，独立核对为scripts/verify_wildfire_geographic.py。
+维护：统一实验run.py → export.py → 编译正文/附录并检查渲染 → scripts/package_delivery.py → scripts/verify_unified_revision.py。当前检查器独立重建目标、约束、QP间隙、标量与位置误差，核对旧证据、图件、PDF和ZIP。
 
-维护时先编辑单图PPT，再运行定向export和两个sync_catalog脚本。code/tools/build_submission20261023.py生成共同表，--check检查当前数值；全年入口为code/tools/run_pm25_annual.py及export_pm25_annual.py。最后编译、检查PDF、package_delivery并运行verify_comprehensive_revision。所有私有中间文件位于.build，当前交付清单为DELIVERY_MANIFEST.json。
+TMTM-inspired和ST-MTM-inspired是设计原则的参数区域，不宣称原生算法等价。连续预算、候选覆盖、严格极值栅格误差和全时序最优性各自声明。
 
-图7、10、11及附录S10/S17/S18已统一改进时序显示，减轻逐帧方块边界；所有原帧中心像素列保持其原剖面的面积积分。Cylinder局部源场采用双线性显示，保留原网格中心值；真实FRP单元不插值。详见evidence/temporal_display20261023/README.md及checks/temporal_display20261023/numerical.json。
+重构前稿保存在../../其他/归档/思想统一重构前_20261025/；更早完整归档仍保留。当前PDF与TeX是唯一活跃改稿。

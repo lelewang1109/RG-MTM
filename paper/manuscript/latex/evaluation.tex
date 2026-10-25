@@ -1,12 +1,12 @@
 \section{Quantitative Evaluation}\label{sec:eval}
-We evaluate the position certificate (RQ1), the scalar price of changed orders (RQ2), and the alignment and motion effects of reference guidance (RQ3). Complete-sequence comparisons measure the shared-input methods, while controlled experiments isolate barrier correction and absolute anchoring. The main planar suite, additional static inputs, volumetric sequences, and visualization-only examples retain separate populations throughout.
+We first test the common-model operating regimes and descriptive similarity to native methods (RQ1), then continuous budget feasibility and inverse queries (RQ2). Retained shared-input comparisons and source-linked cases examine practical consequences (RQ3). New common-QP measurements, frontier witnesses and earlier P/R measurements retain separate result identities and guarantees.
 
 \subsection{Data Sets, Protocol, and Measures}
 Table~\ref{tab:datasets_main} lists all nine evaluated inputs, their scalar fields, spatial dimensions, grids, sample counts, extracted leaves, and tree types. The five planar temporal sequences contain 614 frames: Storms (118 half-day pressure fields), Wildfires (30 two-day fire-radiative-power aggregates), OLR (60 daily fields), PM2.5 (366 fields covering all of 2000), and synthetic Ring (40 frames)~\cite{Hersbach:2020:ERA5,Franke:2021:1DP,NOAA:OLR,Dong:2026:PM25,Koepp:2023:TMTM}. The separate 744-hour Storms overview and 64-frame mirror control do not enter the 614-frame small-tree statistics.
 
 Tangaroa supplies 201 original-grid three-dimensional velocity-magnitude fields; Cylinder supplies 102 three-dimensional $Q$ fields derived from the public velocity volumes~\cite{Popinet:2004:Tangaroa,Camarri:2005:Cylinder,Weinkauf:SquareCylinder}. Nucleon is the original author $64\times64$ static slice, while Benzene contains 21 static sections of an explicitly reconstructed point-charge potential~\cite{Koepp:2023:TMTM,Jorgensen:2013:BOSS,Inviwo:BenzeneGeometry}. Section index is not physical time. All nine inputs appear together in Tables~\ref{tab:tradeoff} and~\ref{tab:achieved_main}; input dimensions and independent populations remain explicit. The seven temporal inputs comprise 917 fields, without forming a pooled accuracy score.
 
-All methods share each input's processed fields, extrema, supports, and overlap matches. Primary comparisons use shared-input TMTM and ST-MTM reimplementations, RG-MTM-P, and RG-MTM-R at $\kappa/\Delta_F=0.20$. ST-MTM uses temporal mode, uniform distance weights, $r=0.95$, and temporal weight $0.5$ (Ring: $1.5$); it was not run on Tangaroa, Cylinder, Nucleon, or Benzene, which are marked n/r. The RG modes share geometry and secondary objectives. An independent 148-frame Storms/Wildfires audit matches 486 TMTM branch decisions and 1118 interval/anchor records to the official C++ core, and checks ST-MTM objectives, constraints, and rendered topology (Supplement S7). Supplemental controls comprise native Hilbert/Morton traversals, packed reference sorting, fixed axes, and exact reference projection. Supplements S2, S6, and S9 retain all acquisition, smoothing, cropping, boundary, simplification, and solver settings.
+All methods share each input's processed fields, extrema, supports, and overlap matches. Retained temporal-construction comparisons use shared-input TMTM and ST-MTM reimplementations, RG-MTM-P, and RG-MTM-R at $\kappa/\Delta_F=0.20$. ST-MTM uses temporal mode, uniform distance weights, $r=0.95$, and temporal weight $0.5$ (Ring: $1.5$); it was not run on Tangaroa, Cylinder, Nucleon, or Benzene, which are marked n/r. The RG modes share geometry and secondary objectives. An independent 148-frame Storms/Wildfires audit matches 486 TMTM branch decisions and 1118 interval/anchor records to the official C++ core, and checks ST-MTM objectives, constraints, and rendered topology (Supplement S7). Supplemental controls comprise native Hilbert/Morton traversals, packed reference sorting, fixed axes, and exact reference projection. Supplements S2, S6, and S9 retain all acquisition, smoothing, cropping, boundary, simplification, and solver settings.
 
 \input{tables/datasets_main}
 
@@ -29,7 +29,9 @@ A tracked pair supplies a clear approach/separation event when its two- or three
 \input{tables/comparison_revision}
 \input{tables/achieved_reference_main}
 
-\subsection{Position Certificates and Scalar Correction}
+\input{framework_evaluation}
+
+\subsection{Retained Position Certificates and Scalar Correction}
 \input{figures/diagnosis}
 Hierarchy cost exceeds 2\% of reference extent in 40/118 Storms, 19/30 Wildfires, 7/60 OLR, 36/366 PM2.5, and 21/40 Ring frames. Hierarchy contributes more than packing in every sequence: respective mean costs are 4.17\%/0.16\% on Storms and 6.12\%/0.06\% on Wildfires; Supplement S3 retains all five pairs.
 
@@ -37,7 +39,7 @@ Independent LP and order-enumeration checks connect the position formulas to fea
 
 Holding the selected order fixed isolates scalar correction. Optimal barriers reduce mean Storms NMLE from 2.07\% for original-LCA filling to 1.47\%, and Ring from 5.46\% to 2.73\%. Packed reference sorting reaches zero Storms NROE with 6.18\% mean NMLE, compared with RG-MTM-R's 1.47\%. These controls separate the effects of reference ordering, hierarchy choice, and barrier construction.
 
-\subsection{Comparison with TMTM and ST-MTM}
+\subsection{Retained Temporal Profiles: Reference, Geometry and Motion}
 Within the five-sequence planar suite, RG-MTM-P lowers NROE relative to both baselines on every sequence while retaining the source merge levels (Table~\ref{tab:tradeoff}). Storms changes from ST-MTM's 16.28\% to 3.77\%, and Wildfires from 24.02\% to 5.83\%. This isolates the benefit of a reference-guided layout within the original hierarchy.
 
 Relaxation improves NROE and pooled displacement on all five planar temporal sequences. Storms changes from 3.77\% to 1.16\% NROE, 4.13\% to 2.14\% pooled displacement, and 26.19\% to 18.46\% maximum displacement. Wildfires reaches 0.34\% NROE and 0.80\% pooled displacement. Tables~\ref{tab:tradeoff}--\ref{tab:achieved_main} retain every sequence's order and coordinate measurements.

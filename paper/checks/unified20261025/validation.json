@@ -1,0 +1,47 @@
+{
+  "status": "passed",
+  "date": "2026-10-26",
+  "frames": 614,
+  "layouts": 3070,
+  "grid_queries": 360,
+  "grid_witnesses": 343,
+  "selected_qp_oracles": 3413,
+  "max_qp_gap": 1.1862872268211923e-06,
+  "max_scalar_cap_excess": 0.0,
+  "coverage": {
+    "ring": {
+      "frames": 40,
+      "exhaustive_frames": 17
+    },
+    "era5": {
+      "frames": 118,
+      "exhaustive_frames": 93
+    },
+    "wildfire": {
+      "frames": 30,
+      "exhaustive_frames": 0
+    },
+    "olr": {
+      "frames": 60,
+      "exhaustive_frames": 33
+    },
+    "pm25_2000": {
+      "frames": 366,
+      "exhaustive_frames": 353
+    }
+  },
+  "tests": 57,
+  "unchanged_prior_evidence_files": 407,
+  "documents": [
+    {
+      "file": "Revised_RG-MTM.pdf",
+      "pages": 25,
+      "sha256": "9092d03e8b6acd614ab3b6c337c8b7ebc51de731cc78e5e9bbc4db1f6615317d"
+    },
+    {
+      "file": "Revised_Supplement.pdf",
+      "pages": 50,
+      "sha256": "f2f6c801b0622c105d16dcd7613cb3448a97b303d67d8ec63dc604055a742516"
+    }
+  ]
+}

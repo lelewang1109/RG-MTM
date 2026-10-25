@@ -1,4 +1,4 @@
-"""Verify saved evidence against exact, reversible source renames.
+"""Verify saved evidence against exact, reversible historical source snapshots.
 
 Old numerical runs retain their original source hashes. A registered rename is
 accepted only if the current file matches its recorded post-rename hash and its
@@ -30,7 +30,8 @@ def historical_source_bytes(root,relative_path):
     # Newer registered edits are reversed before the earlier 3-D snapshot.
     # Each step requires exact before/after hashes; this never asserts that an
     # old numerical run was repeated with the current source.
-    for name in ['submission_selection_20261023.json',
+    for name in ['unified_model_extension_20261026.json',
+                 'submission_selection_20261023.json',
                  'baseline_preset_correction_20261019.json',
                  'volume3d_extension_20261017.json']:
         ledger=root/'provenance'/name

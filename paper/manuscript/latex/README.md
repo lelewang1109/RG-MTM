@@ -1,5 +1,11 @@
-# 当前投稿LaTeX
+# 当前LaTeX项目
 
-编辑main.tex与supplement.tex；使用IEEE VGTC类。所有图资产和引用文件均包含在当前源码包，可用pdfLaTeX/BibTeX或Tectonic编译。main.pdf、supplement.pdf指向上一级交付PDF；构建时请输出到私有目录，核对后再更新交付文件。
+编辑main.tex和supplement.tex。当前副标题：A Unified Position–Topology Framework。
 
-当前基于用户指定修改前稿：正文14图，附录18图。九输入统一列于三张正文表，Nucleon与Benzene不再另设分隔横线。数据总体、三维/静态与模型来源以论文协议为准。当前图号与修订范围以 ../../FIGURE_INDEX.json 和 ../../checks/temporal_display20261023/numerical.json 为准。详细来源见evidence/oldbase20261023及evidence/submission20261023。
+framework_model.tex定义共同四项目标、时间参数η、真实拓扑ε和位置B预算以及四个工作区域。unified_solver.tex给出共享候选过滤/QP/零空间次级规则/填充流程。framework_evaluation.tex给出同模型实验与独立前沿证据。unified_results.tex展示图16—17；framework_supplement.tex给出解释与保证边界。
+
+图1—14资产保持原身份；图15为前沿实验；图16—17为新共同QP实验。新图的SVG和代码保存在对应figures_export与code/experiments目录。
+
+证据目录evidence/unified20261025记录3,070个主布局、双预算查询、候选覆盖和原生相似性。所有数值来自保存的完整坐标/屏障；原生相似性采用单个全序列仿射变换，不逐帧拟合。
+
+数值、图件、PDF和ZIP一致性检查使用paper/scripts/verify_unified_revision.py。旧检查器保留其历史版本范围。

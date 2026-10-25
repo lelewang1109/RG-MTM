@@ -6,7 +6,7 @@ import hashlib,json,re,posixpath
 R=Path(__file__).resolve().parents[1]
 P='http://schemas.openxmlformats.org/presentationml/2006/main';A='http://schemas.openxmlformats.org/drawingml/2006/main';RR='http://schemas.openxmlformats.org/officeDocument/2006/relationships'
 sha=lambda p:hashlib.sha256(p.read_bytes()).hexdigest()
-reg=json.loads((R/'FIGURE_INDEX.json').read_text());count=reg['main_figure_count'];assert [f['number']for f in reg['figures']]==list(range(1,count+1))
+reg=json.loads((R/'FIGURE_INDEX.json').read_text());total=reg['main_figure_count'];count=len(reg['figures']);assert [f['number']for f in reg['figures']]==list(range(1,count+1))
 with ZipFile(R/reg['combined_ppt'])as z:
  pr=E.fromstring(z.read('ppt/presentation.xml'));ids=pr.find(f'{{{P}}}sldIdLst');assert len(ids)==count
  rels={e.get('Id'):e.get('Target')for e in E.fromstring(z.read('ppt/_rels/presentation.xml.rels'))}
@@ -35,4 +35,10 @@ assert '\\begin{figure}[t]'in(R/'manuscript/latex/figures/filling.tex').read_tex
 assert '\\linewidth'in(R/'manuscript/latex/figures/filling.tex').read_text()
 assert (R/'manuscript/latex/figures/Supplement_PositionScalarDiagnostic.pdf').exists()
 assert 'Supplement_PositionScalarDiagnostic.pdf'in(R/'manuscript/latex/revision_evidence_supplement.tex').read_text()
-print(f'PASS: {count} paper figures = Fig1–Fig{count} PPTs/assets = combined slides 1–{count}; hashes and LaTeX references agree.')
+vectors=reg.get('additional_vector_figures',[])
+assert count+len(vectors)==total
+for f in vectors:
+ assert sha(R/f['asset'])==sha(R/f['export'])
+ assert (R/f['editable_master']).exists()
+ assert f['label'] in (R/'manuscript/latex'/f.get('latex_source','budget_threshold_response.tex')).read_text()
+print(f'PASS: {count} registered PPT figures and {len(vectors)} code/SVG figures; total {total}; hashes and LaTeX references agree.')

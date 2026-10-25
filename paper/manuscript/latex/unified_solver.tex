@@ -1,0 +1,35 @@
+\subsection{One Construction Across Operating Regimes}\label{sec:unified_solver}
+Algorithm~\ref{alg:unified} implements Equation~\eqref{eq:family}. A fixed candidate pool is shared across all operating regimes and budget settings for each frame. The scalar and position certificates first remove inadmissible orders. For each remaining order, $\mathcal G$ and the optional reference cap are linear constraints, and the fixed-order absolute distances have known signs. The four-term layout is therefore a convex QP. Its best evaluated objective selects the order. Optimal non-strict barriers then attain the selected order's scalar cost.
+
+\begin{algorithm}[t]
+\caption{Unified position--topology construction}\label{alg:unified}
+\begin{algorithmic}[1]
+\Require Fields/trees, supports, matches, fixed reference, controls $(\lambda,\eta,\varepsilon,B)$
+\State Fix shared widths, canvas, scalar range and candidate orders
+\For{each time step $t$}
+ \State Obtain preceding positions for matched leaves
+ \For{each candidate order $\pi$}
+  \State Compute $\delta_t^*(\pi)$ and $\tau_t(\pi)$
+  \If{$\delta_t^*(\pi)\le\varepsilon\Delta_F$ and $\tau_t(\pi)\le BL$}
+   \State Minimize the same $J_t$ over $\mathcal G(\pi)$ and the position cap
+   \State Record feasibility and a convex first-order objective-gap bound
+  \EndIf
+ \EndFor
+ \If{no candidate is feasible}
+  \State Record no witness found; do not enlarge a budget or carry a previous column
+ \Else
+  \State Select the best QP; construct optimal barriers
+  \State Fill with source arc values; correct barriers using the common renderer
+  \State Measure raster position and merge errors separately
+ \EndIf
+\EndFor
+\end{algorithmic}
+\end{algorithm}
+
+The operating-regime experiment enumerates all permutations for at most four leaves. For larger frames its common pool contains two depth-first orientations, the best reference-compatible hierarchy order and reverse, the hierarchical geometric OLO and reverse, and reference/centroid-axis sorts and reverses; all legal orders are added when there are at most 16. Each pool is deterministic and recorded. This is an exhaustive experiment only on frames whose pool covers all permutations. Otherwise the selected objective is a candidate-set upper bound, with QP numerical gaps disclosed independently. No native baseline is called by this solver.
+
+The preceding displayed positions are held fixed while solving each frame. This sequential construction does not establish a global temporal optimum. Wider budgets enlarge a fixed frame's feasible set, but the resulting temporal histories can differ; a component metric need not improve monotonically across independently recomputed sequences.
+
+When objective terms are disabled, some coordinates can be undetermined. In the null space of the primary quadratic residuals we apply one common secondary rule: minimize squared anchor distance to the canvas-centred, tightly packed interval centres for that order. This changes neither the primary objective value nor its budgets. It prevents an arbitrary LP boundary solution from determining newborn positions in the topology--time regime. The same rule applies to every regime and does not use reference positions.
+
+The same source-value filling and barrier correction are used in all regimes. Strict-extremum clearance may slightly increase scalar error, and anchor rounding introduces position error. Continuous hard-cap statements refer to the analytical witness; measured raster errors and the clearance bound accompany the visual maps. A hard application limit on the raster would additionally require rejecting a violating image.

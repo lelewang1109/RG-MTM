@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "date": "2026-10-26",
+  "method": "Rendered all pages to contact sheets; detailed inspection of changed equations, regime table, algorithms, results table, Figures 16--17, and supplement model pages.",
+  "main_pages": 25,
+  "supplement_pages": 50,
+  "main_figures": 17,
+  "supplement_figures": 18,
+  "no_undefined_references": true,
+  "no_overfull_boxes": true,
+  "new_vector_masters": [
+    "figures_export/Fig16.svg",
+    "figures_export/Fig17.svg"
+  ],
+  "pdf_sha256": {
+    "Revised_RG-MTM.pdf": "9092d03e8b6acd614ab3b6c337c8b7ebc51de731cc78e5e9bbc4db1f6615317d",
+    "Revised_Supplement.pdf": "f2f6c801b0622c105d16dcd7613cb3448a97b303d67d8ec63dc604055a742516"
+  }
+}

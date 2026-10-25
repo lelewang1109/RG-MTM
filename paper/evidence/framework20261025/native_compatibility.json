@@ -1,0 +1,6 @@
+{
+  "frames": 40,
+  "TMTM_map_max_abs_difference": 0.0,
+  "STMTM_map_max_abs_difference": 0.0,
+  "note": "Native-profile compatibility regression, not independent validation of published authors implementations or a new solver."
+}

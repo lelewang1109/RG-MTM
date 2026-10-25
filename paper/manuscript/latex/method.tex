@@ -1,7 +1,10 @@
-\section{Reference-Guided Merge Tree Maps}\label{sec:method}
+\section{Unified Construction and Feasibility Tools}\label{sec:method}
 \input{figures/pipeline}
-Figure~\ref{fig:pipeline} follows the data from scalar-field input through topology and projection, certificate-driven hierarchy choice, interval layout with optimal filling, and temporal assembly. The construction uses the source tree for scalar targets throughout; the ordering tree controls the permutations available to the layout.
-Algorithm~\ref{alg:rgmtm} collects the construction and its hierarchy-selection and barrier routines in one procedure. Its inputs are augmented trees and tracked features from the extraction stage; its output records both the map and the achieved errors.
+Table~\ref{tab:profiles} specifies operating regimes of one layout model. We first describe their shared construction, then the exact feasibility oracle, and finally the retained eligibility policy used in the earlier application studies.\input{unified_solver}\input{framework_solver}
+
+\subsection{Retained Eligibility-Based Construction}
+Figure~\ref{fig:pipeline} illustrates this particular profile and follows the data from scalar-field input through topology and projection, certificate-driven hierarchy choice, interval layout with optimal filling, and temporal assembly. The construction uses the source tree for scalar targets throughout; the ordering tree controls the permutations available to the layout.
+Algorithm~\ref{alg:rgmtm} collects this retained eligibility-based construction and its hierarchy-selection and barrier routines in one procedure. Its inputs are augmented trees and tracked features from the extraction stage; its output records both the map and the achieved errors.
 \input{rgmtm_algorithm_main}
 
 \subsection{Shared Reference and Diagnosis}\label{sec:reference}

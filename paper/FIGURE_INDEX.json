@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "updated": "2026-10-23",
+  "updated": "2026-10-26",
   "scope": "main manuscript",
-  "main_figure_count": 14,
+  "main_figure_count": 17,
   "combined_ppt": "figures_ppt/All_Figures.pptx",
   "figures": [
     {
@@ -123,14 +123,17 @@
       "initial_ppt_sha256": "97c014b00dac4f2bc64dede2b7016d6c4796bc39fdf18052b3bbdb8ff520fac7",
       "ppt_sha256": "5ac016f67b38d10c1428ceba4fa4da164f19e79741a5c69929559a7ddeb3551e",
       "asset_sha256": "90e53b2b6348f7cf9166cc30474dd40bdf86198afb7176d7cf8e90cff3acc0f9",
-      "embedded_original_asset": "evidence/figure5_selected/selected_plot_original.png",
-      "embedded_original_sha256": "c60b668b88b2add24796c6ae7da085c62eca4329ee63409e19810283af217413",
       "style_standard": "UNIFIED_FIGURE_STYLE.json",
       "layout_revision": "2026-10-22 comprehensive compact review; Figure8(c) removed",
       "previous_main_number": 5,
       "spatial_dimension": 2,
       "export_sha256": "90e53b2b6348f7cf9166cc30474dd40bdf86198afb7176d7cf8e90cff3acc0f9",
-      "revision": "Five current planar inputs; annual 2000 PM2.5 replaces historical pilot"
+      "revision": "Five current planar inputs; annual 2000 PM2.5 replaces historical pilot",
+      "historical_embedding": {
+        "asset": "evidence/figure5_selected/selected_plot_original.png",
+        "sha256": "c60b668b88b2add24796c6ae7da085c62eca4329ee63409e19810283af217413",
+        "scope": "Historical bitmap stage; not an embedding claim for the current unchanged master."
+      }
     },
     {
       "number": 6,
@@ -596,5 +599,46 @@
     "benzene-potential-reconstructed2d": "Benzene (reconstructed potential)"
   },
   "supplementary_figure_count": 18,
-  "revision_basis": "User-selected original draft; figures 1-4 unchanged. Complete merged manuscript includes annual PM2.5 and a source-linked case."
+  "revision_basis": "User-selected original draft; figures 1-4 unchanged. Complete merged manuscript includes annual PM2.5 and a source-linked case.",
+  "additional_vector_figures": [
+    {
+      "number": 15,
+      "stem": "Fig15",
+      "title": "True topology-budget response and Ring witness maps",
+      "asset": "manuscript/latex/figures/Fig15.pdf",
+      "export": "figures_export/Fig15.pdf",
+      "label": "fig:budget_response",
+      "source": "../code/experiments/framework/export.py",
+      "editable_master": "figures_export/Fig15.svg",
+      "ppt": null,
+      "latex_source": "budget_threshold_response.tex"
+    },
+    {
+      "number": 16,
+      "stem": "Fig16",
+      "title": "One-model operating regimes and native comparisons",
+      "asset": "manuscript/latex/figures/Fig16.pdf",
+      "export": "figures_export/Fig16.pdf",
+      "label": "fig:unified_regimes",
+      "source": "../code/experiments/unified/export.py",
+      "editable_master": "figures_export/Fig16.svg",
+      "ppt": null,
+      "latex_source": "unified_results.tex",
+      "asset_sha256": "4461c45a1f883de629bf4f4fabe19fb305b90997f512b9fd346e98087acf35e8"
+    },
+    {
+      "number": 17,
+      "stem": "Fig17",
+      "title": "Topology and position budget matrix",
+      "asset": "manuscript/latex/figures/Fig17.pdf",
+      "export": "figures_export/Fig17.pdf",
+      "label": "fig:unified_budget_grid",
+      "source": "../code/experiments/unified/export.py",
+      "editable_master": "figures_export/Fig17.svg",
+      "ppt": null,
+      "latex_source": "unified_results.tex",
+      "asset_sha256": "6fe7447a60251ccc26d68843f1747cd64e6f87f1461c42a0b044fbf8c7d0ccd1"
+    }
+  ],
+  "combined_ppt_scope": "Existing Figures 1--14 only; Figures 15--17 are reproducible code/SVG vector masters."
 }

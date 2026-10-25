@@ -1,0 +1,25 @@
+\subsection{Feasibility Frontier and Inverse Query}\label{sec:hard_budget}
+The executable budgeted specialization, RG-MTM-B, takes a scalar allowance $\varepsilon$ and an optional positional allowance $B$. It computes the two fixed-order costs, rejects orders with $\delta_t^*(\pi)>\varepsilon\Delta_F$ or $\tau_t(\pi)>BL$, and selects the smallest remaining $\tau_t$. Ties prefer smaller scalar cost and then a deterministic lexicographic order. A linear program supplies feasible interval centres and anchors at the selected optimum; the optimal barriers supply the scalar witness. The inverse query scans the same costs and returns the minimum scalar allowance for a specified position cap.
+
+\begin{algorithm}[t]
+\caption{Budgeted reference specialization, per frame}\label{alg:budgeted}
+\begin{algorithmic}[1]
+\Require Source merge matrix $V$, widths $w$, reference $q$, geometry $\mathcal G$, budgets $\varepsilon,B$
+\State $\mathcal C\gets$ all permutations if within the declared order limit
+\State Otherwise use a declared, fixed candidate set and mark the result as bounded
+\For{$\pi\in\mathcal C$}
+ \State Compute $\tau(\pi)$ and $\delta^*(\pi)$ with fixed extremum values
+\EndFor
+\State Retain $\mathcal A=\{\pi:\delta^*(\pi)\le\varepsilon\Delta_F,\ \tau(\pi)\le BL\}$
+\If{$\mathcal A=\emptyset$}
+ \State \Return infeasible if exhaustive; no witness found otherwise
+\EndIf
+\State Choose minimum $(\tau,\delta^*,\pi)$; construct LP positions and optimal barriers
+\State \Return map witness, achieved errors, search coverage, and exact/bounded status
+\end{algorithmic}
+\end{algorithm}
+Exhaustive search establishes the frontier in Equation~\eqref{eq:budget_frontier}. For larger trees, the present implementation uses a fixed pool consisting of original hierarchy-compatible orders, the reference order and reverse, and all single-insertion variants of the reference order. This pool is shared across all tested allowances. Its feasible outputs satisfy the same analytical budgets, but their positional costs are upper bounds on the unrestricted optimum. An empty candidate pool at a budget is not a proof of global infeasibility. The runner uses exhaustive enumeration through $8!=40320$ orders and reports every frame beyond that threshold separately.
+
+The optimality and hard caps above refer to continuous non-strict barriers. A renderer that requires strictly distinct extrema must reserve and verify a positive scalar clearance. A rasterized image can introduce positional or barrier rounding error. Such an image is accepted under a hard application budget only after measuring the actual output and rejecting violations. The new budget sweep validates LP anchors and continuous barrier witnesses; it does not claim that an unverified finite-resolution raster has the same guarantee.
+
+This oracle is framewise and minimizes the reference minimax cost. The unified construction instead optimizes the four-term objective within the same budgets, conditional on preceding displayed anchors. Its achieved reference error can exceed the frontier optimum because it also balances geometry and temporal targets. The oracle and the common QP therefore answer different questions; their results and guarantees are reported separately.

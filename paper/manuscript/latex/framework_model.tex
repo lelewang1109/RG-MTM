@@ -1,0 +1,63 @@
+\section{A Unified Position--Topology Framework}\label{sec:framework}
+We formulate topology preservation, geometric fidelity, temporal alignment and reference guidance within one interval representation. The variables, geometry, solver and scalar renderer remain the same across operating regimes. Parameters change which relations matter and which errors are permitted. TMTM-inspired and ST-MTM-inspired regimes express prior design principles; they do not replace the independently implemented native baselines.
+
+\subsection{One Layout Objective}
+At frame $t$, the variables are leaf order $\pi_t$, anchors $u_t$, interval centres $z_t$, and inter-anchor barriers $b_t$. Widths $w_i=c\mu_i$, canvas $[a,a+L]$, source merge targets and scalar range $\Delta_F$ are shared across regimes. Let $\mathcal M_t$ contain matched leaves, $p_i$ their preceding displayed positions, $\Delta q_i=q_i^t-q_i^{t-1}$, and $d_{ij}=\|G_i^t-G_j^t\|$. Define
+\begin{equation}
+\begin{aligned}
+ E_R &= \frac{1}{n_tL^2}\sum_i(u_i-q_i)^2,\\
+ E_G &= \frac{1}{N_tL^2}\sum_{i<j}(|u_j-u_i|-d_{ij})^2,\\
+ E_M(\eta) &= \frac{1}{|\mathcal M_t|L^2}\sum_{i\in\mathcal M_t}(u_i-p_i-\eta\Delta q_i)^2,\\
+ E_C &= \frac{1}{n_tL^2}\sum_i(u_i-z_i)^2,
+\end{aligned}\label{eq:unified_terms}
+\end{equation}
+where $N_t=\binom{n_t}{2}$. A term with no pairs or matches is zero. $\eta=0$ aligns matched features with their previous displayed positions; $\eta=1$ follows projected source displacement. Intermediate values interpolate these targets within the same quadratic term. Matching is an input correspondence, not a claim of physical feature identity.
+
+For fixed preceding positions, the unified problem is
+\begin{equation}
+\begin{aligned}
+ \min_{\pi,u,z,b}\quad &J_t=\lambda_RE_R+\lambda_GE_G+\lambda_ME_M(\eta)+\lambda_CE_C\\
+ \text{s.t.}\quad &(u,z)\in\mathcal G(\pi),\\
+ &d_{\rm top}(b,T_t)\le\varepsilon\Delta_F,\\
+ &\|u-q\|_\infty\le BL .
+\end{aligned}\label{eq:family}
+\end{equation}
+The nonnegative weights express preferences; $\varepsilon$ and $B$ impose admissibility limits. $B=\infty$ disables the absolute reference cap. Crucially, setting $\lambda_R=0$ does not disable a finite cap. If both are inactive, and $\eta=0$, no reference position enters the objective or feasible set. We fix a free first-frame translation by centring the feasible anchor mean on the canvas, rather than by fitting $q$. The canvas still constrains packing and boundary placement.
+
+\subsection{Design Principles as Parameter Regimes}
+\begin{table*}[t]
+\caption{Operating regimes of the same model, QP and renderer. Values 1 and 4 denote the shared experimental weights, not required universal constants. All rows use $\lambda_M=0.5$ and $\lambda_C=0.1$. Native TMTM and ST-MTM remain separate comparison methods.}\label{tab:profiles}
+\centering\small
+\begin{tabular}{p{.25\textwidth}rrrrrp{.35\textwidth}}\toprule
+Regime & $\varepsilon$ & $B$ & $\lambda_R$ & $\lambda_G$ & $\eta$ & Encoded design principle\\\midrule
+Topology--time (TMTM-inspired) & 0 & $\infty$ & 0 & 0 & 0 & Hierarchical connectivity and matched-feature alignment\\
+Topology--geometry (ST-MTM-inspired) & 0 & $\infty$ & 0 & 1 & 0 & Hierarchical connectivity, relative distances and alignment\\
+Reference preserving & 0 & declared & 4 & 1 & 1 & Reference positions and projected motion under exact merge targets\\
+Reference relaxed & positive & declared & 4 & 1 & 1 & The same preferences with a bounded scalar cost for new orders\\\bottomrule
+\end{tabular}
+\end{table*}
+The topology--time regime retains the topology-first and temporal-alignment principles of TMTM~\cite{Koepp:2023:TMTM}. Its feature-anchor displacement term is a surrogate for alignment; it does not reproduce TMTM's all-subtree overlap objective or sample traversal. Enabling the centroid-distance term gives a topology--geometry regime reflecting ST-MTM's distance-aware design~\cite{STMTM:2026}. For a fixed order, the geometry and stationary temporal terms have the same stress-and-anchor form as its projection objective, up to declared normalization and weights. Our common widths, canvas, eccentricity term and order search remain different from its native interval allocation and normalization.
+
+Enabling $E_R$ and setting $\eta=1$ expresses reference guidance. Keeping $\varepsilon=0$ gives a preserving regime; increasing it admits orders whose scalar cost is explicitly bounded. This connects the prior design emphases to reference-preserving and relaxed maps without changing construction pipelines. A one-dimensional parameter path may illustrate selected transitions, while the model itself exposes the independent preferences and budgets.
+
+\subsection{Certificates Explain the Available Trade-offs}
+For fixed order $\pi$, let $\tau_t(\pi)$ be the least absolute reference displacement and $\delta_t^*(\pi)$ the least labelled merge error with fixed extremum values. Section~\ref{sec:analysis} derives both. An order admits a continuous witness exactly when
+\[
+ \delta_t^*(\pi)\le\varepsilon\Delta_F\quad\text{and}\quad\tau_t(\pi)\le BL.
+\]
+The minimum attainable normalized reference error is
+\begin{equation}
+ F_t(\varepsilon)=\frac1L\min_{\pi:\delta_t^*(\pi)\le\varepsilon\Delta_F}\tau_t(\pi).
+ \label{eq:budget_frontier}
+\end{equation}
+Its inverse asks which scalar allowance is necessary for a position tolerance:
+\begin{equation}
+ E_t(B)=\frac1{\Delta_F}\min_{\pi:\tau_t(\pi)\le BL}\delta_t^*(\pi).
+ \label{eq:inverse_budget}
+\end{equation}
+Empty sets are reported explicitly. Packing can make a requested position tolerance impossible even after all topology constraints are released.
+
+\begin{proposition}[Budget nesting and objective restriction]
+For fixed inputs, representation and candidate pool, increasing either allowance enlarges the feasible set. $F_t$ and $E_t$ are non-increasing wherever feasible. With fixed preceding anchors and weights, the minimum $J_t$ cannot increase when either allowance increases. Setting a weight to zero removes its objective term, but not an independently imposed constraint.
+\end{proposition}
+\noindent These statements follow by set inclusion and objective restriction. With separated branching levels, $F_t(0)=\tau_t^*(T_t)/L$ and $F_t(\infty)=\tau_{\free,t}/L$. Coincident merge values can make a combinatorial ordering hierarchy non-identifiable; zero labelled merge error is the operative condition. The propositions do not assert that every component error improves, that a sequential temporal solver attains a sequence-wide optimum, or that an inspired regime equals a native algorithm.
