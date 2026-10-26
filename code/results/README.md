@@ -1,27 +1,23 @@
-> 当前主线（2026-10-26）：[统一体系说明](../../docs/统一体系贡献说明_20261025.md)。同模型实验为code/experiments/unified/，结果为unified20261025；旧framework20261025是独立连续前沿实验。原生方法不再作为“切换构造模式”的统一贡献。
+# 保存结果：当前入口与历史身份
 
-# 独立连续前沿实验（此前预算化阶段）
+本目录保存科学数组、指标、图源与核验记录。原始结果不会因为论文改版而改写为新的实验。当前活跃入口如下：
 
-`framework20261025/` 包含 614 帧的真预算扫描、603 帧穷举与 11 帧候选上界、原生兼容及反向查询。原有结果按下文说明保留，不能混作新求解器的结果。
-
-# 当前投稿的结果与证据
-
-最终论文图使用 [paper/FIGURE_INDEX.json](../../paper/FIGURE_INDEX.json) 所列母版。这里保存原始结果和实验可复现记录。
-
-| 入口 | 角色 |
+| 目录 | 含义 |
 |---|---|
-| [submission20261023](submission20261023/README.md) | 当前投稿：九输入统一比较；五个小树时序278帧精确前沿，七个时序581帧，22静态切片 |
-| [publication2027](publication2027/README.md) | 历史六序列342帧冻结证据；64帧镜像控制仍在当前投稿使用。原始manifest保持历史成员与哈希 |
-| `final_performance.json`、`eval_projection.json`、`native_merge_errors.json`、`replicate_*.json`、`attainable_*.json` | 原始逐帧结果与表格来源；当前主套件成员以 `analysis/dataset_suite.py` 和打包清单为准 |
-| `real_case_studies/` | Storms/Wildfires/Tangaroa源场及特征对应证据 |
-| [paper1_suite](paper1_suite/README.md) | 当前Nucleon、二维重建Benzene、三维Cylinder |
-| [volume3d](volume3d/README.md) | Tangaroa完整201帧、原分辨率输入核对与两组三维合成补充 |
-| `public_metrics_20261016/` | 标准指标与参考任务复核；保留和原指标的口径区别 |
-| `baseline_audit_20261019/` | TMTM/ST-MTM设置及原生实现核对 |
-| `figures/`、`visualizations/` | 由证据生成的研究图与诊断图；与最终论文PPT不是两个可互换的当前稿 |
-| `manuscript_tables/`、`revised_suite/` | 数值聚合表、分阶段完成记录和季节控制 |
-| `archive/pm25_janfeb/`、`legacy_publication/` | **必要溯源例外**：旧选择审计和旧图源，冻结manifest及哈希检查仍依赖；不得作为当前稿或新增结论 |
+| `stmtm_completion20261026/` | 当前九输入四方法总表，含四组325个新增ST-MTM布局；先读REPORT_zh.md和unified_metrics.csv |
+| `unified20261025/` | 614帧×5共同模型设置，3,070个主布局；496帧穷举、118帧候选池 |
+| `framework20261025/` | 独立连续前沿与反向查询，603帧穷举、11帧候选上界 |
+| `slp_thresholds20261026/` | 独立压力预算及缺失列诊断，不替换共同模型运行 |
+| `paper1_suite/` | Nucleon、重建Benzene、三维Cylinder正式输入结果 |
+| `volume3d/` | Tangaroa201体、输入审计和三维扩展 |
+| `real_case_studies/` | Storms/Wildfires/Tangaroa源场与特征对应证据 |
+| `baseline_audit_20261019/` | 原生设置和实现核对 |
+| `public_metrics_20261016/` | 保留的标准几何指标与参考任务核验 |
+| `submission20261023/` | 历史投稿表格与冻结指标身份；不用于覆盖当前补全表 |
+| `publication2027/`、`legacy_publication/` | 旧运行、图源和必要溯源；342帧等计数按其原协议解释 |
 
-旧 `paper_stats.json`、`quality.json` 等历史数值仅因原始溯源链需要而保留，禁止覆盖当前数值口径。已排除的Benzene电子密度、二维圆柱、旧Tangaroa试跑与缓存已移至“其他”。
+当前五个二维时序共614帧，另有Tangaroa201体、Cylinder102体、Nucleon1静态切片与Benzene21静态截面。744小时Storms首图和64帧独立控制另列，不合并总体。κ资格阈值、真正的拓扑预算和位置预算也分别解释。
 
-本次整理不重算科学实验。当前各总体（278帧小树穷举、64帧控制、201/102体帧、静态切片）保持独立；342帧仅表示历史冻结套件，详见 [研究证据边界](../../docs/研究证据边界与补充研究.md)。
+论文图号由 [FIGURE_INDEX.json](../../paper/FIGURE_INDEX.json) 决定；当前论文与附录的冻结编译证据在 `../../paper/manuscript/latex/evidence/`，它不是另一套原始实验。
+
+核验与重跑入口见 [目录导读](../../docs/DIRECTORY_GUIDE.md) 和 [修改/复现流程](../../docs/EDITING_AND_REPRODUCING.md)。全部主指标应从对应完整数组和协议重建，不依据图像像素或过时汇总文件推断。

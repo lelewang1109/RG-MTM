@@ -1,0 +1,154 @@
+{
+  "font": "Arial regular/bold",
+  "minimum_font_size_pt": 16.0,
+  "visible_text_objects": 137,
+  "source_frames": [
+    33,
+    36,
+    42,
+    54,
+    66,
+    90
+  ],
+  "feature_correspondence": [
+    {
+      "frame": 33,
+      "date": "1999-12-02 09:00:00",
+      "letter": "A",
+      "track": 7,
+      "longitude": -20.71428571428571,
+      "latitude": 31.58559318887528,
+      "reference": 0.3392584325269734,
+      "P": 0.23793579434300408,
+      "R5": 0.3475917658603067
+    },
+    {
+      "frame": 33,
+      "date": "1999-12-02 09:00:00",
+      "letter": "B",
+      "track": 5,
+      "longitude": -14.999999999999998,
+      "latitude": 66.01163429921519,
+      "reference": 0.18155102926746178,
+      "P": 0.2828736674514311,
+      "R5": 0.17321769593412845
+    },
+    {
+      "frame": 36,
+      "date": "1999-12-02 12:00:00",
+      "letter": "A",
+      "track": 7,
+      "longitude": -22.142857142857146,
+      "latitude": 32.22736846221964,
+      "reference": 0.31842509919364,
+      "P": 0.23585627280772054,
+      "R5": 0.3267584325269733
+    },
+    {
+      "frame": 36,
+      "date": "1999-12-02 12:00:00",
+      "letter": "C",
+      "track": 8,
+      "longitude": -13.571428571428573,
+      "latitude": 66.01163429921519,
+      "reference": 0.19702790178762086,
+      "P": 0.2795967281735403,
+      "R5": 0.18869456845428753
+    },
+    {
+      "frame": 42,
+      "date": "1999-12-02 18:00:00",
+      "letter": "D",
+      "track": 9,
+      "longitude": -23.571428571428573,
+      "latitude": 32.87370800924381,
+      "reference": 0.2975917658603068,
+      "P": 0.3383916707422098,
+      "R5": 0.30592509919364014
+    },
+    {
+      "frame": 42,
+      "date": "1999-12-02 18:00:00",
+      "letter": "E",
+      "track": 10,
+      "longitude": -22.142857142857146,
+      "latitude": 53.084647432707925,
+      "reference": 0.16844419642475875,
+      "P": 0.1925774346399951,
+      "R5": 0.16011086309142541
+    },
+    {
+      "frame": 42,
+      "date": "1999-12-02 18:00:00",
+      "letter": "F",
+      "track": 0,
+      "longitude": -12.142857142857142,
+      "latitude": 64.70493280544402,
+      "reference": 0.2178612351209541,
+      "P": 0.17706133023905105,
+      "R5": 0.20952790178762076
+    },
+    {
+      "frame": 54,
+      "date": "1999-12-03 06:00:00",
+      "letter": "E",
+      "track": 10,
+      "longitude": -5.0,
+      "latitude": 54.939020408488325,
+      "reference": 0.34345374504031806,
+      "P": 0.3507434590515966,
+      "R5": 0.3507434590515966
+    },
+    {
+      "frame": 66,
+      "date": "1999-12-03 18:00:00",
+      "letter": "E",
+      "track": 10,
+      "longitude": 10.714285714285714,
+      "latitude": 55.898925088212714,
+      "reference": 0.5083428819488928,
+      "P": 0.5083428819489186,
+      "R5": 0.5083428819489186
+    },
+    {
+      "frame": 90,
+      "date": "1999-12-04 18:00:00",
+      "letter": "E",
+      "track": 10,
+      "longitude": 32.142857142857146,
+      "latitude": 55.898925088212714,
+      "reference": 0.7404959697512776,
+      "P": 0.748829303084611,
+      "R5": 0.748829303084611
+    }
+  ],
+  "source_fields_unchanged": true,
+  "scalar_limits_hPa": [
+    -35,
+    35
+  ],
+  "numerical_results_recomputed": false,
+  "source_coordinates_and_reference_projection_independently_verified": true,
+  "order_reversals_verified": [
+    {
+      "frame": 33,
+      "pair": [
+        "A",
+        "B"
+      ],
+      "P_reverses_reference": true,
+      "R5_restores_reference": true
+    },
+    {
+      "frame": 42,
+      "pair": [
+        "E",
+        "F"
+      ],
+      "P_reverses_reference": true,
+      "R5_restores_reference": true
+    }
+  ],
+  "full_event_background": "R5, explicitly labelled; the eight local panels compare all saved P/R settings",
+  "reason_for_layout": "One shared full-event locator replaces eight repeated full maps, allowing readable geographic labels and threshold panels."
+}

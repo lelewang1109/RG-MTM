@@ -1,0 +1,17 @@
+{
+  "pages": 25,
+  "pages_with_text_changes": [
+    6
+  ],
+  "updated_figure_pages": [
+    6
+  ],
+  "all_17_figures_present": true,
+  "compile_errors_or_overflows": false,
+  "status": "passed",
+  "date": "2026-10-26",
+  "main_pdf_sha256": "fd89fc3db36f9bfd1b2b9a5d39f1353d0fc9301c83e5d8d2995840b1edfc3d26",
+  "fig3_pdf_sha256": "c97a486409f07588ef5f5654728833d61805ee16b96abf502829de1c30801143",
+  "fig3_ppt_sha256": "790382de6f7fc9cd1118e85965b919262d09b6498cc5d803bb3df49ef08eb8b8",
+  "caption": "Retains four source time-step layouts; final map temporal transitions are smoothed for illustration."
+}

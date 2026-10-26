@@ -1,0 +1,53 @@
+[
+  {
+    "SNS": 0.16549917658276336,
+    "SNS_frames": 201,
+    "TW1": 0.8137063034232281,
+    "TW1_frames": 201,
+    "TD": 138.55192724387112,
+    "section_displacement": null,
+    "matched_steps": 6214,
+    "method": "ST-MTM",
+    "NROE": 21.342238139407744,
+    "NMLE_mean": 0.0,
+    "NMLE_max": 0.0,
+    "motion": {
+      "clear": 6755,
+      "errors": 4730,
+      "reversals": 1775,
+      "misses": 2955,
+      "error_fraction": 0.7002220577350111,
+      "display_threshold": "2% occupied anchor range"
+    }
+  },
+  {
+    "SNS": 0.5254709134146036,
+    "SNS_frames": 201,
+    "TW1": 0.67011908240035,
+    "TW1_frames": 201,
+    "TD": 64.85528160289711,
+    "section_displacement": null,
+    "matched_steps": 6214,
+    "method": "TMTM"
+  },
+  {
+    "SNS": 0.3571381014710945,
+    "SNS_frames": 201,
+    "TW1": 0.7271287010404421,
+    "TW1_frames": 201,
+    "TD": 158.26701558697138,
+    "section_displacement": null,
+    "matched_steps": 6214,
+    "method": "RG-MTM-P"
+  },
+  {
+    "SNS": 0.3352920393085521,
+    "SNS_frames": 201,
+    "TW1": 0.7457702006733139,
+    "TW1_frames": 201,
+    "TD": 39.70930259172502,
+    "section_displacement": null,
+    "matched_steps": 6214,
+    "method": "RG-MTM-R"
+  }
+]

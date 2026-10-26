@@ -1,0 +1,27 @@
+{
+  "status": "passed",
+  "main_pages": 26,
+  "supplement_pages": 52,
+  "checks": [
+    "Complete nine-input Table 3 text unchanged from the latest 11:45 manuscript",
+    "All 17 main figures retained with resolved references",
+    "No overfull boxes or undefined references in final logs",
+    "Current Figure 1 embeds only Arial regular/bold",
+    "Frozen scientific arrays equal the verified preview results",
+    "First page, Results case, evaluation table and added S8 rendered for QA"
+  ],
+  "documents": {
+    "Revised_RG-MTM.pdf": {
+      "pages": 26,
+      "sha256": "fb0909e7bbd6f4ee3ca65d37af879244f0dbef7622dcdaa88abe93992df74205"
+    },
+    "Revised_Supplement.pdf": {
+      "pages": 52,
+      "sha256": "cdeef2455496a1edaa6b50fab5df63af126c85efa2c26d6c172e6a24b98c4716"
+    }
+  },
+  "figure_fonts": [
+    "Arial-BoldMT",
+    "ArialMT"
+  ]
+}

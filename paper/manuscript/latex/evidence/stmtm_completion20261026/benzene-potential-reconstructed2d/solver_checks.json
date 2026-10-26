@@ -1,0 +1,561 @@
+[
+  {
+    "index": 0,
+    "projection": {
+      "primal_residual": 3.552713678800501e-15,
+      "stationarity_residual": 6.197756443963563e-14,
+      "complementarity_residual": 0.0,
+      "dual": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -6.197756443963563e-14
+      ],
+      "scale": 8.0,
+      "status": "solved"
+    },
+    "intervals": {
+      "solver": "zero-objective feasible target-width witness",
+      "objective_upper_bound": 1.2480210825599984e-28,
+      "primal_residual": 8.881784197001252e-16,
+      "stationarity_residual": 0.0,
+      "complementarity_residual": 0.0
+    }
+  },
+  {
+    "index": 1,
+    "projection": {
+      "primal_residual": 0.0,
+      "stationarity_residual": 8.08242361927114e-14,
+      "complementarity_residual": 0.0,
+      "dual": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": 9.0,
+      "status": "solved"
+    },
+    "intervals": {
+      "solver": "zero-objective feasible target-width witness",
+      "objective_upper_bound": 1.03068416747513e-28,
+      "primal_residual": 0.0,
+      "stationarity_residual": 0.0,
+      "complementarity_residual": 0.0
+    }
+  },
+  {
+    "index": 2,
+    "projection": {
+      "primal_residual": 0.0,
+      "stationarity_residual": 1.687538997430238e-14,
+      "complementarity_residual": 0.0,
+      "dual": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": 9.0,
+      "status": "solved"
+    },
+    "intervals": {
+      "solver": "zero-objective feasible target-width witness",
+      "objective_upper_bound": 6.387743678619406e-28,
+      "primal_residual": 1.7763568394002505e-15,
+      "stationarity_residual": 0.0,
+      "complementarity_residual": 0.0
+    }
+  },
+  {
+    "index": 3,
+    "projection": {
+      "primal_residual": 0.0,
+      "stationarity_residual": 1.7763568394002505e-15,
+      "complementarity_residual": 0.0,
+      "dual": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -0.10370138097622415,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": 19.0,
+      "status": "solved"
+    },
+    "intervals": {
+      "solver": "zero-objective feasible target-width witness",
+      "objective_upper_bound": 2.2297677042913193e-30,
+      "primal_residual": 8.881784197001252e-16,
+      "stationarity_residual": 0.0,
+      "complementarity_residual": 0.0
+    }
+  },
+  {
+    "index": 4,
+    "projection": {
+      "primal_residual": 0.0,
+      "stationarity_residual": 1.7763568394002505e-15,
+      "complementarity_residual": 0.0,
+      "dual": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -0.13003226856869718,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": 19.0,
+      "status": "solved"
+    },
+    "intervals": {
+      "solver": "zero-objective feasible target-width witness",
+      "objective_upper_bound": 5.192841457582668e-30,
+      "primal_residual": 1.7763568394002505e-15,
+      "stationarity_residual": 0.0,
+      "complementarity_residual": 0.0
+    }
+  },
+  {
+    "index": 5,
+    "projection": {
+      "primal_residual": 0.0,
+      "stationarity_residual": 6.661338147750939e-16,
+      "complementarity_residual": 0.0,
+      "dual": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -0.16109154397579437,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": 19.0,
+      "status": "solved"
+    },
+    "intervals": {
+      "solver": "zero-objective feasible target-width witness",
+      "objective_upper_bound": 1.108541364738591e-29,
+      "primal_residual": 1.7763568394002505e-15,
+      "stationarity_residual": 0.0,
+      "complementarity_residual": 0.0
+    }
+  },
+  {
+    "index": 6,
+    "projection": {
+      "primal_residual": 0.0,
+      "stationarity_residual": 3.8427816484443156e-11,
+      "complementarity_residual": 0.0,
+      "dual": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": 19.0,
+      "status": "solved"
+    },
+    "intervals": {
+      "solver": "zero-objective feasible target-width witness",
+      "objective_upper_bound": 1.5937334020895833e-29,
+      "primal_residual": 1.7763568394002505e-15,
+      "stationarity_residual": 0.0,
+      "complementarity_residual": 0.0
+    }
+  },
+  {
+    "index": 7,
+    "projection": {
+      "primal_residual": 0.0,
+      "stationarity_residual": 4.440892098500626e-16,
+      "complementarity_residual": 0.0,
+      "dual": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -0.26767981868701596,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": 19.0,
+      "status": "solved"
+    },
+    "intervals": {
+      "solver": "zero-objective feasible target-width witness",
+      "objective_upper_bound": 1.631856043932718e-29,
+      "primal_residual": 1.7763568394002505e-15,
+      "stationarity_residual": 0.0,
+      "complementarity_residual": 0.0
+    }
+  },
+  {
+    "index": 8,
+    "projection": {
+      "primal_residual": 0.0,
+      "stationarity_residual": 1.7763568394002505e-15,
+      "complementarity_residual": 0.0,
+      "dual": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -0.1845368633135523,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": 19.0,
+      "status": "solved"
+    },
+    "intervals": {
+      "solver": "zero-objective feasible target-width witness",
+      "objective_upper_bound": 9.546292464026013e-31,
+      "primal_residual": 8.881784197001252e-16,
+      "stationarity_residual": 0.0,
+      "complementarity_residual": 0.0
+    }
+  },
+  {
+    "index": 9,
+    "projection": {
+      "primal_residual": 0.0,
+      "stationarity_residual": 1.7763568394002505e-15,
+      "complementarity_residual": 0.0,
+      "dual": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -0.18032650924636165,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": 19.0,
+      "status": "solved"
+    },
+    "intervals": {
+      "solver": "zero-objective feasible target-width witness",
+      "objective_upper_bound": 4.623169652056272e-30,
+      "primal_residual": 8.881784197001252e-16,
+      "stationarity_residual": 0.0,
+      "complementarity_residual": 0.0
+    }
+  },
+  {
+    "index": 10,
+    "projection": {
+      "primal_residual": 0.0,
+      "stationarity_residual": 1.7763568394002505e-15,
+      "complementarity_residual": 0.0,
+      "dual": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -0.18457297806569775,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": 19.0,
+      "status": "solved"
+    },
+    "intervals": {
+      "solver": "zero-objective feasible target-width witness",
+      "objective_upper_bound": 1.0565756985616599e-29,
+      "primal_residual": 1.7763568394002505e-15,
+      "stationarity_residual": 0.0,
+      "complementarity_residual": 0.0
+    }
+  },
+  {
+    "index": 11,
+    "projection": {
+      "primal_residual": 0.0,
+      "stationarity_residual": 1.7763568394002505e-15,
+      "complementarity_residual": 0.0,
+      "dual": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -0.1803265092463616,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": 19.0,
+      "status": "solved"
+    },
+    "intervals": {
+      "solver": "zero-objective feasible target-width witness",
+      "objective_upper_bound": 4.623169652056272e-30,
+      "primal_residual": 8.881784197001252e-16,
+      "stationarity_residual": 0.0,
+      "complementarity_residual": 0.0
+    }
+  },
+  {
+    "index": 12,
+    "projection": {
+      "primal_residual": 0.0,
+      "stationarity_residual": 1.7763568394002505e-15,
+      "complementarity_residual": 0.0,
+      "dual": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -0.1845368633135525,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": 19.0,
+      "status": "solved"
+    },
+    "intervals": {
+      "solver": "zero-objective feasible target-width witness",
+      "objective_upper_bound": 9.546292464026013e-31,
+      "primal_residual": 8.881784197001252e-16,
+      "stationarity_residual": 0.0,
+      "complementarity_residual": 0.0
+    }
+  },
+  {
+    "index": 13,
+    "projection": {
+      "primal_residual": 0.0,
+      "stationarity_residual": 1.7763568394002505e-15,
+      "complementarity_residual": 0.0,
+      "dual": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -0.1806878965054448,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": 19.0,
+      "status": "solved"
+    },
+    "intervals": {
+      "solver": "zero-objective feasible target-width witness",
+      "objective_upper_bound": 1.6252763733833382e-29,
+      "primal_residual": 1.7763568394002505e-15,
+      "stationarity_residual": 0.0,
+      "complementarity_residual": 0.0
+    }
+  },
+  {
+    "index": 14,
+    "projection": {
+      "primal_residual": 0.0,
+      "stationarity_residual": 3.813660498508398e-11,
+      "complementarity_residual": 0.0,
+      "dual": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": 19.0,
+      "status": "solved"
+    },
+    "intervals": {
+      "solver": "zero-objective feasible target-width witness",
+      "objective_upper_bound": 1.5937334020895833e-29,
+      "primal_residual": 1.7763568394002505e-15,
+      "stationarity_residual": 0.0,
+      "complementarity_residual": 0.0
+    }
+  },
+  {
+    "index": 15,
+    "projection": {
+      "primal_residual": 0.0,
+      "stationarity_residual": 1.7763568394002505e-15,
+      "complementarity_residual": 0.0,
+      "dual": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -0.24808346615737822,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": 19.0,
+      "status": "solved"
+    },
+    "intervals": {
+      "solver": "zero-objective feasible target-width witness",
+      "objective_upper_bound": 1.1012176947899066e-29,
+      "primal_residual": 0.0,
+      "stationarity_residual": 0.0,
+      "complementarity_residual": 0.0
+    }
+  },
+  {
+    "index": 16,
+    "projection": {
+      "primal_residual": 0.0,
+      "stationarity_residual": 8.881784197001252e-16,
+      "complementarity_residual": 0.0,
+      "dual": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -0.13003226856869698,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": 19.0,
+      "status": "solved"
+    },
+    "intervals": {
+      "solver": "zero-objective feasible target-width witness",
+      "objective_upper_bound": 5.192841457582668e-30,
+      "primal_residual": 1.7763568394002505e-15,
+      "stationarity_residual": 0.0,
+      "complementarity_residual": 0.0
+    }
+  },
+  {
+    "index": 17,
+    "projection": {
+      "primal_residual": 0.0,
+      "stationarity_residual": 1.7763568394002505e-15,
+      "complementarity_residual": 0.0,
+      "dual": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -0.10359819131890975,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": 19.0,
+      "status": "solved"
+    },
+    "intervals": {
+      "solver": "zero-objective feasible target-width witness",
+      "objective_upper_bound": 2.2297677042913193e-30,
+      "primal_residual": 8.881784197001252e-16,
+      "stationarity_residual": 0.0,
+      "complementarity_residual": 0.0
+    }
+  },
+  {
+    "index": 18,
+    "projection": {
+      "primal_residual": 0.0,
+      "stationarity_residual": 2.4868995751603507e-14,
+      "complementarity_residual": 0.0,
+      "dual": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": 9.0,
+      "status": "solved"
+    },
+    "intervals": {
+      "solver": "zero-objective feasible target-width witness",
+      "objective_upper_bound": 6.387743678619406e-28,
+      "primal_residual": 1.7763568394002505e-15,
+      "stationarity_residual": 0.0,
+      "complementarity_residual": 0.0
+    }
+  },
+  {
+    "index": 19,
+    "projection": {
+      "primal_residual": 0.0,
+      "stationarity_residual": 9.457387130373807e-14,
+      "complementarity_residual": 0.0,
+      "dual": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": 9.0,
+      "status": "solved"
+    },
+    "intervals": {
+      "solver": "zero-objective feasible target-width witness",
+      "objective_upper_bound": 9.22563152947269e-28,
+      "primal_residual": 1.7763568394002505e-15,
+      "stationarity_residual": 0.0,
+      "complementarity_residual": 0.0
+    }
+  },
+  {
+    "index": 20,
+    "projection": {
+      "primal_residual": 0.0,
+      "stationarity_residual": 1.1536865213157554e-13,
+      "complementarity_residual": 0.0,
+      "dual": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": 9.0,
+      "status": "solved"
+    },
+    "intervals": {
+      "solver": "zero-objective feasible target-width witness",
+      "objective_upper_bound": 1.2480210825599984e-28,
+      "primal_residual": 8.881784197001252e-16,
+      "stationarity_residual": 0.0,
+      "complementarity_residual": 0.0
+    }
+  }
+]

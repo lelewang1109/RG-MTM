@@ -1,5 +1,5 @@
 path,bytes,included
-data/README.md,1581,True
+data/README.md,1833,True
 data/real/paper1_suite/sequence_winterstormsdec1999_smoothing.inv,9836024,False
 data/real/paper1_suite/sequence_benzene101_minima.inv,987544,False
 data/real/paper1_suite/dataset_nucleon_slice_timing.inv,111702,False
@@ -430,7 +430,7 @@ data/real/paper1_suite/square-cylinder3d/input_030.npy,1659008,False
 data/real/paper1_suite/square-cylinder3d/input_018.npy,1659008,False
 data/real/paper1_suite/square-cylinder3d/input_026.npy,1659008,False
 data/real/paper1_suite/square-cylinder3d/input_032.npy,1659008,False
-data/real/paper1_suite/square-cylinder3d/coordinates.npz,2700,False
+data/real/paper1_suite/square-cylinder3d/coordinates.npz,2700,True
 data/real/paper1_suite/square-cylinder3d/input_033.npy,1659008,False
 data/real/paper1_suite/square-cylinder3d/input_027.npy,1659008,False
 data/real/paper1_suite/square-cylinder3d/input_023.npy,1659008,False

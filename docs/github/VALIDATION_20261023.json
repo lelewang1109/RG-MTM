@@ -1,0 +1,252 @@
+{
+  "date": "2026-10-23",
+  "code_tests": {
+    "passed": 43
+  },
+  "saved_submission_tables": "passed",
+  "independent_full_scientific_rerun": false,
+  "source_zip_integrity": "passed",
+  "source_zip_matches_all_current_tex": "passed",
+  "figure_catalog": "passed",
+  "main_figures": 14,
+  "supplementary_figures": 18,
+  "documents": [
+    {
+      "path": "paper/manuscript/Revised_RG-MTM.pdf",
+      "pages": 19,
+      "sha256": "e7fe97eaa17ca05db0ac1e11a0ee44e3db8c887736359dc2d52d4eba6f8a3180"
+    },
+    {
+      "path": "paper/manuscript/Revised_Supplement.pdf",
+      "pages": 48,
+      "sha256": "04e8c26c4153df2bfa520588a1f85230f295c6ad35fa4faec14ef1b67400778b"
+    }
+  ],
+  "release_assets": {
+    "RG-MTM_LaTeX.zip": {
+      "bytes": 152566275,
+      "sha256": "ca6c6fb8c1066de0ccd083133f93906351cf262aa238e79a589cdc2413c667d5"
+    }
+  },
+  "local_comprehensive_paper_audit": {
+    "date": "2026-10-23",
+    "scientific_optimization_rerun": "annual PM2.5 only",
+    "previous_version_preserved_byte_identical": true,
+    "preserved_scientific_evidence_files": 244,
+    "figures_1_to_4_byte_identical": true,
+    "unchanged_original_figures": [
+      1,
+      2,
+      3,
+      4,
+      6,
+      8,
+      9
+    ],
+    "authorized_revised_figures": [
+      5,
+      7,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "annual_pm25_verified": true,
+    "pm25_source_linked_case": {
+      "status": "passed",
+      "frames": 366,
+      "case_frame": 195,
+      "case_date": "2000-07-14",
+      "eligible_frames": [
+        185,
+        186,
+        195,
+        196,
+        317
+      ],
+      "source_hashes_verified": true,
+      "independent_annual_direction": [
+        -0.5625940065174558,
+        0.8267333208663099
+      ],
+      "unchanged_scientific_arrays": true,
+      "reference_verified_all_frames": true,
+      "displayed_anchor_error": {
+        "P": 0.14880906339640654,
+        "R20": 0.008373065523806122
+      },
+      "measured_NMLE_case": 0.011192097482450621,
+      "measured_NMLE_window_max": 0.03332004115957044,
+      "C_anchor_changes": [
+        {
+          "method": "reference",
+          "change_L": 0.016242574123531917
+        },
+        {
+          "method": "P",
+          "change_L": -0.3184371184371184
+        },
+        {
+          "method": "R20",
+          "change_L": 0.03272283272283272
+        }
+      ],
+      "former_figures_preserved_except_authorized_later_display_revisions": true,
+      "former_Fig13_preserved_as_Fig14": true
+    },
+    "wildfire_geographic_display": {
+      "status": "passed",
+      "source_hashes_verified": true,
+      "source_aggregation_exact": true,
+      "analysis_input_unchanged": true,
+      "native_polygons_exact": true,
+      "positive_native_cells": [
+        283,
+        221,
+        206
+      ],
+      "positive_binned_cells": [
+        141,
+        120,
+        111
+      ],
+      "marker_projections_verified": 18,
+      "profiles_and_pair_levels_unchanged": true,
+      "original_panels_a_b_preserved_objects": 76,
+      "other_figure_files_byte_identical": 105,
+      "interpretation": "Detected FRP cell records and declared smoothed analysis field are distinct. No burn perimeter inferred."
+    },
+    "conservative_temporal_display": {
+      "status": "passed",
+      "source_files_unchanged": 418,
+      "temporal_panels_verified": 28,
+      "complete_saved_frame_profile_columns_verified": 1918,
+      "pixel_rows_compared": 874752,
+      "integer_frame_pixels_exact_after_area_antialiasing": true,
+      "no_scalar_overshoot": true,
+      "all_native_slide_objects_byte_identical": true,
+      "source_views_and_marker_coordinates_preserved": true,
+      "wildfire_actual_cell_geometries_unchanged": true,
+      "cylinder_projection_original_centers_exact": 6480,
+      "other_figure_files_byte_identical": 105,
+      "figures_1_to_4_byte_identical": true,
+      "scientific_arrays_and_metrics_unchanged": true,
+      "changed_package_parts": {
+        "Fig7": [
+          "ppt/media/preserved_top_50001.png",
+          "ppt/media/preserved_top_50002.png",
+          "ppt/media/preserved_top_50003.png",
+          "ppt/media/preserved_top_50004.png",
+          "ppt/notesSlides/notesSlide1.xml"
+        ],
+        "Fig10": [
+          "ppt/media/image3.png",
+          "ppt/media/image4.png",
+          "ppt/media/image5.png",
+          "ppt/media/image6.png",
+          "ppt/notesSlides/notesSlide1.xml"
+        ],
+        "Fig11": [
+          "ppt/media/image2.png",
+          "ppt/media/image4.png",
+          "ppt/notesSlides/notesSlide1.xml",
+          "ppt/submission_case/ppt/media/image.png"
+        ],
+        "Supplement_Wildfires_Comparison": [
+          "ppt/media/image.png",
+          "ppt/media/image2.png",
+          "ppt/media/image3.png",
+          "ppt/media/image4.png",
+          "ppt/media/image5.png",
+          "ppt/media/image6.png",
+          "ppt/media/image7.png",
+          "ppt/media/image8.png",
+          "ppt/notesSlides/notesSlide1.xml"
+        ],
+        "Supplement_Tangaroa_Comparison": [
+          "ppt/media/image.png",
+          "ppt/media/image2.png",
+          "ppt/media/image3.png",
+          "ppt/media/image4.png",
+          "ppt/media/image5.png",
+          "ppt/media/image6.png",
+          "ppt/notesSlides/notesSlide1.xml"
+        ],
+        "Supplement_Cylinder_Comparison": [
+          "ppt/media/image.png",
+          "ppt/media/image2.png",
+          "ppt/media/image3.png",
+          "ppt/media/image4.png",
+          "ppt/notesSlides/notesSlide1.xml"
+        ]
+      }
+    },
+    "population": {
+      "frames": 614,
+      "active_planar_datasets": [
+        "era5",
+        "wildfire",
+        "olr",
+        "pm25",
+        "ring"
+      ],
+      "frontier": {
+        "era5": {
+          "frames": 118,
+          "on_frontier_R20": 118,
+          "conflict_frames": 40
+        },
+        "wildfire": {
+          "frames": 30,
+          "on_frontier_R20": 28,
+          "conflict_frames": 19
+        },
+        "olr": {
+          "frames": 60,
+          "on_frontier_R20": 60,
+          "conflict_frames": 7
+        },
+        "pm25": {
+          "frames": 366,
+          "on_frontier_R20": 366,
+          "conflict_frames": 36
+        },
+        "ring": {
+          "frames": 40,
+          "on_frontier_R20": 39,
+          "conflict_frames": 21
+        }
+      },
+      "R20_on_frontier": 611,
+      "conflict_frames_total": 123,
+      "primary_datasets": 9,
+      "temporal_frames": 917,
+      "static_sections": 22
+    },
+    "all_nine_inputs_in_dataset_and_result_tables_without_static_separator": true,
+    "main_figures": 14,
+    "supplementary_figures": 18,
+    "documents": [
+      {
+        "file": "manuscript/Revised_RG-MTM.pdf",
+        "pages": 19,
+        "sha256": "e7fe97eaa17ca05db0ac1e11a0ee44e3db8c887736359dc2d52d4eba6f8a3180"
+      },
+      {
+        "file": "manuscript/Revised_Supplement.pdf",
+        "pages": 48,
+        "sha256": "04e8c26c4153df2bfa520588a1f85230f295c6ad35fa4faec14ef1b67400778b"
+      }
+    ],
+    "source_package_matches_current_sources_and_figures": true
+  },
+  "pdf_visual_review": "Main cover and pages containing revised Figures 7, 10, 11, plus supplement cover inspected; no clipping detected.",
+  "publishing_documentation_edits": [
+    "Repository navigation and source-package links",
+    "LaTeX README figure count corrected to current catalog"
+  ],
+  "ci_dependency_fix": "Complete existing tests import optional 3D dependencies; CI and documented test installation include code[volume3d].",
+  "historical_audit_path_fix": "Historical absolute source keys are relocated to this checkout before checking their unchanged SHA256; no fallback to the original computer.",
+  "historical_authoring_identity": "Original source snapshot and exact before/after hashes retained in code/provenance/github_portability_20261023.json; frozen manifests unchanged."
+}

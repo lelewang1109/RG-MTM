@@ -1,32 +1,39 @@
-> 当前主线（2026-10-26）：[统一体系说明](../docs/统一体系贡献说明_20261025.md)。同模型实验为code/experiments/unified/，结果为unified20261025；旧framework20261025是独立连续前沿实验。原生方法不再作为“切换构造模式”的统一贡献。
+# RG-MTM代码与可复现证据
 
-# RG-MTM 代码与可复现证据
+完整仓库的 [总README](../README.md) 和 [目录导读](../docs/DIRECTORY_GUIDE.md) 是阅读入口。本目录负责方法实现、实验与保存结果；当前论文在 [paper/](../paper/README.md)。
 
-2026-10-25 的独立连续前沿实验入口：[预算化体系实验](experiments/framework/README.md)，实现为 `src/rgmtm/framework.py`，新结果为 `results/framework20261025/`。原 P/R、九数据与 3D 结果保留为单独构造模式的证据，不作为新 LP witness 的时序/运动测试。
+## 当前入口
 
-本目录保留独立 Git 仓库。当前论文编辑入口在 [../paper](../paper/README.md)，`paper` 兼容链接指向同一当前 LaTeX 源码。旧 `publications/` 无图 PDF 已移出本次投稿目录。
-
-| 目录 | 作用 |
+| 目录或文件 | 职责 |
 |---|---|
-| `src/rgmtm/` | RG-MTM-P/R、参考点、误差预算与 TMTM/ST-MTM/空间填充曲线基线 |
-| `analysis/` | 理论证书、数据处理、指标及作图共用模块；存在互相导入，作为完整依赖集合保留 |
-| `experiments/publication2027/` | 历史五个二维时序278帧运行入口（当前年度替换另见tools/run_pm25_annual.py）、64帧独立控制；原六序列342帧冻结证据标明为legacy，见 [复现说明](experiments/publication2027/REPRODUCING.md) |
-| [results/submission20261023](results/submission20261023/README.md) | 当前投稿九数据统一指标、四张主表与细化配置；917时序帧和22静态切片分开计数 |
-| `experiments/volume3d/` | 原网格 Tangaroa 201帧及三维合成补充研究 |
-| `experiments/paper1_suite/` | Nucleon、二维重建 Benzene、三维方柱 Cylinder 的正式输入/实验/验证 |
-| `experiments/baseline_audit/` | 基线设置及原始实现核对 |
-| [results](results/README.md) | 正文/附录源结果、冻结快照和必要复现凭据 |
-| [data](data/README.md) | 指向同一 `../data` 实体的本地链接与小型地理资产 |
-| `tests/` | 已有数值、渲染、输入协议和三维测试 |
-| `tmp/volume3d/` | 必要保留的固定版本 TTK 源码、编译环境与二进制；其余临时文件已归档 |
-| `provenance/` | 可逆源代码变更及原始数值哈希的溯源记录 |
+| `src/rgmtm/unified.py` | 共同四项QP、候选过滤、时间目标与共享布局 |
+| `src/rgmtm/framework.py` | 连续合并代价、位置可行性与预算工具 |
+| `src/rgmtm/error_budget.py` | 区间约束、固定序与预算布局基础 |
+| `src/rgmtm/baselines/` | 独立TMTM/ST-MTM/空间填充基线 |
+| [experiments/unified](experiments/unified/README.md) | 614帧×5设置的共同模型实验 |
+| [experiments/framework](experiments/framework/README.md) | 独立连续前沿、反向查询与603/11覆盖 |
+| [experiments/stmtm_completion](experiments/stmtm_completion/README.md) | 四组共325个新增ST-MTM布局、当前九数据总表 |
+| `analysis/` | 证书、处理、指标与作图共用模块 |
+| `results/` | 带实验身份的保存输出与核验记录 |
+| `tests/` | 数值、渲染与输入协议测试 |
+| `provenance/` | 冻结哈希、历史源码身份与迁移记录 |
+| `data/` | 指向仓库data目录的相对链接和小型地理资产 |
 
-在本目录运行轻量复核：
+既有P/R、三维、静态和historical运行保留为不同证据。`submission20261023` 与 `publication2027` 是旧快照身份，不代表当前共同模型或补全表重新运行。
+
+## 安装和核验
+
+先按根README安装 `code/pyproject.toml`。从仓库根目录执行：
 
 ```sh
-PYTHONPATH=src ../../.venv/bin/python -m unittest discover -s tests -v
-PYTHONPATH=src ../../.venv/bin/python experiments/publication2027/validate.py
-PYTHONPATH=src ../../.venv/bin/python tools/verify_rgmtm_migration.py
+PYTHONPATH=code/src .venv/bin/python -m unittest discover -s code/tests -v
+.venv/bin/python paper/scripts/verify_unified_revision.py --numerical-only
 ```
 
-这些检查验证已存证据与实现，不会重跑整套科学实验。当前主结果、冻结数值和必要旧图源各有不同角色；阅读 [研究证据边界](../docs/研究证据边界与补充研究.md)，避免把不同实验总体或旧试跑混为同一比较。
+四组新增ST-MTM另需 `experiments/stmtm_completion/requirements.txt`；其验证脚本独立读取完整剖面、输入清单及坐标。原始体数据的获取与计算可能需要TTK等额外依赖。保存结果核验不是从头重跑全部实验。
+
+## 结果选择
+
+当前总表：`results/stmtm_completion20261026/unified_metrics.csv`。共同模型实验：`results/unified20261025/`。独立前沿：`results/framework20261025/`。详细对应见 [results/README](results/README.md)。
+
+历史表生成器的 `--check` 同时绑定旧版论文表，在当前稿上不直接运行。GitHub使用 `python tools/verify_historical_snapshot.py` 重建历史数值摘要并核验冻结文件；不使用旧导出覆盖当前补全表。当前论文修改和图件同步见 [操作流程](../docs/EDITING_AND_REPRODUCING.md)。

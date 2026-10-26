@@ -1,0 +1,1627 @@
+[
+  {
+    "dataset": "Nucleon",
+    "index": 0,
+    "Eq2_relative_width_loss": 2.565834808359848e-32
+  },
+  {
+    "dataset": "Benzene",
+    "index": 0,
+    "Eq2_relative_width_loss": 1.2480210825599984e-28
+  },
+  {
+    "dataset": "Benzene",
+    "index": 1,
+    "Eq2_relative_width_loss": 1.03068416747513e-28
+  },
+  {
+    "dataset": "Benzene",
+    "index": 2,
+    "Eq2_relative_width_loss": 6.387743678619406e-28
+  },
+  {
+    "dataset": "Benzene",
+    "index": 3,
+    "Eq2_relative_width_loss": 2.2297677042913193e-30
+  },
+  {
+    "dataset": "Benzene",
+    "index": 4,
+    "Eq2_relative_width_loss": 5.192841457582668e-30
+  },
+  {
+    "dataset": "Benzene",
+    "index": 5,
+    "Eq2_relative_width_loss": 1.108541364738591e-29
+  },
+  {
+    "dataset": "Benzene",
+    "index": 6,
+    "Eq2_relative_width_loss": 1.5937334020895833e-29
+  },
+  {
+    "dataset": "Benzene",
+    "index": 7,
+    "Eq2_relative_width_loss": 1.631856043932718e-29
+  },
+  {
+    "dataset": "Benzene",
+    "index": 8,
+    "Eq2_relative_width_loss": 9.546292464026013e-31
+  },
+  {
+    "dataset": "Benzene",
+    "index": 9,
+    "Eq2_relative_width_loss": 4.623169652056272e-30
+  },
+  {
+    "dataset": "Benzene",
+    "index": 10,
+    "Eq2_relative_width_loss": 1.0565756985616599e-29
+  },
+  {
+    "dataset": "Benzene",
+    "index": 11,
+    "Eq2_relative_width_loss": 4.623169652056272e-30
+  },
+  {
+    "dataset": "Benzene",
+    "index": 12,
+    "Eq2_relative_width_loss": 9.546292464026013e-31
+  },
+  {
+    "dataset": "Benzene",
+    "index": 13,
+    "Eq2_relative_width_loss": 1.6252763733833382e-29
+  },
+  {
+    "dataset": "Benzene",
+    "index": 14,
+    "Eq2_relative_width_loss": 1.5937334020895833e-29
+  },
+  {
+    "dataset": "Benzene",
+    "index": 15,
+    "Eq2_relative_width_loss": 1.1012176947899066e-29
+  },
+  {
+    "dataset": "Benzene",
+    "index": 16,
+    "Eq2_relative_width_loss": 5.192841457582668e-30
+  },
+  {
+    "dataset": "Benzene",
+    "index": 17,
+    "Eq2_relative_width_loss": 2.2297677042913193e-30
+  },
+  {
+    "dataset": "Benzene",
+    "index": 18,
+    "Eq2_relative_width_loss": 6.387743678619406e-28
+  },
+  {
+    "dataset": "Benzene",
+    "index": 19,
+    "Eq2_relative_width_loss": 9.22563152947269e-28
+  },
+  {
+    "dataset": "Benzene",
+    "index": 20,
+    "Eq2_relative_width_loss": 1.2480210825599984e-28
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 0,
+    "Eq2_relative_width_loss": 2.476956131830415e-19
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 1,
+    "Eq2_relative_width_loss": 5.0734091438266446e-18
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 2,
+    "Eq2_relative_width_loss": 2.598876013153124e-18
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 3,
+    "Eq2_relative_width_loss": 4.085400564709044e-19
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 4,
+    "Eq2_relative_width_loss": 2.4206725728883014e-18
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 5,
+    "Eq2_relative_width_loss": 1.3696120082708376e-19
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 6,
+    "Eq2_relative_width_loss": 2.1207461602330766e-18
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 7,
+    "Eq2_relative_width_loss": 2.604807366362513e-20
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 8,
+    "Eq2_relative_width_loss": 3.97307017110299e-18
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 9,
+    "Eq2_relative_width_loss": 4.943755040800301e-18
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 10,
+    "Eq2_relative_width_loss": 1.5477873314313759e-18
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 11,
+    "Eq2_relative_width_loss": 6.3260846852819645e-18
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 12,
+    "Eq2_relative_width_loss": 5.567507057407969e-18
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 13,
+    "Eq2_relative_width_loss": 9.039855273713758e-18
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 14,
+    "Eq2_relative_width_loss": 1.0850108447265863e-17
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 15,
+    "Eq2_relative_width_loss": 8.65856115322834e-18
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 16,
+    "Eq2_relative_width_loss": 6.198813630453164e-18
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 17,
+    "Eq2_relative_width_loss": 3.3287333823918292e-18
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 18,
+    "Eq2_relative_width_loss": 4.674856294541121e-18
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 19,
+    "Eq2_relative_width_loss": 3.4026120836683586e-19
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 20,
+    "Eq2_relative_width_loss": 3.237981856118668e-19
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 21,
+    "Eq2_relative_width_loss": 7.027192004512102e-18
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 22,
+    "Eq2_relative_width_loss": 2.9246695812965465e-18
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 23,
+    "Eq2_relative_width_loss": 2.4485405908465946e-18
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 24,
+    "Eq2_relative_width_loss": 3.8953034446014044e-19
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 25,
+    "Eq2_relative_width_loss": 2.6860317772298307e-18
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 26,
+    "Eq2_relative_width_loss": 1.962797607106999e-18
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 27,
+    "Eq2_relative_width_loss": 6.996032714054426e-18
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 28,
+    "Eq2_relative_width_loss": 3.432227379757231e-18
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 29,
+    "Eq2_relative_width_loss": 4.657380649377681e-18
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 30,
+    "Eq2_relative_width_loss": 9.306237766185856e-19
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 31,
+    "Eq2_relative_width_loss": 3.771271147611015e-20
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 32,
+    "Eq2_relative_width_loss": 1.593652512885317e-18
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 33,
+    "Eq2_relative_width_loss": 1.6425148419680377e-18
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 34,
+    "Eq2_relative_width_loss": 2.0405814940360443e-18
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 35,
+    "Eq2_relative_width_loss": 5.932489884345184e-19
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 36,
+    "Eq2_relative_width_loss": 1.1368983239236992e-18
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 37,
+    "Eq2_relative_width_loss": 1.501639675571825e-18
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 38,
+    "Eq2_relative_width_loss": 3.95827293011619e-19
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 39,
+    "Eq2_relative_width_loss": 1.4006867595623513e-18
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 40,
+    "Eq2_relative_width_loss": 2.0891305219329074e-19
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 41,
+    "Eq2_relative_width_loss": 4.2653206376843186e-19
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 42,
+    "Eq2_relative_width_loss": 2.6086112307834936e-18
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 43,
+    "Eq2_relative_width_loss": 3.499169102860243e-18
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 44,
+    "Eq2_relative_width_loss": 3.853482506479781e-18
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 45,
+    "Eq2_relative_width_loss": 3.297065466152333e-18
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 46,
+    "Eq2_relative_width_loss": 6.505120618819736e-19
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 47,
+    "Eq2_relative_width_loss": 5.733852457468014e-19
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 48,
+    "Eq2_relative_width_loss": 1.4662258995515194e-18
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 49,
+    "Eq2_relative_width_loss": 3.5866113143231055e-19
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 50,
+    "Eq2_relative_width_loss": 1.1431676068222268e-18
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 51,
+    "Eq2_relative_width_loss": 5.849320664847589e-19
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 52,
+    "Eq2_relative_width_loss": 9.509381585349851e-19
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 53,
+    "Eq2_relative_width_loss": 6.54163234640531e-20
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 54,
+    "Eq2_relative_width_loss": 4.777707558316024e-19
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 55,
+    "Eq2_relative_width_loss": 2.4324246953845284e-18
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 56,
+    "Eq2_relative_width_loss": 1.8476374897650265e-18
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 57,
+    "Eq2_relative_width_loss": 3.4598932318462554e-18
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 58,
+    "Eq2_relative_width_loss": 3.877608578740031e-18
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 59,
+    "Eq2_relative_width_loss": 9.285529038974383e-18
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 60,
+    "Eq2_relative_width_loss": 2.768551929544205e-17
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 61,
+    "Eq2_relative_width_loss": 1.6041685701308333e-18
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 62,
+    "Eq2_relative_width_loss": 4.1749262095753065e-17
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 63,
+    "Eq2_relative_width_loss": 2.617448012296918e-17
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 64,
+    "Eq2_relative_width_loss": 2.370041807977527e-17
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 65,
+    "Eq2_relative_width_loss": 3.130287666486871e-17
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 66,
+    "Eq2_relative_width_loss": 2.5521891984257054e-18
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 67,
+    "Eq2_relative_width_loss": 3.751894857102892e-18
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 68,
+    "Eq2_relative_width_loss": 2.3401270931907532e-17
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 69,
+    "Eq2_relative_width_loss": 1.0903560974143708e-18
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 70,
+    "Eq2_relative_width_loss": 8.402299480607203e-18
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 71,
+    "Eq2_relative_width_loss": 2.747635420535732e-17
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 72,
+    "Eq2_relative_width_loss": 7.93776381010616e-18
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 73,
+    "Eq2_relative_width_loss": 1.3271424225127395e-18
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 74,
+    "Eq2_relative_width_loss": 8.00146423129682e-19
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 75,
+    "Eq2_relative_width_loss": 3.589657482609908e-17
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 76,
+    "Eq2_relative_width_loss": 3.8961475391158635e-17
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 77,
+    "Eq2_relative_width_loss": 1.426480652353962e-18
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 78,
+    "Eq2_relative_width_loss": 4.2339456771026377e-17
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 79,
+    "Eq2_relative_width_loss": 3.343227726052283e-17
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 80,
+    "Eq2_relative_width_loss": 2.6735932243748593e-17
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 81,
+    "Eq2_relative_width_loss": 4.0496089157920615e-17
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 82,
+    "Eq2_relative_width_loss": 2.971974096121578e-17
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 83,
+    "Eq2_relative_width_loss": 2.765861072086433e-17
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 84,
+    "Eq2_relative_width_loss": 5.9871570121325446e-18
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 85,
+    "Eq2_relative_width_loss": 5.630963063147612e-18
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 86,
+    "Eq2_relative_width_loss": 2.360463411139008e-17
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 87,
+    "Eq2_relative_width_loss": 1.2180747511548331e-17
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 88,
+    "Eq2_relative_width_loss": 2.4580814679297897e-17
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 89,
+    "Eq2_relative_width_loss": 6.1218261641546455e-18
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 90,
+    "Eq2_relative_width_loss": 9.454396213392864e-18
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 91,
+    "Eq2_relative_width_loss": 5.840403968503631e-17
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 92,
+    "Eq2_relative_width_loss": 2.9618251202760176e-17
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 93,
+    "Eq2_relative_width_loss": 3.359651074322376e-17
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 94,
+    "Eq2_relative_width_loss": 3.920495254087693e-18
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 95,
+    "Eq2_relative_width_loss": 6.4492080278076145e-18
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 96,
+    "Eq2_relative_width_loss": 2.6494485396427358e-17
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 97,
+    "Eq2_relative_width_loss": 3.4390795258589987e-17
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 98,
+    "Eq2_relative_width_loss": 1.0393092700015484e-16
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 99,
+    "Eq2_relative_width_loss": 8.896521638336862e-18
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 100,
+    "Eq2_relative_width_loss": 2.3433954674551285e-17
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 101,
+    "Eq2_relative_width_loss": 3.143468994893974e-17
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 102,
+    "Eq2_relative_width_loss": 8.133024911073765e-17
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 103,
+    "Eq2_relative_width_loss": 2.4485202589848508e-17
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 104,
+    "Eq2_relative_width_loss": 2.8030726239072657e-20
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 105,
+    "Eq2_relative_width_loss": 3.335936863875111e-17
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 106,
+    "Eq2_relative_width_loss": 3.613865370232054e-17
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 107,
+    "Eq2_relative_width_loss": 4.60809573927883e-18
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 108,
+    "Eq2_relative_width_loss": 2.805813551994319e-17
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 109,
+    "Eq2_relative_width_loss": 3.977775033634278e-17
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 110,
+    "Eq2_relative_width_loss": 8.853567007632868e-18
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 111,
+    "Eq2_relative_width_loss": 9.759719927483824e-17
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 112,
+    "Eq2_relative_width_loss": 1.1040884654076055e-17
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 113,
+    "Eq2_relative_width_loss": 1.3629192713110578e-17
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 114,
+    "Eq2_relative_width_loss": 7.255452055481691e-17
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 115,
+    "Eq2_relative_width_loss": 5.675707778306814e-19
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 116,
+    "Eq2_relative_width_loss": 4.1830569623630126e-17
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 117,
+    "Eq2_relative_width_loss": 9.734441971845135e-17
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 118,
+    "Eq2_relative_width_loss": 4.444211465207013e-17
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 119,
+    "Eq2_relative_width_loss": 1.039075664437728e-16
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 120,
+    "Eq2_relative_width_loss": 1.2029904002660458e-16
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 121,
+    "Eq2_relative_width_loss": 1.5519171524143946e-16
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 122,
+    "Eq2_relative_width_loss": 1.1604125096049794e-16
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 123,
+    "Eq2_relative_width_loss": 1.2504577442404593e-16
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 124,
+    "Eq2_relative_width_loss": 1.4173273395717076e-16
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 125,
+    "Eq2_relative_width_loss": 1.5058834287916592e-16
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 126,
+    "Eq2_relative_width_loss": 1.7832280222785501e-16
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 127,
+    "Eq2_relative_width_loss": 1.2960872778765392e-16
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 128,
+    "Eq2_relative_width_loss": 1.5699964764063497e-16
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 129,
+    "Eq2_relative_width_loss": 2.151456277570066e-16
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 130,
+    "Eq2_relative_width_loss": 3.481840679495151e-18
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 131,
+    "Eq2_relative_width_loss": 1.5292240364741842e-16
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 132,
+    "Eq2_relative_width_loss": 2.02829263481071e-16
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 133,
+    "Eq2_relative_width_loss": 3.360633930256961e-16
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 134,
+    "Eq2_relative_width_loss": 3.4421568368259863e-16
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 135,
+    "Eq2_relative_width_loss": 1.341583786297928e-16
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 136,
+    "Eq2_relative_width_loss": 1.5493595847254621e-18
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 137,
+    "Eq2_relative_width_loss": 2.289122048398643e-16
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 138,
+    "Eq2_relative_width_loss": 3.7406792997340366e-16
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 139,
+    "Eq2_relative_width_loss": 3.8228312507984145e-16
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 140,
+    "Eq2_relative_width_loss": 8.095908262013901e-17
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 141,
+    "Eq2_relative_width_loss": 1.1358486766817372e-18
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 142,
+    "Eq2_relative_width_loss": 4.971820693578871e-16
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 143,
+    "Eq2_relative_width_loss": 1.8088658430097115e-15
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 144,
+    "Eq2_relative_width_loss": 9.22938990005078e-16
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 145,
+    "Eq2_relative_width_loss": 6.268066058028923e-16
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 146,
+    "Eq2_relative_width_loss": 2.6214735927787674e-16
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 147,
+    "Eq2_relative_width_loss": 2.3220170753107906e-17
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 148,
+    "Eq2_relative_width_loss": 2.3730989685081897e-16
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 149,
+    "Eq2_relative_width_loss": 2.0983858463568755e-16
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 150,
+    "Eq2_relative_width_loss": 3.4942840138362163e-16
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 151,
+    "Eq2_relative_width_loss": 3.03559282479942e-17
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 152,
+    "Eq2_relative_width_loss": 3.808898117741071e-17
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 153,
+    "Eq2_relative_width_loss": 4.637970832843874e-16
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 154,
+    "Eq2_relative_width_loss": 4.3222097735133095e-16
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 155,
+    "Eq2_relative_width_loss": 7.453134993545625e-16
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 156,
+    "Eq2_relative_width_loss": 4.3051546667209114e-16
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 157,
+    "Eq2_relative_width_loss": 5.212255256647399e-16
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 158,
+    "Eq2_relative_width_loss": 2.62695335089646e-16
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 159,
+    "Eq2_relative_width_loss": 2.0485519338004166e-16
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 160,
+    "Eq2_relative_width_loss": 9.446532411740563e-18
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 161,
+    "Eq2_relative_width_loss": 2.6111718257996856e-16
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 162,
+    "Eq2_relative_width_loss": 3.989117488446986e-16
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 163,
+    "Eq2_relative_width_loss": 6.054392334519085e-16
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 164,
+    "Eq2_relative_width_loss": 3.535880333576827e-16
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 165,
+    "Eq2_relative_width_loss": 2.7837627997227896e-16
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 166,
+    "Eq2_relative_width_loss": 4.293159643691413e-16
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 167,
+    "Eq2_relative_width_loss": 2.4040329721315013e-16
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 168,
+    "Eq2_relative_width_loss": 3.188352766276639e-16
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 169,
+    "Eq2_relative_width_loss": 2.801135623246154e-16
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 170,
+    "Eq2_relative_width_loss": 3.010929058918441e-16
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 171,
+    "Eq2_relative_width_loss": 1.1358499531874662e-16
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 172,
+    "Eq2_relative_width_loss": 2.0383608374592587e-16
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 173,
+    "Eq2_relative_width_loss": 7.170838321977304e-17
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 174,
+    "Eq2_relative_width_loss": 2.29516706086038e-19
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 175,
+    "Eq2_relative_width_loss": 4.3677684254741537e-16
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 176,
+    "Eq2_relative_width_loss": 1.713354616925616e-16
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 177,
+    "Eq2_relative_width_loss": 1.8815712476506902e-16
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 178,
+    "Eq2_relative_width_loss": 3.148293528615393e-16
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 179,
+    "Eq2_relative_width_loss": 2.62070745017786e-16
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 180,
+    "Eq2_relative_width_loss": 3.6410241671047004e-16
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 181,
+    "Eq2_relative_width_loss": 2.280943663578965e-16
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 182,
+    "Eq2_relative_width_loss": 2.6188834465631323e-16
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 183,
+    "Eq2_relative_width_loss": 1.8264088383972505e-16
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 184,
+    "Eq2_relative_width_loss": 7.493299969865528e-17
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 185,
+    "Eq2_relative_width_loss": 2.2537456158415474e-16
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 186,
+    "Eq2_relative_width_loss": 2.0781358449531984e-16
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 187,
+    "Eq2_relative_width_loss": 1.4200868652199503e-16
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 188,
+    "Eq2_relative_width_loss": 3.163275519572306e-16
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 189,
+    "Eq2_relative_width_loss": 2.767917007616834e-16
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 190,
+    "Eq2_relative_width_loss": 5.693508275560169e-17
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 191,
+    "Eq2_relative_width_loss": 1.3318413273668418e-16
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 192,
+    "Eq2_relative_width_loss": 2.534194443517454e-16
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 193,
+    "Eq2_relative_width_loss": 1.496600474717118e-16
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 194,
+    "Eq2_relative_width_loss": 3.65741241583335e-17
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 195,
+    "Eq2_relative_width_loss": 3.956720267134457e-16
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 196,
+    "Eq2_relative_width_loss": 2.6814421764292073e-16
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 197,
+    "Eq2_relative_width_loss": 5.70644850288928e-16
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 198,
+    "Eq2_relative_width_loss": 6.457214368251407e-16
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 199,
+    "Eq2_relative_width_loss": 2.6017251371645625e-17
+  },
+  {
+    "dataset": "Tangaroa",
+    "index": 200,
+    "Eq2_relative_width_loss": 3.487168084797502e-16
+  },
+  {
+    "dataset": "Cylinder",
+    "index": 0,
+    "Eq2_relative_width_loss": 4.979924649280739e-29
+  },
+  {
+    "dataset": "Cylinder",
+    "index": 1,
+    "Eq2_relative_width_loss": 1.1973183721116842e-27
+  },
+  {
+    "dataset": "Cylinder",
+    "index": 2,
+    "Eq2_relative_width_loss": 4.241117477338659e-27
+  },
+  {
+    "dataset": "Cylinder",
+    "index": 3,
+    "Eq2_relative_width_loss": 3.3603139811923797e-26
+  },
+  {
+    "dataset": "Cylinder",
+    "index": 4,
+    "Eq2_relative_width_loss": 3.6358330799264165e-26
+  },
+  {
+    "dataset": "Cylinder",
+    "index": 5,
+    "Eq2_relative_width_loss": 3.6290533188458377e-26
+  },
+  {
+    "dataset": "Cylinder",
+    "index": 6,
+    "Eq2_relative_width_loss": 1.0718835365209815e-25
+  },
+  {
+    "dataset": "Cylinder",
+    "index": 7,
+    "Eq2_relative_width_loss": 1.9637196949734203e-25
+  },
+  {
+    "dataset": "Cylinder",
+    "index": 8,
+    "Eq2_relative_width_loss": 3.183901394777543e-26
+  },
+  {
+    "dataset": "Cylinder",
+    "index": 9,
+    "Eq2_relative_width_loss": 1.9163057140156907e-26
+  },
+  {
+    "dataset": "Cylinder",
+    "index": 10,
+    "Eq2_relative_width_loss": 3.423332386621224e-25
+  },
+  {
+    "dataset": "Cylinder",
+    "index": 11,
+    "Eq2_relative_width_loss": 1.5692318701957947e-24
+  },
+  {
+    "dataset": "Cylinder",
+    "index": 12,
+    "Eq2_relative_width_loss": 2.235055798397641e-24
+  },
+  {
+    "dataset": "Cylinder",
+    "index": 13,
+    "Eq2_relative_width_loss": 1.95711104294439e-24
+  },
+  {
+    "dataset": "Cylinder",
+    "index": 14,
+    "Eq2_relative_width_loss": 1.092047230469232e-24
+  },
+  {
+    "dataset": "Cylinder",
+    "index": 15,
+    "Eq2_relative_width_loss": 1.5646304387714846e-24
+  },
+  {
+    "dataset": "Cylinder",
+    "index": 16,
+    "Eq2_relative_width_loss": 3.21736890766034e-25
+  },
+  {
+    "dataset": "Cylinder",
+    "index": 17,
+    "Eq2_relative_width_loss": 5.066815325733692e-26
+  },
+  {
+    "dataset": "Cylinder",
+    "index": 18,
+    "Eq2_relative_width_loss": 8.304746616942602e-26
+  },
+  {
+    "dataset": "Cylinder",
+    "index": 19,
+    "Eq2_relative_width_loss": 5.791393389230851e-25
+  },
+  {
+    "dataset": "Cylinder",
+    "index": 20,
+    "Eq2_relative_width_loss": 5.404324068237549e-26
+  },
+  {
+    "dataset": "Cylinder",
+    "index": 21,
+    "Eq2_relative_width_loss": 3.30491536573019e-25
+  },
+  {
+    "dataset": "Cylinder",
+    "index": 22,
+    "Eq2_relative_width_loss": 4.4012731218115886e-26
+  },
+  {
+    "dataset": "Cylinder",
+    "index": 23,
+    "Eq2_relative_width_loss": 1.9004786681633639e-28
+  },
+  {
+    "dataset": "Cylinder",
+    "index": 24,
+    "Eq2_relative_width_loss": 8.164677972605918e-26
+  },
+  {
+    "dataset": "Cylinder",
+    "index": 25,
+    "Eq2_relative_width_loss": 4.043937947281066e-25
+  },
+  {
+    "dataset": "Cylinder",
+    "index": 26,
+    "Eq2_relative_width_loss": 3.9710139850730247e-25
+  },
+  {
+    "dataset": "Cylinder",
+    "index": 27,
+    "Eq2_relative_width_loss": 1.4388554965911338e-24
+  },
+  {
+    "dataset": "Cylinder",
+    "index": 28,
+    "Eq2_relative_width_loss": 2.2107785632149224e-24
+  },
+  {
+    "dataset": "Cylinder",
+    "index": 29,
+    "Eq2_relative_width_loss": 4.860934071077185e-23
+  },
+  {
+    "dataset": "Cylinder",
+    "index": 30,
+    "Eq2_relative_width_loss": 2.4426508420676968e-23
+  },
+  {
+    "dataset": "Cylinder",
+    "index": 31,
+    "Eq2_relative_width_loss": 2.355641533139599e-24
+  },
+  {
+    "dataset": "Cylinder",
+    "index": 32,
+    "Eq2_relative_width_loss": 2.3009155712218374e-23
+  },
+  {
+    "dataset": "Cylinder",
+    "index": 33,
+    "Eq2_relative_width_loss": 1.238452339942077e-23
+  },
+  {
+    "dataset": "Cylinder",
+    "index": 34,
+    "Eq2_relative_width_loss": 3.263009690327287e-26
+  },
+  {
+    "dataset": "Cylinder",
+    "index": 35,
+    "Eq2_relative_width_loss": 8.286021813438061e-26
+  },
+  {
+    "dataset": "Cylinder",
+    "index": 36,
+    "Eq2_relative_width_loss": 8.007890943241885e-23
+  },
+  {
+    "dataset": "Cylinder",
+    "index": 37,
+    "Eq2_relative_width_loss": 6.786689660746831e-24
+  },
+  {
+    "dataset": "Cylinder",
+    "index": 38,
+    "Eq2_relative_width_loss": 1.4812356987446418e-25
+  },
+  {
+    "dataset": "Cylinder",
+    "index": 39,
+    "Eq2_relative_width_loss": 1.5641349891424045e-23
+  },
+  {
+    "dataset": "Cylinder",
+    "index": 40,
+    "Eq2_relative_width_loss": 9.99491816575261e-24
+  },
+  {
+    "dataset": "Cylinder",
+    "index": 41,
+    "Eq2_relative_width_loss": 3.6267472704942746e-23
+  },
+  {
+    "dataset": "Cylinder",
+    "index": 42,
+    "Eq2_relative_width_loss": 6.287933497083589e-23
+  },
+  {
+    "dataset": "Cylinder",
+    "index": 43,
+    "Eq2_relative_width_loss": 2.5123052354041845e-23
+  },
+  {
+    "dataset": "Cylinder",
+    "index": 44,
+    "Eq2_relative_width_loss": 3.4358235100870886e-23
+  },
+  {
+    "dataset": "Cylinder",
+    "index": 45,
+    "Eq2_relative_width_loss": 9.044505139685318e-23
+  },
+  {
+    "dataset": "Cylinder",
+    "index": 46,
+    "Eq2_relative_width_loss": 1.3673636233665063e-25
+  },
+  {
+    "dataset": "Cylinder",
+    "index": 47,
+    "Eq2_relative_width_loss": 2.7758426451448005e-23
+  },
+  {
+    "dataset": "Cylinder",
+    "index": 48,
+    "Eq2_relative_width_loss": 6.313651109439776e-24
+  },
+  {
+    "dataset": "Cylinder",
+    "index": 49,
+    "Eq2_relative_width_loss": 4.50500160281781e-24
+  },
+  {
+    "dataset": "Cylinder",
+    "index": 50,
+    "Eq2_relative_width_loss": 1.455422495078505e-23
+  },
+  {
+    "dataset": "Cylinder",
+    "index": 51,
+    "Eq2_relative_width_loss": 2.230846175684204e-23
+  },
+  {
+    "dataset": "Cylinder",
+    "index": 52,
+    "Eq2_relative_width_loss": 6.974094951418406e-23
+  },
+  {
+    "dataset": "Cylinder",
+    "index": 53,
+    "Eq2_relative_width_loss": 9.081180664805041e-23
+  },
+  {
+    "dataset": "Cylinder",
+    "index": 54,
+    "Eq2_relative_width_loss": 1.201492667897717e-23
+  },
+  {
+    "dataset": "Cylinder",
+    "index": 55,
+    "Eq2_relative_width_loss": 7.107507204760143e-23
+  },
+  {
+    "dataset": "Cylinder",
+    "index": 56,
+    "Eq2_relative_width_loss": 2.410208848897664e-22
+  },
+  {
+    "dataset": "Cylinder",
+    "index": 57,
+    "Eq2_relative_width_loss": 2.106863652635801e-23
+  },
+  {
+    "dataset": "Cylinder",
+    "index": 58,
+    "Eq2_relative_width_loss": 6.012849455006843e-24
+  },
+  {
+    "dataset": "Cylinder",
+    "index": 59,
+    "Eq2_relative_width_loss": 2.1522140544223958e-23
+  },
+  {
+    "dataset": "Cylinder",
+    "index": 60,
+    "Eq2_relative_width_loss": 8.373416695681332e-24
+  },
+  {
+    "dataset": "Cylinder",
+    "index": 61,
+    "Eq2_relative_width_loss": 5.685323012189824e-23
+  },
+  {
+    "dataset": "Cylinder",
+    "index": 62,
+    "Eq2_relative_width_loss": 2.0415524565099315e-22
+  },
+  {
+    "dataset": "Cylinder",
+    "index": 63,
+    "Eq2_relative_width_loss": 7.979613356954698e-22
+  },
+  {
+    "dataset": "Cylinder",
+    "index": 64,
+    "Eq2_relative_width_loss": 2.7768358648649968e-22
+  },
+  {
+    "dataset": "Cylinder",
+    "index": 65,
+    "Eq2_relative_width_loss": 1.1092598910686567e-22
+  },
+  {
+    "dataset": "Cylinder",
+    "index": 66,
+    "Eq2_relative_width_loss": 5.513544302321383e-21
+  },
+  {
+    "dataset": "Cylinder",
+    "index": 67,
+    "Eq2_relative_width_loss": 9.530491136724673e-23
+  },
+  {
+    "dataset": "Cylinder",
+    "index": 68,
+    "Eq2_relative_width_loss": 1.6123045317414394e-20
+  },
+  {
+    "dataset": "Cylinder",
+    "index": 69,
+    "Eq2_relative_width_loss": 1.508496493326753e-20
+  },
+  {
+    "dataset": "Cylinder",
+    "index": 70,
+    "Eq2_relative_width_loss": 1.72802614357146e-21
+  },
+  {
+    "dataset": "Cylinder",
+    "index": 71,
+    "Eq2_relative_width_loss": 1.5088137339718884e-20
+  },
+  {
+    "dataset": "Cylinder",
+    "index": 72,
+    "Eq2_relative_width_loss": 1.0444689503638704e-21
+  },
+  {
+    "dataset": "Cylinder",
+    "index": 73,
+    "Eq2_relative_width_loss": 6.029207382885184e-21
+  },
+  {
+    "dataset": "Cylinder",
+    "index": 74,
+    "Eq2_relative_width_loss": 1.2602415003235672e-20
+  },
+  {
+    "dataset": "Cylinder",
+    "index": 75,
+    "Eq2_relative_width_loss": 1.3435404432367696e-20
+  },
+  {
+    "dataset": "Cylinder",
+    "index": 76,
+    "Eq2_relative_width_loss": 4.580546216104113e-21
+  },
+  {
+    "dataset": "Cylinder",
+    "index": 77,
+    "Eq2_relative_width_loss": 7.4094269963099065e-22
+  },
+  {
+    "dataset": "Cylinder",
+    "index": 78,
+    "Eq2_relative_width_loss": 1.5217899636660005e-18
+  },
+  {
+    "dataset": "Cylinder",
+    "index": 79,
+    "Eq2_relative_width_loss": 8.882250471337723e-21
+  },
+  {
+    "dataset": "Cylinder",
+    "index": 80,
+    "Eq2_relative_width_loss": 2.7574818408681403e-21
+  },
+  {
+    "dataset": "Cylinder",
+    "index": 81,
+    "Eq2_relative_width_loss": 9.677819082407625e-19
+  },
+  {
+    "dataset": "Cylinder",
+    "index": 82,
+    "Eq2_relative_width_loss": 2.126129480415915e-18
+  },
+  {
+    "dataset": "Cylinder",
+    "index": 83,
+    "Eq2_relative_width_loss": 7.998982560631025e-20
+  },
+  {
+    "dataset": "Cylinder",
+    "index": 84,
+    "Eq2_relative_width_loss": 7.23068483309605e-20
+  },
+  {
+    "dataset": "Cylinder",
+    "index": 85,
+    "Eq2_relative_width_loss": 4.1506445046600864e-20
+  },
+  {
+    "dataset": "Cylinder",
+    "index": 86,
+    "Eq2_relative_width_loss": 7.391539629804889e-19
+  },
+  {
+    "dataset": "Cylinder",
+    "index": 87,
+    "Eq2_relative_width_loss": 4.674988731771132e-18
+  },
+  {
+    "dataset": "Cylinder",
+    "index": 88,
+    "Eq2_relative_width_loss": 1.0539847303294528e-18
+  },
+  {
+    "dataset": "Cylinder",
+    "index": 89,
+    "Eq2_relative_width_loss": 3.019721282426574e-21
+  },
+  {
+    "dataset": "Cylinder",
+    "index": 90,
+    "Eq2_relative_width_loss": 2.1565054894238267e-19
+  },
+  {
+    "dataset": "Cylinder",
+    "index": 91,
+    "Eq2_relative_width_loss": 3.244124582371475e-19
+  },
+  {
+    "dataset": "Cylinder",
+    "index": 92,
+    "Eq2_relative_width_loss": 5.615188052226106e-18
+  },
+  {
+    "dataset": "Cylinder",
+    "index": 93,
+    "Eq2_relative_width_loss": 1.2500555571004973e-18
+  },
+  {
+    "dataset": "Cylinder",
+    "index": 94,
+    "Eq2_relative_width_loss": 2.6741162156140254e-18
+  },
+  {
+    "dataset": "Cylinder",
+    "index": 95,
+    "Eq2_relative_width_loss": 3.4604957313101013e-19
+  },
+  {
+    "dataset": "Cylinder",
+    "index": 96,
+    "Eq2_relative_width_loss": 3.0971141199913127e-18
+  },
+  {
+    "dataset": "Cylinder",
+    "index": 97,
+    "Eq2_relative_width_loss": 9.824958415437937e-18
+  },
+  {
+    "dataset": "Cylinder",
+    "index": 98,
+    "Eq2_relative_width_loss": 2.992101362005237e-17
+  },
+  {
+    "dataset": "Cylinder",
+    "index": 99,
+    "Eq2_relative_width_loss": 9.454904891429267e-18
+  },
+  {
+    "dataset": "Cylinder",
+    "index": 100,
+    "Eq2_relative_width_loss": 3.154977424820831e-18
+  },
+  {
+    "dataset": "Cylinder",
+    "index": 101,
+    "Eq2_relative_width_loss": 1.7305099483369905e-17
+  }
+]

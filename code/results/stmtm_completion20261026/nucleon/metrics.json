@@ -1,0 +1,45 @@
+[
+  {
+    "SNS": 0.0505954355363308,
+    "SNS_frames": 1,
+    "TW1": 0.986013986013986,
+    "TW1_frames": 1,
+    "TD": null,
+    "section_displacement": null,
+    "matched_steps": 0,
+    "method": "ST-MTM",
+    "NROE": 11.904761904761903,
+    "NMLE_mean": 0.0,
+    "NMLE_max": 0.0
+  },
+  {
+    "SNS": 0.31220609321027554,
+    "SNS_frames": 1,
+    "TW1": 0.916083916083916,
+    "TW1_frames": 1,
+    "TD": null,
+    "section_displacement": null,
+    "matched_steps": 0,
+    "method": "TMTM"
+  },
+  {
+    "SNS": 0.1324727877120917,
+    "SNS_frames": 1,
+    "TW1": 0.8951048951048951,
+    "TW1_frames": 1,
+    "TD": null,
+    "section_displacement": null,
+    "matched_steps": 0,
+    "method": "RG-MTM-P"
+  },
+  {
+    "SNS": 0.1324727877120917,
+    "SNS_frames": 1,
+    "TW1": 0.8951048951048951,
+    "TW1_frames": 1,
+    "TD": null,
+    "section_displacement": null,
+    "matched_steps": 0,
+    "method": "RG-MTM-R"
+  }
+]

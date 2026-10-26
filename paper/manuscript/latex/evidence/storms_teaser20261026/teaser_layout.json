@@ -1,0 +1,180 @@
+{
+  "figure_inches": [
+    18,
+    11.5
+  ],
+  "font": "Arial regular/bold",
+  "minimum_font_size_pt": 16,
+  "source_frames": [
+    33,
+    34,
+    35,
+    37,
+    42
+  ],
+  "threshold_methods": [
+    "P",
+    "R1",
+    "R2",
+    "R5"
+  ],
+  "geographic_correspondence": [
+    {
+      "snapshot": 1,
+      "frame": 33,
+      "letter": "A",
+      "track": 7,
+      "longitude": -20.71428571428571,
+      "latitude": 31.58559318887528
+    },
+    {
+      "snapshot": 1,
+      "frame": 33,
+      "letter": "B",
+      "track": 5,
+      "longitude": -14.999999999999998,
+      "latitude": 66.01163429921519
+    },
+    {
+      "snapshot": 2,
+      "frame": 34,
+      "letter": "A",
+      "track": 7,
+      "longitude": -20.71428571428571,
+      "latitude": 31.58559318887528
+    },
+    {
+      "snapshot": 3,
+      "frame": 35,
+      "letter": "A",
+      "track": 7,
+      "longitude": -22.142857142857146,
+      "latitude": 32.22736846221964
+    },
+    {
+      "snapshot": 4,
+      "frame": 37,
+      "letter": "A",
+      "track": 7,
+      "longitude": -22.142857142857146,
+      "latitude": 32.22736846221964
+    },
+    {
+      "snapshot": 4,
+      "frame": 37,
+      "letter": "C",
+      "track": 8,
+      "longitude": -12.142857142857142,
+      "latitude": 66.01163429921519
+    },
+    {
+      "snapshot": 5,
+      "frame": 42,
+      "letter": "D",
+      "track": 9,
+      "longitude": -23.571428571428573,
+      "latitude": 32.87370800924381
+    },
+    {
+      "snapshot": 5,
+      "frame": 42,
+      "letter": "E",
+      "track": 10,
+      "longitude": -22.142857142857146,
+      "latitude": 53.084647432707925
+    },
+    {
+      "snapshot": 5,
+      "frame": 42,
+      "letter": "F",
+      "track": 0,
+      "longitude": -12.142857142857142,
+      "latitude": 64.70493280544402
+    }
+  ],
+  "verified_examples": [
+    {
+      "frame": 33,
+      "pair": [
+        "A",
+        "B"
+      ],
+      "P_reverses": true,
+      "restored_by": "R5"
+    },
+    {
+      "frame": 37,
+      "pair": [
+        "A",
+        "C"
+      ],
+      "P_reverses": true,
+      "restored_by": "R1"
+    },
+    {
+      "frame": 42,
+      "pair": [
+        "E",
+        "F"
+      ],
+      "P_reverses": true,
+      "restored_by": "R2"
+    }
+  ],
+  "annotation_frames": [
+    33,
+    34,
+    35,
+    37,
+    42
+  ],
+  "annotation_features": {
+    "33": [
+      "A",
+      "B"
+    ],
+    "34": [
+      "A"
+    ],
+    "35": [
+      "A"
+    ],
+    "37": [
+      "A",
+      "C"
+    ],
+    "42": [
+      "D",
+      "E",
+      "F"
+    ]
+  },
+  "only_displayed_snapshot_features_annotated": true,
+  "B_absent_frames_verified": [
+    34,
+    35
+  ],
+  "C_first_frame": 36,
+  "scope": "744-hour overview above; five genuine source snapshots from the selected window in one row; four matched local threshold maps below.",
+  "selection": {
+    "frame_edges": [
+      29.5,
+      46.5
+    ],
+    "position_bounds": [
+      0.1,
+      0.42
+    ],
+    "overview_method": "saved full-month R20",
+    "local_methods": [
+      "P",
+      "R1",
+      "R2",
+      "R5"
+    ]
+  },
+  "overview_crop_vs_R5_max_scalar_difference": 0.0,
+  "continuity": "A continuous at f33..f37; B absent at f34/f35; C first appears at f36 and is shown at f37. No physical B-C identity claim.",
+  "source_and_numerical_results_unchanged": true,
+  "full_eight_threshold_version": "Anatol_all_thresholds_geographic.png"
+}

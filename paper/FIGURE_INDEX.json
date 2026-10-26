@@ -1,28 +1,28 @@
 {
   "schema_version": 1,
   "updated": "2026-10-26",
-  "scope": "main manuscript",
+  "scope": "Current manuscript numbers; asset stems and existing PPT slide identities remain stable",
   "main_figure_count": 17,
   "combined_ppt": "figures_ppt/All_Figures.pptx",
   "figures": [
     {
       "number": 1,
       "stem": "Fig1",
-      "title": "Storms hourly overview, source event and local tracks",
+      "title": "Storms: full-hourly locator, five geographic snapshots and P/R1/R2/R5 comparison",
       "ppt": "figures_ppt/Fig1.pptx",
       "asset": "manuscript/latex/figures/Fig1.pdf",
       "export": "figures_export/Fig1.pdf",
       "latex_source": "frontmatter.tex",
       "label": "fig:teaser",
       "combined_slide": 1,
-      "editability": "native objects with original data images",
+      "editability": "SVG and Python master with editable vector text/markers; frozen scalar raster layers",
       "source_asset_sha256": "a0a07e9a45a36e529e367da1c525e72dac76265a1e60cc917fe9afff41b80b8a",
       "initial_ppt_sha256": "13ea8cbaf9c770a4240985ffb394a62fd2793733957d6a2b4fffe15718ed6da6",
       "ppt_sha256": "37ee53435261dce684e0a5b507f701ffe53f1c3735b2d65be0b94999339cca90",
-      "asset_sha256": "d25a8fe9b781a9b8fcf4c85371ddb61074f035eac0f53e2bc538358737ac0e10",
+      "asset_sha256": "6b8ea3655625fabda3c7e00bd72db34d4fc7d27dcfb15a826c8a3fbbc45253e4",
       "previous_ppt_name": "Fig1.pptx",
       "style_standard": "UNIFIED_FIGURE_STYLE.json",
-      "selected_variant": "Fig1_DataDirection",
+      "selected_variant": "Anatol_event_threshold_preview",
       "frame_count": 744,
       "period": [
         "1999-12-01 00:00",
@@ -32,10 +32,36 @@
         0.94783175,
         -0.31877104
       ],
-      "layout_revision": "2026-10-22 grouped planar then volumetric results",
+      "layout_revision": "2026-10-26 selected hourly window and five source snapshots; annotations only at displayed times",
       "previous_main_number": 1,
       "spatial_dimension": 2,
-      "export_sha256": "d25a8fe9b781a9b8fcf4c85371ddb61074f035eac0f53e2bc538358737ac0e10"
+      "export_sha256": "6b8ea3655625fabda3c7e00bd72db34d4fc7d27dcfb15a826c8a3fbbc45253e4",
+      "legacy_asset_number": 1,
+      "manuscript_page": 1,
+      "editable_master": "previews/storms_anatol_20261026/Anatol_event_threshold_preview.svg",
+      "rebuild_script": "previews/storms_anatol_20261026/build_preview.py",
+      "ppt_status": "historical master retained; current canonical figure is the SVG/Python/PDF asset",
+      "source_snapshot_frames": [
+        33,
+        34,
+        35,
+        37,
+        42
+      ],
+      "local_conditions": [
+        "P",
+        "R1",
+        "R2",
+        "R5"
+      ],
+      "local_frame_window": [
+        30,
+        46
+      ],
+      "local_output_position": [
+        0.1,
+        0.42
+      ]
     },
     {
       "number": 2,
@@ -54,10 +80,12 @@
       "asset_sha256": "1d5ae1b688a3c988dc897687a7ed7f9794dc54127040d779e0ca055e64bc6e7e",
       "previous_ppt_name": "Prior_Work_Overview.pptx",
       "style_standard": "UNIFIED_FIGURE_STYLE.json",
-      "layout_revision": "2026-10-22 grouped planar then volumetric results",
+      "layout_revision": "2026-10-26 all planar results precede volumetric results",
       "previous_main_number": 2,
       "spatial_dimension": 2,
-      "export_sha256": "1d5ae1b688a3c988dc897687a7ed7f9794dc54127040d779e0ca055e64bc6e7e"
+      "export_sha256": "1d5ae1b688a3c988dc897687a7ed7f9794dc54127040d779e0ca055e64bc6e7e",
+      "legacy_asset_number": 2,
+      "manuscript_page": 3
     },
     {
       "number": 3,
@@ -72,14 +100,16 @@
       "editability": "native editable objects",
       "source_asset_sha256": "ecf7d439b581afebb3d942f9782feefe991e32927c35321e409318cb57ce9dfe",
       "initial_ppt_sha256": "ecae14706927f97c5321968e32150087674fb3d99c3edae3c29dc089b568bbac",
-      "ppt_sha256": "0ab75186c0627fd7dd0ed39631828769547c40dabb28414ece5ce49686c92aec",
-      "asset_sha256": "342820c997d2ea54f31d1862cb2dfb4ae4432ea1e00bc7aa74e585307ba9790e",
+      "ppt_sha256": "790382de6f7fc9cd1118e85965b919262d09b6498cc5d803bb3df49ef08eb8b8",
+      "asset_sha256": "c97a486409f07588ef5f5654728833d61805ee16b96abf502829de1c30801143",
       "previous_ppt_name": "Fig2.pptx",
       "style_standard": "UNIFIED_FIGURE_STYLE.json",
-      "layout_revision": "2026-10-22 grouped planar then volumetric results",
+      "layout_revision": "2026-10-26 all planar results precede volumetric results",
       "previous_main_number": 3,
       "spatial_dimension": 2,
-      "export_sha256": "342820c997d2ea54f31d1862cb2dfb4ae4432ea1e00bc7aa74e585307ba9790e"
+      "export_sha256": "c97a486409f07588ef5f5654728833d61805ee16b96abf502829de1c30801143",
+      "legacy_asset_number": 3,
+      "manuscript_page": 6
     },
     {
       "number": 4,
@@ -98,7 +128,7 @@
       "asset_sha256": "29ab06817522481afdf3a4f552981d7f6ef7de094e0b73aadbb2a1095784da79",
       "previous_ppt_name": "Fig3.pptx",
       "style_standard": "UNIFIED_FIGURE_STYLE.json",
-      "layout_revision": "2026-10-22 grouped planar then volumetric results",
+      "layout_revision": "2026-10-26 all planar results precede volumetric results",
       "previous_main_number": 4,
       "export_sha256": "29ab06817522481afdf3a4f552981d7f6ef7de094e0b73aadbb2a1095784da79",
       "spatial_dimension": 2,
@@ -106,7 +136,9 @@
         "date": "2026-10-22",
         "source_ppt_sha256": "f75a8cb90526c205a1989e3840560f618f3e49be597485a39e221caff819eb0a",
         "source": "Latest canonical master edited in the dedicated figure chat, synchronized on explicit user request."
-      }
+      },
+      "legacy_asset_number": 4,
+      "manuscript_page": 7
     },
     {
       "number": 5,
@@ -124,7 +156,7 @@
       "ppt_sha256": "5ac016f67b38d10c1428ceba4fa4da164f19e79741a5c69929559a7ddeb3551e",
       "asset_sha256": "90e53b2b6348f7cf9166cc30474dd40bdf86198afb7176d7cf8e90cff3acc0f9",
       "style_standard": "UNIFIED_FIGURE_STYLE.json",
-      "layout_revision": "2026-10-22 comprehensive compact review; Figure8(c) removed",
+      "layout_revision": "2026-10-26 all planar results precede volumetric results",
       "previous_main_number": 5,
       "spatial_dimension": 2,
       "export_sha256": "90e53b2b6348f7cf9166cc30474dd40bdf86198afb7176d7cf8e90cff3acc0f9",
@@ -133,7 +165,9 @@
         "asset": "evidence/figure5_selected/selected_plot_original.png",
         "sha256": "c60b668b88b2add24796c6ae7da085c62eca4329ee63409e19810283af217413",
         "scope": "Historical bitmap stage; not an embedding claim for the current unchanged master."
-      }
+      },
+      "legacy_asset_number": 5,
+      "manuscript_page": 11
     },
     {
       "number": 6,
@@ -151,7 +185,7 @@
       "ppt_sha256": "beeb6eb8ba5d8ab09bd89b638dab279fd4a466aac69bebbccaa50f0036352a4e",
       "asset_sha256": "93d3df18ec784a9f0308be8b519787dd0c10f9a7bc254741c6771e558f53b0fd",
       "style_standard": "UNIFIED_FIGURE_STYLE.json",
-      "layout_revision": "2026-10-22 comprehensive compact review; Figure8(c) removed",
+      "layout_revision": "2026-10-26 all planar results precede volumetric results",
       "previous_main_number": 6,
       "ppt_revision": {
         "date": "2026-10-22",
@@ -184,10 +218,12 @@
         "date": "2026-10-22",
         "source_ppt_sha256": "424dbeb80ca90d94ea3b39d2bca1bff4f205912e750e4ee04dd96dbc4d6143ea",
         "source": "Latest canonical master edited in the dedicated figure chat, synchronized on explicit user request."
-      }
+      },
+      "legacy_asset_number": 6,
+      "manuscript_page": 13
     },
     {
-      "number": 7,
+      "number": 9,
       "stem": "Fig7",
       "title": "Wildfires: actual FRP cell geometry, analysis input and measured layout trade-off",
       "ppt": "figures_ppt/Fig7.pptx",
@@ -203,99 +239,19 @@
       "asset_sha256": "0894b64358c68006a432771393537d4e9cfb40d31829401614f6faa1bd457f8e",
       "previous_ppt_name": "Fig5.pptx",
       "style_standard": "UNIFIED_FIGURE_STYLE.json",
-      "layout_revision": "2026-10-22 comprehensive compact review; Figure8(c) removed",
+      "layout_revision": "2026-10-26 all planar results precede volumetric results",
       "previous_main_number": 7,
       "spatial_dimension": 2,
       "export_sha256": "0894b64358c68006a432771393537d4e9cfb40d31829401614f6faa1bd457f8e",
       "revision": "Integrated full scalar profiles and source-linked mechanism from former expanded draft",
       "display_revision": "2026-10-23 geographic source/analysis comparison",
       "geographic_evidence": "evidence/wildfire_geo20261023/geographic_provenance.json",
-      "temporal_display_evidence": "evidence/temporal_display20261023/provenance.json"
-    },
-    {
-      "number": 8,
-      "stem": "Fig8",
-      "title": "Nucleon: original author static scalar slice and profiles",
-      "ppt": "figures_ppt/Fig8.pptx",
-      "asset": "manuscript/latex/figures/Fig8.pdf",
-      "export": "figures_export/Fig8.pdf",
-      "latex_source": "figures/nucleon.tex",
-      "label": "fig:nucleon",
-      "combined_slide": 8,
-      "editability": "editable Arial labels, axes, guides and domain frame; preserved scientific raster layers from saved arrays",
-      "style_standard": "UNIFIED_FIGURE_STYLE.json",
-      "ppt_sha256": "1ceb08b5e20e9080a40a38b4ec416d576320484a5622a010ff36149089f3d784",
-      "asset_sha256": "a847d3da12ab8b036980a6b99cb83c22b9d3ae1b7323c34042b01e8a97ca4cb6",
-      "layout_revision": "2026-10-22 comprehensive compact review; Figure8(c) removed",
-      "previous_main_number": 10,
-      "spatial_dimension": 2,
-      "export_sha256": "a847d3da12ab8b036980a6b99cb83c22b9d3ae1b7323c34042b01e8a97ca4cb6"
-    },
-    {
-      "number": 9,
-      "stem": "Fig9",
-      "title": "Benzene: explicitly reconstructed electrostatic potential sections",
-      "ppt": "figures_ppt/Fig9.pptx",
-      "asset": "manuscript/latex/figures/Fig9.pdf",
-      "export": "figures_export/Fig9.pdf",
-      "latex_source": "figures/benzene.tex",
-      "label": "fig:benzene",
-      "combined_slide": 9,
-      "editability": "editable Arial labels, axes, guides and domain frame; preserved scientific raster layers from saved arrays",
-      "style_standard": "UNIFIED_FIGURE_STYLE.json",
-      "ppt_sha256": "d7398bf437ac57b59c2829929a6ec5e056d246a4807d4b31ac0336633b13abee",
-      "asset_sha256": "01e66c9a7a6e78ec83618856d5c47e2ab92c283f71dbcc6381dbfb4972c6c0af",
-      "layout_revision": "2026-10-22 comprehensive compact review; Figure8(c) removed",
-      "previous_main_number": 11,
-      "spatial_dimension": 2,
-      "export_sha256": "01e66c9a7a6e78ec83618856d5c47e2ab92c283f71dbcc6381dbfb4972c6c0af"
+      "temporal_display_evidence": "evidence/temporal_display20261023/provenance.json",
+      "legacy_asset_number": 7,
+      "manuscript_page": 16
     },
     {
       "number": 10,
-      "stem": "Fig10",
-      "title": "Tangaroa results",
-      "ppt": "figures_ppt/Fig10.pptx",
-      "asset": "manuscript/latex/figures/Fig10.pdf",
-      "export": "figures_export/Fig10.pdf",
-      "latex_source": "figures/volume3d.tex",
-      "label": "fig:volume",
-      "combined_slide": 10,
-      "editability": "native objects with original data images",
-      "source_asset_sha256": "d0f986d067d8114e8a5a9a03488f02f5f1eaecc7150eb77fd51b763c4a15d59b",
-      "initial_ppt_sha256": "29fae9c60a90284f1ebfa7d4b3af34ae63f28d0bd264f4bbf9ab5471233bf8c1",
-      "ppt_sha256": "af0f5bd7f786238d395509bcd8de067e76c84c5db84cda4f3c0466165baaa8c3",
-      "asset_sha256": "aa8e0624ee5ad0e8604fc67b391159423ba8e21a3df851c6e1c6971ed34f040c",
-      "previous_ppt_name": "Fig6.pptx",
-      "style_standard": "UNIFIED_FIGURE_STYLE.json",
-      "layout_revision": "2026-10-22 comprehensive compact review; Figure8(c) removed",
-      "previous_main_number": 8,
-      "spatial_dimension": 3,
-      "export_sha256": "aa8e0624ee5ad0e8604fc67b391159423ba8e21a3df851c6e1c6971ed34f040c",
-      "temporal_display_evidence": "evidence/temporal_display20261023/provenance.json"
-    },
-    {
-      "number": 11,
-      "stem": "Fig11",
-      "title": "Cylinder: 102 original-grid 3-D Q fields and source isosurfaces",
-      "ppt": "figures_ppt/Fig11.pptx",
-      "asset": "manuscript/latex/figures/Fig11.pdf",
-      "export": "figures_export/Fig11.pdf",
-      "latex_source": "figures/cylinder.tex",
-      "label": "fig:cylinder",
-      "combined_slide": 11,
-      "editability": "editable Arial labels, axes, guides and domain frame; preserved scientific raster layers from saved arrays",
-      "style_standard": "UNIFIED_FIGURE_STYLE.json",
-      "ppt_sha256": "5efc0ff1a4767909ebcc734d4dd684d1d6af1ac7e11f8b85a383b2b0a4f8c330",
-      "asset_sha256": "d9ecb1e952b5811d630623b56fa94c75eda9207d07d227a6e2502ea59b98e0e7",
-      "layout_revision": "2026-10-22 comprehensive compact review; Figure8(c) removed",
-      "previous_main_number": 9,
-      "spatial_dimension": 3,
-      "export_sha256": "d9ecb1e952b5811d630623b56fa94c75eda9207d07d227a6e2502ea59b98e0e7",
-      "revision": "Integrated full scalar profiles and source-linked mechanism from former expanded draft",
-      "temporal_display_evidence": "evidence/temporal_display20261023/provenance.json"
-    },
-    {
-      "number": 12,
       "stem": "Fig12",
       "title": "OLR, PM2.5 and Ring complete P/R20 maps",
       "ppt": "figures_ppt/Fig12.pptx",
@@ -308,10 +264,13 @@
       "ppt_sha256": "54983ca13a10ac3d7b4aab26657aa35a8d7aa2210bce2251ff2d20d883adb067",
       "asset_sha256": "2aaed4fd07654bd2dc6f54fd700ae1c7d9c62a195895298d3342ef0a69ddf1e4",
       "revision": "Annual PM2.5 and conservative display reconstruction; pollution concentration palette",
-      "export_sha256": "2aaed4fd07654bd2dc6f54fd700ae1c7d9c62a195895298d3342ef0a69ddf1e4"
+      "export_sha256": "2aaed4fd07654bd2dc6f54fd700ae1c7d9c62a195895298d3342ef0a69ddf1e4",
+      "legacy_asset_number": 12,
+      "manuscript_page": 17,
+      "layout_revision": "2026-10-26 all planar results precede volumetric results"
     },
     {
-      "number": 13,
+      "number": 11,
       "stem": "Fig13",
       "title": "PM2.5: annual overview and source-linked July case",
       "ppt": "figures_ppt/Fig13.pptx",
@@ -331,10 +290,103 @@
       "source_protocol": "evidence/pm25_case20261023/case.json",
       "ppt_sha256": "a74d6562f0df2a20ad40987fde7ff52e17eb59882bff43d92368a7c5477dcd0a",
       "asset_sha256": "fc5a3679e030c3720fbc35de6261e2a0d0c7bf0c2ac46f51a5acb51a9eb9c912",
-      "export_sha256": "fc5a3679e030c3720fbc35de6261e2a0d0c7bf0c2ac46f51a5acb51a9eb9c912"
+      "export_sha256": "fc5a3679e030c3720fbc35de6261e2a0d0c7bf0c2ac46f51a5acb51a9eb9c912",
+      "legacy_asset_number": 13,
+      "manuscript_page": 18,
+      "layout_revision": "2026-10-26 all planar results precede volumetric results"
+    },
+    {
+      "number": 13,
+      "stem": "Fig8",
+      "title": "Nucleon: original author static scalar slice and profiles",
+      "ppt": "figures_ppt/Fig8.pptx",
+      "asset": "manuscript/latex/figures/Fig8.pdf",
+      "export": "figures_export/Fig8.pdf",
+      "latex_source": "figures/nucleon.tex",
+      "label": "fig:nucleon",
+      "combined_slide": 8,
+      "editability": "editable Arial labels, axes, guides and domain frame; preserved scientific raster layers from saved arrays",
+      "style_standard": "UNIFIED_FIGURE_STYLE.json",
+      "ppt_sha256": "1ceb08b5e20e9080a40a38b4ec416d576320484a5622a010ff36149089f3d784",
+      "asset_sha256": "a847d3da12ab8b036980a6b99cb83c22b9d3ae1b7323c34042b01e8a97ca4cb6",
+      "layout_revision": "2026-10-26 all planar results precede volumetric results",
+      "previous_main_number": 10,
+      "spatial_dimension": 2,
+      "export_sha256": "a847d3da12ab8b036980a6b99cb83c22b9d3ae1b7323c34042b01e8a97ca4cb6",
+      "legacy_asset_number": 8,
+      "manuscript_page": 19
     },
     {
       "number": 14,
+      "stem": "Fig9",
+      "title": "Benzene: explicitly reconstructed electrostatic potential sections",
+      "ppt": "figures_ppt/Fig9.pptx",
+      "asset": "manuscript/latex/figures/Fig9.pdf",
+      "export": "figures_export/Fig9.pdf",
+      "latex_source": "figures/benzene.tex",
+      "label": "fig:benzene",
+      "combined_slide": 9,
+      "editability": "editable Arial labels, axes, guides and domain frame; preserved scientific raster layers from saved arrays",
+      "style_standard": "UNIFIED_FIGURE_STYLE.json",
+      "ppt_sha256": "d7398bf437ac57b59c2829929a6ec5e056d246a4807d4b31ac0336633b13abee",
+      "asset_sha256": "01e66c9a7a6e78ec83618856d5c47e2ab92c283f71dbcc6381dbfb4972c6c0af",
+      "layout_revision": "2026-10-26 all planar results precede volumetric results",
+      "previous_main_number": 11,
+      "spatial_dimension": 2,
+      "export_sha256": "01e66c9a7a6e78ec83618856d5c47e2ab92c283f71dbcc6381dbfb4972c6c0af",
+      "legacy_asset_number": 9,
+      "manuscript_page": 20
+    },
+    {
+      "number": 15,
+      "stem": "Fig10",
+      "title": "Tangaroa results",
+      "ppt": "figures_ppt/Fig10.pptx",
+      "asset": "manuscript/latex/figures/Fig10.pdf",
+      "export": "figures_export/Fig10.pdf",
+      "latex_source": "figures/volume3d.tex",
+      "label": "fig:volume",
+      "combined_slide": 10,
+      "editability": "native objects with original data images",
+      "source_asset_sha256": "d0f986d067d8114e8a5a9a03488f02f5f1eaecc7150eb77fd51b763c4a15d59b",
+      "initial_ppt_sha256": "29fae9c60a90284f1ebfa7d4b3af34ae63f28d0bd264f4bbf9ab5471233bf8c1",
+      "ppt_sha256": "af0f5bd7f786238d395509bcd8de067e76c84c5db84cda4f3c0466165baaa8c3",
+      "asset_sha256": "aa8e0624ee5ad0e8604fc67b391159423ba8e21a3df851c6e1c6971ed34f040c",
+      "previous_ppt_name": "Fig6.pptx",
+      "style_standard": "UNIFIED_FIGURE_STYLE.json",
+      "layout_revision": "2026-10-26 all planar results precede volumetric results",
+      "previous_main_number": 8,
+      "spatial_dimension": 3,
+      "export_sha256": "aa8e0624ee5ad0e8604fc67b391159423ba8e21a3df851c6e1c6971ed34f040c",
+      "temporal_display_evidence": "evidence/temporal_display20261023/provenance.json",
+      "legacy_asset_number": 10,
+      "manuscript_page": 21
+    },
+    {
+      "number": 16,
+      "stem": "Fig11",
+      "title": "Cylinder: 102 original-grid 3-D Q fields and source isosurfaces",
+      "ppt": "figures_ppt/Fig11.pptx",
+      "asset": "manuscript/latex/figures/Fig11.pdf",
+      "export": "figures_export/Fig11.pdf",
+      "latex_source": "figures/cylinder.tex",
+      "label": "fig:cylinder",
+      "combined_slide": 11,
+      "editability": "editable Arial labels, axes, guides and domain frame; preserved scientific raster layers from saved arrays",
+      "style_standard": "UNIFIED_FIGURE_STYLE.json",
+      "ppt_sha256": "5efc0ff1a4767909ebcc734d4dd684d1d6af1ac7e11f8b85a383b2b0a4f8c330",
+      "asset_sha256": "d9ecb1e952b5811d630623b56fa94c75eda9207d07d227a6e2502ea59b98e0e7",
+      "layout_revision": "2026-10-26 all planar results precede volumetric results",
+      "previous_main_number": 9,
+      "spatial_dimension": 3,
+      "export_sha256": "d9ecb1e952b5811d630623b56fa94c75eda9207d07d227a6e2502ea59b98e0e7",
+      "revision": "Integrated full scalar profiles and source-linked mechanism from former expanded draft",
+      "temporal_display_evidence": "evidence/temporal_display20261023/provenance.json",
+      "legacy_asset_number": 11,
+      "manuscript_page": 22
+    },
+    {
+      "number": 17,
       "stem": "Fig14",
       "title": "Eligibility and measured position-scalar trade-offs",
       "ppt": "figures_ppt/Fig14.pptx",
@@ -348,7 +400,10 @@
       "asset_sha256": "56ca7458a2b57c0715354a602f42ce8bc326406cbdb7c20a85c498797e82f235",
       "spatial_dimension": 3,
       "previous_main_number": 13,
-      "export_sha256": "56ca7458a2b57c0715354a602f42ce8bc326406cbdb7c20a85c498797e82f235"
+      "export_sha256": "56ca7458a2b57c0715354a602f42ce8bc326406cbdb7c20a85c498797e82f235",
+      "legacy_asset_number": 14,
+      "manuscript_page": 23,
+      "layout_revision": "2026-10-26 all planar results precede volumetric results"
     }
   ],
   "supplementary_ppts": [
@@ -369,7 +424,7 @@
     "figures_ppt/Supplement_Cylinder_Comparison.pptx"
   ],
   "naming_rule": "Manuscript Figure N = FigN.pptx = FigN.pdf/png; combined deck slide N.",
-  "combined_sha256": "891fce45f9aecdbbafbef8acbbf915b2a9fdc135c2eeb1eee9c1f16674f4e8ac",
+  "combined_sha256": "ca64277720282338fee280a10efa80338aa8a917d95d76bdd35e9c84f6970106",
   "supplementary_figures": [
     {
       "stem": "rgmtm_linked_cases",
@@ -602,19 +657,7 @@
   "revision_basis": "User-selected original draft; figures 1-4 unchanged. Complete merged manuscript includes annual PM2.5 and a source-linked case.",
   "additional_vector_figures": [
     {
-      "number": 15,
-      "stem": "Fig15",
-      "title": "True topology-budget response and Ring witness maps",
-      "asset": "manuscript/latex/figures/Fig15.pdf",
-      "export": "figures_export/Fig15.pdf",
-      "label": "fig:budget_response",
-      "source": "../code/experiments/framework/export.py",
-      "editable_master": "figures_export/Fig15.svg",
-      "ppt": null,
-      "latex_source": "budget_threshold_response.tex"
-    },
-    {
-      "number": 16,
+      "number": 7,
       "stem": "Fig16",
       "title": "One-model operating regimes and native comparisons",
       "asset": "manuscript/latex/figures/Fig16.pdf",
@@ -624,10 +667,13 @@
       "editable_master": "figures_export/Fig16.svg",
       "ppt": null,
       "latex_source": "unified_results.tex",
-      "asset_sha256": "4461c45a1f883de629bf4f4fabe19fb305b90997f512b9fd346e98087acf35e8"
+      "asset_sha256": "4461c45a1f883de629bf4f4fabe19fb305b90997f512b9fd346e98087acf35e8",
+      "legacy_asset_number": 16,
+      "manuscript_page": 13,
+      "layout_revision": "2026-10-26 all planar results precede volumetric results"
     },
     {
-      "number": 17,
+      "number": 8,
       "stem": "Fig17",
       "title": "Topology and position budget matrix",
       "asset": "manuscript/latex/figures/Fig17.pdf",
@@ -637,7 +683,25 @@
       "editable_master": "figures_export/Fig17.svg",
       "ppt": null,
       "latex_source": "unified_results.tex",
-      "asset_sha256": "6fe7447a60251ccc26d68843f1747cd64e6f87f1461c42a0b044fbf8c7d0ccd1"
+      "asset_sha256": "6fe7447a60251ccc26d68843f1747cd64e6f87f1461c42a0b044fbf8c7d0ccd1",
+      "legacy_asset_number": 17,
+      "manuscript_page": 14,
+      "layout_revision": "2026-10-26 all planar results precede volumetric results"
+    },
+    {
+      "number": 12,
+      "stem": "Fig15",
+      "title": "True topology-budget response and Ring witness maps",
+      "asset": "manuscript/latex/figures/Fig15.pdf",
+      "export": "figures_export/Fig15.pdf",
+      "label": "fig:budget_response",
+      "source": "../code/experiments/framework/export.py",
+      "editable_master": "figures_export/Fig15.svg",
+      "ppt": null,
+      "latex_source": "budget_threshold_response.tex",
+      "legacy_asset_number": 15,
+      "manuscript_page": 19,
+      "layout_revision": "2026-10-26 all planar results precede volumetric results"
     }
   ],
   "combined_ppt_scope": "Existing Figures 1--14 only; Figures 15--17 are reproducible code/SVG vector masters."

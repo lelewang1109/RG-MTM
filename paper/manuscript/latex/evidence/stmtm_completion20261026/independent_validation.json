@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "new_ST_MTM_frames": 325,
+  "geometry_summaries_checked": 16,
+  "max_scalar_barrier_error": 0.0,
+  "max_recorded_QP_residual": 7.105205312996077e-11,
+  "checks": [
+    "source and code hashes",
+    "all labelled pairs on complete scalar arrays",
+    "extrema and intervals",
+    "independent SNS/TW/TD reconstruction",
+    "independent Eq.1 gradient and dual stationarity",
+    "native Eq.2 relative width losses",
+    "independent 3D motion events and errors",
+    "unchanged historical primary numbers",
+    "2-D before 3-D"
+  ]
+}

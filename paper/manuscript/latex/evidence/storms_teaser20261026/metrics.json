@@ -1,0 +1,3766 @@
+{
+  "provenance": {
+    "input_sha256": "35a8eb7c5601505b4f941bb904cf52f63b0923c4e74a56755c30e1eea14c098a",
+    "saved_sha256": "1d7eee2de9f1b56a71155d038a92fb6c27f6f6e29fe646612dc677627201796c",
+    "solver_sha256": {
+      "analysis/relax_hierarchy.py": "f855bf7eb13726c19e492f56317758c4d6da48ee1cc3a35c3a271a258f99e335",
+      "analysis/conflict_strategies.py": "00fc6cd54c39200cd515c0fa1f196447d163c28116f18a8aff3900e1d50d0b61",
+      "analysis/filling.py": "17518b2e861e25791024ec7b4a80f20e16a5c702edfcbb1e96b6b38d0f0d50e0",
+      "src/rgmtm/error_budget.py": "67ada4d8a8219533d92132527877333ea9760273db9c1a45709e49a75c6f6c60",
+      "src/rgmtm/reference_guided.py": "4e59be569228b10bf9010f3c92bfcb683207e62af1e6af190dc5ef90d5bbb188"
+    },
+    "event_window": [
+      24,
+      96
+    ],
+    "snapshots": [
+      36,
+      42,
+      54,
+      66,
+      78,
+      90
+    ],
+    "thresholds_percent": [
+      0.5,
+      1,
+      1.5,
+      2,
+      3,
+      5,
+      20
+    ]
+  },
+  "methods": {
+    "P": {
+      "max_position_error_percent_L": 10.132263818396932,
+      "mean_position_error_percent_L": 1.2543269942736053,
+      "max_merge_error_hPa": 0.0,
+      "changed_hours_vs_P": 0,
+      "changed_hour_indices": [],
+      "relaxed_hours": 0,
+      "frame_log": [
+        {
+          "frame": 24,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 1.5928472247010053
+        },
+        {
+          "frame": 25,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 26,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 27,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 28,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 29,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 30,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 31,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 32,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 33,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 9.719378214802365
+        },
+        {
+          "frame": 34,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 35,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 36,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 7.759202363103623
+        },
+        {
+          "frame": 37,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 6.953090460948219
+        },
+        {
+          "frame": 38,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 39,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 40,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 41,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 3.9849316145475266
+        },
+        {
+          "frame": 42,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 3.3934535667876045
+        },
+        {
+          "frame": 43,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 1.7866713213744432
+        },
+        {
+          "frame": 44,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 45,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.04112932407119574
+        },
+        {
+          "frame": 46,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 47,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 48,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 49,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.44605617514208934
+        },
+        {
+          "frame": 50,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 1.2276810622580763
+        },
+        {
+          "frame": 51,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 1.2990355236321949
+        },
+        {
+          "frame": 52,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 53,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 54,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 55,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 56,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 57,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 58,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 59,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 60,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 61,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 62,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 63,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 64,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 65,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 66,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 67,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 68,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 69,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 70,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 71,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 72,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 73,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 74,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 75,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 76,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 77,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 78,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 79,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 80,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 81,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 82,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 83,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 84,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 85,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 86,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 87,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 88,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 89,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 90,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 91,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 92,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 93,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 94,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 95,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 96,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        }
+      ]
+    },
+    "R0.5": {
+      "max_position_error_percent_L": 10.132263818396932,
+      "mean_position_error_percent_L": 1.2543269942736053,
+      "max_merge_error_hPa": 0.0,
+      "changed_hours_vs_P": 0,
+      "changed_hour_indices": [],
+      "relaxed_hours": 0,
+      "frame_log": [
+        {
+          "frame": 24,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 1.5928472247010053
+        },
+        {
+          "frame": 25,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 26,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 27,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 28,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 29,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 30,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 31,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 32,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 33,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 9.718956929762852
+        },
+        {
+          "frame": 34,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 35,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 36,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 7.764345327289949
+        },
+        {
+          "frame": 37,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 6.9605127947698335
+        },
+        {
+          "frame": 38,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 39,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 40,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 41,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 3.9958320984608453
+        },
+        {
+          "frame": 42,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 3.3966872904353296
+        },
+        {
+          "frame": 43,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 1.7866713213744432
+        },
+        {
+          "frame": 44,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 45,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.04112932407119574
+        },
+        {
+          "frame": 46,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 47,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 48,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 49,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.44605617514208934
+        },
+        {
+          "frame": 50,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 1.2276810622580763
+        },
+        {
+          "frame": 51,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 1.2990355236321949
+        },
+        {
+          "frame": 52,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 53,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 54,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 55,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 56,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 57,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 58,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 59,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 60,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 61,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 62,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 63,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 64,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 65,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 66,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 67,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 68,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 69,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 70,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 71,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 72,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 73,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 74,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 75,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 76,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 77,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 78,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 79,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 80,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 81,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 82,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 83,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 84,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 85,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 86,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 87,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 88,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 89,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 90,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 91,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 92,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 93,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 94,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 95,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 96,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        }
+      ]
+    },
+    "R1": {
+      "max_position_error_percent_L": 10.132263818396932,
+      "mean_position_error_percent_L": 1.165912698005607,
+      "max_merge_error_hPa": 0.258031355004403,
+      "changed_hours_vs_P": 1,
+      "changed_hour_indices": [
+        37
+      ],
+      "relaxed_hours": 1,
+      "frame_log": [
+        {
+          "frame": 24,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 1.5928472247010053
+        },
+        {
+          "frame": 25,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 26,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 27,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 28,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 29,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 30,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 31,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 32,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 33,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 9.718956929762852
+        },
+        {
+          "frame": 34,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 35,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 36,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 7.764345327289949
+        },
+        {
+          "frame": 37,
+          "relaxed_nodes": 1,
+          "steps": [
+            {
+              "node": 2082,
+              "merge_level_change": 0.5160627100088059
+            }
+          ],
+          "tau": 0.0
+        },
+        {
+          "frame": 38,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 39,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 40,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 41,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 3.9958320984608453
+        },
+        {
+          "frame": 42,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 3.3966872904353296
+        },
+        {
+          "frame": 43,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 1.7866713213744432
+        },
+        {
+          "frame": 44,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 45,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.04112932407119574
+        },
+        {
+          "frame": 46,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 47,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 48,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 49,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.44605617514208934
+        },
+        {
+          "frame": 50,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 1.2276810622580763
+        },
+        {
+          "frame": 51,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 1.2990355236321949
+        },
+        {
+          "frame": 52,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 53,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 54,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 55,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 56,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 57,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 58,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 59,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 60,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 61,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 62,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 63,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 64,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 65,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 66,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 67,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 68,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 69,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 70,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 71,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 72,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 73,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 74,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 75,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 76,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 77,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 78,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 79,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 80,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 81,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 82,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 83,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 84,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 85,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 86,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 87,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 88,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 89,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 90,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 91,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 92,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 93,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 94,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 95,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 96,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        }
+      ]
+    },
+    "R1.5": {
+      "max_position_error_percent_L": 10.132263818396932,
+      "mean_position_error_percent_L": 1.1141030757163148,
+      "max_merge_error_hPa": 0.3395397772980937,
+      "changed_hours_vs_P": 2,
+      "changed_hour_indices": [
+        37,
+        42
+      ],
+      "relaxed_hours": 2,
+      "frame_log": [
+        {
+          "frame": 24,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 1.5928472247010053
+        },
+        {
+          "frame": 25,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 26,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 27,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 28,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 29,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 30,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 31,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 32,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 33,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 9.718956929762852
+        },
+        {
+          "frame": 34,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 35,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 36,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 7.764345327289949
+        },
+        {
+          "frame": 37,
+          "relaxed_nodes": 1,
+          "steps": [
+            {
+              "node": 2082,
+              "merge_level_change": 0.5160627100088059
+            }
+          ],
+          "tau": 0.0
+        },
+        {
+          "frame": 38,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 39,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 40,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 41,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 3.9958320984608453
+        },
+        {
+          "frame": 42,
+          "relaxed_nodes": 1,
+          "steps": [
+            {
+              "node": 1130,
+              "merge_level_change": 0.6790795545961873
+            }
+          ],
+          "tau": 0.0
+        },
+        {
+          "frame": 43,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 1.7866713213744432
+        },
+        {
+          "frame": 44,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 45,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.04112932407119574
+        },
+        {
+          "frame": 46,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 47,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 48,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 49,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.44605617514208934
+        },
+        {
+          "frame": 50,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 1.2276810622580763
+        },
+        {
+          "frame": 51,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 1.2990355236321949
+        },
+        {
+          "frame": 52,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 53,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 54,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 55,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 56,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 57,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 58,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 59,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 60,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 61,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 62,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 63,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 64,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 65,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 66,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 67,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 68,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 69,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 70,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 71,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 72,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 73,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 74,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 75,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 76,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 77,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 78,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 79,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 80,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 81,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 82,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 83,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 84,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 85,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 86,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 87,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 88,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 89,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 90,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 91,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 92,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 93,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 94,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 95,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 96,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        }
+      ]
+    },
+    "R2": {
+      "max_position_error_percent_L": 10.132263818396932,
+      "mean_position_error_percent_L": 1.0498203177206336,
+      "max_merge_error_hPa": 0.42601630700960913,
+      "changed_hours_vs_P": 3,
+      "changed_hour_indices": [
+        37,
+        41,
+        42
+      ],
+      "relaxed_hours": 3,
+      "frame_log": [
+        {
+          "frame": 24,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 1.5928472247010053
+        },
+        {
+          "frame": 25,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 26,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 27,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 28,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 29,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 30,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 31,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 32,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 33,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 9.718956929762852
+        },
+        {
+          "frame": 34,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 35,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 36,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 7.764345327289949
+        },
+        {
+          "frame": 37,
+          "relaxed_nodes": 1,
+          "steps": [
+            {
+              "node": 2082,
+              "merge_level_change": 0.5160627100088059
+            }
+          ],
+          "tau": 0.0
+        },
+        {
+          "frame": 38,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 39,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 40,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 41,
+          "relaxed_nodes": 1,
+          "steps": [
+            {
+              "node": 1131,
+              "merge_level_change": 0.8520326140192183
+            }
+          ],
+          "tau": 0.0
+        },
+        {
+          "frame": 42,
+          "relaxed_nodes": 1,
+          "steps": [
+            {
+              "node": 1130,
+              "merge_level_change": 0.6790795545961873
+            }
+          ],
+          "tau": 0.0
+        },
+        {
+          "frame": 43,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 1.7866713213744432
+        },
+        {
+          "frame": 44,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 45,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.04112932407119574
+        },
+        {
+          "frame": 46,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 47,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 48,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 49,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.44605617514208934
+        },
+        {
+          "frame": 50,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 1.2276810622580763
+        },
+        {
+          "frame": 51,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 1.2990355236321949
+        },
+        {
+          "frame": 52,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 53,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 54,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 55,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 56,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 57,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 58,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 59,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 60,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 61,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 62,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 63,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 64,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 65,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 66,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 67,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 68,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 69,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 70,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 71,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 72,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 73,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 74,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 75,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 76,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 77,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 78,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 79,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 80,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 81,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 82,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 83,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 84,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 85,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 86,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 87,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 88,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 89,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 90,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 91,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 92,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 93,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 94,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 95,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 96,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        }
+      ]
+    },
+    "R3": {
+      "max_position_error_percent_L": 10.132263818396932,
+      "mean_position_error_percent_L": 0.9521420393331973,
+      "max_merge_error_hPa": 0.6431973550556407,
+      "changed_hours_vs_P": 4,
+      "changed_hour_indices": [
+        36,
+        37,
+        41,
+        42
+      ],
+      "relaxed_hours": 4,
+      "frame_log": [
+        {
+          "frame": 24,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 1.5928472247010053
+        },
+        {
+          "frame": 25,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 26,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 27,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 28,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 29,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 30,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 31,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 32,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 33,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 9.718956929762852
+        },
+        {
+          "frame": 34,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 35,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 36,
+          "relaxed_nodes": 1,
+          "steps": [
+            {
+              "node": 2081,
+              "merge_level_change": 1.2863947101112814
+            }
+          ],
+          "tau": 0.0
+        },
+        {
+          "frame": 37,
+          "relaxed_nodes": 1,
+          "steps": [
+            {
+              "node": 2082,
+              "merge_level_change": 0.5160627100088059
+            }
+          ],
+          "tau": 0.0
+        },
+        {
+          "frame": 38,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 39,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 40,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 41,
+          "relaxed_nodes": 1,
+          "steps": [
+            {
+              "node": 1131,
+              "merge_level_change": 0.8520326140192183
+            }
+          ],
+          "tau": 0.0
+        },
+        {
+          "frame": 42,
+          "relaxed_nodes": 1,
+          "steps": [
+            {
+              "node": 1130,
+              "merge_level_change": 0.6790795545961873
+            }
+          ],
+          "tau": 0.0
+        },
+        {
+          "frame": 43,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 1.7866713213744432
+        },
+        {
+          "frame": 44,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 45,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.04112932407119574
+        },
+        {
+          "frame": 46,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 47,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 48,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 49,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.44605617514208934
+        },
+        {
+          "frame": 50,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 1.2276810622580763
+        },
+        {
+          "frame": 51,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 1.2990355236321949
+        },
+        {
+          "frame": 52,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 53,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 54,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 55,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 56,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 57,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 58,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 59,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 60,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 61,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 62,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 63,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 64,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 65,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 66,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 67,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 68,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 69,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 70,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 71,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 72,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 73,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 74,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 75,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 76,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 77,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 78,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 79,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 80,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 81,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 82,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 83,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 84,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 85,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 86,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 87,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 88,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 89,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 90,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 91,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 92,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 93,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 94,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 95,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 96,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        }
+      ]
+    },
+    "R5": {
+      "max_position_error_percent_L": 2.5427155643709924,
+      "mean_position_error_percent_L": 0.8268194425615807,
+      "max_merge_error_hPa": 1.1548784161147139,
+      "changed_hours_vs_P": 5,
+      "changed_hour_indices": [
+        33,
+        36,
+        37,
+        41,
+        42
+      ],
+      "relaxed_hours": 5,
+      "frame_log": [
+        {
+          "frame": 24,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 1.5928472247010053
+        },
+        {
+          "frame": 25,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 26,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 27,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 28,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 29,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 30,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 31,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 32,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 33,
+          "relaxed_nodes": 1,
+          "steps": [
+            {
+              "node": 2129,
+              "merge_level_change": 2.3097568322294277
+            }
+          ],
+          "tau": 0.0
+        },
+        {
+          "frame": 34,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 35,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 36,
+          "relaxed_nodes": 1,
+          "steps": [
+            {
+              "node": 2081,
+              "merge_level_change": 1.2863947101112814
+            }
+          ],
+          "tau": 0.0
+        },
+        {
+          "frame": 37,
+          "relaxed_nodes": 1,
+          "steps": [
+            {
+              "node": 2082,
+              "merge_level_change": 0.5160627100088059
+            }
+          ],
+          "tau": 0.0
+        },
+        {
+          "frame": 38,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 39,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 40,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 41,
+          "relaxed_nodes": 1,
+          "steps": [
+            {
+              "node": 1131,
+              "merge_level_change": 0.8520326140192183
+            }
+          ],
+          "tau": 0.0
+        },
+        {
+          "frame": 42,
+          "relaxed_nodes": 1,
+          "steps": [
+            {
+              "node": 1130,
+              "merge_level_change": 0.6790795545961873
+            }
+          ],
+          "tau": 0.0
+        },
+        {
+          "frame": 43,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 1.7866713213744432
+        },
+        {
+          "frame": 44,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 45,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.04112932407119574
+        },
+        {
+          "frame": 46,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 47,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 48,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 49,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.44605617514208934
+        },
+        {
+          "frame": 50,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 1.2276810622580763
+        },
+        {
+          "frame": 51,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 1.2990355236321949
+        },
+        {
+          "frame": 52,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 53,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 54,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 55,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 56,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 57,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 58,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 59,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 60,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 61,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 62,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 63,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 64,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 65,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 66,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 67,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 68,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 69,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 70,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 71,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 72,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 73,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 74,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 75,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 76,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 77,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 78,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 79,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 80,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 81,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 82,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 83,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 84,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 85,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 86,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 87,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 88,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 89,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 90,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 91,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 92,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 93,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 94,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 95,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 96,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        }
+      ]
+    },
+    "R20": {
+      "max_position_error_percent_L": 2.5427155643709924,
+      "mean_position_error_percent_L": 0.8268194425615807,
+      "max_merge_error_hPa": 1.1548784161147139,
+      "changed_hours_vs_P": 5,
+      "changed_hour_indices": [
+        33,
+        36,
+        37,
+        41,
+        42
+      ],
+      "relaxed_hours": 5,
+      "frame_log": [
+        {
+          "frame": 24,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 1.5928472247010053
+        },
+        {
+          "frame": 25,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 26,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 27,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 28,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 29,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 30,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 31,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 32,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 33,
+          "relaxed_nodes": 1,
+          "steps": [
+            {
+              "node": 2129,
+              "merge_level_change": 2.3097568322294277
+            }
+          ],
+          "tau": 0.0
+        },
+        {
+          "frame": 34,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 35,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 36,
+          "relaxed_nodes": 1,
+          "steps": [
+            {
+              "node": 2081,
+              "merge_level_change": 1.2863947101112814
+            }
+          ],
+          "tau": 0.0
+        },
+        {
+          "frame": 37,
+          "relaxed_nodes": 1,
+          "steps": [
+            {
+              "node": 2082,
+              "merge_level_change": 0.5160627100088059
+            }
+          ],
+          "tau": 0.0
+        },
+        {
+          "frame": 38,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 39,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 40,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 41,
+          "relaxed_nodes": 1,
+          "steps": [
+            {
+              "node": 1131,
+              "merge_level_change": 0.8520326140192183
+            }
+          ],
+          "tau": 0.0
+        },
+        {
+          "frame": 42,
+          "relaxed_nodes": 1,
+          "steps": [
+            {
+              "node": 1130,
+              "merge_level_change": 0.6790795545961873
+            }
+          ],
+          "tau": 0.0
+        },
+        {
+          "frame": 43,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 1.7866713213744432
+        },
+        {
+          "frame": 44,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 45,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.04112932407119574
+        },
+        {
+          "frame": 46,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 47,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 48,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 49,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.44605617514208934
+        },
+        {
+          "frame": 50,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 1.2276810622580763
+        },
+        {
+          "frame": 51,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 1.2990355236321949
+        },
+        {
+          "frame": 52,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 53,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 54,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 55,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 56,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 57,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 58,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 59,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 60,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 61,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 62,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 63,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 64,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 65,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 66,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 67,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 68,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 69,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 70,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 71,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 72,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 73,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 74,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 75,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 76,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 77,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 78,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 79,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 80,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 81,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 82,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 83,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 84,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 85,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 86,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 87,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 88,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 89,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 90,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 91,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 92,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 93,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 94,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 95,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        },
+        {
+          "frame": 96,
+          "relaxed_nodes": 0,
+          "steps": [],
+          "tau": 0.0
+        }
+      ]
+    }
+  },
+  "scalar_range_hPa": 54.746857097027345,
+  "direction": [
+    0.9478317491832081,
+    -0.3187710388982978
+  ],
+  "canvas": [
+    -14.517089035938543,
+    104.52146330606632
+  ],
+  "computation": "Forward prefix f0..f96, with full-month frozen reference and scalar range; display f24..f96.",
+  "identity": "Track 10 is the computed scalar feature associated with the published Anatol event region/time; no independent physical-identity validation.",
+  "original_results_modified": false,
+  "verification": {
+    "max_R20_map_difference": 0.0,
+    "max_R20_anchor_difference": 2.220446049250313e-16,
+    "P_topology_verified_all_prefix_hours": true,
+    "all_extremum_pixels_verified": true,
+    "scientific_frames": 73,
+    "computation_seconds": 4.278763541999069
+  }
+}

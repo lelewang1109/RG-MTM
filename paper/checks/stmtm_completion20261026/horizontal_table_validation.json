@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "layout": "one table, three panels, dataset rows and grouped method columns",
+  "table_page": 10,
+  "main_pages": 26,
+  "all_metrics_preserved": true,
+  "all_panels_2D_before_3D": true,
+  "scientific_results_changed": false,
+  "pdf_sha256": "017983818f11e78a4720c40da85afc7a212f6e6b057edcd101831109b0a53cf4"
+}

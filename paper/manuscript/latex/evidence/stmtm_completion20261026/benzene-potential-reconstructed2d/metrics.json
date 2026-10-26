@@ -1,0 +1,45 @@
+[
+  {
+    "SNS": 0.12843762838773826,
+    "SNS_frames": 21,
+    "TW1": 0.6253968253968254,
+    "TW1_frames": 21,
+    "TD": null,
+    "section_displacement": 1.9657887508774068,
+    "matched_steps": 170,
+    "method": "ST-MTM",
+    "NROE": 50.0,
+    "NMLE_mean": 0.0,
+    "NMLE_max": 0.0
+  },
+  {
+    "SNS": 0.17498550782976688,
+    "SNS_frames": 21,
+    "TW1": 0.626388888888889,
+    "TW1_frames": 21,
+    "TD": null,
+    "section_displacement": 4.111827956989246,
+    "matched_steps": 170,
+    "method": "TMTM"
+  },
+  {
+    "SNS": 0.15880184530273697,
+    "SNS_frames": 21,
+    "TW1": 0.4972222222222224,
+    "TW1_frames": 21,
+    "TD": null,
+    "section_displacement": 2.405957213049715,
+    "matched_steps": 170,
+    "method": "RG-MTM-P"
+  },
+  {
+    "SNS": 0.1570448184310988,
+    "SNS_frames": 21,
+    "TW1": 0.5257936507936508,
+    "TW1_frames": 21,
+    "TD": null,
+    "section_displacement": 0.9601428266243477,
+    "matched_steps": 170,
+    "method": "RG-MTM-R"
+  }
+]

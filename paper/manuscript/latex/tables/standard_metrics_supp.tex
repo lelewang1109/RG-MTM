@@ -1,28 +1,43 @@
-\begingroup\small\setlength{\tabcolsep}{5pt}
-\begin{longtable}{llrrrrr}
-\caption{Standard geometry and stability re-evaluation on the unchanged main configurations.}\label{tab:standard_geometry}\\\toprule
-Data & Method & SNS$\downarrow$ & TW$_1\uparrow$ & TD$\downarrow$ & $N_{\rm SNS}$ & $N_{\rm TW}$\\\midrule\endfirsthead
-\toprule Data & Method & SNS$\downarrow$ & TW$_1\uparrow$ & TD$\downarrow$ & $N_{\rm SNS}$ & $N_{\rm TW}$\\\midrule\endhead
+\begingroup\small\setlength{\tabcolsep}{4pt}
+\begin{longtable}{llrrrrrr}
+\caption{Completed geometry and stability evaluation, with all 2-D inputs preceding 3-D volumes.}\label{tab:standard_geometry}\\\toprule
+Data & Method & SNS & TW$_1$ & TD & Section disp. & $N_{\rm SNS}$ & $N_{\rm TW}$\\\midrule\endfirsthead
+\toprule Data & Method & SNS & TW$_1$ & TD & Section disp. & $N_{\rm SNS}$ & $N_{\rm TW}$\\\midrule\endhead
 \bottomrule\endfoot
-Storms & TMTM & 0.0799 & 0.8243 & 10.1108 & 115 & 88\\
-Storms & ST-MTM & 0.0297 & 0.9653 & 7.1607 & 115 & 88\\
-Storms & RG-MTM-P & 0.1186 & 0.7771 & 27.3609 & 115 & 88\\
-Storms & RG-MTM-R & 0.1097 & 0.7554 & 23.8891 & 115 & 88\\
-Wildfires & TMTM & 0.2210 & 0.8170 & 11.2034 & 30 & 30\\
-Wildfires & ST-MTM & 0.0786 & 0.9195 & 7.9585 & 30 & 30\\
-Wildfires & RG-MTM-P & 0.0831 & 0.8793 & 8.0342 & 30 & 30\\
-Wildfires & RG-MTM-R & 0.0579 & 0.8725 & 3.2487 & 30 & 30\\
-OLR & TMTM & 0.1419 & 0.8135 & 8.7479 & 60 & 52\\
-OLR & ST-MTM & 0.0062 & 0.9751 & 2.3304 & 60 & 52\\
-OLR & RG-MTM-P & 0.0121 & 0.9587 & 8.9011 & 60 & 52\\
-OLR & RG-MTM-R & 0.0093 & 0.9634 & 8.5023 & 60 & 52\\
-PM2.5 & TMTM & 0.0509 & 0.7596 & 38.7546 & 264 & 127\\
-PM2.5 & ST-MTM & 0.0256 & 0.9223 & 7.7763 & 264 & 127\\
-PM2.5 & RG-MTM-P & 0.0640 & 0.7492 & 76.3170 & 264 & 127\\
-PM2.5 & RG-MTM-R & 0.0524 & 0.7291 & 68.7114 & 264 & 127\\
-Ring & TMTM & 0.1706 & 0.7067 & 1.3436 & 32 & 27\\
-Ring & ST-MTM & 0.0803 & 0.9172 & 2.3641 & 32 & 27\\
-Ring & RG-MTM-P & 0.1637 & 0.7087 & 3.5977 & 32 & 27\\
-Ring & RG-MTM-R & 0.1423 & 0.7149 & 2.3512 & 32 & 27\\
-\end{longtable}
-\noindent SNS and TW use support centroids. TD is summed in full-canvas-width units, not occupied-range-normalized mean displacement. $N$ columns count valid frames; TW uses $k=1$. All values are descriptive.\endgroup
+Storms & TMTM & 0.0799 & 0.8243 & 10.1108 & -- & 115 & 88\\
+Storms & ST-MTM & 0.0297 & 0.9653 & 7.1607 & -- & 115 & 88\\
+Storms & RG-MTM-P & 0.1186 & 0.7771 & 27.3609 & -- & 115 & 88\\
+Storms & RG-MTM-R & 0.1097 & 0.7554 & 23.8891 & -- & 115 & 88\\
+Wildfires & TMTM & 0.2210 & 0.8170 & 11.2034 & -- & 30 & 30\\
+Wildfires & ST-MTM & 0.0786 & 0.9195 & 7.9585 & -- & 30 & 30\\
+Wildfires & RG-MTM-P & 0.0831 & 0.8793 & 8.0342 & -- & 30 & 30\\
+Wildfires & RG-MTM-R & 0.0579 & 0.8725 & 3.2487 & -- & 30 & 30\\
+OLR & TMTM & 0.1419 & 0.8135 & 8.7479 & -- & 60 & 52\\
+OLR & ST-MTM & 0.0062 & 0.9751 & 2.3304 & -- & 60 & 52\\
+OLR & RG-MTM-P & 0.0121 & 0.9587 & 8.9011 & -- & 60 & 52\\
+OLR & RG-MTM-R & 0.0093 & 0.9634 & 8.5023 & -- & 60 & 52\\
+PM2.5 & TMTM & 0.0509 & 0.7596 & 38.7546 & -- & 264 & 127\\
+PM2.5 & ST-MTM & 0.0256 & 0.9223 & 7.7763 & -- & 264 & 127\\
+PM2.5 & RG-MTM-P & 0.0640 & 0.7492 & 76.3170 & -- & 264 & 127\\
+PM2.5 & RG-MTM-R & 0.0524 & 0.7291 & 68.7114 & -- & 264 & 127\\
+Ring & TMTM & 0.1706 & 0.7067 & 1.3436 & -- & 32 & 27\\
+Ring & ST-MTM & 0.0803 & 0.9172 & 2.3641 & -- & 32 & 27\\
+Ring & RG-MTM-P & 0.1637 & 0.7087 & 3.5977 & -- & 32 & 27\\
+Ring & RG-MTM-R & 0.1423 & 0.7149 & 2.3512 & -- & 32 & 27\\
+Nucleon & TMTM & 0.3122 & 0.9161 & -- & -- & 1 & 1\\
+Nucleon & ST-MTM & 0.0506 & 0.9860 & -- & -- & 1 & 1\\
+Nucleon & RG-MTM-P & 0.1325 & 0.8951 & -- & -- & 1 & 1\\
+Nucleon & RG-MTM-R & 0.1325 & 0.8951 & -- & -- & 1 & 1\\
+Benzene & TMTM & 0.1750 & 0.6264 & -- & 4.1118 & 21 & 21\\
+Benzene & ST-MTM & 0.1284 & 0.6254 & -- & 1.9658 & 21 & 21\\
+Benzene & RG-MTM-P & 0.1588 & 0.4972 & -- & 2.4060 & 21 & 21\\
+Benzene & RG-MTM-R & 0.1570 & 0.5258 & -- & 0.9601 & 21 & 21\\
+Tangaroa & TMTM & 0.5255 & 0.6701 & 64.8553 & -- & 201 & 201\\
+Tangaroa & ST-MTM & 0.1655 & 0.8137 & 138.5519 & -- & 201 & 201\\
+Tangaroa & RG-MTM-P & 0.3571 & 0.7271 & 158.2670 & -- & 201 & 201\\
+Tangaroa & RG-MTM-R & 0.3353 & 0.7458 & 39.7093 & -- & 201 & 201\\
+Cylinder & TMTM & 0.2956 & 0.8017 & 85.0339 & -- & 102 & 102\\
+Cylinder & ST-MTM & 0.1346 & 0.8989 & 43.1663 & -- & 102 & 102\\
+Cylinder & RG-MTM-P & 0.1393 & 0.7838 & 72.3427 & -- & 102 & 102\\
+Cylinder & RG-MTM-R & 0.0399 & 0.8912 & 29.1130 & -- & 102 & 102\\
+\end{longtable}\endgroup

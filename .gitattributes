@@ -9,3 +9,5 @@ paper/manuscript/latex/evidence/** -text
 *.zip binary
 *.nc binary
 *.npz binary
+# Preserve generated SVG path formatting without line-ending or whitespace edits.
+*.svg -text -whitespace

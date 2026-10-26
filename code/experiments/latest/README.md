@@ -1,3 +1,5 @@
+> 历史索引说明：本manifest保留生成时的成员与哈希。当前614帧共同模型及325个补全ST-MTM入口见 [代码README](../../README.md)，下文278/581/342等计数属于旧索引，不能覆盖当前总表。
+
 # 当前实验文件索引
 
 `manifest.json` 由 `../../tools/build_latest_experiment_index.py` 从现存文件重新生成，记录代码、结果与图源的字节哈希，包含主实验、三维正式结果、Nucleon、Benzene二维重建、Cylinder及基线/案例证据。

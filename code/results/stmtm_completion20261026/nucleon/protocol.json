@@ -1,0 +1,42 @@
+{
+  "dataset": "Nucleon",
+  "frames": 1,
+  "dimension": 2,
+  "physical_time": false,
+  "solver": "OSQP 1.1.3 for Eq.1; Eq.2 exact feasible target-width witnesses certify zero minimum, otherwise QP; exact linear constraints",
+  "settings": {
+    "weights": "uniform",
+    "total_leaf_extent_k": 6.2369384765625,
+    "reorder_threshold_r": 0.95,
+    "temporal_lambda": 0.5,
+    "layout_length": 32768,
+    "start_timestep": 0,
+    "mode": "base",
+    "alpha": 1.0,
+    "min_spacing_delta": 0.01,
+    "optimizer_tolerance": 1e-11,
+    "optimizer_max_iterations": 2000
+  },
+  "parameter_selection": "fixed generic shared-input settings; no tuning",
+  "K_rule": "saved width_scale times first-frame support measure (physical voxel volumes for Tangaroa, sample counts for other inputs)",
+  "static_semantics": "Nucleon single slice; Benzene adjacent sections are spatial, not time",
+  "binary_refinement": "stable original child ID right chain; equal scalar virtual saddles, empty new arcs; unchanged leaf supports and pairwise LCA levels",
+  "virtual_saddles": [
+    0
+  ],
+  "geometry": "unweighted source leaf-support centroids; Euclidean distance in native spatial dimension; SNS mean; TW k=1",
+  "stability": "full sequence canvas [0,1]; TD null on static inputs; Benzene section displacement separately named",
+  "reflection": "one global reflection from first frame with nonzero anchor/reference covariance above 1e-12 relative tolerance; no per-frame fitting",
+  "motion": "reuse original extrema and overlap tracks; lag=2; source threshold=2% domain diagonal; retain original occupied-range Tangaroa / fixed-canvas Cylinder display thresholds",
+  "source_sha256": {
+    "results/paper1_suite/nucleon/features.json": "658e196cafb0f66d499bcce5e294fc0686874a50f738bbcd5f2600f7797f97c8",
+    "results/paper1_suite/nucleon/parameters.json": "5ba6b714dcedb091a9cd3c551fe57f8abdb784048bf3214f01936b77c97e94e1",
+    "results/paper1_suite/nucleon/frame_metrics.json": "2f416d0157c5540e24741cdbc570dd757303300a26dba49456f9d9e5bd634d4d",
+    "results/paper1_suite/nucleon/protocol.json": "e431b3533cf99c5e68d2f9a8322f0e32025ae62e78b6232e4fcb170a5617ba6a",
+    "data/real/paper1_suite/nucleon/trees/frame_000.manifest.json": "d04af63b9f4b85a0217ab62169f05951e0c31aa313339fe5cb1e4ad04c2632f2"
+  },
+  "code_sha256": {
+    "experiments/stmtm_completion/run.py": "5bb20578e5ef4a22081ed1a195314741cc483478a811f943926f2071109d73f0",
+    "src/rgmtm/baselines/stmtm.py": "97a232bfbd6b4b7f8e0d125396a2a6d3619b5f661c106ded574c55d1c5be5f77"
+  }
+}

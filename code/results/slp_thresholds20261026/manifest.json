@@ -1,0 +1,31 @@
+{
+  "files_sha256": {
+    "README.md": "0fa674cc8334d8648968afcd7e76759bb77a9464016c504cd6d562b5b4e1d900",
+    "frame_feasibility.csv": "72d92c225ce22a77ef877e695f813f0daf65949e275646b59674fe3b5559a339",
+    "maps.npz": "0a4dd41911533ebbe90aca18ae1c7092c70c4ad80cf0594a61fbfc1b1740ff85",
+    "results.json": "141be136ac76bd6680b33c16e540d9064c6dd5e54e3e0dd31f8b053c3af020ca",
+    "slp_missing_frame_diagnostics.pdf": "837cc11814c82b970243bc0134e5acf108cc5ee6c0a7040465f53a38577b0885",
+    "slp_missing_frame_diagnostics.png": "77ea6651cc9f97e681382e710b1a4c6a245636c4af5c3b7c39eaa3ebb0e08d75",
+    "slp_missing_frame_diagnostics.svg": "7e77a1c5c281f9827b9dcd80b5689375482952f7ed57c78b7956350eaf33a872",
+    "slp_position_budget_comparison.pdf": "96e9a4cabd7848af5fa44d6494e22265d6bda2a78468729d498dd4690f1c1fe8",
+    "slp_position_budget_comparison.png": "4f0c137df5d4ea2ae6eafb896100a9891243fffde6534f9ae990a03459967f8d",
+    "slp_position_budget_comparison.svg": "f5db7df6f132e0bdabf4eaa5dcc638454d750be98f0a2d3959560e947bd0d6da",
+    "slp_thresholds_0_10_20.pdf": "9348375c13098981b2e154d0b96acf6005e281c0d2ed3f3df7eb3ca9979237b1",
+    "slp_thresholds_0_10_20.png": "b6002a8c6ba5e5266a49cb04e4df361e8abce946daf9afb3eede8b9afebbaadf",
+    "slp_thresholds_0_10_20.svg": "64d981779116ab929dc0cd3709dea00f2d19c6a732aa82d2e7f75e4ce6ee50bc"
+  },
+  "checked_constraints": true,
+  "exact_feasibility": true,
+  "global_QP_order_optimality": false,
+  "dates_verified_12h": true,
+  "missing_masks_verified": true,
+  "nested_feasible_sets_verified": true,
+  "visual_review": {
+    "files": [
+      "slp_thresholds_0_10_20.png",
+      "slp_position_budget_comparison.png",
+      "slp_missing_frame_diagnostics.png"
+    ],
+    "result": "passed; labels, shared scalar scale and gray columns checked"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "source_sha256": {
+    "results/submission20261023/unified_metrics.json": "2cc165c28d7a606d9809191487bf4f86c2d80eab0b1db3ca7c2c4b08aa2e1ec1",
+    "results/public_metrics_20261016/era5.json": "d56f26cd7affd2f4330ed319d6243b70a871ef56befec9751a0f24f30a1a7eb5",
+    "results/public_metrics_20261016/wildfire.json": "3b785b77fd6957ce4dee9d44083f57a6f70ccc76de144f7eac092b75b6b4afeb",
+    "results/public_metrics_20261016/olr.json": "7ec789fe042c6dd66fa8e13b8153a87f839fbabfee677ac8a1ef769f90827df8",
+    "results/pm25_2000/standard_metrics.json": "aabfc04ffe8a25aadb118b8cea91ed2c82336a0d0e447fc1cd7ebe733fb74586",
+    "results/public_metrics_20261016/ring.json": "fa63e22b887c3ecc21492840f9a304a2773dee21b807d01531cfb7c39538db8d",
+    "results/stmtm_completion20261026/nucleon/metrics.json": "471ec925c32a6a1455d7df8a88176fa03a484267311204be3ce21d48c11c845c",
+    "results/stmtm_completion20261026/benzene-potential-reconstructed2d/metrics.json": "f79042df1d30a6512d60ff2690276987c0e63f7a42e9704494e6c61025e9868e",
+    "results/stmtm_completion20261026/tangaroa/metrics.json": "ab1ebd85ac2445417c86df7879b0d33123d9a38a31bfda9024b51051706ea41d",
+    "results/stmtm_completion20261026/square-cylinder3d/metrics.json": "574a911f8bb84e5e5f4e1a4c71d4f149cecf447a2bb482e74f4bef6c6775a671"
+  },
+  "table_sha256": {
+    "comparison_revision.tex": "9186e42c40f12b2325702281b7f6c2ae166aff5d492a93374acd9f4e3773224e",
+    "datasets_main.tex": "e8cb19f7135866f6b4b7fed79a542d9438cbe08dc4aa22e6bc0f9e5321f99a6e",
+    "achieved_reference_main.tex": "8e248b78dfe89ffab15b1c342d2a9fbd82176244422ddd5316da5766873bd826",
+    "geometry2d_main.tex": "6c1ca1809fba73a4fc2687fbdc7482e2c8f5cc87ff429be49193331ed9dd8b68",
+    "geometry3d_main.tex": "d3d6394fc8b2c8316c13563bba2aba1192170172c9072c3be0ab63de448bf939",
+    "standard_metrics_supp.tex": "2177c117350ed3bb55cf72d67565c339a11be099345a042780db41be9431b5a5"
+  }
+}

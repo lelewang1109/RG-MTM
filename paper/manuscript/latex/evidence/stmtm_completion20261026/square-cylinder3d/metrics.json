@@ -1,0 +1,53 @@
+[
+  {
+    "SNS": 0.13461799974575345,
+    "SNS_frames": 102,
+    "TW1": 0.8988814861404879,
+    "TW1_frames": 102,
+    "TD": 43.16632587664382,
+    "section_displacement": null,
+    "matched_steps": 1105,
+    "method": "ST-MTM",
+    "NROE": 17.771436932982148,
+    "NMLE_mean": 0.0,
+    "NMLE_max": 0.0,
+    "motion": {
+      "clear": 3196,
+      "errors": 1469,
+      "reversals": 539,
+      "misses": 930,
+      "error_fraction": 0.4596370463078849,
+      "display_threshold": "2% fixed canvas (retained Cylinder protocol)"
+    }
+  },
+  {
+    "SNS": 0.29555381504830314,
+    "SNS_frames": 102,
+    "TW1": 0.8017446645669273,
+    "TW1_frames": 102,
+    "TD": 85.03385907084068,
+    "section_displacement": null,
+    "matched_steps": 1105,
+    "method": "TMTM"
+  },
+  {
+    "SNS": 0.13927206180104063,
+    "SNS_frames": 102,
+    "TW1": 0.7838051262143565,
+    "TW1_frames": 102,
+    "TD": 72.3426923429054,
+    "section_displacement": null,
+    "matched_steps": 1105,
+    "method": "RG-MTM-P"
+  },
+  {
+    "SNS": 0.03991743663221154,
+    "SNS_frames": 102,
+    "TW1": 0.8912162727592101,
+    "TW1_frames": 102,
+    "TD": 29.11297952207995,
+    "section_displacement": null,
+    "matched_steps": 1105,
+    "method": "RG-MTM-R"
+  }
+]

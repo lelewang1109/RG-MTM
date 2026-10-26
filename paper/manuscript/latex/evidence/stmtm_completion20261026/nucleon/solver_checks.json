@@ -1,0 +1,34 @@
+[
+  {
+    "index": 0,
+    "projection": {
+      "primal_residual": 5.329070518200751e-15,
+      "stationarity_residual": 1.351501404203577e-13,
+      "complementarity_residual": 0.0,
+      "dual": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.280447130627567e-13
+      ],
+      "scale": 24.0,
+      "status": "solved"
+    },
+    "intervals": {
+      "solver": "zero-objective feasible target-width witness",
+      "objective_upper_bound": 2.565834808359848e-32,
+      "primal_residual": 8.881784197001252e-16,
+      "stationarity_residual": 0.0,
+      "complementarity_residual": 0.0
+    }
+  }
+]

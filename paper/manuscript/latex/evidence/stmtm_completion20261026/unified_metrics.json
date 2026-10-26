@@ -1,0 +1,1323 @@
+{
+  "scope": "Completed nine-input native ST-MTM and SNS/TW/TD evaluation; 2-D before 3-D",
+  "datasets": [
+    {
+      "key": "era5",
+      "name": "Storms",
+      "dimension": 2,
+      "population": "physical temporal sequence",
+      "frames_or_sections": 118,
+      "grid": [
+        49,
+        49
+      ],
+      "leaves": [
+        1,
+        8
+      ],
+      "tree": "join",
+      "scalar_field": "Mean sea-level pressure",
+      "reference_extent": 86.11980326698031,
+      "methods": {
+        "TMTM": {
+          "NROE": 19.23365378047747,
+          "NMLE_mean": 0.0,
+          "NMLE_max": 0.0,
+          "motion": {
+            "errors": 49,
+            "clear": 104,
+            "error_fraction": 0.47115384615384615,
+            "truth_dimension": 2
+          }
+        },
+        "ST-MTM": {
+          "NROE": 16.278371898778904,
+          "NMLE_mean": 0.0,
+          "NMLE_max": 0.0,
+          "motion": {
+            "errors": 43,
+            "clear": 104,
+            "error_fraction": 0.41346153846153844,
+            "truth_dimension": 2
+          }
+        },
+        "RG-MTM-P": {
+          "NROE": 3.7743272412319944,
+          "NMLE_mean": 0.0,
+          "NMLE_max": 0.0,
+          "motion": {
+            "errors": 24,
+            "clear": 104,
+            "error_fraction": 0.23076923076923078,
+            "truth_dimension": 2
+          },
+          "E_pool": 4.132256450858255,
+          "E_inf": 26.185374900113136
+        },
+        "RG-MTM-R20": {
+          "NROE": 1.1618707698268602,
+          "NMLE_mean": 1.4680901592965125,
+          "NMLE_max": 26.07142835871198,
+          "motion": {
+            "errors": 19,
+            "clear": 104,
+            "error_fraction": 0.18269230769230768,
+            "truth_dimension": 2
+          },
+          "E_pool": 2.1409817881385735,
+          "E_inf": 18.464244641223882
+        }
+      },
+      "geometry": {
+        "TMTM": {
+          "dataset": "era5",
+          "method": "TMTM",
+          "frames": 118,
+          "features_min": 1,
+          "features_max": 8,
+          "SNS": 0.07991568046070169,
+          "SNS_frames": 115,
+          "SNS_n3": 0.10443526423841698,
+          "SNS_n3_frames": 88,
+          "TW1": 0.8243371212121212,
+          "TW1_frames": 88,
+          "TW3": 0.8402777777777778,
+          "TW3_frames": 2,
+          "TW5": null,
+          "TW5_frames": 0,
+          "TW1_no_ties": 0.8238505747126437,
+          "TW1_no_ties_frames": 87,
+          "distance_tie_frames": 1,
+          "TD": 10.110833333333337,
+          "TD_common2048px": 20696.875833333343,
+          "matched_steps": 270,
+          "TD_per_match": 0.03744753086419754
+        },
+        "ST-MTM": {
+          "dataset": "era5",
+          "method": "ST-MTM",
+          "frames": 118,
+          "features_min": 1,
+          "features_max": 8,
+          "SNS": 0.029747104428638798,
+          "SNS_frames": 115,
+          "SNS_n3": 0.03887405692378934,
+          "SNS_n3_frames": 88,
+          "TW1": 0.9653409090909091,
+          "TW1_frames": 88,
+          "TW3": 0.9027777777777778,
+          "TW3_frames": 2,
+          "TW5": null,
+          "TW5_frames": 0,
+          "TW1_no_ties": 0.9653409090909091,
+          "TW1_no_ties_frames": 88,
+          "distance_tie_frames": 0,
+          "TD": 7.160683760683748,
+          "TD_common2048px": 14657.919658119632,
+          "matched_steps": 270,
+          "TD_per_match": 0.02652105096549541
+        },
+        "RG-MTM-P": {
+          "dataset": "era5",
+          "method": "RG-MTM-P",
+          "frames": 118,
+          "features_min": 1,
+          "features_max": 8,
+          "SNS": 0.11858938272700179,
+          "SNS_frames": 115,
+          "SNS_n3": 0.15497476151824097,
+          "SNS_n3_frames": 88,
+          "TW1": 0.7771306818181819,
+          "TW1_frames": 88,
+          "TW3": 0.8680555555555556,
+          "TW3_frames": 2,
+          "TW5": null,
+          "TW5_frames": 0,
+          "TW1_no_ties": 0.7784003831417624,
+          "TW1_no_ties_frames": 87,
+          "distance_tie_frames": 1,
+          "TD": 27.360927960927928,
+          "TD_common2048px": 56007.819536019466,
+          "matched_steps": 270,
+          "TD_per_match": 0.10133677022565912
+        },
+        "RG-MTM-R": {
+          "dataset": "era5",
+          "method": "RG-MTM-R",
+          "frames": 118,
+          "features_min": 1,
+          "features_max": 8,
+          "SNS": 0.10968784542806657,
+          "SNS_frames": 115,
+          "SNS_n3": 0.14334207072985972,
+          "SNS_n3_frames": 88,
+          "TW1": 0.7554450757575757,
+          "TW1_frames": 88,
+          "TW3": 0.7847222222222223,
+          "TW3_frames": 2,
+          "TW5": null,
+          "TW5_frames": 0,
+          "TW1_no_ties": 0.7554450757575757,
+          "TW1_no_ties_frames": 88,
+          "distance_tie_frames": 0,
+          "TD": 23.889133089133054,
+          "TD_common2048px": 48901.05543345536,
+          "matched_steps": 270,
+          "TD_per_match": 0.08847827070049293
+        }
+      }
+    },
+    {
+      "key": "wildfire",
+      "name": "Wildfires",
+      "dimension": 2,
+      "population": "physical temporal sequence",
+      "frames_or_sections": 30,
+      "grid": [
+        64,
+        64
+      ],
+      "leaves": [
+        6,
+        11
+      ],
+      "tree": "split",
+      "scalar_field": "$\\log(1+\\mathrm{FRP})$",
+      "reference_extent": 166.89689703121402,
+      "methods": {
+        "TMTM": {
+          "NROE": 29.30266105441931,
+          "NMLE_mean": 0.0,
+          "NMLE_max": 0.0,
+          "motion": {
+            "errors": 44,
+            "clear": 112,
+            "error_fraction": 0.39285714285714285,
+            "truth_dimension": 2
+          }
+        },
+        "ST-MTM": {
+          "NROE": 24.015099920605703,
+          "NMLE_mean": 0.0,
+          "NMLE_max": 0.0,
+          "motion": {
+            "errors": 40,
+            "clear": 112,
+            "error_fraction": 0.35714285714285715,
+            "truth_dimension": 2
+          }
+        },
+        "RG-MTM-P": {
+          "NROE": 5.830214095746283,
+          "NMLE_mean": 0.0,
+          "NMLE_max": 0.0,
+          "motion": {
+            "errors": 36,
+            "clear": 112,
+            "error_fraction": 0.32142857142857145,
+            "truth_dimension": 2
+          },
+          "E_pool": 3.1824793628313515,
+          "E_inf": 20.475582909961712
+        },
+        "RG-MTM-R20": {
+          "NROE": 0.34394025457474137,
+          "NMLE_mean": 3.955075746241403,
+          "NMLE_max": 19.56389492896233,
+          "motion": {
+            "errors": 35,
+            "clear": 112,
+            "error_fraction": 0.3125,
+            "truth_dimension": 2
+          },
+          "E_pool": 0.804402435370466,
+          "E_inf": 6.636770157587331
+        }
+      },
+      "geometry": {
+        "TMTM": {
+          "dataset": "wildfire",
+          "method": "TMTM",
+          "frames": 30,
+          "features_min": 6,
+          "features_max": 11,
+          "SNS": 0.22103663002879587,
+          "SNS_frames": 30,
+          "SNS_n3": 0.22103663002879587,
+          "SNS_n3_frames": 30,
+          "TW1": 0.8170406445406446,
+          "TW1_frames": 30,
+          "TW3": 0.7297744526005395,
+          "TW3_frames": 23,
+          "TW5": 0.696969696969697,
+          "TW5_frames": 2,
+          "TW1_no_ties": 0.8216383410827854,
+          "TW1_no_ties_frames": 27,
+          "distance_tie_frames": 3,
+          "TD": 11.203418803418792,
+          "TD_common2048px": 22933.398290598267,
+          "matched_steps": 161,
+          "TD_per_match": 0.06958645219514786
+        },
+        "ST-MTM": {
+          "dataset": "wildfire",
+          "method": "ST-MTM",
+          "frames": 30,
+          "features_min": 6,
+          "features_max": 11,
+          "SNS": 0.07856841232600605,
+          "SNS_frames": 30,
+          "SNS_n3": 0.07856841232600605,
+          "SNS_n3_frames": 30,
+          "TW1": 0.9194534632034632,
+          "TW1_frames": 30,
+          "TW3": 0.9202142543446891,
+          "TW3_frames": 23,
+          "TW5": 0.9030303030303031,
+          "TW5_frames": 2,
+          "TW1_no_ties": 0.9194534632034632,
+          "TW1_no_ties_frames": 30,
+          "distance_tie_frames": 0,
+          "TD": 7.958475818270644,
+          "TD_common2048px": 16291.00000000001,
+          "matched_steps": 161,
+          "TD_per_match": 0.04943152682155677
+        },
+        "RG-MTM-P": {
+          "dataset": "wildfire",
+          "method": "RG-MTM-P",
+          "frames": 30,
+          "features_min": 6,
+          "features_max": 11,
+          "SNS": 0.08309148610916989,
+          "SNS_frames": 30,
+          "SNS_n3": 0.08309148610916989,
+          "SNS_n3_frames": 30,
+          "TW1": 0.8792706830206831,
+          "TW1_frames": 30,
+          "TW3": 0.8920908881778447,
+          "TW3_frames": 23,
+          "TW5": 0.8181818181818181,
+          "TW5_frames": 2,
+          "TW1_no_ties": 0.8799839528287805,
+          "TW1_no_ties_frames": 29,
+          "distance_tie_frames": 1,
+          "TD": 8.034196384953587,
+          "TD_common2048px": 16445.999999999993,
+          "matched_steps": 161,
+          "TD_per_match": 0.04990184090033286
+        },
+        "RG-MTM-R": {
+          "dataset": "wildfire",
+          "method": "RG-MTM-R",
+          "frames": 30,
+          "features_min": 6,
+          "features_max": 11,
+          "SNS": 0.05790887780823004,
+          "SNS_frames": 30,
+          "SNS_n3": 0.05790887780823004,
+          "SNS_n3_frames": 30,
+          "TW1": 0.8724537037037037,
+          "TW1_frames": 30,
+          "TW3": 0.8949208440512788,
+          "TW3_frames": 23,
+          "TW5": 0.896969696969697,
+          "TW5_frames": 2,
+          "TW1_no_ties": 0.8724537037037037,
+          "TW1_no_ties_frames": 30,
+          "distance_tie_frames": 0,
+          "TD": 3.248656570591108,
+          "TD_common2048px": 6649.999999999998,
+          "matched_steps": 161,
+          "TD_per_match": 0.020177991121683905
+        }
+      }
+    },
+    {
+      "key": "olr",
+      "name": "OLR",
+      "dimension": 2,
+      "population": "physical temporal sequence",
+      "frames_or_sections": 60,
+      "grid": [
+        49,
+        49
+      ],
+      "leaves": [
+        2,
+        8
+      ],
+      "tree": "join",
+      "scalar_field": "Outgoing longwave radiation",
+      "reference_extent": 115.0321389591431,
+      "methods": {
+        "TMTM": {
+          "NROE": 19.311641065267676,
+          "NMLE_mean": 0.0,
+          "NMLE_max": 0.0,
+          "motion": {
+            "errors": 25,
+            "clear": 56,
+            "error_fraction": 0.44642857142857145,
+            "truth_dimension": 2
+          }
+        },
+        "ST-MTM": {
+          "NROE": 17.209419831059154,
+          "NMLE_mean": 0.0,
+          "NMLE_max": 0.0,
+          "motion": {
+            "errors": 12,
+            "clear": 56,
+            "error_fraction": 0.21428571428571427,
+            "truth_dimension": 2
+          }
+        },
+        "RG-MTM-P": {
+          "NROE": 0.8868398249381654,
+          "NMLE_mean": 0.0,
+          "NMLE_max": 0.0,
+          "motion": {
+            "errors": 3,
+            "clear": 56,
+            "error_fraction": 0.05357142857142857,
+            "truth_dimension": 2
+          },
+          "E_pool": 1.0033729764570514,
+          "E_inf": 17.14474100635256
+        },
+        "RG-MTM-R20": {
+          "NROE": 0.0,
+          "NMLE_mean": 1.0960634625843921,
+          "NMLE_max": 33.55535259482717,
+          "motion": {
+            "errors": 3,
+            "clear": 56,
+            "error_fraction": 0.05357142857142857,
+            "truth_dimension": 2
+          },
+          "E_pool": 0.5703013509989894,
+          "E_inf": 1.6865998354235652
+        }
+      },
+      "geometry": {
+        "TMTM": {
+          "dataset": "olr",
+          "method": "TMTM",
+          "frames": 60,
+          "features_min": 2,
+          "features_max": 8,
+          "SNS": 0.1418568941195278,
+          "SNS_frames": 60,
+          "SNS_n3": 0.16368103167637824,
+          "SNS_n3_frames": 52,
+          "TW1": 0.813507326007326,
+          "TW1_frames": 52,
+          "TW3": 0.7397959183673469,
+          "TW3_frames": 7,
+          "TW5": null,
+          "TW5_frames": 0,
+          "TW1_no_ties": 0.8098506069094302,
+          "TW1_no_ties_frames": 51,
+          "distance_tie_frames": 1,
+          "TD": 8.747916666666665,
+          "TD_common2048px": 17906.985416666663,
+          "matched_steps": 150,
+          "TD_per_match": 0.058319444444444445
+        },
+        "ST-MTM": {
+          "dataset": "olr",
+          "method": "ST-MTM",
+          "frames": 60,
+          "features_min": 2,
+          "features_max": 8,
+          "SNS": 0.006206670527539338,
+          "SNS_frames": 60,
+          "SNS_n3": 0.007161542916391543,
+          "SNS_n3_frames": 52,
+          "TW1": 0.9750915750915752,
+          "TW1_frames": 52,
+          "TW3": 0.9727891156462586,
+          "TW3_frames": 7,
+          "TW5": null,
+          "TW5_frames": 0,
+          "TW1_no_ties": 0.9750915750915752,
+          "TW1_no_ties_frames": 52,
+          "distance_tie_frames": 0,
+          "TD": 2.3304029304029292,
+          "TD_common2048px": 4770.334798534796,
+          "matched_steps": 150,
+          "TD_per_match": 0.015536019536019538
+        },
+        "RG-MTM-P": {
+          "dataset": "olr",
+          "method": "RG-MTM-P",
+          "frames": 60,
+          "features_min": 2,
+          "features_max": 8,
+          "SNS": 0.012131784364360904,
+          "SNS_frames": 60,
+          "SNS_n3": 0.013998212728108732,
+          "SNS_n3_frames": 52,
+          "TW1": 0.9587225274725275,
+          "TW1_frames": 52,
+          "TW3": 0.9727891156462586,
+          "TW3_frames": 7,
+          "TW5": null,
+          "TW5_frames": 0,
+          "TW1_no_ties": 0.9579131652661065,
+          "TW1_no_ties_frames": 51,
+          "distance_tie_frames": 1,
+          "TD": 8.901098901098894,
+          "TD_common2048px": 18220.549450549435,
+          "matched_steps": 150,
+          "TD_per_match": 0.059340659340659345
+        },
+        "RG-MTM-R": {
+          "dataset": "olr",
+          "method": "RG-MTM-R",
+          "frames": 60,
+          "features_min": 2,
+          "features_max": 8,
+          "SNS": 0.009268264603608063,
+          "SNS_frames": 60,
+          "SNS_n3": 0.01069415146570161,
+          "SNS_n3_frames": 52,
+          "TW1": 0.963392857142857,
+          "TW1_frames": 52,
+          "TW3": 0.9761904761904762,
+          "TW3_frames": 7,
+          "TW5": null,
+          "TW5_frames": 0,
+          "TW1_no_ties": 0.9626750700280111,
+          "TW1_no_ties_frames": 51,
+          "distance_tie_frames": 1,
+          "TD": 8.502319902319895,
+          "TD_common2048px": 17404.248840048826,
+          "matched_steps": 150,
+          "TD_per_match": 0.05668213268213268
+        }
+      }
+    },
+    {
+      "key": "pm25",
+      "name": "PM2.5",
+      "dimension": 2,
+      "population": "physical temporal sequence",
+      "frames_or_sections": 366,
+      "grid": [
+        49,
+        49
+      ],
+      "leaves": [
+        1,
+        7
+      ],
+      "tree": "split",
+      "scalar_field": "PM$_{2.5}$ concentration",
+      "reference_extent": 115.39758205821175,
+      "methods": {
+        "TMTM": {
+          "NROE": 12.87041212799393,
+          "NMLE_mean": 0.0,
+          "NMLE_max": 0.0,
+          "motion": {
+            "errors": 43,
+            "clear": 95,
+            "error_fraction": 0.45263157894736844,
+            "truth_dimension": 2
+          }
+        },
+        "ST-MTM": {
+          "NROE": 11.595275893820617,
+          "NMLE_mean": 0.0,
+          "NMLE_max": 0.0,
+          "motion": {
+            "errors": 49,
+            "clear": 95,
+            "error_fraction": 0.5157894736842106,
+            "truth_dimension": 2
+          }
+        },
+        "RG-MTM-P": {
+          "NROE": 0.9785261395840659,
+          "NMLE_mean": 0.0,
+          "NMLE_max": 0.0,
+          "motion": {
+            "errors": 42,
+            "clear": 95,
+            "error_fraction": 0.4421052631578947,
+            "truth_dimension": 2
+          },
+          "E_pool": 1.8692690801176455,
+          "E_inf": 20.256948018389533
+        },
+        "RG-MTM-R20": {
+          "NROE": 0.007382460270800004,
+          "NMLE_mean": 0.18240686696952849,
+          "NMLE_max": 4.66930572030318,
+          "motion": {
+            "errors": 47,
+            "clear": 95,
+            "error_fraction": 0.49473684210526314,
+            "truth_dimension": 2
+          },
+          "E_pool": 0.7603061721122664,
+          "E_inf": 5.856400005444036
+        }
+      },
+      "geometry": {
+        "TMTM": {
+          "dataset": "pm25_2000",
+          "method": "TMTM",
+          "frames": 366,
+          "features_min": 1,
+          "features_max": 7,
+          "SNS": 0.05085133330150728,
+          "SNS_frames": 264,
+          "SNS_n3": 0.10570670859525924,
+          "SNS_n3_frames": 127,
+          "TW1": 0.7596175478065242,
+          "TW1_frames": 127,
+          "TW3": 0.7857142857142857,
+          "TW3_frames": 1,
+          "TW5": null,
+          "TW5_frames": 0,
+          "TW1_no_ties": 0.7560195852534561,
+          "TW1_no_ties_frames": 124,
+          "distance_tie_frames": 3,
+          "TD": 38.75458333333336,
+          "TD_common2048px": 79330.63208333339,
+          "matched_steps": 560,
+          "TD_per_match": 0.06920461309523811
+        },
+        "ST-MTM": {
+          "dataset": "pm25_2000",
+          "method": "ST-MTM",
+          "frames": 366,
+          "features_min": 1,
+          "features_max": 7,
+          "SNS": 0.025622478180931496,
+          "SNS_frames": 264,
+          "SNS_n3": 0.05326247432886547,
+          "SNS_n3_frames": 127,
+          "TW1": 0.9222909636295463,
+          "TW1_frames": 127,
+          "TW3": 0.9761904761904762,
+          "TW3_frames": 1,
+          "TW5": null,
+          "TW5_frames": 0,
+          "TW1_no_ties": 0.9227324263038549,
+          "TW1_no_ties_frames": 126,
+          "distance_tie_frames": 1,
+          "TD": 7.776312576312558,
+          "TD_common2048px": 15918.111843711806,
+          "matched_steps": 560,
+          "TD_per_match": 0.01388627245770103
+        },
+        "RG-MTM-P": {
+          "dataset": "pm25_2000",
+          "method": "RG-MTM-P",
+          "frames": 366,
+          "features_min": 1,
+          "features_max": 7,
+          "SNS": 0.06397054350837125,
+          "SNS_frames": 264,
+          "SNS_n3": 0.13297813768669298,
+          "SNS_n3_frames": 127,
+          "TW1": 0.7491844769403825,
+          "TW1_frames": 127,
+          "TW3": 0.9761904761904762,
+          "TW3_frames": 1,
+          "TW5": null,
+          "TW5_frames": 0,
+          "TW1_no_ties": 0.7461021505376345,
+          "TW1_no_ties_frames": 124,
+          "distance_tie_frames": 3,
+          "TD": 76.31697191697232,
+          "TD_common2048px": 156220.84151404235,
+          "matched_steps": 560,
+          "TD_per_match": 0.1362803069945927
+        },
+        "RG-MTM-R": {
+          "dataset": "pm25_2000",
+          "method": "RG-MTM-R",
+          "frames": 366,
+          "features_min": 1,
+          "features_max": 7,
+          "SNS": 0.052389292611634004,
+          "SNS_frames": 264,
+          "SNS_n3": 0.1089037263737904,
+          "SNS_n3_frames": 127,
+          "TW1": 0.7290963629546307,
+          "TW1_frames": 127,
+          "TW3": 0.9523809523809523,
+          "TW3_frames": 1,
+          "TW5": null,
+          "TW5_frames": 0,
+          "TW1_no_ties": 0.7274952380952381,
+          "TW1_no_ties_frames": 125,
+          "distance_tie_frames": 2,
+          "TD": 68.71135531135567,
+          "TD_common2048px": 140652.14432234506,
+          "matched_steps": 560,
+          "TD_per_match": 0.12269884877027733
+        }
+      }
+    },
+    {
+      "key": "ring",
+      "name": "Ring",
+      "dimension": 2,
+      "population": "synthetic temporal sequence",
+      "frames_or_sections": 40,
+      "grid": [
+        14,
+        14
+      ],
+      "leaves": [
+        1,
+        7
+      ],
+      "tree": "split",
+      "scalar_field": "Synthetic ring intensity",
+      "reference_extent": 295.2115332335651,
+      "methods": {
+        "TMTM": {
+          "NROE": 7.179294071439392,
+          "NMLE_mean": 0.0,
+          "NMLE_max": 0.0,
+          "motion": {
+            "errors": 80,
+            "clear": 124,
+            "error_fraction": 0.6451612903225806,
+            "truth_dimension": 2
+          }
+        },
+        "ST-MTM": {
+          "NROE": 10.394591082457257,
+          "NMLE_mean": 0.0,
+          "NMLE_max": 0.0,
+          "motion": {
+            "errors": 43,
+            "clear": 124,
+            "error_fraction": 0.3467741935483871,
+            "truth_dimension": 2
+          }
+        },
+        "RG-MTM-P": {
+          "NROE": 2.6558808458004104,
+          "NMLE_mean": 0.0,
+          "NMLE_max": 0.0,
+          "motion": {
+            "errors": 39,
+            "clear": 124,
+            "error_fraction": 0.31451612903225806,
+            "truth_dimension": 2
+          },
+          "E_pool": 2.4348018160794007,
+          "E_inf": 11.903880011187024
+        },
+        "RG-MTM-R20": {
+          "NROE": 0.1289775603962825,
+          "NMLE_mean": 2.7289450398048807,
+          "NMLE_max": 12.346384203815647,
+          "motion": {
+            "errors": 16,
+            "clear": 124,
+            "error_fraction": 0.12903225806451613,
+            "truth_dimension": 2
+          },
+          "E_pool": 0.7076110167291526,
+          "E_inf": 2.5227688012417397
+        }
+      },
+      "geometry": {
+        "TMTM": {
+          "dataset": "ring",
+          "method": "TMTM",
+          "frames": 40,
+          "features_min": 1,
+          "features_max": 7,
+          "SNS": 0.1705938569501836,
+          "SNS_frames": 32,
+          "SNS_n3": 0.20218531194095826,
+          "SNS_n3_frames": 27,
+          "TW1": 0.7067460317460318,
+          "TW1_frames": 27,
+          "TW3": 0.7936507936507936,
+          "TW3_frames": 3,
+          "TW5": null,
+          "TW5_frames": 0,
+          "TW1_no_ties": 0.646547619047619,
+          "TW1_no_ties_frames": 10,
+          "distance_tie_frames": 17,
+          "TD": 1.343589743589743,
+          "TD_common2048px": 2750.328205128204,
+          "matched_steps": 146,
+          "TD_per_match": 0.009202669476642078
+        },
+        "ST-MTM": {
+          "dataset": "ring",
+          "method": "ST-MTM",
+          "frames": 40,
+          "features_min": 1,
+          "features_max": 7,
+          "SNS": 0.080307237385005,
+          "SNS_frames": 32,
+          "SNS_n3": 0.09517894801185779,
+          "SNS_n3_frames": 27,
+          "TW1": 0.9172398589065257,
+          "TW1_frames": 27,
+          "TW3": 0.9365079365079364,
+          "TW3_frames": 3,
+          "TW5": null,
+          "TW5_frames": 0,
+          "TW1_no_ties": 0.9012987012987014,
+          "TW1_no_ties_frames": 11,
+          "distance_tie_frames": 16,
+          "TD": 2.3641025641025615,
+          "TD_common2048px": 4839.317948717943,
+          "matched_steps": 146,
+          "TD_per_match": 0.016192483315770993
+        },
+        "RG-MTM-P": {
+          "dataset": "ring",
+          "method": "RG-MTM-P",
+          "frames": 40,
+          "features_min": 1,
+          "features_max": 7,
+          "SNS": 0.16372694961686943,
+          "SNS_frames": 32,
+          "SNS_n3": 0.19404675510147487,
+          "SNS_n3_frames": 27,
+          "TW1": 0.7087301587301588,
+          "TW1_frames": 27,
+          "TW3": 0.7936507936507936,
+          "TW3_frames": 3,
+          "TW5": null,
+          "TW5_frames": 0,
+          "TW1_no_ties": 0.7315934065934067,
+          "TW1_no_ties_frames": 13,
+          "distance_tie_frames": 14,
+          "TD": 3.597701149425286,
+          "TD_common2048px": 7364.494252873561,
+          "matched_steps": 146,
+          "TD_per_match": 0.02464178869469375
+        },
+        "RG-MTM-R": {
+          "dataset": "ring",
+          "method": "RG-MTM-R",
+          "frames": 40,
+          "features_min": 1,
+          "features_max": 7,
+          "SNS": 0.14232709786601733,
+          "SNS_frames": 32,
+          "SNS_n3": 0.16868396784120576,
+          "SNS_n3_frames": 27,
+          "TW1": 0.7148589065255734,
+          "TW1_frames": 27,
+          "TW3": 0.746031746031746,
+          "TW3_frames": 3,
+          "TW5": null,
+          "TW5_frames": 0,
+          "TW1_no_ties": 0.7017399267399268,
+          "TW1_no_ties_frames": 13,
+          "distance_tie_frames": 14,
+          "TD": 2.351213282247766,
+          "TD_common2048px": 4812.933588761177,
+          "matched_steps": 146,
+          "TD_per_match": 0.016104200563340856
+        }
+      }
+    },
+    {
+      "key": "nucleon",
+      "name": "Nucleon",
+      "dimension": 2,
+      "population": "static section",
+      "frames_or_sections": 1,
+      "grid": [
+        64,
+        64
+      ],
+      "leaves": [
+        13,
+        13
+      ],
+      "tree": "split",
+      "scalar_field": "Nucleon scalar",
+      "reference_extent": 63.0,
+      "methods": {
+        "ST-MTM": {
+          "NROE": 11.904761904761903,
+          "NMLE_mean": 0.0,
+          "NMLE_max": 0.0
+        },
+        "TMTM": {
+          "NROE": 11.904761904761903,
+          "NMLE_mean": 0.0,
+          "NMLE_max": 0.0
+        },
+        "RG-MTM-P": {
+          "NROE": 2.380952380952381,
+          "NMLE_mean": 0.0,
+          "NMLE_max": 0.0,
+          "E_pool": 1.9245351676222844,
+          "E_inf": 3.4317743210565497,
+          "anchor_instances": 13
+        },
+        "RG-MTM-R20": {
+          "NROE": 2.380952380952381,
+          "NMLE_mean": 0.0,
+          "NMLE_max": 0.0,
+          "E_pool": 1.9245351676222844,
+          "E_inf": 3.4317743210565497,
+          "anchor_instances": 13
+        }
+      },
+      "protocol": "results/paper1_suite/nucleon/protocol.json",
+      "geometry": {
+        "ST-MTM": {
+          "SNS": 0.0505954355363308,
+          "SNS_frames": 1,
+          "TW1": 0.986013986013986,
+          "TW1_frames": 1,
+          "TD": null,
+          "section_displacement": null,
+          "matched_steps": 0,
+          "method": "ST-MTM",
+          "NROE": 11.904761904761903,
+          "NMLE_mean": 0.0,
+          "NMLE_max": 0.0
+        },
+        "TMTM": {
+          "SNS": 0.31220609321027554,
+          "SNS_frames": 1,
+          "TW1": 0.916083916083916,
+          "TW1_frames": 1,
+          "TD": null,
+          "section_displacement": null,
+          "matched_steps": 0,
+          "method": "TMTM"
+        },
+        "RG-MTM-P": {
+          "SNS": 0.1324727877120917,
+          "SNS_frames": 1,
+          "TW1": 0.8951048951048951,
+          "TW1_frames": 1,
+          "TD": null,
+          "section_displacement": null,
+          "matched_steps": 0,
+          "method": "RG-MTM-P"
+        },
+        "RG-MTM-R": {
+          "SNS": 0.1324727877120917,
+          "SNS_frames": 1,
+          "TW1": 0.8951048951048951,
+          "TW1_frames": 1,
+          "TD": null,
+          "section_displacement": null,
+          "matched_steps": 0,
+          "method": "RG-MTM-R"
+        }
+      }
+    },
+    {
+      "key": "benzene-potential-reconstructed2d",
+      "name": "Benzene",
+      "dimension": 2,
+      "population": "static section",
+      "frames_or_sections": 21,
+      "grid": [
+        61,
+        61
+      ],
+      "leaves": [
+        5,
+        10
+      ],
+      "tree": "join",
+      "scalar_field": "Reconstructed electrostatic potential",
+      "reference_extent": 12.0,
+      "methods": {
+        "ST-MTM": {
+          "NROE": 50.0,
+          "NMLE_mean": 0.0,
+          "NMLE_max": 0.0
+        },
+        "TMTM": {
+          "NROE": 50.0,
+          "NMLE_mean": 0.0,
+          "NMLE_max": 0.0
+        },
+        "RG-MTM-P": {
+          "NROE": 4.206349206349207,
+          "NMLE_mean": 0.0,
+          "NMLE_max": 0.0,
+          "E_pool": 1.5970318583014955,
+          "E_inf": 15.391519790885622,
+          "anchor_instances": 180
+        },
+        "RG-MTM-R20": {
+          "NROE": 0.0,
+          "NMLE_mean": 0.002482830591145016,
+          "NMLE_max": 0.007966719567775726,
+          "E_pool": 0.5226275001737377,
+          "E_inf": 1.7505374899220734,
+          "anchor_instances": 180
+        }
+      },
+      "protocol": "results/paper1_suite/benzene-potential-reconstructed2d/protocol.json",
+      "geometry": {
+        "ST-MTM": {
+          "SNS": 0.12843762838773826,
+          "SNS_frames": 21,
+          "TW1": 0.6253968253968254,
+          "TW1_frames": 21,
+          "TD": null,
+          "section_displacement": 1.9657887508774068,
+          "matched_steps": 170,
+          "method": "ST-MTM",
+          "NROE": 50.0,
+          "NMLE_mean": 0.0,
+          "NMLE_max": 0.0
+        },
+        "TMTM": {
+          "SNS": 0.17498550782976688,
+          "SNS_frames": 21,
+          "TW1": 0.626388888888889,
+          "TW1_frames": 21,
+          "TD": null,
+          "section_displacement": 4.111827956989246,
+          "matched_steps": 170,
+          "method": "TMTM"
+        },
+        "RG-MTM-P": {
+          "SNS": 0.15880184530273697,
+          "SNS_frames": 21,
+          "TW1": 0.4972222222222224,
+          "TW1_frames": 21,
+          "TD": null,
+          "section_displacement": 2.405957213049715,
+          "matched_steps": 170,
+          "method": "RG-MTM-P"
+        },
+        "RG-MTM-R": {
+          "SNS": 0.1570448184310988,
+          "SNS_frames": 21,
+          "TW1": 0.5257936507936508,
+          "TW1_frames": 21,
+          "TD": null,
+          "section_displacement": 0.9601428266243477,
+          "matched_steps": 170,
+          "method": "RG-MTM-R"
+        }
+      }
+    },
+    {
+      "key": "tangaroa",
+      "name": "Tangaroa",
+      "dimension": 3,
+      "population": "physical temporal sequence",
+      "frames_or_sections": 201,
+      "grid": [
+        300,
+        180,
+        120
+      ],
+      "leaves": [
+        18,
+        93
+      ],
+      "tree": "join",
+      "scalar_field": "Velocity magnitude",
+      "reference_extent": 0.703074637982934,
+      "methods": {
+        "ST-MTM": {
+          "NROE": 21.342238139407744,
+          "NMLE_mean": 0.0,
+          "NMLE_max": 0.0,
+          "motion": {
+            "clear": 6755,
+            "errors": 4730,
+            "reversals": 1775,
+            "misses": 2955,
+            "error_fraction": 0.7002220577350111,
+            "display_threshold": "2% occupied anchor range"
+          }
+        },
+        "TMTM": {
+          "NROE": 20.092301252549532,
+          "NMLE_mean": 0.0,
+          "NMLE_max": 0.0,
+          "motion": {
+            "errors": 6585,
+            "clear": 6755,
+            "error_fraction": 0.9748334566987417,
+            "truth_dimension": 3
+          },
+          "projected_motion": {
+            "errors": 9408,
+            "clear": 9631,
+            "error_fraction": 0.9768456027411484,
+            "truth_dimension": 1
+          }
+        },
+        "RG-MTM-P": {
+          "NROE": 9.60801028939496,
+          "NMLE_mean": 0.0,
+          "NMLE_max": 0.0,
+          "E_pool": 5.013349014253913,
+          "E_inf": 16.85949320638357,
+          "anchor_instances": 6925,
+          "motion": {
+            "errors": 3697,
+            "clear": 6755,
+            "error_fraction": 0.5472982975573649,
+            "truth_dimension": 3
+          },
+          "projected_motion": {
+            "errors": 5045,
+            "clear": 9631,
+            "error_fraction": 0.5238293012148271,
+            "truth_dimension": 1
+          }
+        },
+        "RG-MTM-R20": {
+          "NROE": 0.018944992441107405,
+          "NMLE_mean": 14.442120575477635,
+          "NMLE_max": 31.020512004390362,
+          "E_pool": 1.1755428508326013,
+          "E_inf": 8.02015847395344,
+          "anchor_instances": 6925,
+          "motion": {
+            "errors": 2060,
+            "clear": 6755,
+            "error_fraction": 0.30495928941524797,
+            "truth_dimension": 3
+          },
+          "projected_motion": {
+            "errors": 240,
+            "clear": 9631,
+            "error_fraction": 0.02491953068217215,
+            "truth_dimension": 1
+          }
+        }
+      },
+      "protocol": "results/volume3d/tangaroa-paper-p10-full201/protocol.json",
+      "geometry": {
+        "ST-MTM": {
+          "SNS": 0.16549917658276336,
+          "SNS_frames": 201,
+          "TW1": 0.8137063034232281,
+          "TW1_frames": 201,
+          "TD": 138.55192724387112,
+          "section_displacement": null,
+          "matched_steps": 6214,
+          "method": "ST-MTM",
+          "NROE": 21.342238139407744,
+          "NMLE_mean": 0.0,
+          "NMLE_max": 0.0,
+          "motion": {
+            "clear": 6755,
+            "errors": 4730,
+            "reversals": 1775,
+            "misses": 2955,
+            "error_fraction": 0.7002220577350111,
+            "display_threshold": "2% occupied anchor range"
+          }
+        },
+        "TMTM": {
+          "SNS": 0.5254709134146036,
+          "SNS_frames": 201,
+          "TW1": 0.67011908240035,
+          "TW1_frames": 201,
+          "TD": 64.85528160289711,
+          "section_displacement": null,
+          "matched_steps": 6214,
+          "method": "TMTM"
+        },
+        "RG-MTM-P": {
+          "SNS": 0.3571381014710945,
+          "SNS_frames": 201,
+          "TW1": 0.7271287010404421,
+          "TW1_frames": 201,
+          "TD": 158.26701558697138,
+          "section_displacement": null,
+          "matched_steps": 6214,
+          "method": "RG-MTM-P"
+        },
+        "RG-MTM-R": {
+          "SNS": 0.3352920393085521,
+          "SNS_frames": 201,
+          "TW1": 0.7457702006733139,
+          "TW1_frames": 201,
+          "TD": 39.70930259172502,
+          "section_displacement": null,
+          "matched_steps": 6214,
+          "method": "RG-MTM-R"
+        }
+      }
+    },
+    {
+      "key": "square-cylinder3d",
+      "name": "Cylinder",
+      "dimension": 3,
+      "population": "physical temporal sequence",
+      "frames_or_sections": 102,
+      "grid": [
+        135,
+        64,
+        48
+      ],
+      "leaves": [
+        4,
+        75
+      ],
+      "tree": "split",
+      "scalar_field": "Q criterion",
+      "reference_extent": 22.45026178010471,
+      "methods": {
+        "ST-MTM": {
+          "NROE": 17.771436932982148,
+          "NMLE_mean": 0.0,
+          "NMLE_max": 0.0,
+          "motion": {
+            "clear": 3196,
+            "errors": 1469,
+            "reversals": 539,
+            "misses": 930,
+            "error_fraction": 0.4596370463078849,
+            "display_threshold": "2% fixed canvas (retained Cylinder protocol)"
+          }
+        },
+        "TMTM": {
+          "NROE": 26.61691542288557,
+          "NMLE_mean": 0.0,
+          "NMLE_max": 0.0,
+          "motion": {
+            "errors": 2141,
+            "clear": 3196,
+            "error_fraction": 0.6698998748435544,
+            "truth_dimension": 3
+          },
+          "projected_motion": {
+            "errors": 1845,
+            "clear": 2934,
+            "error_fraction": 0.6288343558282209,
+            "truth_dimension": 1
+          }
+        },
+        "RG-MTM-P": {
+          "NROE": 12.262218320163885,
+          "NMLE_mean": 0.0,
+          "NMLE_max": 0.0,
+          "E_pool": 5.400223164202228,
+          "E_inf": 32.08093182992734,
+          "anchor_instances": 2032,
+          "motion": {
+            "errors": 1191,
+            "clear": 3196,
+            "error_fraction": 0.37265331664580725,
+            "truth_dimension": 3
+          },
+          "projected_motion": {
+            "errors": 870,
+            "clear": 2934,
+            "error_fraction": 0.2965235173824131,
+            "truth_dimension": 1
+          }
+        },
+        "RG-MTM-R20": {
+          "NROE": 0.0841381328650863,
+          "NMLE_mean": 2.809644830993792,
+          "NMLE_max": 14.281121194384355,
+          "E_pool": 0.5500989456336712,
+          "E_inf": 5.271996768904331,
+          "anchor_instances": 2032,
+          "motion": {
+            "errors": 605,
+            "clear": 3196,
+            "error_fraction": 0.1892991239048811,
+            "truth_dimension": 3
+          },
+          "projected_motion": {
+            "errors": 108,
+            "clear": 2934,
+            "error_fraction": 0.03680981595092025,
+            "truth_dimension": 1
+          }
+        }
+      },
+      "protocol": "results/paper1_suite/square-cylinder3d/protocol.json",
+      "geometry": {
+        "ST-MTM": {
+          "SNS": 0.13461799974575345,
+          "SNS_frames": 102,
+          "TW1": 0.8988814861404879,
+          "TW1_frames": 102,
+          "TD": 43.16632587664382,
+          "section_displacement": null,
+          "matched_steps": 1105,
+          "method": "ST-MTM",
+          "NROE": 17.771436932982148,
+          "NMLE_mean": 0.0,
+          "NMLE_max": 0.0,
+          "motion": {
+            "clear": 3196,
+            "errors": 1469,
+            "reversals": 539,
+            "misses": 930,
+            "error_fraction": 0.4596370463078849,
+            "display_threshold": "2% fixed canvas (retained Cylinder protocol)"
+          }
+        },
+        "TMTM": {
+          "SNS": 0.29555381504830314,
+          "SNS_frames": 102,
+          "TW1": 0.8017446645669273,
+          "TW1_frames": 102,
+          "TD": 85.03385907084068,
+          "section_displacement": null,
+          "matched_steps": 1105,
+          "method": "TMTM"
+        },
+        "RG-MTM-P": {
+          "SNS": 0.13927206180104063,
+          "SNS_frames": 102,
+          "TW1": 0.7838051262143565,
+          "TW1_frames": 102,
+          "TD": 72.3426923429054,
+          "section_displacement": null,
+          "matched_steps": 1105,
+          "method": "RG-MTM-P"
+        },
+        "RG-MTM-R": {
+          "SNS": 0.03991743663221154,
+          "SNS_frames": 102,
+          "TW1": 0.8912162727592101,
+          "TW1_frames": 102,
+          "TD": 29.11297952207995,
+          "section_displacement": null,
+          "matched_steps": 1105,
+          "method": "RG-MTM-R"
+        }
+      }
+    }
+  ],
+  "source_sha256": {
+    "results/submission20261023/unified_metrics.json": "2cc165c28d7a606d9809191487bf4f86c2d80eab0b1db3ca7c2c4b08aa2e1ec1",
+    "results/public_metrics_20261016/era5.json": "d56f26cd7affd2f4330ed319d6243b70a871ef56befec9751a0f24f30a1a7eb5",
+    "results/public_metrics_20261016/wildfire.json": "3b785b77fd6957ce4dee9d44083f57a6f70ccc76de144f7eac092b75b6b4afeb",
+    "results/public_metrics_20261016/olr.json": "7ec789fe042c6dd66fa8e13b8153a87f839fbabfee677ac8a1ef769f90827df8",
+    "results/pm25_2000/standard_metrics.json": "aabfc04ffe8a25aadb118b8cea91ed2c82336a0d0e447fc1cd7ebe733fb74586",
+    "results/public_metrics_20261016/ring.json": "fa63e22b887c3ecc21492840f9a304a2773dee21b807d01531cfb7c39538db8d",
+    "results/stmtm_completion20261026/nucleon/metrics.json": "471ec925c32a6a1455d7df8a88176fa03a484267311204be3ce21d48c11c845c",
+    "results/stmtm_completion20261026/benzene-potential-reconstructed2d/metrics.json": "f79042df1d30a6512d60ff2690276987c0e63f7a42e9704494e6c61025e9868e",
+    "results/stmtm_completion20261026/tangaroa/metrics.json": "ab1ebd85ac2445417c86df7879b0d33123d9a38a31bfda9024b51051706ea41d",
+    "results/stmtm_completion20261026/square-cylinder3d/metrics.json": "574a911f8bb84e5e5f4e1a4c71d4f149cecf447a2bb482e74f4bef6c6775a671"
+  },
+  "provenance": "Historical primary runs unchanged. Four new native ST-MTM runs use identical saved trees/supports/tracks and fixed generic parameters.",
+  "static": "TD and temporal ME remain undefined for Nucleon and Benzene; adjacent-section displacement is separate."
+}
