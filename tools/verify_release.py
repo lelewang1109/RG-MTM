@@ -30,4 +30,4 @@ for p in ROOT.rglob('*'):
  if p.is_file():assert p.stat().st_size<100*1024**2,f'Oversized Git blob: {p.relative_to(ROOT)}'
 print(f'Release verified: {count} unchanged files; all links resolve inside the repository.')
 if omitted:
- print(f'Lightweight ZIP: {omitted} optional files omitted by export-ignore; full numerical checks require a Git checkout. See docs/DOWNLOADS.md.')
+ print(f'Research ZIP: {omitted} duplicate/historical files omitted by export-ignore; published data, current paper, experiment code and results are retained. See docs/DOWNLOADS.md.')
