@@ -2,6 +2,8 @@
 
 以下以包含code/paper/data的仓库根目录为起点。已有环境可替换 `.venv/bin/python`；不要把历史记录中的个人绝对路径当成新机器的运行命令。
 
+轻量ZIP支持阅读和编译当前论文。重绘图件、检查保存实验结果和重新计算需要完整Git检出中的按需材料，获取方式见 [下载说明](DOWNLOADS.md)。
+
 ## 1. 修改当前论文
 
 入口是 `paper/manuscript/latex/main.tex` 与 `supplement.tex`。相对latex目录的模块：

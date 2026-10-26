@@ -1,6 +1,6 @@
 # GitHub当前研究材料发布
 
-目标仓库：[lelewang1109/RG-MTM](https://github.com/lelewang1109/RG-MTM)。本次发布标记：[research-2026-10-26-final](https://github.com/lelewang1109/RG-MTM/releases/tag/research-2026-10-26-final)。旧Release保留其原始身份。
+目标仓库：[lelewang1109/RG-MTM](https://github.com/lelewang1109/RG-MTM)。本次发布标记：[research-2026-10-26-final](https://github.com/lelewang1109/RG-MTM/releases/tag/research-2026-10-26-final)。默认下载使用 [轻量ZIP](https://github.com/lelewang1109/RG-MTM/archive/refs/heads/main.zip)。
 
 ## 本次更新
 
@@ -12,6 +12,8 @@
 ## 分发范围
 
 Git仓库保存代码、可核验的数值证据、当前PDF、模块化LaTeX、SVG/PDF/PNG图件、既有PPT和数据协议。图1当前母版是SVG/Python；旧PPT的对应页仅保留历史版。
+
+默认ZIP只携带代码、当前PDF、可编译LaTeX、小型输入及文档。`.gitattributes` 的 `export-ignore` 排除大实验结果、PPT、重复导出和绘图证据；这些按需材料仍在完整Git检出中。旧稿备份目录已从主分支移除。具体范围和获取方式见 [下载说明](../DOWNLOADS.md)。
 
 `RG-MTM_LaTeX.zip` 大于100MB，作为Release资产上传。原始大体数据、下载档案、环境和.build缓存不进入Git；读取保存结果或编译论文无需下载全部原始体。
 

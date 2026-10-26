@@ -11,3 +11,19 @@ paper/manuscript/latex/evidence/** -text
 *.npz binary
 # Preserve generated SVG path formatting without line-ending or whitespace edits.
 *.svg -text -whitespace
+
+# Keep GitHub's Download ZIP focused on code and the compilable current paper.
+# Full experiments and editable extras remain available in a Git checkout.
+/code/results export-ignore
+/paper/figures_export export-ignore
+/paper/figures_ppt export-ignore
+/paper/evidence export-ignore
+/paper/previews export-ignore
+/paper/manuscript/latex/evidence export-ignore
+/paper/manuscript/latex/figures/*.svg export-ignore
+/paper/manuscript/latex/figures/*.png export-ignore
+/paper/manuscript/latex/main.pdf export-ignore
+/paper/manuscript/latex/supplement.pdf export-ignore
+/paper/supplementary_variants export-ignore
+/paper/figure1_revision_v3_20261023 export-ignore
+/docs/整理记录 export-ignore

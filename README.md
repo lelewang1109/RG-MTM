@@ -2,6 +2,8 @@
 
 Reference-Guided Merge Tree Maps — A Unified Position–Topology Framework
 
+**下载：** [轻量ZIP（代码、当前论文、可编译LaTeX）](https://github.com/lelewang1109/RG-MTM/archive/refs/heads/main.zip)。大实验结果、PPT、重复导出和绘图证据按需获取，不再放入默认ZIP；完整核验与重跑请看 [下载说明](docs/DOWNLOADS.md)。
+
 RG-MTM 将时变标量场压缩成“时间 × 一维位置”的地图，在同一组区间变量、四项布局目标、QP求解和标量绘制中，研究层次连接、相对几何、时间连续性与固定空间参考之间的折中。原生TMTM/ST-MTM是独立比较方法；本模型中的inspired区域表达其设计原则，不宣称算法等价。
 
 ## 从哪里开始
@@ -63,7 +65,7 @@ PYTHONPATH=code/src .venv/bin/python -m unittest discover -s code/tests -v
 .venv/bin/python paper/scripts/verify_unified_revision.py --numerical-only
 ```
 
-GitHub发布检出另提供 `python tools/verify_release.py`，检查已发布文件的哈希和内部链接。这些检查不等于重新下载数据或重跑全部实验。四组补全实验的完整数组核验入口见 [ST-MTM补全协议](code/experiments/stmtm_completion/README.md)。
+提供 `python tools/verify_release.py` 检查完整检出或轻量ZIP中的文件哈希和符号链接。完整数值核验需要Git检出中的实验结果；上面的实验检查命令不适用于仅下载轻量ZIP的情况。四组补全实验的完整数组核验入口见 [ST-MTM补全协议](code/experiments/stmtm_completion/README.md)。
 
 论文编译入口是 `paper/manuscript/latex/main.tex` 和 `supplement.tex`。已有PDF和所有编译图件随仓库提供，阅读不需要安装LaTeX。修改与重新编译见 [修改流程](docs/EDITING_AND_REPRODUCING.md)。
 
@@ -71,6 +73,6 @@ GitHub发布检出另提供 `python tools/verify_release.py`，检查已发布�
 
 原始体数据、下载档案和本地编译缓存不随Git全量发布。获取方法、已有库存与缺失文件见 [数据说明](data/README.md) 和各实验协议；读取结果、重新作图、从原始数据重跑是不同层级。
 
-独立LaTeX ZIP超过GitHub普通文件大小上限，通过 [Release](https://github.com/lelewang1109/RG-MTM/releases/tag/research-2026-10-26-final) 分发；仓库中的LaTeX文件夹可直接编辑和编译。历史发布保留在 [2026-10-23 Release](https://github.com/lelewang1109/RG-MTM/releases/tag/research-2026-10-23)。
+含完整论文证据的独立LaTeX ZIP通过 [当前Release](https://github.com/lelewang1109/RG-MTM/releases/tag/research-2026-10-26-final) 按需分发；日常阅读和修改优先下载上方轻量ZIP，其中的LaTeX文件夹可直接编辑和编译。
 
 五个二维时序的614帧、744小时Storms首图、64帧独立控制、三维体和静态截面是不同总体。首图资格参数κ不是真实合并误差硬上限；共同模型中的拓扑预算ε、位置预算B有各自定义。详见 [目录导读](docs/DIRECTORY_GUIDE.md) 和 [研究证据边界](docs/研究证据边界与补充研究.md)。
