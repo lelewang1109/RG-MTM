@@ -265,6 +265,24 @@ The chain bound matters on large trees. At $\varepsilon=5\%$ the coarse flatteni
 \end{tabular}
 \end{table}
 
+\subsection{Geometry, stability and motion}
+Position faithfulness is one criterion among several. Table~\ref{tab:quality} scores the layouts with the protocol of ST-MTM~\cite{STMTM:2026}: scale-normalized stress (SNS) and trustworthiness (TW, $k=1$) of anchor distances against the distances of support centroids, and the motion error (ME), the fraction of clear approach or separation events between two features over two steps (2\% of the domain diagonal) whose direction the map shows wrongly or not at all. The baseline values are the stored native outputs; recomputing them from their saved anchors with our code reproduces SNS and TD exactly (Cylinder to $10^{-5}$) and TW and ME to the third decimal or one event.
+
+The two kinds of faithfulness differ. ST-MTM, which optimizes pairwise distances, keeps the best TW on all seven sequences and the best SNS on five. Our exact-topology layouts make fewer motion errors than both TMTM and ST-MTM on all seven sequences, from 21.4\% to 5.4\% on OLR and from 70.0\% to 52.2\% on Tangaroa, because a feature that moves along the reference moves on the map. A budget reduces ME further on Storms, Ring, Tangaroa and Cylinder, leaves it unchanged on Wildfires and raises it on OLR and PM$_{2.5}$; on Cylinder at $\varepsilon=10\%$ it also gives the lowest SNS (0.041 against ST-MTM's 0.135). We report this as a trade-off between distance and position, not as an overall ranking.
+
+\begin{table*}[t]
+\caption{Geometry and motion (ST-MTM protocol). SNS: lower is better; TW ($k=1$): higher is better; ME: percentage of clear approach/separation events shown wrongly, lower is better. Best value per sequence and metric in bold. TMTM and ST-MTM are native outputs; ours uses the capped layouts.}\label{tab:quality}
+\centering\footnotesize\setlength{\tabcolsep}{3.4pt}
+\begin{tabular}{l|rrrrr|rrrrr|rrrrr}\toprule
+ & \multicolumn{5}{c|}{SNS} & \multicolumn{5}{c|}{TW} & \multicolumn{5}{c}{ME (\%)}\\
+Sequence & TMTM & ST-MTM & $\varepsilon\!=\!0$ & $10\%$ & proj. & TMTM & ST-MTM & $\varepsilon\!=\!0$ & $10\%$ & proj. & TMTM & ST-MTM & $\varepsilon\!=\!0$ & $10\%$ & proj.\\\midrule
+\csname @@input\endcsname tables/tab_quality.tex
+\bottomrule
+\end{tabular}
+\end{table*}
+
+Rendering does not change these guarantees: on the three sequences whose scalar inputs we can render (Ring, OLR, PM$_{2.5}$), the barriers of the rendered maps differ from the computed ones by at most $1.6\cdot10^{-6}$ of the scalar range, and anchors are rounded by at most $2.4\cdot10^{-4}$ of the canvas.
+
 \subsection{Maps}
 Figure~\ref{fig:teaser} compares maps that differ only in the layout objective. On Ring, the TMTM-type layout keeps all features near the centre of the axis and the ST-MTM-type layout spreads them by pairwise distance; both place them far from their references (dots). Our exact layout follows the references; the 10\% budget changes a few barriers and moves bands only locally. On OLR the exact layout already places the low-radiation basins near their references, which makes the map comparable to a time--longitude plot while keeping each basin's nesting. \pending{Storms case study with the N1b layouts (needs the ERA5 input) and marks on relaxed barriers (N5).}
 
@@ -273,7 +291,7 @@ Figure~\ref{fig:teaser} compares maps that differ only in the layout objective. 
 
 \paragraph{Limits of one dimension.} Projecting locations onto one direction loses the other coordinates: features at the same longitude and different latitudes compete for the same position, and the bound $\nu^*$ quantifies exactly this conflict for the chosen direction. The reference need not be a coordinate; any fixed one-dimensional quantity, such as distance to a site, works. Readability was not tested: whether analysts read position and nesting together, and whether marks on relaxed barriers prevent misreading~\cite{Kamakshidasan:2021:MM,McNutt:2020:SVM}, requires a user study, which we plan as follow-up work.
 
-\paragraph{Bounds and attainment.} The order bound is attained exactly. The width bound is attained on most planar frames and on the worst Tangaroa and Cylinder frames, but not uniformly on large trees; Wildfires at $\varepsilon>0$ and one OLR frame at $\varepsilon=10\%$ keep a worst-frame gap. Our metrics are defined against the same reference the layout optimizes; NROE is therefore reported together with the scale-free comparison to native outputs and with geometric and temporal terms. \pending{N1c: recompute SNS, TW, ME and raster errors on the new layouts.}
+\paragraph{Bounds and attainment.} The order bound is attained exactly. The width bound is attained on most planar frames and on the worst Tangaroa and Cylinder frames, but not uniformly on large trees; Wildfires at $\varepsilon>0$ and one OLR frame at $\varepsilon=10\%$ keep a worst-frame gap. Our position metrics are defined against the same reference the layout optimizes; we therefore also report the scale-free order comparison with native outputs and the distance and motion scores of Table~\ref{tab:quality}, on which ST-MTM keeps the better distance preservation.
 
 \section{Conclusion}
 Merge tree maps can be faithful to a spatial reference without giving up their hierarchy, and how faithful they can be is computable. Theorem~\ref{thm:order} and its width and chain versions give the unavoidable displacement for every exact-topology map; most of the displacement of existing maps lies above it, and our layouts remove it. A merge-level budget recovers more position where the data allow, with the merge error certified rather than estimated. Each map can therefore be shown with two numbers: how far it moves features, and how far it changes the hierarchy.

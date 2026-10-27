@@ -225,7 +225,23 @@ def tables():
     (TAB / 'tab_volume.tex').write_text('\n'.join(rows[:-1]) + '\n')
 
 
+def table_quality():
+    """N1c: SNS, TW (k=1) and motion error of baselines and our layouts."""
+    rows = []
+    for n in NAMES:
+        Q = json.loads((RES / f'metrics_n1c20261027/{FILE[n]}.json').read_text()); b = Q['baselines']; s = Q['settings']
+        cols = [b['TMTM'], b['ST-MTM'], s['eps=0'], s['eps=0.1'], s['projection']]
+        me = lambda c: 100 * (c['ME_errors'] / c['ME_clear'])
+        sns = [c['SNS'] for c in cols]; tw = [c['TW1'] for c in cols]; mes = [me(c) for c in cols]
+        fmt = lambda v, best, f: (r'\textbf{' + f % v + '}') if v == best else f % v
+        rows.append(f"{LABEL[n]} & " + ' & '.join(fmt(v, min(sns), '%.3f') for v in sns) + ' & '
+                    + ' & '.join(fmt(v, max(tw), '%.3f') for v in tw) + ' & '
+                    + ' & '.join(fmt(v, min(mes), '%.1f') for v in mes) + r' \\')
+        if n == 'Ring': rows.append(r'\midrule')
+    (TAB / 'tab_quality.tex').write_text('\n'.join(rows) + '\n')
+
+
 if __name__ == '__main__':
     FIG.mkdir(exist_ok=True)
-    for f in [tables, fig_concept, fig_bound, fig_frontier, fig_tangaroa, fig_maps]:
+    for f in [tables, table_quality, fig_concept, fig_bound, fig_frontier, fig_tangaroa, fig_maps]:
         print(f.__name__, flush=True); f()
