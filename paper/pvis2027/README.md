@@ -4,7 +4,7 @@
 
 | 文件 | 作用 |
 |---|---|
-| `main.tex` / `main.pdf` | 正文（当前 8 页，含参考文献；正文约 5.7 页，9 页上限还有余量） |
+| `main.tex` / `main.pdf` | 正文（当前 9 页，含参考文献；已没有待补标记） |
 | `refs.bib` | 沿用旧稿 80 条，新增 12 条（逐条与 Crossref 核对过元数据） |
 | `scripts/make_figures.py` | 所有图和表都从保存的实验结果生成 |
 | `figures/`、`tables/` | 生成的 PDF 图和 LaTeX 表格片段；`figures/data/` 为缓存的派生数据 |
@@ -18,14 +18,13 @@ PYTHONPATH=../../code/src ../../.venv/bin/python scripts/make_figures.py   # 图
 tectonic -X compile main.tex                                               # 或 Overleaf：pdfLaTeX + BibTeX
 ```
 
-- 地图图（图 1）需要 Ring 和 OLR 的输入，仓库里已带。Storms 和 Wildfires 的原始数据不在仓库中，所以目前没有它们的新地图。
+- 地图图（图 1）需要 Ring 和 OLR 的输入，仓库里已带。Storms 案例图需要 ERA5 输入，可用 `code/analysis/era5_arco_expanded.py` 从公开的 ARCO-ERA5 下载。Wildfires 的原始数据不在仓库中。
 - 删除 `figures/data/` 会触发重算：Tangaroa 约 3 分钟，地图约 1 分钟。
 
 ## 正文中标为待补的内容（橙色 `\pending{}`）
 
 | 位置 | 待补内容 | 对应路线图步骤 |
 |---|---|---|
-| §6.4 地图 | Storms 案例（需要 ERA5 输入）以及被放松屏障的标记 | N5 |
 
 ## 写作上已做的取舍
 

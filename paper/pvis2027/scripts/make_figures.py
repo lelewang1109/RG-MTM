@@ -202,6 +202,72 @@ def fig_maps():
     save(fig, 'fig_maps')
 
 
+# ---------------------------------------------------------------- Storms case (N5)
+def barrier_marks(row, V, R, canvas, origin, threshold=1e-3):
+    """Normalized positions of barriers whose displayed merge differs from the source by > threshold*R."""
+    o = list(row['order']); b = np.asarray(row['barriers'], float); n = len(o)
+    z = np.asarray(row['z'], float)[o]; w = np.asarray(row['w'], float)[o]; V = np.asarray(V, float)
+    err = np.zeros(max(n - 1, 0))
+    for i in range(n):
+        for j in range(i + 1, n):
+            g = i + int(np.argmax(b[i:j])); err[g] = max(err[g], abs(b[g] - V[o[i], o[j]]))
+    return [((z[g] + w[g] / 2 + z[g + 1] - w[g + 1] / 2) / 2 - origin) / canvas for g in range(n - 1) if err[g] > threshold * R]
+
+
+def storms_case():
+    cache = DATA / 'storms_case.json'
+    if cache.exists(): return json.loads(cache.read_text())
+    d = n1.DATASETS['Storms'](); p = params(d); R = d['scalar_range']; L = p.canvas
+    saved = json.loads((RES / 'unified20261025/era5.json').read_text())['regimes']
+    q = [np.asarray(v, float) for v in d['references']]
+    worst = lambda xs: [float(np.max(np.abs(np.asarray(x, float) - qq)) / L) for x, qq in zip(xs, q)]
+    out = dict(worst={k: worst([r['x'] for r in saved[k]['rows']]) for k in ('topology_time', 'topology_geometry')})
+    rows10 = None
+    for e in (0, .1):
+        rows, _ = n1b_rows(d, e); out['worst'][f'ours_{e:g}'] = worst([r['x'] for r in rows])
+        if e: rows10 = rows
+    out['nmle_10'] = [float(r['delta']) / R for r in rows10]
+    out['marks_10'] = [barrier_marks(r, V, R, L, p.canvas_origin) for r, V in zip(rows10, d['merge'])]
+    DATA.mkdir(parents=True, exist_ok=True); cache.write_text(json.dumps(out)); return out
+
+
+def fig_storms():
+    M = maps_for('Storms', 'era5'); qs = json.loads((DATA / 'q_era5.json').read_text()); S = storms_case()
+    titles = [('topology_time', 'TMTM-type objective'), ('topology_geometry', 'ST-MTM-type objective'),
+              ('ours_0', r'Ours, $\varepsilon=0$'), ('ours_0.1', r'Ours, $\varepsilon=10\%$, relaxed barriers marked')]
+    vmin = min(np.nanmin(M[k]) for k, _ in titles); vmax = max(np.nanmax(M[k]) for k, _ in titles)
+    fig = plt.figure(figsize=(7.0, 3.35))
+    g = fig.add_gridspec(2, 5, width_ratios=[1, 1, 1, 1, .045], height_ratios=[1, .42], hspace=.32, wspace=.12)
+    for col, (k, title) in enumerate(titles):
+        ax = fig.add_subplot(g[0, col]); F = M[k].shape[1]
+        im = ax.imshow(M[k], origin='lower', aspect='auto', interpolation='nearest', cmap='RdBu_r', vmin=vmin, vmax=vmax,
+                       extent=[-.5, F - .5, 0, 1], rasterized=True)
+        for t, qq in enumerate(qs): ax.plot([t] * len(qq), qq, '.', ms=1.3, color='k', mec='none')
+        if k == 'ours_0.1':
+            for t, ms in enumerate(S['marks_10']):
+                if ms: ax.plot([t] * len(ms), ms, '_', ms=3.2, mew=1.1, color='#FFD000')
+        ax.set_title(title, pad=3, fontsize=6.6); ax.set_xticks([0, F - 1]); ax.tick_params(labelsize=5.8, length=2)
+        ax.set_yticks([0, .5, 1] if col == 0 else [])
+        if col == 0: ax.set_ylabel('Storms\nreference axis', fontsize=6.5)
+    cb = fig.colorbar(im, cax=fig.add_subplot(g[0, 4])); cb.ax.tick_params(labelsize=5.5, length=2); cb.set_label('MSLP (hPa)', fontsize=6)
+    t = np.arange(len(qs))
+    gb = g[1, :4].subgridspec(1, 2, wspace=.22)
+    ax = fig.add_subplot(gb[0])
+    for k, col, lab in [('topology_time', C['base'], 'TMTM-type'), ('topology_geometry', C['D'], 'ST-MTM-type'),
+                        ('ours_0', C['A'], r'ours $\varepsilon=0$'), ('ours_0.1', C['C'], r'ours $\varepsilon=10\%$')]:
+        ax.plot(t, 100 * np.array(S['worst'][k]), lw=.8, color=col, label=lab)
+    ax.set_ylabel('Worst displacement (%)', fontsize=6.2); ax.set_xlabel('Time step', fontsize=6.2, labelpad=1)
+    ax.legend(fontsize=5.6, ncol=4, loc='upper left', bbox_to_anchor=(0, 1.3), handlelength=1.2, columnspacing=.8)
+    ax.set_xlim(0, t[-1]); ax.yaxis.grid(True, color=C['grid'], lw=.5); ax.set_axisbelow(True); ax.tick_params(labelsize=5.8)
+    ax = fig.add_subplot(gb[1])
+    ax.bar(t, 100 * np.array(S['nmle_10']), width=1, color='#E0A800')
+    ax.axhline(10, color='k', lw=.6, ls='--'); ax.text(t[-1], 10.3, r'cap $\varepsilon$', ha='right', va='bottom', fontsize=5.6)
+    ax.set_ylabel('Merge error (%)', fontsize=6.2); ax.set_xlabel(r'Time step ($\varepsilon=10\%$)', fontsize=6.2, labelpad=1)
+    ax.set_xlim(-.5, t[-1] + .5); ax.set_ylim(0, 11.5); ax.yaxis.grid(True, color=C['grid'], lw=.5); ax.set_axisbelow(True)
+    ax.tick_params(labelsize=5.8)
+    save(fig, 'fig_storms')
+
+
 # ---------------------------------------------------------------- Tables
 def tables():
     TAB.mkdir(exist_ok=True); rows = []
@@ -243,5 +309,5 @@ def table_quality():
 
 if __name__ == '__main__':
     FIG.mkdir(exist_ok=True)
-    for f in [tables, table_quality, fig_concept, fig_bound, fig_frontier, fig_tangaroa, fig_maps]:
+    for f in [tables, table_quality, fig_concept, fig_bound, fig_frontier, fig_tangaroa, fig_maps, fig_storms]:
         print(f.__name__, flush=True); f()
