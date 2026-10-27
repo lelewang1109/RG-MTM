@@ -94,26 +94,37 @@ def fig_bound():
     save(fig, 'fig_bound')
 
 
-# ---------------------------------------------------------------- Fig. 5: budget response
-def fig_tradeoff():
-    fig, axes = plt.subplots(1, 3, figsize=(7.0, 1.6))
-    cols = dict(zip(NAMES, [C['B'], '#E69F00', C['A'], C['D'], C['C'], '#000000', C['base']]))
-    for n in NAMES:
-        ms = [wm(n, e) for e in EPS]; xs = [100 * e for e in EPS]
-        for ax, key in zip(axes, ['E_pool', 'E_inf', 'NMLE_max']):
-            ax.plot(xs, [100 * m[key] for m in ms], '-o', ms=2.4, lw=1, color=cols[n], label=LABEL[n])
-        pool = {e: WIDTH[n]['n1'].get(f'unified pool, eps={e:g}') for e in (0, .02, .1)}
-        if all(pool.values()):
-            for ax, key in zip(axes[:2], ['E_pool', 'E_inf']):
-                ax.plot([0, 2, 10], [100 * pool[e][key] for e in (0, .02, .1)], ':', lw=.9, color=cols[n])
-    axes[2].plot([0, 10], [0, 10], color='#000', lw=.6, ls='--'); axes[2].text(6.8, 8.3, r'cap $\varepsilon$', fontsize=6, rotation=33)
-    for ax, t in zip(axes, ['Mean displacement $E_{pool}$ (%)', 'Worst displacement $E_\\infty$ (%)', 'Worst merge error (%)']):
-        ax.set_xlabel(r'Topology budget $\varepsilon$ (%)'); ax.set_title(t, pad=3); ax.set_xticks([0, 2, 5, 10])
-        ax.yaxis.grid(True, color=C['grid'], lw=.5); ax.set_axisbelow(True)
-    h, l = axes[0].get_legend_handles_labels()
-    fig.legend(h, l, ncol=7, fontsize=6, loc='upper center', bbox_to_anchor=(.5, 1.1), handlelength=1.4, columnspacing=1.2)
-    axes[1].text(.98, .97, 'dotted: earlier candidate pool', transform=axes[1].transAxes, ha='right', va='top', fontsize=5.6)
-    fig.subplots_adjust(wspace=.32); save(fig, 'fig_tradeoff')
+# ---------------------------------------------------------------- Fig. 4: position--topology frontier (N2)
+def fig_frontier():
+    F = {n: json.loads((RES / f'frontier20261027/{FILE[n]}.json').read_text())['methods'] for n in NAMES}
+    fig, axes = plt.subplots(2, 4, figsize=(7.0, 3.0)); axes = axes.ravel()
+    keys = [k for k in F['Ring'] if k.startswith('eps=')] + ['projection']
+    for ax, n in zip(axes, NAMES):
+        ms = [F[n][k] for k in keys]; x = [100 * m['NMLE_max'] for m in ms]
+        for key, col, mk, lab in [('E_inf', C['A'], 'o', r'worst $E_\infty$'), ('E_pool', C['light'], 's', r'mean $E_{pool}$')]:
+            y = [100 * m[key] for m in ms]
+            ax.plot(x[:-1], y[:-1], '-', marker=mk, ms=2.6, lw=1, color=col, label=lab)
+            ax.plot(x[-2:], y[-2:], ':', lw=.9, color=col)
+            ax.plot(x[-1], y[-1], marker='*', ms=6, color=col, mec='k', mew=.3, ls='none')
+        for k, xi, yi in zip(keys, x, [100 * m['E_inf'] for m in ms]):
+            if k in ('eps=0', 'eps=0.02', 'eps=0.1', 'projection') and (k == 'projection' or abs(xi - x[-1]) + abs(yi - 100 * ms[-1]['E_inf']) > .3):
+                lab = r'$\infty$' if k == 'projection' else '%g' % (100 * float(k[4:]))
+                ax.annotate(lab, (xi, yi), xytext=(2, 2.5), textcoords='offset points', fontsize=5.4, color='#333')
+        pool = [WIDTH[n]['n1'].get(f'unified pool, eps={e:g}') for e in (0, .02, .1)]
+        if all(pool):
+            ax.plot([100 * m['NMLE_max'] for m in pool], [100 * m['E_inf'] for m in pool], 'x:', ms=3, lw=.8, color=C['base'],
+                    label='earlier pool, worst')
+        ax.set_title(LABEL[n], pad=2); ax.yaxis.grid(True, color=C['grid'], lw=.5); ax.set_axisbelow(True)
+        ax.set_ylim(bottom=0); ax.set_xlim(left=-1)
+        ax.tick_params(labelsize=5.8)
+    for ax in axes[4:7]: ax.set_xlabel('Worst merge error NMLE (%)', fontsize=6.2)
+    for ax in (axes[0], axes[4]): ax.set_ylabel('Displacement (%)', fontsize=6.4)
+    h, l = axes[0].get_legend_handles_labels(); axes[7].axis('off')
+    h += [plt.Line2D([], [], marker='*', ms=6, color=C['A'], mec='k', mew=.3, ls='none')]
+    l += [r'projection ($\varepsilon=\infty$)']
+    axes[7].legend(h, l, loc='center', fontsize=6.2, handlelength=1.6)
+    axes[7].text(.5, .1, r'labels: $\varepsilon$ in %', transform=axes[7].transAxes, ha='center', fontsize=6)
+    fig.subplots_adjust(hspace=.45, wspace=.28); save(fig, 'fig_frontier')
 
 
 # ---------------------------------------------------------------- Fig. 6: Tangaroa per-frame tau
@@ -216,5 +227,5 @@ def tables():
 
 if __name__ == '__main__':
     FIG.mkdir(exist_ok=True)
-    for f in [tables, fig_concept, fig_bound, fig_tradeoff, fig_tangaroa, fig_maps]:
+    for f in [tables, fig_concept, fig_bound, fig_frontier, fig_tangaroa, fig_maps]:
         print(f.__name__, flush=True); f()
