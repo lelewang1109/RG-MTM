@@ -1,0 +1,281 @@
+% IEEE PacificVis 2027 -- Conference Paper Track. VGTC conference template (2024.02.14).
+% Restructured manuscript (2026-10-27). Figures and tables: scripts/make_figures.py.
+% Compile: pdfLaTeX + BibTeX (Overleaf), or `tectonic -X compile main.tex`.
+% \pending{...} marks text that waits for an experiment or check (see README.md).
+
+\documentclass[review]{vgtc}                 % review version (double blind)
+%\documentclass{vgtc}                         % final (conference style)
+
+\usepackage{iftex}
+\usepackage{graphicx}
+\ifPDFTeX
+  \pdfoutput=1\relax
+  \pdfcompresslevel=9
+  \pdfoptionpdfminorversion=7
+\fi%
+\DeclareGraphicsExtensions{.pdf,.png,.jpg,.jpeg}
+\usepackage[T1]{fontenc}
+\usepackage{mathptmx}
+\renewcommand*\ttdefault{txtt}
+\usepackage{booktabs}
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage[noend]{algpseudocode}
+\usepackage{algorithm}
+\newtheorem{lemma}{Lemma}
+\newtheorem{theorem}{Theorem}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{definition}{Definition}
+\newcommand{\dtop}{d_{\mathrm{top}}}
+\newcommand{\lca}{\operatorname{lca}}
+\newcommand{\nroe}{\mathrm{NROE}}
+\newcommand{\pending}[1]{{\color{orange!80!black}[#1]}}
+\setlength{\textfloatsep}{9pt plus 2pt minus 2pt}
+\setlength{\dbltextfloatsep}{9pt plus 2pt minus 2pt}
+
+\title{Position-Faithful Merge Tree Maps:\\Certified Order Bounds and Optimal Layouts}
+\author{Anonymous Authors}\onlineid{0}\vgtccategory{Research}\vgtcinsertpkg
+\hypersetup{pdftitle={Position-Faithful Merge Tree Maps: Certified Order Bounds and Optimal Layouts}}
+
+\abstract{Merge tree maps summarize a time-varying scalar field in one static image: each time step becomes a one-dimensional profile whose basins are the features of the field, and the profiles are stacked along time. Existing methods order the features to preserve hierarchy and temporal coherence, but the vertical axis then carries little spatial meaning. We study how faithfully such a map can place each feature at a fixed reference coordinate, such as longitude, without misrepresenting the hierarchy. We first state existing designs as instances of one optimization problem over leaf order, layout and scalar profile. For every map that preserves the merge tree exactly, we prove a closed-form lower bound on the reference-order error and a width-aware bound on the worst displacement; both hold for any method, including TMTM and ST-MTM. A midpoint ordering attains the first bound in $O(n\log n)$, and a width-aware search attains the second on most frames. When a user admits a labelled merge-level error of at most $\varepsilon$, chain-aware bounds quantify how much position can be recovered, and optimal barriers realize the chosen order within the budget. On 917 frames from five planar and two volumetric sequences, no method falls below the bounds; most of the order error of TMTM and ST-MTM is avoidable, and our exact-topology layouts remove it. The result is a map whose position and topology errors are both bounded and reported.}
+
+\keywords{Merge trees, temporal scalar fields, topology-based visualization, one-dimensional layout, lower bounds.}
+
+\teaser{
+\centering
+\includegraphics[width=\linewidth]{figures/fig_maps.pdf}
+\par\smallskip\refstepcounter{figure}\label{fig:teaser}
+{\captionfonts\noindent\figurename~\thefigure: Merge tree maps of daily outgoing longwave radiation (OLR, 60 days) and the synthetic Ring sequence (40 steps). Each column is one time step; the vertical axis is the canvas, normalized to $[0,1]$. Black dots mark the fixed reference coordinate $q_i$ of each feature (a projection of its location). All panels share widths, canvas and renderer and differ only in the layout objective. Layouts that optimize hierarchy and time (TMTM-type) or pairwise geometry (ST-MTM-type) place features far from their references; our exact-topology layout ($\varepsilon=0$) follows them, and a bounded merge-level error ($\varepsilon=10\%$) changes the map only locally.\par}
+}
+
+\begin{document}
+\firstsection{Introduction}
+\maketitle
+
+Static summaries of time-varying scalar fields let an analyst see a whole sequence at once, without relying on memory across animation frames~\cite{Tversky:2002:Animation,Robertson:2008:Animation,Archambault:2011:AMM}. Merge tree maps~\cite{Koepp:2023:TMTM,STMTM:2026} build such summaries from topology. At each time step, the merge tree of the scalar field is linearized into a one-dimensional profile whose basins are the extrema of the field and whose barriers are their merge levels; profiles are stacked along time. Every feature appears as a band, and the nesting of bands shows how features connect.
+
+The price of this compression is the meaning of the vertical axis. TMTM orders features by a depth-first traversal that keeps subtrees together and aligns adjacent time steps~\cite{Koepp:2023:TMTM}; ST-MTM adds pairwise spatial distances to the ordering~\cite{STMTM:2026}. Neither ties a feature to a coordinate the analyst already knows. Hovm\"oller diagrams~\cite{Hovmoller:1949} make the opposite choice: the axis is longitude, which is immediately readable, but the hierarchy of features is not represented. This paper asks how close a merge tree map can come to both.
+
+The question has a precise form. Given a fixed reference coordinate $q_i$ per feature, every layout that keeps the merge tree intact must place each subtree in one contiguous block. Sibling subtrees whose reference intervals overlap cannot both sit at their references. How large is this unavoidable displacement, and how much of the displacement of existing maps is avoidable? If the analyst accepts a bounded merge-level error, how much position can be recovered?
+
+We answer these questions with bounds that hold for \emph{every} method, and with layouts that attain them. Our contributions are:
+\begin{itemize}
+\item A formulation of merge tree maps as one optimization problem over leaf order, layout and scalar profile, with explicit position and topology budgets. TMTM and ST-MTM are instances with exact topology and no position term (Sect.~\ref{sec:formulation}).
+\item Closed-form lower bounds on the reference-order error (Theorem~\ref{thm:order}) and, for features with widths, on the worst displacement (Theorem~\ref{thm:width}), valid for every exact-topology map; chain-aware versions bound what a merge-level budget $\varepsilon$ can recover (Theorems~\ref{thm:chain},~\ref{thm:chainw}) (Sect.~\ref{sec:bounds}).
+\item Layout algorithms that attain these bounds: midpoint ordering ($O(n\log n)$), a width-aware search, and a budgeted ordering with optimal barriers whose exact merge-level error never exceeds $\varepsilon$ (Sect.~\ref{sec:method}).
+\item An evaluation on 917 frames from seven sequences, including two volumetric ones, that separates the necessary from the avoidable error of TMTM and ST-MTM and reports position and topology errors side by side (Sect.~\ref{sec:evaluation}).
+\end{itemize}
+We make no claim about readability; a perceptual study is future work (Sect.~\ref{sec:discussion}). Our claim is about faithfulness: every map comes with certified bounds on how far it moves features and how far it changes the hierarchy.
+
+\section{Related Work}\label{sec:related}
+\paragraph{Linearizing space and time.}
+Space--time cubes and their flattenings organize temporal visualization~\cite{Bach:2017:STC}. Hovm\"oller diagrams keep one spatial coordinate~\cite{Hovmoller:1949}; space-filling curves, geographic orderings and data-driven projections linearize the full domain~\cite{Dafner:2000:CSFC,Guo:2006:SpatialOrder,Zhou:2021:DSF,Franke:2021:1DP,Weissenboeck:2019:DVL}, and MotionRugs and related summaries order moving entities~\cite{Buchmueller:2019:MR,Wulms:2021:SVS,Valdrighi:2024:MRV,Stolk:2025:GR}. These methods do not represent the merge hierarchy. Storyline layouts face a related time$\times$1D problem, minimizing crossings and wiggles, partly by quadratic programming~\cite{Tanahashi:2012:Storyline,Liu:2013:SF,Dobler:2025:Wiggle}; their entities have no fixed coordinate and no nesting.
+
+\paragraph{Drawing merge and contour trees.}
+Topology-based visualization is surveyed by Heine et al.~\cite{Heine:2016:Survey}. Contour trees have been drawn in the plane with aesthetic criteria~\cite{Heine:2011:DCT}, as terrains~\cite{Weber:2007:TL}, with geometry-preserving terrain layouts~\cite{Beketayev:2012:GPTL}, and as one-dimensional landscape profiles~\cite{Oesterling:2013:TLP}; Herick et al.\ make landscapes temporally coherent~\cite{Herick:2020:TCTL}. Mergemaps argue that nesting is hard to read in profiles and use treemaps instead~\cite{Kamakshidasan:2021:MM}. Temporal Merge Tree Maps (TMTM) introduced the time$\times$1D map and a greedy subtree-overlap alignment~\cite{Koepp:2023:TMTM}; Spatiotemporal Merge Tree Maps (ST-MTM) compute a hierarchy-constrained skeleton by optimizing feature distances, then fill it by sampling~\cite{STMTM:2026}. Tracking graphs and nested tracking graphs show feature evolution without a spatial axis~\cite{Widanagamaachchi:2012:DTG,Lukasczyk:2017:NTG,Lukasczyk:2020:DNTG,Koepp:2019:TT,Oesterling:2017:TVMT}. We keep the TMTM/ST-MTM map and its renderer and change what the layout optimizes; our bounds apply to all of these one-dimensional profile layouts.
+
+\paragraph{Ordering leaves of a tree.}
+Optimal leaf ordering chooses one of the $2^{n-1}$ tree-consistent orders to minimize adjacent dissimilarity~\cite{BarJoseph:2001:OLO,Eisen:1998:CA}. Reordering a tree towards a given leaf order~\cite{Bulteau:2022:RT} and one-sided tanglegrams, where one order is fixed~\cite{Fernau:2010:CTC,Dobler:2026:BCT,Huson:2026:DOT}, are the closest combinatorial problems; geophylogenies combine tree constraints with map positions~\cite{Klawitter:2025:GP}. These works minimize crossings, block crossings or summed displacement over permutations. We bound the \emph{maximum} displacement in closed form, include interval widths and an anchor slack, and allow controlled violations of the tree.
+
+\paragraph{Ordered merge trees and distances.}
+A merge tree with a leaf order is equivalent to a one-dimensional curve; Beurskens et al.\ define a monotone interleaving distance for such ordered merge trees and relate it to the Fr\'echet distance~\cite{Beurskens:2025:OMT}, and ParkView visualizes these interleavings~\cite{Beurskens:2025:ParkView}. Labelled interleaving distances coincide with $\ell_\infty$-cophenetic distances~\cite{Munch:2019:LINF,Gasparovic:2024:IID}; geometry-aware and Wasserstein comparisons extend them~\cite{Yan:2022:GAMT,Pont:2022:WMT,Yan:2021:Survey}. Fitting an ultrametric under $\ell_\infty$ error is solved in closed form by Farach et al.~\cite{Farach:1995:RM}. Our merge-level error is the labelled $\ell_\infty$-cophenetic distance between the source tree and the tree displayed by the profile, and our optimal barriers are such a fit under a fixed leaf order.
+
+\section{Problem Formulation}\label{sec:formulation}
+\paragraph{Input.} A sequence of scalar fields $f_t$ on a two- or three-dimensional domain gives, per time step, a merge tree $T_t$ of its sublevel (or superlevel) sets. Its leaves are the $n_t$ retained extrema; $V_{ij}$ denotes the level at which leaves $i$ and $j$ merge, the level of $\lca(i,j)$. Each leaf has a reference coordinate $q_i\in[0,L]$, the projection of its location onto a fixed world direction, constant over time and set by the analyst; $L$ is the canvas length in world units. Each leaf has a measure $m_i$ (area or volume of its support), and features are matched across time by support overlap, as in prior work~\cite{Koepp:2023:TMTM,STMTM:2026}. $\Delta_F$ is the scalar range of the sequence.
+
+\paragraph{Map.} A map frame is $M_t=(\pi_t,x_t,\psi_t)$: a leaf order $\pi_t$, anchor positions $x_i$ and a profile $\psi_t:[0,L]\to\mathbb{R}$. As in ST-MTM, leaf $i$ occupies an interval of width $W_i=s\,m_i$ in the order $\pi_t$, consecutive intervals are separated by a gap $g$, and the anchor (the basin minimum) lies within $H_i=\rho W_i/2$ of the interval centre~\cite{STMTM:2026}. The profile takes the extremum value at each anchor and a barrier value between consecutive basins, filled from the original arc samples.
+
+\paragraph{Errors.} We report three errors, all normalized.
+\emph{Position}: the displacement $|x_i-q_i|/L$, pooled over all leaves and frames ($E_{\mathrm{pool}}$) and its maximum ($E_\infty$).
+\emph{Order}: the reference-order error of a leaf order,
+\begin{equation}\label{eq:nroe}
+\nroe(\pi)=\frac{1}{2L}\max_{k}\Big(\max_{j\le k} q_{\pi(j)}-q_{\pi(k)}\Big),
+\end{equation}
+the smallest worst displacement of any monotone placement of the leaves in that order, with zero widths. It is scale-free, so it also compares methods whose maps have no world canvas.
+\emph{Topology}: the profile $\psi_t$ displays its own merge tree, in which leaves $i,j$ merge at the highest value of $\psi_t$ between their anchors. The labelled merge error is
+\begin{equation}\label{eq:dtop}
+\dtop(\psi_t,T_t)=\max_{i,j}\big|V^{\psi}_{ij}-V_{ij}\big|,\qquad \mathrm{NMLE}=\dtop/\Delta_F .
+\end{equation}
+With leaves fixed, this is the $\ell_\infty$-cophenetic distance between the two labelled trees, which equals their labelled interleaving distance~\cite{Munch:2019:LINF,Gasparovic:2024:IID}. \pending{Check the theorem conditions of the equivalence for trees whose leaves carry values (design note D6).}
+
+\paragraph{One problem.} All maps we consider solve, per sequence,
+\begin{equation}\label{eq:problem}
+\begin{aligned}
+\min_{\{M_t\}}\ &\textstyle\sum_t \lambda_O E_O+\lambda_G E_G+\lambda_M E_M+\lambda_R E_R+\lambda_W E_W\\
+\text{s.t. }&M_t\in\mathcal{L}(\pi_t),\quad \dtop(\psi_t,T_t)\le(\varepsilon_0+\varepsilon)\Delta_F,\\
+&\|x_t-q_t\|_\infty\le B_t .
+\end{aligned}
+\end{equation}
+$E_O$ is the TMTM overlap difference of subtrees between adjacent steps, $E_G$ the stress of anchor distances against source distances, $E_M$ a temporal term on matched anchors, $E_R$ the reference error and $E_W$ the deviation of interval widths; $\mathcal{L}$ is the layout model. $\varepsilon_0$ is the data resolution: merge levels closer than $\varepsilon_0\Delta_F$ are not distinguished (float32 round-off produces such ties). $\varepsilon$ is the merge-level budget the analyst spends, and $B_t$ a position cap.
+
+\begin{table}[t]
+\caption{Existing maps as instances of problem~(\ref{eq:problem}). The original algorithms are heuristic or staged solvers for these instances.}\label{tab:instances}
+\centering\scriptsize\setlength{\tabcolsep}{2.5pt}
+\begin{tabular}{lcccl}\toprule
+Method & $\varepsilon$ & $B$ & objective & solver\\\midrule
+TMTM~\cite{Koepp:2023:TMTM} & 0 & $\infty$ & $E_O$ & greedy subtree flips\\
+ST-MTM~\cite{STMTM:2026} & 0 & $\infty$ & $E_G+\lambda E_M$; $E_W$ & leaf order, then QP\\
+Projection & $\infty$ & 0 & -- & sort by $q$\\
+Ours, exact & 0 & $\tau_t+\beta$ & $E_R+E_G+E_M$ & certified order + QP\\
+Ours, budgeted & $\varepsilon$ & $\tau_t+\beta$ & $E_R+E_G+E_M$ & budgeted order + QP\\\bottomrule
+\end{tabular}
+\end{table}
+
+Table~\ref{tab:instances} lists the instances. TMTM and ST-MTM lie on the face $\varepsilon=0$, $B=\infty$, $\lambda_R=0$ of this problem. This statement does not claim that our solver reproduces their outputs; it identifies which constraints all exact-topology maps share. \pending{N3: feed native TMTM and ST-MTM orders to the corresponding instances and report the reproduction error; enumerate TMTM's own objective on small trees.} The bounds of the next section depend only on these shared constraints.
+
+\section{Certified Bounds}\label{sec:bounds}
+Everything in this section follows from one lemma about where a leaf may sit.
+
+\begin{lemma}[Separation]\label{lem:sep}
+Let $u$ be a node of $T_t$ with level $f(u)$, and let leaf $k$ lie strictly between two leaves $i,j$ of $u$ in the order of a map with $\dtop\le\varepsilon$. Then $V_{ik}\le f(u)+2\varepsilon$.
+\end{lemma}
+\begin{proof}
+The displayed merge of $i$ and $j$ is the highest profile value between them, which is at least the displayed merge of $i$ and $k$. Hence $V_{ik}-\varepsilon\le V^\psi_{ik}\le V^\psi_{ij}\le V_{ij}+\varepsilon=f(u)+\varepsilon$.
+\end{proof}
+
+With $\varepsilon=0$, a leaf outside subtree $u$ merges with $u$'s leaves strictly above $f(u)$, so no such leaf can lie between two leaves of $u$: \emph{every subtree is contiguous}. Siblings $X,Y$ of a node therefore occupy disjoint blocks, and one precedes the other. Let $[m_X,M_X]$ be the reference hull of $X$, the range of $q$ over its leaves.
+
+\begin{theorem}[Order bound]\label{thm:order}
+Every map with $\dtop=0$ satisfies
+\begin{equation}\label{eq:nu}
+\begin{aligned}
+\nroe(\pi_t)\ &\ge\ \nu^*(T_t)\\
+&=\frac{1}{2L}\max_{v}\ \max_{X\ne Y\in\mathrm{ch}(v)}\big[\min(M_X-m_Y,\ M_Y-m_X)\big]^+ .
+\end{aligned}
+\end{equation}
+Sorting the children of every node by hull midpoint $(m_X+M_X)/2$ attains the bound.
+\end{theorem}
+\begin{proof}
+If $X$ precedes $Y$, the leaf of $X$ with reference $M_X$ precedes the leaf of $Y$ with reference $m_Y$, and by (\ref{eq:nroe}) this inversion costs at least $(M_X-m_Y)/2L$; the other orientation costs $(M_Y-m_X)/2L$. For attainment, every inverted pair of a midpoint order lies in sibling blocks $X\prec Y$ of their lowest common ancestor, and $X\prec Y$ implies $m_X+M_X\le m_Y+M_Y$, i.e., $M_X-m_Y\le M_Y-m_X$, the smaller cost.
+\end{proof}
+
+The bound is geometric: two sibling subtrees pay in proportion to how deeply their reference hulls overlap (Fig.~\ref{fig:concept}). It holds for any width rule, layout model or solver, and hence for TMTM and ST-MTM. It is computed in $O(n\log n)$ without enumerating orders.
+
+\begin{figure}[t]
+\centering\includegraphics[width=\columnwidth]{figures/fig_concept.pdf}
+\caption{Theorem~\ref{thm:order} on two sibling subtrees $X$ (blue) and $Y$ (orange). With exact topology each forms a contiguous block, so one must precede the other. Placing $X$ first inverts the leaf at $M_X$ with the leaf at $m_Y$; the cheaper orientation costs $\min(M_X-m_Y,M_Y-m_X)/2$ and sorting by hull midpoint selects it.}\label{fig:concept}
+\end{figure}
+
+\paragraph{Widths.} NROE ignores feature size. In the interval model, a wide feature pushes its neighbours away, and the quantity that bounds the map is the attained interval cost
+\begin{equation}\label{eq:tau}
+\tau(\pi)=\min_{x\in\mathcal{L}(\pi)}\max_i |x_i-q_i| ,
+\end{equation}
+which has a closed form over pairwise and boundary terms of the packed intervals. Write $\ell_k=q_k-W_k/2-H_k$, $h_k=q_k+W_k/2+H_k$ and $s_k=W_k+g$, and for a leaf set $S$
+\begin{equation}
+A(S)=\max_{\alpha}\Big[\alpha+\!\!\sum_{k\in S,\ \ell_k\ge\alpha}\!\! s_k\Big],\qquad
+B(S)=\max_{\beta}\Big[\sum_{k\in S,\ h_k\le\beta}\!\! s_k-\beta\Big].
+\end{equation}
+
+\begin{theorem}[Width-aware bound]\label{thm:width}
+If block $X$ precedes block $Y$ in a map of the interval model, then $\tau\ge (A(X)+B(Y)-g)/2$. Consequently every map with $\dtop=0$ has
+\begin{equation}
+\tau(\pi_t)\ \ge\ \max_{v}\max_{X\ne Y\in\mathrm{ch}(v)} \tfrac12\big[\min\big(A(X)+B(Y),A(Y)+B(X)\big)-g\big],
+\end{equation}
+together with the order-free packing terms $B(\text{all})-g$ and $A(\text{all})-g-L$ at the canvas ends.
+\end{theorem}
+\begin{proof}[Proof sketch]
+Take $S_X\subseteq X$, $S_Y\subseteq Y$, the first leaf $a$ of $S_X$ and the last leaf $b$ of $S_Y$. All of $S_X\cup S_Y$ lies between their interval centres, which are therefore at least $\sum_{S_X\cup S_Y}s_k-g-W_a/2-W_b/2$ apart. Their anchors can approach each other by at most $H_a+H_b$, and $\tau$ is at least half of the remaining shortfall. Choosing $S_X$ as an upper set of $\ell$ and $S_Y$ as a lower set of $h$ separates the maximization into $A$ and $B$, both computed by sorting and prefix sums.
+\end{proof}
+
+With zero widths and gap, Theorem~\ref{thm:width} reduces to $L\,\nu^*$.
+
+\paragraph{A merge-level budget.} If a map may err by $\varepsilon$, Lemma~\ref{lem:sep} still forbids a leaf $k$ between two leaves of $u$ unless $k$ merges with $u$ within $2\varepsilon$ of $f(u)$. Let $A_\varepsilon(u)$ be the highest ancestor of $u$ whose level is at most $f(u)+2\varepsilon$.
+
+\begin{theorem}[Chain bound]\label{thm:chain}
+In a map with $\dtop\le\varepsilon$, no leaf outside $A_\varepsilon(u)$ lies between two leaves of $u$. Hence each such leaf, and each node $w$ with $w\notin A_\varepsilon(u)$ and $u\notin A_\varepsilon(w)$, lies entirely on one side of $u$, and $\nroe\ge\frac1{2L}\max$ over these pairs of the cheaper orientation, as in~(\ref{eq:nu}).
+\end{theorem}
+
+A coarser bound flattens every node within $2\varepsilon$ of its parent and applies Theorem~\ref{thm:order}; the chain bound is never weaker, because it charges a chain of small gaps by their sum.
+
+\begin{theorem}[Chain width bound]\label{thm:chainw}
+Under $\dtop\le\varepsilon$, the pairs of Theorem~\ref{thm:chain} are separated blocks, so Theorem~\ref{thm:width} applies to each pair; with zero widths this is $L$ times the chain bound.
+\end{theorem}
+
+All bounds use $\varepsilon_0+\varepsilon$ in place of $\varepsilon$ when the data resolution is declared.
+
+\section{Certified Layouts}\label{sec:method}
+The layout proceeds per frame in three steps: choose a leaf order with bounded merge error, set the barriers optimally for that order, and place anchors by a convex QP with a position cap.
+
+\paragraph{Exact topology.} For $\varepsilon=0$, midpoint ordering attains $\nu^*$ (Theorem~\ref{thm:order}). For wide features we refine it by a local search over the child permutations of each node, minimizing $\tau$ of~(\ref{eq:tau}) and breaking plateaus of the minimax objective by the sum of squared positive terms; every child permutation of the exact tree keeps $\dtop=0$.
+
+\paragraph{Budgeted order.} For $\varepsilon>0$ a node may be split only if its leaves can be interleaved with others at merge cost at most $\varepsilon$. We generate candidate trees by flattening (i) every node within a threshold of its parent, for each threshold up to $2(\varepsilon_0+\varepsilon)$, and (ii) conflict-driven: repeatedly releasing the sibling pair that currently sets the order cost, if Theorem~\ref{thm:chain}'s chain condition holds. Each candidate is ordered by midpoints and refined by the width-aware search; every move is checked with the \emph{exact} merge cost of the order (below) and rejected if it exceeds $\varepsilon_0+\varepsilon$. The previous best order is always kept, so refinement never increases $\tau$.
+
+\paragraph{Optimal barriers.} For a fixed order, the barrier between consecutive basins determines every displayed merge. The smallest achievable $\dtop$ with fixed extremum values, $\delta^*(\pi)$, has a closed form: each pair $(i,j)$ is limited by the lowest true merge level of the pairs it separates, an $\ell_\infty$ ultrametric fit under a fixed leaf order~\cite{Farach:1995:RM}. We compute $\delta^*$ in $O(n^3)$ per order, choose the barriers that attain it, and fill the profile from the source arc samples with the shared renderer of ST-MTM~\cite{STMTM:2026}.
+
+\paragraph{Anchor placement.} With the order fixed, the anchors solve the four-term convex QP of~(\ref{eq:problem}) with widths, gaps, canvas and anchor slack, sequentially in time so that $E_M$ refers to the previous frame. The cap $B_t=\tau_t+\beta$ is always feasible because $\tau_t$ is attained by the order; it bounds $E_\infty$ by construction. Without a cap, the geometry term can pull individual anchors far from their references.
+
+\paragraph{Complexity.} Bounds cost $O(n\log n)$ (Theorem~\ref{thm:order}) to $O(n^2\log n)$ (Theorem~\ref{thm:chainw}). On our data the ordering takes at most 4\,ms per planar frame (1--11 leaves) and 0.1\,s per volumetric frame (up to 93 leaves); the QP dominates. \pending{Report hardware and total runtimes.}
+
+\section{Evaluation}\label{sec:evaluation}
+\paragraph{Data.} We use seven sequences, 917 frames in total. Five are planar: \emph{Storms}, ERA5 mean sea-level pressure every 12\,h over the North Atlantic (118 frames, minima)~\cite{Hersbach:2020:ERA5}; \emph{Wildfires}, two-day aggregates of Australian fire radiative power (30)~\cite{Franke:2021:1DP}; \emph{OLR}, daily outgoing longwave radiation over the tropical Indo-Pacific (60)~\cite{NOAA:OLR}; \emph{PM$_{2.5}$}, daily concentration over eastern China for the year 2000 (366)~\cite{Dong:2026:PM25}; and the synthetic \emph{Ring} of TMTM (40)~\cite{Koepp:2023:TMTM}. Two are volumetric: \emph{Tangaroa}, velocity magnitude past a ship hull (201 frames, 18--93 leaves)~\cite{Popinet:2004:Tangaroa}, and \emph{Cylinder}, the $Q$ criterion of flow past a square cylinder (102 frames, 4--75 leaves)~\cite{Camarri:2005:Cylinder,Weinkauf:SquareCylinder}. All methods share the processed fields, extrema, supports, matches and reference coordinates; preprocessing follows prior work and is unchanged. The data resolution is $\varepsilon_0=10^{-7}$ and budgets are $\varepsilon\in\{0,2,5,10\}\%$.
+
+\paragraph{Baselines.} Native TMTM and ST-MTM outputs on the same inputs, scored by the scale-free NROE; the earlier candidate-pool QP and the $\kappa$ construction of our previous work, which has no merge-error guarantee; and, inside the same layout model, TMTM-type and ST-MTM-type objectives (Table~\ref{tab:instances}). \pending{N2: projection baseline ($\varepsilon=\infty$) and full trade-off curves.}
+
+\subsection{How much order error is necessary?}
+Across all 917 frames and all exact-topology methods, no frame falls below $\nu^*$: the bound holds empirically for TMTM, ST-MTM and our layouts alike. Figure~\ref{fig:bound} splits each method's mean NROE into the necessary part $\nu^*$ and the avoidable remainder. On Storms, TMTM's 19.2\% contains only 3.8\% that the hierarchy forces; the remaining 15.5\% comes from not using position as an objective. The same holds for ST-MTM (16.3\%, of which 12.5\% avoidable) and on every sequence. Our exact-topology layouts sit within 0.03 percentage points of $\nu^*$ on the planar sequences. On the volumetric sequences the width-aware order trades a little NROE (Tangaroa 9.67\% against $\nu^*=9.24\%$) for a lower worst displacement, discussed below.
+
+\begin{figure}[t]
+\centering\includegraphics[width=\columnwidth]{figures/fig_bound.pdf}
+\caption{Mean reference-order error per sequence. The solid part of each bar is the lower bound $\nu^*$ of Theorem~\ref{thm:order}, which no exact-topology map can avoid; the light part is avoidable.}\label{fig:bound}
+\end{figure}
+
+For $\varepsilon>0$ we compared the budgeted order with exhaustive enumeration on every frame with at most eight leaves (637 frames) at nine budgets from 0 to 100\%: it reached the enumerated optimum on all of them, while its exact merge error stayed within the budget.
+
+\begin{table*}[t]
+\caption{Main results, all in percent. Order error: lower bound $\nu^*$ and mean NROE of native TMTM, native ST-MTM and our exact-topology layout. Position: mean and worst displacement $E_{\mathrm{pool}}$, $E_\infty$ of our capped layouts; at $\varepsilon>0$ the worst merge error (NMLE max) is reported next to $E_\infty$ and never exceeds $\varepsilon$.}\label{tab:main}
+\centering\footnotesize\setlength{\tabcolsep}{4.2pt}
+\begin{tabular}{lrcrrrrrr|rr|rr}\toprule
+ & & & \multicolumn{4}{c}{Order error (NROE)} & \multicolumn{2}{c|}{Ours, $\varepsilon=0$} & \multicolumn{2}{c|}{Ours, $\varepsilon=2\%$} & \multicolumn{2}{c}{Ours, $\varepsilon=10\%$}\\
+\cmidrule(lr){4-7}\cmidrule(lr){8-9}\cmidrule(lr){10-11}\cmidrule(lr){12-13}
+Sequence & Frames & Leaves & $\nu^*$ & TMTM & ST-MTM & Ours & $E_{\mathrm{pool}}$ & $E_\infty$ & $E_\infty$ & NMLE max & $E_\infty$ & NMLE max\\\midrule
+\csname @@input\endcsname tables/tab_main.tex 
+\bottomrule
+\end{tabular}
+\end{table*}
+
+\subsection{Position under a merge-level budget}
+Table~\ref{tab:main} and Fig.~\ref{fig:tradeoff} report the capped layouts. Mean and worst displacement fall as $\varepsilon$ grows, and the measured worst merge error stays below the budget on every sequence. Compared with the earlier candidate-pool QP at equal $\varepsilon$, no sequence gets worse and most improve clearly; on Wildfires at $\varepsilon=2\%$ the worst displacement drops from 22.71\% to 8.71\%. Compared with the uncapped $\kappa$ construction at similar position levels, the worst merge error is now bounded: on Storms it falls from 26.07\% to 8.51\%, on Wildfires from 19.56\% to 8.35\%.
+
+The response depends on the data. On Wildfires a 2\% budget reduces $E_\infty$ from 20.48\% to 8.71\%; on Tangaroa it reduces it only from 15.10\% to 14.55\%. OLR keeps $E_\infty=17.14\%$ for all budgets because one frame needs more than 10\% merge error to be ordered correctly; the $\kappa$ construction spent 33.56\% on that frame. A budgeted map therefore does not always pay off, and the analyst can see when it does.
+
+\begin{figure*}[t]
+\centering\includegraphics[width=\linewidth]{figures/fig_tradeoff.pdf}
+\caption{Response to the merge-level budget $\varepsilon$ for all seven sequences (solid: ours with position cap; dotted: the earlier candidate-pool QP, planar only). Left and middle: mean and worst displacement. Right: measured worst merge error, which stays on or below the cap $\varepsilon$ (dashed).}\label{fig:tradeoff}
+\end{figure*}
+
+\subsection{Wide features}
+Point-model order error is not the whole story when features are large. On Tangaroa, ordering by NROE alone gave a worst displacement of 20.69\%, above the $\kappa$ construction's 16.86\%. Ordering by the interval cost $\tau$ lowers it to 15.10\% at $\varepsilon=0$ and to 14.55\% at $\varepsilon=2\%$, where the worst frame reaches the lower bound of Theorem~\ref{thm:chainw} (Fig.~\ref{fig:tangaroa}, Table~\ref{tab:volume}). On Cylinder, $\varepsilon\ge2\%$ lowers $E_\infty$ from 5.73\% to 5.27\%, again at the bound. The cost is a slightly higher NROE and mean jump; $\kappa$ keeps lower means on Tangaroa, and we report this as a trade-off, not a dominance.
+
+The chain bound matters on large trees. At $\varepsilon=5\%$ the coarse flattening bound averages 0.38\% on Tangaroa, while the chain width bound averages 7.40\% against an attained 8.10\%; at 10\% the worst-frame gap is 0.14\%. The remaining mean gap of about one percentage point also appears at $\varepsilon=0$, which suggests that it stems from the bound ignoring leaves packed inside blocks rather than from the ordering.
+
+\begin{figure*}[t]
+\centering\includegraphics[width=\linewidth]{figures/fig_tangaroa.pdf}
+\caption{Tangaroa, 201 time steps: interval cost $\tau_t/L$ of the point-model order (orange), the width-aware order (blue) and the $\kappa$ construction (dashed, mostly hidden under the blue line), with the certified lower bound (grey area, the larger of Theorems~\ref{thm:width} and~\ref{thm:chainw}).}\label{fig:tangaroa}
+\end{figure*}
+
+\begin{table}[t]
+\caption{Volumetric sequences (percent). $\kappa$ P (exact topology) and R2 (relaxed, no merge-error cap) are the earlier construction; N1 orders by NROE only. Jump: mean layout-induced jump $|\Delta x-\Delta q|/L$ of matched features between steps.}\label{tab:volume}
+\centering\footnotesize\setlength{\tabcolsep}{2.6pt}
+\begin{tabular}{llrrrrr}\toprule
+ & Layout & $E_{\mathrm{pool}}$ & $E_\infty$ & NROE & jump & NMLE max\\\midrule
+\csname @@input\endcsname tables/tab_volume.tex 
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Maps}
+Figure~\ref{fig:teaser} compares maps that differ only in the layout objective. On Ring, the TMTM-type layout keeps all features near the centre of the axis and the ST-MTM-type layout spreads them by pairwise distance; both place them far from their references (dots). Our exact layout follows the references; the 10\% budget changes a few barriers and moves bands only locally. On OLR the exact layout already places the low-radiation basins near their references, which makes the map comparable to a time--longitude plot while keeping each basin's nesting. \pending{Storms case study with the N1b layouts (needs the ERA5 input) and marks on relaxed barriers (N5).}
+
+\section{Discussion}\label{sec:discussion}
+\paragraph{What a merge-level budget changes.} The budget never removes a feature, changes an extremum value or moves the source data; it changes the displayed merge levels by at most $\varepsilon\Delta_F$. Where a subtree is split, its band is no longer contiguous and the TMTM reading ``one band, one component'' fails locally; such places must be marked on the map. Persistence simplification spends a comparable budget differently: it removes features below $2\varepsilon$ and keeps the rest exact~\cite{Edelsbrunner:2002:TPS,Tierny:2012:GTS}. Two refinements remain open: a one-sided error that only delays merges, never showing an earlier connection, and a constraint that keeps barriers inside the data range. We recommend $\varepsilon=0$ as the default and a budget only where Fig.~\ref{fig:tradeoff} shows a clear gain.
+
+\paragraph{Limits of one dimension.} Projecting locations onto one direction loses the other coordinates: features at the same longitude and different latitudes compete for the same position, and the bound $\nu^*$ quantifies exactly this conflict for the chosen direction. The reference need not be a coordinate; any fixed one-dimensional quantity, such as distance to a site, works. Readability was not tested: whether analysts read position and nesting together, and whether marks on relaxed barriers prevent misreading~\cite{Kamakshidasan:2021:MM,McNutt:2020:SVM}, requires a user study, which we plan as follow-up work.
+
+\paragraph{Bounds and attainment.} The order bound is attained exactly. The width bound is attained on most planar frames and on the worst Tangaroa and Cylinder frames, but not uniformly on large trees; Wildfires at $\varepsilon>0$ and one OLR frame at $\varepsilon=10\%$ keep a worst-frame gap. Our metrics are defined against the same reference the layout optimizes; NROE is therefore reported together with the scale-free comparison to native outputs and with geometric and temporal terms. \pending{N1c: recompute SNS, TW, ME and raster errors on the new layouts.}
+
+\section{Conclusion}
+Merge tree maps can be faithful to a spatial reference without giving up their hierarchy, and how faithful they can be is computable. Theorem~\ref{thm:order} and its width and chain versions give the unavoidable displacement for every exact-topology map; most of the displacement of existing maps lies above it, and our layouts remove it. A merge-level budget recovers more position where the data allow, with the merge error certified rather than estimated. Each map can therefore be shown with two numbers: how far it moves features, and how far it changes the hierarchy.
+
+\bibliographystyle{abbrv-doi-narrow}
+\bibliography{refs}
+\end{document}
