@@ -29,8 +29,8 @@
    "order_NROE": 0.026558808458004103,
    "geometry_rms": 0.08881654043238338,
    "max_normalized_qp_gap": 1.0408081958669371e-07,
-   "search_seconds": 0.024668999947607517,
-   "seconds": 0.18123899993952364
+   "search_seconds": 0.02789699996355921,
+   "seconds": 0.17927054094616324
   },
   "width order + cap, eps=0.02": {
    "E_pool": 0.016949394220399174,
@@ -49,15 +49,15 @@
    "order_tau_max": 0.07120014777026314,
    "n1_order_tau_mean": 0.016879139360420403,
    "n1_order_tau_max": 0.07120014777026314,
-   "width_lower_mean": 0.01574620216548709,
+   "width_lower_mean": 0.016879139360420403,
    "width_lower_max": 0.07120014777026311,
-   "frames_at_lower": 39,
+   "frames_at_lower": 40,
    "frames_improved": 0,
    "order_NROE": 0.015131690380828563,
    "geometry_rms": 0.08608855555903394,
    "max_normalized_qp_gap": 9.387912513755472e-08,
-   "search_seconds": 0.040262875030748546,
-   "seconds": 0.1978307079989463
+   "search_seconds": 0.0435125419171527,
+   "seconds": 0.1906663340050727
   },
   "width order + cap, eps=0.05": {
    "E_pool": 0.012028295685073883,
@@ -76,15 +76,15 @@
    "order_tau_max": 0.06729701652718953,
    "n1_order_tau_mean": 0.008587070545175131,
    "n1_order_tau_max": 0.06729701652718953,
-   "width_lower_mean": 0.005812635208989915,
+   "width_lower_mean": 0.008587070545175131,
    "width_lower_max": 0.06729701652718953,
-   "frames_at_lower": 33,
+   "frames_at_lower": 40,
    "frames_improved": 0,
    "order_NROE": 0.007187729558780572,
    "geometry_rms": 0.08556300468094251,
    "max_normalized_qp_gap": 2.47285231178004e-08,
-   "search_seconds": 0.054527124972082675,
-   "seconds": 0.21008333296049386
+   "search_seconds": 0.0562342080520466,
+   "seconds": 0.20223291695583612
   },
   "width order + cap, eps=0.1": {
    "E_pool": 0.006914938392512423,
@@ -103,15 +103,15 @@
    "order_tau_max": 0.019609123611750125,
    "n1_order_tau_mean": 0.0011160273338926849,
    "n1_order_tau_max": 0.019609123611750125,
-   "width_lower_mean": 0.0004783163265306242,
-   "width_lower_max": 0.0012755102040816646,
-   "frames_at_lower": 38,
+   "width_lower_mean": 0.0011160273338926946,
+   "width_lower_max": 0.01960912361175011,
+   "frames_at_lower": 40,
    "frames_improved": 0,
    "order_NROE": 0.0005335443406954056,
    "geometry_rms": 0.08648005181047698,
    "max_normalized_qp_gap": 1.5236855816484627e-08,
-   "search_seconds": 0.06238495802972466,
-   "seconds": 0.2134671660605818
+   "search_seconds": 0.062499208957888186,
+   "seconds": 0.19944166706409305
   }
  },
  "n1": {

@@ -22,15 +22,15 @@
    "order_tau_max": 0.2617101909074419,
    "n1_order_tau_mean": 0.0847383143493284,
    "n1_order_tau_max": 0.26171652047920124,
-   "width_lower_mean": 0.08064475477455253,
+   "width_lower_mean": 0.0835241148401257,
    "width_lower_max": 0.2617101909074419,
-   "frames_at_lower": 79,
+   "frames_at_lower": 81,
    "frames_improved": 25,
    "order_NROE": 0.08007755340942346,
    "geometry_rms": 0.08359788694773432,
    "max_normalized_qp_gap": 4.424674074426968e-06,
-   "search_seconds": 1.0343638750491664,
-   "seconds": 39.99147720797919
+   "search_seconds": 1.1459647919982672,
+   "seconds": 38.7999210000271
   },
   "width order + cap, eps=0.02": {
    "E_pool": 0.006374697002156612,
@@ -49,15 +49,15 @@
    "order_tau_max": 0.044386634355709845,
    "n1_order_tau_mean": 0.006541224759230525,
    "n1_order_tau_max": 0.0489394048996913,
-   "width_lower_mean": 0.004120617384825772,
+   "width_lower_mean": 0.004801533753404421,
    "width_lower_max": 0.044386634355709845,
    "frames_at_lower": 77,
    "frames_improved": 29,
    "order_NROE": 0.001902253438688907,
    "geometry_rms": 0.05472547782915657,
    "max_normalized_qp_gap": 1.5866310560719559e-06,
-   "search_seconds": 7.631981207989156,
-   "seconds": 57.25191225006711
+   "search_seconds": 7.7002695420524105,
+   "seconds": 58.10291070898529
   },
   "width order + cap, eps=0.05": {
    "E_pool": 0.005580120249871641,
@@ -83,8 +83,8 @@
    "order_NROE": 0.0005121451565700916,
    "geometry_rms": 0.054710457678839225,
    "max_normalized_qp_gap": 1.540366982421094e-06,
-   "search_seconds": 8.70150487497449,
-   "seconds": 56.056424624985084
+   "search_seconds": 8.947077541961335,
+   "seconds": 56.29076887504198
   },
   "width order + cap, eps=0.1": {
    "E_pool": 0.005377591299881034,
@@ -103,15 +103,15 @@
    "order_tau_max": 0.044386634355709845,
    "n1_order_tau_mean": 0.005102347151846016,
    "n1_order_tau_max": 0.0489394048996913,
-   "width_lower_mean": 0.0035201241411463493,
+   "width_lower_mean": 0.0035362985314271525,
    "width_lower_max": 0.044386634355709845,
-   "frames_at_lower": 73,
+   "frames_at_lower": 74,
    "frames_improved": 34,
    "order_NROE": 0.00010974539069359061,
    "geometry_rms": 0.05474369211900017,
    "max_normalized_qp_gap": 1.540366982421094e-06,
-   "search_seconds": 9.235766124911606,
-   "seconds": 58.266905916971155
+   "search_seconds": 9.639619667083025,
+   "seconds": 61.00028529204428
   }
  },
  "n1": {

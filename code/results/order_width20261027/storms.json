@@ -29,8 +29,8 @@
    "order_NROE": 0.03766956661454338,
    "geometry_rms": 0.2503011084729423,
    "max_normalized_qp_gap": 1.294217334812964e-07,
-   "search_seconds": 0.061846042051911354,
-   "seconds": 0.41008370800409466
+   "search_seconds": 0.07271720806602389,
+   "seconds": 0.4249280419899151
   },
   "width order + cap, eps=0.02": {
    "E_pool": 0.03630559845815908,
@@ -56,8 +56,8 @@
    "order_NROE": 0.02981106256978308,
    "geometry_rms": 0.24984138513005977,
    "max_normalized_qp_gap": 4.512397272839772e-07,
-   "search_seconds": 0.09411791700404137,
-   "seconds": 0.4312869170680642
+   "search_seconds": 0.10389441694132984,
+   "seconds": 0.4578414169372991
   },
   "width order + cap, eps=0.05": {
    "E_pool": 0.030988552246791513,
@@ -76,15 +76,15 @@
    "order_tau_max": 0.22018150148579563,
    "n1_order_tau_mean": 0.02709762096882145,
    "n1_order_tau_max": 0.22018150148579563,
-   "width_lower_mean": 0.018724254578720855,
-   "width_lower_max": 0.17630911307890543,
-   "frames_at_lower": 109,
+   "width_lower_mean": 0.021580512831978867,
+   "width_lower_max": 0.2201815014857956,
+   "frames_at_lower": 110,
    "frames_improved": 0,
    "order_NROE": 0.0220759316790231,
    "geometry_rms": 0.24876897646666796,
    "max_normalized_qp_gap": 1.294217334812964e-07,
-   "search_seconds": 0.09464387490879744,
-   "seconds": 0.4359338328940794
+   "search_seconds": 0.11013325001113117,
+   "seconds": 0.46422716695815325
   },
   "width order + cap, eps=0.1": {
    "E_pool": 0.024006766844771897,
@@ -103,15 +103,15 @@
    "order_tau_max": 0.1763091130789054,
    "n1_order_tau_mean": 0.01889245342799419,
    "n1_order_tau_max": 0.1763091130789054,
-   "width_lower_mean": 0.014363763207453474,
+   "width_lower_mean": 0.014935646145971338,
    "width_lower_max": 0.17630911307890543,
-   "frames_at_lower": 109,
+   "frames_at_lower": 110,
    "frames_improved": 0,
    "order_NROE": 0.014322909533880046,
    "geometry_rms": 0.2458630393400725,
    "max_normalized_qp_gap": 1.294217334812964e-07,
-   "search_seconds": 0.10483470896724612,
-   "seconds": 0.4487632499076426
+   "search_seconds": 0.11832466698251665,
+   "seconds": 0.48168049997184426
   }
  },
  "n1": {

@@ -29,8 +29,8 @@
    "order_NROE": 0.009775634689546538,
    "geometry_rms": 0.13296597682632383,
    "max_normalized_qp_gap": 9.758655859777228e-08,
-   "search_seconds": 0.1229868329828605,
-   "seconds": 1.0366645830217749
+   "search_seconds": 0.14756383397616446,
+   "seconds": 1.041563291917555
   },
   "width order + cap, eps=0.02": {
    "E_pool": 0.011413619756827887,
@@ -49,15 +49,15 @@
    "order_tau_max": 0.18917547557252057,
    "n1_order_tau_mean": 0.005377247157440347,
    "n1_order_tau_max": 0.18917547557252057,
-   "width_lower_mean": 0.003892268958064174,
+   "width_lower_mean": 0.004263868953476874,
    "width_lower_max": 0.18917547557252062,
-   "frames_at_lower": 359,
+   "frames_at_lower": 361,
    "frames_improved": 1,
    "order_NROE": 0.0034230253650844285,
    "geometry_rms": 0.12813433543784672,
    "max_normalized_qp_gap": 9.758655859777228e-08,
-   "search_seconds": 0.1596544999629259,
-   "seconds": 1.0715005419915542
+   "search_seconds": 0.17117912496905774,
+   "seconds": 1.0481154168955982
   },
   "width order + cap, eps=0.05": {
    "E_pool": 0.007528363847736708,
@@ -83,8 +83,8 @@
    "order_NROE": 4.439816249139087e-05,
    "geometry_rms": 0.12659445602817676,
    "max_normalized_qp_gap": 9.758655859777228e-08,
-   "search_seconds": 0.1685413750819862,
-   "seconds": 1.0794140830403194
+   "search_seconds": 0.1808593749301508,
+   "seconds": 1.0053175420034677
   },
   "width order + cap, eps=0.1": {
    "E_pool": 0.007483881521081452,
@@ -110,8 +110,8 @@
    "order_NROE": 1.7858756929640183e-05,
    "geometry_rms": 0.12661459448457024,
    "max_normalized_qp_gap": 9.758655859777228e-08,
-   "search_seconds": 0.17549475003033876,
-   "seconds": 1.0997740840539336
+   "search_seconds": 0.20179020799696445,
+   "seconds": 1.1056575420079753
   }
  },
  "n1": {

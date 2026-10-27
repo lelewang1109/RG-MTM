@@ -23,7 +23,7 @@ Flattening every gap <= 2 eps (Theorem B) makes it valid for merge error <= eps.
 """
 import numpy as np
 from .framework import merge_costs
-from .order_certificate import hierarchy, _blocks, _parents, _expand, budget_order, order_error
+from .order_certificate import hierarchy, _blocks, _parents, _span, _expand, budget_order, order_error
 
 
 def _ends(widths, reference, p):
@@ -65,6 +65,37 @@ def width_certificate(merge_values, reference, widths, p, gap=0.0, tie=0.0):
         for x in range(len(ab)):
             for y in range(x + 1, len(ab)):
                 best = max(best, (min(ab[x][0] + ab[y][1], ab[y][0] + ab[x][1]) - p.gap) / 2)
+    return best
+
+
+def width_chain_certificate(merge_values, reference, widths, p, budget, tie=0.0):
+    """Theorem C_w: chain-aware A_w, a lower bound on tau for merge error <= budget (+ tie).
+
+    The A_w block term only needs one leaf set to lie wholly before the other.
+    Theorem C supplies such pairs: node u and any leaf outside A_eps(u), and
+    nodes u, w each outside the other's A_eps. With zero widths and gap this is
+    L times ``chain_certificate``; it charges chains by their summed gap
+    instead of flattening every gap <= 2 eps at once.
+    """
+    nodes, root = hierarchy(merge_values)
+    if root is None: return 0.
+    lo, hi, s = _ends(widths, reference, p); n = len(lo)
+    A, B = _packing(lo, hi, s)
+    best = max(0., p.canvas_origin - p.gap + B, A - p.gap - p.canvas_origin - p.canvas)
+    parent = _parents(nodes); slack = 2 * (budget + tie)
+    inner = [u for u, d in nodes.items() if d['children']]
+    member = {u: np.isin(np.arange(n), nodes[u]['leaves']) for u in inner}
+    allowed = {u: member[_span(nodes, parent, u, slack)] for u in inner}
+    ab = {u: _packing(lo[member[u]], hi[member[u]], s[member[u]]) for u in inner}
+    sep = lambda x, y: (min(x[0] + y[1], y[0] + x[1]) - p.gap) / 2
+    for u in inner:
+        out = ~allowed[u]
+        if out.any():   # singleton k: A = lo_k + s_k, B = s_k - hi_k
+            a, b = ab[u]
+            best = max(best, float(np.max(np.minimum(a + s[out] - hi[out], lo[out] + s[out] + b) - p.gap) / 2))
+        for w in inner:
+            if w < u and not (member[w] & allowed[u]).any() and not (member[u] & allowed[w]).any():
+                best = max(best, sep(ab[u], ab[w]))
     return best
 
 
@@ -127,7 +158,8 @@ def width_order(merge_values, reference, widths, p, budget, tie=0.0, *, point=No
     V = np.asarray(merge_values, float); q = np.asarray(reference, float); w = np.asarray(widths, float)
     L = p.canvas; limit = budget + tie
     point = point or budget_order(V, q, L, budget, tie)
-    lower = width_certificate(V, q, w, p, 2 * limit)
+    lower_b = width_certificate(V, q, w, p, 2 * limit); lower_c = width_chain_certificate(V, q, w, p, budget, tie)
+    lower = max(lower_b, lower_c)
     t0 = float(interval_scores([point['order']], w, q, p)[0][0])
     best = dict(order=list(point['order']), tau=t0, delta=float(point['delta']), source='point order', flattened=None)
     nodes, root = hierarchy(V)
@@ -151,5 +183,5 @@ def width_order(merge_values, reference, widths, p, budget, tie=0.0, *, point=No
                                                     order_error(r['order'], q, L) < order_error(best['order'], q, L) - 1e-15):
                 best = dict(order=r['order'], tau=r['tau'], delta=float(merge_costs([r['order']], V)[0]),
                             source='width search', flattened=r['flattened'])
-    best.update(nroe=order_error(best['order'], q, L), lower=lower, point_tau=t0, point_nroe=float(point['nroe']))
+    best.update(nroe=order_error(best['order'], q, L), lower=lower, lower_b=lower_b, lower_c=lower_c, point_tau=t0, point_nroe=float(point['nroe']))
     return best
