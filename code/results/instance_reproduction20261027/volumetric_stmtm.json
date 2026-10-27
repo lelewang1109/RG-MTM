@@ -1,0 +1,14 @@
+{
+ "tangaroa": {
+  "frames": 201,
+  "eq1_stationarity_max": 2.4424906541753444e-15,
+  "eq1_primal_max": 6.000408503403776e-15,
+  "eq2_stationarity_max": 0.0
+ },
+ "square-cylinder3d": {
+  "frames": 102,
+  "eq1_stationarity_max": 7.105205312996077e-11,
+  "eq1_primal_max": 3.766084666345648e-15,
+  "eq2_stationarity_max": 0.0
+ }
+}

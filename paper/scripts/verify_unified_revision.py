@@ -4,7 +4,7 @@ from itertools import combinations
 from math import factorial
 from dataclasses import replace
 from zipfile import ZipFile
-import json,hashlib,sys,re,unicodedata
+import json,hashlib,sys,re,unicodedata,os,subprocess
 import numpy as np
 import pymupdf
 P=Path(__file__).resolve().parents[1];C=P.parent/'code';L=P/'manuscript/latex';R=C/'results/unified20261025'
@@ -124,9 +124,19 @@ for name in ['ring','era5','wildfire','olr','pm25_2000']:
 
 assert report['frames']==614 and report['layouts']==3070 and report['grid_queries']==360
 assert report['grid_witnesses']==343
-testlog=(P/'.build/unified20261025/tests.log').read_text()
-assert 'Ran 57 tests' in testlog and 'FAILED' not in testlog and 'ERROR' not in testlog
-report['tests']=57
+# The saved log is a local build cache; a fresh checkout reruns the suite instead.
+log_path=P/'.build/unified20261025/tests.log'
+if log_path.exists():testlog=log_path.read_text()
+else:
+ run=subprocess.run([sys.executable,'-m','unittest','discover','-s','code/tests'],cwd=P.parent,
+                    env={**os.environ,'PYTHONPATH':str(C/'src')},capture_output=True,text=True)
+ testlog=run.stdout+run.stderr
+ assert run.returncode==0,testlog[-4000:]
+report['tests_source']='saved log' if log_path.exists() else 'rerun'
+# The 57 published tests must still run; later rounds may add more.
+ran=re.search(r'Ran (\d+) tests',testlog)
+assert ran and int(ran.group(1))>=57 and 'FAILED' not in testlog and 'ERROR' not in testlog
+report['tests']=int(ran.group(1))
 # Check every earlier scientific evidence file in the pre-edit delivery manifest.
 before_path=P/'.build/unified20261025/before_delivery_manifest.json'
 before=json.loads(before_path.read_text())['files'] if before_path.exists() else json.loads((P/'checks/unified20261025/prior_evidence_sha256.json').read_text())
@@ -155,9 +165,14 @@ for stem,name in [('main','Revised_RG-MTM.pdf'),('supplement','Revised_Supplemen
  assert not re.search(r'Overfull|undefined references|Citation .*undefined|multiply defined|Float too large|LaTeX Error',log)
  if stem=='main':assert {int(n) for n in re.findall(r'Figure\s+(\d+):',text)}==set(range(1,18))
  report['documents'].append(dict(file=name,pages=len(d),sha256=sha(P/'manuscript'/name)))
-with ZipFile(P/'manuscript/RG-MTM_LaTeX.zip') as z:
- assert z.testzip() is None
- for p in L.rglob('*.tex'):assert z.read(str(p.relative_to(L)))==p.read_bytes(),p
+# The LaTeX ZIP is a Release asset built by package_delivery.py, not a tracked file.
+zip_path=P/'manuscript/RG-MTM_LaTeX.zip'
+assert zip_path.exists() or '--release' not in sys.argv,'--release needs manuscript/RG-MTM_LaTeX.zip'
+if zip_path.exists():
+ with ZipFile(zip_path) as z:
+  assert z.testzip() is None
+  for p in L.rglob('*.tex'):assert z.read(str(p.relative_to(L)))==p.read_bytes(),p
+report['latex_zip']='checked' if zip_path.exists() else 'skipped (Release asset not present)'
 out=P/'checks/unified20261025';out.mkdir(parents=True,exist_ok=True)
 (out/'validation.json').write_text(json.dumps(report,indent=2)+'\n')
 print(json.dumps(report,indent=2))
