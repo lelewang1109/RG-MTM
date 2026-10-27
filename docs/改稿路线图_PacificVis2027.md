@@ -117,6 +117,17 @@
 - **栅格：** Ring、OLR、PM2.5 渲染后，屏障误差不超过标量范围的 1.6e-6，锚点取整误差不超过画布的 2.4e-4。Storms 和 Wildfires 缺原始数据，没有做这一项。
 - 论文：新增 §6.5 和表 4，删除 N1c 的待补标记。
 
+### 11. N3：TMTM 和 ST-MTM 作为统一问题的特例（10-27）✅
+- 实验：`code/experiments/instance_reproduction/`，结果在 `code/results/instance_reproduction20261027/`。
+  - 本轮覆盖 Ring、OLR、PM2.5；Storms 和 Wildfires 沿用 10-19 的基线审计 `results/baseline_audit_20261019/`。
+- **给定原生叶序，布局完全复现：**
+  - TMTM：在 5 组平面数据上，由原生分支决策重建的线性化与固定版本的官方 C++ 核心，在全部 3127 个弧区间和锚点上完全一致，合并误差为 0；
+  - ST-MTM：原生锚点和区间满足其两个二次规划的最优性（KKT）条件，相对残差平面 < 1e-6，三维 < 1e-10。
+- **两种方法都是在"选叶序"这一步用了启发式：**
+  - ST-MTM 的最优叶序（SciPy OLO）在 10 帧上高于其自身邻接目标的穷举最优（Storms 1、Wildfires 7、PM2.5 2）；
+  - TMTM 的贪心：在 Ring、OLR、PM2.5 上，对每一步穷举全部分支决策（固定同一个前一帧），贪心在 463 步中有 434 步最优；不是最优时最多高出 85.5%。按步求和，分别高出 17.4%、5.7%、2.2%。这是逐步比较，不是全序列最优。
+- 论文：§3 替换 N3 的待补标记，写入上述结论。
+
 ---
 
 ## 二、正在思考、需要决定的问题
@@ -142,7 +153,7 @@
 | N1b′ | 定理 C 的宽度版本（链式条件加区间装箱），使 ε>0 时大树上的 τ 最优性可证明 | 更紧的下界 | ✅ 10-27 |
 | N1c | 在新布局上重算 SNS、TW、ME 和栅格误差 | 完整主表 | ✅ 10-27 |
 | N2 | 投影基线（ε=∞）与 TMTM→投影的 Pareto 曲线：每个数据集画出（NMLE, NROE/E_∞）点和 ε 曲线 | 主结果图 | ✅ 10-27 |
-| N3 | 实例复现：把原生叶序喂给 P(Θ_TMTM) 和 P(Θ_ST-MTM) 的求解器，复现原生布局；小树上穷举 TMTM 目标，量化其贪心解的差距 | 统一表述的证据 | 待做 |
+| N3 | 实例复现：把原生叶序喂给 P(Θ_TMTM) 和 P(Θ_ST-MTM) 的求解器，复现原生布局；小树上穷举 TMTM 目标，量化其贪心解的差距 | 统一表述的证据 | ✅ 10-27 |
 | N4 | 可控冲突合成实验：调节兄弟子树在参考轴上的重叠深度，验证 ν\*、H 对位移的预测 | 小图 | 待做 |
 | N5 | 失真披露编码：在被改动的屏障处加标记，配逐帧的 ν\*、H、d_top 条带；teaser 改用 ε | 图 1 和案例图 | 待做 |
 | N6 | 9 页正文重写（提纲见设计说明第 4 节），旧内容移入附录；更新哈希清单与 CI | 新稿 | 待做 |
@@ -169,4 +180,5 @@
 | `code/results/order_width20261027/` | N1b 结果与报告 |
 | `code/experiments/frontier/`、`code/results/frontier20261027/` | N2：权衡曲线与投影基线 |
 | `code/experiments/metrics_n1c/`、`code/results/metrics_n1c20261027/` | N1c：SNS、TW、ME、栅格指标 |
+| `code/experiments/instance_reproduction/`、`code/results/instance_reproduction20261027/` | N3：原生布局复现与 TMTM 目标穷举 |
 | `paper/pvis2027/` | PacificVis 重写稿（LaTeX、PDF、生成图表的脚本） |

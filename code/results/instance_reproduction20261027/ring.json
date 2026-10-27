@@ -1,0 +1,397 @@
+{
+ "dataset": "ring",
+ "frames": 40,
+ "TMTM": {
+  "official_core": {
+   "adjacent_pairs": 39,
+   "branch_decisions": 125,
+   "arc_intervals_and_anchors": 289,
+   "mismatches": []
+  },
+  "merge_error_max": 0.0,
+  "objective": {
+   "steps": 39,
+   "enumerated": 39,
+   "greedy_optimal": 36,
+   "greedy_total": 480.0,
+   "optimum_total": 409.0,
+   "max_relative_gap": 0.8545454545454545,
+   "mean_relative_gap": 0.038693089855880554,
+   "scope": "per step against the same previous greedy layout; not a sequence-wide optimum",
+   "per_step": [
+    {
+     "step": 0,
+     "decisions": 0,
+     "enumerated": true,
+     "greedy": 0.0,
+     "optimum": 0.0,
+     "gap": 0.0,
+     "relative_gap": 0.0
+    },
+    {
+     "step": 1,
+     "decisions": 0,
+     "enumerated": true,
+     "greedy": 0.0,
+     "optimum": 0.0,
+     "gap": 0.0,
+     "relative_gap": 0.0
+    },
+    {
+     "step": 2,
+     "decisions": 0,
+     "enumerated": true,
+     "greedy": 0.0,
+     "optimum": 0.0,
+     "gap": 0.0,
+     "relative_gap": 0.0
+    },
+    {
+     "step": 3,
+     "decisions": 0,
+     "enumerated": true,
+     "greedy": 0.0,
+     "optimum": 0.0,
+     "gap": 0.0,
+     "relative_gap": 0.0
+    },
+    {
+     "step": 4,
+     "decisions": 0,
+     "enumerated": true,
+     "greedy": 0.0,
+     "optimum": 0.0,
+     "gap": 0.0,
+     "relative_gap": 0.0
+    },
+    {
+     "step": 5,
+     "decisions": 0,
+     "enumerated": true,
+     "greedy": 0.0,
+     "optimum": 0.0,
+     "gap": 0.0,
+     "relative_gap": 0.0
+    },
+    {
+     "step": 6,
+     "decisions": 0,
+     "enumerated": true,
+     "greedy": 0.0,
+     "optimum": 0.0,
+     "gap": 0.0,
+     "relative_gap": 0.0
+    },
+    {
+     "step": 7,
+     "decisions": 1,
+     "enumerated": true,
+     "greedy": 0.0,
+     "optimum": 0.0,
+     "gap": 0.0,
+     "relative_gap": 0.0
+    },
+    {
+     "step": 8,
+     "decisions": 1,
+     "enumerated": true,
+     "greedy": 0.0,
+     "optimum": 0.0,
+     "gap": 0.0,
+     "relative_gap": 0.0
+    },
+    {
+     "step": 9,
+     "decisions": 1,
+     "enumerated": true,
+     "greedy": 0.0,
+     "optimum": 0.0,
+     "gap": 0.0,
+     "relative_gap": 0.0
+    },
+    {
+     "step": 10,
+     "decisions": 2,
+     "enumerated": true,
+     "greedy": 0.0,
+     "optimum": 0.0,
+     "gap": 0.0,
+     "relative_gap": 0.0
+    },
+    {
+     "step": 11,
+     "decisions": 1,
+     "enumerated": true,
+     "greedy": 0.0,
+     "optimum": 0.0,
+     "gap": 0.0,
+     "relative_gap": 0.0
+    },
+    {
+     "step": 12,
+     "decisions": 1,
+     "enumerated": true,
+     "greedy": 1.0,
+     "optimum": 1.0,
+     "gap": 0.0,
+     "relative_gap": 0.0
+    },
+    {
+     "step": 13,
+     "decisions": 2,
+     "enumerated": true,
+     "greedy": 1.0,
+     "optimum": 1.0,
+     "gap": 0.0,
+     "relative_gap": 0.0
+    },
+    {
+     "step": 14,
+     "decisions": 4,
+     "enumerated": true,
+     "greedy": 2.0,
+     "optimum": 2.0,
+     "gap": 0.0,
+     "relative_gap": 0.0
+    },
+    {
+     "step": 15,
+     "decisions": 4,
+     "enumerated": true,
+     "greedy": 7.0,
+     "optimum": 7.0,
+     "gap": 0.0,
+     "relative_gap": 0.0
+    },
+    {
+     "step": 16,
+     "decisions": 3,
+     "enumerated": true,
+     "greedy": 12.0,
+     "optimum": 12.0,
+     "gap": 0.0,
+     "relative_gap": 0.0
+    },
+    {
+     "step": 17,
+     "decisions": 3,
+     "enumerated": true,
+     "greedy": 25.0,
+     "optimum": 25.0,
+     "gap": 0.0,
+     "relative_gap": 0.0
+    },
+    {
+     "step": 18,
+     "decisions": 4,
+     "enumerated": true,
+     "greedy": 8.0,
+     "optimum": 8.0,
+     "gap": 0.0,
+     "relative_gap": 0.0
+    },
+    {
+     "step": 19,
+     "decisions": 5,
+     "enumerated": true,
+     "greedy": 12.0,
+     "optimum": 12.0,
+     "gap": 0.0,
+     "relative_gap": 0.0
+    },
+    {
+     "step": 20,
+     "decisions": 4,
+     "enumerated": true,
+     "greedy": 14.0,
+     "optimum": 12.0,
+     "gap": 2.0,
+     "relative_gap": 0.14285714285714285
+    },
+    {
+     "step": 21,
+     "decisions": 5,
+     "enumerated": true,
+     "greedy": 2.0,
+     "optimum": 2.0,
+     "gap": 0.0,
+     "relative_gap": 0.0
+    },
+    {
+     "step": 22,
+     "decisions": 6,
+     "enumerated": true,
+     "greedy": 24.0,
+     "optimum": 24.0,
+     "gap": 0.0,
+     "relative_gap": 0.0
+    },
+    {
+     "step": 23,
+     "decisions": 5,
+     "enumerated": true,
+     "greedy": 19.0,
+     "optimum": 19.0,
+     "gap": 0.0,
+     "relative_gap": 0.0
+    },
+    {
+     "step": 24,
+     "decisions": 4,
+     "enumerated": true,
+     "greedy": 107.0,
+     "optimum": 107.0,
+     "gap": 0.0,
+     "relative_gap": 0.0
+    },
+    {
+     "step": 25,
+     "decisions": 5,
+     "enumerated": true,
+     "greedy": 2.0,
+     "optimum": 2.0,
+     "gap": 0.0,
+     "relative_gap": 0.0
+    },
+    {
+     "step": 26,
+     "decisions": 5,
+     "enumerated": true,
+     "greedy": 2.0,
+     "optimum": 2.0,
+     "gap": 0.0,
+     "relative_gap": 0.0
+    },
+    {
+     "step": 27,
+     "decisions": 4,
+     "enumerated": true,
+     "greedy": 10.0,
+     "optimum": 10.0,
+     "gap": 0.0,
+     "relative_gap": 0.0
+    },
+    {
+     "step": 28,
+     "decisions": 4,
+     "enumerated": true,
+     "greedy": 3.0,
+     "optimum": 3.0,
+     "gap": 0.0,
+     "relative_gap": 0.0
+    },
+    {
+     "step": 29,
+     "decisions": 5,
+     "enumerated": true,
+     "greedy": 12.0,
+     "optimum": 12.0,
+     "gap": 0.0,
+     "relative_gap": 0.0
+    },
+    {
+     "step": 30,
+     "decisions": 5,
+     "enumerated": true,
+     "greedy": 60.0,
+     "optimum": 60.0,
+     "gap": 0.0,
+     "relative_gap": 0.0
+    },
+    {
+     "step": 31,
+     "decisions": 5,
+     "enumerated": true,
+     "greedy": 4.0,
+     "optimum": 4.0,
+     "gap": 0.0,
+     "relative_gap": 0.0
+    },
+    {
+     "step": 32,
+     "decisions": 5,
+     "enumerated": true,
+     "greedy": 12.0,
+     "optimum": 12.0,
+     "gap": 0.0,
+     "relative_gap": 0.0
+    },
+    {
+     "step": 33,
+     "decisions": 6,
+     "enumerated": true,
+     "greedy": 8.0,
+     "optimum": 8.0,
+     "gap": 0.0,
+     "relative_gap": 0.0
+    },
+    {
+     "step": 34,
+     "decisions": 5,
+     "enumerated": true,
+     "greedy": 11.0,
+     "optimum": 11.0,
+     "gap": 0.0,
+     "relative_gap": 0.0
+    },
+    {
+     "step": 35,
+     "decisions": 5,
+     "enumerated": true,
+     "greedy": 3.0,
+     "optimum": 3.0,
+     "gap": 0.0,
+     "relative_gap": 0.0
+    },
+    {
+     "step": 36,
+     "decisions": 4,
+     "enumerated": true,
+     "greedy": 55.0,
+     "optimum": 8.0,
+     "gap": 47.0,
+     "relative_gap": 0.8545454545454545
+    },
+    {
+     "step": 37,
+     "decisions": 5,
+     "enumerated": true,
+     "greedy": 43.0,
+     "optimum": 21.0,
+     "gap": 22.0,
+     "relative_gap": 0.5116279069767442
+    },
+    {
+     "step": 38,
+     "decisions": 6,
+     "enumerated": true,
+     "greedy": 21.0,
+     "optimum": 21.0,
+     "gap": 0.0,
+     "relative_gap": 0.0
+    }
+   ]
+  }
+ },
+ "STMTM": {
+  "frames": 40,
+  "eq1_kkt_relative_residual_max": 3.171171373722922e-08,
+  "eq2_kkt_relative_residual_max": 1.6822188780640898e-07,
+  "olo_frames_above_exhaustive": 0,
+  "olo_gap_max": 5.684341886080802e-14,
+  "parameters": {
+   "weights": "uniform",
+   "total_leaf_extent_k": 182.8125,
+   "reorder_threshold_r": 0.95,
+   "temporal_lambda": 0.5,
+   "layout_length": 196,
+   "start_timestep": 0,
+   "mode": "temporal",
+   "alpha": 1.0,
+   "min_spacing_delta": 0.01,
+   "optimizer_tolerance": 1e-11,
+   "optimizer_max_iterations": 2000
+  }
+ },
+ "seconds": 2.4379196659429
+}
