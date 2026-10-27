@@ -61,7 +61,7 @@ PYTHONPATH=code/src .venv/bin/python -m unittest discover -s code/tests -v
 .venv/bin/python paper/scripts/verify_unified_revision.py --numerical-only
 ```
 
-GitHub发布检出的清单核验为 `python tools/verify_release.py`。四组新增ST-MTM的完整数组核验还需对应源清单及坐标：
+没有本地 `.build` 测试日志时，`--numerical-only` 会自动重跑57项测试。GitHub发布检出的清单核验为 `python tools/verify_release.py`。四组新增ST-MTM的完整数组核验还需对应源清单及坐标：
 
 ```sh
 .venv/bin/python -m pip install -r code/experiments/stmtm_completion/requirements.txt
@@ -85,4 +85,4 @@ PYTHONPATH=code/src:code .venv/bin/python code/experiments/stmtm_completion/veri
 
 ## 6. 发布
 
-确认PDF、TeX与图件一致，当前结果表未被旧导出覆盖，README链接有效。环境、密钥、原始大档案、外部绝对符号链接和.build缓存不进入提交。更新GitHub发布说明和SHA清单；通过发布检出提交，源码ZIP/PDF资产同步到Release，再检查远端提交和CI。
+确认PDF、TeX与图件一致，当前结果表未被旧导出覆盖，README链接有效。环境、密钥、原始大档案、外部绝对符号链接和.build缓存不进入提交。先用 `paper/scripts/package_delivery.py` 生成源码ZIP，再运行 `paper/scripts/verify_unified_revision.py --release`（缺ZIP即失败；不加该参数时ZIP检查会跳过）。更新GitHub发布说明和SHA清单；通过发布检出提交，源码ZIP/PDF资产同步到Release，再检查远端提交和CI。

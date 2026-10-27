@@ -196,7 +196,7 @@ def selective_order(merge_values, reference, extent, budget, tie=0.0):
     nodes, root = hierarchy(merge_values); V = np.asarray(merge_values, float)
     q = np.asarray(reference, float); parent = _parents(nodes); slack = 2 * (budget + tie)
     flat = set(); order = _flat_order(nodes, root, flat, q); score = order_error(order, q, extent)
-    best = dict(order=order, delta=0., nroe=score, flattened=0)
+    best = dict(order=order, delta=0., nroe=score, flattened=0, flat=set())
     while True:   # the flattened set only grows, so this stops
         cost, X, Y = _critical(nodes, root, flat, q)
         if cost <= 0: break
@@ -211,7 +211,7 @@ def selective_order(merge_values, reference, extent, budget, tie=0.0):
         s, d, _, f, o = min(trials, key=lambda t: t[:3])
         if s > score + 1e-15: break
         flat, score = f, s      # non-worsening steps may unlock a deeper flattening
-        if s < best['nroe'] - 1e-15: best = dict(order=o, delta=d, nroe=s, flattened=len(f))
+        if s < best['nroe'] - 1e-15: best = dict(order=o, delta=d, nroe=s, flattened=len(f), flat=set(f))
     return best
 
 
@@ -240,7 +240,7 @@ def budget_order(merge_values, reference, extent, budget, tie=0.0):
     best = dict(order=orders[k], delta=float(delta[k]), nroe=float(nroe[k]), source='threshold',
                 threshold=float(levels[k]))
     sel = selective_order(V, reference, extent, budget, tie)
-    best['threshold_nroe'] = best['nroe']; best['selective_nroe'] = sel['nroe']
+    best['threshold_nroe'] = best['nroe']; best['selective_nroe'] = sel['nroe']; best['selective_flat'] = sorted(sel['flat'])
     if sel['nroe'] < best['nroe'] - 1e-15:
         best.update(order=sel['order'], delta=sel['delta'], nroe=sel['nroe'], source='selective')
     best.update(lower=max(lower_b, lower_c), lower_b=lower_b, lower_c=lower_c, candidates=len(orders) + 1)
