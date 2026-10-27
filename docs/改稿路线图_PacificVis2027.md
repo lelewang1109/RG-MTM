@@ -145,6 +145,21 @@
 - **唯一的附加条件：** 剖面中不能有不带标签的额外极值（否则就不满足"覆盖所有叶子"）。在 Ring、OLR 的渲染图上逐列核对：每列的局部极值个数都等于特征数，200 列中没有例外。其他数据集没有逐列核对。
 - **由此得到：** d_B ≤ d_I ≤ d_I^L = d_top。论文 §3 已改写为这条链；相关工作中的表述也同步修正。
 
+### 13. 运行时间（10-27）✅
+- 脚本：`code/experiments/runtime/`，结果在 `code/results/runtime20261027/runtime.json`。
+- 机器与环境：Apple M2 Pro（12 核，32 GB）、macOS 26.6.2、Python 3.12.7、NumPy 2.0.2、SciPy 1.13.1，单进程。
+- 每帧耗时：
+
+  | 步骤 | 平面数据（1–11 个叶子） | 三维数据（最多 93 个叶子） |
+  |---|---|---|
+  | 四个下界 | ≤ 0.6 ms | ≤ 5.5 ms |
+  | 排序 | ≤ 3.7 ms | ≤ 103 ms |
+  | 带上限的二次规划（SciPy SLSQP） | 2.3–9.0 ms | 0.25–0.50 s |
+
+  二次规划占绝大部分时间。
+- 917 帧全部布局一次：ε=0 时 94 s，放松时最多 137 s；614 帧平面数据不到 3 s。
+- 论文：§5 复杂度段替换了待补标记。
+
 ---
 
 ## 二、正在思考、需要决定的问题
@@ -198,4 +213,5 @@
 | `code/experiments/frontier/`、`code/results/frontier20261027/` | N2：权衡曲线与投影基线 |
 | `code/experiments/metrics_n1c/`、`code/results/metrics_n1c20261027/` | N1c：SNS、TW、ME、栅格指标 |
 | `code/experiments/instance_reproduction/`、`code/results/instance_reproduction20261027/` | N3：原生布局复现与 TMTM 目标穷举 |
+| `code/experiments/runtime/`、`code/results/runtime20261027/` | 运行时间与机器配置 |
 | `paper/pvis2027/` | PacificVis 重写稿（LaTeX、PDF、生成图表的脚本） |
