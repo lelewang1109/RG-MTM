@@ -268,6 +268,238 @@ def fig_storms():
     save(fig, 'fig_storms')
 
 
+# ---------------------------------------------------------------- Teaser and pipeline: one real Storms frame
+T_STAR = 61
+LETTERS = 'ABCDEFGH'
+PAL = [C['A'], C['B'], C['C'], C['D'], '#E69F00', C['light']]
+
+
+def storms_frame():
+    cache = DATA / 'storms_frame.json'
+    if cache.exists(): return json.loads(cache.read_text())
+    import replicate
+    ds = replicate.LOADERS['era5'](); sc = ds['sc']; d = n1.DATASETS['Storms'](); p = params(d)
+    t = T_STAR; ids = list(sc['ids'][t]); coords = np.asarray(sc['coords'])
+    saved = json.loads((RES / 'unified20261025/era5.json').read_text())['regimes']
+    rows0, _ = n1b_rows(d, 0); rows10, _ = n1b_rows(d, .1)
+    pick = lambda r: dict(order=[int(v) for v in r['order']], x=list(map(float, r['x'])), z=list(map(float, r['z'])),
+                          w=list(map(float, r['w'])), barriers=list(map(float, r['barriers'])), delta=float(r['delta']),
+                          cap=float(r.get('cap', np.nan)))
+    out = dict(t=t, date=str(sc['dates'][t]), canvas=p.canvas, origin=p.canvas_origin, scalar_range=d['scalar_range'],
+               field=np.asarray(sc['fields'][t]).tolist(), x=sorted(set(coords[:, 0].tolist())), y=sorted(set(coords[:, 1].tolist())),
+               extrema=coords[ids].tolist(), q=list(map(float, d['references'][t])), V=np.asarray(d['merge'][t]).tolist(),
+               measures=list(map(float, d['measures'][t])), tmtm_x=list(map(float, saved['topology_time']['rows'][t]['x'])),
+               ours0=pick(rows0[t]), ours10=pick(rows10[t]), direction=[0.9998129355353527, -0.019341508115477836])
+    DATA.mkdir(parents=True, exist_ok=True); cache.write_text(json.dumps(out)); return out
+
+
+def _labels(F):
+    """Letters by reference order (A = westmost)."""
+    rank = np.argsort(np.argsort(F['q'])); return [LETTERS[r] for r in rank], [PAL[r % len(PAL)] for r in rank]
+
+
+def _field(ax, F, letters, cols, proj=True):
+    X, Y = np.array(F['x']), np.array(F['y']); Z = np.array(F['field'])
+    ax.imshow(Z, origin='lower', extent=[X[0], X[-1], Y[0], Y[-1]], cmap='RdBu_r', vmin=975, vmax=1040, interpolation='bilinear')
+    ax.contour(X, Y, Z, levels=np.arange(960, 1050, 8), colors='k', linewidths=.25, alpha=.45)
+    ybase = Y[0] - .1 * (Y[-1] - Y[0])
+    for (ex, ey), l, c in zip(F['extrema'], letters, cols):
+        ax.plot(ex, ey, 'o', ms=4.5, mfc=c, mec='white', mew=.6)
+        ax.text(ex + 2, ey + 2, l, fontsize=6.5, color='k', weight='bold')
+        if proj: ax.plot([ex, ex], [ey, ybase], ':', lw=.6, color=c, clip_on=False)
+    if proj:
+        ax.annotate('', xy=(X[-1], ybase), xytext=(X[0], ybase), arrowprops=dict(arrowstyle='->', lw=.8), annotation_clip=False)
+        ax.text(X[-1], ybase - 5.5, 'reference axis $q$ (west $\\to$ east)', ha='right', va='top', fontsize=5.8)
+    ax.set_xticks([]); ax.set_yticks([]); ax.set_xlim(X[0], X[-1]); ax.set_ylim(Y[0], Y[-1])
+    for s in ax.spines.values(): s.set_visible(True); s.set_linewidth(.5)
+
+
+def fig_teaser():
+    F = storms_frame(); M = maps_for('Storms', 'era5'); letters, cols = _labels(F); t = F['t']
+    L, o = F['canvas'], F['origin']
+    fig = plt.figure(figsize=(7.0, 2.35))
+    g = fig.add_gridspec(1, 4, width_ratios=[1.05, 1.25, 1.25, .04], wspace=.16)
+    ax = fig.add_subplot(g[0]); _field(ax, F, letters, cols)
+    ax.set_title(f'(a) Pressure minima, {F["date"][:10]} 12 UTC', fontsize=6.6, pad=3)
+    for k, (key, title, xs) in enumerate([('topology_time', '(b) Hierarchy-first layout (TMTM-type)', F['tmtm_x']),
+                                          ('ours_0', r'(c) Ours: exact hierarchy, position certified', F['ours0']['x'])]):
+        ax = fig.add_subplot(g[k + 1]); Mk = M[key]; T = Mk.shape[1]
+        im = ax.imshow(Mk, origin='lower', aspect='auto', interpolation='nearest', cmap='RdBu_r', vmin=975, vmax=1040,
+                       extent=[-.5, T - .5, 0, 1], rasterized=True)
+        ax.axvspan(t - .5, t + .5, color='k', alpha=.18, lw=0)
+        us = [(x - o) / L for x in xs]; ys = _spread(us, .075)
+        for u, yl, q, l, c in zip(us, ys, F['q'], letters, cols):
+            v = (q - o) / L
+            ax.plot([t - 7, t], [v, u], lw=.7, color=c, zorder=3)
+            ax.plot(t - 7, v, '>', ms=3, color=c, mec='white', mew=.3, zorder=4)
+            ax.plot(t, u, 'o', ms=3.6, mfc=c, mec='white', mew=.5, zorder=4)
+            ax.plot([t + 1.5, t + 8], [u, yl], lw=.5, color='k'); ax.text(t + 9, yl, l, fontsize=6, va='center', weight='bold')
+        ax.set_title(title, fontsize=6.6, pad=3); ax.set_xticks([0, t, T - 1]); ax.set_xticklabels(['0', f'{t}', f'{T - 1}'], fontsize=5.6)
+        ax.set_yticks([0, .5, 1] if k == 0 else []); ax.tick_params(labelsize=5.6, length=2); ax.set_xlabel('Time step (12 h)', fontsize=6, labelpad=1)
+        if k == 0: ax.set_ylabel('Map axis', fontsize=6.2)
+    cb = fig.colorbar(im, cax=fig.add_subplot(g[3])); cb.ax.tick_params(labelsize=5.3, length=2); cb.set_label('MSLP (hPa)', fontsize=5.8)
+    save(fig, 'fig_teaser')
+
+
+def _spread(vals, gap):
+    """Label positions at least ``gap`` apart, as close as possible to ``vals`` (within [0, 1])."""
+    idx = np.argsort(vals); pos = np.array(vals, float)[idx]
+    for i in range(1, len(pos)): pos[i] = max(pos[i], pos[i - 1] + gap)
+    shift = max(0., pos[-1] - .97) if len(pos) else 0.; pos -= shift
+    for i in range(len(pos) - 2, -1, -1): pos[i] = min(pos[i], pos[i + 1] - gap)
+    out = np.empty_like(pos); out[idx] = pos; return list(out)
+
+
+def _critical_pair(V, q):
+    from rgmtm.order_certificate import hierarchy, _blocks
+    nodes, root = hierarchy(V); q = np.asarray(q); best = (0, None, None, None)
+    for k, ch in _blocks(nodes, root, 0.):
+        for a in range(len(ch)):
+            for b in range(a + 1, len(ch)):
+                X, Y = nodes[ch[a]]['leaves'], nodes[ch[b]]['leaves']
+                c = min(q[X].max() - q[Y].min(), q[Y].max() - q[X].min())
+                if c > best[0]: best = (c, X, Y, k)
+    return best, nodes, root
+
+
+def _tree(ax, V, order, letters, cols, nodes, root, highlight=()):
+    pos = {leaf: i for i, leaf in enumerate(order)}; xy = {}
+    def place(k):
+        if not nodes[k]['children']:
+            xy[k] = (pos[k], nodes[k]['level']); return xy[k]
+        pts = [place(c) for c in nodes[k]['children']]
+        xy[k] = (np.mean([p[0] for p in pts]), nodes[k]['level']); return xy[k]
+    place(root)
+    for k, d in nodes.items():
+        for c in d['children']:
+            ax.plot([xy[c][0], xy[c][0], xy[k][0]], [xy[c][1], xy[k][1], xy[k][1]], lw=.9, color='#555' if k not in highlight else C['B'])
+    for leaf, i in pos.items():
+        ax.plot(i, nodes[leaf]['level'], 'D', ms=4, color=cols[leaf], mec='white', mew=.4)
+        ax.text(i, nodes[leaf]['level'] - 1.6, letters[leaf], ha='center', va='top', fontsize=6, weight='bold')
+    top = nodes[root]['level']; ax.plot([xy[root][0]] * 2, [top, top + 2.5], lw=.9, color='#555')
+    ax.set_xticks([]); ax.set_xlim(-.6, len(order) - .4); ax.tick_params(labelsize=5.5, length=2)
+
+
+def _marked(r, V, R, threshold=1e-3):
+    o = r['order']; b = np.asarray(r['barriers']); n = len(o); err = np.zeros(max(n - 1, 0))
+    for i in range(n):
+        for j in range(i + 1, n):
+            g = i + int(np.argmax(b[i:j])); err[g] = max(err[g], abs(b[g] - V[o[i], o[j]]))
+    return {g for g in range(n - 1) if err[g] > threshold * R}
+
+
+def fig_pipeline():
+    F = storms_frame(); letters, cols = _labels(F); q = np.array(F['q']); L, o = F['canvas'], F['origin']
+    V = np.array(F['V']); R = F['scalar_range']; n = len(q)
+    (cost, X, Y, node), nodes, root = _critical_pair(V, q)
+    fig = plt.figure(figsize=(7.0, 2.5))
+    g = fig.add_gridspec(1, 5, width_ratios=[1.25, 1.05, .95, 1.15, 1.1], wspace=.6)
+    # (a) input
+    ax = fig.add_subplot(g[0]); _field(ax, F, letters, cols, proj=True)
+    ax.set_title('(a) Field, extrema,\nreferences $q_i$', fontsize=6.4, pad=2)
+    # (b) merge tree and bound
+    ax = fig.add_subplot(g[1]); mid = F['ours0']['order']
+    _tree(ax, V, mid, letters, cols, nodes, root, highlight=(node,))
+    lo = min(nodes[k]['level'] for k in nodes) - 4
+    ax.set_ylabel('Merge level (hPa)', fontsize=5.8); ax.set_ylim(lo - 7, nodes[root]['level'] + 4)
+    yh = lo - 1
+    ax2 = ax.inset_axes([0, -.02, 1, .2]); ax2.set_xlim(0, 1); ax2.set_ylim(-1, 2.2); ax2.axis('off')
+    for S, c, yy in [(X, C['A'], 1.2), (Y, C['B'], 0)]:
+        a, b = (q[S].min() - o) / L, (q[S].max() - o) / L
+        ax2.plot([a, b], [yy, yy], lw=2.2, color=c, solid_capstyle='butt')
+        ax2.plot([a, b], [yy, yy], '|', ms=5, mew=1.2, color=c)
+        ax2.text(b + .03, yy, ''.join(sorted(letters[i] for i in S)), fontsize=5.4, ha='left', va='center', color=c)
+    ax2.text(.5, -1.2, r'hull overlap $\Rightarrow\ \nu^*=%.1f\%%$' % (100 * cost / (2 * L)), ha='center', va='top', fontsize=5.8)
+    ax.set_title('(b) Merge tree and\ncertified bound', fontsize=6.4, pad=2)
+    # (c) budgeted orders
+    ax = fig.add_subplot(g[2]); ax.set_xlim(-.2, 1.2); ax.set_ylim(-.35, 2.5); ax.axis('off')
+    for yy, key, lab in [(2.0, 'ours0', r'$\varepsilon=0$'), (.9, 'ours10', r'$\varepsilon=10\%$')]:
+        r = F[key]; d = r['delta'] / R
+        for k, leaf in enumerate(r['order']):
+            u = k / (n - 1)
+            ax.add_patch(plt.Rectangle((u - .07, yy - .18), .14, .36, color=cols[leaf], lw=0))
+            ax.text(u, yy, letters[leaf], ha='center', va='center', fontsize=6, color='white', weight='bold')
+        ax.text(.5, yy + .36, lab + r', $\delta^*=%.1f\%%$' % (100 * d), fontsize=5.6, ha='center')
+    ax.text(.5, -.25, 'exact merge cost checked\nfor every candidate order', ha='center', fontsize=5.6, color='#333')
+    ax.set_title('(c) Budgeted\nleaf order', fontsize=6.4, pad=2)
+    # (d) barriers + anchored layout
+    ax = fig.add_subplot(g[3]); M = maps_for('Storms', 'era5'); col = M['ours_0.1'][:, F['t']]
+    u = np.linspace(0, 1, len(col)); ax.plot(u, col, lw=.9, color='#333')
+    r = F['ours10']
+    for leaf in range(n):
+        x = (r['x'][leaf] - o) / L; qq = (q[leaf] - o) / L; z0 = (r['z'][leaf] - r['w'][leaf] / 2 - o) / L; z1 = (r['z'][leaf] + r['w'][leaf] / 2 - o) / L
+        ax.add_patch(plt.Rectangle((z0, 966), z1 - z0, 3.2, color=cols[leaf], lw=0, clip_on=False))
+        ax.plot(x, V[leaf, leaf], 'o', ms=3.6, mfc=cols[leaf], mec='white', mew=.4, zorder=4)
+        ax.plot(qq, 962, '^', ms=3, color=cols[leaf], clip_on=False)
+    oo = r['order']
+    for k, bv in enumerate(r['barriers']):
+        xm = ((r['z'][oo[k]] + r['w'][oo[k]] / 2 + r['z'][oo[k + 1]] - r['w'][oo[k + 1]] / 2) / 2 - o) / L
+        ax.plot([xm - .03, xm + .03], [bv, bv], lw=1.6, color=C['B'] if k in _marked(r, V, R) else '#333')
+    ax.text(.02, 1033, 'bars: intervals; ticks: barriers\n(orange: relaxed)', fontsize=5, va='top')
+    ax.set_ylim(960, 1036); ax.set_xlim(0, 1); ax.set_xticks([0, .5, 1]); ax.tick_params(labelsize=5.5, length=2)
+    ax.set_xlabel(r'map axis (triangles: $q_i$)', fontsize=5.8, labelpad=1); ax.set_ylabel('Profile $\\psi$ (hPa)', fontsize=5.8)
+    ax.set_title('(d) Optimal barriers and\ncapped anchor placement', fontsize=6.4, pad=2)
+    # (e) map with disclosure
+    ax = fig.add_subplot(g[4]); S = storms_case(); t = F['t']; w0, w1 = t - 14, t + 14
+    ax.imshow(M['ours_0.1'][:, w0:w1 + 1], origin='lower', aspect='auto', interpolation='nearest', cmap='RdBu_r', vmin=975, vmax=1040,
+              extent=[w0 - .5, w1 + .5, 0, 1], rasterized=True)
+    for tt in range(w0, w1 + 1):
+        if S['marks_10'][tt]: ax.plot([tt] * len(S['marks_10'][tt]), S['marks_10'][tt], '_', ms=3.2, mew=1.1, color='#FFD000')
+    ax.axvspan(t - .5, t + .5, color='k', alpha=.18, lw=0)
+    ax.set_yticks([]); ax.set_xticks([w0, t, w1]); ax.tick_params(labelsize=5.5, length=2)
+    ax2 = ax.inset_axes([0, -.36, 1, .17]); ax2.bar(range(w0, w1 + 1), [100 * v for v in S['nmle_10'][w0:w1 + 1]], width=1, color='#E0A800')
+    ax2.set_xlim(w0 - .5, w1 + .5); ax2.set_ylim(0, 10); ax2.set_xticks([]); ax2.set_yticks([0, 10]); ax2.tick_params(labelsize=5, length=1.5)
+    ax2.text(w1 + .5, 10, r'$d_{top}$ %', fontsize=5, ha='right', va='bottom')
+    ax.set_title('(e) Map with marked\nrelaxed barriers', fontsize=6.4, pad=2)
+    save(fig, 'fig_pipeline')
+
+
+# ---------------------------------------------------------------- Cross-method comparison
+def compare_data():
+    import csv
+    rows = list(csv.DictReader((RES / 'stmtm_completion20261026/unified_metrics.csv').open()))
+    st = lambda n, m: next(r for r in rows if r['dataset'] == n and r['method'] == m)
+    out = {}
+    for n in NAMES:
+        F = json.loads((RES / f'frontier20261027/{FILE[n]}.json').read_text())['methods']
+        Q = json.loads((RES / f'metrics_n1c20261027/{FILE[n]}.json').read_text())['settings']
+        me = lambda c: 100 * c['ME_errors'] / c['ME_clear']
+        d = {}
+        for m, key in [('TMTM', 'TMTM'), ('ST-MTM', 'ST-MTM'), (r'$\kappa$ R20 (earlier)', 'RG-MTM-R')]:
+            r = st(n, key)
+            d[m] = dict(NROE=float(r['NROE']), NMLE=float(r['NMLE_max']), ME=100 * int(r['motion_errors']) / int(r['N_clear']),
+                        SNS=float(r['SNS']), TW=float(r['TW1']))
+        for m, fk, qk in [('Projection', 'projection', 'projection'), (r'Ours, $\varepsilon=0$', 'eps=0', 'eps=0'),
+                          (r'Ours, $\varepsilon=10\%$', 'eps=0.1', 'eps=0.1')]:
+            d[m] = dict(NROE=100 * F[fk]['NROE'], NMLE=100 * F[fk]['NMLE_max'], ME=me(Q[qk]), SNS=Q[qk]['SNS'], TW=Q[qk]['TW1'])
+        out[n] = d
+    return out
+
+
+def fig_compare():
+    D = compare_data(); methods = list(D[NAMES[0]])
+    style = {'TMTM': ('s', C['base']), 'ST-MTM': ('D', C['D']), r'$\kappa$ R20 (earlier)': ('^', C['light']),
+             'Projection': ('*', '#000000'), r'Ours, $\varepsilon=0$': ('o', C['A']), r'Ours, $\varepsilon=10\%$': ('o', C['C'])}
+    panels = [('NROE', 'Order error NROE (%)', 'lower'), ('NMLE', 'Worst merge error (%)', 'lower'),
+              ('ME', 'Motion error ME (%)', 'lower'), ('SNS', 'Distance stress SNS', 'lower'), ('TW', 'Trustworthiness TW', 'higher')]
+    fig, axes = plt.subplots(1, 5, figsize=(7.0, 2.05)); x = np.arange(len(NAMES)); off = np.linspace(-.3, .3, len(methods))
+    for ax, (key, title, better) in zip(axes, panels):
+        for k, m in enumerate(methods):
+            mk, col = style[m]
+            ax.plot(x + off[k], [D[n][m][key] for n in NAMES], mk, ms=3.6 if mk != '*' else 5, color=col, mec='white' if mk != '*' else col,
+                    mew=.3, ls='none', label=m)
+        if key == 'NROE':
+            ax.hlines([100 * BUDGET[n]['nu_mean'] for n in NAMES], x - .42, x + .42, color='k', lw=1.1, zorder=1, label=r'lower bound $\nu^*$')
+        ax.set_xticks(x); ax.set_xticklabels([LABEL[n] for n in NAMES], fontsize=5.2, rotation=90)
+        ax.set_title(title + (r' $\downarrow$' if better == 'lower' else r' $\uparrow$'), fontsize=6.2, pad=3)
+        ax.tick_params(labelsize=5.4, length=2); ax.yaxis.grid(True, color=C['grid'], lw=.5); ax.set_axisbelow(True)
+        for v in x[:-1] + .5: ax.axvline(v, color=C['grid'], lw=.4)
+        ax.axvline(4.5, color='#999', lw=.6)
+    h, l = axes[0].get_legend_handles_labels()
+    fig.legend(h, l, ncol=7, fontsize=6, loc='upper center', bbox_to_anchor=(.5, 1.1), handlelength=1.2, columnspacing=1.0)
+    fig.subplots_adjust(wspace=.38); save(fig, 'fig_compare')
+
+
 # ---------------------------------------------------------------- Tables
 def tables():
     TAB.mkdir(exist_ok=True); rows = []
@@ -307,7 +539,19 @@ def table_quality():
     (TAB / 'tab_quality.tex').write_text('\n'.join(rows) + '\n')
 
 
+def table_compare():
+    """All values behind Fig. compare (supplement)."""
+    D = compare_data(); rows = []
+    for n in NAMES:
+        for k, (m, v) in enumerate(D[n].items()):
+            name = LABEL[n] if k == 0 else ''
+            rows.append(f"{name} & {m} & {v['NROE']:.2f} & {v['NMLE']:.2f} & {v['ME']:.1f} & {v['SNS']:.3f} & {v['TW']:.3f} \\\\")
+        rows.append(r'\midrule')
+    (TAB / 'tab_compare.tex').write_text('\n'.join(rows[:-1]) + '\n')
+
+
 if __name__ == '__main__':
     FIG.mkdir(exist_ok=True)
-    for f in [tables, table_quality, fig_concept, fig_bound, fig_frontier, fig_tangaroa, fig_maps, fig_storms]:
+    for f in [tables, table_quality, table_compare, fig_concept, fig_bound, fig_frontier, fig_tangaroa, fig_maps, fig_storms,
+              fig_teaser, fig_pipeline, fig_compare]:
         print(f.__name__, flush=True); f()

@@ -4,18 +4,36 @@
 
 | 文件 | 作用 |
 |---|---|
-| `main.tex` / `main.pdf` | 正文（当前 9 页，含参考文献；已没有待补标记） |
+| `main.tex` / `main.pdf` | 正文：9 页含参考文献，正文约 6.6 页（上限 9 页），参考文献约 2.4 页 |
+| `supplement.tex` / `supplement.pdf` | 附录（6 页）：完整证明（定理 2、3，粗下界，最优屏障闭式解），排序和指标协议细节，N3 和 D6 的核对记录，运行时间，以及横评的全部数值、主表、三维数据表和补充图 |
+| `OUTLINE.md` | 论文结构：主线、贡献顺序、各节篇幅、图表计划 |
 | `refs.bib` | 沿用旧稿 80 条，新增 12 条（逐条与 Crossref 核对过元数据） |
 | `scripts/make_figures.py` | 所有图和表都从保存的实验结果生成 |
-| `figures/`、`tables/` | 生成的 PDF 图和 LaTeX 表格片段；`figures/data/` 为缓存的派生数据 |
+| `figures/`、`tables/` | 生成的 PDF 图和 LaTeX 表格片段；`figures/data/` 为缓存的派生数据。`fig_prior.pdf` 和 `fig_conflict.pdf` 沿用旧稿的图 2、图 4 |
 | `vgtc.cls`、`abbrv-doi-narrow.bst` | 模板，复制自旧稿 |
+
+**正文图表顺序：**
+
+| 编号 | 内容 |
+|---|---|
+| 图 1 | Storms 首图 |
+| 图 2 | 已有方法的流程（旧图） |
+| 图 3 | 本文流程，用一帧真实数据走一遍 |
+| 图 4 | 定理 1 示意 |
+| 图 5 | 冲突与最优屏障（旧图） |
+| 图 6 | 横评：5 种方法 × 5 类指标 |
+| 图 7 | 位置—拓扑权衡曲线 |
+| 图 8 | Storms 案例 |
+| 表 1 | 方法作为统一问题的实例 |
+| 表 2 | 数据集 |
+| 算法 1 | 生成一帧地图 |
 
 ## 重新生成与编译
 
 ```sh
 cd paper/pvis2027
 PYTHONPATH=../../code/src ../../.venv/bin/python scripts/make_figures.py   # 图与表
-tectonic -X compile main.tex                                               # 或 Overleaf：pdfLaTeX + BibTeX
+tectonic -X compile main.tex && tectonic -X compile supplement.tex       # 或 Overleaf：pdfLaTeX + BibTeX
 ```
 
 - 地图图（图 1）需要 Ring 和 OLR 的输入，仓库里已带。Storms 案例图需要 ERA5 输入，可用 `code/analysis/era5_arco_expanded.py` 从公开的 ARCO-ERA5 下载。Wildfires 的原始数据不在仓库中。
