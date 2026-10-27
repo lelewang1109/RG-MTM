@@ -185,6 +185,19 @@
 - **附录：** 定理 2、3 的完整证明、最优屏障闭式解的证明，以及协议、N3、D6、运行时间的细节和全部数值表。
 - **篇幅：** 正文约 6.6 页（上限 9 页），参考文献约 2.4 页；所有图都排在参考文献之前。
 
+### 16. 三维补充实验：参考方向（10-27）✅
+- 实验：`code/experiments/reference_direction/`，结果在 `code/results/reference_direction20261027/`。
+  - 在 Tangaroa 和 Cylinder 上取半球的 400 个方向，按原先的方式重建参考坐标（原方向能逐帧复现已保存的参考坐标）；
+  - 每个方向计算平均下界 ν\*、原生 TMTM 和 ST-MTM 的排序误差（整体朝向取对它们最有利的一种），并统计下界违反数；
+  - 对 x、y、z 轴、原方向和下界最小的方向，再计算本文拓扑精确布局的排序误差、τ 和宽度下界。
+- 结论：
+  - 400 个方向上，原生方法没有一帧低于 ν\*；
+  - 不同方向的 ν\* 差别很大：Tangaroa 为 4.70%–10.14%，Cylinder 为 5.26%–28.15%；
+  - Tangaroa 原先选的是特征运动的主方向，恰好属于代价最高的一类（400 个方向中只有 3 个更高），改用 x 轴可把 ν\* 从 9.24% 降到 6.09%；
+  - 本文布局在 10 个关键方向中有 9 个与下界相差不超过 0.6 个百分点，例外是 Tangaroa 的 z 轴（2.6 个百分点）。
+- 用新布局重新渲染三维地图需要原始体数据和 TTK 提取，本仓库没有，因此未做：Cylinder 原始数据当初下载不完整，Tangaroa 只保存了树的拓扑。
+- 论文：新增 §7.5 和图 10；修正说法：宽度下界适用于区间布局（ST-MTM 和本文），排序下界对所有方法成立；补充"与维度无关"以及三维参考方向的说明；附录新增参考方向表。
+
 ---
 
 ## 二、正在思考、需要决定的问题
@@ -239,4 +252,5 @@
 | `code/experiments/metrics_n1c/`、`code/results/metrics_n1c20261027/` | N1c：SNS、TW、ME、栅格指标 |
 | `code/experiments/instance_reproduction/`、`code/results/instance_reproduction20261027/` | N3：原生布局复现与 TMTM 目标穷举 |
 | `code/experiments/runtime/`、`code/results/runtime20261027/` | 运行时间与机器配置 |
+| `code/experiments/reference_direction/`、`code/results/reference_direction20261027/` | 三维参考方向研究 |
 | `paper/pvis2027/` | PacificVis 重写稿（LaTeX、PDF、生成图表的脚本） |

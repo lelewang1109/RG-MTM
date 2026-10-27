@@ -500,6 +500,38 @@ def fig_compare():
     fig.subplots_adjust(wspace=.38); save(fig, 'fig_compare')
 
 
+# ---------------------------------------------------------------- Reference direction in 3-D
+def fig_direction():
+    fig = plt.figure(figsize=(7.0, 2.1))
+    g = fig.add_gridspec(1, 5, width_ratios=[.85, 1.3, .18, .85, 1.3], wspace=.42)
+    for k, n in enumerate(['Tangaroa', 'Cylinder']):
+        D = json.loads((RES / f'reference_direction20261027/{n.lower()}.json').read_text())
+        dirs = np.array([r['direction'] for r in D['sweep']]); nu = 100 * np.array([r['nu_mean'] for r in D['sweep']])
+        ax = fig.add_subplot(g[3 * k])
+        th = np.arccos(np.clip(dirs[:, 2], -1, 1)); ph = np.arctan2(dirs[:, 1], dirs[:, 0]); rr = np.sqrt(2) * np.sin(th / 2)
+        sc = ax.scatter(rr * np.cos(ph), rr * np.sin(ph), c=nu, s=9, cmap='viridis', lw=0)
+        ax.add_patch(plt.Circle((0, 0), 1, fill=False, lw=.5, color='#999'))
+        K = D['key_directions']
+        for lab, mk in [('x', 'o'), ('y', 's'), ('z', '^'), ('stored', '*'), ('smallest bound', 'P')]:
+            v = np.array(K[lab]['direction'], float); v = -v if v[2] < 0 else v
+            t_, p_ = np.arccos(np.clip(v[2], -1, 1)), np.arctan2(v[1], v[0]); r_ = np.sqrt(2) * np.sin(t_ / 2)
+            ax.plot(r_ * np.cos(p_), r_ * np.sin(p_), mk, ms=6 if mk == '*' else 4, mfc='white' if mk != '*' else C['B'], mec='k', mew=.6)
+            if lab in ('x', 'y', 'z'): ax.annotate(lab, (r_ * np.cos(p_), r_ * np.sin(p_)), xytext=(3, 3), textcoords='offset points', fontsize=6)
+        ax.set_aspect('equal'); ax.axis('off'); ax.set_xlim(-1.12, 1.12); ax.set_ylim(-1.12, 1.12)
+        cax = ax.inset_axes([.1, -.12, .8, .05]); cb = fig.colorbar(sc, cax=cax, orientation='horizontal')
+        cb.ax.tick_params(labelsize=5.2, length=2); cb.set_label(r'$\nu^*$ (%)', fontsize=5.6, labelpad=1)
+        ax.set_title(n, fontsize=7, pad=2)
+        ax = fig.add_subplot(g[3 * k + 1]); labs = ['x', 'y', 'z', 'stored', 'smallest bound']; x = np.arange(len(labs)); w = .2
+        for j, (key, col, lab) in enumerate([('nu_mean', '#000000', r'$\nu^*$'), ('ours_NROE', C['A'], r'ours, $\varepsilon=0$'),
+                                              ('ST-MTM_NROE', C['D'], 'ST-MTM'), ('TMTM_NROE', C['base'], 'TMTM')]):
+            ax.bar(x + (j - 1.5) * w, [100 * K[l][key] for l in labs], w, color=col, label=lab, lw=0)
+        ax.set_xticks(x); ax.set_xticklabels(['x', 'y', 'z', 'stored', 'best'], fontsize=5.6)
+        ax.set_ylabel('Order error NROE (%)', fontsize=5.8); ax.tick_params(labelsize=5.4, length=2)
+        ax.yaxis.grid(True, color=C['grid'], lw=.5); ax.set_axisbelow(True)
+        if k == 0: fig.legend(*ax.get_legend_handles_labels(), ncol=4, fontsize=6, loc='upper center', bbox_to_anchor=(.5, 1.06), handlelength=1, frameon=False)
+    save(fig, 'fig_direction')
+
+
 # ---------------------------------------------------------------- Tables
 def tables():
     TAB.mkdir(exist_ok=True); rows = []
@@ -550,8 +582,20 @@ def table_compare():
     (TAB / 'tab_compare.tex').write_text('\n'.join(rows[:-1]) + '\n')
 
 
+def table_direction():
+    rows = []
+    for n in ['Tangaroa', 'Cylinder']:
+        K = json.loads((RES / f'reference_direction20261027/{n.lower()}.json').read_text())['key_directions']
+        for k, lab in enumerate(['x', 'y', 'z', 'stored', 'smallest bound']):
+            r = K[lab]; dvec = '(' + ', '.join('%.2f' % v for v in r['direction']) + ')'
+            rows.append(f"{n if k == 0 else ''} & {lab} {dvec} & {100 * r['nu_mean']:.2f} & {100 * r['ours_NROE']:.2f} & "
+                        f"{100 * r['ST-MTM_NROE']:.2f} & {100 * r['TMTM_NROE']:.2f} & {100 * r['ours_tau_mean']:.2f} & {100 * r['width_lower_mean']:.2f} \\\\")
+        rows.append(r'\midrule')
+    (TAB / 'tab_direction.tex').write_text('\n'.join(rows[:-1]) + '\n')
+
+
 if __name__ == '__main__':
     FIG.mkdir(exist_ok=True)
-    for f in [tables, table_quality, table_compare, fig_concept, fig_bound, fig_frontier, fig_tangaroa, fig_maps, fig_storms,
-              fig_teaser, fig_pipeline, fig_compare]:
+    for f in [tables, table_quality, table_compare, table_direction, fig_concept, fig_bound, fig_frontier, fig_tangaroa, fig_maps, fig_storms,
+              fig_teaser, fig_pipeline, fig_compare, fig_direction]:
         print(f.__name__, flush=True); f()

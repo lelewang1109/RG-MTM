@@ -1,6 +1,6 @@
 # 正文逐句中英对照
 
-> 对应 `main.tex`（2026-10-27 版，正文 9 页以内、参考文献 2 页以内）。
+> 对应 `main.tex`（2026-10-27 三维补充版，正文 9 页以内、参考文献 2 页以内）。
 >
 > - 按论文顺序逐句对照：每句英文（EN）后接中文（中）。
 > - 公式保留 LaTeX 写法；引文编号省略，用"[引]"标出。
@@ -22,12 +22,12 @@
 - 中：已有的地图保住了合并层次和时间连贯性，但纵轴因此几乎没有空间含义，于是西边的风暴可能被画在东边那场风暴的东边。
 - EN: We ask how close such a map can stay to a fixed spatial reference, such as longitude, without misrepresenting the hierarchy.
 - 中：我们要问：在不歪曲层次的前提下，这样的地图能多贴近一个固定的空间参考（例如经度）？
-- EN: We prove closed-form lower bounds on the displacement that any map preserving the merge tree must incur, with and without feature widths, and chain-aware bounds for maps whose merge levels may err by a declared budget $\varepsilon$.
-- 中：我们证明了任何保持合并树的地图都必须承受的位移下界，给出闭式形式，分别对应考虑和不考虑特征宽度两种情况；对于合并层级允许有声明预算 $\varepsilon$ 以内误差的地图，我们还给出了链式下界。
-- EN: These bounds hold for every method, including TMTM and ST-MTM.
-- 中：这些下界对所有方法都成立，包括 TMTM 和 ST-MTM。
+- EN: We prove a closed-form lower bound on the order error of every map that preserves the merge tree, which holds for every method including TMTM and ST-MTM, a width-aware bound on the worst displacement for maps that place features as intervals, as ST-MTM and our method do, and chain-aware bounds for maps whose merge levels may err by a declared budget $\varepsilon$.
+- 中：我们证明了三类下界：一是任何保持合并树的地图的排序误差都有一个闭式下界，它对包括 TMTM 和 ST-MTM 在内的所有方法成立；二是对于以区间形式摆放特征的地图（ST-MTM 和我们的方法都是如此），最坏位移有一个宽度感知的下界；三是对于合并层级允许有声明预算 $\varepsilon$ 以内误差的地图，有链式下界。
 - EN: We give layouts that attain them: a midpoint ordering, a width-aware search, and a budgeted ordering whose exact merge-level error is checked, combined with optimal barriers and a capped quadratic placement.
 - 中：我们给出能达到这些下界的布局：中点排序、宽度感知搜索，以及精确检查合并层级误差的预算内排序，再结合最优屏障和带上限的二次规划摆位。
+- EN: The bounds do not depend on the dimension of the domain.
+- 中：这些下界与数据所在区域的维度无关。
 - EN: A cross-method comparison on 917 frames from five planar and two volumetric sequences shows that most of the order error of existing maps is avoidable, that sorting by reference alone changes merge levels by up to 59\% of the scalar range, and that our exact maps lower the motion error of both previous methods on every sequence, while ST-MTM keeps the better distance preservation.
 - 中：在 5 组平面序列和 2 组三维序列共 917 帧上的横向比较表明：已有地图的排序误差大部分是可以避免的；只按参考坐标排序会使合并层级的改变最高达到数值范围的 59%；我们的拓扑精确地图在每一组序列上都降低了两种已有方法的运动误差，而 ST-MTM 在距离保持上仍然更好。
 - EN: Each of our maps reports two certified numbers, how far it moves features and how far it changes the hierarchy, and marks every changed merge on the map.
@@ -83,14 +83,14 @@
 
 - EN: Our contributions are:
 - 中：我们的贡献如下：
-- EN: **Certified lower bounds** on the displacement of any merge tree map that keeps the hierarchy: a closed-form bound on the order error and a width-aware bound on the worst displacement, valid for every method including TMTM and ST-MTM, and chain-aware bounds for maps with a merge-level budget $\varepsilon$ (Sect. 5).
-- 中：**有保证的下界**，适用于任何保持层次的合并树地图的位移：排序误差的闭式下界，以及最坏位移的宽度感知下界，对包括 TMTM 和 ST-MTM 在内的所有方法成立；对于带合并层级预算 $\varepsilon$ 的地图，还有链式下界（第 5 节）。
+- EN: **Certified lower bounds** on the displacement of any merge tree map that keeps the hierarchy: a closed-form bound on the order error, valid for every method including TMTM and ST-MTM; a width-aware bound on the worst displacement for interval layouts such as ST-MTM and ours; and chain-aware bounds for maps with a merge-level budget $\varepsilon$ (Sect. 5). In 3-D, the order bound ranks candidate reference directions before any map is drawn.
+- 中：**有保证的下界**，针对任何保持层次的合并树地图的位移：排序误差的闭式下界，对包括 TMTM 和 ST-MTM 在内的所有方法成立；最坏位移的宽度感知下界，适用于 ST-MTM 和本文这类区间布局；以及带合并层级预算 $\varepsilon$ 的地图的链式下界（第 5 节）。在三维数据上，排序下界可以在画任何地图之前，对候选的参考方向进行排序比较。
 - EN: **Layouts that attain them**: midpoint ordering, a width-aware search and a budgeted ordering with exact merge-cost checks, combined with optimal barriers and a capped quadratic placement; every map reports its position and merge-level errors and marks changed merges (Sect. 6).
 - 中：**达到下界的布局**：中点排序、宽度感知搜索，以及精确检查合并代价的预算内排序，结合最优屏障和带上限的二次规划摆位；每张地图都报告自己的位置误差和合并层级误差，并标出被改动的合并（第 6 节）。
 - EN: **One formulation** with explicit position and topology budgets, in which TMTM and ST-MTM are exact-topology instances; given their own leaf orders, their layouts are reproduced exactly (Sect. 3).
 - 中：**一个统一表述**，显式包含位置预算和拓扑预算，TMTM 和 ST-MTM 是其中拓扑精确的实例；给定它们自己的叶序，它们的布局可以被精确复现（第 3 节）。
-- EN: **A cross-method comparison** of five methods on 917 frames from seven sequences, including two volumetric ones, and a case study with error disclosure (Sect. 7).
-- 中：**横向比较**：5 种方法在 7 组序列（含 2 组三维序列）共 917 帧上的比较，以及一个带误差披露的案例研究（第 7 节）。
+- EN: **A cross-method comparison** of five methods on 917 frames from seven sequences, including two volumetric ones, a study of the reference direction in 3-D, and a case study with error disclosure (Sect. 7).
+- 中：**横向比较**：5 种方法在 7 组序列（含 2 组三维序列）共 917 帧上的比较，一项三维参考方向的研究，以及一个带误差披露的案例研究（第 7 节）。
 - EN: We study faithfulness, not readability; a perceptual study is future work.
 - 中：我们研究的是忠实度，而不是可读性；感知研究留待后续工作。
 
@@ -187,10 +187,12 @@
 **参考坐标**
 - EN: Each leaf has a reference coordinate $q_i\in[0,L]$, the projection of its location onto a fixed world direction, constant over time; $L$ is the canvas length in world units.
 - 中：每个叶子有一个参考坐标 $q_i\in[0,L]$，即它的位置在一个固定的世界方向上的投影，这个方向不随时间变化；$L$ 是以世界单位计的画布长度。
-- EN: On Storms the direction is west–east (Fig. 1a).
-- 中：在 Storms 数据上，这个方向是西—东方向（图 1a）。
+- EN: On Storms the direction is west–east (Fig. 1a); on Tangaroa it is the principal direction of matched feature motion, and on Cylinder the streamwise axis.
+- 中：在 Storms 上，这个方向是西—东方向（图 1a）；在 Tangaroa 上，是对应特征运动的主方向；在 Cylinder 上，是流向坐标轴。
 - EN: Any fixed one-dimensional quantity, such as distance to a site, can serve.
 - 中：任何固定的一维量都可以充当参考，例如到某个地点的距离。
+- EN: Nothing below depends on the dimension of the domain: the bounds use only the tree, the references and the widths.
+- 中：下文的一切都不依赖于区域的维度：各个下界只用到树、参考坐标和宽度。
 
 **误差**
 - EN: *Position*: the displacement $|x_i-q_i|/L$, pooled over leaves and frames ($E_{\mathrm{pool}}$) and its maximum ($E_\infty$).
@@ -311,6 +313,8 @@
 - 中：这个下界有直观的几何含义（图 4）：兄弟子树的代价与它们参考范围重叠的深度成正比。
 - EN: It holds for any width rule, layout model or solver, hence for TMTM and ST-MTM.
 - 中：它对任何宽度规则、布局模型或求解器都成立，因此也适用于 TMTM 和 ST-MTM。
+- EN: The width-aware bound below needs the interval model, which ST-MTM and our layouts share.
+- 中：下面的宽度感知下界需要区间布局模型，ST-MTM 和本文的布局都采用这一模型。
 
 **宽度**
 - EN: A wide feature pushes its neighbours away.
@@ -322,10 +326,10 @@
   $$A(S)=\max_{\alpha}\Big[\alpha+\sum_{k\in S,\ \ell_k\ge\alpha} s_k\Big],\quad B(S)=\max_{\beta}\Big[\sum_{k\in S,\ h_k\le\beta} s_k-\beta\Big],$$
 
 **定理 2（宽度感知下界）**
-- EN: If block $X$ precedes block $Y$, then $\tau\ge (A(X)+B(Y)-g)/2$.
-- 中：若区块 $X$ 排在区块 $Y$ 之前，则 $\tau\ge (A(X)+B(Y)-g)/2$。
-- EN: Hence every exact map has $\tau(\pi_t)\ge\max_v\max_{X\ne Y\in\mathrm{ch}(v)}\frac12[\min(A(X)+B(Y),A(Y)+B(X))-g]$, and every map has $\tau\ge B(\text{all})-g$ and $\tau\ge A(\text{all})-g-L$ at the canvas ends.
-- 中：因此每张拓扑精确的地图都满足 $\tau(\pi_t)\ge\max_v\max_{X\ne Y\in\mathrm{ch}(v)}\frac12[\min(A(X)+B(Y),A(Y)+B(X))-g]$；并且在画布两端，每张地图都满足 $\tau\ge B(\text{all})-g$ 与 $\tau\ge A(\text{all})-g-L$。
+- EN: In the interval layout model, if block $X$ precedes block $Y$, then $\tau\ge (A(X)+B(Y)-g)/2$.
+- 中：在区间布局模型中，若区块 $X$ 排在区块 $Y$ 之前，则 $\tau\ge (A(X)+B(Y)-g)/2$。
+- EN: Hence every exact interval layout has $\tau(\pi_t)\ge\max_v\max_{X\ne Y\in\mathrm{ch}(v)}\frac12[\min(A(X)+B(Y),A(Y)+B(X))-g]$, and every map has $\tau\ge B(\text{all})-g$ and $\tau\ge A(\text{all})-g-L$ at the canvas ends.
+- 中：因此每个拓扑精确的区间布局都满足 $\tau(\pi_t)\ge\max_v\max_{X\ne Y\in\mathrm{ch}(v)}\frac12[\min(A(X)+B(Y),A(Y)+B(X))-g]$；并且在画布两端，每张地图都满足 $\tau\ge B(\text{all})-g$ 与 $\tau\ge A(\text{all})-g-L$。
 - EN: *Proof sketch.* For $S_X\subseteq X$, $S_Y\subseteq Y$, the first interval of $S_X$ and the last of $S_Y$ enclose all of $S_X\cup S_Y$; their anchors are thus at least $\sum_{S_X\cup S_Y}s_k-g-W_a/2-W_b/2-H_a-H_b$ apart, and $\tau$ is at least half the shortfall against $q_a-q_b$.
 - 中：*证明要点.* 对 $S_X\subseteq X$、$S_Y\subseteq Y$，$S_X$ 的第一个区间与 $S_Y$ 的最后一个区间之间夹着 $S_X\cup S_Y$ 的全部区间；因此两者的锚点至少相距 $\sum_{S_X\cup S_Y}s_k-g-W_a/2-W_b/2-H_a-H_b$，而 $\tau$ 至少是这一距离相对 $q_a-q_b$ 的差额的一半。
 - EN: Upper sets of $\ell$ and lower sets of $h$ separate the maximization into $A$ and $B$, computed by sorting and prefix sums.
@@ -582,9 +586,38 @@
 | Cylinder | N1，$\varepsilon=2\%$ | 0.64 | 5.73 | 0.17 | 0.46 | 1.84 |
 | Cylinder | 本文，$\varepsilon=2\%$ | 0.64 | 5.27 | 0.19 | 0.47 | 1.67 |
 
-### 7.5 案例研究：带误差披露的 Storms
+### 7.5 三维中的参考方向
 
 **图 10**
+- EN: Reference direction in 3-D.
+- 中：三维中的参考方向。
+- EN: Disks: mean order bound $\nu^*$ over 400 directions of the hemisphere (equal-area projection; centre $=z$, rim $=xy$ plane); markers: coordinate axes, stored direction (star) and smallest bound (cross).
+- 中：圆盘：半球上 400 个方向各自的平均排序下界 $\nu^*$（等面积投影；圆心对应 $z$ 轴，边缘对应 $xy$ 平面）；标记：各坐标轴、原先选用的方向（五角星）和下界最小的方向（十字）。
+- EN: Bars: $\nu^*$ and mean order error of our exact layout, ST-MTM and TMTM for the key directions (native orientations chosen in their favour).
+- 中：柱状图：在这些关键方向上的 $\nu^*$，以及本文拓扑精确布局、ST-MTM 和 TMTM 的平均排序误差（原生方法的整体朝向取对它们最有利的一种）。
+
+- EN: *In 3-D the choice of reference matters, and the bound measures its cost before any layout is computed.*
+- 中：*在三维中，参考方向的选择很重要，而下界能在计算任何布局之前就衡量出它的代价。*
+- EN: Projecting a volume onto one direction discards two coordinates, so the unavoidable order error depends on the direction.
+- 中：把一个体数据投影到一个方向上会丢掉两个坐标，因此不可避免的排序误差取决于方向。
+- EN: Because the bounds use only the tree and the extremum positions, we recomputed them for 400 directions over the hemisphere on both volumetric sequences, with references built exactly like the stored ones (Fig. 10).
+- 中：由于下界只用到树和极值的位置，我们在两组三维序列上，对半球上的 400 个方向重新计算了下界，参考坐标的构造方式与原先完全相同（图 10）。
+- EN: No native TMTM or ST-MTM frame falls below $\nu^*$ in any direction, even with the global orientation chosen in their favour.
+- 中：在任何方向上，原生 TMTM 和 ST-MTM 都没有一帧低于 $\nu^*$，即使它们的整体朝向取对它们最有利的一种。
+- EN: The mean bound ranges from 4.70\% to 10.14\% on Tangaroa and from 5.26\% to 28.15\% on Cylinder.
+- 中：平均下界在 Tangaroa 上介于 4.70% 到 10.14% 之间，在 Cylinder 上介于 5.26% 到 28.15% 之间。
+- EN: On Tangaroa, the stored direction, chosen to follow the main motion of the features, is among the most costly: only 3 of the 400 directions have a higher bound, and the $x$ axis would lower $\nu^*$ from 9.24\% to 6.09\%.
+- 中：在 Tangaroa 上，原先选用的方向（为了跟随特征的主要运动）属于代价最高的一类：400 个方向中只有 3 个的下界更高；改用 $x$ 轴可以把 $\nu^*$ 从 9.24% 降到 6.09%。
+- EN: On Cylinder, the streamwise axis lies near the median (7.72\%).
+- 中：在 Cylinder 上，流向坐标轴处于中位附近（7.72%）。
+- EN: In every key direction the previous methods stay far above the bound, while our exact order stays within 0.6 percentage points of it, except on the Tangaroa $z$ axis (2.6 points), where large widths dominate.
+- 中：在每个关键方向上，已有方法都远高于下界；而我们的拓扑精确排序与下界相差不超过 0.6 个百分点，唯一的例外是 Tangaroa 的 $z$ 轴（2.6 个百分点），那里大宽度的影响占主导。
+- EN: Since $\nu^*$ costs milliseconds per frame, an analyst can rank candidate references before computing any map, and weigh following the motion against hierarchical conflict.
+- 中：由于每帧计算 $\nu^*$ 只需几毫秒，分析者可以在计算任何地图之前就对候选参考方向进行排序比较，在"跟随运动"和"层次冲突"之间做权衡。
+
+### 7.6 案例研究：带误差披露的 Storms
+
+**图 11**
 - EN: Storms, 118 half-day steps.
 - 中：Storms，118 个半天时间步。
 - EN: Top: maps that differ only in the layout objective; dots mark references.
@@ -598,8 +631,8 @@
 
 - EN: *A budgeted map shows where, and by how much, the hierarchy was changed.*
 - 中：*带预算的地图会显示层次在哪里被改动、改动了多少。*
-- EN: Figure 10 compares maps on Storms, where minima of sea-level pressure are low-pressure systems crossing the North Atlantic.
-- 中：图 10 比较 Storms 上的各种地图，这里海平面气压的极小值是穿越北大西洋的低压系统。
+- EN: Figure 11 compares maps on Storms, where minima of sea-level pressure are low-pressure systems crossing the North Atlantic.
+- 中：图 11 比较 Storms 上的各种地图，这里海平面气压的极小值是穿越北大西洋的低压系统。
 - EN: Within the same layout model, the TMTM-type and ST-MTM-type objectives place features on average 37.3\% and 50.7\% of the canvas from their references in the worst case of each step; our exact map has a median of 0.8\% and a mean of 5.1\%, with peaks of up to 26.2\% in a few steps.
 - 中：在同一布局模型内，TMTM 型和 ST-MTM 型目标在每一步的最坏情形下，平均把特征放在离参考坐标画布长度 37.3% 和 50.7% 的地方；我们的拓扑精确地图中位数为 0.8%，平均为 5.1%，少数几步的峰值最高达 26.2%。
 - EN: A 10\% budget lowers the mean to 2.7\%.
@@ -644,8 +677,8 @@
 - 中：预算 $\varepsilon$ 由分析者选择：图 8 的权衡曲线在读任何地图之前就显示了它对位置的影响，披露条带则显示预算花在了哪里。
 
 **一维的局限**
-- EN: Projecting onto one direction loses the other coordinates; features at the same longitude compete for the same position, and $\nu^*$ quantifies exactly this conflict for the chosen direction.
-- 中：投影到一个方向会丢失其他坐标；处于同一经度的特征会争夺同一个位置，而 $\nu^*$ 恰好量化了所选方向上的这种冲突。
+- EN: Projecting onto one direction loses the other coordinates; features at the same longitude compete for the same position, and $\nu^*$ quantifies exactly this conflict for the chosen direction, which in 3-D varies by a factor of two to five between directions.
+- 中：投影到一个方向会丢失其他坐标；处于同一经度的特征会争夺同一个位置，而 $\nu^*$ 恰好量化了所选方向上的这种冲突；在三维中，不同方向之间的这一冲突相差 2 到 5 倍。
 - EN: Our metrics of position are defined against the reference the layout optimizes; the comparison therefore also reports the scale-free order error of native outputs and the distance and motion measures of ST-MTM, on which ST-MTM keeps the better distance preservation.
 - 中：我们的位置指标是相对布局所优化的那个参考坐标来定义的；因此比较中也报告了原生输出的与尺度无关的排序误差，以及 ST-MTM 的距离和运动指标，在这些指标上 ST-MTM 的距离保持仍然更好。
 - EN: Readability was not tested: whether analysts read position and nesting together, and whether disclosure marks prevent misreading [引], requires a user study.
