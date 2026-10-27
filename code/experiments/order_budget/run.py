@@ -2,8 +2,11 @@
 
 1. Theorem A: exact-topology methods (TMTM, ST-MTM, RG-MTM-P, fixed-X) have NROE >= nu*.
 2. Theorem B: saved relaxed outputs have NROE >= nu*(T^(2 e_t)), e_t their measured merge error.
-3. Budget sweep: budgeted midpoint ordering at each epsilon; exact optimum by
-   enumeration on frames with at most 8 leaves; lower bound on every frame.
+3. Budget sweep: best of threshold and conflict-driven selective flattening at each
+   epsilon; exact optimum by enumeration on frames with at most 8 leaves; Theorem B
+   and chain-aware Theorem C lower bounds on every frame.
+5. Resolution sweep (tie = 0): tiny epsilons expose near-degenerate merge levels,
+   i.e. positional cost caused by hierarchy decisions below data precision.
 4. Matched-cost comparison on volumetric inputs: each kappa output's own per-frame
    merge error is given as epsilon to the budgeted ordering.
 Order-only metrics: widths, gaps and the secondary QP are not involved.
@@ -19,6 +22,7 @@ from rgmtm.order_certificate import certificate, budget_order, order_errors
 
 OUT = ROOT / 'results/order_budget20261027'
 EPS = [0, .005, .01, .02, .05, .1, .2, .5, 1]
+RESOLUTION = [0, 1e-8, 1e-7, 1e-6, 1e-5, 1e-4, 1e-3]
 TIE = 1e-7          # merge levels within TIE * scalar range are one level
 ENUMERATE = 8
 EXACT_METHODS = {'TMTM', 'ST-MTM', 'A', 'RG-MTM-P', 'fixed-X anchored'}
@@ -102,7 +106,11 @@ def run(name):
         nroe = np.array([r['nroe'] for r in rows]); low = np.array([r['lower'] for r in rows])
         delta = np.array([r['delta'] for r in rows]) / R
         assert np.all(delta <= e + TIE + 1e-12) and np.all(nroe + 1e-12 >= low)
+        mean = lambda k: float(np.mean([r[k] for r in rows if k in r] or [0.]))
         sweep.append(dict(epsilon=e, NROE_mean=float(nroe.mean()), lower_mean=float(low.mean()),
+            lower_b_mean=mean('lower_b'), lower_c_mean=mean('lower_c'),
+            threshold_NROE_mean=mean('threshold_nroe'), selective_NROE_mean=mean('selective_nroe'),
+            frames_selective=int(sum(r.get('source') == 'selective' for r in rows)),
             topology_mean=float(delta.mean()), topology_max=float(delta.max()),
             frames_at_lower_bound=int(np.sum(nroe - low < 1e-9)),
             enumerated_frames=len(small),
@@ -110,6 +118,13 @@ def run(name):
             enumerated_gap_mean=float(np.mean(ours - opt)) if small else None,
             enumerated_frames_optimal=int(np.sum(ours - opt < 1e-9)) if small else None))
     out['budget_sweep'] = sweep
+    resolution = []
+    for e in RESOLUTION:
+        rows = [budget_order(V, q, L, e * R, 0.) for V, q in frames]
+        resolution.append(dict(epsilon=e, NROE_mean=float(np.mean([r['nroe'] for r in rows])),
+            lower_c_mean=float(np.mean([r['lower_c'] for r in rows])),
+            topology_max=float(max(r['delta'] for r in rows) / R)))
+    out['resolution_sweep'] = resolution
     matched = {}
     for m, v in d['methods'].items():
         if v['nmle'] is None or m in EXACT_METHODS: continue

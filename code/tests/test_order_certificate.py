@@ -4,7 +4,7 @@ from pathlib import Path
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'src'))
 import numpy as np
 from rgmtm.framework import merge_costs
-from rgmtm.order_certificate import certificate,midpoint_order,budget_order,order_errors
+from rgmtm.order_certificate import certificate,chain_certificate,selective_order,midpoint_order,budget_order,order_errors
 
 
 def random_tree(rng,n,ties=False):
@@ -40,6 +40,19 @@ class OrderCertificate(unittest.TestCase):
             self.assertLessEqual(r['delta'],eps+1e-12)
             self.assertLessEqual(r['lower'],best+1e-12)
             self.assertGreaterEqual(r['nroe'],best-1e-12)
+
+    def test_chain_bound_is_valid_and_at_least_theorem_b(self):
+        rng=np.random.default_rng(19)
+        for trial in range(200):
+            n=int(rng.integers(3,8));V=random_tree(rng,n,ties=trial%3==0);q=rng.uniform(0,10,n)
+            eps=float(rng.choice([0,.05,.2,.5,1.,2.]))*rng.uniform(.5,1.5)
+            P=np.array(list(permutations(range(n))));ok=merge_costs(P,V)<=eps+1e-12
+            truth=order_errors(P[ok],q,10).min()
+            c=chain_certificate(V,q,10,eps);b=certificate(V,q,10,2*eps)
+            self.assertLessEqual(c,truth+1e-12);self.assertGreaterEqual(c,b-1e-12)
+            s=selective_order(V,q,10,eps);self.assertLessEqual(s['delta'],eps+1e-12)
+            self.assertGreaterEqual(s['nroe'],truth-1e-12)
+            self.assertAlmostEqual(order_errors([s['order']],q,10)[0],s['nroe'],places=12)
 
     def test_tie_tolerance_stays_a_valid_lower_bound(self):
         # Chains of tiny gaps (float32 round-off) must not make the bound exceed the truth.
