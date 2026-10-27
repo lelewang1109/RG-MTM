@@ -4,9 +4,11 @@
 
 | 文件 | 作用 |
 |---|---|
-| `main.tex` / `main.pdf` | 正文：9 页含参考文献，正文约 6.6 页（上限 9 页），参考文献约 2.4 页 |
+| `main.tex` / `main.pdf` | 正文：共 10 页，其中正文约 8.1 页（上限 9 页），参考文献约 1.9 页（上限 2 页） |
 | `supplement.tex` / `supplement.pdf` | 附录（6 页）：完整证明（定理 2、3，粗下界，最优屏障闭式解），排序和指标协议细节，N3 和 D6 的核对记录，运行时间，以及横评的全部数值、主表、三维数据表和补充图 |
 | `OUTLINE.md` | 论文结构：主线、贡献顺序、各节篇幅、图表计划 |
+| `main_zh.md` | 正文逐句中英对照（含标题、摘要、图表标题、记号表、算法） |
+| `export/RG-MTM_PacificVis2027_LaTeX_20261027.zip` | 完整 LaTeX 工程（可直接上传 Overleaf；已在空目录中验证可独立编译） |
 | `refs.bib` | 沿用旧稿 80 条，新增 12 条（逐条与 Crossref 核对过元数据） |
 | `scripts/make_figures.py` | 所有图和表都从保存的实验结果生成 |
 | `figures/`、`tables/` | 生成的 PDF 图和 LaTeX 表格片段；`figures/data/` 为缓存的派生数据。`fig_prior.pdf` 和 `fig_conflict.pdf` 沿用旧稿的图 2、图 4 |

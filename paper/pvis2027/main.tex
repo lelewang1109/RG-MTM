@@ -119,7 +119,24 @@ Labelling every extremum and its anchor by its feature, $V$ and $V^\psi$ are the
 &\dtop(\psi_t,T_t)\le(\varepsilon_0+\varepsilon)\Delta_F ,
 \end{aligned}
 \end{equation}
-with the TMTM overlap term $E_O$, the stress $E_G$ of anchor distances against source distances, a temporal term $E_M$ on matched anchors, the reference error $E_R$, the width deviation $E_W$ and layout model $\mathcal{L}$. The data resolution $\varepsilon_0$ treats merge levels closer than $\varepsilon_0\Delta_F$ as ties (float32 round-off); $\varepsilon$ is the budget the analyst spends and $B_t$ a position cap. Table~\ref{tab:instances} lists the methods we compare as instances. Given their native leaf orders, both previous layouts are reproduced exactly on all five planar sequences: the TMTM linearization equals the official implementation in all 3127 arc intervals and anchors, and the ST-MTM anchors satisfy the optimality conditions of its quadratic programs (relative KKT residuals below $10^{-6}$, below $10^{-10}$ on the volumetric sequences). Both methods are heuristic in the order: ST-MTM's leaf ordering exceeds the exhaustive optimum of its own objective on 10 frames, and TMTM's greedy choice is optimal at 434 of 463 enumerated steps but up to 85.5\% above the per-step optimum elsewhere. The bounds below depend only on the shared constraints.
+with the TMTM overlap term $E_O$, the stress $E_G$ of anchor distances against source distances, a temporal term $E_M$ on matched anchors, the reference error $E_R$, the width deviation $E_W$ and layout model $\mathcal{L}$ (notation in Table~\ref{tab:notation}). The data resolution $\varepsilon_0$ treats merge levels closer than $\varepsilon_0\Delta_F$ as ties (float32 round-off); $\varepsilon$ is the budget the analyst spends and $B_t$ a position cap. Table~\ref{tab:instances} lists the methods we compare as instances. Given their native leaf orders, both previous layouts are reproduced exactly on all five planar sequences: the TMTM linearization equals the official implementation in all 3127 arc intervals and anchors, and the ST-MTM anchors satisfy the optimality conditions of its quadratic programs (relative KKT residuals below $10^{-6}$, below $10^{-10}$ on the volumetric sequences). Both methods are heuristic in the order: ST-MTM's leaf ordering exceeds the exhaustive optimum of its own objective on 10 frames, and TMTM's greedy choice is optimal at 434 of 463 enumerated steps but up to 85.5\% above the per-step optimum elsewhere. The bounds below depend only on the shared constraints.
+
+\begin{table}[t]
+\caption{Notation.}\label{tab:notation}
+\centering\scriptsize\setlength{\tabcolsep}{3pt}
+\begin{tabular}{ll}\toprule
+Symbol & Meaning\\\midrule
+$T_t$, $V_{ij}$, $\Delta_F$ & merge tree of step $t$, merge level of leaves $i,j$, scalar range\\
+$q_i$, $L$ & reference coordinate of leaf $i$, canvas length\\
+$W_i$, $g$, $H_i$ & interval width, gap between intervals, anchor slack $\rho W_i/2$\\
+$\pi_t$, $x_i$, $\psi_t$ & leaf order, anchor position, profile of step $t$\\
+NROE, $\tau$ & reference-order error (Eq.~\ref{eq:nroe}); attained worst displacement\\
+$\dtop$, NMLE & labelled merge error (Eq.~\ref{eq:dtop}); $\dtop/\Delta_F$\\
+$\nu^*$ & lower bound on NROE for exact maps (Theorem~\ref{thm:order})\\
+$\varepsilon$, $\varepsilon_0$, $B_t$ & merge-level budget, data resolution, position cap\\
+$\delta^*(\pi)$ & smallest merge error of order $\pi$ (optimal barriers)\\\bottomrule
+\end{tabular}
+\end{table}
 
 \begin{table}[t]
 \caption{Methods compared, as instances of problem~(\ref{eq:problem}).}\label{tab:instances}
@@ -203,6 +220,12 @@ A coarser bound flattens every node within $2\varepsilon$ of its parent and appl
 \caption{Cross-method comparison on seven sequences (left of the grey line: planar; right: volumetric). Order error with the certified lower bound $\nu^*$ (black ticks; no exact map can go below), worst merge error, motion error, and the two distance measures of ST-MTM. Exact-topology methods (TMTM, ST-MTM, ours at $\varepsilon=0$) have zero merge error; the projection has zero order error but up to 59\% merge error. Values are in the supplement.}\label{fig:compare}
 \end{figure*}
 
+\begin{figure*}[t]
+\centering\includegraphics[width=\linewidth]{figures/fig_maps.pdf}
+\caption{Maps of daily outgoing longwave radiation (OLR, 60 days) and the synthetic Ring sequence (40 steps) that differ only in the layout objective. Each column is one time step; black dots mark the reference of each feature. Layouts that optimize hierarchy and time (TMTM-type) or pairwise distance (ST-MTM-type) place features far from their references; ours follows them.}\label{fig:maps}
+\end{figure*}
+
+
 Algorithm~\ref{alg:layout} computes one map frame; frames are processed in time order so that the temporal term refers to the previous frame.
 
 \begin{algorithm}[t]
@@ -225,6 +248,8 @@ Algorithm~\ref{alg:layout} computes one map frame; frames are processed in time 
 \end{algorithm}
 
 \paragraph{Ordering.} For $\varepsilon=0$, midpoint ordering attains $\nu^*$. With widths, a local search over the child permutations of each node minimizes $\tau$; the sum of squared positive pair terms breaks plateaus of the minimax objective. Every child permutation of the exact tree keeps $\dtop=0$. For $\varepsilon>0$, candidate trees flatten nodes either by threshold or by repeatedly releasing the sibling pair that sets the order cost when Theorem~\ref{thm:chain}'s chain condition allows; every candidate and every search move is checked with the exact merge cost $\delta^*$ and rejected if it exceeds the budget. The best previous order is always kept, so refinement never increases $\tau$.
+
+\paragraph{Search details.} Threshold candidates use one tree per distinct parent gap up to $2(\varepsilon_0+\varepsilon)$. The conflict-driven candidate starts from the exact tree, finds the sibling pair with the largest order cost and flattens one or both of its nodes when the chain condition holds and the exact $\delta^*$ of the new midpoint order stays within the budget; it repeats while the order error does not increase. The four candidates with the lowest initial $\tau$, together with the exact tree, are refined. A move reinserts one child block at another position among its siblings, over all positions for nodes with up to eight children and within distance three otherwise, for at most eight passes. On 300 random trees with random widths and budgets, this search reached the exhaustive optimum of $\tau$ on 296; the point-model order alone on 250.
 
 \paragraph{Optimal barriers.} For a fixed order, the barrier between consecutive basins determines every displayed merge. The smallest achievable error $\delta^*(\pi)$ has a closed form: each pair is limited by the lowest true merge level among the pairs it separates, an $\ell_\infty$ ultrametric fit under a fixed leaf order~\cite{Farach:1995:RM}. Figure~\ref{fig:conflict} shows the effect: keeping original merge levels doubles the error that a balanced barrier needs. The profile is filled from the source arc samples with the renderer of ST-MTM~\cite{STMTM:2026}.
 
@@ -261,30 +286,54 @@ Cylinder & Q criterion, 3-D & 102 & 4--75 & split\\\bottomrule
 
 \subsection{Cross-method comparison}\label{sec:compare}
 
-\begin{figure*}[t]
-\centering\includegraphics[width=\linewidth]{figures/fig_storms.pdf}
-\caption{Storms, 118 half-day steps. Top: maps that differ only in the layout objective; dots mark references. On the $\varepsilon=10\%$ map, yellow ticks mark barriers whose displayed merge level differs from the source by more than 0.1\% of the scalar range. Bottom left: worst displacement per step. Bottom right: merge error spent per step at $\varepsilon=10\%$, always below the cap.}\label{fig:storms}
-\end{figure*}
-
 \takeaway{Exact-topology maps can be far more position-faithful than existing ones; the remaining error is certified, and distance preservation is a different trade-off.}
 Figure~\ref{fig:compare} compares all methods on all sequences. \emph{Order}: no method falls below $\nu^*$ on any of the 917 frames. Most of the order error of TMTM and ST-MTM is avoidable: on Storms, TMTM's 19.2\% contains 3.8\% that the hierarchy forces and ST-MTM's 16.3\% contains 12.5\% that it does not. Our exact layouts lie within 0.03 percentage points of $\nu^*$ on every planar sequence; on Tangaroa and Cylinder the width-aware order trades a little NROE (9.67\% against 9.24\% on Tangaroa) for a lower worst displacement. On all 637 frames with at most eight leaves, the budgeted order matches exhaustive enumeration at nine budgets from 0 to 100\%. \emph{Topology}: the projection has zero order error but changes merge levels by up to 58.66\% of the scalar range on Storms, 52.58\% on Wildfires, 33.56\% on OLR and 31.02\% on Tangaroa, where no frame keeps its tree; the uncapped $\kappa$ construction reached the same worst values on OLR and Tangaroa. Our budgeted maps never exceed their budget. \emph{Motion}: our exact maps make fewer motion errors than both TMTM and ST-MTM on all seven sequences, e.g., 5.4\% against 21.4\% on OLR and 52.2\% against 70.0\% on Tangaroa, because a feature that moves along the reference moves on the map; the projection, which follows the references exactly, is lowest on most sequences. \emph{Distance}: ST-MTM, which optimizes pairwise distances, has the best TW on all seven sequences and the best SNS on five; on Cylinder our budgeted map (0.041) and the $\kappa$ construction (0.040) are far below ST-MTM's 0.135.
+
+Figure~\ref{fig:maps} shows the planar sequences OLR and Ring with the same renderer and widths. On Ring, the TMTM-type objective keeps all features near the centre of the axis and the ST-MTM-type objective spreads them by pairwise distance; both place them far from their references, whereas our exact layout follows them and a 10\% budget changes the map only locally. On OLR, our exact map already places the low-radiation basins near their references, which makes it comparable to a time--longitude plot while keeping each basin's nesting.
 
 \subsection{The position--topology frontier}
 \takeaway{Small budgets can recover most of the position, but not on every sequence; the frontier shows where.}
 Figure~\ref{fig:frontier} places every layout by its measured worst merge error and its displacement, from $\varepsilon=0$ to the projection. On Cylinder a 1\% budget reaches the lowest worst displacement of the whole curve (27.00\% to 5.27\%), below the projection's 5.73\%, because sorting by reference ignores widths. On Wildfires 1\% reduces $E_\infty$ from 20.48\% to 8.71\%, and on PM$_{2.5}$ 5\% reaches the projection result. Storms needs much more: its worst displacement stays above 18\% up to $\varepsilon=20\%$, and OLR keeps $E_\infty=17.14\%$ up to 10\% because one frame needs a larger change. Mean merge errors are far below the maxima (Storms at 10\%: 0.90\% mean, 8.51\% maximum), so the budget is spent on few frames. Compared with the uncapped $\kappa$ construction at similar positions, the worst merge error is now bounded (Storms: 26.07\% to 8.51\%; Wildfires: 19.56\% to 8.35\%).
 
 \subsection{Wide features}
+
+\begin{figure*}[t]
+\centering\includegraphics[width=\linewidth]{figures/fig_tangaroa.pdf}
+\caption{Tangaroa, 201 time steps: interval cost $\tau_t/L$ of the point-model order (orange), the width-aware order (blue) and the $\kappa$ construction (dashed, mostly hidden under the blue line), with the certified lower bound (grey area, the larger of Theorems~\ref{thm:width} and~\ref{thm:chain}).}\label{fig:tangaroa}
+\end{figure*}
+
+\begin{figure*}[t]
+\centering\includegraphics[width=\linewidth]{figures/fig_storms.pdf}
+\caption{Storms, 118 half-day steps. Top: maps that differ only in the layout objective; dots mark references. On the $\varepsilon=10\%$ map, yellow ticks mark barriers whose displayed merge level differs from the source by more than 0.1\% of the scalar range. Bottom left: worst displacement per step. Bottom right: merge error spent per step at $\varepsilon=10\%$, always below the cap.}\label{fig:storms}
+\end{figure*}
+
 \takeaway{Ordering for the point model is not enough when features are large; the width-aware bound and search close the gap.}
-On Tangaroa, ordering by NROE alone gave a worst displacement of 20.69\%, above the $\kappa$ construction's 16.86\%. Ordering by $\tau$ lowers it to 15.10\% at $\varepsilon=0$ and to 14.55\% at $\varepsilon=2\%$, where the worst frame meets the lower bound; on Cylinder $\varepsilon\ge2\%$ lowers $E_\infty$ from 5.73\% to 5.27\%, again at the bound. The chain bound makes these certificates informative for large trees: at $\varepsilon=5\%$ the coarse bound averages 0.38\% on Tangaroa, the chain width bound 7.40\% against an attained 8.10\%. The remaining gap of about one percentage point also appears at $\varepsilon=0$, which suggests that the bound, not the ordering, is loose. The $\kappa$ construction keeps lower mean jumps on Tangaroa; per-frame curves and tables are in the supplement.
+On Tangaroa, ordering by NROE alone gave a worst displacement of 20.69\%, above the $\kappa$ construction's 16.86\%. Ordering by $\tau$ lowers it to 15.10\% at $\varepsilon=0$ and to 14.55\% at $\varepsilon=2\%$, where the worst frame meets the lower bound; on Cylinder $\varepsilon\ge2\%$ lowers $E_\infty$ from 5.73\% to 5.27\%, again at the bound. The chain bound makes these certificates informative for large trees: at $\varepsilon=5\%$ the coarse bound averages 0.38\% on Tangaroa, the chain width bound 7.40\% against an attained 8.10\%. The remaining gap of about one percentage point also appears at $\varepsilon=0$, which suggests that the bound, not the ordering, is loose. Figure~\ref{fig:tangaroa} shows where the gain comes from: the point-model order lies far above the bound in the first 30 steps, and the width-aware order removes most of this excess. Table~\ref{tab:volume} lists both volumetric sequences. The $\kappa$ construction keeps lower mean jumps on Tangaroa (2.59\% against 2.82\%) and a lower pooled displacement than our 2\% map (4.16\% against 4.55\%); its merge error, however, has no cap.
+
+\begin{table}[t]
+\caption{Volumetric sequences (percent). $\kappa$ P (exact) and R2 (relaxed, no merge-error cap) are the earlier construction; N1 orders by NROE only. Jump: mean $|\Delta x-\Delta q|/L$ of matched features.}\label{tab:volume}
+\centering\scriptsize\setlength{\tabcolsep}{2.4pt}
+\begin{tabular}{llrrrrr}\toprule
+ & Layout & $E_{\mathrm{pool}}$ & $E_\infty$ & NROE & jump & NMLE max\\\midrule
+\csname @@input\endcsname tables/tab_volume.tex
+\bottomrule
+\end{tabular}
+\end{table}
 
 \subsection{Case study: Storms with error disclosure}
 \takeaway{A budgeted map shows where, and by how much, the hierarchy was changed.}
-Figure~\ref{fig:storms} compares maps on Storms, where minima of sea-level pressure are low-pressure systems crossing the North Atlantic. Within the same layout model, the TMTM-type and ST-MTM-type objectives place features on average 37.3\% and 50.7\% of the canvas from their references in the worst case of each step; our exact map has a median of 0.8\% and a mean of 5.1\%, with peaks of up to 26.2\% in a few steps. A 10\% budget lowers the mean to 2.7\%. It is spent in 31 of 118 steps, at most 8.51\% and 0.90\% on average, and the 89 barriers whose merge level changed by more than 0.1\% of the scalar range are marked. At $\varepsilon=0$ no mark appears. Rendering does not weaken the guarantees: rendered barriers differ from the computed ones by at most $1.6\cdot10^{-6}$ of the scalar range and anchors are rounded by at most $2.4\cdot10^{-4}$ of the canvas.
+Figure~\ref{fig:storms} compares maps on Storms, where minima of sea-level pressure are low-pressure systems crossing the North Atlantic. Within the same layout model, the TMTM-type and ST-MTM-type objectives place features on average 37.3\% and 50.7\% of the canvas from their references in the worst case of each step; our exact map has a median of 0.8\% and a mean of 5.1\%, with peaks of up to 26.2\% in a few steps. A 10\% budget lowers the mean to 2.7\%. It is spent in 31 of 118 steps, at most 8.51\% and 0.90\% on average, and the 89 barriers whose merge level changed by more than 0.1\% of the scalar range are marked. At $\varepsilon=0$ no mark appears.
+
+\paragraph{Reading the map.} The teaser step (Fig.~\ref{fig:teaser}) shows how an analyst uses these maps. In the exact map, the western minima A and B sit at the bottom of the axis and the eastern minimum E near the top, as in the field; only C is out of place, and $\nu^*$ tells the analyst that no exact map could do better than an order error of 20.6\% in this step. Switching to the 10\% map moves C next to D, at its reference, and the marks on this step show that all four barriers were changed, by at most $\delta^*=4.7\%$ of the pressure range. Across the sequence, the merge-error strip shows that such changes are concentrated in 31 steps, so the analyst knows which steps to read with care and which keep the exact hierarchy. Rendering does not weaken the guarantees: rendered barriers differ from the computed ones by at most $1.6\cdot10^{-6}$ of the scalar range and anchors are rounded by at most $2.4\cdot10^{-4}$ of the canvas.
 
 \section{Discussion and Limitations}\label{sec:discussion}
 \paragraph{What a budget changes.} A budget never removes a feature, changes an extremum value or moves the data; it changes displayed merge levels by at most $\varepsilon\Delta_F$, and the displayed tree and its persistence diagram stay within that distance of the source. Where a subtree is split, its band is no longer contiguous and the reading ``one band, one component'' fails locally, which is why we mark such barriers. Persistence simplification spends a comparable budget differently, removing features below $2\varepsilon$~\cite{Edelsbrunner:2002:TPS,Tierny:2012:GTS}. Open refinements are a one-sided error that never shows an earlier connection and a constraint that keeps barriers inside the data range. We recommend $\varepsilon=0$ as the default and a budget only where the frontier shows a clear gain.
 
+\paragraph{Choosing the budget.} The data resolution $\varepsilon_0$ should match the precision of the data; with float32 fields we used $10^{-7}$ of the range. On Cylinder, whose saddles are nearly degenerate, the bound $\nu^*$ is 12.24\% when only exactly equal levels are merged and 6.15\% at $\varepsilon_0=10^{-6}$, which shows that part of its hierarchy lies below data precision. The budget $\varepsilon$ is a choice of the analyst: the frontier of Fig.~\ref{fig:frontier} shows its effect on position before any map is read, and the disclosure strip shows where it was spent.
+
 \paragraph{Limits of one dimension.} Projecting onto one direction loses the other coordinates; features at the same longitude compete for the same position, and $\nu^*$ quantifies exactly this conflict for the chosen direction. Our metrics of position are defined against the reference the layout optimizes; the comparison therefore also reports the scale-free order error of native outputs and the distance and motion measures of ST-MTM, on which ST-MTM keeps the better distance preservation. Readability was not tested: whether analysts read position and nesting together, and whether disclosure marks prevent misreading~\cite{Kamakshidasan:2021:MM,McNutt:2020:SVM}, requires a user study.
+
+\paragraph{Reproducibility.} All results are computed from saved experiment records by scripts that we will release with the paper; every figure and table of this paper and the supplement is regenerated by one script, and 68 unit tests, among them checks of the bounds and orders against exhaustive enumeration, cover the implementation.
 
 \paragraph{Bounds.} The order bound is attained exactly. The width bound is attained on most planar frames and on the worst Tangaroa and Cylinder frames but not uniformly on large trees; Wildfires at $\varepsilon>0$ and one OLR frame at $\varepsilon=10\%$ keep a worst-frame gap.
 
