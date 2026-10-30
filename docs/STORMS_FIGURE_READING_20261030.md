@@ -1,5 +1,7 @@
 # Storms 首图的标注含义与改版建议（2026-10-30）
 
+> 后续已完成改进版并作为论文首图：`paper/figures_editable/20261030/Storms_feature_support_improved.pptx`。原 PPT 保留，下文是改版依据；实际采用五个快照，支撑集合及核验记录见 `paper/visualizations/20261030/storms_feature_support/`。
+
 ## 已核对的实现
 
 逐小时 Storms 调用 `code/experiments/era5.py:scene_from_fields`，跨帧调用 `rgmtm.baselines.stmtm.match_leaves_by_overlap`。特征支撑样本由 `leaf_feature_vertices` 返回：极值顶点加所属叶弧的 regular vertices。相邻帧按稳定采样 ID 的交集计数构造矩阵，匈牙利算法选全局一对一匹配，再丢弃交集为零的配对。

@@ -1,12 +1,12 @@
 > 2026-10-30 工作更新：见 [最新论文、PPT、总览图与实验索引](docs/WORK_UPDATE_20261030.md)。
 
-> 2026-10-30 最新图更新：二维逐小时 Storms 为首图，三维 Vortex 为图 11；正文 9+2 页、附录 10 页。见 [当前正文](paper/pvis2027/main.pdf)。
+> 2026-10-30 当前论文：改进版 Storms 支撑区域与参考位置图为首图，五组数据集六档预算总览为图 11；正文 9+2 页、附录 10 页。见 [当前正文](paper/pvis2027/main.pdf) 和 [最新 LaTeX 整包](paper/pvis2027/export/RG-MTM_PacificVis2027_Current_20261030.zip)。
 
-> 2026-10-30：当前 PacificVis 稿已补 N4 可控冲突实验（正文 §7.3 / 图 9，附录 §S3 / 图 S1）；正文 11 页、附录 7 页。见 [实验协议](code/experiments/controlled_conflict/README.md) 与 [正文](paper/pvis2027/main.pdf)。
+> 历史更新（N4 初版）：PacificVis 稿已补 N4 可控冲突实验（正文 §7.3 / 图 9，附录 §S3 / 图 S1）；正文 11 页、附录 7 页。见 [实验协议](code/experiments/controlled_conflict/README.md) 与 [正文](paper/pvis2027/main.pdf)。
 
 # RG-MTM：统一位置—拓扑框架
 
-> **2026-10-29 已还原：** 按用户提供的 PDF 恢复为 2026-10-27 的 *Position-Faithful Merge Tree Maps: Certified Bounds and Optimal Layouts*。见 [原版正文](paper/pvis2027/main.pdf)、[配套附录](paper/pvis2027/supplement.pdf)、[编辑入口](paper/pvis2027/README.md) 和 [还原记录](paper/pvis2027/RESTORE_20261029.md)。正文 PDF 与用户附件字节一致；原版投稿编号为 0。近期框架改写已备份。
+> **历史还原记录（2026-10-29，当前论文已继续更新）：** 按用户提供的 PDF 恢复为 2026-10-27 的 *Position-Faithful Merge Tree Maps: Certified Bounds and Optimal Layouts*。见 [原版正文](paper/pvis2027/main.pdf)、[配套附录](paper/pvis2027/supplement.pdf)、[编辑入口](paper/pvis2027/README.md) 和 [还原记录](paper/pvis2027/RESTORE_20261029.md)。正文 PDF 与用户附件字节一致；原版投稿编号为 0。近期框架改写已备份。
 
 Reference-Guided Merge Tree Maps — A Unified Position–Topology Framework
 

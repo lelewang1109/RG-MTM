@@ -1,8 +1,10 @@
 > 当前更新：首图为支撑区域改进版 Storms，正文图 11 为五组数据集六参数总览；远端 Near-Optimal 标题、定理取值范围与 ERA5 文献修正已保留。正文 9+2 页、附录 10 页。
 
-> 2026-10-30 最新图更新：图 1 已替换为 `Storms_teaser_hybrid_editable.pptx` 对应的最终二维图；图 11 为 `Vortex_teaser_editable_final.pptx` 对应三维图。正文仍为 9 页正文 + 2 页参考文献，附录 10 页（含已有局部预算响应实验与移入的旧 Storms 图）。图源、参数及哈希见 `figures/data/latest_ppt_20261030/`。新源码包为 `export/RG-MTM_PacificVis2027_LatestPPT_20261030.zip`。下方旧更新记录保留历史身份。
+> 2026-10-30 当前版本：图 1 为改进版 Storms 支撑区域与参考位置图（`fig_storms_support.pdf`）；图 11 为五组数据集六档预算总览（`fig_dataset_overview_extended.pdf`）。正文 9 页 + 2 页参考文献，附录 10 页。当前可编辑首图为 `../figures_editable/20261030/Storms_feature_support_improved.pptx`，最新源码包为 [Current_20261030.zip](export/RG-MTM_PacificVis2027_Current_20261030.zip)。下文早期版本说明保留为历史记录。
 
-> 2026-10-30 更新：已补 N4 可控层次冲突实验，正文 §7.3 / 图 9，附录 §S3 / 图 S1。正文仍为 11 页（正文在第 9 页结束，第 10–11 页仅参考文献），附录现为 7 页。原始 2026-10-27 源码包保留历史身份；新包见 `export/RG-MTM_PacificVis2027_N4_20261030.zip`。完整输入、结果与复现方式见 `../../code/experiments/controlled_conflict/README.md`。
+> 历史更新（首次 PPT 图替换）：图 1 已替换为 `Storms_teaser_hybrid_editable.pptx` 对应的最终二维图；图 11 为 `Vortex_teaser_editable_final.pptx` 对应三维图。正文仍为 9 页正文 + 2 页参考文献，附录 10 页（含已有局部预算响应实验与移入的旧 Storms 图）。图源、参数及哈希见 `figures/data/latest_ppt_20261030/`。新源码包为 `export/RG-MTM_PacificVis2027_LatestPPT_20261030.zip`。下方旧更新记录保留历史身份。
+
+> 历史更新（N4 初版）：已补 N4 可控层次冲突实验，正文 §7.3 / 图 9，附录 §S3 / 图 S1。正文仍为 11 页（正文在第 9 页结束，第 10–11 页仅参考文献），附录现为 7 页。原始 2026-10-27 源码包保留历史身份；新包见 `export/RG-MTM_PacificVis2027_N4_20261030.zip`。完整输入、结果与复现方式见 `../../code/experiments/controlled_conflict/README.md`。
 
 # PacificVis 2027 重写稿（2026-10-27）
 
