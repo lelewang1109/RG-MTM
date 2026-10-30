@@ -1,0 +1,839 @@
+{
+  "dataset": "Vortex",
+  "dimension": 3,
+  "shape": [
+    128,
+    128,
+    128
+  ],
+  "frames": 90,
+  "snapshot_frames": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "map_frames": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "indexing": "label = family + epsilon_index(1..6) + window_time_index(1..6); spatial points use epsilon=0 IDs",
+  "strip_epsilon": [
+    0
+  ],
+  "hierarchy_frame": 8,
+  "epsilon": [
+    0,
+    0.02,
+    0.05,
+    0.1,
+    0.2,
+    0.3
+  ],
+  "tracks": {
+    "75": "A",
+    "53": "B"
+  },
+  "volume_rendering": {
+    "method": "original-grid front-to-back ray casting, trilinear sampling, no smoothing",
+    "width": 560,
+    "ray_step_voxels": 0.8,
+    "transfer_function": [
+      [
+        -1.0,
+        0.95,
+        0.97,
+        0.98,
+        0.0
+      ],
+      [
+        -0.12,
+        0.88,
+        0.94,
+        0.97,
+        0.0
+      ],
+      [
+        -0.03,
+        0.52,
+        0.73,
+        0.84,
+        0.005
+      ],
+      [
+        0.08,
+        0.25,
+        0.53,
+        0.68,
+        0.045
+      ],
+      [
+        0.22,
+        0.3,
+        0.57,
+        0.71,
+        0.06
+      ],
+      [
+        0.35,
+        0.76,
+        0.8,
+        0.82,
+        0.026
+      ],
+      [
+        0.45,
+        0.74,
+        0.35,
+        0.4,
+        0.075
+      ],
+      [
+        0.6,
+        0.68,
+        0.12,
+        0.19,
+        0.18
+      ],
+      [
+        1.0,
+        0.62,
+        0.06,
+        0.12,
+        0.38
+      ]
+    ],
+    "colors": "shared blue/red scalar RGB transfer function across 3D, 1D strips and 2D profiles; ray-opacity applied only in 3D"
+  },
+  "supplemental_mesh_isosurfaces": [
+    0.05,
+    0.45
+  ],
+  "isosurface_extraction": "marching cubes on original 128^3 samples, step_size=2 for display only; no scalar smoothing",
+  "camera": {
+    "elevation": 18,
+    "azimuth": -67,
+    "projection": "orthographic"
+  },
+  "coordinate_convention": "raw[z,y,x], display XYZ in voxel coordinates",
+  "projection": "3D orthogonal projection to X-directed line at y=-28,z=-20; q=X/127",
+  "source_checks": [
+    {
+      "frame": 3,
+      "source_frame": 4,
+      "member": "vorts_norm/vorts0004.raw",
+      "sha256": "b237788e9be3b7fa30626b25662c2d20b1d1f7adf34f1a29c46e6bf7bad52288",
+      "vertices": 11519,
+      "triangles": 22212
+    },
+    {
+      "frame": 4,
+      "source_frame": 5,
+      "member": "vorts_norm/vorts0005.raw",
+      "sha256": "e21f51443cc41c28d16ba54c33ffc944fdfdc3367f12e8ab681e8fdb770c8713",
+      "vertices": 13455,
+      "triangles": 25998
+    },
+    {
+      "frame": 5,
+      "source_frame": 6,
+      "member": "vorts_norm/vorts0006.raw",
+      "sha256": "dd98df5bfa8f5b4b3472d102aa5efc9e929b4c64e63a343e800c8499f1c64af6",
+      "vertices": 15105,
+      "triangles": 29224
+    },
+    {
+      "frame": 6,
+      "source_frame": 7,
+      "member": "vorts_norm/vorts0007.raw",
+      "sha256": "c64a7d68b25aea7ec6175165fb9e2055a2a1fb682c176619d15658f5954b82ab",
+      "vertices": 16791,
+      "triangles": 32544
+    },
+    {
+      "frame": 7,
+      "source_frame": 8,
+      "member": "vorts_norm/vorts0008.raw",
+      "sha256": "0c1f945ce525c7efb420d1ae349b99fea6f4f63a616fc92fe382d6d0bd8ea982",
+      "vertices": 18400,
+      "triangles": 35620
+    },
+    {
+      "frame": 8,
+      "source_frame": 9,
+      "member": "vorts_norm/vorts0009.raw",
+      "sha256": "87368e7e7cf58c7e8d889d7c91d500d61a9bd4a1f1dde3c1be644f81c58c0f05",
+      "vertices": 16090,
+      "triangles": 31112
+    }
+  ],
+  "tree_checks": [
+    {
+      "epsilon": 0,
+      "leaf_count": 142,
+      "depth": 74,
+      "pairwise_lca_checks": 10011,
+      "topology_error": 0.0,
+      "budget": 0
+    },
+    {
+      "epsilon": 0.02,
+      "leaf_count": 142,
+      "depth": 53,
+      "pairwise_lca_checks": 10011,
+      "topology_error": 0.015820622444152832,
+      "budget": 0.02
+    },
+    {
+      "epsilon": 0.05,
+      "leaf_count": 142,
+      "depth": 48,
+      "pairwise_lca_checks": 10011,
+      "topology_error": 0.029797151684761047,
+      "budget": 0.05
+    },
+    {
+      "epsilon": 0.1,
+      "leaf_count": 142,
+      "depth": 48,
+      "pairwise_lca_checks": 10011,
+      "topology_error": 0.029797151684761047,
+      "budget": 0.1
+    },
+    {
+      "epsilon": 0.2,
+      "leaf_count": 142,
+      "depth": 18,
+      "pairwise_lca_checks": 10011,
+      "topology_error": 0.19063270092010498,
+      "budget": 0.2
+    },
+    {
+      "epsilon": 0.3,
+      "leaf_count": 142,
+      "depth": 18,
+      "pairwise_lca_checks": 10011,
+      "topology_error": 0.2714235484600067,
+      "budget": 0.3
+    }
+  ],
+  "depths": [
+    74,
+    53,
+    48,
+    48,
+    18,
+    18
+  ],
+  "all_leaves_retained": true,
+  "profile": "certified continuous piecewise linear profile, not a voxel-distribution preserving map",
+  "scalar_transform": "display=-2*canonical join scalar",
+  "normalized_scalar_limits": [
+    -1.5,
+    1.0
+  ],
+  "track_identity": "computed voxel-overlap matching, not independently verified physical identities",
+  "source_persistence_fraction": 0.02,
+  "validation_passed": true,
+  "indexed_points": [
+    {
+      "label": "A11",
+      "epsilon": 0,
+      "frame": 3,
+      "track": 75,
+      "mapped": 0.5058777167427464,
+      "reference": 0.937007874015748
+    },
+    {
+      "label": "B11",
+      "epsilon": 0,
+      "frame": 3,
+      "track": 53,
+      "mapped": 0.097630158428464,
+      "reference": 0.11023622047244094
+    },
+    {
+      "label": "A12",
+      "epsilon": 0,
+      "frame": 4,
+      "track": 75,
+      "mapped": 0.49164182480095214,
+      "reference": 0.9291338582677166
+    },
+    {
+      "label": "B12",
+      "epsilon": 0,
+      "frame": 4,
+      "track": 53,
+      "mapped": 0.0962706456935241,
+      "reference": 0.10236220472440945
+    },
+    {
+      "label": "A13",
+      "epsilon": 0,
+      "frame": 5,
+      "track": 75,
+      "mapped": 0.4875837767049631,
+      "reference": 0.9212598425196851
+    },
+    {
+      "label": "B13",
+      "epsilon": 0,
+      "frame": 5,
+      "track": 53,
+      "mapped": 0.11354985255587206,
+      "reference": 0.11023622047244094
+    },
+    {
+      "label": "A14",
+      "epsilon": 0,
+      "frame": 6,
+      "track": 75,
+      "mapped": 0.4781408772994803,
+      "reference": 0.9212598425196851
+    },
+    {
+      "label": "B14",
+      "epsilon": 0,
+      "frame": 6,
+      "track": 53,
+      "mapped": 0.11217829532079339,
+      "reference": 0.09448818897637795
+    },
+    {
+      "label": "A15",
+      "epsilon": 0,
+      "frame": 7,
+      "track": 75,
+      "mapped": 0.6596728770646096,
+      "reference": 0.937007874015748
+    },
+    {
+      "label": "B15",
+      "epsilon": 0,
+      "frame": 7,
+      "track": 53,
+      "mapped": 0.269008631559903,
+      "reference": 0.10236220472440945
+    },
+    {
+      "label": "A16",
+      "epsilon": 0,
+      "frame": 8,
+      "track": 75,
+      "mapped": 0.6982196069897393,
+      "reference": 0.952755905511811
+    },
+    {
+      "label": "B16",
+      "epsilon": 0,
+      "frame": 8,
+      "track": 53,
+      "mapped": 0.30407121294487754,
+      "reference": 0.08661417322834646
+    },
+    {
+      "label": "A21",
+      "epsilon": 0.02,
+      "frame": 3,
+      "track": 75,
+      "mapped": 0.6237011178392317,
+      "reference": 0.937007874015748
+    },
+    {
+      "label": "B21",
+      "epsilon": 0.02,
+      "frame": 3,
+      "track": 53,
+      "mapped": 0.2444493171736945,
+      "reference": 0.11023622047244094
+    },
+    {
+      "label": "A22",
+      "epsilon": 0.02,
+      "frame": 4,
+      "track": 75,
+      "mapped": 0.6475664203433282,
+      "reference": 0.9291338582677166
+    },
+    {
+      "label": "B22",
+      "epsilon": 0.02,
+      "frame": 4,
+      "track": 53,
+      "mapped": 0.08332244827245276,
+      "reference": 0.10236220472440945
+    },
+    {
+      "label": "A23",
+      "epsilon": 0.02,
+      "frame": 5,
+      "track": 75,
+      "mapped": 0.6385556343419231,
+      "reference": 0.9212598425196851
+    },
+    {
+      "label": "B23",
+      "epsilon": 0.02,
+      "frame": 5,
+      "track": 53,
+      "mapped": 0.2401904927271436,
+      "reference": 0.11023622047244094
+    },
+    {
+      "label": "A24",
+      "epsilon": 0.02,
+      "frame": 6,
+      "track": 75,
+      "mapped": 0.6350107586342293,
+      "reference": 0.9212598425196851
+    },
+    {
+      "label": "B24",
+      "epsilon": 0.02,
+      "frame": 6,
+      "track": 53,
+      "mapped": 0.1547975763404637,
+      "reference": 0.09448818897637795
+    },
+    {
+      "label": "A25",
+      "epsilon": 0.02,
+      "frame": 7,
+      "track": 75,
+      "mapped": 0.6547691200084216,
+      "reference": 0.937007874015748
+    },
+    {
+      "label": "B25",
+      "epsilon": 0.02,
+      "frame": 7,
+      "track": 53,
+      "mapped": 0.19481966362898673,
+      "reference": 0.10236220472440945
+    },
+    {
+      "label": "A26",
+      "epsilon": 0.02,
+      "frame": 8,
+      "track": 75,
+      "mapped": 0.6568337355145247,
+      "reference": 0.952755905511811
+    },
+    {
+      "label": "B26",
+      "epsilon": 0.02,
+      "frame": 8,
+      "track": 53,
+      "mapped": 0.2870889847769086,
+      "reference": 0.08661417322834646
+    },
+    {
+      "label": "A31",
+      "epsilon": 0.05,
+      "frame": 3,
+      "track": 75,
+      "mapped": 0.6663388217167012,
+      "reference": 0.937007874015748
+    },
+    {
+      "label": "B31",
+      "epsilon": 0.05,
+      "frame": 3,
+      "track": 53,
+      "mapped": 0.10086148456611738,
+      "reference": 0.11023622047244094
+    },
+    {
+      "label": "A32",
+      "epsilon": 0.05,
+      "frame": 4,
+      "track": 75,
+      "mapped": 0.6664101881461504,
+      "reference": 0.9291338582677166
+    },
+    {
+      "label": "B32",
+      "epsilon": 0.05,
+      "frame": 4,
+      "track": 53,
+      "mapped": 0.19771773893978029,
+      "reference": 0.10236220472440945
+    },
+    {
+      "label": "A33",
+      "epsilon": 0.05,
+      "frame": 5,
+      "track": 75,
+      "mapped": 0.6609959705018428,
+      "reference": 0.9212598425196851
+    },
+    {
+      "label": "B33",
+      "epsilon": 0.05,
+      "frame": 5,
+      "track": 53,
+      "mapped": 0.19817663509990616,
+      "reference": 0.11023622047244094
+    },
+    {
+      "label": "A34",
+      "epsilon": 0.05,
+      "frame": 6,
+      "track": 75,
+      "mapped": 0.6614421492775309,
+      "reference": 0.9212598425196851
+    },
+    {
+      "label": "B34",
+      "epsilon": 0.05,
+      "frame": 6,
+      "track": 53,
+      "mapped": 0.21581289316697738,
+      "reference": 0.09448818897637795
+    },
+    {
+      "label": "A35",
+      "epsilon": 0.05,
+      "frame": 7,
+      "track": 75,
+      "mapped": 0.6751514755136769,
+      "reference": 0.937007874015748
+    },
+    {
+      "label": "B35",
+      "epsilon": 0.05,
+      "frame": 7,
+      "track": 53,
+      "mapped": 0.2098485866989867,
+      "reference": 0.10236220472440945
+    },
+    {
+      "label": "A36",
+      "epsilon": 0.05,
+      "frame": 8,
+      "track": 75,
+      "mapped": 0.6587194216797718,
+      "reference": 0.952755905511811
+    },
+    {
+      "label": "B36",
+      "epsilon": 0.05,
+      "frame": 8,
+      "track": 53,
+      "mapped": 0.22357970526211832,
+      "reference": 0.08661417322834646
+    },
+    {
+      "label": "A41",
+      "epsilon": 0.1,
+      "frame": 3,
+      "track": 75,
+      "mapped": 0.6812957986410086,
+      "reference": 0.937007874015748
+    },
+    {
+      "label": "B41",
+      "epsilon": 0.1,
+      "frame": 3,
+      "track": 53,
+      "mapped": 0.1022210428275748,
+      "reference": 0.11023622047244094
+    },
+    {
+      "label": "A42",
+      "epsilon": 0.1,
+      "frame": 4,
+      "track": 75,
+      "mapped": 0.6971014212146804,
+      "reference": 0.9291338582677166
+    },
+    {
+      "label": "B42",
+      "epsilon": 0.1,
+      "frame": 4,
+      "track": 53,
+      "mapped": 0.1670175777982511,
+      "reference": 0.10236220472440945
+    },
+    {
+      "label": "A43",
+      "epsilon": 0.1,
+      "frame": 5,
+      "track": 75,
+      "mapped": 0.6698486969599984,
+      "reference": 0.9212598425196851
+    },
+    {
+      "label": "B43",
+      "epsilon": 0.1,
+      "frame": 5,
+      "track": 53,
+      "mapped": 0.19779212698050397,
+      "reference": 0.11023622047244094
+    },
+    {
+      "label": "A44",
+      "epsilon": 0.1,
+      "frame": 6,
+      "track": 75,
+      "mapped": 0.6845309407090557,
+      "reference": 0.9212598425196851
+    },
+    {
+      "label": "B44",
+      "epsilon": 0.1,
+      "frame": 6,
+      "track": 53,
+      "mapped": 0.24466385206446944,
+      "reference": 0.09448818897637795
+    },
+    {
+      "label": "A45",
+      "epsilon": 0.1,
+      "frame": 7,
+      "track": 75,
+      "mapped": 0.7058293508961058,
+      "reference": 0.937007874015748
+    },
+    {
+      "label": "B45",
+      "epsilon": 0.1,
+      "frame": 7,
+      "track": 53,
+      "mapped": 0.23413484650935734,
+      "reference": 0.10236220472440945
+    },
+    {
+      "label": "A46",
+      "epsilon": 0.1,
+      "frame": 8,
+      "track": 75,
+      "mapped": 0.6587194216797718,
+      "reference": 0.952755905511811
+    },
+    {
+      "label": "B46",
+      "epsilon": 0.1,
+      "frame": 8,
+      "track": 53,
+      "mapped": 0.22357970526211832,
+      "reference": 0.08661417322834646
+    },
+    {
+      "label": "A51",
+      "epsilon": 0.2,
+      "frame": 3,
+      "track": 75,
+      "mapped": 0.9692415640952489,
+      "reference": 0.937007874015748
+    },
+    {
+      "label": "B51",
+      "epsilon": 0.2,
+      "frame": 3,
+      "track": 53,
+      "mapped": 0.11266224160715099,
+      "reference": 0.11023622047244094
+    },
+    {
+      "label": "A52",
+      "epsilon": 0.2,
+      "frame": 4,
+      "track": 75,
+      "mapped": 0.9646745232435376,
+      "reference": 0.9291338582677166
+    },
+    {
+      "label": "B52",
+      "epsilon": 0.2,
+      "frame": 4,
+      "track": 53,
+      "mapped": 0.10366951927208538,
+      "reference": 0.10236220472440945
+    },
+    {
+      "label": "A53",
+      "epsilon": 0.2,
+      "frame": 5,
+      "track": 75,
+      "mapped": 0.9627058078081182,
+      "reference": 0.9212598425196851
+    },
+    {
+      "label": "B53",
+      "epsilon": 0.2,
+      "frame": 5,
+      "track": 53,
+      "mapped": 0.08473613953181305,
+      "reference": 0.11023622047244094
+    },
+    {
+      "label": "A54",
+      "epsilon": 0.2,
+      "frame": 6,
+      "track": 75,
+      "mapped": 0.9774816510004877,
+      "reference": 0.9212598425196851
+    },
+    {
+      "label": "B54",
+      "epsilon": 0.2,
+      "frame": 6,
+      "track": 53,
+      "mapped": 0.09583005061904827,
+      "reference": 0.09448818897637795
+    },
+    {
+      "label": "A55",
+      "epsilon": 0.2,
+      "frame": 7,
+      "track": 75,
+      "mapped": 0.9723407091238574,
+      "reference": 0.937007874015748
+    },
+    {
+      "label": "B55",
+      "epsilon": 0.2,
+      "frame": 7,
+      "track": 53,
+      "mapped": 0.21046451127765547,
+      "reference": 0.10236220472440945
+    },
+    {
+      "label": "A56",
+      "epsilon": 0.2,
+      "frame": 8,
+      "track": 75,
+      "mapped": 0.7360647054592367,
+      "reference": 0.952755905511811
+    },
+    {
+      "label": "B56",
+      "epsilon": 0.2,
+      "frame": 8,
+      "track": 53,
+      "mapped": 0.18459932254992845,
+      "reference": 0.08661417322834646
+    },
+    {
+      "label": "A61",
+      "epsilon": 0.3,
+      "frame": 3,
+      "track": 75,
+      "mapped": 0.9720583619215551,
+      "reference": 0.937007874015748
+    },
+    {
+      "label": "B61",
+      "epsilon": 0.3,
+      "frame": 3,
+      "track": 53,
+      "mapped": 0.12028493201181474,
+      "reference": 0.11023622047244094
+    },
+    {
+      "label": "A62",
+      "epsilon": 0.3,
+      "frame": 4,
+      "track": 75,
+      "mapped": 0.9089909233975694,
+      "reference": 0.9291338582677166
+    },
+    {
+      "label": "B62",
+      "epsilon": 0.3,
+      "frame": 4,
+      "track": 53,
+      "mapped": 0.1455016399787311,
+      "reference": 0.10236220472440945
+    },
+    {
+      "label": "A63",
+      "epsilon": 0.3,
+      "frame": 5,
+      "track": 75,
+      "mapped": 0.9642888215871959,
+      "reference": 0.9212598425196851
+    },
+    {
+      "label": "B63",
+      "epsilon": 0.3,
+      "frame": 5,
+      "track": 53,
+      "mapped": 0.11663853040421197,
+      "reference": 0.11023622047244094
+    },
+    {
+      "label": "A64",
+      "epsilon": 0.3,
+      "frame": 6,
+      "track": 75,
+      "mapped": 0.9747625726919908,
+      "reference": 0.9212598425196851
+    },
+    {
+      "label": "B64",
+      "epsilon": 0.3,
+      "frame": 6,
+      "track": 53,
+      "mapped": 0.07374201885695503,
+      "reference": 0.09448818897637795
+    },
+    {
+      "label": "A65",
+      "epsilon": 0.3,
+      "frame": 7,
+      "track": 75,
+      "mapped": 0.9696101867235625,
+      "reference": 0.937007874015748
+    },
+    {
+      "label": "B65",
+      "epsilon": 0.3,
+      "frame": 7,
+      "track": 53,
+      "mapped": 0.1034876997967469,
+      "reference": 0.10236220472440945
+    },
+    {
+      "label": "A66",
+      "epsilon": 0.3,
+      "frame": 8,
+      "track": 75,
+      "mapped": 0.979823159865844,
+      "reference": 0.952755905511811
+    },
+    {
+      "label": "B66",
+      "epsilon": 0.3,
+      "frame": 8,
+      "track": 53,
+      "mapped": 0.06636109407107839,
+      "reference": 0.08661417322834646
+    }
+  ],
+  "shared_color_validation_passed": true,
+  "correspondence_validation_passed": true,
+  "spatial_grid": [
+    2,
+    3
+  ],
+  "color_mapping_shared": true,
+  "A_color": "#bd8300",
+  "overview_epsilon": 0.3,
+  "additional_budget": {
+    "epsilon": 0.3,
+    "source": "epsilon30/vorts",
+    "same_frozen_method": true,
+    "frames": 90
+  },
+  "main_layout": "full-width a, lower-left b, right c above d",
+  "reference_gif": "/Users/lele/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_t07e8h8lw13s22_bc59/temp/drag/vortex_gt_90frames_bluered.gif"
+}

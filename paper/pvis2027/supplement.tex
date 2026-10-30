@@ -84,6 +84,32 @@ The displayed merge of the $i$th and $j$th leaf is $\max_{i\le k<j}b_k$, and eac
 
 \paragraph{Runtime.} Apple M2 Pro (12 cores, 32\,GB), macOS 26.6, Python 3.12.7, NumPy 2.0.2, SciPy 1.13.1, one process. Per frame: bounds 0.11--0.62\,ms (planar) and 2.7--5.5\,ms (volumetric); ordering 0.40--3.7\,ms and 11--103\,ms; capped QP 2.3--9.0\,ms and 0.25--0.50\,s.
 
+\section{Controlled hierarchy-conflict experiment (N4)}\label{sec:n4}
+This experiment isolates reference-axis conflict; its sweep is not a physical time sequence. The input is a labelled four-leaf join tree, with leaf values zero, sibling pairs $\{A,B\}$ and $\{C,D\}$ at level $a$, and root level one. Its cophenetic matrix has diagonal zero, within-pair entries $a$, and cross-pair entries one. The canvas and scalar range are both one. References are $q=(0.2,0.5,0.5-d,0.8-d)$, so $d=\max q_X-\min q_Y$ is a signed overlap: negative values separate the hulls. Since $d\le0.3$, the alternative orientation costs at least as much, giving $\nu^*=\max(0,d)/2$.
+
+\begin{figure}[ht]
+\centering\includegraphics[width=\linewidth]{figures/fig_controlled_conflict_supp.pdf}
+\caption{N4 protocol and additional results. (a) The fixed tree and three examples of moving reference hulls. (b) Extra displacement caused by hierarchy, after subtracting the optimum with free interval packing, for three positive widths. (c) Budget thresholds for four parent gaps: release occurs at half the gap.}\label{fig:n4supp}
+\end{figure}
+
+\paragraph{Overlap and width sweep.} Fix $a=0.4$. Use 43 equally spaced values $d=-0.12,-0.11,\ldots,0.30$, and equal widths $W\in\{0,0.03,0.06,0.09\}$ (172 settings). Set $\rho=0.5$; use zero gap in the point model and gap $g=0.01$ for positive widths. No tolerance budget, temporal term or quadratic secondary objective is used: $\varepsilon_0=\beta=0$. For each setting enumerate all $4!=24$ orders, compute their exact optimal barrier errors, and independently solve the continuous minimax LP in variables $(x_i,c_i,t)$ with objective $\min t$, interval nonoverlap, canvas boundaries, $|x_i-c_i|\le\rho W/2$, and $|x_i-q_i|\le t$. The LPs include the zero-width non-strict point model. Select the minimum LP value among zero-merge-error orders, denoted $\tau_{\rm exact}$, and among all orders, denoted $\tau_{\rm free}$.
+
+The point bound and width bound are attained throughout this family. Specifically,
+\[
+\tau_{\rm exact}=\max\bigl(0,[d+(1-\rho)W+g]/2\bigr).
+\]
+The largest discrepancy between independently solved LP costs and the fixed-order closed form over all 4128 overlap-sweep LPs is $1.67\cdot10^{-16}$ of the canvas. The width-bound gap and width-search gap are below $1.1\cdot10^{-16}$. This validates these controlled cases; it does not establish tightness for arbitrary trees or width assignments.
+
+\paragraph{Hierarchy cost versus packing.} Figure~\ref{fig:n4supp}b reports $H_{\rm hier}=\tau_{\rm exact}-\tau_{\rm free}$, keeping widths, gaps, slack and canvas identical. This diagnostic separates the extra cost of exact hierarchy from free interval packing; it is distinct from the anchor slack $H_i$. At $d=0.24$, $W=0.06$, the free optimum is zero and the hierarchy excess is $0.14$. At $d=0.30$, two pairs of references coincide; free packing itself costs $0.02$, compared with the exact cost $0.17$, so the hierarchy excess is $0.15$.
+
+\paragraph{Budget and parent-gap sweep.} Fix $d=0.24$, $W=0.06$, $g=0.01$, $\rho=0.5$. Vary $a\in\{0.2,0.4,0.6,0.8\}$, giving parent gaps $h=1-a\in\{0.8,0.6,0.4,0.2\}$. At each of 91 budgets $\varepsilon=0,0.005,\ldots,0.45$, select the minimum LP cost among orders with $\delta^*(\pi)\le\varepsilon$ (364 settings). The 24 spatial LPs are shared across these settings, for 4152 independent LP solves in total. The width-aware search reaches the exhaustive optimum at every budget. Interleaving first becomes feasible at $\varepsilon=h/2$, as predicted by the $2\varepsilon$ separation condition. Below that threshold the best displacement is $0.14$; at and above it the free order $A,C,B,D$ attains zero displacement, with optimal barriers $(a+h/2,a+h/2,a+h/2)$ and measured merge error $h/2$. All selected barriers are checked directly against all pairwise merge levels.
+
+
+
+\paragraph{Reproduction.} The new LP checks use Python 3.10.19, NumPy 2.0.2 and SciPy 1.13.1. Run \nolinkurl{code/experiments/controlled_conflict/run.py} for the exhaustive/LP checks and saved CSV/JSON records; \texttt{plot.py} in the same directory reads those records to generate both figures. The experiment uses the paper's existing certificate, barrier-cost and width-search implementations; the minimax LP is assembled independently of the fixed-order cost formula.
+
+\input{local_response}
+
 \section{Additional results}
 
 \begin{table}[h]
@@ -138,4 +164,9 @@ Sequence & Direction & $\nu^*$ & Ours & ST-MTM & TMTM & $\tau/L$ & bound\\\midru
 \caption{OLR (60 days) and Ring (40 steps) maps that differ only in the layout objective; dots mark references.}
 \end{figure}
 
+
+\begin{figure}[t]
+\centering\includegraphics[width=\linewidth]{figures/fig_storms.pdf}
+\caption{Storms, 118 half-day steps. Top: maps that differ only in the layout objective; dots mark references. On the $\varepsilon=10\%$ map, yellow ticks mark barriers whose displayed merge level differs from the source by more than 0.1\% of the scalar range. Bottom left: worst displacement per step. Bottom right: merge error spent per step at $\varepsilon=10\%$, always below the cap.}\label{fig:stormsbenchmark}
+\end{figure}
 \end{document}

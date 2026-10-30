@@ -1,3 +1,5 @@
+> 2026-10-30 最新二维/三维 PPT 图已接入：首图为 744 小时 Storms，正文图 11 为 Vortex；旧半日 Storms 图与 OLR/Ring 图位于附录。下方新增段落已更新，历史段落中的旧图号以 main.tex 自动引用为准。
+
 # 正文逐句中英对照
 
 > 对应 `main.tex`（2026-10-27 三维补充版，正文 9 页以内、参考文献 2 页以内）。
@@ -37,20 +39,10 @@
 - EN: Merge trees, temporal scalar fields, topology-based visualization, one-dimensional layout, lower bounds.
 - 中：合并树，时变标量场，基于拓扑的可视化，一维布局，下界。
 
-## 图 1（首图）
+## 图 1（首图，2026-10-30 最终二维 PPT）
 
-- EN: North Atlantic pressure minima (ERA5, 118 half-day steps).
-- 中：北大西洋的气压极小值（ERA5 数据，118 个半天时间步）。
-- EN: (a) One time step with five minima A–E, lettered from west to east; their positions along the reference axis are their references $q_i$.
-- 中：(a) 某一时间步的五个极小值 A–E，按从西到东的顺序标字母；它们在参考轴上的位置就是参考坐标 $q_i$。
-- EN: (b) A layout that optimizes hierarchy and time, in the style of TMTM, draws all five near the middle of the axis; triangles mark the references and lines connect them to the drawn positions.
-- 中：(b) 以 TMTM 方式优化层次和时间的布局，把五个极小值都画在轴的中部附近；三角形标出参考坐标，连线把参考坐标连到画出的位置。
-- EN: (c) Our layout keeps the merge tree exactly and stays as close to the references as the hierarchy allows: the worst displacement in this step falls from 55.4\% to 22.6\% of the canvas.
-- 中：(c) 我们的布局精确保持合并树，并在层次允许的范围内尽量贴近参考坐标：这一步的最坏位移从画布长度的 55.4% 降到 22.6%。
-- EN: Only C is displaced: it joins the other four minima only at the top of the tree, so an exact map must place it outside their block, and the hierarchy forces an order error of at least 20.6\% (Sect. 5).
-- 中：只有 C 被移开了：它只在树的顶端才与其余四个极小值合并，所以拓扑精确的地图必须把它放在那四个的区块之外，层次因此迫使排序误差至少为 20.6%（第 5 节）。
-
----
+- EN: Hourly Storms: 744 sea-level-pressure anomaly fields from December 1999. (a) Full map at $\varepsilon=5\%$; the box selects $t=212$--239. (b) Five spatial snapshots with the fixed reference axis $q$ and exact-layout positions. (c) The same tracked minima A (green) and B (magenta) at budgets $0,1,2,3,5\%$; diamonds mark references at the selected step. Labels $A_{ij},B_{ij}$ index parameter column $i$ and sampled time $j$. (d) Complete displayed trees at $t=236$: structural depths $4,4,3,3,2$. Roots are top-aligned; vertical distance counts levels below the root, not pressure. This hourly diagnostic is separate from the half-day Storms benchmark.
+- 中：逐小时 Storms：1999 年 12 月的 744 个海平面气压异常场。(a) ε=5% 的完整地图，框出 t=212–239 的局部时间窗。(b) 五个空间快照及固定参考轴 q，与拓扑精确布局中的位置对应。(c) ε 为 0%、1%、2%、3%、5% 时同一组绿色 A、紫红色 B 轨迹；菱形为选定帧的参考位置。编号第一位表示参数列，第二位表示采样时间。(d) t=236 的完整显示树，结构深度依次为 4、4、3、3、2。树根顶部对齐，纵轴表示根下方层数，不表示气压。此逐小时诊断序列独立于半日 Storms 横评序列。
 
 ## 1 引言
 
@@ -527,7 +519,28 @@
 - EN: On OLR, our exact map already places the low-radiation basins near their references, which makes it comparable to a time–longitude plot while keeping each basin's nesting.
 - 中：在 OLR 上，我们的拓扑精确地图已经把低辐射盆地放在参考坐标附近，使它可以与"时间—经度"图相对照，同时保留每个盆地的嵌套关系。
 
-### 7.3 位置—拓扑权衡曲线
+### 7.3 可控层次冲突（N4，2026-10-30 新增）
+
+- EN: To isolate spatial conflict, we fix two sibling pairs $X=\{A,B\}$ and $Y=\{C,D\}$, merging at $0.4$ below a root at $1$, with leaf values $0$.
+- 中：为单独考察空间冲突，我们固定两个兄弟子树 $X=\{A,B\}$ 和 $Y=\{C,D\}$，各组在层级 0.4 合并，根层级为 1，叶值为 0。
+- EN: On a unit canvas their references are $(0.2,0.5,0.5-d,0.8-d)$; signed overlap $d$ varies from $-0.12$ to $0.30$.
+- 中：单位画布上的参考坐标为 $(0.2,0.5,0.5-d,0.8-d)$；带符号的重叠量 $d$ 从 −0.12 变化到 0.30，负值表示两组参考范围分离。
+- EN: Across 43 overlaps and four widths, we enumerate all 24 leaf orders and solve independent minimax placement LPs.
+- 中：在 43 档重叠量和 4 档宽度下，枚举全部 24 种叶序，并独立构造线性规划求最小最大位移。
+- EN: The point optimum is exactly $\nu^*=\max(0,d)/2$.
+- 中：点模型的最优值恰为 $\nu^*=\max(0,d)/2$。
+- EN: With equal widths $W=0.06$, gap $0.01$ and $\rho=0.5$, both the width bound and our search attain the exhaustive optimum $\tau=\max(0,(d+0.04)/2)$ (Fig. 9a).
+- 中：在等宽 $W=0.06$、间隔 0.01、$\rho=0.5$ 时，宽度下界和本文搜索均达到穷举最优值 $\tau=\max(0,(d+0.04)/2)$（图 9a）。
+- EN: At $d=0.24$, these costs are $12\%$ and $14\%$.
+- 中：当 $d=0.24$ 时，点模型与区间模型的代价分别为 12% 和 14%。
+- EN: Sweeping the budget and four parent gaps confirms that interleaving becomes feasible at $2\varepsilon=h$; the $h=0.6$ case reaches zero displacement at $\varepsilon=0.3$ (Fig. 9b).
+- 中：扫描预算和四档父间隙，确认交错叶序从 $2\varepsilon=h$ 时开始可行；父间隙 $h=0.6$ 时，在预算 $\varepsilon=0.3$ 达到零位移（图 9b）。
+- EN: These are controlled instances, not a general tightness claim for the width bound; full settings and packing costs are in the supplement.
+- 中：这些结果针对该受控实例族，不表示宽度下界在任意树上都紧；完整设置和装箱代价见附录。
+
+**新增图 9：** 可控四叶树。(a) 兄弟参考范围的重叠增加，迫使位置位移增大；圆圈表示被穷举区间最优解达到的宽度下界。(b) 当重叠为 24% 时，只有合并预算达到父间隙 60% 的一半，14% 的区间位移才消失。百分比分别按单位画布或单位标量范围归一化。
+
+### 7.4 位置—拓扑权衡曲线
 
 - EN: *Small budgets can recover most of the position, but not on every sequence; the frontier shows where.*
 - 中：*小预算往往能挽回大部分位置，但并非每组序列都如此；权衡曲线告诉你在哪里有效。*
@@ -544,7 +557,7 @@
 - EN: Compared with the uncapped $\kappa$ construction at similar positions, the worst merge error is now bounded (Storms: 26.07\% to 8.51\%; Wildfires: 19.56\% to 8.35\%).
 - 中：在位置水平相近时与没有上限的 $\kappa$ 构造相比，最坏合并误差现在有了上限（Storms：从 26.07% 降到 8.51%；Wildfires：从 19.56% 降到 8.35%）。
 
-### 7.4 大特征
+### 7.5 大特征
 
 **图 9**
 - EN: Tangaroa, 201 time steps: interval cost $\tau_t/L$ of the point-model order (orange), the width-aware order (blue) and the $\kappa$ construction (dashed, mostly hidden under the blue line), with the certified lower bound (grey area, the larger of Theorems 2 and 3).
@@ -586,7 +599,7 @@
 | Cylinder | N1，$\varepsilon=2\%$ | 0.64 | 5.73 | 0.17 | 0.46 | 1.84 |
 | Cylinder | 本文，$\varepsilon=2\%$ | 0.64 | 5.27 | 0.19 | 0.47 | 1.67 |
 
-### 7.5 三维中的参考方向
+### 7.6 三维中的参考方向
 
 **图 10**
 - EN: Reference direction in 3-D.
@@ -615,7 +628,14 @@
 - EN: Since $\nu^*$ costs milliseconds per frame, an analyst can rank candidate references before computing any map, and weigh following the motion against hierarchical conflict.
 - 中：由于每帧计算 $\nu^*$ 只需几毫秒，分析者可以在计算任何地图之前就对候选参考方向进行排序比较，在"跟随运动"和"层次冲突"之间做权衡。
 
-### 7.6 案例研究：带误差披露的 Storms
+### 7.7 三维案例：Vortex（2026-10-30 新增）
+
+- EN: Figure 11 links spatial references, profiles and displayed trees on the separate 90-frame Vortex diagnostic. The reference q=X/127 is the normalized voxel coordinate, with physical units unavailable.
+- 中：图 11 在独立的 90 帧 Vortex 诊断序列上对应三维参考位置、剖面与显示树。q=X/127 是归一化体素坐标，没有可用的物理单位。
+- EN: At t=8 every budget retains all 142 leaves; structural depths are 74, 53, 48, 48, 18, 18 and normalized merge errors are 0%, 1.58%, 2.98%, 2.98%, 19.06%, 27.14%.
+- 中：t=8 的所有预算均保留 142 片叶子；结构深度为 74、53、48、48、18、18，归一化合并误差为 0%、1.58%、2.98%、2.98%、19.06%、27.14%，均未超过对应预算。深度相同不意味着合并层级或映射位置相同。此序列和 744 小时首图均不计入原 917 帧横评。
+
+### 7.8 案例研究：带误差披露的 Storms
 
 **图 11**
 - EN: Storms, 118 half-day steps.
@@ -643,16 +663,8 @@
 - 中：当 $\varepsilon=0$ 时，图上没有任何标记。
 
 **读图**
-- EN: The teaser step (Fig. 1) shows how an analyst uses these maps.
-- 中：首图中的那一步（图 1）展示了分析者如何使用这些地图。
-- EN: In the exact map, the western minima A and B sit at the bottom of the axis and the eastern minimum E near the top, as in the field; only C is out of place, and $\nu^*$ tells the analyst that no exact map could do better than an order error of 20.6\% in this step.
-- 中：在拓扑精确的地图中，西边的极小值 A 和 B 位于轴的底部，东边的极小值 E 靠近顶部，与场中的位置一致；只有 C 不在应有的位置，而 $\nu^*$ 告诉分析者：在这一步，任何拓扑精确的地图的排序误差都不可能低于 20.6%。
-- EN: Switching to the 10\% map moves C next to D, at its reference, and the marks on this step show that all four barriers were changed, by at most $\delta^*=4.7\%$ of the pressure range.
-- 中：切换到 10% 预算的地图后，C 被移到 D 旁边、位于其参考位置；这一步上的标记显示四个屏障都被改动了，改动量最多为气压范围的 $\delta^*=4.7\%$。
-- EN: Across the sequence, the merge-error strip shows that such changes are concentrated in 31 steps, so the analyst knows which steps to read with care and which keep the exact hierarchy.
-- 中：在整个序列上，合并误差条带显示这类改动集中在 31 步，因此分析者知道哪些步需要谨慎阅读、哪些步保持了精确的层次。
-- EN: Rendering does not weaken the guarantees: rendered barriers differ from the computed ones by at most $1.6\cdot10^{-6}$ of the scalar range and anchors are rounded by at most $2.4\cdot10^{-4}$ of the canvas.
-- 中：渲染不会削弱这些保证：渲染后的屏障与计算值最多相差数值范围的 $1.6\cdot10^{-6}$，锚点的取整误差最多为画布长度的 $2.4\cdot10^{-4}$。
+- EN: Reading the hourly map: Figure 1 follows two tracked minima through five spatial snapshots, separated by six hours, and the corresponding budget columns. At t=236, the trees retain all five leaves; their normalized merge errors are 0, 0, 1.07%, 1.07%, 3.08%, within the displayed budgets.
+- 中：逐小时图的读法：图 1 将相隔六小时的五个空间快照，与不同预算列中的两个跟踪极小值对应起来。t=236 的树始终保留五片叶子；归一化合并误差分别为 0、0、1.07%、1.07%、3.08%，均在对应预算内。结构层数变少不表示气压减少相同数值。原半日 Storms 对照图移入附录。
 
 ## 8 讨论与局限
 
@@ -704,3 +716,16 @@
 - 中：在数据允许的地方，合并层级预算能挽回更多位置，同时误差有保证、被报告，并标在图上。
 - EN: Each map therefore carries two numbers: how far it moves features and how far it changes the hierarchy.
 - 中：因此每张地图都带着两个数：它把特征移动了多远，以及它把层次改变了多少。
+
+
+## 2026-10-30：预算增大时的局部位置响应
+
+EN: Aggregate gains do not imply pointwise improvement. In a four-leaf control, enumerating all 24 orders lowers the optimal worst displacement from 22% to 1% at epsilon=30%, yet one feature's error rises from 0.087% to 1%.
+
+中：整体指标改善不意味着每个点都改善。四叶受控实验枚举全部 24 种叶序，预算增至 30% 后，全局最优的最坏位移从 22% 降至 1%，但某个点从 0.087% 增至 1%。这个反例不依赖启发式搜索或时间历史。
+
+EN: On an additional 90-frame Vortex diagnostic, increasing epsilon from 20% to 30% lowers pooled error from 8.79% to 4.27%, while 30.91% of 12,446 feature-frame observations worsen; 24.72% worsen by at least 0.5 percentage points of L.
+
+中：额外的 Vortex 诊断中，预算从 20% 增至 30% 时，全部特征—帧的平均误差从 8.79% 降至 4.27%，但 12,446 个观测中 30.91% 变差，其中 24.72% 至少增加 0.5 个百分点。这些诊断与原稿 917 帧主横评分开报告。
+
+正文前沿小节后新增 Local budget response；Choosing the budget 改为同时检查关注特征的局部误差变化。原数值精度的 Cylinder 例子完整移至附录 S4。附录 S4 包含诊断总体、阈值、全部转档统计、24 叶序穷举反例、案例选择规则和两幅图。

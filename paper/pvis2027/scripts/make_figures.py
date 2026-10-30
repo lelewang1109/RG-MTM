@@ -594,8 +594,31 @@ def table_direction():
     (TAB / 'tab_direction.tex').write_text('\n'.join(rows[:-1]) + '\n')
 
 
+def fig_controlled_conflict():
+    module('n4_plot', CODE / 'experiments/controlled_conflict/plot.py').main()
+
+
+def fig_local_redistribution():
+    module('local_redistribution_plot', CODE / 'experiments/local_redistribution/plot.py').build()
+
+
+def fig_latest_ppt_examples():
+    """Rebuild paper PDFs from the frozen final-PPT PNG exports, at native resolution."""
+    import pymupdf as fitz
+    from PIL import Image
+    for stem in ['storms_hourly_ppt', 'vortex_3d_ppt']:
+        source = FIG / f'fig_{stem}.png'
+        with Image.open(source) as image:
+            w, h = image.size
+        doc = fitz.open()
+        page = doc.new_page(width=504, height=504 * h / w)
+        page.insert_image(page.rect, filename=str(source))
+        doc.save(FIG / f'fig_{stem}.pdf', deflate=True)
+        doc.close()
+
+
 if __name__ == '__main__':
     FIG.mkdir(exist_ok=True)
     for f in [tables, table_quality, table_compare, table_direction, fig_concept, fig_bound, fig_frontier, fig_tangaroa, fig_maps, fig_storms,
-              fig_teaser, fig_pipeline, fig_compare, fig_direction]:
+              fig_teaser, fig_pipeline, fig_compare, fig_direction, fig_controlled_conflict, fig_local_redistribution, fig_latest_ppt_examples]:
         print(f.__name__, flush=True); f()

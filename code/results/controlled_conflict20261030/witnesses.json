@@ -1,0 +1,7398 @@
+[
+  {
+    "overlap": -0.12,
+    "width": 0.0,
+    "gap": 0.0,
+    "rho": 0.5,
+    "nu": 0.0,
+    "width_lower": 0.0,
+    "exact_tau": 0.0,
+    "free_tau": 0.0,
+    "hierarchy_excess": 0.0,
+    "search_tau": 0.0,
+    "free_merge_error": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.2,
+      0.5,
+      0.62,
+      0.92
+    ],
+    "centres": [
+      0.2,
+      0.5,
+      0.62,
+      0.92
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "overlap": -0.11,
+    "width": 0.0,
+    "gap": 0.0,
+    "rho": 0.5,
+    "nu": 0.0,
+    "width_lower": 0.0,
+    "exact_tau": 0.0,
+    "free_tau": 0.0,
+    "hierarchy_excess": 0.0,
+    "search_tau": 0.0,
+    "free_merge_error": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.2,
+      0.5,
+      0.61,
+      0.91
+    ],
+    "centres": [
+      0.2,
+      0.5,
+      0.61,
+      0.91
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "overlap": -0.09999999999999999,
+    "width": 0.0,
+    "gap": 0.0,
+    "rho": 0.5,
+    "nu": 0.0,
+    "width_lower": 0.0,
+    "exact_tau": 0.0,
+    "free_tau": 0.0,
+    "hierarchy_excess": 0.0,
+    "search_tau": 0.0,
+    "free_merge_error": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.2,
+      0.5,
+      0.6,
+      0.9
+    ],
+    "centres": [
+      0.2,
+      0.5,
+      0.6,
+      0.9
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "overlap": -0.09,
+    "width": 0.0,
+    "gap": 0.0,
+    "rho": 0.5,
+    "nu": 0.0,
+    "width_lower": 0.0,
+    "exact_tau": 0.0,
+    "free_tau": 0.0,
+    "hierarchy_excess": 0.0,
+    "search_tau": 0.0,
+    "free_merge_error": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.2,
+      0.5,
+      0.59,
+      0.89
+    ],
+    "centres": [
+      0.2,
+      0.5,
+      0.59,
+      0.89
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "overlap": -0.07999999999999999,
+    "width": 0.0,
+    "gap": 0.0,
+    "rho": 0.5,
+    "nu": 0.0,
+    "width_lower": 0.0,
+    "exact_tau": 0.0,
+    "free_tau": 0.0,
+    "hierarchy_excess": 0.0,
+    "search_tau": 0.0,
+    "free_merge_error": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.2,
+      0.5,
+      0.58,
+      0.88
+    ],
+    "centres": [
+      0.2,
+      0.5,
+      0.58,
+      0.88
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "overlap": -0.06999999999999999,
+    "width": 0.0,
+    "gap": 0.0,
+    "rho": 0.5,
+    "nu": 0.0,
+    "width_lower": 0.0,
+    "exact_tau": 0.0,
+    "free_tau": 0.0,
+    "hierarchy_excess": 0.0,
+    "search_tau": 0.0,
+    "free_merge_error": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.2,
+      0.5,
+      0.57,
+      0.87
+    ],
+    "centres": [
+      0.2,
+      0.5,
+      0.57,
+      0.87
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "overlap": -0.06,
+    "width": 0.0,
+    "gap": 0.0,
+    "rho": 0.5,
+    "nu": 0.0,
+    "width_lower": 0.0,
+    "exact_tau": 0.0,
+    "free_tau": 0.0,
+    "hierarchy_excess": 0.0,
+    "search_tau": 0.0,
+    "free_merge_error": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.2,
+      0.5,
+      0.56,
+      0.8600000000000001
+    ],
+    "centres": [
+      0.2,
+      0.5,
+      0.56,
+      0.8600000000000001
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "overlap": -0.04999999999999999,
+    "width": 0.0,
+    "gap": 0.0,
+    "rho": 0.5,
+    "nu": 0.0,
+    "width_lower": 0.0,
+    "exact_tau": 0.0,
+    "free_tau": 0.0,
+    "hierarchy_excess": 0.0,
+    "search_tau": 0.0,
+    "free_merge_error": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.2,
+      0.5,
+      0.55,
+      0.8500000000000001
+    ],
+    "centres": [
+      0.2,
+      0.5,
+      0.55,
+      0.8500000000000001
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "overlap": -0.039999999999999994,
+    "width": 0.0,
+    "gap": 0.0,
+    "rho": 0.5,
+    "nu": 0.0,
+    "width_lower": 0.0,
+    "exact_tau": 0.0,
+    "free_tau": 0.0,
+    "hierarchy_excess": 0.0,
+    "search_tau": 0.0,
+    "free_merge_error": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.2,
+      0.5,
+      0.54,
+      0.8400000000000001
+    ],
+    "centres": [
+      0.2,
+      0.5,
+      0.54,
+      0.8400000000000001
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "overlap": -0.03,
+    "width": 0.0,
+    "gap": 0.0,
+    "rho": 0.5,
+    "nu": 0.0,
+    "width_lower": 0.0,
+    "exact_tau": 0.0,
+    "free_tau": 0.0,
+    "hierarchy_excess": 0.0,
+    "search_tau": 0.0,
+    "free_merge_error": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.2,
+      0.5,
+      0.53,
+      0.8300000000000001
+    ],
+    "centres": [
+      0.2,
+      0.5,
+      0.53,
+      0.8300000000000001
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "overlap": -0.01999999999999999,
+    "width": 0.0,
+    "gap": 0.0,
+    "rho": 0.5,
+    "nu": 0.0,
+    "width_lower": 0.0,
+    "exact_tau": 0.0,
+    "free_tau": 0.0,
+    "hierarchy_excess": 0.0,
+    "search_tau": 0.0,
+    "free_merge_error": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.2,
+      0.5,
+      0.52,
+      0.8200000000000001
+    ],
+    "centres": [
+      0.2,
+      0.5,
+      0.52,
+      0.8200000000000001
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "overlap": -0.009999999999999995,
+    "width": 0.0,
+    "gap": 0.0,
+    "rho": 0.5,
+    "nu": 0.0,
+    "width_lower": 0.0,
+    "exact_tau": 0.0,
+    "free_tau": 0.0,
+    "hierarchy_excess": 0.0,
+    "search_tau": 0.0,
+    "free_merge_error": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.2,
+      0.5,
+      0.51,
+      0.81
+    ],
+    "centres": [
+      0.2,
+      0.5,
+      0.51,
+      0.81
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "overlap": 0.0,
+    "width": 0.0,
+    "gap": 0.0,
+    "rho": 0.5,
+    "nu": 0.0,
+    "width_lower": 0.0,
+    "exact_tau": 0.0,
+    "free_tau": 0.0,
+    "hierarchy_excess": 0.0,
+    "search_tau": 0.0,
+    "free_merge_error": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.2,
+      0.5,
+      0.5,
+      0.8
+    ],
+    "centres": [
+      0.2,
+      0.5,
+      0.5,
+      0.8
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "overlap": 0.010000000000000009,
+    "width": 0.0,
+    "gap": 0.0,
+    "rho": 0.5,
+    "nu": 0.0050000000000000044,
+    "width_lower": 0.0050000000000000044,
+    "exact_tau": 0.0050000000000000044,
+    "free_tau": 0.0,
+    "hierarchy_excess": 0.0050000000000000044,
+    "search_tau": 0.0050000000000000044,
+    "free_merge_error": 0.3,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.195,
+      0.495,
+      0.495,
+      0.785
+    ],
+    "centres": [
+      0.195,
+      0.495,
+      0.495,
+      0.785
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "overlap": 0.020000000000000018,
+    "width": 0.0,
+    "gap": 0.0,
+    "rho": 0.5,
+    "nu": 0.010000000000000009,
+    "width_lower": 0.010000000000000009,
+    "exact_tau": 0.010000000000000009,
+    "free_tau": 0.0,
+    "hierarchy_excess": 0.010000000000000009,
+    "search_tau": 0.010000000000000009,
+    "free_merge_error": 0.3,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.19,
+      0.49,
+      0.49,
+      0.77
+    ],
+    "centres": [
+      0.19,
+      0.49,
+      0.49,
+      0.77
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "overlap": 0.03,
+    "width": 0.0,
+    "gap": 0.0,
+    "rho": 0.5,
+    "nu": 0.015000000000000013,
+    "width_lower": 0.015000000000000013,
+    "exact_tau": 0.015000000000000013,
+    "free_tau": 0.0,
+    "hierarchy_excess": 0.015000000000000013,
+    "search_tau": 0.015000000000000013,
+    "free_merge_error": 0.3,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.185,
+      0.485,
+      0.485,
+      0.755
+    ],
+    "centres": [
+      0.185,
+      0.485,
+      0.485,
+      0.755
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "overlap": 0.04000000000000001,
+    "width": 0.0,
+    "gap": 0.0,
+    "rho": 0.5,
+    "nu": 0.020000000000000018,
+    "width_lower": 0.020000000000000018,
+    "exact_tau": 0.020000000000000018,
+    "free_tau": 0.0,
+    "hierarchy_excess": 0.020000000000000018,
+    "search_tau": 0.020000000000000018,
+    "free_merge_error": 0.3,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.18,
+      0.48,
+      0.48,
+      0.74
+    ],
+    "centres": [
+      0.18,
+      0.48,
+      0.48,
+      0.74
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "overlap": 0.05000000000000002,
+    "width": 0.0,
+    "gap": 0.0,
+    "rho": 0.5,
+    "nu": 0.025000000000000022,
+    "width_lower": 0.025000000000000022,
+    "exact_tau": 0.025000000000000022,
+    "free_tau": 0.0,
+    "hierarchy_excess": 0.025000000000000022,
+    "search_tau": 0.025000000000000022,
+    "free_merge_error": 0.3,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.175,
+      0.475,
+      0.475,
+      0.725
+    ],
+    "centres": [
+      0.175,
+      0.475,
+      0.475,
+      0.725
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "overlap": 0.06,
+    "width": 0.0,
+    "gap": 0.0,
+    "rho": 0.5,
+    "nu": 0.03,
+    "width_lower": 0.03,
+    "exact_tau": 0.030000000000000027,
+    "free_tau": 0.0,
+    "hierarchy_excess": 0.030000000000000027,
+    "search_tau": 0.03,
+    "free_merge_error": 0.3,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.16999999999999998,
+      0.47,
+      0.47,
+      0.71
+    ],
+    "centres": [
+      0.16999999999999998,
+      0.47,
+      0.47,
+      0.71
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "overlap": 0.07,
+    "width": 0.0,
+    "gap": 0.0,
+    "rho": 0.5,
+    "nu": 0.035,
+    "width_lower": 0.035,
+    "exact_tau": 0.03500000000000003,
+    "free_tau": 0.0,
+    "hierarchy_excess": 0.03500000000000003,
+    "search_tau": 0.035,
+    "free_merge_error": 0.3,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.16499999999999998,
+      0.46499999999999997,
+      0.46499999999999997,
+      0.695
+    ],
+    "centres": [
+      0.16499999999999998,
+      0.46499999999999997,
+      0.46499999999999997,
+      0.695
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "overlap": 0.08000000000000002,
+    "width": 0.0,
+    "gap": 0.0,
+    "rho": 0.5,
+    "nu": 0.04000000000000001,
+    "width_lower": 0.04000000000000001,
+    "exact_tau": 0.040000000000000036,
+    "free_tau": 0.0,
+    "hierarchy_excess": 0.040000000000000036,
+    "search_tau": 0.04000000000000001,
+    "free_merge_error": 0.3,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.15999999999999998,
+      0.45999999999999996,
+      0.45999999999999996,
+      0.6799999999999999
+    ],
+    "centres": [
+      0.15999999999999998,
+      0.45999999999999996,
+      0.45999999999999996,
+      0.6799999999999999
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "overlap": 0.09,
+    "width": 0.0,
+    "gap": 0.0,
+    "rho": 0.5,
+    "nu": 0.044999999999999984,
+    "width_lower": 0.044999999999999984,
+    "exact_tau": 0.044999999999999984,
+    "free_tau": 0.0,
+    "hierarchy_excess": 0.044999999999999984,
+    "search_tau": 0.044999999999999984,
+    "free_merge_error": 0.3,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.15500000000000003,
+      0.455,
+      0.455,
+      0.665
+    ],
+    "centres": [
+      0.15500000000000003,
+      0.455,
+      0.455,
+      0.665
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "overlap": 0.1,
+    "width": 0.0,
+    "gap": 0.0,
+    "rho": 0.5,
+    "nu": 0.04999999999999999,
+    "width_lower": 0.04999999999999999,
+    "exact_tau": 0.04999999999999999,
+    "free_tau": 0.0,
+    "hierarchy_excess": 0.04999999999999999,
+    "search_tau": 0.04999999999999999,
+    "free_merge_error": 0.3,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.15000000000000002,
+      0.45,
+      0.45,
+      0.6500000000000001
+    ],
+    "centres": [
+      0.15000000000000002,
+      0.45,
+      0.45,
+      0.6500000000000001
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "overlap": 0.11000000000000001,
+    "width": 0.0,
+    "gap": 0.0,
+    "rho": 0.5,
+    "nu": 0.05499999999999999,
+    "width_lower": 0.05499999999999999,
+    "exact_tau": 0.05499999999999999,
+    "free_tau": 0.0,
+    "hierarchy_excess": 0.05499999999999999,
+    "search_tau": 0.05499999999999999,
+    "free_merge_error": 0.3,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.14500000000000002,
+      0.445,
+      0.445,
+      0.635
+    ],
+    "centres": [
+      0.14500000000000002,
+      0.445,
+      0.445,
+      0.635
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "overlap": 0.12,
+    "width": 0.0,
+    "gap": 0.0,
+    "rho": 0.5,
+    "nu": 0.06,
+    "width_lower": 0.06,
+    "exact_tau": 0.06,
+    "free_tau": 0.0,
+    "hierarchy_excess": 0.06,
+    "search_tau": 0.06,
+    "free_merge_error": 0.3,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.14,
+      0.44,
+      0.44,
+      0.6200000000000001
+    ],
+    "centres": [
+      0.14,
+      0.44,
+      0.44,
+      0.6200000000000001
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "overlap": 0.13,
+    "width": 0.0,
+    "gap": 0.0,
+    "rho": 0.5,
+    "nu": 0.065,
+    "width_lower": 0.065,
+    "exact_tau": 0.065,
+    "free_tau": 0.0,
+    "hierarchy_excess": 0.065,
+    "search_tau": 0.065,
+    "free_merge_error": 0.3,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.135,
+      0.435,
+      0.435,
+      0.605
+    ],
+    "centres": [
+      0.135,
+      0.435,
+      0.435,
+      0.605
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "overlap": 0.14,
+    "width": 0.0,
+    "gap": 0.0,
+    "rho": 0.5,
+    "nu": 0.07,
+    "width_lower": 0.07,
+    "exact_tau": 0.07,
+    "free_tau": 0.0,
+    "hierarchy_excess": 0.07,
+    "search_tau": 0.07,
+    "free_merge_error": 0.3,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.13,
+      0.43,
+      0.43,
+      0.5900000000000001
+    ],
+    "centres": [
+      0.13,
+      0.43,
+      0.43,
+      0.5900000000000001
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "overlap": 0.15000000000000002,
+    "width": 0.0,
+    "gap": 0.0,
+    "rho": 0.5,
+    "nu": 0.07500000000000001,
+    "width_lower": 0.07500000000000001,
+    "exact_tau": 0.07500000000000001,
+    "free_tau": 0.0,
+    "hierarchy_excess": 0.07500000000000001,
+    "search_tau": 0.07500000000000001,
+    "free_merge_error": 0.3,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.125,
+      0.425,
+      0.425,
+      0.575
+    ],
+    "centres": [
+      0.125,
+      0.425,
+      0.425,
+      0.575
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "overlap": 0.16000000000000003,
+    "width": 0.0,
+    "gap": 0.0,
+    "rho": 0.5,
+    "nu": 0.08000000000000002,
+    "width_lower": 0.08000000000000002,
+    "exact_tau": 0.08000000000000002,
+    "free_tau": 0.0,
+    "hierarchy_excess": 0.08000000000000002,
+    "search_tau": 0.08000000000000002,
+    "free_merge_error": 0.3,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.12,
+      0.42,
+      0.42,
+      0.56
+    ],
+    "centres": [
+      0.12,
+      0.42,
+      0.42,
+      0.56
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "overlap": 0.16999999999999998,
+    "width": 0.0,
+    "gap": 0.0,
+    "rho": 0.5,
+    "nu": 0.08499999999999999,
+    "width_lower": 0.08499999999999999,
+    "exact_tau": 0.08499999999999996,
+    "free_tau": 0.0,
+    "hierarchy_excess": 0.08499999999999996,
+    "search_tau": 0.08499999999999999,
+    "free_merge_error": 0.3,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.11500000000000005,
+      0.41500000000000004,
+      0.41500000000000004,
+      0.5450000000000002
+    ],
+    "centres": [
+      0.11500000000000005,
+      0.41500000000000004,
+      0.41500000000000004,
+      0.5450000000000002
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "overlap": 0.18,
+    "width": 0.0,
+    "gap": 0.0,
+    "rho": 0.5,
+    "nu": 0.09,
+    "width_lower": 0.09,
+    "exact_tau": 0.08999999999999997,
+    "free_tau": 0.0,
+    "hierarchy_excess": 0.08999999999999997,
+    "search_tau": 0.09,
+    "free_merge_error": 0.3,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.11000000000000004,
+      0.41000000000000003,
+      0.41000000000000003,
+      0.5300000000000001
+    ],
+    "centres": [
+      0.11000000000000004,
+      0.41000000000000003,
+      0.41000000000000003,
+      0.5300000000000001
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "overlap": 0.19,
+    "width": 0.0,
+    "gap": 0.0,
+    "rho": 0.5,
+    "nu": 0.095,
+    "width_lower": 0.095,
+    "exact_tau": 0.09499999999999997,
+    "free_tau": 0.0,
+    "hierarchy_excess": 0.09499999999999997,
+    "search_tau": 0.095,
+    "free_merge_error": 0.3,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.10500000000000004,
+      0.405,
+      0.405,
+      0.5150000000000001
+    ],
+    "centres": [
+      0.10500000000000004,
+      0.405,
+      0.405,
+      0.5150000000000001
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "overlap": 0.2,
+    "width": 0.0,
+    "gap": 0.0,
+    "rho": 0.5,
+    "nu": 0.1,
+    "width_lower": 0.1,
+    "exact_tau": 0.09999999999999998,
+    "free_tau": 0.0,
+    "hierarchy_excess": 0.09999999999999998,
+    "search_tau": 0.1,
+    "free_merge_error": 0.3,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.10000000000000003,
+      0.4,
+      0.4,
+      0.5000000000000001
+    ],
+    "centres": [
+      0.10000000000000003,
+      0.4,
+      0.4,
+      0.5000000000000001
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "overlap": 0.21000000000000002,
+    "width": 0.0,
+    "gap": 0.0,
+    "rho": 0.5,
+    "nu": 0.10500000000000001,
+    "width_lower": 0.10500000000000001,
+    "exact_tau": 0.10499999999999998,
+    "free_tau": 0.0,
+    "hierarchy_excess": 0.10499999999999998,
+    "search_tau": 0.10500000000000001,
+    "free_merge_error": 0.3,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.09500000000000003,
+      0.395,
+      0.395,
+      0.4850000000000001
+    ],
+    "centres": [
+      0.09500000000000003,
+      0.395,
+      0.395,
+      0.4850000000000001
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "overlap": 0.22000000000000003,
+    "width": 0.0,
+    "gap": 0.0,
+    "rho": 0.5,
+    "nu": 0.11000000000000001,
+    "width_lower": 0.11000000000000001,
+    "exact_tau": 0.10999999999999999,
+    "free_tau": 0.0,
+    "hierarchy_excess": 0.10999999999999999,
+    "search_tau": 0.11000000000000001,
+    "free_merge_error": 0.3,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.09000000000000002,
+      0.39,
+      0.39,
+      0.4700000000000001
+    ],
+    "centres": [
+      0.09000000000000002,
+      0.39,
+      0.39,
+      0.4700000000000001
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "overlap": 0.23000000000000004,
+    "width": 0.0,
+    "gap": 0.0,
+    "rho": 0.5,
+    "nu": 0.11500000000000002,
+    "width_lower": 0.11500000000000002,
+    "exact_tau": 0.11499999999999999,
+    "free_tau": 0.0,
+    "hierarchy_excess": 0.11499999999999999,
+    "search_tau": 0.11500000000000002,
+    "free_merge_error": 0.3,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.08500000000000002,
+      0.385,
+      0.385,
+      0.45500000000000007
+    ],
+    "centres": [
+      0.08500000000000002,
+      0.385,
+      0.385,
+      0.45500000000000007
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "overlap": 0.24,
+    "width": 0.0,
+    "gap": 0.0,
+    "rho": 0.5,
+    "nu": 0.12,
+    "width_lower": 0.12,
+    "exact_tau": 0.12,
+    "free_tau": 0.0,
+    "hierarchy_excess": 0.12,
+    "search_tau": 0.12,
+    "free_merge_error": 0.3,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.08000000000000002,
+      0.38,
+      0.38,
+      0.44000000000000006
+    ],
+    "centres": [
+      0.08000000000000002,
+      0.38,
+      0.38,
+      0.44000000000000006
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "overlap": 0.25,
+    "width": 0.0,
+    "gap": 0.0,
+    "rho": 0.5,
+    "nu": 0.125,
+    "width_lower": 0.125,
+    "exact_tau": 0.125,
+    "free_tau": 0.0,
+    "hierarchy_excess": 0.125,
+    "search_tau": 0.125,
+    "free_merge_error": 0.3,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.07500000000000001,
+      0.375,
+      0.375,
+      0.42500000000000004
+    ],
+    "centres": [
+      0.07500000000000001,
+      0.375,
+      0.375,
+      0.42500000000000004
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "overlap": 0.26,
+    "width": 0.0,
+    "gap": 0.0,
+    "rho": 0.5,
+    "nu": 0.13,
+    "width_lower": 0.13,
+    "exact_tau": 0.13,
+    "free_tau": 0.0,
+    "hierarchy_excess": 0.13,
+    "search_tau": 0.13,
+    "free_merge_error": 0.3,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.07,
+      0.37,
+      0.37,
+      0.41000000000000003
+    ],
+    "centres": [
+      0.07,
+      0.37,
+      0.37,
+      0.41000000000000003
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "overlap": 0.27,
+    "width": 0.0,
+    "gap": 0.0,
+    "rho": 0.5,
+    "nu": 0.135,
+    "width_lower": 0.135,
+    "exact_tau": 0.135,
+    "free_tau": 0.0,
+    "hierarchy_excess": 0.135,
+    "search_tau": 0.135,
+    "free_merge_error": 0.3,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.065,
+      0.365,
+      0.365,
+      0.395
+    ],
+    "centres": [
+      0.065,
+      0.365,
+      0.365,
+      0.395
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "overlap": 0.28,
+    "width": 0.0,
+    "gap": 0.0,
+    "rho": 0.5,
+    "nu": 0.14,
+    "width_lower": 0.14,
+    "exact_tau": 0.14,
+    "free_tau": 0.0,
+    "hierarchy_excess": 0.14,
+    "search_tau": 0.14,
+    "free_merge_error": 0.3,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.06,
+      0.36,
+      0.36,
+      0.38
+    ],
+    "centres": [
+      0.06,
+      0.36,
+      0.36,
+      0.38
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "overlap": 0.29000000000000004,
+    "width": 0.0,
+    "gap": 0.0,
+    "rho": 0.5,
+    "nu": 0.14500000000000002,
+    "width_lower": 0.14500000000000002,
+    "exact_tau": 0.14500000000000002,
+    "free_tau": 0.0,
+    "hierarchy_excess": 0.14500000000000002,
+    "search_tau": 0.14500000000000002,
+    "free_merge_error": 0.3,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.05499999999999999,
+      0.355,
+      0.355,
+      0.365
+    ],
+    "centres": [
+      0.05499999999999999,
+      0.355,
+      0.355,
+      0.365
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "overlap": 0.3,
+    "width": 0.0,
+    "gap": 0.0,
+    "rho": 0.5,
+    "nu": 0.15,
+    "width_lower": 0.15,
+    "exact_tau": 0.14999999999999997,
+    "free_tau": 0.0,
+    "hierarchy_excess": 0.14999999999999997,
+    "search_tau": 0.15,
+    "free_merge_error": 0.3,
+    "order": [
+      0,
+      1,
+      3,
+      2
+    ],
+    "x": [
+      0.050000000000000044,
+      0.35000000000000003,
+      0.35,
+      0.35
+    ],
+    "centres": [
+      0.050000000000000044,
+      0.35000000000000003,
+      0.35,
+      0.35
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "overlap": -0.12,
+    "width": 0.03,
+    "gap": 0.01,
+    "rho": 0.5,
+    "nu": 0.0,
+    "width_lower": 0.0,
+    "exact_tau": 0.0,
+    "free_tau": 0.0,
+    "hierarchy_excess": 0.0,
+    "search_tau": 0.0,
+    "free_merge_error": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.2,
+      0.5,
+      0.62,
+      0.92
+    ],
+    "centres": [
+      0.1925,
+      0.4925,
+      0.6125,
+      0.9125000000000001
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "overlap": -0.11,
+    "width": 0.03,
+    "gap": 0.01,
+    "rho": 0.5,
+    "nu": 0.0,
+    "width_lower": 0.0,
+    "exact_tau": 0.0,
+    "free_tau": 0.0,
+    "hierarchy_excess": 0.0,
+    "search_tau": 0.0,
+    "free_merge_error": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.2,
+      0.5,
+      0.61,
+      0.91
+    ],
+    "centres": [
+      0.1925,
+      0.4925,
+      0.6025,
+      0.9025000000000001
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "overlap": -0.09999999999999999,
+    "width": 0.03,
+    "gap": 0.01,
+    "rho": 0.5,
+    "nu": 0.0,
+    "width_lower": 0.0,
+    "exact_tau": 0.0,
+    "free_tau": 0.0,
+    "hierarchy_excess": 0.0,
+    "search_tau": 0.0,
+    "free_merge_error": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.2,
+      0.5,
+      0.6,
+      0.9
+    ],
+    "centres": [
+      0.1925,
+      0.4925,
+      0.5925,
+      0.8925000000000001
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "overlap": -0.09,
+    "width": 0.03,
+    "gap": 0.01,
+    "rho": 0.5,
+    "nu": 0.0,
+    "width_lower": 0.0,
+    "exact_tau": 0.0,
+    "free_tau": 0.0,
+    "hierarchy_excess": 0.0,
+    "search_tau": 0.0,
+    "free_merge_error": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.2,
+      0.5,
+      0.59,
+      0.89
+    ],
+    "centres": [
+      0.1925,
+      0.4925,
+      0.5825,
+      0.8825000000000001
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "overlap": -0.07999999999999999,
+    "width": 0.03,
+    "gap": 0.01,
+    "rho": 0.5,
+    "nu": 0.0,
+    "width_lower": 0.0,
+    "exact_tau": 0.0,
+    "free_tau": 0.0,
+    "hierarchy_excess": 0.0,
+    "search_tau": 0.0,
+    "free_merge_error": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.2,
+      0.5,
+      0.58,
+      0.88
+    ],
+    "centres": [
+      0.1925,
+      0.4925,
+      0.5725,
+      0.8725
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "overlap": -0.06999999999999999,
+    "width": 0.03,
+    "gap": 0.01,
+    "rho": 0.5,
+    "nu": 0.0,
+    "width_lower": 0.0,
+    "exact_tau": 0.0,
+    "free_tau": 0.0,
+    "hierarchy_excess": 0.0,
+    "search_tau": 0.0,
+    "free_merge_error": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.2,
+      0.5,
+      0.57,
+      0.87
+    ],
+    "centres": [
+      0.1925,
+      0.4925,
+      0.5625,
+      0.8625
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "overlap": -0.06,
+    "width": 0.03,
+    "gap": 0.01,
+    "rho": 0.5,
+    "nu": 0.0,
+    "width_lower": 0.0,
+    "exact_tau": 0.0,
+    "free_tau": 0.0,
+    "hierarchy_excess": 0.0,
+    "search_tau": 0.0,
+    "free_merge_error": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.2,
+      0.5,
+      0.56,
+      0.8600000000000001
+    ],
+    "centres": [
+      0.1925,
+      0.4925,
+      0.5525000000000001,
+      0.8525000000000001
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "overlap": -0.04999999999999999,
+    "width": 0.03,
+    "gap": 0.01,
+    "rho": 0.5,
+    "nu": 0.0,
+    "width_lower": 0.0,
+    "exact_tau": 0.0,
+    "free_tau": 0.0,
+    "hierarchy_excess": 0.0,
+    "search_tau": 0.0,
+    "free_merge_error": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.2,
+      0.5,
+      0.55,
+      0.8500000000000001
+    ],
+    "centres": [
+      0.1925,
+      0.4925,
+      0.5425000000000001,
+      0.8425000000000001
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "overlap": -0.039999999999999994,
+    "width": 0.03,
+    "gap": 0.01,
+    "rho": 0.5,
+    "nu": 0.0,
+    "width_lower": 0.0,
+    "exact_tau": 0.0,
+    "free_tau": 0.0,
+    "hierarchy_excess": 0.0,
+    "search_tau": 0.0,
+    "free_merge_error": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.2,
+      0.5,
+      0.54,
+      0.8400000000000001
+    ],
+    "centres": [
+      0.1925,
+      0.4925,
+      0.5325000000000001,
+      0.8325000000000001
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "overlap": -0.03,
+    "width": 0.03,
+    "gap": 0.01,
+    "rho": 0.5,
+    "nu": 0.0,
+    "width_lower": 0.0,
+    "exact_tau": 0.0,
+    "free_tau": 0.0,
+    "hierarchy_excess": 0.0,
+    "search_tau": 0.0,
+    "free_merge_error": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.2,
+      0.5,
+      0.53,
+      0.8300000000000001
+    ],
+    "centres": [
+      0.1925,
+      0.4925,
+      0.5325,
+      0.8225000000000001
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "overlap": -0.01999999999999999,
+    "width": 0.03,
+    "gap": 0.01,
+    "rho": 0.5,
+    "nu": 0.0,
+    "width_lower": 0.0025000000000000066,
+    "exact_tau": 0.0025000000000000022,
+    "free_tau": 0.0025000000000000022,
+    "hierarchy_excess": 0.0,
+    "search_tau": 0.002499999999999992,
+    "free_merge_error": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.1975,
+      0.4975,
+      0.5225,
+      0.8175000000000001
+    ],
+    "centres": [
+      0.19,
+      0.49,
+      0.53,
+      0.8100000000000002
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "overlap": -0.009999999999999995,
+    "width": 0.03,
+    "gap": 0.01,
+    "rho": 0.5,
+    "nu": 0.0,
+    "width_lower": 0.007499999999999983,
+    "exact_tau": 0.007500000000000007,
+    "free_tau": 0.007500000000000007,
+    "hierarchy_excess": 0.0,
+    "search_tau": 0.007499999999999996,
+    "free_merge_error": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.1925,
+      0.4925,
+      0.5175,
+      0.8025
+    ],
+    "centres": [
+      0.185,
+      0.485,
+      0.525,
+      0.795
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "overlap": 0.0,
+    "width": 0.03,
+    "gap": 0.01,
+    "rho": 0.5,
+    "nu": 0.0,
+    "width_lower": 0.012499999999999987,
+    "exact_tau": 0.012500000000000011,
+    "free_tau": 0.012499999999999956,
+    "hierarchy_excess": 5.551115123125783e-17,
+    "search_tau": 0.0125,
+    "free_merge_error": 0.3,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.1875,
+      0.4875,
+      0.5125,
+      0.7875000000000001
+    ],
+    "centres": [
+      0.18,
+      0.48,
+      0.52,
+      0.7800000000000001
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "overlap": 0.010000000000000009,
+    "width": 0.03,
+    "gap": 0.01,
+    "rho": 0.5,
+    "nu": 0.0050000000000000044,
+    "width_lower": 0.01749999999999999,
+    "exact_tau": 0.017500000000000016,
+    "free_tau": 0.007499999999999951,
+    "hierarchy_excess": 0.010000000000000064,
+    "search_tau": 0.017500000000000005,
+    "free_merge_error": 0.3,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.1825,
+      0.4825,
+      0.5075,
+      0.7725
+    ],
+    "centres": [
+      0.175,
+      0.475,
+      0.515,
+      0.765
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "overlap": 0.020000000000000018,
+    "width": 0.03,
+    "gap": 0.01,
+    "rho": 0.5,
+    "nu": 0.010000000000000009,
+    "width_lower": 0.022499999999999996,
+    "exact_tau": 0.02250000000000002,
+    "free_tau": 0.0024999999999999467,
+    "hierarchy_excess": 0.020000000000000073,
+    "search_tau": 0.02250000000000001,
+    "free_merge_error": 0.3,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.1775,
+      0.4775,
+      0.5025,
+      0.7575000000000001
+    ],
+    "centres": [
+      0.16999999999999998,
+      0.47,
+      0.51,
+      0.7500000000000001
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "overlap": 0.03,
+    "width": 0.03,
+    "gap": 0.01,
+    "rho": 0.5,
+    "nu": 0.015000000000000013,
+    "width_lower": 0.027499999999999972,
+    "exact_tau": 0.027500000000000024,
+    "free_tau": 0.0,
+    "hierarchy_excess": 0.027500000000000024,
+    "search_tau": 0.027500000000000014,
+    "free_merge_error": 0.3,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.1725,
+      0.4725,
+      0.4975,
+      0.7424999999999999
+    ],
+    "centres": [
+      0.16499999999999998,
+      0.46499999999999997,
+      0.505,
+      0.735
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "overlap": 0.04000000000000001,
+    "width": 0.03,
+    "gap": 0.01,
+    "rho": 0.5,
+    "nu": 0.020000000000000018,
+    "width_lower": 0.03249999999999998,
+    "exact_tau": 0.03250000000000003,
+    "free_tau": 0.0,
+    "hierarchy_excess": 0.03250000000000003,
+    "search_tau": 0.032500000000000015,
+    "free_merge_error": 0.3,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.16749999999999998,
+      0.46749999999999997,
+      0.4925,
+      0.7275
+    ],
+    "centres": [
+      0.15999999999999998,
+      0.45999999999999996,
+      0.49999999999999994,
+      0.7200000000000001
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "overlap": 0.05000000000000002,
+    "width": 0.03,
+    "gap": 0.01,
+    "rho": 0.5,
+    "nu": 0.025000000000000022,
+    "width_lower": 0.037499999999999985,
+    "exact_tau": 0.03750000000000003,
+    "free_tau": 0.0,
+    "hierarchy_excess": 0.03750000000000003,
+    "search_tau": 0.03750000000000002,
+    "free_merge_error": 0.3,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.16249999999999998,
+      0.46249999999999997,
+      0.4875,
+      0.7124999999999999
+    ],
+    "centres": [
+      0.15499999999999997,
+      0.45499999999999996,
+      0.49499999999999994,
+      0.705
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "overlap": 0.06,
+    "width": 0.03,
+    "gap": 0.01,
+    "rho": 0.5,
+    "nu": 0.03,
+    "width_lower": 0.04249999999999996,
+    "exact_tau": 0.04250000000000004,
+    "free_tau": 0.0,
+    "hierarchy_excess": 0.04250000000000004,
+    "search_tau": 0.042499999999999996,
+    "free_merge_error": 0.3,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.15749999999999997,
+      0.45749999999999996,
+      0.4825,
+      0.6975
+    ],
+    "centres": [
+      0.14999999999999997,
+      0.44999999999999996,
+      0.48999999999999994,
+      0.6900000000000001
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "overlap": 0.07,
+    "width": 0.03,
+    "gap": 0.01,
+    "rho": 0.5,
+    "nu": 0.035,
+    "width_lower": 0.047499999999999966,
+    "exact_tau": 0.04750000000000004,
+    "free_tau": 0.0,
+    "hierarchy_excess": 0.04750000000000004,
+    "search_tau": 0.0475,
+    "free_merge_error": 0.3,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.15249999999999997,
+      0.45249999999999996,
+      0.4775,
+      0.6824999999999999
+    ],
+    "centres": [
+      0.14499999999999996,
+      0.44499999999999995,
+      0.48499999999999993,
+      0.6749999999999999
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "overlap": 0.08000000000000002,
+    "width": 0.03,
+    "gap": 0.01,
+    "rho": 0.5,
+    "nu": 0.04000000000000001,
+    "width_lower": 0.05249999999999997,
+    "exact_tau": 0.05250000000000005,
+    "free_tau": 0.0,
+    "hierarchy_excess": 0.05250000000000005,
+    "search_tau": 0.052500000000000005,
+    "free_merge_error": 0.3,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.14749999999999996,
+      0.44749999999999995,
+      0.4725,
+      0.6675
+    ],
+    "centres": [
+      0.13999999999999996,
+      0.43999999999999995,
+      0.4799999999999999,
+      0.66
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "overlap": 0.09,
+    "width": 0.03,
+    "gap": 0.01,
+    "rho": 0.5,
+    "nu": 0.044999999999999984,
+    "width_lower": 0.05749999999999995,
+    "exact_tau": 0.057499999999999996,
+    "free_tau": 0.0,
+    "hierarchy_excess": 0.057499999999999996,
+    "search_tau": 0.05749999999999998,
+    "free_merge_error": 0.3,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.14250000000000002,
+      0.4425,
+      0.4675,
+      0.6525000000000001
+    ],
+    "centres": [
+      0.135,
+      0.435,
+      0.475,
+      0.6450000000000001
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "overlap": 0.1,
+    "width": 0.03,
+    "gap": 0.01,
+    "rho": 0.5,
+    "nu": 0.04999999999999999,
+    "width_lower": 0.06249999999999995,
+    "exact_tau": 0.0625,
+    "free_tau": 0.0,
+    "hierarchy_excess": 0.0625,
+    "search_tau": 0.062499999999999986,
+    "free_merge_error": 0.3,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.1375,
+      0.4375,
+      0.4625,
+      0.6375000000000001
+    ],
+    "centres": [
+      0.13,
+      0.43,
+      0.47,
+      0.6300000000000001
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "overlap": 0.11000000000000001,
+    "width": 0.03,
+    "gap": 0.01,
+    "rho": 0.5,
+    "nu": 0.05499999999999999,
+    "width_lower": 0.06749999999999995,
+    "exact_tau": 0.0675,
+    "free_tau": 0.0,
+    "hierarchy_excess": 0.0675,
+    "search_tau": 0.06749999999999999,
+    "free_merge_error": 0.3,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.1325,
+      0.4325,
+      0.4575,
+      0.6225
+    ],
+    "centres": [
+      0.125,
+      0.425,
+      0.46499999999999997,
+      0.6150000000000001
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "overlap": 0.12,
+    "width": 0.03,
+    "gap": 0.01,
+    "rho": 0.5,
+    "nu": 0.06,
+    "width_lower": 0.07249999999999995,
+    "exact_tau": 0.07250000000000001,
+    "free_tau": 0.0,
+    "hierarchy_excess": 0.07250000000000001,
+    "search_tau": 0.0725,
+    "free_merge_error": 0.3,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.1275,
+      0.4275,
+      0.4525,
+      0.6075
+    ],
+    "centres": [
+      0.12,
+      0.42,
+      0.45999999999999996,
+      0.6000000000000001
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "overlap": 0.13,
+    "width": 0.03,
+    "gap": 0.01,
+    "rho": 0.5,
+    "nu": 0.065,
+    "width_lower": 0.07749999999999996,
+    "exact_tau": 0.07750000000000001,
+    "free_tau": 0.0,
+    "hierarchy_excess": 0.07750000000000001,
+    "search_tau": 0.0775,
+    "free_merge_error": 0.3,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.1225,
+      0.4225,
+      0.4475,
+      0.5925
+    ],
+    "centres": [
+      0.11499999999999999,
+      0.415,
+      0.45499999999999996,
+      0.5850000000000001
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "overlap": 0.14,
+    "width": 0.03,
+    "gap": 0.01,
+    "rho": 0.5,
+    "nu": 0.07,
+    "width_lower": 0.08249999999999996,
+    "exact_tau": 0.08250000000000002,
+    "free_tau": 0.0,
+    "hierarchy_excess": 0.08250000000000002,
+    "search_tau": 0.0825,
+    "free_merge_error": 0.3,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.1175,
+      0.4175,
+      0.4425,
+      0.5775
+    ],
+    "centres": [
+      0.10999999999999999,
+      0.41,
+      0.44999999999999996,
+      0.5700000000000001
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "overlap": 0.15000000000000002,
+    "width": 0.03,
+    "gap": 0.01,
+    "rho": 0.5,
+    "nu": 0.07500000000000001,
+    "width_lower": 0.08749999999999997,
+    "exact_tau": 0.08750000000000002,
+    "free_tau": 0.0,
+    "hierarchy_excess": 0.08750000000000002,
+    "search_tau": 0.08750000000000001,
+    "free_merge_error": 0.3,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.11249999999999999,
+      0.4125,
+      0.4375,
+      0.5625
+    ],
+    "centres": [
+      0.10499999999999998,
+      0.40499999999999997,
+      0.44499999999999995,
+      0.555
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "overlap": 0.16000000000000003,
+    "width": 0.03,
+    "gap": 0.01,
+    "rho": 0.5,
+    "nu": 0.08000000000000002,
+    "width_lower": 0.09249999999999997,
+    "exact_tau": 0.09250000000000003,
+    "free_tau": 0.0,
+    "hierarchy_excess": 0.09250000000000003,
+    "search_tau": 0.0925,
+    "free_merge_error": 0.3,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.10749999999999998,
+      0.4075,
+      0.4325,
+      0.5475
+    ],
+    "centres": [
+      0.09999999999999998,
+      0.39999999999999997,
+      0.43999999999999995,
+      0.54
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "overlap": 0.16999999999999998,
+    "width": 0.03,
+    "gap": 0.01,
+    "rho": 0.5,
+    "nu": 0.08499999999999999,
+    "width_lower": 0.09749999999999995,
+    "exact_tau": 0.09749999999999998,
+    "free_tau": 0.0,
+    "hierarchy_excess": 0.09749999999999998,
+    "search_tau": 0.0975,
+    "free_merge_error": 0.3,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.10250000000000004,
+      0.4025,
+      0.42750000000000005,
+      0.5325000000000002
+    ],
+    "centres": [
+      0.09500000000000003,
+      0.395,
+      0.435,
+      0.5250000000000002
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "overlap": 0.18,
+    "width": 0.03,
+    "gap": 0.01,
+    "rho": 0.5,
+    "nu": 0.09,
+    "width_lower": 0.10249999999999995,
+    "exact_tau": 0.10249999999999998,
+    "free_tau": 0.0,
+    "hierarchy_excess": 0.10249999999999998,
+    "search_tau": 0.10250000000000001,
+    "free_merge_error": 0.3,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.09750000000000003,
+      0.3975,
+      0.42250000000000004,
+      0.5175000000000001
+    ],
+    "centres": [
+      0.09000000000000002,
+      0.39,
+      0.43,
+      0.5100000000000001
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "overlap": 0.19,
+    "width": 0.03,
+    "gap": 0.01,
+    "rho": 0.5,
+    "nu": 0.095,
+    "width_lower": 0.10749999999999996,
+    "exact_tau": 0.10749999999999998,
+    "free_tau": 0.0,
+    "hierarchy_excess": 0.10749999999999998,
+    "search_tau": 0.10750000000000001,
+    "free_merge_error": 0.3,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.09250000000000003,
+      0.3925,
+      0.41750000000000004,
+      0.5025000000000002
+    ],
+    "centres": [
+      0.08500000000000002,
+      0.385,
+      0.425,
+      0.49500000000000016
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "overlap": 0.2,
+    "width": 0.03,
+    "gap": 0.01,
+    "rho": 0.5,
+    "nu": 0.1,
+    "width_lower": 0.11249999999999996,
+    "exact_tau": 0.11249999999999999,
+    "free_tau": 0.0,
+    "hierarchy_excess": 0.11249999999999999,
+    "search_tau": 0.11250000000000002,
+    "free_merge_error": 0.3,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.08750000000000002,
+      0.3875,
+      0.41250000000000003,
+      0.4875000000000001
+    ],
+    "centres": [
+      0.08000000000000002,
+      0.38,
+      0.42,
+      0.4800000000000001
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "overlap": 0.21000000000000002,
+    "width": 0.03,
+    "gap": 0.01,
+    "rho": 0.5,
+    "nu": 0.10500000000000001,
+    "width_lower": 0.11749999999999997,
+    "exact_tau": 0.1175,
+    "free_tau": 0.0,
+    "hierarchy_excess": 0.1175,
+    "search_tau": 0.11750000000000002,
+    "free_merge_error": 0.3,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.08250000000000002,
+      0.3825,
+      0.40750000000000003,
+      0.4725000000000001
+    ],
+    "centres": [
+      0.07500000000000001,
+      0.375,
+      0.415,
+      0.4650000000000001
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "overlap": 0.22000000000000003,
+    "width": 0.03,
+    "gap": 0.01,
+    "rho": 0.5,
+    "nu": 0.11000000000000001,
+    "width_lower": 0.12249999999999997,
+    "exact_tau": 0.1225,
+    "free_tau": 0.0,
+    "hierarchy_excess": 0.1225,
+    "search_tau": 0.12250000000000003,
+    "free_merge_error": 0.3,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.07750000000000001,
+      0.3775,
+      0.4025,
+      0.4575000000000001
+    ],
+    "centres": [
+      0.07,
+      0.37,
+      0.41,
+      0.45000000000000007
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "overlap": 0.23000000000000004,
+    "width": 0.03,
+    "gap": 0.01,
+    "rho": 0.5,
+    "nu": 0.11500000000000002,
+    "width_lower": 0.12749999999999997,
+    "exact_tau": 0.1275,
+    "free_tau": 0.0,
+    "hierarchy_excess": 0.1275,
+    "search_tau": 0.12750000000000003,
+    "free_merge_error": 0.3,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.07250000000000001,
+      0.3725,
+      0.3975,
+      0.44250000000000006
+    ],
+    "centres": [
+      0.065,
+      0.365,
+      0.40499999999999997,
+      0.44499999999999995
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "overlap": 0.24,
+    "width": 0.03,
+    "gap": 0.01,
+    "rho": 0.5,
+    "nu": 0.12,
+    "width_lower": 0.13249999999999995,
+    "exact_tau": 0.1325,
+    "free_tau": 0.0,
+    "hierarchy_excess": 0.1325,
+    "search_tau": 0.13249999999999998,
+    "free_merge_error": 0.3,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.0675,
+      0.3675,
+      0.3925,
+      0.43249999999999994
+    ],
+    "centres": [
+      0.060000000000000005,
+      0.36,
+      0.39999999999999997,
+      0.43999999999999995
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "overlap": 0.25,
+    "width": 0.03,
+    "gap": 0.01,
+    "rho": 0.5,
+    "nu": 0.125,
+    "width_lower": 0.13749999999999996,
+    "exact_tau": 0.1375,
+    "free_tau": 0.0,
+    "hierarchy_excess": 0.1375,
+    "search_tau": 0.13749999999999998,
+    "free_merge_error": 0.3,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.0625,
+      0.3625,
+      0.3875,
+      0.42749999999999994
+    ],
+    "centres": [
+      0.055,
+      0.355,
+      0.39499999999999996,
+      0.43499999999999994
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "overlap": 0.26,
+    "width": 0.03,
+    "gap": 0.01,
+    "rho": 0.5,
+    "nu": 0.13,
+    "width_lower": 0.14249999999999996,
+    "exact_tau": 0.14250000000000002,
+    "free_tau": 0.0,
+    "hierarchy_excess": 0.14250000000000002,
+    "search_tau": 0.1425,
+    "free_merge_error": 0.3,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.057499999999999996,
+      0.3575,
+      0.3825,
+      0.42249999999999993
+    ],
+    "centres": [
+      0.049999999999999996,
+      0.35,
+      0.38999999999999996,
+      0.42999999999999994
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "overlap": 0.27,
+    "width": 0.03,
+    "gap": 0.01,
+    "rho": 0.5,
+    "nu": 0.135,
+    "width_lower": 0.14749999999999996,
+    "exact_tau": 0.14750000000000002,
+    "free_tau": 0.0,
+    "hierarchy_excess": 0.14750000000000002,
+    "search_tau": 0.1475,
+    "free_merge_error": 0.3,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.05249999999999999,
+      0.3525,
+      0.3775,
+      0.4174999999999999
+    ],
+    "centres": [
+      0.04499999999999999,
+      0.345,
+      0.38499999999999995,
+      0.42499999999999993
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "overlap": 0.28,
+    "width": 0.03,
+    "gap": 0.01,
+    "rho": 0.5,
+    "nu": 0.14,
+    "width_lower": 0.15249999999999997,
+    "exact_tau": 0.15250000000000002,
+    "free_tau": 0.00250000000000003,
+    "hierarchy_excess": 0.15,
+    "search_tau": 0.1525,
+    "free_merge_error": 0.3,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.04749999999999999,
+      0.3475,
+      0.3725,
+      0.4124999999999999
+    ],
+    "centres": [
+      0.03999999999999999,
+      0.33999999999999997,
+      0.37999999999999995,
+      0.41999999999999993
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "overlap": 0.29000000000000004,
+    "width": 0.03,
+    "gap": 0.01,
+    "rho": 0.5,
+    "nu": 0.14500000000000002,
+    "width_lower": 0.15749999999999997,
+    "exact_tau": 0.15750000000000003,
+    "free_tau": 0.007500000000000034,
+    "hierarchy_excess": 0.15,
+    "search_tau": 0.1575,
+    "free_merge_error": 0.3,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.04249999999999998,
+      0.34249999999999997,
+      0.3675,
+      0.4074999999999999
+    ],
+    "centres": [
+      0.03499999999999998,
+      0.33499999999999996,
+      0.37499999999999994,
+      0.4149999999999999
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "overlap": 0.3,
+    "width": 0.03,
+    "gap": 0.01,
+    "rho": 0.5,
+    "nu": 0.15,
+    "width_lower": 0.16249999999999998,
+    "exact_tau": 0.16249999999999998,
+    "free_tau": 0.012499999999999956,
+    "hierarchy_excess": 0.15000000000000002,
+    "search_tau": 0.1625,
+    "free_merge_error": 0.3,
+    "order": [
+      2,
+      3,
+      0,
+      1
+    ],
+    "x": [
+      0.3625,
+      0.40249999999999997,
+      0.03750000000000003,
+      0.33749999999999997
+    ],
+    "centres": [
+      0.37,
+      0.41,
+      0.030000000000000034,
+      0.33
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      2,
+      3,
+      1
+    ]
+  },
+  {
+    "overlap": -0.12,
+    "width": 0.06,
+    "gap": 0.01,
+    "rho": 0.5,
+    "nu": 0.0,
+    "width_lower": 0.0,
+    "exact_tau": 0.0,
+    "free_tau": 0.0,
+    "hierarchy_excess": 0.0,
+    "search_tau": 0.0,
+    "free_merge_error": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.2,
+      0.5,
+      0.62,
+      0.92
+    ],
+    "centres": [
+      0.185,
+      0.485,
+      0.605,
+      0.905
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "overlap": -0.11,
+    "width": 0.06,
+    "gap": 0.01,
+    "rho": 0.5,
+    "nu": 0.0,
+    "width_lower": 0.0,
+    "exact_tau": 0.0,
+    "free_tau": 0.0,
+    "hierarchy_excess": 0.0,
+    "search_tau": 0.0,
+    "free_merge_error": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.2,
+      0.5,
+      0.61,
+      0.91
+    ],
+    "centres": [
+      0.185,
+      0.485,
+      0.595,
+      0.895
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "overlap": -0.09999999999999999,
+    "width": 0.06,
+    "gap": 0.01,
+    "rho": 0.5,
+    "nu": 0.0,
+    "width_lower": 0.0,
+    "exact_tau": 0.0,
+    "free_tau": 0.0,
+    "hierarchy_excess": 0.0,
+    "search_tau": 0.0,
+    "free_merge_error": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.2,
+      0.5,
+      0.6,
+      0.9
+    ],
+    "centres": [
+      0.185,
+      0.485,
+      0.585,
+      0.885
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "overlap": -0.09,
+    "width": 0.06,
+    "gap": 0.01,
+    "rho": 0.5,
+    "nu": 0.0,
+    "width_lower": 0.0,
+    "exact_tau": 0.0,
+    "free_tau": 0.0,
+    "hierarchy_excess": 0.0,
+    "search_tau": 0.0,
+    "free_merge_error": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.2,
+      0.5,
+      0.59,
+      0.89
+    ],
+    "centres": [
+      0.185,
+      0.485,
+      0.575,
+      0.875
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "overlap": -0.07999999999999999,
+    "width": 0.06,
+    "gap": 0.01,
+    "rho": 0.5,
+    "nu": 0.0,
+    "width_lower": 0.0,
+    "exact_tau": 0.0,
+    "free_tau": 0.0,
+    "hierarchy_excess": 0.0,
+    "search_tau": 0.0,
+    "free_merge_error": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.2,
+      0.5,
+      0.58,
+      0.88
+    ],
+    "centres": [
+      0.185,
+      0.485,
+      0.565,
+      0.865
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "overlap": -0.06999999999999999,
+    "width": 0.06,
+    "gap": 0.01,
+    "rho": 0.5,
+    "nu": 0.0,
+    "width_lower": 0.0,
+    "exact_tau": 0.0,
+    "free_tau": 0.0,
+    "hierarchy_excess": 0.0,
+    "search_tau": 0.0,
+    "free_merge_error": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.2,
+      0.5,
+      0.57,
+      0.87
+    ],
+    "centres": [
+      0.185,
+      0.485,
+      0.5549999999999999,
+      0.855
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "overlap": -0.06,
+    "width": 0.06,
+    "gap": 0.01,
+    "rho": 0.5,
+    "nu": 0.0,
+    "width_lower": 0.0,
+    "exact_tau": 0.0,
+    "free_tau": 0.0,
+    "hierarchy_excess": 0.0,
+    "search_tau": 0.0,
+    "free_merge_error": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.2,
+      0.5,
+      0.56,
+      0.8600000000000001
+    ],
+    "centres": [
+      0.185,
+      0.485,
+      0.5549999999999999,
+      0.8450000000000001
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "overlap": -0.04999999999999999,
+    "width": 0.06,
+    "gap": 0.01,
+    "rho": 0.5,
+    "nu": 0.0,
+    "width_lower": 0.0,
+    "exact_tau": 0.0,
+    "free_tau": 0.0,
+    "hierarchy_excess": 0.0,
+    "search_tau": 0.0,
+    "free_merge_error": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.2,
+      0.5,
+      0.55,
+      0.8500000000000001
+    ],
+    "centres": [
+      0.185,
+      0.485,
+      0.5549999999999999,
+      0.8350000000000001
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "overlap": -0.039999999999999994,
+    "width": 0.06,
+    "gap": 0.01,
+    "rho": 0.5,
+    "nu": 0.0,
+    "width_lower": 0.0,
+    "exact_tau": 0.0,
+    "free_tau": 0.0,
+    "hierarchy_excess": 0.0,
+    "search_tau": 0.0,
+    "free_merge_error": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.2,
+      0.5,
+      0.54,
+      0.8400000000000001
+    ],
+    "centres": [
+      0.185,
+      0.485,
+      0.5549999999999999,
+      0.8250000000000001
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "overlap": -0.03,
+    "width": 0.06,
+    "gap": 0.01,
+    "rho": 0.5,
+    "nu": 0.0,
+    "width_lower": 0.004999999999999898,
+    "exact_tau": 0.0050000000000000044,
+    "free_tau": 0.0050000000000000044,
+    "hierarchy_excess": 0.0,
+    "search_tau": 0.004999999999999984,
+    "free_merge_error": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.195,
+      0.495,
+      0.535,
+      0.8250000000000001
+    ],
+    "centres": [
+      0.18,
+      0.48,
+      0.5499999999999999,
+      0.81
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "overlap": -0.01999999999999999,
+    "width": 0.06,
+    "gap": 0.01,
+    "rho": 0.5,
+    "nu": 0.0,
+    "width_lower": 0.009999999999999929,
+    "exact_tau": 0.010000000000000009,
+    "free_tau": 0.010000000000000009,
+    "hierarchy_excess": 0.0,
+    "search_tau": 0.009999999999999988,
+    "free_merge_error": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.19,
+      0.49,
+      0.53,
+      0.81
+    ],
+    "centres": [
+      0.175,
+      0.475,
+      0.5449999999999999,
+      0.795
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "overlap": -0.009999999999999995,
+    "width": 0.06,
+    "gap": 0.01,
+    "rho": 0.5,
+    "nu": 0.0,
+    "width_lower": 0.014999999999999934,
+    "exact_tau": 0.015000000000000013,
+    "free_tau": 0.015000000000000013,
+    "hierarchy_excess": 0.0,
+    "search_tau": 0.014999999999999993,
+    "free_merge_error": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.185,
+      0.485,
+      0.525,
+      0.795
+    ],
+    "centres": [
+      0.16999999999999998,
+      0.47,
+      0.5399999999999999,
+      0.78
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "overlap": 0.0,
+    "width": 0.06,
+    "gap": 0.01,
+    "rho": 0.5,
+    "nu": 0.0,
+    "width_lower": 0.019999999999999938,
+    "exact_tau": 0.020000000000000018,
+    "free_tau": 0.020000000000000018,
+    "hierarchy_excess": 0.0,
+    "search_tau": 0.019999999999999997,
+    "free_merge_error": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.18,
+      0.48,
+      0.52,
+      0.78
+    ],
+    "centres": [
+      0.16499999999999998,
+      0.46499999999999997,
+      0.5349999999999999,
+      0.765
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "overlap": 0.010000000000000009,
+    "width": 0.06,
+    "gap": 0.01,
+    "rho": 0.5,
+    "nu": 0.0050000000000000044,
+    "width_lower": 0.024999999999999942,
+    "exact_tau": 0.025000000000000022,
+    "free_tau": 0.015000000000000013,
+    "hierarchy_excess": 0.010000000000000009,
+    "search_tau": 0.025,
+    "free_merge_error": 0.3,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.175,
+      0.475,
+      0.515,
+      0.765
+    ],
+    "centres": [
+      0.15999999999999998,
+      0.45999999999999996,
+      0.5299999999999999,
+      0.75
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "overlap": 0.020000000000000018,
+    "width": 0.06,
+    "gap": 0.01,
+    "rho": 0.5,
+    "nu": 0.010000000000000009,
+    "width_lower": 0.029999999999999947,
+    "exact_tau": 0.030000000000000027,
+    "free_tau": 0.010000000000000009,
+    "hierarchy_excess": 0.020000000000000018,
+    "search_tau": 0.030000000000000006,
+    "free_merge_error": 0.3,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.16999999999999998,
+      0.47,
+      0.51,
+      0.75
+    ],
+    "centres": [
+      0.15499999999999997,
+      0.45499999999999996,
+      0.5249999999999999,
+      0.735
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "overlap": 0.03,
+    "width": 0.06,
+    "gap": 0.01,
+    "rho": 0.5,
+    "nu": 0.015000000000000013,
+    "width_lower": 0.034999999999999955,
+    "exact_tau": 0.03500000000000003,
+    "free_tau": 0.0050000000000000044,
+    "hierarchy_excess": 0.030000000000000027,
+    "search_tau": 0.03500000000000001,
+    "free_merge_error": 0.3,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.16499999999999998,
+      0.46499999999999997,
+      0.505,
+      0.735
+    ],
+    "centres": [
+      0.14999999999999997,
+      0.44999999999999996,
+      0.5199999999999999,
+      0.72
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "overlap": 0.04000000000000001,
+    "width": 0.06,
+    "gap": 0.01,
+    "rho": 0.5,
+    "nu": 0.020000000000000018,
+    "width_lower": 0.03999999999999996,
+    "exact_tau": 0.040000000000000036,
+    "free_tau": 0.0,
+    "hierarchy_excess": 0.040000000000000036,
+    "search_tau": 0.040000000000000015,
+    "free_merge_error": 0.3,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.15999999999999998,
+      0.45999999999999996,
+      0.49999999999999994,
+      0.72
+    ],
+    "centres": [
+      0.14499999999999996,
+      0.44499999999999995,
+      0.5149999999999999,
+      0.705
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "overlap": 0.05000000000000002,
+    "width": 0.06,
+    "gap": 0.01,
+    "rho": 0.5,
+    "nu": 0.025000000000000022,
+    "width_lower": 0.044999999999999964,
+    "exact_tau": 0.04500000000000004,
+    "free_tau": 0.0,
+    "hierarchy_excess": 0.04500000000000004,
+    "search_tau": 0.04500000000000002,
+    "free_merge_error": 0.3,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.15499999999999997,
+      0.45499999999999996,
+      0.49499999999999994,
+      0.705
+    ],
+    "centres": [
+      0.13999999999999996,
+      0.43999999999999995,
+      0.5099999999999999,
+      0.69
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "overlap": 0.06,
+    "width": 0.06,
+    "gap": 0.01,
+    "rho": 0.5,
+    "nu": 0.03,
+    "width_lower": 0.04999999999999997,
+    "exact_tau": 0.050000000000000044,
+    "free_tau": 0.0,
+    "hierarchy_excess": 0.050000000000000044,
+    "search_tau": 0.05,
+    "free_merge_error": 0.3,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.14999999999999997,
+      0.44999999999999996,
+      0.48999999999999994,
+      0.69
+    ],
+    "centres": [
+      0.13499999999999995,
+      0.43499999999999994,
+      0.5049999999999999,
+      0.6749999999999999
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "overlap": 0.07,
+    "width": 0.06,
+    "gap": 0.01,
+    "rho": 0.5,
+    "nu": 0.035,
+    "width_lower": 0.05499999999999997,
+    "exact_tau": 0.05500000000000005,
+    "free_tau": 0.0,
+    "hierarchy_excess": 0.05500000000000005,
+    "search_tau": 0.055,
+    "free_merge_error": 0.3,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.14499999999999996,
+      0.44499999999999995,
+      0.48499999999999993,
+      0.6749999999999999
+    ],
+    "centres": [
+      0.12999999999999995,
+      0.42999999999999994,
+      0.49999999999999994,
+      0.6599999999999999
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "overlap": 0.08000000000000002,
+    "width": 0.06,
+    "gap": 0.01,
+    "rho": 0.5,
+    "nu": 0.04000000000000001,
+    "width_lower": 0.05999999999999998,
+    "exact_tau": 0.06000000000000005,
+    "free_tau": 0.0,
+    "hierarchy_excess": 0.06000000000000005,
+    "search_tau": 0.060000000000000005,
+    "free_merge_error": 0.3,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.13999999999999996,
+      0.43999999999999995,
+      0.4799999999999999,
+      0.6599999999999999
+    ],
+    "centres": [
+      0.12499999999999996,
+      0.42499999999999993,
+      0.49499999999999994,
+      0.6449999999999999
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "overlap": 0.09,
+    "width": 0.06,
+    "gap": 0.01,
+    "rho": 0.5,
+    "nu": 0.044999999999999984,
+    "width_lower": 0.06499999999999992,
+    "exact_tau": 0.065,
+    "free_tau": 0.0,
+    "hierarchy_excess": 0.065,
+    "search_tau": 0.06499999999999997,
+    "free_merge_error": 0.3,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.135,
+      0.435,
+      0.475,
+      0.645
+    ],
+    "centres": [
+      0.12000000000000001,
+      0.42,
+      0.49,
+      0.63
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "overlap": 0.1,
+    "width": 0.06,
+    "gap": 0.01,
+    "rho": 0.5,
+    "nu": 0.04999999999999999,
+    "width_lower": 0.06999999999999992,
+    "exact_tau": 0.07,
+    "free_tau": 0.0,
+    "hierarchy_excess": 0.07,
+    "search_tau": 0.06999999999999998,
+    "free_merge_error": 0.3,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.13,
+      0.43,
+      0.47,
+      0.6300000000000001
+    ],
+    "centres": [
+      0.115,
+      0.415,
+      0.485,
+      0.6150000000000001
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "overlap": 0.11000000000000001,
+    "width": 0.06,
+    "gap": 0.01,
+    "rho": 0.5,
+    "nu": 0.05499999999999999,
+    "width_lower": 0.07499999999999993,
+    "exact_tau": 0.07500000000000001,
+    "free_tau": 0.0,
+    "hierarchy_excess": 0.07500000000000001,
+    "search_tau": 0.07499999999999998,
+    "free_merge_error": 0.3,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.125,
+      0.425,
+      0.46499999999999997,
+      0.615
+    ],
+    "centres": [
+      0.11,
+      0.41,
+      0.48,
+      0.6
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "overlap": 0.12,
+    "width": 0.06,
+    "gap": 0.01,
+    "rho": 0.5,
+    "nu": 0.06,
+    "width_lower": 0.07999999999999993,
+    "exact_tau": 0.08000000000000002,
+    "free_tau": 0.0,
+    "hierarchy_excess": 0.08000000000000002,
+    "search_tau": 0.07999999999999999,
+    "free_merge_error": 0.3,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.12,
+      0.42,
+      0.45999999999999996,
+      0.6000000000000001
+    ],
+    "centres": [
+      0.105,
+      0.40499999999999997,
+      0.475,
+      0.5850000000000001
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "overlap": 0.13,
+    "width": 0.06,
+    "gap": 0.01,
+    "rho": 0.5,
+    "nu": 0.065,
+    "width_lower": 0.08499999999999994,
+    "exact_tau": 0.08500000000000002,
+    "free_tau": 0.0,
+    "hierarchy_excess": 0.08500000000000002,
+    "search_tau": 0.08499999999999999,
+    "free_merge_error": 0.3,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.11499999999999999,
+      0.415,
+      0.45499999999999996,
+      0.585
+    ],
+    "centres": [
+      0.09999999999999999,
+      0.39999999999999997,
+      0.47,
+      0.57
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "overlap": 0.14,
+    "width": 0.06,
+    "gap": 0.01,
+    "rho": 0.5,
+    "nu": 0.07,
+    "width_lower": 0.08999999999999994,
+    "exact_tau": 0.09000000000000002,
+    "free_tau": 0.0,
+    "hierarchy_excess": 0.09000000000000002,
+    "search_tau": 0.09,
+    "free_merge_error": 0.3,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.10999999999999999,
+      0.41,
+      0.44999999999999996,
+      0.5700000000000001
+    ],
+    "centres": [
+      0.09499999999999999,
+      0.39499999999999996,
+      0.46499999999999997,
+      0.555
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "overlap": 0.15000000000000002,
+    "width": 0.06,
+    "gap": 0.01,
+    "rho": 0.5,
+    "nu": 0.07500000000000001,
+    "width_lower": 0.09499999999999995,
+    "exact_tau": 0.09500000000000003,
+    "free_tau": 0.0,
+    "hierarchy_excess": 0.09500000000000003,
+    "search_tau": 0.095,
+    "free_merge_error": 0.3,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.10499999999999998,
+      0.40499999999999997,
+      0.44499999999999995,
+      0.5549999999999999
+    ],
+    "centres": [
+      0.08999999999999998,
+      0.38999999999999996,
+      0.45999999999999996,
+      0.5399999999999999
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "overlap": 0.16000000000000003,
+    "width": 0.06,
+    "gap": 0.01,
+    "rho": 0.5,
+    "nu": 0.08000000000000002,
+    "width_lower": 0.09999999999999995,
+    "exact_tau": 0.10000000000000003,
+    "free_tau": 0.0,
+    "hierarchy_excess": 0.10000000000000003,
+    "search_tau": 0.1,
+    "free_merge_error": 0.3,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.09999999999999998,
+      0.39999999999999997,
+      0.43999999999999995,
+      0.54
+    ],
+    "centres": [
+      0.08499999999999998,
+      0.38499999999999995,
+      0.45499999999999996,
+      0.525
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "overlap": 0.16999999999999998,
+    "width": 0.06,
+    "gap": 0.01,
+    "rho": 0.5,
+    "nu": 0.08499999999999999,
+    "width_lower": 0.10499999999999995,
+    "exact_tau": 0.10499999999999998,
+    "free_tau": 0.0,
+    "hierarchy_excess": 0.10499999999999998,
+    "search_tau": 0.10499999999999998,
+    "free_merge_error": 0.3,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.09500000000000003,
+      0.395,
+      0.435,
+      0.5250000000000001
+    ],
+    "centres": [
+      0.08000000000000003,
+      0.38,
+      0.45,
+      0.52
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "overlap": 0.18,
+    "width": 0.06,
+    "gap": 0.01,
+    "rho": 0.5,
+    "nu": 0.09,
+    "width_lower": 0.10999999999999996,
+    "exact_tau": 0.10999999999999999,
+    "free_tau": 0.0,
+    "hierarchy_excess": 0.10999999999999999,
+    "search_tau": 0.10999999999999999,
+    "free_merge_error": 0.3,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.09000000000000002,
+      0.39,
+      0.43,
+      0.5100000000000001
+    ],
+    "centres": [
+      0.07500000000000002,
+      0.375,
+      0.445,
+      0.515
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "overlap": 0.19,
+    "width": 0.06,
+    "gap": 0.01,
+    "rho": 0.5,
+    "nu": 0.095,
+    "width_lower": 0.11499999999999996,
+    "exact_tau": 0.11499999999999999,
+    "free_tau": 0.0,
+    "hierarchy_excess": 0.11499999999999999,
+    "search_tau": 0.11499999999999999,
+    "free_merge_error": 0.3,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.08500000000000002,
+      0.385,
+      0.425,
+      0.4950000000000001
+    ],
+    "centres": [
+      0.07000000000000002,
+      0.37,
+      0.44,
+      0.51
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "overlap": 0.2,
+    "width": 0.06,
+    "gap": 0.01,
+    "rho": 0.5,
+    "nu": 0.1,
+    "width_lower": 0.11999999999999997,
+    "exact_tau": 0.12,
+    "free_tau": 0.0,
+    "hierarchy_excess": 0.12,
+    "search_tau": 0.12,
+    "free_merge_error": 0.3,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.08000000000000002,
+      0.38,
+      0.42,
+      0.49
+    ],
+    "centres": [
+      0.06500000000000002,
+      0.365,
+      0.435,
+      0.505
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "overlap": 0.21000000000000002,
+    "width": 0.06,
+    "gap": 0.01,
+    "rho": 0.5,
+    "nu": 0.10500000000000001,
+    "width_lower": 0.12499999999999997,
+    "exact_tau": 0.125,
+    "free_tau": 0.0,
+    "hierarchy_excess": 0.125,
+    "search_tau": 0.125,
+    "free_merge_error": 0.3,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.07500000000000001,
+      0.375,
+      0.415,
+      0.485
+    ],
+    "centres": [
+      0.06000000000000001,
+      0.36,
+      0.43,
+      0.5
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "overlap": 0.22000000000000003,
+    "width": 0.06,
+    "gap": 0.01,
+    "rho": 0.5,
+    "nu": 0.11000000000000001,
+    "width_lower": 0.12999999999999998,
+    "exact_tau": 0.13,
+    "free_tau": 0.0,
+    "hierarchy_excess": 0.13,
+    "search_tau": 0.13,
+    "free_merge_error": 0.3,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.07,
+      0.37,
+      0.41,
+      0.48
+    ],
+    "centres": [
+      0.05500000000000001,
+      0.355,
+      0.425,
+      0.495
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "overlap": 0.23000000000000004,
+    "width": 0.06,
+    "gap": 0.01,
+    "rho": 0.5,
+    "nu": 0.11500000000000002,
+    "width_lower": 0.13499999999999998,
+    "exact_tau": 0.135,
+    "free_tau": 0.0,
+    "hierarchy_excess": 0.135,
+    "search_tau": 0.135,
+    "free_merge_error": 0.3,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.065,
+      0.365,
+      0.40499999999999997,
+      0.475
+    ],
+    "centres": [
+      0.05,
+      0.35,
+      0.42,
+      0.49
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "overlap": 0.24,
+    "width": 0.06,
+    "gap": 0.01,
+    "rho": 0.5,
+    "nu": 0.12,
+    "width_lower": 0.13999999999999993,
+    "exact_tau": 0.14,
+    "free_tau": 0.0,
+    "hierarchy_excess": 0.14,
+    "search_tau": 0.13999999999999999,
+    "free_merge_error": 0.3,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.06,
+      0.36,
+      0.39999999999999997,
+      0.47
+    ],
+    "centres": [
+      0.045,
+      0.345,
+      0.415,
+      0.485
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "overlap": 0.25,
+    "width": 0.06,
+    "gap": 0.01,
+    "rho": 0.5,
+    "nu": 0.125,
+    "width_lower": 0.14499999999999993,
+    "exact_tau": 0.14500000000000002,
+    "free_tau": 0.0,
+    "hierarchy_excess": 0.14500000000000002,
+    "search_tau": 0.145,
+    "free_merge_error": 0.3,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.05499999999999999,
+      0.355,
+      0.39499999999999996,
+      0.46499999999999997
+    ],
+    "centres": [
+      0.039999999999999994,
+      0.33999999999999997,
+      0.41,
+      0.48
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "overlap": 0.26,
+    "width": 0.06,
+    "gap": 0.01,
+    "rho": 0.5,
+    "nu": 0.13,
+    "width_lower": 0.14999999999999994,
+    "exact_tau": 0.15000000000000002,
+    "free_tau": 0.0,
+    "hierarchy_excess": 0.15000000000000002,
+    "search_tau": 0.15,
+    "free_merge_error": 0.3,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.04999999999999999,
+      0.35,
+      0.38999999999999996,
+      0.45999999999999996
+    ],
+    "centres": [
+      0.03499999999999999,
+      0.33499999999999996,
+      0.40499999999999997,
+      0.475
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "overlap": 0.27,
+    "width": 0.06,
+    "gap": 0.01,
+    "rho": 0.5,
+    "nu": 0.135,
+    "width_lower": 0.15499999999999994,
+    "exact_tau": 0.15500000000000003,
+    "free_tau": 0.0050000000000000044,
+    "hierarchy_excess": 0.15000000000000002,
+    "search_tau": 0.155,
+    "free_merge_error": 0.3,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.044999999999999984,
+      0.345,
+      0.38499999999999995,
+      0.45499999999999996
+    ],
+    "centres": [
+      0.029999999999999985,
+      0.32999999999999996,
+      0.39999999999999997,
+      0.47
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "overlap": 0.28,
+    "width": 0.06,
+    "gap": 0.01,
+    "rho": 0.5,
+    "nu": 0.14,
+    "width_lower": 0.15999999999999998,
+    "exact_tau": 0.16000000000000003,
+    "free_tau": 0.010000000000000009,
+    "hierarchy_excess": 0.15000000000000002,
+    "search_tau": 0.16,
+    "free_merge_error": 0.3,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.03999999999999998,
+      0.33999999999999997,
+      0.37999999999999995,
+      0.44999999999999996
+    ],
+    "centres": [
+      0.03,
+      0.32499999999999996,
+      0.39499999999999996,
+      0.46499999999999997
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "overlap": 0.29000000000000004,
+    "width": 0.06,
+    "gap": 0.01,
+    "rho": 0.5,
+    "nu": 0.14500000000000002,
+    "width_lower": 0.16499999999999998,
+    "exact_tau": 0.16500000000000004,
+    "free_tau": 0.015000000000000013,
+    "hierarchy_excess": 0.15000000000000002,
+    "search_tau": 0.165,
+    "free_merge_error": 0.3,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.034999999999999976,
+      0.33499999999999996,
+      0.37499999999999994,
+      0.44499999999999995
+    ],
+    "centres": [
+      0.03,
+      0.31999999999999995,
+      0.38999999999999996,
+      0.45999999999999996
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "overlap": 0.3,
+    "width": 0.06,
+    "gap": 0.01,
+    "rho": 0.5,
+    "nu": 0.15,
+    "width_lower": 0.16999999999999996,
+    "exact_tau": 0.16999999999999998,
+    "free_tau": 0.020000000000000018,
+    "hierarchy_excess": 0.14999999999999997,
+    "search_tau": 0.16999999999999998,
+    "free_merge_error": 0.3,
+    "order": [
+      2,
+      3,
+      0,
+      1
+    ],
+    "x": [
+      0.37,
+      0.44,
+      0.030000000000000027,
+      0.33
+    ],
+    "centres": [
+      0.385,
+      0.455,
+      0.03,
+      0.315
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "overlap": -0.12,
+    "width": 0.09,
+    "gap": 0.01,
+    "rho": 0.5,
+    "nu": 0.0,
+    "width_lower": 0.0,
+    "exact_tau": 0.0,
+    "free_tau": 0.0,
+    "hierarchy_excess": 0.0,
+    "search_tau": 0.0,
+    "free_merge_error": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.2,
+      0.5,
+      0.62,
+      0.92
+    ],
+    "centres": [
+      0.17750000000000002,
+      0.4775,
+      0.5975,
+      0.8975000000000001
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "overlap": -0.11,
+    "width": 0.09,
+    "gap": 0.01,
+    "rho": 0.5,
+    "nu": 0.0,
+    "width_lower": 0.0,
+    "exact_tau": 0.0,
+    "free_tau": 0.0,
+    "hierarchy_excess": 0.0,
+    "search_tau": 0.0,
+    "free_merge_error": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.2,
+      0.5,
+      0.61,
+      0.91
+    ],
+    "centres": [
+      0.17750000000000002,
+      0.4775,
+      0.5875,
+      0.8875000000000001
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "overlap": -0.09999999999999999,
+    "width": 0.09,
+    "gap": 0.01,
+    "rho": 0.5,
+    "nu": 0.0,
+    "width_lower": 0.0,
+    "exact_tau": 0.0,
+    "free_tau": 0.0,
+    "hierarchy_excess": 0.0,
+    "search_tau": 0.0,
+    "free_merge_error": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.2,
+      0.5,
+      0.6,
+      0.9
+    ],
+    "centres": [
+      0.17750000000000002,
+      0.4775,
+      0.5775,
+      0.8775000000000001
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "overlap": -0.09,
+    "width": 0.09,
+    "gap": 0.01,
+    "rho": 0.5,
+    "nu": 0.0,
+    "width_lower": 0.0,
+    "exact_tau": 0.0,
+    "free_tau": 0.0,
+    "hierarchy_excess": 0.0,
+    "search_tau": 0.0,
+    "free_merge_error": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.2,
+      0.5,
+      0.59,
+      0.89
+    ],
+    "centres": [
+      0.17750000000000002,
+      0.4775,
+      0.5775,
+      0.8675
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "overlap": -0.07999999999999999,
+    "width": 0.09,
+    "gap": 0.01,
+    "rho": 0.5,
+    "nu": 0.0,
+    "width_lower": 0.0,
+    "exact_tau": 0.0,
+    "free_tau": 0.0,
+    "hierarchy_excess": 0.0,
+    "search_tau": 0.0,
+    "free_merge_error": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.2,
+      0.5,
+      0.58,
+      0.88
+    ],
+    "centres": [
+      0.17750000000000002,
+      0.4775,
+      0.5775,
+      0.8575
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "overlap": -0.06999999999999999,
+    "width": 0.09,
+    "gap": 0.01,
+    "rho": 0.5,
+    "nu": 0.0,
+    "width_lower": 0.0,
+    "exact_tau": 0.0,
+    "free_tau": 0.0,
+    "hierarchy_excess": 0.0,
+    "search_tau": 0.0,
+    "free_merge_error": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.2,
+      0.5,
+      0.57,
+      0.87
+    ],
+    "centres": [
+      0.17750000000000002,
+      0.4775,
+      0.5775,
+      0.8475
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "overlap": -0.06,
+    "width": 0.09,
+    "gap": 0.01,
+    "rho": 0.5,
+    "nu": 0.0,
+    "width_lower": 0.0,
+    "exact_tau": 0.0,
+    "free_tau": 0.0,
+    "hierarchy_excess": 0.0,
+    "search_tau": 0.0,
+    "free_merge_error": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.2,
+      0.5,
+      0.56,
+      0.8600000000000001
+    ],
+    "centres": [
+      0.17750000000000002,
+      0.4775,
+      0.5775,
+      0.8375000000000001
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "overlap": -0.04999999999999999,
+    "width": 0.09,
+    "gap": 0.01,
+    "rho": 0.5,
+    "nu": 0.0,
+    "width_lower": 0.002499999999999951,
+    "exact_tau": 0.0024999999999999467,
+    "free_tau": 0.0024999999999999467,
+    "hierarchy_excess": 0.0,
+    "search_tau": 0.0024999999999999814,
+    "free_merge_error": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.19750000000000006,
+      0.49750000000000005,
+      0.5525,
+      0.8475000000000001
+    ],
+    "centres": [
+      0.17500000000000007,
+      0.47500000000000003,
+      0.5750000000000001,
+      0.8250000000000002
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "overlap": -0.039999999999999994,
+    "width": 0.09,
+    "gap": 0.01,
+    "rho": 0.5,
+    "nu": 0.0,
+    "width_lower": 0.0074999999999999555,
+    "exact_tau": 0.007499999999999951,
+    "free_tau": 0.007499999999999951,
+    "hierarchy_excess": 0.0,
+    "search_tau": 0.007499999999999986,
+    "free_merge_error": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.19250000000000006,
+      0.49250000000000005,
+      0.5475,
+      0.8325000000000001
+    ],
+    "centres": [
+      0.17000000000000007,
+      0.47000000000000003,
+      0.5700000000000001,
+      0.8100000000000002
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "overlap": -0.03,
+    "width": 0.09,
+    "gap": 0.01,
+    "rho": 0.5,
+    "nu": 0.0,
+    "width_lower": 0.012499999999999959,
+    "exact_tau": 0.012499999999999956,
+    "free_tau": 0.012499999999999956,
+    "hierarchy_excess": 0.0,
+    "search_tau": 0.01249999999999999,
+    "free_merge_error": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.18750000000000006,
+      0.48750000000000004,
+      0.5425,
+      0.8175000000000001
+    ],
+    "centres": [
+      0.16500000000000006,
+      0.465,
+      0.5650000000000001,
+      0.7950000000000002
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "overlap": -0.01999999999999999,
+    "width": 0.09,
+    "gap": 0.01,
+    "rho": 0.5,
+    "nu": 0.0,
+    "width_lower": 0.017499999999999964,
+    "exact_tau": 0.01749999999999996,
+    "free_tau": 0.01749999999999996,
+    "hierarchy_excess": 0.0,
+    "search_tau": 0.017499999999999995,
+    "free_merge_error": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.18250000000000005,
+      0.48250000000000004,
+      0.5375,
+      0.8025000000000001
+    ],
+    "centres": [
+      0.16000000000000006,
+      0.46,
+      0.56,
+      0.7800000000000001
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "overlap": -0.009999999999999995,
+    "width": 0.09,
+    "gap": 0.01,
+    "rho": 0.5,
+    "nu": 0.0,
+    "width_lower": 0.022499999999999968,
+    "exact_tau": 0.022499999999999964,
+    "free_tau": 0.022499999999999964,
+    "hierarchy_excess": 0.0,
+    "search_tau": 0.022500000000000003,
+    "free_merge_error": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.17750000000000005,
+      0.47750000000000004,
+      0.5325,
+      0.7875000000000001
+    ],
+    "centres": [
+      0.15500000000000005,
+      0.455,
+      0.555,
+      0.7650000000000001
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "overlap": 0.0,
+    "width": 0.09,
+    "gap": 0.01,
+    "rho": 0.5,
+    "nu": 0.0,
+    "width_lower": 0.027499999999999972,
+    "exact_tau": 0.02749999999999997,
+    "free_tau": 0.02749999999999997,
+    "hierarchy_excess": 0.0,
+    "search_tau": 0.027500000000000007,
+    "free_merge_error": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.17250000000000004,
+      0.47250000000000003,
+      0.5275,
+      0.7725000000000001
+    ],
+    "centres": [
+      0.15000000000000005,
+      0.45,
+      0.55,
+      0.7500000000000001
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "overlap": 0.010000000000000009,
+    "width": 0.09,
+    "gap": 0.01,
+    "rho": 0.5,
+    "nu": 0.0050000000000000044,
+    "width_lower": 0.03249999999999998,
+    "exact_tau": 0.03249999999999997,
+    "free_tau": 0.022499999999999964,
+    "hierarchy_excess": 0.010000000000000009,
+    "search_tau": 0.0325,
+    "free_merge_error": 0.3,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.16750000000000004,
+      0.4675,
+      0.5225,
+      0.7575000000000001
+    ],
+    "centres": [
+      0.14500000000000005,
+      0.445,
+      0.545,
+      0.7350000000000001
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "overlap": 0.020000000000000018,
+    "width": 0.09,
+    "gap": 0.01,
+    "rho": 0.5,
+    "nu": 0.010000000000000009,
+    "width_lower": 0.037499999999999985,
+    "exact_tau": 0.03749999999999998,
+    "free_tau": 0.01749999999999996,
+    "hierarchy_excess": 0.020000000000000018,
+    "search_tau": 0.037500000000000006,
+    "free_merge_error": 0.3,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.16250000000000003,
+      0.4625,
+      0.5175,
+      0.7425
+    ],
+    "centres": [
+      0.14000000000000004,
+      0.44,
+      0.54,
+      0.7200000000000001
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "overlap": 0.03,
+    "width": 0.09,
+    "gap": 0.01,
+    "rho": 0.5,
+    "nu": 0.015000000000000013,
+    "width_lower": 0.04249999999999999,
+    "exact_tau": 0.04249999999999998,
+    "free_tau": 0.012499999999999956,
+    "hierarchy_excess": 0.030000000000000027,
+    "search_tau": 0.04250000000000001,
+    "free_merge_error": 0.3,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.15750000000000003,
+      0.4575,
+      0.5125,
+      0.7275
+    ],
+    "centres": [
+      0.13500000000000004,
+      0.435,
+      0.535,
+      0.7050000000000001
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "overlap": 0.04000000000000001,
+    "width": 0.09,
+    "gap": 0.01,
+    "rho": 0.5,
+    "nu": 0.020000000000000018,
+    "width_lower": 0.047499999999999994,
+    "exact_tau": 0.04749999999999999,
+    "free_tau": 0.007499999999999951,
+    "hierarchy_excess": 0.040000000000000036,
+    "search_tau": 0.047500000000000014,
+    "free_merge_error": 0.3,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.15250000000000002,
+      0.4525,
+      0.5075,
+      0.7125
+    ],
+    "centres": [
+      0.13000000000000003,
+      0.43,
+      0.53,
+      0.6900000000000001
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "overlap": 0.05000000000000002,
+    "width": 0.09,
+    "gap": 0.01,
+    "rho": 0.5,
+    "nu": 0.025000000000000022,
+    "width_lower": 0.0525,
+    "exact_tau": 0.05249999999999999,
+    "free_tau": 0.0024999999999999467,
+    "hierarchy_excess": 0.050000000000000044,
+    "search_tau": 0.05250000000000002,
+    "free_merge_error": 0.3,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.14750000000000002,
+      0.4475,
+      0.5025,
+      0.6975
+    ],
+    "centres": [
+      0.12500000000000003,
+      0.425,
+      0.525,
+      0.675
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "overlap": 0.06,
+    "width": 0.09,
+    "gap": 0.01,
+    "rho": 0.5,
+    "nu": 0.03,
+    "width_lower": 0.0575,
+    "exact_tau": 0.057499999999999996,
+    "free_tau": 0.0,
+    "hierarchy_excess": 0.057499999999999996,
+    "search_tau": 0.05750000000000002,
+    "free_merge_error": 0.3,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.14250000000000002,
+      0.4425,
+      0.4975,
+      0.6825
+    ],
+    "centres": [
+      0.12000000000000002,
+      0.42,
+      0.52,
+      0.66
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "overlap": 0.07,
+    "width": 0.09,
+    "gap": 0.01,
+    "rho": 0.5,
+    "nu": 0.035,
+    "width_lower": 0.06249999999999998,
+    "exact_tau": 0.0625,
+    "free_tau": 0.0,
+    "hierarchy_excess": 0.0625,
+    "search_tau": 0.06250000000000003,
+    "free_merge_error": 0.3,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.1375,
+      0.4375,
+      0.4925,
+      0.6675
+    ],
+    "centres": [
+      0.11500000000000002,
+      0.415,
+      0.515,
+      0.645
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "overlap": 0.08000000000000002,
+    "width": 0.09,
+    "gap": 0.01,
+    "rho": 0.5,
+    "nu": 0.04000000000000001,
+    "width_lower": 0.06749999999999998,
+    "exact_tau": 0.0675,
+    "free_tau": 0.0,
+    "hierarchy_excess": 0.0675,
+    "search_tau": 0.06750000000000003,
+    "free_merge_error": 0.3,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.1325,
+      0.4325,
+      0.4875,
+      0.6525
+    ],
+    "centres": [
+      0.11000000000000001,
+      0.41,
+      0.51,
+      0.63
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "overlap": 0.09,
+    "width": 0.09,
+    "gap": 0.01,
+    "rho": 0.5,
+    "nu": 0.044999999999999984,
+    "width_lower": 0.07249999999999995,
+    "exact_tau": 0.07249999999999995,
+    "free_tau": 0.0,
+    "hierarchy_excess": 0.07249999999999995,
+    "search_tau": 0.07249999999999998,
+    "free_merge_error": 0.3,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.12750000000000006,
+      0.42750000000000005,
+      0.48250000000000004,
+      0.6375000000000002
+    ],
+    "centres": [
+      0.10500000000000007,
+      0.405,
+      0.505,
+      0.6150000000000002
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "overlap": 0.1,
+    "width": 0.09,
+    "gap": 0.01,
+    "rho": 0.5,
+    "nu": 0.04999999999999999,
+    "width_lower": 0.07749999999999996,
+    "exact_tau": 0.07749999999999996,
+    "free_tau": 0.0,
+    "hierarchy_excess": 0.07749999999999996,
+    "search_tau": 0.07749999999999999,
+    "free_merge_error": 0.3,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.12250000000000005,
+      0.42250000000000004,
+      0.47750000000000004,
+      0.6225
+    ],
+    "centres": [
+      0.10000000000000006,
+      0.4,
+      0.5,
+      0.6000000000000001
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "overlap": 0.11000000000000001,
+    "width": 0.09,
+    "gap": 0.01,
+    "rho": 0.5,
+    "nu": 0.05499999999999999,
+    "width_lower": 0.08249999999999996,
+    "exact_tau": 0.08249999999999996,
+    "free_tau": 0.0,
+    "hierarchy_excess": 0.08249999999999996,
+    "search_tau": 0.08249999999999999,
+    "free_merge_error": 0.3,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.11750000000000005,
+      0.41750000000000004,
+      0.47250000000000003,
+      0.6075000000000002
+    ],
+    "centres": [
+      0.09500000000000006,
+      0.395,
+      0.495,
+      0.595
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "overlap": 0.12,
+    "width": 0.09,
+    "gap": 0.01,
+    "rho": 0.5,
+    "nu": 0.06,
+    "width_lower": 0.08749999999999997,
+    "exact_tau": 0.08749999999999997,
+    "free_tau": 0.0,
+    "hierarchy_excess": 0.08749999999999997,
+    "search_tau": 0.0875,
+    "free_merge_error": 0.3,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.11250000000000004,
+      0.41250000000000003,
+      0.4675,
+      0.5925
+    ],
+    "centres": [
+      0.09000000000000005,
+      0.39,
+      0.49,
+      0.59
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "overlap": 0.13,
+    "width": 0.09,
+    "gap": 0.01,
+    "rho": 0.5,
+    "nu": 0.065,
+    "width_lower": 0.09249999999999997,
+    "exact_tau": 0.09249999999999997,
+    "free_tau": 0.0,
+    "hierarchy_excess": 0.09249999999999997,
+    "search_tau": 0.0925,
+    "free_merge_error": 0.3,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.10750000000000004,
+      0.40750000000000003,
+      0.4625,
+      0.5775000000000001
+    ],
+    "centres": [
+      0.08500000000000005,
+      0.385,
+      0.485,
+      0.585
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "overlap": 0.14,
+    "width": 0.09,
+    "gap": 0.01,
+    "rho": 0.5,
+    "nu": 0.07,
+    "width_lower": 0.09749999999999998,
+    "exact_tau": 0.09749999999999998,
+    "free_tau": 0.0,
+    "hierarchy_excess": 0.09749999999999998,
+    "search_tau": 0.0975,
+    "free_merge_error": 0.3,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.10250000000000004,
+      0.4025,
+      0.4575,
+      0.5625
+    ],
+    "centres": [
+      0.08000000000000004,
+      0.38,
+      0.48,
+      0.58
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "overlap": 0.15000000000000002,
+    "width": 0.09,
+    "gap": 0.01,
+    "rho": 0.5,
+    "nu": 0.07500000000000001,
+    "width_lower": 0.10249999999999998,
+    "exact_tau": 0.10249999999999998,
+    "free_tau": 0.0,
+    "hierarchy_excess": 0.10249999999999998,
+    "search_tau": 0.10250000000000001,
+    "free_merge_error": 0.3,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.09750000000000003,
+      0.3975,
+      0.4525,
+      0.5525
+    ],
+    "centres": [
+      0.07500000000000004,
+      0.375,
+      0.475,
+      0.575
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "overlap": 0.16000000000000003,
+    "width": 0.09,
+    "gap": 0.01,
+    "rho": 0.5,
+    "nu": 0.08000000000000002,
+    "width_lower": 0.10749999999999998,
+    "exact_tau": 0.10749999999999998,
+    "free_tau": 0.0,
+    "hierarchy_excess": 0.10749999999999998,
+    "search_tau": 0.10750000000000001,
+    "free_merge_error": 0.3,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.09250000000000003,
+      0.3925,
+      0.4475,
+      0.5475
+    ],
+    "centres": [
+      0.07000000000000003,
+      0.37,
+      0.47,
+      0.57
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "overlap": 0.16999999999999998,
+    "width": 0.09,
+    "gap": 0.01,
+    "rho": 0.5,
+    "nu": 0.08499999999999999,
+    "width_lower": 0.11249999999999996,
+    "exact_tau": 0.11249999999999993,
+    "free_tau": 0.0,
+    "hierarchy_excess": 0.11249999999999993,
+    "search_tau": 0.11250000000000002,
+    "free_merge_error": 0.3,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.08750000000000008,
+      0.38750000000000007,
+      0.44250000000000006,
+      0.5425000000000001
+    ],
+    "centres": [
+      0.06500000000000009,
+      0.36500000000000005,
+      0.465,
+      0.5650000000000001
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "overlap": 0.18,
+    "width": 0.09,
+    "gap": 0.01,
+    "rho": 0.5,
+    "nu": 0.09,
+    "width_lower": 0.11749999999999997,
+    "exact_tau": 0.11749999999999994,
+    "free_tau": 0.0,
+    "hierarchy_excess": 0.11749999999999994,
+    "search_tau": 0.11750000000000001,
+    "free_merge_error": 0.3,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.08250000000000007,
+      0.38250000000000006,
+      0.43750000000000006,
+      0.5375000000000001
+    ],
+    "centres": [
+      0.060000000000000074,
+      0.36000000000000004,
+      0.46,
+      0.56
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "overlap": 0.19,
+    "width": 0.09,
+    "gap": 0.01,
+    "rho": 0.5,
+    "nu": 0.095,
+    "width_lower": 0.12249999999999997,
+    "exact_tau": 0.12249999999999994,
+    "free_tau": 0.0,
+    "hierarchy_excess": 0.12249999999999994,
+    "search_tau": 0.12250000000000001,
+    "free_merge_error": 0.3,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.07750000000000007,
+      0.37750000000000006,
+      0.43250000000000005,
+      0.5325000000000001
+    ],
+    "centres": [
+      0.05500000000000007,
+      0.35500000000000004,
+      0.455,
+      0.555
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "overlap": 0.2,
+    "width": 0.09,
+    "gap": 0.01,
+    "rho": 0.5,
+    "nu": 0.1,
+    "width_lower": 0.12749999999999997,
+    "exact_tau": 0.12749999999999995,
+    "free_tau": 0.0,
+    "hierarchy_excess": 0.12749999999999995,
+    "search_tau": 0.1275,
+    "free_merge_error": 0.3,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.07250000000000006,
+      0.37250000000000005,
+      0.42750000000000005,
+      0.5275000000000001
+    ],
+    "centres": [
+      0.050000000000000065,
+      0.35000000000000003,
+      0.45,
+      0.55
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "overlap": 0.21000000000000002,
+    "width": 0.09,
+    "gap": 0.01,
+    "rho": 0.5,
+    "nu": 0.10500000000000001,
+    "width_lower": 0.13249999999999998,
+    "exact_tau": 0.13249999999999995,
+    "free_tau": 0.0,
+    "hierarchy_excess": 0.13249999999999995,
+    "search_tau": 0.1325,
+    "free_merge_error": 0.3,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.06750000000000006,
+      0.36750000000000005,
+      0.42250000000000004,
+      0.5225000000000001
+    ],
+    "centres": [
+      0.04500000000000006,
+      0.34500000000000003,
+      0.445,
+      0.545
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "overlap": 0.22000000000000003,
+    "width": 0.09,
+    "gap": 0.01,
+    "rho": 0.5,
+    "nu": 0.11000000000000001,
+    "width_lower": 0.13749999999999998,
+    "exact_tau": 0.13749999999999996,
+    "free_tau": 0.0,
+    "hierarchy_excess": 0.13749999999999996,
+    "search_tau": 0.1375,
+    "free_merge_error": 0.3,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.06250000000000006,
+      0.36250000000000004,
+      0.41750000000000004,
+      0.5175000000000001
+    ],
+    "centres": [
+      0.045,
+      0.34,
+      0.44,
+      0.54
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "overlap": 0.23000000000000004,
+    "width": 0.09,
+    "gap": 0.01,
+    "rho": 0.5,
+    "nu": 0.11500000000000002,
+    "width_lower": 0.1425,
+    "exact_tau": 0.14249999999999996,
+    "free_tau": 0.0,
+    "hierarchy_excess": 0.14249999999999996,
+    "search_tau": 0.14250000000000002,
+    "free_merge_error": 0.3,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.05750000000000005,
+      0.35750000000000004,
+      0.41250000000000003,
+      0.5125000000000001
+    ],
+    "centres": [
+      0.045,
+      0.335,
+      0.435,
+      0.535
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "overlap": 0.24,
+    "width": 0.09,
+    "gap": 0.01,
+    "rho": 0.5,
+    "nu": 0.12,
+    "width_lower": 0.14749999999999996,
+    "exact_tau": 0.14749999999999996,
+    "free_tau": 0.0,
+    "hierarchy_excess": 0.14749999999999996,
+    "search_tau": 0.14749999999999996,
+    "free_merge_error": 0.3,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.05250000000000005,
+      0.35250000000000004,
+      0.40750000000000003,
+      0.5075000000000001
+    ],
+    "centres": [
+      0.045,
+      0.33,
+      0.43,
+      0.53
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "overlap": 0.25,
+    "width": 0.09,
+    "gap": 0.01,
+    "rho": 0.5,
+    "nu": 0.125,
+    "width_lower": 0.15249999999999997,
+    "exact_tau": 0.15249999999999997,
+    "free_tau": 0.0025000000000000022,
+    "hierarchy_excess": 0.14999999999999997,
+    "search_tau": 0.15249999999999997,
+    "free_merge_error": 0.3,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.04750000000000004,
+      0.34750000000000003,
+      0.4025,
+      0.5025000000000001
+    ],
+    "centres": [
+      0.045,
+      0.325,
+      0.425,
+      0.525
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "overlap": 0.26,
+    "width": 0.09,
+    "gap": 0.01,
+    "rho": 0.5,
+    "nu": 0.13,
+    "width_lower": 0.15749999999999997,
+    "exact_tau": 0.15749999999999997,
+    "free_tau": 0.007500000000000007,
+    "hierarchy_excess": 0.14999999999999997,
+    "search_tau": 0.15749999999999997,
+    "free_merge_error": 0.3,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.04250000000000004,
+      0.3425,
+      0.3975,
+      0.4975
+    ],
+    "centres": [
+      0.045,
+      0.32,
+      0.42,
+      0.52
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "overlap": 0.27,
+    "width": 0.09,
+    "gap": 0.01,
+    "rho": 0.5,
+    "nu": 0.135,
+    "width_lower": 0.16249999999999998,
+    "exact_tau": 0.16249999999999998,
+    "free_tau": 0.012500000000000011,
+    "hierarchy_excess": 0.14999999999999997,
+    "search_tau": 0.16249999999999998,
+    "free_merge_error": 0.3,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.03750000000000003,
+      0.3375,
+      0.3925,
+      0.4925
+    ],
+    "centres": [
+      0.045,
+      0.315,
+      0.415,
+      0.515
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "overlap": 0.28,
+    "width": 0.09,
+    "gap": 0.01,
+    "rho": 0.5,
+    "nu": 0.14,
+    "width_lower": 0.16749999999999998,
+    "exact_tau": 0.16749999999999998,
+    "free_tau": 0.017500000000000016,
+    "hierarchy_excess": 0.14999999999999997,
+    "search_tau": 0.16749999999999998,
+    "free_merge_error": 0.3,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.03250000000000003,
+      0.3325,
+      0.3875,
+      0.4875
+    ],
+    "centres": [
+      0.045,
+      0.31,
+      0.41,
+      0.51
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "overlap": 0.29000000000000004,
+    "width": 0.09,
+    "gap": 0.01,
+    "rho": 0.5,
+    "nu": 0.14500000000000002,
+    "width_lower": 0.1725,
+    "exact_tau": 0.1725,
+    "free_tau": 0.02250000000000002,
+    "hierarchy_excess": 0.14999999999999997,
+    "search_tau": 0.1725,
+    "free_merge_error": 0.3,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "x": [
+      0.027500000000000024,
+      0.3275,
+      0.3825,
+      0.4825
+    ],
+    "centres": [
+      0.045,
+      0.305,
+      0.40499999999999997,
+      0.505
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "overlap": 0.3,
+    "width": 0.09,
+    "gap": 0.01,
+    "rho": 0.5,
+    "nu": 0.15,
+    "width_lower": 0.17749999999999996,
+    "exact_tau": 0.17749999999999994,
+    "free_tau": 0.027499999999999997,
+    "hierarchy_excess": 0.14999999999999994,
+    "search_tau": 0.1775,
+    "free_merge_error": 0.3,
+    "order": [
+      2,
+      3,
+      0,
+      1
+    ],
+    "x": [
+      0.37749999999999995,
+      0.4774999999999999,
+      0.022500000000000075,
+      0.32249999999999995
+    ],
+    "centres": [
+      0.39999999999999997,
+      0.49999999999999994,
+      0.045,
+      0.3
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ],
+    "measured_merge_error": 0.0,
+    "free_order": [
+      0,
+      2,
+      1,
+      3
+    ]
+  }
+]

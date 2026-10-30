@@ -1,0 +1,6554 @@
+[
+  {
+    "inner_level": 0.2,
+    "parent_gap": 0.8,
+    "epsilon": 0.0,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.2,
+      1.0,
+      0.2
+    ]
+  },
+  {
+    "inner_level": 0.2,
+    "parent_gap": 0.8,
+    "epsilon": 0.005,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.2,
+      1.0,
+      0.2
+    ]
+  },
+  {
+    "inner_level": 0.2,
+    "parent_gap": 0.8,
+    "epsilon": 0.01,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.2,
+      1.0,
+      0.2
+    ]
+  },
+  {
+    "inner_level": 0.2,
+    "parent_gap": 0.8,
+    "epsilon": 0.015,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.2,
+      1.0,
+      0.2
+    ]
+  },
+  {
+    "inner_level": 0.2,
+    "parent_gap": 0.8,
+    "epsilon": 0.02,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.2,
+      1.0,
+      0.2
+    ]
+  },
+  {
+    "inner_level": 0.2,
+    "parent_gap": 0.8,
+    "epsilon": 0.025,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.2,
+      1.0,
+      0.2
+    ]
+  },
+  {
+    "inner_level": 0.2,
+    "parent_gap": 0.8,
+    "epsilon": 0.03,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.2,
+      1.0,
+      0.2
+    ]
+  },
+  {
+    "inner_level": 0.2,
+    "parent_gap": 0.8,
+    "epsilon": 0.035,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.2,
+      1.0,
+      0.2
+    ]
+  },
+  {
+    "inner_level": 0.2,
+    "parent_gap": 0.8,
+    "epsilon": 0.04,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.2,
+      1.0,
+      0.2
+    ]
+  },
+  {
+    "inner_level": 0.2,
+    "parent_gap": 0.8,
+    "epsilon": 0.045,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.2,
+      1.0,
+      0.2
+    ]
+  },
+  {
+    "inner_level": 0.2,
+    "parent_gap": 0.8,
+    "epsilon": 0.05,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.2,
+      1.0,
+      0.2
+    ]
+  },
+  {
+    "inner_level": 0.2,
+    "parent_gap": 0.8,
+    "epsilon": 0.055,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.2,
+      1.0,
+      0.2
+    ]
+  },
+  {
+    "inner_level": 0.2,
+    "parent_gap": 0.8,
+    "epsilon": 0.06,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.2,
+      1.0,
+      0.2
+    ]
+  },
+  {
+    "inner_level": 0.2,
+    "parent_gap": 0.8,
+    "epsilon": 0.065,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.2,
+      1.0,
+      0.2
+    ]
+  },
+  {
+    "inner_level": 0.2,
+    "parent_gap": 0.8,
+    "epsilon": 0.07,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.2,
+      1.0,
+      0.2
+    ]
+  },
+  {
+    "inner_level": 0.2,
+    "parent_gap": 0.8,
+    "epsilon": 0.075,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.2,
+      1.0,
+      0.2
+    ]
+  },
+  {
+    "inner_level": 0.2,
+    "parent_gap": 0.8,
+    "epsilon": 0.08,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.2,
+      1.0,
+      0.2
+    ]
+  },
+  {
+    "inner_level": 0.2,
+    "parent_gap": 0.8,
+    "epsilon": 0.085,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.2,
+      1.0,
+      0.2
+    ]
+  },
+  {
+    "inner_level": 0.2,
+    "parent_gap": 0.8,
+    "epsilon": 0.09,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.2,
+      1.0,
+      0.2
+    ]
+  },
+  {
+    "inner_level": 0.2,
+    "parent_gap": 0.8,
+    "epsilon": 0.095,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.2,
+      1.0,
+      0.2
+    ]
+  },
+  {
+    "inner_level": 0.2,
+    "parent_gap": 0.8,
+    "epsilon": 0.1,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.2,
+      1.0,
+      0.2
+    ]
+  },
+  {
+    "inner_level": 0.2,
+    "parent_gap": 0.8,
+    "epsilon": 0.105,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.2,
+      1.0,
+      0.2
+    ]
+  },
+  {
+    "inner_level": 0.2,
+    "parent_gap": 0.8,
+    "epsilon": 0.11,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.2,
+      1.0,
+      0.2
+    ]
+  },
+  {
+    "inner_level": 0.2,
+    "parent_gap": 0.8,
+    "epsilon": 0.115,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.2,
+      1.0,
+      0.2
+    ]
+  },
+  {
+    "inner_level": 0.2,
+    "parent_gap": 0.8,
+    "epsilon": 0.12,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.2,
+      1.0,
+      0.2
+    ]
+  },
+  {
+    "inner_level": 0.2,
+    "parent_gap": 0.8,
+    "epsilon": 0.125,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.2,
+      1.0,
+      0.2
+    ]
+  },
+  {
+    "inner_level": 0.2,
+    "parent_gap": 0.8,
+    "epsilon": 0.13,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.2,
+      1.0,
+      0.2
+    ]
+  },
+  {
+    "inner_level": 0.2,
+    "parent_gap": 0.8,
+    "epsilon": 0.135,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.2,
+      1.0,
+      0.2
+    ]
+  },
+  {
+    "inner_level": 0.2,
+    "parent_gap": 0.8,
+    "epsilon": 0.14,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.2,
+      1.0,
+      0.2
+    ]
+  },
+  {
+    "inner_level": 0.2,
+    "parent_gap": 0.8,
+    "epsilon": 0.145,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.2,
+      1.0,
+      0.2
+    ]
+  },
+  {
+    "inner_level": 0.2,
+    "parent_gap": 0.8,
+    "epsilon": 0.15,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.2,
+      1.0,
+      0.2
+    ]
+  },
+  {
+    "inner_level": 0.2,
+    "parent_gap": 0.8,
+    "epsilon": 0.155,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.2,
+      1.0,
+      0.2
+    ]
+  },
+  {
+    "inner_level": 0.2,
+    "parent_gap": 0.8,
+    "epsilon": 0.16,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.2,
+      1.0,
+      0.2
+    ]
+  },
+  {
+    "inner_level": 0.2,
+    "parent_gap": 0.8,
+    "epsilon": 0.165,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.2,
+      1.0,
+      0.2
+    ]
+  },
+  {
+    "inner_level": 0.2,
+    "parent_gap": 0.8,
+    "epsilon": 0.17,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.2,
+      1.0,
+      0.2
+    ]
+  },
+  {
+    "inner_level": 0.2,
+    "parent_gap": 0.8,
+    "epsilon": 0.17500000000000002,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.2,
+      1.0,
+      0.2
+    ]
+  },
+  {
+    "inner_level": 0.2,
+    "parent_gap": 0.8,
+    "epsilon": 0.18,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.2,
+      1.0,
+      0.2
+    ]
+  },
+  {
+    "inner_level": 0.2,
+    "parent_gap": 0.8,
+    "epsilon": 0.185,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.2,
+      1.0,
+      0.2
+    ]
+  },
+  {
+    "inner_level": 0.2,
+    "parent_gap": 0.8,
+    "epsilon": 0.19,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.2,
+      1.0,
+      0.2
+    ]
+  },
+  {
+    "inner_level": 0.2,
+    "parent_gap": 0.8,
+    "epsilon": 0.195,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.2,
+      1.0,
+      0.2
+    ]
+  },
+  {
+    "inner_level": 0.2,
+    "parent_gap": 0.8,
+    "epsilon": 0.2,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.2,
+      1.0,
+      0.2
+    ]
+  },
+  {
+    "inner_level": 0.2,
+    "parent_gap": 0.8,
+    "epsilon": 0.20500000000000002,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.2,
+      1.0,
+      0.2
+    ]
+  },
+  {
+    "inner_level": 0.2,
+    "parent_gap": 0.8,
+    "epsilon": 0.21,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.2,
+      1.0,
+      0.2
+    ]
+  },
+  {
+    "inner_level": 0.2,
+    "parent_gap": 0.8,
+    "epsilon": 0.215,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.2,
+      1.0,
+      0.2
+    ]
+  },
+  {
+    "inner_level": 0.2,
+    "parent_gap": 0.8,
+    "epsilon": 0.22,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.2,
+      1.0,
+      0.2
+    ]
+  },
+  {
+    "inner_level": 0.2,
+    "parent_gap": 0.8,
+    "epsilon": 0.225,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.2,
+      1.0,
+      0.2
+    ]
+  },
+  {
+    "inner_level": 0.2,
+    "parent_gap": 0.8,
+    "epsilon": 0.23,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.2,
+      1.0,
+      0.2
+    ]
+  },
+  {
+    "inner_level": 0.2,
+    "parent_gap": 0.8,
+    "epsilon": 0.23500000000000001,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.2,
+      1.0,
+      0.2
+    ]
+  },
+  {
+    "inner_level": 0.2,
+    "parent_gap": 0.8,
+    "epsilon": 0.24,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.2,
+      1.0,
+      0.2
+    ]
+  },
+  {
+    "inner_level": 0.2,
+    "parent_gap": 0.8,
+    "epsilon": 0.245,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.2,
+      1.0,
+      0.2
+    ]
+  },
+  {
+    "inner_level": 0.2,
+    "parent_gap": 0.8,
+    "epsilon": 0.25,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.2,
+      1.0,
+      0.2
+    ]
+  },
+  {
+    "inner_level": 0.2,
+    "parent_gap": 0.8,
+    "epsilon": 0.255,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.2,
+      1.0,
+      0.2
+    ]
+  },
+  {
+    "inner_level": 0.2,
+    "parent_gap": 0.8,
+    "epsilon": 0.26,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.2,
+      1.0,
+      0.2
+    ]
+  },
+  {
+    "inner_level": 0.2,
+    "parent_gap": 0.8,
+    "epsilon": 0.265,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.2,
+      1.0,
+      0.2
+    ]
+  },
+  {
+    "inner_level": 0.2,
+    "parent_gap": 0.8,
+    "epsilon": 0.27,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.2,
+      1.0,
+      0.2
+    ]
+  },
+  {
+    "inner_level": 0.2,
+    "parent_gap": 0.8,
+    "epsilon": 0.275,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.2,
+      1.0,
+      0.2
+    ]
+  },
+  {
+    "inner_level": 0.2,
+    "parent_gap": 0.8,
+    "epsilon": 0.28,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.2,
+      1.0,
+      0.2
+    ]
+  },
+  {
+    "inner_level": 0.2,
+    "parent_gap": 0.8,
+    "epsilon": 0.28500000000000003,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.2,
+      1.0,
+      0.2
+    ]
+  },
+  {
+    "inner_level": 0.2,
+    "parent_gap": 0.8,
+    "epsilon": 0.29,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.2,
+      1.0,
+      0.2
+    ]
+  },
+  {
+    "inner_level": 0.2,
+    "parent_gap": 0.8,
+    "epsilon": 0.295,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.2,
+      1.0,
+      0.2
+    ]
+  },
+  {
+    "inner_level": 0.2,
+    "parent_gap": 0.8,
+    "epsilon": 0.3,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.2,
+      1.0,
+      0.2
+    ]
+  },
+  {
+    "inner_level": 0.2,
+    "parent_gap": 0.8,
+    "epsilon": 0.305,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.2,
+      1.0,
+      0.2
+    ]
+  },
+  {
+    "inner_level": 0.2,
+    "parent_gap": 0.8,
+    "epsilon": 0.31,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.2,
+      1.0,
+      0.2
+    ]
+  },
+  {
+    "inner_level": 0.2,
+    "parent_gap": 0.8,
+    "epsilon": 0.315,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.2,
+      1.0,
+      0.2
+    ]
+  },
+  {
+    "inner_level": 0.2,
+    "parent_gap": 0.8,
+    "epsilon": 0.32,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.2,
+      1.0,
+      0.2
+    ]
+  },
+  {
+    "inner_level": 0.2,
+    "parent_gap": 0.8,
+    "epsilon": 0.325,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.2,
+      1.0,
+      0.2
+    ]
+  },
+  {
+    "inner_level": 0.2,
+    "parent_gap": 0.8,
+    "epsilon": 0.33,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.2,
+      1.0,
+      0.2
+    ]
+  },
+  {
+    "inner_level": 0.2,
+    "parent_gap": 0.8,
+    "epsilon": 0.335,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.2,
+      1.0,
+      0.2
+    ]
+  },
+  {
+    "inner_level": 0.2,
+    "parent_gap": 0.8,
+    "epsilon": 0.34,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.2,
+      1.0,
+      0.2
+    ]
+  },
+  {
+    "inner_level": 0.2,
+    "parent_gap": 0.8,
+    "epsilon": 0.34500000000000003,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.2,
+      1.0,
+      0.2
+    ]
+  },
+  {
+    "inner_level": 0.2,
+    "parent_gap": 0.8,
+    "epsilon": 0.35000000000000003,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.2,
+      1.0,
+      0.2
+    ]
+  },
+  {
+    "inner_level": 0.2,
+    "parent_gap": 0.8,
+    "epsilon": 0.355,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.2,
+      1.0,
+      0.2
+    ]
+  },
+  {
+    "inner_level": 0.2,
+    "parent_gap": 0.8,
+    "epsilon": 0.36,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.2,
+      1.0,
+      0.2
+    ]
+  },
+  {
+    "inner_level": 0.2,
+    "parent_gap": 0.8,
+    "epsilon": 0.365,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.2,
+      1.0,
+      0.2
+    ]
+  },
+  {
+    "inner_level": 0.2,
+    "parent_gap": 0.8,
+    "epsilon": 0.37,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.2,
+      1.0,
+      0.2
+    ]
+  },
+  {
+    "inner_level": 0.2,
+    "parent_gap": 0.8,
+    "epsilon": 0.375,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.2,
+      1.0,
+      0.2
+    ]
+  },
+  {
+    "inner_level": 0.2,
+    "parent_gap": 0.8,
+    "epsilon": 0.38,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.2,
+      1.0,
+      0.2
+    ]
+  },
+  {
+    "inner_level": 0.2,
+    "parent_gap": 0.8,
+    "epsilon": 0.385,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.2,
+      1.0,
+      0.2
+    ]
+  },
+  {
+    "inner_level": 0.2,
+    "parent_gap": 0.8,
+    "epsilon": 0.39,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.2,
+      1.0,
+      0.2
+    ]
+  },
+  {
+    "inner_level": 0.2,
+    "parent_gap": 0.8,
+    "epsilon": 0.395,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.2,
+      1.0,
+      0.2
+    ]
+  },
+  {
+    "inner_level": 0.2,
+    "parent_gap": 0.8,
+    "epsilon": 0.4,
+    "tau": 0.0,
+    "delta": 0.4,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.6000000000000001,
+      0.6000000000000001,
+      0.6000000000000001
+    ]
+  },
+  {
+    "inner_level": 0.2,
+    "parent_gap": 0.8,
+    "epsilon": 0.405,
+    "tau": 0.0,
+    "delta": 0.4,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.6000000000000001,
+      0.6000000000000001,
+      0.6000000000000001
+    ]
+  },
+  {
+    "inner_level": 0.2,
+    "parent_gap": 0.8,
+    "epsilon": 0.41000000000000003,
+    "tau": 0.0,
+    "delta": 0.4,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.6000000000000001,
+      0.6000000000000001,
+      0.6000000000000001
+    ]
+  },
+  {
+    "inner_level": 0.2,
+    "parent_gap": 0.8,
+    "epsilon": 0.41500000000000004,
+    "tau": 0.0,
+    "delta": 0.4,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.6000000000000001,
+      0.6000000000000001,
+      0.6000000000000001
+    ]
+  },
+  {
+    "inner_level": 0.2,
+    "parent_gap": 0.8,
+    "epsilon": 0.42,
+    "tau": 0.0,
+    "delta": 0.4,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.6000000000000001,
+      0.6000000000000001,
+      0.6000000000000001
+    ]
+  },
+  {
+    "inner_level": 0.2,
+    "parent_gap": 0.8,
+    "epsilon": 0.425,
+    "tau": 0.0,
+    "delta": 0.4,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.6000000000000001,
+      0.6000000000000001,
+      0.6000000000000001
+    ]
+  },
+  {
+    "inner_level": 0.2,
+    "parent_gap": 0.8,
+    "epsilon": 0.43,
+    "tau": 0.0,
+    "delta": 0.4,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.6000000000000001,
+      0.6000000000000001,
+      0.6000000000000001
+    ]
+  },
+  {
+    "inner_level": 0.2,
+    "parent_gap": 0.8,
+    "epsilon": 0.435,
+    "tau": 0.0,
+    "delta": 0.4,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.6000000000000001,
+      0.6000000000000001,
+      0.6000000000000001
+    ]
+  },
+  {
+    "inner_level": 0.2,
+    "parent_gap": 0.8,
+    "epsilon": 0.44,
+    "tau": 0.0,
+    "delta": 0.4,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.6000000000000001,
+      0.6000000000000001,
+      0.6000000000000001
+    ]
+  },
+  {
+    "inner_level": 0.2,
+    "parent_gap": 0.8,
+    "epsilon": 0.445,
+    "tau": 0.0,
+    "delta": 0.4,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.6000000000000001,
+      0.6000000000000001,
+      0.6000000000000001
+    ]
+  },
+  {
+    "inner_level": 0.2,
+    "parent_gap": 0.8,
+    "epsilon": 0.45,
+    "tau": 0.0,
+    "delta": 0.4,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.6000000000000001,
+      0.6000000000000001,
+      0.6000000000000001
+    ]
+  },
+  {
+    "inner_level": 0.4,
+    "parent_gap": 0.6,
+    "epsilon": 0.0,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ]
+  },
+  {
+    "inner_level": 0.4,
+    "parent_gap": 0.6,
+    "epsilon": 0.005,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ]
+  },
+  {
+    "inner_level": 0.4,
+    "parent_gap": 0.6,
+    "epsilon": 0.01,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ]
+  },
+  {
+    "inner_level": 0.4,
+    "parent_gap": 0.6,
+    "epsilon": 0.015,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ]
+  },
+  {
+    "inner_level": 0.4,
+    "parent_gap": 0.6,
+    "epsilon": 0.02,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ]
+  },
+  {
+    "inner_level": 0.4,
+    "parent_gap": 0.6,
+    "epsilon": 0.025,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ]
+  },
+  {
+    "inner_level": 0.4,
+    "parent_gap": 0.6,
+    "epsilon": 0.03,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ]
+  },
+  {
+    "inner_level": 0.4,
+    "parent_gap": 0.6,
+    "epsilon": 0.035,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ]
+  },
+  {
+    "inner_level": 0.4,
+    "parent_gap": 0.6,
+    "epsilon": 0.04,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ]
+  },
+  {
+    "inner_level": 0.4,
+    "parent_gap": 0.6,
+    "epsilon": 0.045,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ]
+  },
+  {
+    "inner_level": 0.4,
+    "parent_gap": 0.6,
+    "epsilon": 0.05,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ]
+  },
+  {
+    "inner_level": 0.4,
+    "parent_gap": 0.6,
+    "epsilon": 0.055,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ]
+  },
+  {
+    "inner_level": 0.4,
+    "parent_gap": 0.6,
+    "epsilon": 0.06,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ]
+  },
+  {
+    "inner_level": 0.4,
+    "parent_gap": 0.6,
+    "epsilon": 0.065,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ]
+  },
+  {
+    "inner_level": 0.4,
+    "parent_gap": 0.6,
+    "epsilon": 0.07,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ]
+  },
+  {
+    "inner_level": 0.4,
+    "parent_gap": 0.6,
+    "epsilon": 0.075,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ]
+  },
+  {
+    "inner_level": 0.4,
+    "parent_gap": 0.6,
+    "epsilon": 0.08,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ]
+  },
+  {
+    "inner_level": 0.4,
+    "parent_gap": 0.6,
+    "epsilon": 0.085,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ]
+  },
+  {
+    "inner_level": 0.4,
+    "parent_gap": 0.6,
+    "epsilon": 0.09,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ]
+  },
+  {
+    "inner_level": 0.4,
+    "parent_gap": 0.6,
+    "epsilon": 0.095,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ]
+  },
+  {
+    "inner_level": 0.4,
+    "parent_gap": 0.6,
+    "epsilon": 0.1,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ]
+  },
+  {
+    "inner_level": 0.4,
+    "parent_gap": 0.6,
+    "epsilon": 0.105,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ]
+  },
+  {
+    "inner_level": 0.4,
+    "parent_gap": 0.6,
+    "epsilon": 0.11,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ]
+  },
+  {
+    "inner_level": 0.4,
+    "parent_gap": 0.6,
+    "epsilon": 0.115,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ]
+  },
+  {
+    "inner_level": 0.4,
+    "parent_gap": 0.6,
+    "epsilon": 0.12,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ]
+  },
+  {
+    "inner_level": 0.4,
+    "parent_gap": 0.6,
+    "epsilon": 0.125,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ]
+  },
+  {
+    "inner_level": 0.4,
+    "parent_gap": 0.6,
+    "epsilon": 0.13,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ]
+  },
+  {
+    "inner_level": 0.4,
+    "parent_gap": 0.6,
+    "epsilon": 0.135,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ]
+  },
+  {
+    "inner_level": 0.4,
+    "parent_gap": 0.6,
+    "epsilon": 0.14,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ]
+  },
+  {
+    "inner_level": 0.4,
+    "parent_gap": 0.6,
+    "epsilon": 0.145,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ]
+  },
+  {
+    "inner_level": 0.4,
+    "parent_gap": 0.6,
+    "epsilon": 0.15,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ]
+  },
+  {
+    "inner_level": 0.4,
+    "parent_gap": 0.6,
+    "epsilon": 0.155,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ]
+  },
+  {
+    "inner_level": 0.4,
+    "parent_gap": 0.6,
+    "epsilon": 0.16,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ]
+  },
+  {
+    "inner_level": 0.4,
+    "parent_gap": 0.6,
+    "epsilon": 0.165,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ]
+  },
+  {
+    "inner_level": 0.4,
+    "parent_gap": 0.6,
+    "epsilon": 0.17,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ]
+  },
+  {
+    "inner_level": 0.4,
+    "parent_gap": 0.6,
+    "epsilon": 0.17500000000000002,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ]
+  },
+  {
+    "inner_level": 0.4,
+    "parent_gap": 0.6,
+    "epsilon": 0.18,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ]
+  },
+  {
+    "inner_level": 0.4,
+    "parent_gap": 0.6,
+    "epsilon": 0.185,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ]
+  },
+  {
+    "inner_level": 0.4,
+    "parent_gap": 0.6,
+    "epsilon": 0.19,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ]
+  },
+  {
+    "inner_level": 0.4,
+    "parent_gap": 0.6,
+    "epsilon": 0.195,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ]
+  },
+  {
+    "inner_level": 0.4,
+    "parent_gap": 0.6,
+    "epsilon": 0.2,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ]
+  },
+  {
+    "inner_level": 0.4,
+    "parent_gap": 0.6,
+    "epsilon": 0.20500000000000002,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ]
+  },
+  {
+    "inner_level": 0.4,
+    "parent_gap": 0.6,
+    "epsilon": 0.21,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ]
+  },
+  {
+    "inner_level": 0.4,
+    "parent_gap": 0.6,
+    "epsilon": 0.215,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ]
+  },
+  {
+    "inner_level": 0.4,
+    "parent_gap": 0.6,
+    "epsilon": 0.22,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ]
+  },
+  {
+    "inner_level": 0.4,
+    "parent_gap": 0.6,
+    "epsilon": 0.225,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ]
+  },
+  {
+    "inner_level": 0.4,
+    "parent_gap": 0.6,
+    "epsilon": 0.23,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ]
+  },
+  {
+    "inner_level": 0.4,
+    "parent_gap": 0.6,
+    "epsilon": 0.23500000000000001,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ]
+  },
+  {
+    "inner_level": 0.4,
+    "parent_gap": 0.6,
+    "epsilon": 0.24,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ]
+  },
+  {
+    "inner_level": 0.4,
+    "parent_gap": 0.6,
+    "epsilon": 0.245,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ]
+  },
+  {
+    "inner_level": 0.4,
+    "parent_gap": 0.6,
+    "epsilon": 0.25,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ]
+  },
+  {
+    "inner_level": 0.4,
+    "parent_gap": 0.6,
+    "epsilon": 0.255,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ]
+  },
+  {
+    "inner_level": 0.4,
+    "parent_gap": 0.6,
+    "epsilon": 0.26,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ]
+  },
+  {
+    "inner_level": 0.4,
+    "parent_gap": 0.6,
+    "epsilon": 0.265,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ]
+  },
+  {
+    "inner_level": 0.4,
+    "parent_gap": 0.6,
+    "epsilon": 0.27,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ]
+  },
+  {
+    "inner_level": 0.4,
+    "parent_gap": 0.6,
+    "epsilon": 0.275,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ]
+  },
+  {
+    "inner_level": 0.4,
+    "parent_gap": 0.6,
+    "epsilon": 0.28,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ]
+  },
+  {
+    "inner_level": 0.4,
+    "parent_gap": 0.6,
+    "epsilon": 0.28500000000000003,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ]
+  },
+  {
+    "inner_level": 0.4,
+    "parent_gap": 0.6,
+    "epsilon": 0.29,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ]
+  },
+  {
+    "inner_level": 0.4,
+    "parent_gap": 0.6,
+    "epsilon": 0.295,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.4,
+      1.0,
+      0.4
+    ]
+  },
+  {
+    "inner_level": 0.4,
+    "parent_gap": 0.6,
+    "epsilon": 0.3,
+    "tau": 0.0,
+    "delta": 0.3,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.7,
+      0.7,
+      0.7
+    ]
+  },
+  {
+    "inner_level": 0.4,
+    "parent_gap": 0.6,
+    "epsilon": 0.305,
+    "tau": 0.0,
+    "delta": 0.3,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.7,
+      0.7,
+      0.7
+    ]
+  },
+  {
+    "inner_level": 0.4,
+    "parent_gap": 0.6,
+    "epsilon": 0.31,
+    "tau": 0.0,
+    "delta": 0.3,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.7,
+      0.7,
+      0.7
+    ]
+  },
+  {
+    "inner_level": 0.4,
+    "parent_gap": 0.6,
+    "epsilon": 0.315,
+    "tau": 0.0,
+    "delta": 0.3,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.7,
+      0.7,
+      0.7
+    ]
+  },
+  {
+    "inner_level": 0.4,
+    "parent_gap": 0.6,
+    "epsilon": 0.32,
+    "tau": 0.0,
+    "delta": 0.3,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.7,
+      0.7,
+      0.7
+    ]
+  },
+  {
+    "inner_level": 0.4,
+    "parent_gap": 0.6,
+    "epsilon": 0.325,
+    "tau": 0.0,
+    "delta": 0.3,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.7,
+      0.7,
+      0.7
+    ]
+  },
+  {
+    "inner_level": 0.4,
+    "parent_gap": 0.6,
+    "epsilon": 0.33,
+    "tau": 0.0,
+    "delta": 0.3,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.7,
+      0.7,
+      0.7
+    ]
+  },
+  {
+    "inner_level": 0.4,
+    "parent_gap": 0.6,
+    "epsilon": 0.335,
+    "tau": 0.0,
+    "delta": 0.3,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.7,
+      0.7,
+      0.7
+    ]
+  },
+  {
+    "inner_level": 0.4,
+    "parent_gap": 0.6,
+    "epsilon": 0.34,
+    "tau": 0.0,
+    "delta": 0.3,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.7,
+      0.7,
+      0.7
+    ]
+  },
+  {
+    "inner_level": 0.4,
+    "parent_gap": 0.6,
+    "epsilon": 0.34500000000000003,
+    "tau": 0.0,
+    "delta": 0.3,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.7,
+      0.7,
+      0.7
+    ]
+  },
+  {
+    "inner_level": 0.4,
+    "parent_gap": 0.6,
+    "epsilon": 0.35000000000000003,
+    "tau": 0.0,
+    "delta": 0.3,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.7,
+      0.7,
+      0.7
+    ]
+  },
+  {
+    "inner_level": 0.4,
+    "parent_gap": 0.6,
+    "epsilon": 0.355,
+    "tau": 0.0,
+    "delta": 0.3,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.7,
+      0.7,
+      0.7
+    ]
+  },
+  {
+    "inner_level": 0.4,
+    "parent_gap": 0.6,
+    "epsilon": 0.36,
+    "tau": 0.0,
+    "delta": 0.3,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.7,
+      0.7,
+      0.7
+    ]
+  },
+  {
+    "inner_level": 0.4,
+    "parent_gap": 0.6,
+    "epsilon": 0.365,
+    "tau": 0.0,
+    "delta": 0.3,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.7,
+      0.7,
+      0.7
+    ]
+  },
+  {
+    "inner_level": 0.4,
+    "parent_gap": 0.6,
+    "epsilon": 0.37,
+    "tau": 0.0,
+    "delta": 0.3,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.7,
+      0.7,
+      0.7
+    ]
+  },
+  {
+    "inner_level": 0.4,
+    "parent_gap": 0.6,
+    "epsilon": 0.375,
+    "tau": 0.0,
+    "delta": 0.3,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.7,
+      0.7,
+      0.7
+    ]
+  },
+  {
+    "inner_level": 0.4,
+    "parent_gap": 0.6,
+    "epsilon": 0.38,
+    "tau": 0.0,
+    "delta": 0.3,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.7,
+      0.7,
+      0.7
+    ]
+  },
+  {
+    "inner_level": 0.4,
+    "parent_gap": 0.6,
+    "epsilon": 0.385,
+    "tau": 0.0,
+    "delta": 0.3,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.7,
+      0.7,
+      0.7
+    ]
+  },
+  {
+    "inner_level": 0.4,
+    "parent_gap": 0.6,
+    "epsilon": 0.39,
+    "tau": 0.0,
+    "delta": 0.3,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.7,
+      0.7,
+      0.7
+    ]
+  },
+  {
+    "inner_level": 0.4,
+    "parent_gap": 0.6,
+    "epsilon": 0.395,
+    "tau": 0.0,
+    "delta": 0.3,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.7,
+      0.7,
+      0.7
+    ]
+  },
+  {
+    "inner_level": 0.4,
+    "parent_gap": 0.6,
+    "epsilon": 0.4,
+    "tau": 0.0,
+    "delta": 0.3,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.7,
+      0.7,
+      0.7
+    ]
+  },
+  {
+    "inner_level": 0.4,
+    "parent_gap": 0.6,
+    "epsilon": 0.405,
+    "tau": 0.0,
+    "delta": 0.3,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.7,
+      0.7,
+      0.7
+    ]
+  },
+  {
+    "inner_level": 0.4,
+    "parent_gap": 0.6,
+    "epsilon": 0.41000000000000003,
+    "tau": 0.0,
+    "delta": 0.3,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.7,
+      0.7,
+      0.7
+    ]
+  },
+  {
+    "inner_level": 0.4,
+    "parent_gap": 0.6,
+    "epsilon": 0.41500000000000004,
+    "tau": 0.0,
+    "delta": 0.3,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.7,
+      0.7,
+      0.7
+    ]
+  },
+  {
+    "inner_level": 0.4,
+    "parent_gap": 0.6,
+    "epsilon": 0.42,
+    "tau": 0.0,
+    "delta": 0.3,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.7,
+      0.7,
+      0.7
+    ]
+  },
+  {
+    "inner_level": 0.4,
+    "parent_gap": 0.6,
+    "epsilon": 0.425,
+    "tau": 0.0,
+    "delta": 0.3,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.7,
+      0.7,
+      0.7
+    ]
+  },
+  {
+    "inner_level": 0.4,
+    "parent_gap": 0.6,
+    "epsilon": 0.43,
+    "tau": 0.0,
+    "delta": 0.3,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.7,
+      0.7,
+      0.7
+    ]
+  },
+  {
+    "inner_level": 0.4,
+    "parent_gap": 0.6,
+    "epsilon": 0.435,
+    "tau": 0.0,
+    "delta": 0.3,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.7,
+      0.7,
+      0.7
+    ]
+  },
+  {
+    "inner_level": 0.4,
+    "parent_gap": 0.6,
+    "epsilon": 0.44,
+    "tau": 0.0,
+    "delta": 0.3,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.7,
+      0.7,
+      0.7
+    ]
+  },
+  {
+    "inner_level": 0.4,
+    "parent_gap": 0.6,
+    "epsilon": 0.445,
+    "tau": 0.0,
+    "delta": 0.3,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.7,
+      0.7,
+      0.7
+    ]
+  },
+  {
+    "inner_level": 0.4,
+    "parent_gap": 0.6,
+    "epsilon": 0.45,
+    "tau": 0.0,
+    "delta": 0.3,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.7,
+      0.7,
+      0.7
+    ]
+  },
+  {
+    "inner_level": 0.6,
+    "parent_gap": 0.4,
+    "epsilon": 0.0,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.6,
+      1.0,
+      0.6
+    ]
+  },
+  {
+    "inner_level": 0.6,
+    "parent_gap": 0.4,
+    "epsilon": 0.005,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.6,
+      1.0,
+      0.6
+    ]
+  },
+  {
+    "inner_level": 0.6,
+    "parent_gap": 0.4,
+    "epsilon": 0.01,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.6,
+      1.0,
+      0.6
+    ]
+  },
+  {
+    "inner_level": 0.6,
+    "parent_gap": 0.4,
+    "epsilon": 0.015,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.6,
+      1.0,
+      0.6
+    ]
+  },
+  {
+    "inner_level": 0.6,
+    "parent_gap": 0.4,
+    "epsilon": 0.02,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.6,
+      1.0,
+      0.6
+    ]
+  },
+  {
+    "inner_level": 0.6,
+    "parent_gap": 0.4,
+    "epsilon": 0.025,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.6,
+      1.0,
+      0.6
+    ]
+  },
+  {
+    "inner_level": 0.6,
+    "parent_gap": 0.4,
+    "epsilon": 0.03,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.6,
+      1.0,
+      0.6
+    ]
+  },
+  {
+    "inner_level": 0.6,
+    "parent_gap": 0.4,
+    "epsilon": 0.035,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.6,
+      1.0,
+      0.6
+    ]
+  },
+  {
+    "inner_level": 0.6,
+    "parent_gap": 0.4,
+    "epsilon": 0.04,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.6,
+      1.0,
+      0.6
+    ]
+  },
+  {
+    "inner_level": 0.6,
+    "parent_gap": 0.4,
+    "epsilon": 0.045,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.6,
+      1.0,
+      0.6
+    ]
+  },
+  {
+    "inner_level": 0.6,
+    "parent_gap": 0.4,
+    "epsilon": 0.05,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.6,
+      1.0,
+      0.6
+    ]
+  },
+  {
+    "inner_level": 0.6,
+    "parent_gap": 0.4,
+    "epsilon": 0.055,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.6,
+      1.0,
+      0.6
+    ]
+  },
+  {
+    "inner_level": 0.6,
+    "parent_gap": 0.4,
+    "epsilon": 0.06,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.6,
+      1.0,
+      0.6
+    ]
+  },
+  {
+    "inner_level": 0.6,
+    "parent_gap": 0.4,
+    "epsilon": 0.065,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.6,
+      1.0,
+      0.6
+    ]
+  },
+  {
+    "inner_level": 0.6,
+    "parent_gap": 0.4,
+    "epsilon": 0.07,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.6,
+      1.0,
+      0.6
+    ]
+  },
+  {
+    "inner_level": 0.6,
+    "parent_gap": 0.4,
+    "epsilon": 0.075,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.6,
+      1.0,
+      0.6
+    ]
+  },
+  {
+    "inner_level": 0.6,
+    "parent_gap": 0.4,
+    "epsilon": 0.08,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.6,
+      1.0,
+      0.6
+    ]
+  },
+  {
+    "inner_level": 0.6,
+    "parent_gap": 0.4,
+    "epsilon": 0.085,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.6,
+      1.0,
+      0.6
+    ]
+  },
+  {
+    "inner_level": 0.6,
+    "parent_gap": 0.4,
+    "epsilon": 0.09,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.6,
+      1.0,
+      0.6
+    ]
+  },
+  {
+    "inner_level": 0.6,
+    "parent_gap": 0.4,
+    "epsilon": 0.095,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.6,
+      1.0,
+      0.6
+    ]
+  },
+  {
+    "inner_level": 0.6,
+    "parent_gap": 0.4,
+    "epsilon": 0.1,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.6,
+      1.0,
+      0.6
+    ]
+  },
+  {
+    "inner_level": 0.6,
+    "parent_gap": 0.4,
+    "epsilon": 0.105,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.6,
+      1.0,
+      0.6
+    ]
+  },
+  {
+    "inner_level": 0.6,
+    "parent_gap": 0.4,
+    "epsilon": 0.11,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.6,
+      1.0,
+      0.6
+    ]
+  },
+  {
+    "inner_level": 0.6,
+    "parent_gap": 0.4,
+    "epsilon": 0.115,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.6,
+      1.0,
+      0.6
+    ]
+  },
+  {
+    "inner_level": 0.6,
+    "parent_gap": 0.4,
+    "epsilon": 0.12,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.6,
+      1.0,
+      0.6
+    ]
+  },
+  {
+    "inner_level": 0.6,
+    "parent_gap": 0.4,
+    "epsilon": 0.125,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.6,
+      1.0,
+      0.6
+    ]
+  },
+  {
+    "inner_level": 0.6,
+    "parent_gap": 0.4,
+    "epsilon": 0.13,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.6,
+      1.0,
+      0.6
+    ]
+  },
+  {
+    "inner_level": 0.6,
+    "parent_gap": 0.4,
+    "epsilon": 0.135,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.6,
+      1.0,
+      0.6
+    ]
+  },
+  {
+    "inner_level": 0.6,
+    "parent_gap": 0.4,
+    "epsilon": 0.14,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.6,
+      1.0,
+      0.6
+    ]
+  },
+  {
+    "inner_level": 0.6,
+    "parent_gap": 0.4,
+    "epsilon": 0.145,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.6,
+      1.0,
+      0.6
+    ]
+  },
+  {
+    "inner_level": 0.6,
+    "parent_gap": 0.4,
+    "epsilon": 0.15,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.6,
+      1.0,
+      0.6
+    ]
+  },
+  {
+    "inner_level": 0.6,
+    "parent_gap": 0.4,
+    "epsilon": 0.155,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.6,
+      1.0,
+      0.6
+    ]
+  },
+  {
+    "inner_level": 0.6,
+    "parent_gap": 0.4,
+    "epsilon": 0.16,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.6,
+      1.0,
+      0.6
+    ]
+  },
+  {
+    "inner_level": 0.6,
+    "parent_gap": 0.4,
+    "epsilon": 0.165,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.6,
+      1.0,
+      0.6
+    ]
+  },
+  {
+    "inner_level": 0.6,
+    "parent_gap": 0.4,
+    "epsilon": 0.17,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.6,
+      1.0,
+      0.6
+    ]
+  },
+  {
+    "inner_level": 0.6,
+    "parent_gap": 0.4,
+    "epsilon": 0.17500000000000002,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.6,
+      1.0,
+      0.6
+    ]
+  },
+  {
+    "inner_level": 0.6,
+    "parent_gap": 0.4,
+    "epsilon": 0.18,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.6,
+      1.0,
+      0.6
+    ]
+  },
+  {
+    "inner_level": 0.6,
+    "parent_gap": 0.4,
+    "epsilon": 0.185,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.6,
+      1.0,
+      0.6
+    ]
+  },
+  {
+    "inner_level": 0.6,
+    "parent_gap": 0.4,
+    "epsilon": 0.19,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.6,
+      1.0,
+      0.6
+    ]
+  },
+  {
+    "inner_level": 0.6,
+    "parent_gap": 0.4,
+    "epsilon": 0.195,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.6,
+      1.0,
+      0.6
+    ]
+  },
+  {
+    "inner_level": 0.6,
+    "parent_gap": 0.4,
+    "epsilon": 0.2,
+    "tau": 0.0,
+    "delta": 0.2,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.8,
+      0.8,
+      0.8
+    ]
+  },
+  {
+    "inner_level": 0.6,
+    "parent_gap": 0.4,
+    "epsilon": 0.20500000000000002,
+    "tau": 0.0,
+    "delta": 0.2,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.8,
+      0.8,
+      0.8
+    ]
+  },
+  {
+    "inner_level": 0.6,
+    "parent_gap": 0.4,
+    "epsilon": 0.21,
+    "tau": 0.0,
+    "delta": 0.2,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.8,
+      0.8,
+      0.8
+    ]
+  },
+  {
+    "inner_level": 0.6,
+    "parent_gap": 0.4,
+    "epsilon": 0.215,
+    "tau": 0.0,
+    "delta": 0.2,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.8,
+      0.8,
+      0.8
+    ]
+  },
+  {
+    "inner_level": 0.6,
+    "parent_gap": 0.4,
+    "epsilon": 0.22,
+    "tau": 0.0,
+    "delta": 0.2,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.8,
+      0.8,
+      0.8
+    ]
+  },
+  {
+    "inner_level": 0.6,
+    "parent_gap": 0.4,
+    "epsilon": 0.225,
+    "tau": 0.0,
+    "delta": 0.2,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.8,
+      0.8,
+      0.8
+    ]
+  },
+  {
+    "inner_level": 0.6,
+    "parent_gap": 0.4,
+    "epsilon": 0.23,
+    "tau": 0.0,
+    "delta": 0.2,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.8,
+      0.8,
+      0.8
+    ]
+  },
+  {
+    "inner_level": 0.6,
+    "parent_gap": 0.4,
+    "epsilon": 0.23500000000000001,
+    "tau": 0.0,
+    "delta": 0.2,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.8,
+      0.8,
+      0.8
+    ]
+  },
+  {
+    "inner_level": 0.6,
+    "parent_gap": 0.4,
+    "epsilon": 0.24,
+    "tau": 0.0,
+    "delta": 0.2,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.8,
+      0.8,
+      0.8
+    ]
+  },
+  {
+    "inner_level": 0.6,
+    "parent_gap": 0.4,
+    "epsilon": 0.245,
+    "tau": 0.0,
+    "delta": 0.2,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.8,
+      0.8,
+      0.8
+    ]
+  },
+  {
+    "inner_level": 0.6,
+    "parent_gap": 0.4,
+    "epsilon": 0.25,
+    "tau": 0.0,
+    "delta": 0.2,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.8,
+      0.8,
+      0.8
+    ]
+  },
+  {
+    "inner_level": 0.6,
+    "parent_gap": 0.4,
+    "epsilon": 0.255,
+    "tau": 0.0,
+    "delta": 0.2,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.8,
+      0.8,
+      0.8
+    ]
+  },
+  {
+    "inner_level": 0.6,
+    "parent_gap": 0.4,
+    "epsilon": 0.26,
+    "tau": 0.0,
+    "delta": 0.2,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.8,
+      0.8,
+      0.8
+    ]
+  },
+  {
+    "inner_level": 0.6,
+    "parent_gap": 0.4,
+    "epsilon": 0.265,
+    "tau": 0.0,
+    "delta": 0.2,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.8,
+      0.8,
+      0.8
+    ]
+  },
+  {
+    "inner_level": 0.6,
+    "parent_gap": 0.4,
+    "epsilon": 0.27,
+    "tau": 0.0,
+    "delta": 0.2,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.8,
+      0.8,
+      0.8
+    ]
+  },
+  {
+    "inner_level": 0.6,
+    "parent_gap": 0.4,
+    "epsilon": 0.275,
+    "tau": 0.0,
+    "delta": 0.2,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.8,
+      0.8,
+      0.8
+    ]
+  },
+  {
+    "inner_level": 0.6,
+    "parent_gap": 0.4,
+    "epsilon": 0.28,
+    "tau": 0.0,
+    "delta": 0.2,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.8,
+      0.8,
+      0.8
+    ]
+  },
+  {
+    "inner_level": 0.6,
+    "parent_gap": 0.4,
+    "epsilon": 0.28500000000000003,
+    "tau": 0.0,
+    "delta": 0.2,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.8,
+      0.8,
+      0.8
+    ]
+  },
+  {
+    "inner_level": 0.6,
+    "parent_gap": 0.4,
+    "epsilon": 0.29,
+    "tau": 0.0,
+    "delta": 0.2,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.8,
+      0.8,
+      0.8
+    ]
+  },
+  {
+    "inner_level": 0.6,
+    "parent_gap": 0.4,
+    "epsilon": 0.295,
+    "tau": 0.0,
+    "delta": 0.2,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.8,
+      0.8,
+      0.8
+    ]
+  },
+  {
+    "inner_level": 0.6,
+    "parent_gap": 0.4,
+    "epsilon": 0.3,
+    "tau": 0.0,
+    "delta": 0.2,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.8,
+      0.8,
+      0.8
+    ]
+  },
+  {
+    "inner_level": 0.6,
+    "parent_gap": 0.4,
+    "epsilon": 0.305,
+    "tau": 0.0,
+    "delta": 0.2,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.8,
+      0.8,
+      0.8
+    ]
+  },
+  {
+    "inner_level": 0.6,
+    "parent_gap": 0.4,
+    "epsilon": 0.31,
+    "tau": 0.0,
+    "delta": 0.2,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.8,
+      0.8,
+      0.8
+    ]
+  },
+  {
+    "inner_level": 0.6,
+    "parent_gap": 0.4,
+    "epsilon": 0.315,
+    "tau": 0.0,
+    "delta": 0.2,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.8,
+      0.8,
+      0.8
+    ]
+  },
+  {
+    "inner_level": 0.6,
+    "parent_gap": 0.4,
+    "epsilon": 0.32,
+    "tau": 0.0,
+    "delta": 0.2,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.8,
+      0.8,
+      0.8
+    ]
+  },
+  {
+    "inner_level": 0.6,
+    "parent_gap": 0.4,
+    "epsilon": 0.325,
+    "tau": 0.0,
+    "delta": 0.2,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.8,
+      0.8,
+      0.8
+    ]
+  },
+  {
+    "inner_level": 0.6,
+    "parent_gap": 0.4,
+    "epsilon": 0.33,
+    "tau": 0.0,
+    "delta": 0.2,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.8,
+      0.8,
+      0.8
+    ]
+  },
+  {
+    "inner_level": 0.6,
+    "parent_gap": 0.4,
+    "epsilon": 0.335,
+    "tau": 0.0,
+    "delta": 0.2,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.8,
+      0.8,
+      0.8
+    ]
+  },
+  {
+    "inner_level": 0.6,
+    "parent_gap": 0.4,
+    "epsilon": 0.34,
+    "tau": 0.0,
+    "delta": 0.2,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.8,
+      0.8,
+      0.8
+    ]
+  },
+  {
+    "inner_level": 0.6,
+    "parent_gap": 0.4,
+    "epsilon": 0.34500000000000003,
+    "tau": 0.0,
+    "delta": 0.2,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.8,
+      0.8,
+      0.8
+    ]
+  },
+  {
+    "inner_level": 0.6,
+    "parent_gap": 0.4,
+    "epsilon": 0.35000000000000003,
+    "tau": 0.0,
+    "delta": 0.2,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.8,
+      0.8,
+      0.8
+    ]
+  },
+  {
+    "inner_level": 0.6,
+    "parent_gap": 0.4,
+    "epsilon": 0.355,
+    "tau": 0.0,
+    "delta": 0.2,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.8,
+      0.8,
+      0.8
+    ]
+  },
+  {
+    "inner_level": 0.6,
+    "parent_gap": 0.4,
+    "epsilon": 0.36,
+    "tau": 0.0,
+    "delta": 0.2,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.8,
+      0.8,
+      0.8
+    ]
+  },
+  {
+    "inner_level": 0.6,
+    "parent_gap": 0.4,
+    "epsilon": 0.365,
+    "tau": 0.0,
+    "delta": 0.2,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.8,
+      0.8,
+      0.8
+    ]
+  },
+  {
+    "inner_level": 0.6,
+    "parent_gap": 0.4,
+    "epsilon": 0.37,
+    "tau": 0.0,
+    "delta": 0.2,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.8,
+      0.8,
+      0.8
+    ]
+  },
+  {
+    "inner_level": 0.6,
+    "parent_gap": 0.4,
+    "epsilon": 0.375,
+    "tau": 0.0,
+    "delta": 0.2,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.8,
+      0.8,
+      0.8
+    ]
+  },
+  {
+    "inner_level": 0.6,
+    "parent_gap": 0.4,
+    "epsilon": 0.38,
+    "tau": 0.0,
+    "delta": 0.2,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.8,
+      0.8,
+      0.8
+    ]
+  },
+  {
+    "inner_level": 0.6,
+    "parent_gap": 0.4,
+    "epsilon": 0.385,
+    "tau": 0.0,
+    "delta": 0.2,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.8,
+      0.8,
+      0.8
+    ]
+  },
+  {
+    "inner_level": 0.6,
+    "parent_gap": 0.4,
+    "epsilon": 0.39,
+    "tau": 0.0,
+    "delta": 0.2,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.8,
+      0.8,
+      0.8
+    ]
+  },
+  {
+    "inner_level": 0.6,
+    "parent_gap": 0.4,
+    "epsilon": 0.395,
+    "tau": 0.0,
+    "delta": 0.2,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.8,
+      0.8,
+      0.8
+    ]
+  },
+  {
+    "inner_level": 0.6,
+    "parent_gap": 0.4,
+    "epsilon": 0.4,
+    "tau": 0.0,
+    "delta": 0.2,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.8,
+      0.8,
+      0.8
+    ]
+  },
+  {
+    "inner_level": 0.6,
+    "parent_gap": 0.4,
+    "epsilon": 0.405,
+    "tau": 0.0,
+    "delta": 0.2,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.8,
+      0.8,
+      0.8
+    ]
+  },
+  {
+    "inner_level": 0.6,
+    "parent_gap": 0.4,
+    "epsilon": 0.41000000000000003,
+    "tau": 0.0,
+    "delta": 0.2,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.8,
+      0.8,
+      0.8
+    ]
+  },
+  {
+    "inner_level": 0.6,
+    "parent_gap": 0.4,
+    "epsilon": 0.41500000000000004,
+    "tau": 0.0,
+    "delta": 0.2,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.8,
+      0.8,
+      0.8
+    ]
+  },
+  {
+    "inner_level": 0.6,
+    "parent_gap": 0.4,
+    "epsilon": 0.42,
+    "tau": 0.0,
+    "delta": 0.2,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.8,
+      0.8,
+      0.8
+    ]
+  },
+  {
+    "inner_level": 0.6,
+    "parent_gap": 0.4,
+    "epsilon": 0.425,
+    "tau": 0.0,
+    "delta": 0.2,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.8,
+      0.8,
+      0.8
+    ]
+  },
+  {
+    "inner_level": 0.6,
+    "parent_gap": 0.4,
+    "epsilon": 0.43,
+    "tau": 0.0,
+    "delta": 0.2,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.8,
+      0.8,
+      0.8
+    ]
+  },
+  {
+    "inner_level": 0.6,
+    "parent_gap": 0.4,
+    "epsilon": 0.435,
+    "tau": 0.0,
+    "delta": 0.2,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.8,
+      0.8,
+      0.8
+    ]
+  },
+  {
+    "inner_level": 0.6,
+    "parent_gap": 0.4,
+    "epsilon": 0.44,
+    "tau": 0.0,
+    "delta": 0.2,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.8,
+      0.8,
+      0.8
+    ]
+  },
+  {
+    "inner_level": 0.6,
+    "parent_gap": 0.4,
+    "epsilon": 0.445,
+    "tau": 0.0,
+    "delta": 0.2,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.8,
+      0.8,
+      0.8
+    ]
+  },
+  {
+    "inner_level": 0.6,
+    "parent_gap": 0.4,
+    "epsilon": 0.45,
+    "tau": 0.0,
+    "delta": 0.2,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.8,
+      0.8,
+      0.8
+    ]
+  },
+  {
+    "inner_level": 0.8,
+    "parent_gap": 0.19999999999999996,
+    "epsilon": 0.0,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.8,
+      1.0,
+      0.8
+    ]
+  },
+  {
+    "inner_level": 0.8,
+    "parent_gap": 0.19999999999999996,
+    "epsilon": 0.005,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.8,
+      1.0,
+      0.8
+    ]
+  },
+  {
+    "inner_level": 0.8,
+    "parent_gap": 0.19999999999999996,
+    "epsilon": 0.01,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.8,
+      1.0,
+      0.8
+    ]
+  },
+  {
+    "inner_level": 0.8,
+    "parent_gap": 0.19999999999999996,
+    "epsilon": 0.015,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.8,
+      1.0,
+      0.8
+    ]
+  },
+  {
+    "inner_level": 0.8,
+    "parent_gap": 0.19999999999999996,
+    "epsilon": 0.02,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.8,
+      1.0,
+      0.8
+    ]
+  },
+  {
+    "inner_level": 0.8,
+    "parent_gap": 0.19999999999999996,
+    "epsilon": 0.025,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.8,
+      1.0,
+      0.8
+    ]
+  },
+  {
+    "inner_level": 0.8,
+    "parent_gap": 0.19999999999999996,
+    "epsilon": 0.03,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.8,
+      1.0,
+      0.8
+    ]
+  },
+  {
+    "inner_level": 0.8,
+    "parent_gap": 0.19999999999999996,
+    "epsilon": 0.035,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.8,
+      1.0,
+      0.8
+    ]
+  },
+  {
+    "inner_level": 0.8,
+    "parent_gap": 0.19999999999999996,
+    "epsilon": 0.04,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.8,
+      1.0,
+      0.8
+    ]
+  },
+  {
+    "inner_level": 0.8,
+    "parent_gap": 0.19999999999999996,
+    "epsilon": 0.045,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.8,
+      1.0,
+      0.8
+    ]
+  },
+  {
+    "inner_level": 0.8,
+    "parent_gap": 0.19999999999999996,
+    "epsilon": 0.05,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.8,
+      1.0,
+      0.8
+    ]
+  },
+  {
+    "inner_level": 0.8,
+    "parent_gap": 0.19999999999999996,
+    "epsilon": 0.055,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.8,
+      1.0,
+      0.8
+    ]
+  },
+  {
+    "inner_level": 0.8,
+    "parent_gap": 0.19999999999999996,
+    "epsilon": 0.06,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.8,
+      1.0,
+      0.8
+    ]
+  },
+  {
+    "inner_level": 0.8,
+    "parent_gap": 0.19999999999999996,
+    "epsilon": 0.065,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.8,
+      1.0,
+      0.8
+    ]
+  },
+  {
+    "inner_level": 0.8,
+    "parent_gap": 0.19999999999999996,
+    "epsilon": 0.07,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.8,
+      1.0,
+      0.8
+    ]
+  },
+  {
+    "inner_level": 0.8,
+    "parent_gap": 0.19999999999999996,
+    "epsilon": 0.075,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.8,
+      1.0,
+      0.8
+    ]
+  },
+  {
+    "inner_level": 0.8,
+    "parent_gap": 0.19999999999999996,
+    "epsilon": 0.08,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.8,
+      1.0,
+      0.8
+    ]
+  },
+  {
+    "inner_level": 0.8,
+    "parent_gap": 0.19999999999999996,
+    "epsilon": 0.085,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.8,
+      1.0,
+      0.8
+    ]
+  },
+  {
+    "inner_level": 0.8,
+    "parent_gap": 0.19999999999999996,
+    "epsilon": 0.09,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.8,
+      1.0,
+      0.8
+    ]
+  },
+  {
+    "inner_level": 0.8,
+    "parent_gap": 0.19999999999999996,
+    "epsilon": 0.095,
+    "tau": 0.14,
+    "delta": 0.0,
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "barriers": [
+      0.8,
+      1.0,
+      0.8
+    ]
+  },
+  {
+    "inner_level": 0.8,
+    "parent_gap": 0.19999999999999996,
+    "epsilon": 0.1,
+    "tau": 0.0,
+    "delta": 0.09999999999999998,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.9,
+      0.9,
+      0.9
+    ]
+  },
+  {
+    "inner_level": 0.8,
+    "parent_gap": 0.19999999999999996,
+    "epsilon": 0.105,
+    "tau": 0.0,
+    "delta": 0.09999999999999998,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.9,
+      0.9,
+      0.9
+    ]
+  },
+  {
+    "inner_level": 0.8,
+    "parent_gap": 0.19999999999999996,
+    "epsilon": 0.11,
+    "tau": 0.0,
+    "delta": 0.09999999999999998,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.9,
+      0.9,
+      0.9
+    ]
+  },
+  {
+    "inner_level": 0.8,
+    "parent_gap": 0.19999999999999996,
+    "epsilon": 0.115,
+    "tau": 0.0,
+    "delta": 0.09999999999999998,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.9,
+      0.9,
+      0.9
+    ]
+  },
+  {
+    "inner_level": 0.8,
+    "parent_gap": 0.19999999999999996,
+    "epsilon": 0.12,
+    "tau": 0.0,
+    "delta": 0.09999999999999998,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.9,
+      0.9,
+      0.9
+    ]
+  },
+  {
+    "inner_level": 0.8,
+    "parent_gap": 0.19999999999999996,
+    "epsilon": 0.125,
+    "tau": 0.0,
+    "delta": 0.09999999999999998,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.9,
+      0.9,
+      0.9
+    ]
+  },
+  {
+    "inner_level": 0.8,
+    "parent_gap": 0.19999999999999996,
+    "epsilon": 0.13,
+    "tau": 0.0,
+    "delta": 0.09999999999999998,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.9,
+      0.9,
+      0.9
+    ]
+  },
+  {
+    "inner_level": 0.8,
+    "parent_gap": 0.19999999999999996,
+    "epsilon": 0.135,
+    "tau": 0.0,
+    "delta": 0.09999999999999998,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.9,
+      0.9,
+      0.9
+    ]
+  },
+  {
+    "inner_level": 0.8,
+    "parent_gap": 0.19999999999999996,
+    "epsilon": 0.14,
+    "tau": 0.0,
+    "delta": 0.09999999999999998,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.9,
+      0.9,
+      0.9
+    ]
+  },
+  {
+    "inner_level": 0.8,
+    "parent_gap": 0.19999999999999996,
+    "epsilon": 0.145,
+    "tau": 0.0,
+    "delta": 0.09999999999999998,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.9,
+      0.9,
+      0.9
+    ]
+  },
+  {
+    "inner_level": 0.8,
+    "parent_gap": 0.19999999999999996,
+    "epsilon": 0.15,
+    "tau": 0.0,
+    "delta": 0.09999999999999998,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.9,
+      0.9,
+      0.9
+    ]
+  },
+  {
+    "inner_level": 0.8,
+    "parent_gap": 0.19999999999999996,
+    "epsilon": 0.155,
+    "tau": 0.0,
+    "delta": 0.09999999999999998,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.9,
+      0.9,
+      0.9
+    ]
+  },
+  {
+    "inner_level": 0.8,
+    "parent_gap": 0.19999999999999996,
+    "epsilon": 0.16,
+    "tau": 0.0,
+    "delta": 0.09999999999999998,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.9,
+      0.9,
+      0.9
+    ]
+  },
+  {
+    "inner_level": 0.8,
+    "parent_gap": 0.19999999999999996,
+    "epsilon": 0.165,
+    "tau": 0.0,
+    "delta": 0.09999999999999998,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.9,
+      0.9,
+      0.9
+    ]
+  },
+  {
+    "inner_level": 0.8,
+    "parent_gap": 0.19999999999999996,
+    "epsilon": 0.17,
+    "tau": 0.0,
+    "delta": 0.09999999999999998,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.9,
+      0.9,
+      0.9
+    ]
+  },
+  {
+    "inner_level": 0.8,
+    "parent_gap": 0.19999999999999996,
+    "epsilon": 0.17500000000000002,
+    "tau": 0.0,
+    "delta": 0.09999999999999998,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.9,
+      0.9,
+      0.9
+    ]
+  },
+  {
+    "inner_level": 0.8,
+    "parent_gap": 0.19999999999999996,
+    "epsilon": 0.18,
+    "tau": 0.0,
+    "delta": 0.09999999999999998,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.9,
+      0.9,
+      0.9
+    ]
+  },
+  {
+    "inner_level": 0.8,
+    "parent_gap": 0.19999999999999996,
+    "epsilon": 0.185,
+    "tau": 0.0,
+    "delta": 0.09999999999999998,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.9,
+      0.9,
+      0.9
+    ]
+  },
+  {
+    "inner_level": 0.8,
+    "parent_gap": 0.19999999999999996,
+    "epsilon": 0.19,
+    "tau": 0.0,
+    "delta": 0.09999999999999998,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.9,
+      0.9,
+      0.9
+    ]
+  },
+  {
+    "inner_level": 0.8,
+    "parent_gap": 0.19999999999999996,
+    "epsilon": 0.195,
+    "tau": 0.0,
+    "delta": 0.09999999999999998,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.9,
+      0.9,
+      0.9
+    ]
+  },
+  {
+    "inner_level": 0.8,
+    "parent_gap": 0.19999999999999996,
+    "epsilon": 0.2,
+    "tau": 0.0,
+    "delta": 0.09999999999999998,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.9,
+      0.9,
+      0.9
+    ]
+  },
+  {
+    "inner_level": 0.8,
+    "parent_gap": 0.19999999999999996,
+    "epsilon": 0.20500000000000002,
+    "tau": 0.0,
+    "delta": 0.09999999999999998,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.9,
+      0.9,
+      0.9
+    ]
+  },
+  {
+    "inner_level": 0.8,
+    "parent_gap": 0.19999999999999996,
+    "epsilon": 0.21,
+    "tau": 0.0,
+    "delta": 0.09999999999999998,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.9,
+      0.9,
+      0.9
+    ]
+  },
+  {
+    "inner_level": 0.8,
+    "parent_gap": 0.19999999999999996,
+    "epsilon": 0.215,
+    "tau": 0.0,
+    "delta": 0.09999999999999998,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.9,
+      0.9,
+      0.9
+    ]
+  },
+  {
+    "inner_level": 0.8,
+    "parent_gap": 0.19999999999999996,
+    "epsilon": 0.22,
+    "tau": 0.0,
+    "delta": 0.09999999999999998,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.9,
+      0.9,
+      0.9
+    ]
+  },
+  {
+    "inner_level": 0.8,
+    "parent_gap": 0.19999999999999996,
+    "epsilon": 0.225,
+    "tau": 0.0,
+    "delta": 0.09999999999999998,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.9,
+      0.9,
+      0.9
+    ]
+  },
+  {
+    "inner_level": 0.8,
+    "parent_gap": 0.19999999999999996,
+    "epsilon": 0.23,
+    "tau": 0.0,
+    "delta": 0.09999999999999998,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.9,
+      0.9,
+      0.9
+    ]
+  },
+  {
+    "inner_level": 0.8,
+    "parent_gap": 0.19999999999999996,
+    "epsilon": 0.23500000000000001,
+    "tau": 0.0,
+    "delta": 0.09999999999999998,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.9,
+      0.9,
+      0.9
+    ]
+  },
+  {
+    "inner_level": 0.8,
+    "parent_gap": 0.19999999999999996,
+    "epsilon": 0.24,
+    "tau": 0.0,
+    "delta": 0.09999999999999998,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.9,
+      0.9,
+      0.9
+    ]
+  },
+  {
+    "inner_level": 0.8,
+    "parent_gap": 0.19999999999999996,
+    "epsilon": 0.245,
+    "tau": 0.0,
+    "delta": 0.09999999999999998,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.9,
+      0.9,
+      0.9
+    ]
+  },
+  {
+    "inner_level": 0.8,
+    "parent_gap": 0.19999999999999996,
+    "epsilon": 0.25,
+    "tau": 0.0,
+    "delta": 0.09999999999999998,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.9,
+      0.9,
+      0.9
+    ]
+  },
+  {
+    "inner_level": 0.8,
+    "parent_gap": 0.19999999999999996,
+    "epsilon": 0.255,
+    "tau": 0.0,
+    "delta": 0.09999999999999998,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.9,
+      0.9,
+      0.9
+    ]
+  },
+  {
+    "inner_level": 0.8,
+    "parent_gap": 0.19999999999999996,
+    "epsilon": 0.26,
+    "tau": 0.0,
+    "delta": 0.09999999999999998,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.9,
+      0.9,
+      0.9
+    ]
+  },
+  {
+    "inner_level": 0.8,
+    "parent_gap": 0.19999999999999996,
+    "epsilon": 0.265,
+    "tau": 0.0,
+    "delta": 0.09999999999999998,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.9,
+      0.9,
+      0.9
+    ]
+  },
+  {
+    "inner_level": 0.8,
+    "parent_gap": 0.19999999999999996,
+    "epsilon": 0.27,
+    "tau": 0.0,
+    "delta": 0.09999999999999998,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.9,
+      0.9,
+      0.9
+    ]
+  },
+  {
+    "inner_level": 0.8,
+    "parent_gap": 0.19999999999999996,
+    "epsilon": 0.275,
+    "tau": 0.0,
+    "delta": 0.09999999999999998,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.9,
+      0.9,
+      0.9
+    ]
+  },
+  {
+    "inner_level": 0.8,
+    "parent_gap": 0.19999999999999996,
+    "epsilon": 0.28,
+    "tau": 0.0,
+    "delta": 0.09999999999999998,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.9,
+      0.9,
+      0.9
+    ]
+  },
+  {
+    "inner_level": 0.8,
+    "parent_gap": 0.19999999999999996,
+    "epsilon": 0.28500000000000003,
+    "tau": 0.0,
+    "delta": 0.09999999999999998,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.9,
+      0.9,
+      0.9
+    ]
+  },
+  {
+    "inner_level": 0.8,
+    "parent_gap": 0.19999999999999996,
+    "epsilon": 0.29,
+    "tau": 0.0,
+    "delta": 0.09999999999999998,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.9,
+      0.9,
+      0.9
+    ]
+  },
+  {
+    "inner_level": 0.8,
+    "parent_gap": 0.19999999999999996,
+    "epsilon": 0.295,
+    "tau": 0.0,
+    "delta": 0.09999999999999998,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.9,
+      0.9,
+      0.9
+    ]
+  },
+  {
+    "inner_level": 0.8,
+    "parent_gap": 0.19999999999999996,
+    "epsilon": 0.3,
+    "tau": 0.0,
+    "delta": 0.09999999999999998,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.9,
+      0.9,
+      0.9
+    ]
+  },
+  {
+    "inner_level": 0.8,
+    "parent_gap": 0.19999999999999996,
+    "epsilon": 0.305,
+    "tau": 0.0,
+    "delta": 0.09999999999999998,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.9,
+      0.9,
+      0.9
+    ]
+  },
+  {
+    "inner_level": 0.8,
+    "parent_gap": 0.19999999999999996,
+    "epsilon": 0.31,
+    "tau": 0.0,
+    "delta": 0.09999999999999998,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.9,
+      0.9,
+      0.9
+    ]
+  },
+  {
+    "inner_level": 0.8,
+    "parent_gap": 0.19999999999999996,
+    "epsilon": 0.315,
+    "tau": 0.0,
+    "delta": 0.09999999999999998,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.9,
+      0.9,
+      0.9
+    ]
+  },
+  {
+    "inner_level": 0.8,
+    "parent_gap": 0.19999999999999996,
+    "epsilon": 0.32,
+    "tau": 0.0,
+    "delta": 0.09999999999999998,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.9,
+      0.9,
+      0.9
+    ]
+  },
+  {
+    "inner_level": 0.8,
+    "parent_gap": 0.19999999999999996,
+    "epsilon": 0.325,
+    "tau": 0.0,
+    "delta": 0.09999999999999998,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.9,
+      0.9,
+      0.9
+    ]
+  },
+  {
+    "inner_level": 0.8,
+    "parent_gap": 0.19999999999999996,
+    "epsilon": 0.33,
+    "tau": 0.0,
+    "delta": 0.09999999999999998,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.9,
+      0.9,
+      0.9
+    ]
+  },
+  {
+    "inner_level": 0.8,
+    "parent_gap": 0.19999999999999996,
+    "epsilon": 0.335,
+    "tau": 0.0,
+    "delta": 0.09999999999999998,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.9,
+      0.9,
+      0.9
+    ]
+  },
+  {
+    "inner_level": 0.8,
+    "parent_gap": 0.19999999999999996,
+    "epsilon": 0.34,
+    "tau": 0.0,
+    "delta": 0.09999999999999998,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.9,
+      0.9,
+      0.9
+    ]
+  },
+  {
+    "inner_level": 0.8,
+    "parent_gap": 0.19999999999999996,
+    "epsilon": 0.34500000000000003,
+    "tau": 0.0,
+    "delta": 0.09999999999999998,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.9,
+      0.9,
+      0.9
+    ]
+  },
+  {
+    "inner_level": 0.8,
+    "parent_gap": 0.19999999999999996,
+    "epsilon": 0.35000000000000003,
+    "tau": 0.0,
+    "delta": 0.09999999999999998,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.9,
+      0.9,
+      0.9
+    ]
+  },
+  {
+    "inner_level": 0.8,
+    "parent_gap": 0.19999999999999996,
+    "epsilon": 0.355,
+    "tau": 0.0,
+    "delta": 0.09999999999999998,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.9,
+      0.9,
+      0.9
+    ]
+  },
+  {
+    "inner_level": 0.8,
+    "parent_gap": 0.19999999999999996,
+    "epsilon": 0.36,
+    "tau": 0.0,
+    "delta": 0.09999999999999998,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.9,
+      0.9,
+      0.9
+    ]
+  },
+  {
+    "inner_level": 0.8,
+    "parent_gap": 0.19999999999999996,
+    "epsilon": 0.365,
+    "tau": 0.0,
+    "delta": 0.09999999999999998,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.9,
+      0.9,
+      0.9
+    ]
+  },
+  {
+    "inner_level": 0.8,
+    "parent_gap": 0.19999999999999996,
+    "epsilon": 0.37,
+    "tau": 0.0,
+    "delta": 0.09999999999999998,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.9,
+      0.9,
+      0.9
+    ]
+  },
+  {
+    "inner_level": 0.8,
+    "parent_gap": 0.19999999999999996,
+    "epsilon": 0.375,
+    "tau": 0.0,
+    "delta": 0.09999999999999998,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.9,
+      0.9,
+      0.9
+    ]
+  },
+  {
+    "inner_level": 0.8,
+    "parent_gap": 0.19999999999999996,
+    "epsilon": 0.38,
+    "tau": 0.0,
+    "delta": 0.09999999999999998,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.9,
+      0.9,
+      0.9
+    ]
+  },
+  {
+    "inner_level": 0.8,
+    "parent_gap": 0.19999999999999996,
+    "epsilon": 0.385,
+    "tau": 0.0,
+    "delta": 0.09999999999999998,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.9,
+      0.9,
+      0.9
+    ]
+  },
+  {
+    "inner_level": 0.8,
+    "parent_gap": 0.19999999999999996,
+    "epsilon": 0.39,
+    "tau": 0.0,
+    "delta": 0.09999999999999998,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.9,
+      0.9,
+      0.9
+    ]
+  },
+  {
+    "inner_level": 0.8,
+    "parent_gap": 0.19999999999999996,
+    "epsilon": 0.395,
+    "tau": 0.0,
+    "delta": 0.09999999999999998,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.9,
+      0.9,
+      0.9
+    ]
+  },
+  {
+    "inner_level": 0.8,
+    "parent_gap": 0.19999999999999996,
+    "epsilon": 0.4,
+    "tau": 0.0,
+    "delta": 0.09999999999999998,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.9,
+      0.9,
+      0.9
+    ]
+  },
+  {
+    "inner_level": 0.8,
+    "parent_gap": 0.19999999999999996,
+    "epsilon": 0.405,
+    "tau": 0.0,
+    "delta": 0.09999999999999998,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.9,
+      0.9,
+      0.9
+    ]
+  },
+  {
+    "inner_level": 0.8,
+    "parent_gap": 0.19999999999999996,
+    "epsilon": 0.41000000000000003,
+    "tau": 0.0,
+    "delta": 0.09999999999999998,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.9,
+      0.9,
+      0.9
+    ]
+  },
+  {
+    "inner_level": 0.8,
+    "parent_gap": 0.19999999999999996,
+    "epsilon": 0.41500000000000004,
+    "tau": 0.0,
+    "delta": 0.09999999999999998,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.9,
+      0.9,
+      0.9
+    ]
+  },
+  {
+    "inner_level": 0.8,
+    "parent_gap": 0.19999999999999996,
+    "epsilon": 0.42,
+    "tau": 0.0,
+    "delta": 0.09999999999999998,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.9,
+      0.9,
+      0.9
+    ]
+  },
+  {
+    "inner_level": 0.8,
+    "parent_gap": 0.19999999999999996,
+    "epsilon": 0.425,
+    "tau": 0.0,
+    "delta": 0.09999999999999998,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.9,
+      0.9,
+      0.9
+    ]
+  },
+  {
+    "inner_level": 0.8,
+    "parent_gap": 0.19999999999999996,
+    "epsilon": 0.43,
+    "tau": 0.0,
+    "delta": 0.09999999999999998,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.9,
+      0.9,
+      0.9
+    ]
+  },
+  {
+    "inner_level": 0.8,
+    "parent_gap": 0.19999999999999996,
+    "epsilon": 0.435,
+    "tau": 0.0,
+    "delta": 0.09999999999999998,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.9,
+      0.9,
+      0.9
+    ]
+  },
+  {
+    "inner_level": 0.8,
+    "parent_gap": 0.19999999999999996,
+    "epsilon": 0.44,
+    "tau": 0.0,
+    "delta": 0.09999999999999998,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.9,
+      0.9,
+      0.9
+    ]
+  },
+  {
+    "inner_level": 0.8,
+    "parent_gap": 0.19999999999999996,
+    "epsilon": 0.445,
+    "tau": 0.0,
+    "delta": 0.09999999999999998,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.9,
+      0.9,
+      0.9
+    ]
+  },
+  {
+    "inner_level": 0.8,
+    "parent_gap": 0.19999999999999996,
+    "epsilon": 0.45,
+    "tau": 0.0,
+    "delta": 0.09999999999999998,
+    "order": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barriers": [
+      0.9,
+      0.9,
+      0.9
+    ]
+  }
+]

@@ -1,0 +1,70 @@
+{
+  "storms": {
+    "prefix": [
+      0,
+      53
+    ],
+    "layouts": 54,
+    "max_normalized_interval_violation": 8.411776340479274e-17,
+    "max_measured_merge": 0.2870143503990972,
+    "render": {
+      "length": 8192,
+      "max_barrier_discrepancy": 1.0746470449074508e-05,
+      "clearance_bound": 1.0775096091881427e-05,
+      "max_anchor_rounding": 5.975662125685471e-05,
+      "max_extremum_error": 0.0,
+      "raster_merge_error_max": 0.27426788016607534
+    }
+  },
+  "wildfires": {
+    "prefix": [
+      0,
+      27
+    ],
+    "layouts": 28,
+    "max_normalized_interval_violation": 8.993913310934684e-17,
+    "max_measured_merge": 0.2764850090239322,
+    "render": {
+      "length": 8192,
+      "max_barrier_discrepancy": 3.3504385002491865e-07,
+      "clearance_bound": 1.237684011644198e-06,
+      "max_anchor_rounding": 6.089133322346805e-05,
+      "max_extremum_error": 0.0,
+      "raster_merge_error_max": 0.2764852766207045
+    }
+  },
+  "pm25": {
+    "prefix": [
+      0,
+      187
+    ],
+    "layouts": 188,
+    "max_normalized_interval_violation": 7.696681367657148e-18,
+    "max_measured_merge": 0.05616402220404514,
+    "render": {
+      "length": 8192,
+      "max_barrier_discrepancy": 1.214306433183765e-17,
+      "clearance_bound": 5.194637528183952e-07,
+      "max_anchor_rounding": 6.023000515744769e-05,
+      "max_extremum_error": 0.0,
+      "raster_merge_error_max": 0.007637588188704455
+    }
+  },
+  "tangaroa": {
+    "prefix": [
+      0,
+      120
+    ],
+    "layouts": 121,
+    "max_normalized_interval_violation": 3.145857228210977e-17,
+    "max_measured_merge": 0.29903560876846313,
+    "render": {
+      "length": 8192,
+      "max_barrier_discrepancy": 8.325603306214013e-07,
+      "clearance_bound": 8.528323292011919e-07,
+      "max_anchor_rounding": 6.0990818950891975e-05,
+      "max_extremum_error": 0.0,
+      "raster_merge_error_max": 0.21765605625429751
+    }
+  }
+}

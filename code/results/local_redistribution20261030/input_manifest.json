@@ -1,0 +1,25 @@
+{
+  "Vortex": {
+    "file": "vortex.npz",
+    "sha256": "08ad7d85e02711263398f6f8045e4d5c3f5af2e14b1bc93227b8032748f2e772",
+    "frames": 90,
+    "samples": 12446,
+    "min_leaves": 111,
+    "max_leaves": 156
+  },
+  "Storms-hourly": {
+    "file": "storms-hourly.npz",
+    "sha256": "848ce4991d81d99e8ad6ba320a4d19dd99e2ea98f3f76374d0b69b973e419135",
+    "frames": 744,
+    "samples": 3502,
+    "min_leaves": 1,
+    "max_leaves": 12
+  },
+  "source_sha256": {
+    "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/code/results/volumes20261029/vorts/features.json": "1ec54c448b6393c9af99ea8f942a9a88a29c6650f61bdf940f1a130417c61894",
+    "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/code/results/volumes20261029/vorts/parameters.json": "8308b1268bd5c290a86f93abe1da6926012ca3aac428f1d4cc8fb7ef98c82798",
+    "/Users/lele/Desktop/MergeTreeMaps/output/vortex_teaser_3d_v4_20261030/epsilon30/vorts/verification.json": "c885fbeb3a919b21c4f8ac00825606350cd6a3b8d5bf3bca8c55feed5e7af624",
+    "/Users/lele/Desktop/MergeTreeMaps/output/storms_hourly_anomaly_fine_20261030/input.json": "6af74b8a33bc0e0de2a73149a11a80cb6735764e11e838e8d4dc934537ad5d68",
+    "/Users/lele/Desktop/MergeTreeMaps/output/storms_hourly_anomaly_fine_20261030/coherent/validation.json": "a7e450735da202efe7a5180c79d2ee8242e87d8e9bc635cb4e0f65ce5ad1d48b"
+  }
+}

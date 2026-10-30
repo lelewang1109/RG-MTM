@@ -224,7 +224,7 @@
 | N1c | 在新布局上重算 SNS、TW、ME 和栅格误差 | 完整主表 | ✅ 10-27 |
 | N2 | 投影基线（ε=∞）与 TMTM→投影的 Pareto 曲线：每个数据集画出（NMLE, NROE/E_∞）点和 ε 曲线 | 主结果图 | ✅ 10-27 |
 | N3 | 实例复现：把原生叶序喂给 P(Θ_TMTM) 和 P(Θ_ST-MTM) 的求解器，复现原生布局；小树上穷举 TMTM 目标，量化其贪心解的差距 | 统一表述的证据 | ✅ 10-27 |
-| N4 | 可控冲突合成实验：调节兄弟子树在参考轴上的重叠深度，验证 ν\*、H 对位移的预测 | 小图 | 待做 |
+| N4 | 可控冲突合成实验：172 组重叠/宽度设置、364 组预算/父间隙设置；全 24 叶序与独立 LP 核验 ν\*、宽度下界及层次额外代价 | 正文图与附录图、CSV/JSON 和复现脚本 | ✅ 10-30 |
 | N5 | 失真披露编码：在被改动的屏障处加标记，配逐帧的 ν\*、H、d_top 条带；teaser 改用 ε | 图 1 和案例图 | ✅ 10-27（Storms 案例图；teaser 仍为 OLR/Ring） |
 | N6 | 9 页正文重写（提纲见设计说明第 4 节），旧内容移入附录；更新哈希清单与 CI | 新稿 | 待做 |
 | N7 | 摘要定稿并于 11-02 提交 | 摘要 | 待做 |
@@ -254,3 +254,11 @@
 | `code/experiments/runtime/`、`code/results/runtime20261027/` | 运行时间与机器配置 |
 | `code/experiments/reference_direction/`、`code/results/reference_direction20261027/` | 三维参考方向研究 |
 | `paper/pvis2027/` | PacificVis 重写稿（LaTeX、PDF、生成图表的脚本） |
+
+## N4 完成记录（2026-10-30）
+
+- 正文原来只有理论示意与真实数据评价，没有可调冲突强度的 N4 实验；现加入 Controlled hierarchy conflict 小节与 fig_controlled_conflict。
+- 实验入口：`code/experiments/controlled_conflict/`；结果：`code/results/controlled_conflict20261030/`。
+- 172 组重叠/宽度设置与 364 组预算/父间隙设置，全部枚举 24 种叶序；独立 LP 共 4152 次，固定叶序公式与 LP 最大差异 1.67e-16。
+- 原计划 H 用当前记号明确为 H_hier = τ_exact − τ_free，避免与锚点偏心 H_i 混淆；当前正文侧重 ν* 与宽度下界，H_hier 和完整协议置于附录。
+- 结果仅说明该四叶受控树族中下界紧且搜索最优，不泛化为任意大树的宽度最优性。

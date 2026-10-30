@@ -1,3 +1,7 @@
+> 2026-10-30 最新图更新：图 1 已替换为 `Storms_teaser_hybrid_editable.pptx` 对应的最终二维图；图 11 为 `Vortex_teaser_editable_final.pptx` 对应三维图。正文仍为 9 页正文 + 2 页参考文献，附录 10 页（含已有局部预算响应实验与移入的旧 Storms 图）。图源、参数及哈希见 `figures/data/latest_ppt_20261030/`。新源码包为 `export/RG-MTM_PacificVis2027_LatestPPT_20261030.zip`。下方旧更新记录保留历史身份。
+
+> 2026-10-30 更新：已补 N4 可控层次冲突实验，正文 §7.3 / 图 9，附录 §S3 / 图 S1。正文仍为 11 页（正文在第 9 页结束，第 10–11 页仅参考文献），附录现为 7 页。原始 2026-10-27 源码包保留历史身份；新包见 `export/RG-MTM_PacificVis2027_N4_20261030.zip`。完整输入、结果与复现方式见 `../../code/experiments/controlled_conflict/README.md`。
+
 # PacificVis 2027 重写稿（2026-10-27）
 
 按新体系重写的会议稿（VGTC 模板，双盲审稿版）。主线是 ε=0 的精确拓扑版本，ε>0 的有界放松作为延伸。
@@ -5,7 +9,7 @@
 | 文件 | 作用 |
 |---|---|
 | `main.tex` / `main.pdf` | 正文：共 11 页，正文在第 9 页结束（上限 9 页），第 10–11 页只有参考文献（上限 2 页） |
-| `supplement.tex` / `supplement.pdf` | 附录（6 页）：完整证明（定理 2、3，粗下界，最优屏障闭式解），排序和指标协议细节，N3 和 D6 的核对记录，运行时间，以及横评的全部数值、主表、三维数据表和补充图 |
+| `supplement.tex` / `supplement.pdf` | 附录（7 页，含 N4）：完整证明（定理 2、3，粗下界，最优屏障闭式解），排序和指标协议细节，N3 和 D6 的核对记录，运行时间，以及横评的全部数值、主表、三维数据表和补充图 |
 | `OUTLINE.md` | 论文结构：主线、贡献顺序、各节篇幅、图表计划 |
 | `main_zh.md` | 正文逐句中英对照（含标题、摘要、图表标题、记号表、算法） |
 | `export/RG-MTM_PacificVis2027_LaTeX_20261027.zip` | 完整 LaTeX 工程（可直接上传 Overleaf；已在空目录中验证可独立编译） |
@@ -52,3 +56,17 @@ tectonic -X compile main.tex && tectonic -X compile supplement.tex       # 或 O
 - 不声称更易读；可读性与感知留给后续的 TVCG 工作。
 - κ 构造只作为对照基线出现，其误差没有上限。
 - 引言中说明默认使用 ε=0，只在权衡图显示收益明显时才放松。
+
+## N4 新增内容（2026-10-30）
+
+- 正文：Controlled hierarchy conflict 小节；`figures/fig_controlled_conflict.pdf`（图 9）。
+- 附录：完整协议、独立 LP 验证、H_hier 和父间隙扫描；`figures/fig_controlled_conflict_supp.pdf`（图 S1）。
+- 正文插图后的现编号：图 7 地图比较、图 8 前沿、图 9 N4、图 10 Tangaroa、图 11 方向、图 12 Storms；以 LaTeX 自动交叉引用为准，上方旧图表计划保留历史身份。
+- 数据：`code/results/controlled_conflict20261030/`；脚本：`code/experiments/controlled_conflict/`（相对仓库根目录）。
+- 原稿快照与修改前完整备份：工作区 `output/n4_controlled_conflict_20261030/before/`。
+
+## 最新 PPT 图的复现
+
+最终 PNG 按原始像素复制到 figures/：二维 5280×3000，三维 2808×1296；PDF 仅封装图像，不缩放重绘科学内容。在 7 英寸通栏处分别约为 754 dpi 和 401 dpi。`scripts/make_figures.py` 中 `fig_latest_ppt_examples()` 从这些冻结 PNG 重新生成论文 PDF 图，需要 PyMuPDF 和 Pillow。旧 `fig_teaser()` 仍保留原图的历史重建能力，但当前正文引用独立的新图名，不会被其覆盖。
+
+二维图的 t=236 合并误差和树结构以 hybrid_topology_audit.json 为准；三维图以保存的 evidence.json 为准。两者均是额外诊断序列，不改变 917 帧横评范围。树图纵轴是结构层数，原始标量误差另行核验。原 PPT 没有修改。

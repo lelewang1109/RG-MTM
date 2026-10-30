@@ -1,0 +1,3406 @@
+{
+  "dataset": "Storms",
+  "frames": 744,
+  "best_epsilon": 0.05,
+  "snapshot_frames": [
+    212,
+    218,
+    224,
+    230,
+    236
+  ],
+  "map_window_frames": [
+    212,
+    213,
+    214,
+    215,
+    216,
+    217,
+    218,
+    219,
+    220,
+    221,
+    222,
+    223,
+    224,
+    225,
+    226,
+    227,
+    228,
+    229,
+    230,
+    231,
+    232,
+    233,
+    234,
+    235,
+    236,
+    237,
+    238,
+    239
+  ],
+  "snapshot_interval_hours": 6,
+  "motion_case": {
+    "previous_issue": "four-hour window with near-stationary grid extrema",
+    "tracks": [
+      96,
+      156
+    ],
+    "real_hourly_trajectories": true,
+    "spatial_motion_exaggerated": false
+  },
+  "point_label_semantics": "Letter denotes tracked feature; first digit is 1-based parameter column; second digit is 1-based time within the five selected times. b uses column 1, d uses time 5.",
+  "detail_epsilons": [
+    0,
+    0.01,
+    0.02,
+    0.03,
+    0.05
+  ],
+  "snapshot_epsilon": 0,
+  "snapshot_strip_ylim": [
+    0.4,
+    0.8
+  ],
+  "snapshot_strip_height_fraction": 0.105,
+  "right_context_frames": [
+    237,
+    238,
+    239
+  ],
+  "snapshot_column_correspondence_verified": true,
+  "hierarchy_frame": 236,
+  "feature_tracks": {
+    "96": "A",
+    "156": "B"
+  },
+  "display_style": {
+    "context_leaf_connections": false,
+    "context_leaf_dots": false,
+    "horizontal_axis_captions": false,
+    "font": "Helvetica",
+    "weight": "normal",
+    "paper_width_inches": 7,
+    "font_size_at_paper_width_pt": 7,
+    "c_tick_font_size_at_paper_width_pt": 6,
+    "c_annotation_font_size_at_paper_width_pt": 5,
+    "b_time_headers_outside_snapshots": true
+  },
+  "c_annotation_placement": [
+    {
+      "label": "A11",
+      "frame": 212,
+      "column": 1,
+      "offset_points": [
+        14,
+        -24
+      ],
+      "marker_clearance_checked": true
+    },
+    {
+      "label": "A12",
+      "frame": 218,
+      "column": 1,
+      "offset_points": [
+        8,
+        -24
+      ],
+      "marker_clearance_checked": true
+    },
+    {
+      "label": "A13",
+      "frame": 224,
+      "column": 1,
+      "offset_points": [
+        2,
+        -24
+      ],
+      "marker_clearance_checked": true
+    },
+    {
+      "label": "A14",
+      "frame": 230,
+      "column": 1,
+      "offset_points": [
+        0,
+        -24
+      ],
+      "marker_clearance_checked": true
+    },
+    {
+      "label": "A15",
+      "frame": 236,
+      "column": 1,
+      "offset_points": [
+        0,
+        -24
+      ],
+      "marker_clearance_checked": true
+    },
+    {
+      "label": "B11",
+      "frame": 212,
+      "column": 1,
+      "offset_points": [
+        14,
+        14
+      ],
+      "marker_clearance_checked": true
+    },
+    {
+      "label": "B12",
+      "frame": 218,
+      "column": 1,
+      "offset_points": [
+        0,
+        22
+      ],
+      "marker_clearance_checked": true
+    },
+    {
+      "label": "B13",
+      "frame": 224,
+      "column": 1,
+      "offset_points": [
+        0,
+        14
+      ],
+      "marker_clearance_checked": true
+    },
+    {
+      "label": "B14",
+      "frame": 230,
+      "column": 1,
+      "offset_points": [
+        0,
+        14
+      ],
+      "marker_clearance_checked": true
+    },
+    {
+      "label": "B15",
+      "frame": 236,
+      "column": 1,
+      "offset_points": [
+        0,
+        54
+      ],
+      "marker_clearance_checked": true
+    },
+    {
+      "label": "A21",
+      "frame": 212,
+      "column": 2,
+      "offset_points": [
+        14,
+        -24
+      ],
+      "marker_clearance_checked": true
+    },
+    {
+      "label": "A22",
+      "frame": 218,
+      "column": 2,
+      "offset_points": [
+        8,
+        -24
+      ],
+      "marker_clearance_checked": true
+    },
+    {
+      "label": "A23",
+      "frame": 224,
+      "column": 2,
+      "offset_points": [
+        2,
+        -24
+      ],
+      "marker_clearance_checked": true
+    },
+    {
+      "label": "A24",
+      "frame": 230,
+      "column": 2,
+      "offset_points": [
+        0,
+        -24
+      ],
+      "marker_clearance_checked": true
+    },
+    {
+      "label": "A25",
+      "frame": 236,
+      "column": 2,
+      "offset_points": [
+        0,
+        -24
+      ],
+      "marker_clearance_checked": true
+    },
+    {
+      "label": "B21",
+      "frame": 212,
+      "column": 2,
+      "offset_points": [
+        14,
+        14
+      ],
+      "marker_clearance_checked": true
+    },
+    {
+      "label": "B22",
+      "frame": 218,
+      "column": 2,
+      "offset_points": [
+        8,
+        14
+      ],
+      "marker_clearance_checked": true
+    },
+    {
+      "label": "B23",
+      "frame": 224,
+      "column": 2,
+      "offset_points": [
+        2,
+        14
+      ],
+      "marker_clearance_checked": true
+    },
+    {
+      "label": "B24",
+      "frame": 230,
+      "column": 2,
+      "offset_points": [
+        0,
+        14
+      ],
+      "marker_clearance_checked": true
+    },
+    {
+      "label": "B25",
+      "frame": 236,
+      "column": 2,
+      "offset_points": [
+        0,
+        54
+      ],
+      "marker_clearance_checked": true
+    },
+    {
+      "label": "A31",
+      "frame": 212,
+      "column": 3,
+      "offset_points": [
+        14,
+        -24
+      ],
+      "marker_clearance_checked": true
+    },
+    {
+      "label": "A32",
+      "frame": 218,
+      "column": 3,
+      "offset_points": [
+        8,
+        -24
+      ],
+      "marker_clearance_checked": true
+    },
+    {
+      "label": "A33",
+      "frame": 224,
+      "column": 3,
+      "offset_points": [
+        2,
+        -24
+      ],
+      "marker_clearance_checked": true
+    },
+    {
+      "label": "A34",
+      "frame": 230,
+      "column": 3,
+      "offset_points": [
+        0,
+        -24
+      ],
+      "marker_clearance_checked": true
+    },
+    {
+      "label": "A35",
+      "frame": 236,
+      "column": 3,
+      "offset_points": [
+        0,
+        -24
+      ],
+      "marker_clearance_checked": true
+    },
+    {
+      "label": "B31",
+      "frame": 212,
+      "column": 3,
+      "offset_points": [
+        14,
+        14
+      ],
+      "marker_clearance_checked": true
+    },
+    {
+      "label": "B32",
+      "frame": 218,
+      "column": 3,
+      "offset_points": [
+        8,
+        14
+      ],
+      "marker_clearance_checked": true
+    },
+    {
+      "label": "B33",
+      "frame": 224,
+      "column": 3,
+      "offset_points": [
+        2,
+        14
+      ],
+      "marker_clearance_checked": true
+    },
+    {
+      "label": "B34",
+      "frame": 230,
+      "column": 3,
+      "offset_points": [
+        0,
+        14
+      ],
+      "marker_clearance_checked": true
+    },
+    {
+      "label": "B35",
+      "frame": 236,
+      "column": 3,
+      "offset_points": [
+        0,
+        46
+      ],
+      "marker_clearance_checked": true
+    },
+    {
+      "label": "A41",
+      "frame": 212,
+      "column": 4,
+      "offset_points": [
+        14,
+        -24
+      ],
+      "marker_clearance_checked": true
+    },
+    {
+      "label": "A42",
+      "frame": 218,
+      "column": 4,
+      "offset_points": [
+        8,
+        -24
+      ],
+      "marker_clearance_checked": true
+    },
+    {
+      "label": "A43",
+      "frame": 224,
+      "column": 4,
+      "offset_points": [
+        2,
+        -24
+      ],
+      "marker_clearance_checked": true
+    },
+    {
+      "label": "A44",
+      "frame": 230,
+      "column": 4,
+      "offset_points": [
+        0,
+        -24
+      ],
+      "marker_clearance_checked": true
+    },
+    {
+      "label": "A45",
+      "frame": 236,
+      "column": 4,
+      "offset_points": [
+        0,
+        -24
+      ],
+      "marker_clearance_checked": true
+    },
+    {
+      "label": "B41",
+      "frame": 212,
+      "column": 4,
+      "offset_points": [
+        14,
+        14
+      ],
+      "marker_clearance_checked": true
+    },
+    {
+      "label": "B42",
+      "frame": 218,
+      "column": 4,
+      "offset_points": [
+        8,
+        14
+      ],
+      "marker_clearance_checked": true
+    },
+    {
+      "label": "B43",
+      "frame": 224,
+      "column": 4,
+      "offset_points": [
+        2,
+        14
+      ],
+      "marker_clearance_checked": true
+    },
+    {
+      "label": "B44",
+      "frame": 230,
+      "column": 4,
+      "offset_points": [
+        0,
+        14
+      ],
+      "marker_clearance_checked": true
+    },
+    {
+      "label": "B45",
+      "frame": 236,
+      "column": 4,
+      "offset_points": [
+        0,
+        46
+      ],
+      "marker_clearance_checked": true
+    },
+    {
+      "label": "A51",
+      "frame": 212,
+      "column": 5,
+      "offset_points": [
+        14,
+        -24
+      ],
+      "marker_clearance_checked": true
+    },
+    {
+      "label": "A52",
+      "frame": 218,
+      "column": 5,
+      "offset_points": [
+        8,
+        -24
+      ],
+      "marker_clearance_checked": true
+    },
+    {
+      "label": "A53",
+      "frame": 224,
+      "column": 5,
+      "offset_points": [
+        2,
+        -24
+      ],
+      "marker_clearance_checked": true
+    },
+    {
+      "label": "A54",
+      "frame": 230,
+      "column": 5,
+      "offset_points": [
+        0,
+        -24
+      ],
+      "marker_clearance_checked": true
+    },
+    {
+      "label": "A55",
+      "frame": 236,
+      "column": 5,
+      "offset_points": [
+        0,
+        -24
+      ],
+      "marker_clearance_checked": true
+    },
+    {
+      "label": "B51",
+      "frame": 212,
+      "column": 5,
+      "offset_points": [
+        14,
+        14
+      ],
+      "marker_clearance_checked": true
+    },
+    {
+      "label": "B52",
+      "frame": 218,
+      "column": 5,
+      "offset_points": [
+        8,
+        14
+      ],
+      "marker_clearance_checked": true
+    },
+    {
+      "label": "B53",
+      "frame": 224,
+      "column": 5,
+      "offset_points": [
+        2,
+        14
+      ],
+      "marker_clearance_checked": true
+    },
+    {
+      "label": "B54",
+      "frame": 230,
+      "column": 5,
+      "offset_points": [
+        0,
+        14
+      ],
+      "marker_clearance_checked": true
+    },
+    {
+      "label": "B55",
+      "frame": 236,
+      "column": 5,
+      "offset_points": [
+        0,
+        14
+      ],
+      "marker_clearance_checked": true
+    }
+  ],
+  "c_annotation_marker_overlap_checked": true,
+  "leaf_identity_labels": {
+    "146": null,
+    "96": "A",
+    "156": "B",
+    "157": null,
+    "158": null,
+    "159": null,
+    "160": null,
+    "161": null,
+    "162": null,
+    "163": null,
+    "164": null,
+    "165": null,
+    "166": null,
+    "167": null,
+    "168": null,
+    "169": null,
+    "170": null,
+    "171": null,
+    "172": null,
+    "173": null,
+    "174": null,
+    "175": null
+  },
+  "map_leaf_correspondence": [
+    {
+      "epsilon": 0,
+      "leaves": [
+        {
+          "label": null,
+          "track": 171,
+          "frame": 236,
+          "position": 0.0850349480004329,
+          "reference": 0.07664975148219014,
+          "drawn": false,
+          "marker": null,
+          "label_offset_points": null
+        },
+        {
+          "label": "B15",
+          "track": 156,
+          "frame": 236,
+          "position": 0.5529036926316417,
+          "reference": 0.7507983806408848,
+          "drawn": true,
+          "marker": [
+            236,
+            0.5529036926316417
+          ],
+          "label_offset_points": [
+            0,
+            54
+          ]
+        },
+        {
+          "label": "A15",
+          "track": 96,
+          "frame": 236,
+          "position": 0.5656084684195078,
+          "reference": 0.6580266153657642,
+          "drawn": true,
+          "marker": [
+            236,
+            0.5656084684195078
+          ],
+          "label_offset_points": [
+            0,
+            -24
+          ]
+        },
+        {
+          "label": null,
+          "track": 164,
+          "frame": 236,
+          "position": 0.6442753433327384,
+          "reference": 0.6426871893527376,
+          "drawn": false,
+          "marker": null,
+          "label_offset_points": null
+        },
+        {
+          "label": null,
+          "track": 170,
+          "frame": 236,
+          "position": 0.6733795360302257,
+          "reference": 0.4642343274045729,
+          "drawn": false,
+          "marker": null,
+          "label_offset_points": null
+        }
+      ]
+    },
+    {
+      "epsilon": 0.01,
+      "leaves": [
+        {
+          "label": null,
+          "track": 171,
+          "frame": 236,
+          "position": 0.0850349480004329,
+          "reference": 0.07664975148219014,
+          "drawn": false,
+          "marker": null,
+          "label_offset_points": null
+        },
+        {
+          "label": "B25",
+          "track": 156,
+          "frame": 236,
+          "position": 0.5529036926316417,
+          "reference": 0.7507983806408848,
+          "drawn": true,
+          "marker": [
+            236,
+            0.5529036926316417
+          ],
+          "label_offset_points": [
+            0,
+            54
+          ]
+        },
+        {
+          "label": "A25",
+          "track": 96,
+          "frame": 236,
+          "position": 0.5656084684195078,
+          "reference": 0.6580266153657642,
+          "drawn": true,
+          "marker": [
+            236,
+            0.5656084684195078
+          ],
+          "label_offset_points": [
+            0,
+            -24
+          ]
+        },
+        {
+          "label": null,
+          "track": 164,
+          "frame": 236,
+          "position": 0.6442753433327384,
+          "reference": 0.6426871893527376,
+          "drawn": false,
+          "marker": null,
+          "label_offset_points": null
+        },
+        {
+          "label": null,
+          "track": 170,
+          "frame": 236,
+          "position": 0.6733795360302257,
+          "reference": 0.4642343274045729,
+          "drawn": false,
+          "marker": null,
+          "label_offset_points": null
+        }
+      ]
+    },
+    {
+      "epsilon": 0.02,
+      "leaves": [
+        {
+          "label": null,
+          "track": 171,
+          "frame": 236,
+          "position": 0.09448450217201912,
+          "reference": 0.07664975148219014,
+          "drawn": false,
+          "marker": null,
+          "label_offset_points": null
+        },
+        {
+          "label": "B35",
+          "track": 156,
+          "frame": 236,
+          "position": 0.5931950642823428,
+          "reference": 0.7507983806408848,
+          "drawn": true,
+          "marker": [
+            236,
+            0.5931950642823428
+          ],
+          "label_offset_points": [
+            0,
+            46
+          ]
+        },
+        {
+          "label": "A35",
+          "track": 96,
+          "frame": 236,
+          "position": 0.605899840070209,
+          "reference": 0.6580266153657642,
+          "drawn": true,
+          "marker": [
+            236,
+            0.605899840070209
+          ],
+          "label_offset_points": [
+            0,
+            -24
+          ]
+        },
+        {
+          "label": null,
+          "track": 170,
+          "frame": 236,
+          "position": 0.6105871231467049,
+          "reference": 0.4642343274045729,
+          "drawn": false,
+          "marker": null,
+          "label_offset_points": null
+        },
+        {
+          "label": null,
+          "track": 164,
+          "frame": 236,
+          "position": 0.7398796488021968,
+          "reference": 0.6426871893527376,
+          "drawn": false,
+          "marker": null,
+          "label_offset_points": null
+        }
+      ]
+    },
+    {
+      "epsilon": 0.03,
+      "leaves": [
+        {
+          "label": null,
+          "track": 171,
+          "frame": 236,
+          "position": 0.09448450217201912,
+          "reference": 0.07664975148219014,
+          "drawn": false,
+          "marker": null,
+          "label_offset_points": null
+        },
+        {
+          "label": "B45",
+          "track": 156,
+          "frame": 236,
+          "position": 0.5931950642823428,
+          "reference": 0.7507983806408848,
+          "drawn": true,
+          "marker": [
+            236,
+            0.5931950642823428
+          ],
+          "label_offset_points": [
+            0,
+            46
+          ]
+        },
+        {
+          "label": "A45",
+          "track": 96,
+          "frame": 236,
+          "position": 0.605899840070209,
+          "reference": 0.6580266153657642,
+          "drawn": true,
+          "marker": [
+            236,
+            0.605899840070209
+          ],
+          "label_offset_points": [
+            0,
+            -24
+          ]
+        },
+        {
+          "label": null,
+          "track": 170,
+          "frame": 236,
+          "position": 0.6105871231467049,
+          "reference": 0.4642343274045729,
+          "drawn": false,
+          "marker": null,
+          "label_offset_points": null
+        },
+        {
+          "label": null,
+          "track": 164,
+          "frame": 236,
+          "position": 0.7398796488021968,
+          "reference": 0.6426871893527376,
+          "drawn": false,
+          "marker": null,
+          "label_offset_points": null
+        }
+      ]
+    },
+    {
+      "epsilon": 0.05,
+      "leaves": [
+        {
+          "label": null,
+          "track": 171,
+          "frame": 236,
+          "position": 0.09166657043175307,
+          "reference": 0.07664975148219014,
+          "drawn": false,
+          "marker": null,
+          "label_offset_points": null
+        },
+        {
+          "label": null,
+          "track": 170,
+          "frame": 236,
+          "position": 0.4489665490880263,
+          "reference": 0.4642343274045729,
+          "drawn": false,
+          "marker": null,
+          "label_offset_points": null
+        },
+        {
+          "label": null,
+          "track": 164,
+          "frame": 236,
+          "position": 0.627419411036191,
+          "reference": 0.6426871893527376,
+          "drawn": false,
+          "marker": null,
+          "label_offset_points": null
+        },
+        {
+          "label": "A55",
+          "track": 96,
+          "frame": 236,
+          "position": 0.6732943936823108,
+          "reference": 0.6580266153657642,
+          "drawn": true,
+          "marker": [
+            236,
+            0.6732943936823108
+          ],
+          "label_offset_points": [
+            0,
+            -24
+          ]
+        },
+        {
+          "label": "B55",
+          "track": 156,
+          "frame": 236,
+          "position": 0.7660661589574314,
+          "reference": 0.7507983806408848,
+          "drawn": true,
+          "marker": [
+            236,
+            0.7660661589574314
+          ],
+          "label_offset_points": [
+            0,
+            14
+          ]
+        }
+      ]
+    }
+  ],
+  "tracked_leaf_samples": [
+    {
+      "epsilon": 0,
+      "frame": 212,
+      "label": null,
+      "track": 146,
+      "position": 0.441254153478998,
+      "drawn": false
+    },
+    {
+      "epsilon": 0,
+      "frame": 212,
+      "label": "A11",
+      "track": 96,
+      "position": 0.471875075317121,
+      "drawn": true
+    },
+    {
+      "epsilon": 0,
+      "frame": 212,
+      "label": "B11",
+      "track": 156,
+      "position": 0.6200719648511462,
+      "drawn": true
+    },
+    {
+      "epsilon": 0,
+      "frame": 218,
+      "label": null,
+      "track": 159,
+      "position": 0.5171722921482305,
+      "drawn": false
+    },
+    {
+      "epsilon": 0,
+      "frame": 218,
+      "label": null,
+      "track": 146,
+      "position": 0.49726994520470447,
+      "drawn": false
+    },
+    {
+      "epsilon": 0,
+      "frame": 218,
+      "label": "A12",
+      "track": 96,
+      "position": 0.526297051920249,
+      "drawn": true
+    },
+    {
+      "epsilon": 0,
+      "frame": 218,
+      "label": "B12",
+      "track": 156,
+      "position": 0.6882523990465127,
+      "drawn": true
+    },
+    {
+      "epsilon": 0,
+      "frame": 218,
+      "label": null,
+      "track": 163,
+      "position": 0.38448441353615903,
+      "drawn": false
+    },
+    {
+      "epsilon": 0,
+      "frame": 224,
+      "label": null,
+      "track": 164,
+      "position": 0.660078998021522,
+      "drawn": false
+    },
+    {
+      "epsilon": 0,
+      "frame": 224,
+      "label": "A13",
+      "track": 96,
+      "position": 0.4849534065147372,
+      "drawn": true
+    },
+    {
+      "epsilon": 0,
+      "frame": 224,
+      "label": "B13",
+      "track": 156,
+      "position": 0.626347363100613,
+      "drawn": true
+    },
+    {
+      "epsilon": 0,
+      "frame": 224,
+      "label": null,
+      "track": 163,
+      "position": 0.3478536050807825,
+      "drawn": false
+    },
+    {
+      "epsilon": 0,
+      "frame": 230,
+      "label": null,
+      "track": 165,
+      "position": 0.7370915451638956,
+      "drawn": false
+    },
+    {
+      "epsilon": 0,
+      "frame": 230,
+      "label": null,
+      "track": 167,
+      "position": 0.9989067055393587,
+      "drawn": false
+    },
+    {
+      "epsilon": 0,
+      "frame": 230,
+      "label": null,
+      "track": 164,
+      "position": 0.6946422907173252,
+      "drawn": false
+    },
+    {
+      "epsilon": 0,
+      "frame": 230,
+      "label": "A14",
+      "track": 96,
+      "position": 0.644964801545875,
+      "drawn": true
+    },
+    {
+      "epsilon": 0,
+      "frame": 230,
+      "label": "B14",
+      "track": 156,
+      "position": 0.6331971352957014,
+      "drawn": true
+    },
+    {
+      "epsilon": 0,
+      "frame": 230,
+      "label": null,
+      "track": 163,
+      "position": 0.3304504110925102,
+      "drawn": false
+    },
+    {
+      "epsilon": 0,
+      "frame": 236,
+      "label": null,
+      "track": 164,
+      "position": 0.6442753433327384,
+      "drawn": false
+    },
+    {
+      "epsilon": 0,
+      "frame": 236,
+      "label": "A15",
+      "track": 96,
+      "position": 0.5656084684195078,
+      "drawn": true
+    },
+    {
+      "epsilon": 0,
+      "frame": 236,
+      "label": null,
+      "track": 170,
+      "position": 0.6733795360302257,
+      "drawn": false
+    },
+    {
+      "epsilon": 0,
+      "frame": 236,
+      "label": null,
+      "track": 171,
+      "position": 0.0850349480004329,
+      "drawn": false
+    },
+    {
+      "epsilon": 0,
+      "frame": 236,
+      "label": "B15",
+      "track": 156,
+      "position": 0.5529036926316417,
+      "drawn": true
+    },
+    {
+      "epsilon": 0.01,
+      "frame": 212,
+      "label": null,
+      "track": 146,
+      "position": 0.4610036075015944,
+      "drawn": false
+    },
+    {
+      "epsilon": 0.01,
+      "frame": 212,
+      "label": "A21",
+      "track": 96,
+      "position": 0.43545895462785805,
+      "drawn": true
+    },
+    {
+      "epsilon": 0.01,
+      "frame": 212,
+      "label": "B21",
+      "track": 156,
+      "position": 0.6003225108285499,
+      "drawn": true
+    },
+    {
+      "epsilon": 0.01,
+      "frame": 218,
+      "label": null,
+      "track": 159,
+      "position": 0.5578574635209986,
+      "drawn": false
+    },
+    {
+      "epsilon": 0.01,
+      "frame": 218,
+      "label": null,
+      "track": 146,
+      "position": 0.5366328362977135,
+      "drawn": false
+    },
+    {
+      "epsilon": 0.01,
+      "frame": 218,
+      "label": "A22",
+      "track": 96,
+      "position": 0.4700507455534296,
+      "drawn": true
+    },
+    {
+      "epsilon": 0.01,
+      "frame": 218,
+      "label": "B22",
+      "track": 156,
+      "position": 0.6486727593463599,
+      "drawn": true
+    },
+    {
+      "epsilon": 0.01,
+      "frame": 218,
+      "label": null,
+      "track": 163,
+      "position": 0.4240640532363118,
+      "drawn": false
+    },
+    {
+      "epsilon": 0.01,
+      "frame": 224,
+      "label": null,
+      "track": 164,
+      "position": 0.5381796751877003,
+      "drawn": false
+    },
+    {
+      "epsilon": 0.01,
+      "frame": 224,
+      "label": "A23",
+      "track": 96,
+      "position": 0.5632751215295023,
+      "drawn": true
+    },
+    {
+      "epsilon": 0.01,
+      "frame": 224,
+      "label": "B23",
+      "track": 156,
+      "position": 0.7312423359357535,
+      "drawn": true
+    },
+    {
+      "epsilon": 0.01,
+      "frame": 224,
+      "label": null,
+      "track": 163,
+      "position": 0.3541425921693207,
+      "drawn": false
+    },
+    {
+      "epsilon": 0.01,
+      "frame": 230,
+      "label": null,
+      "track": 165,
+      "position": 0.7213149968852648,
+      "drawn": false
+    },
+    {
+      "epsilon": 0.01,
+      "frame": 230,
+      "label": null,
+      "track": 167,
+      "position": 0.9989067055393587,
+      "drawn": false
+    },
+    {
+      "epsilon": 0.01,
+      "frame": 230,
+      "label": null,
+      "track": 164,
+      "position": 0.6788657424386944,
+      "drawn": false
+    },
+    {
+      "epsilon": 0.01,
+      "frame": 230,
+      "label": "A24",
+      "track": 96,
+      "position": 0.5043142319108544,
+      "drawn": true
+    },
+    {
+      "epsilon": 0.01,
+      "frame": 230,
+      "label": "B24",
+      "track": 156,
+      "position": 0.6489736835743323,
+      "drawn": true
+    },
+    {
+      "epsilon": 0.01,
+      "frame": 230,
+      "label": null,
+      "track": 163,
+      "position": 0.3270352516325452,
+      "drawn": false
+    },
+    {
+      "epsilon": 0.01,
+      "frame": 236,
+      "label": null,
+      "track": 164,
+      "position": 0.6442753433327384,
+      "drawn": false
+    },
+    {
+      "epsilon": 0.01,
+      "frame": 236,
+      "label": "A25",
+      "track": 96,
+      "position": 0.5656084684195078,
+      "drawn": true
+    },
+    {
+      "epsilon": 0.01,
+      "frame": 236,
+      "label": null,
+      "track": 170,
+      "position": 0.6733795360302257,
+      "drawn": false
+    },
+    {
+      "epsilon": 0.01,
+      "frame": 236,
+      "label": null,
+      "track": 171,
+      "position": 0.0850349480004329,
+      "drawn": false
+    },
+    {
+      "epsilon": 0.01,
+      "frame": 236,
+      "label": "B25",
+      "track": 156,
+      "position": 0.5529036926316417,
+      "drawn": true
+    },
+    {
+      "epsilon": 0.02,
+      "frame": 212,
+      "label": null,
+      "track": 146,
+      "position": 0.4610036075015944,
+      "drawn": false
+    },
+    {
+      "epsilon": 0.02,
+      "frame": 212,
+      "label": "A31",
+      "track": 96,
+      "position": 0.43545895462785805,
+      "drawn": true
+    },
+    {
+      "epsilon": 0.02,
+      "frame": 212,
+      "label": "B31",
+      "track": 156,
+      "position": 0.6003225108285499,
+      "drawn": true
+    },
+    {
+      "epsilon": 0.02,
+      "frame": 218,
+      "label": null,
+      "track": 159,
+      "position": 0.5578574635209986,
+      "drawn": false
+    },
+    {
+      "epsilon": 0.02,
+      "frame": 218,
+      "label": null,
+      "track": 146,
+      "position": 0.5366328362977135,
+      "drawn": false
+    },
+    {
+      "epsilon": 0.02,
+      "frame": 218,
+      "label": "A32",
+      "track": 96,
+      "position": 0.4700507455534296,
+      "drawn": true
+    },
+    {
+      "epsilon": 0.02,
+      "frame": 218,
+      "label": "B32",
+      "track": 156,
+      "position": 0.6486727593463599,
+      "drawn": true
+    },
+    {
+      "epsilon": 0.02,
+      "frame": 218,
+      "label": null,
+      "track": 163,
+      "position": 0.4240640532363118,
+      "drawn": false
+    },
+    {
+      "epsilon": 0.02,
+      "frame": 224,
+      "label": null,
+      "track": 164,
+      "position": 0.5991328362977135,
+      "drawn": false
+    },
+    {
+      "epsilon": 0.02,
+      "frame": 224,
+      "label": "A33",
+      "track": 96,
+      "position": 0.5011050986084538,
+      "drawn": true
+    },
+    {
+      "epsilon": 0.02,
+      "frame": 224,
+      "label": "B33",
+      "track": 156,
+      "position": 0.6970230078641698,
+      "drawn": true
+    },
+    {
+      "epsilon": 0.02,
+      "frame": 224,
+      "label": null,
+      "track": 163,
+      "position": 0.3894722623107401,
+      "drawn": false
+    },
+    {
+      "epsilon": 0.02,
+      "frame": 230,
+      "label": null,
+      "track": 165,
+      "position": 0.6588779862070698,
+      "drawn": false
+    },
+    {
+      "epsilon": 0.02,
+      "frame": 230,
+      "label": null,
+      "track": 167,
+      "position": 0.9768876863883574,
+      "drawn": false
+    },
+    {
+      "epsilon": 0.02,
+      "frame": 230,
+      "label": null,
+      "track": 164,
+      "position": 0.6164287317604995,
+      "drawn": false
+    },
+    {
+      "epsilon": 0.02,
+      "frame": 230,
+      "label": "A34",
+      "track": 96,
+      "position": 0.5667512425890494,
+      "drawn": true
+    },
+    {
+      "epsilon": 0.02,
+      "frame": 230,
+      "label": "B34",
+      "track": 156,
+      "position": 0.7280773609191938,
+      "drawn": true
+    },
+    {
+      "epsilon": 0.02,
+      "frame": 230,
+      "label": null,
+      "track": 163,
+      "position": 0.3894722623107401,
+      "drawn": false
+    },
+    {
+      "epsilon": 0.02,
+      "frame": 236,
+      "label": null,
+      "track": 164,
+      "position": 0.7398796488021968,
+      "drawn": false
+    },
+    {
+      "epsilon": 0.02,
+      "frame": 236,
+      "label": "A35",
+      "track": 96,
+      "position": 0.605899840070209,
+      "drawn": true
+    },
+    {
+      "epsilon": 0.02,
+      "frame": 236,
+      "label": null,
+      "track": 170,
+      "position": 0.6105871231467049,
+      "drawn": false
+    },
+    {
+      "epsilon": 0.02,
+      "frame": 236,
+      "label": null,
+      "track": 171,
+      "position": 0.09448450217201912,
+      "drawn": false
+    },
+    {
+      "epsilon": 0.02,
+      "frame": 236,
+      "label": "B35",
+      "track": 156,
+      "position": 0.5931950642823428,
+      "drawn": true
+    },
+    {
+      "epsilon": 0.03,
+      "frame": 212,
+      "label": null,
+      "track": 146,
+      "position": 0.4610036075015944,
+      "drawn": false
+    },
+    {
+      "epsilon": 0.03,
+      "frame": 212,
+      "label": "A41",
+      "track": 96,
+      "position": 0.43545895462785805,
+      "drawn": true
+    },
+    {
+      "epsilon": 0.03,
+      "frame": 212,
+      "label": "B41",
+      "track": 156,
+      "position": 0.6003225108285499,
+      "drawn": true
+    },
+    {
+      "epsilon": 0.03,
+      "frame": 218,
+      "label": null,
+      "track": 159,
+      "position": 0.5578574635209986,
+      "drawn": false
+    },
+    {
+      "epsilon": 0.03,
+      "frame": 218,
+      "label": null,
+      "track": 146,
+      "position": 0.5366328362977135,
+      "drawn": false
+    },
+    {
+      "epsilon": 0.03,
+      "frame": 218,
+      "label": "A42",
+      "track": 96,
+      "position": 0.4700507455534296,
+      "drawn": true
+    },
+    {
+      "epsilon": 0.03,
+      "frame": 218,
+      "label": "B42",
+      "track": 156,
+      "position": 0.6486727593463599,
+      "drawn": true
+    },
+    {
+      "epsilon": 0.03,
+      "frame": 218,
+      "label": null,
+      "track": 163,
+      "position": 0.4240640532363118,
+      "drawn": false
+    },
+    {
+      "epsilon": 0.03,
+      "frame": 224,
+      "label": null,
+      "track": 164,
+      "position": 0.5991328362977135,
+      "drawn": false
+    },
+    {
+      "epsilon": 0.03,
+      "frame": 224,
+      "label": "A43",
+      "track": 96,
+      "position": 0.5011050986084538,
+      "drawn": true
+    },
+    {
+      "epsilon": 0.03,
+      "frame": 224,
+      "label": "B43",
+      "track": 156,
+      "position": 0.6970230078641698,
+      "drawn": true
+    },
+    {
+      "epsilon": 0.03,
+      "frame": 224,
+      "label": null,
+      "track": 163,
+      "position": 0.3894722623107401,
+      "drawn": false
+    },
+    {
+      "epsilon": 0.03,
+      "frame": 230,
+      "label": null,
+      "track": 165,
+      "position": 0.6588779862070698,
+      "drawn": false
+    },
+    {
+      "epsilon": 0.03,
+      "frame": 230,
+      "label": null,
+      "track": 167,
+      "position": 0.9768876863883574,
+      "drawn": false
+    },
+    {
+      "epsilon": 0.03,
+      "frame": 230,
+      "label": null,
+      "track": 164,
+      "position": 0.6164287317604995,
+      "drawn": false
+    },
+    {
+      "epsilon": 0.03,
+      "frame": 230,
+      "label": "A44",
+      "track": 96,
+      "position": 0.5667512425890494,
+      "drawn": true
+    },
+    {
+      "epsilon": 0.03,
+      "frame": 230,
+      "label": "B44",
+      "track": 156,
+      "position": 0.7280773609191938,
+      "drawn": true
+    },
+    {
+      "epsilon": 0.03,
+      "frame": 230,
+      "label": null,
+      "track": 163,
+      "position": 0.3894722623107401,
+      "drawn": false
+    },
+    {
+      "epsilon": 0.03,
+      "frame": 236,
+      "label": null,
+      "track": 164,
+      "position": 0.7398796488021968,
+      "drawn": false
+    },
+    {
+      "epsilon": 0.03,
+      "frame": 236,
+      "label": "A45",
+      "track": 96,
+      "position": 0.605899840070209,
+      "drawn": true
+    },
+    {
+      "epsilon": 0.03,
+      "frame": 236,
+      "label": null,
+      "track": 170,
+      "position": 0.6105871231467049,
+      "drawn": false
+    },
+    {
+      "epsilon": 0.03,
+      "frame": 236,
+      "label": null,
+      "track": 171,
+      "position": 0.09448450217201912,
+      "drawn": false
+    },
+    {
+      "epsilon": 0.03,
+      "frame": 236,
+      "label": "B45",
+      "track": 156,
+      "position": 0.5931950642823428,
+      "drawn": true
+    },
+    {
+      "epsilon": 0.05,
+      "frame": 212,
+      "label": null,
+      "track": 146,
+      "position": 0.4610036075015944,
+      "drawn": false
+    },
+    {
+      "epsilon": 0.05,
+      "frame": 212,
+      "label": "A51",
+      "track": 96,
+      "position": 0.43545895462785805,
+      "drawn": true
+    },
+    {
+      "epsilon": 0.05,
+      "frame": 212,
+      "label": "B51",
+      "track": 156,
+      "position": 0.6003225108285499,
+      "drawn": true
+    },
+    {
+      "epsilon": 0.05,
+      "frame": 218,
+      "label": null,
+      "track": 159,
+      "position": 0.5578574635209986,
+      "drawn": false
+    },
+    {
+      "epsilon": 0.05,
+      "frame": 218,
+      "label": null,
+      "track": 146,
+      "position": 0.5366328362977135,
+      "drawn": false
+    },
+    {
+      "epsilon": 0.05,
+      "frame": 218,
+      "label": "A52",
+      "track": 96,
+      "position": 0.4700507455534296,
+      "drawn": true
+    },
+    {
+      "epsilon": 0.05,
+      "frame": 218,
+      "label": "B52",
+      "track": 156,
+      "position": 0.6486727593463599,
+      "drawn": true
+    },
+    {
+      "epsilon": 0.05,
+      "frame": 218,
+      "label": null,
+      "track": 163,
+      "position": 0.4240640532363118,
+      "drawn": false
+    },
+    {
+      "epsilon": 0.05,
+      "frame": 224,
+      "label": null,
+      "track": 164,
+      "position": 0.5991328362977135,
+      "drawn": false
+    },
+    {
+      "epsilon": 0.05,
+      "frame": 224,
+      "label": "A53",
+      "track": 96,
+      "position": 0.5011050986084538,
+      "drawn": true
+    },
+    {
+      "epsilon": 0.05,
+      "frame": 224,
+      "label": "B53",
+      "track": 156,
+      "position": 0.6970230078641698,
+      "drawn": true
+    },
+    {
+      "epsilon": 0.05,
+      "frame": 224,
+      "label": null,
+      "track": 163,
+      "position": 0.3894722623107401,
+      "drawn": false
+    },
+    {
+      "epsilon": 0.05,
+      "frame": 230,
+      "label": null,
+      "track": 165,
+      "position": 0.6588779862070698,
+      "drawn": false
+    },
+    {
+      "epsilon": 0.05,
+      "frame": 230,
+      "label": null,
+      "track": 167,
+      "position": 0.9768876863883574,
+      "drawn": false
+    },
+    {
+      "epsilon": 0.05,
+      "frame": 230,
+      "label": null,
+      "track": 164,
+      "position": 0.6164287317604995,
+      "drawn": false
+    },
+    {
+      "epsilon": 0.05,
+      "frame": 230,
+      "label": "A54",
+      "track": 96,
+      "position": 0.5667512425890494,
+      "drawn": true
+    },
+    {
+      "epsilon": 0.05,
+      "frame": 230,
+      "label": "B54",
+      "track": 156,
+      "position": 0.7280773609191938,
+      "drawn": true
+    },
+    {
+      "epsilon": 0.05,
+      "frame": 230,
+      "label": null,
+      "track": 163,
+      "position": 0.3894722623107401,
+      "drawn": false
+    },
+    {
+      "epsilon": 0.05,
+      "frame": 236,
+      "label": null,
+      "track": 164,
+      "position": 0.627419411036191,
+      "drawn": false
+    },
+    {
+      "epsilon": 0.05,
+      "frame": 236,
+      "label": "A55",
+      "track": 96,
+      "position": 0.6732943936823108,
+      "drawn": true
+    },
+    {
+      "epsilon": 0.05,
+      "frame": 236,
+      "label": null,
+      "track": 170,
+      "position": 0.4489665490880263,
+      "drawn": false
+    },
+    {
+      "epsilon": 0.05,
+      "frame": 236,
+      "label": null,
+      "track": 171,
+      "position": 0.09166657043175307,
+      "drawn": false
+    },
+    {
+      "epsilon": 0.05,
+      "frame": 236,
+      "label": "B55",
+      "track": 156,
+      "position": 0.7660661589574314,
+      "drawn": true
+    }
+  ],
+  "spatial_reference_projections": [
+    {
+      "frame": 212,
+      "label": "A11",
+      "track": 96,
+      "spatial_point": [
+        58.21863149681758,
+        78.48598125470753
+      ],
+      "display_point": [
+        40.26781354321274,
+        89.03910095753209
+      ],
+      "axis_foot": [
+        41.44369821387097,
+        1.1091240068698216
+      ],
+      "display_axis_foot": [
+        40.26781354321274,
+        9.864759001317747
+      ],
+      "reference_q": 0.44379228796119136,
+      "projected_reference_q": 0.44379228796119136,
+      "zero_budget_position": 0.471875075317121,
+      "right_angle_corner": [
+        [
+          42.90780537694178,
+          9.864759001317566
+        ],
+        [
+          42.90780537694178,
+          20.74008287468132
+        ],
+        [
+          40.26781354321274,
+          20.74008287468132
+        ]
+      ]
+    },
+    {
+      "frame": 212,
+      "label": "B11",
+      "track": 156,
+      "spatial_point": [
+        76.03231652864174,
+        90.24978750770322
+      ],
+      "display_point": [
+        55.18463974646721,
+        104.31008023172919
+      ],
+      "axis_foot": [
+        56.02186966692,
+        -2.0513539733739172
+      ],
+      "display_axis_foot": [
+        55.18463974646721,
+        9.864759001317747
+      ],
+      "reference_q": 0.5919891774952166,
+      "projected_reference_q": 0.5919891774952166,
+      "zero_budget_position": 0.6200719648511462,
+      "right_angle_corner": [
+        [
+          57.824631580196254,
+          9.864759001317566
+        ],
+        [
+          57.824631580196254,
+          20.74008287468132
+        ],
+        [
+          55.18463974646721,
+          20.74008287468132
+        ]
+      ]
+    },
+    {
+      "frame": 218,
+      "label": "A12",
+      "track": 96,
+      "spatial_point": [
+        61.781368503182414,
+        78.48598125470753
+      ],
+      "display_point": [
+        43.74966619827536,
+        89.79394999207798
+      ],
+      "axis_foot": [
+        44.8465028244578,
+        0.3714122110202638
+      ],
+      "display_axis_foot": [
+        43.74966619827536,
+        9.864759001317747
+      ],
+      "reference_q": 0.47838407888676293,
+      "projected_reference_q": 0.47838407888676293,
+      "zero_budget_position": 0.526297051920249,
+      "right_angle_corner": [
+        [
+          46.38965803200439,
+          9.86475900131768
+        ],
+        [
+          46.38965803200439,
+          20.740082874681434
+        ],
+        [
+          43.74966619827535,
+          20.740082874681434
+        ]
+      ]
+    },
+    {
+      "frame": 218,
+      "label": "B12",
+      "track": 156,
+      "spatial_point": [
+        81.37642203818899,
+        91.93033125813116
+      ],
+      "display_point": [
+        60.05135629019562,
+        107.08474436947196
+      ],
+      "axis_foot": [
+        60.77809778281665,
+        -3.0824815244333887
+      ],
+      "display_axis_foot": [
+        60.05135629019562,
+        9.864759001317747
+      ],
+      "reference_q": 0.6403394260130266,
+      "projected_reference_q": 0.6403394260130264,
+      "zero_budget_position": 0.6882523990465127,
+      "right_angle_corner": [
+        [
+          62.69134812392464,
+          9.86475900131768
+        ],
+        [
+          62.69134812392464,
+          20.740082874681434
+        ],
+        [
+          60.05135629019561,
+          20.740082874681434
+        ]
+      ]
+    },
+    {
+      "frame": 224,
+      "label": "A13",
+      "track": 96,
+      "spatial_point": [
+        65.34410550954725,
+        80.16652500513547
+      ],
+      "display_point": [
+        46.87545641447246,
+        92.1911896125478
+      ],
+      "axis_foot": [
+        47.90132863506104,
+        -0.2908594421144297
+      ],
+      "display_axis_foot": [
+        46.87545641447246,
+        9.864759001317747
+      ],
+      "reference_q": 0.5094384319417871,
+      "projected_reference_q": 0.5094384319417871,
+      "zero_budget_position": 0.4849534065147372,
+      "right_angle_corner": [
+        [
+          49.515448248201494,
+          9.864759001317736
+        ],
+        [
+          49.515448248201494,
+          20.740082874681377
+        ],
+        [
+          46.87545641447245,
+          20.740082874681377
+        ]
+      ]
+    },
+    {
+      "frame": 224,
+      "label": "B13",
+      "track": 156,
+      "spatial_point": [
+        86.72052754773625,
+        93.6108750085591
+      ],
+      "display_point": [
+        64.91807283392404,
+        109.85940850721474
+      ],
+      "axis_foot": [
+        65.53432589871332,
+        -4.113609075492864
+      ],
+      "display_axis_foot": [
+        64.91807283392404,
+        9.864759001317747
+      ],
+      "reference_q": 0.6886896745308365,
+      "projected_reference_q": 0.6886896745308365,
+      "zero_budget_position": 0.626347363100613,
+      "right_angle_corner": [
+        [
+          67.55806466765307,
+          9.864759001317736
+        ],
+        [
+          67.55806466765307,
+          20.740082874681377
+        ],
+        [
+          64.91807283392404,
+          20.740082874681377
+        ]
+      ]
+    },
+    {
+      "frame": 230,
+      "label": "A14",
+      "track": 96,
+      "spatial_point": [
+        72.46957952227692,
+        81.84706875556341
+      ],
+      "display_point": [
+        53.48309928573217,
+        95.34327826756353
+      ],
+      "axis_foot": [
+        54.358959056251116,
+        -1.6908428910986792
+      ],
+      "display_axis_foot": [
+        53.48309928573217,
+        9.864759001317747
+      ],
+      "reference_q": 0.5750845759223827,
+      "projected_reference_q": 0.5750845759223827,
+      "zero_budget_position": 0.644964801545875,
+      "right_angle_corner": [
+        [
+          56.12309111946121,
+          9.86475900131768
+        ],
+        [
+          56.12309111946121,
+          20.740082874681377
+        ],
+        [
+          53.48309928573218,
+          20.740082874681377
+        ]
+      ]
+    },
+    {
+      "frame": 230,
+      "label": "B14",
+      "track": 156,
+      "spatial_point": [
+        90.28326455410107,
+        95.29141875898705
+      ],
+      "display_point": [
+        68.04386305012113,
+        112.25664812768456
+      ],
+      "axis_foot": [
+        68.58915170931655,
+        -4.7758807286275555
+      ],
+      "display_axis_foot": [
+        68.04386305012113,
+        9.864759001317747
+      ],
+      "reference_q": 0.7197440275858605,
+      "projected_reference_q": 0.7197440275858605,
+      "zero_budget_position": 0.6331971352957014,
+      "right_angle_corner": [
+        [
+          70.68385488385016,
+          9.86475900131768
+        ],
+        [
+          70.68385488385016,
+          20.740082874681377
+        ],
+        [
+          68.04386305012113,
+          20.740082874681377
+        ]
+      ]
+    },
+    {
+      "frame": 236,
+      "label": "A15",
+      "track": 96,
+      "spatial_point": [
+        81.37642203818899,
+        83.52761250599136
+      ],
+      "display_point": [
+        61.8316684845232,
+        98.87279143985221
+      ],
+      "axis_foot": [
+        62.517991782734605,
+        -3.4596822380077104
+      ],
+      "display_axis_foot": [
+        61.8316684845232,
+        9.864759001317747
+      ],
+      "reference_q": 0.6580266153657642,
+      "projected_reference_q": 0.6580266153657642,
+      "zero_budget_position": 0.5656084684195078,
+      "right_angle_corner": [
+        [
+          64.47166031825222,
+          9.864759001317765
+        ],
+        [
+          64.47166031825222,
+          20.740082874681406
+        ],
+        [
+          61.83166848452319,
+          20.740082874681406
+        ]
+      ]
+    },
+    {
+      "frame": 236,
+      "label": "B15",
+      "track": 156,
+      "spatial_point": [
+        93.84600156046591,
+        96.97196250941502
+      ],
+      "display_point": [
+        71.16965326631825,
+        114.65388774815442
+      ],
+      "axis_foot": [
+        71.64397751991982,
+        -5.438152381762253
+      ],
+      "display_axis_foot": [
+        71.16965326631825,
+        9.864759001317747
+      ],
+      "reference_q": 0.7507983806408848,
+      "projected_reference_q": 0.7507983806408848,
+      "zero_budget_position": 0.5529036926316417,
+      "right_angle_corner": [
+        [
+          73.80964510004729,
+          9.864759001317765
+        ],
+        [
+          73.80964510004729,
+          20.740082874681406
+        ],
+        [
+          71.16965326631825,
+          20.740082874681406
+        ]
+      ]
+    }
+  ],
+  "panel_b_semantics": "spatial extrema project orthogonally onto the fixed reference-direction axis in the spatial coordinate system; diamond feet are reference positions q; adjacent scalar strip is the original epsilon=0% layout with current-dot to reference-diamond gaps; no arrow from a spatial point to a current layout position is treated as a reference projection",
+  "best_criterion": "lowest mean normalized reference-position error among displayed settings 0%,1%,2%,3%,5%",
+  "snapshot_kind": "actual processed 49x49 analysis field; SHA256 matches the exact current-method input",
+  "texture_rendering": "bilinear interpolation of scalar data before color mapping; continuous time blending of adjacent stored columns; original scalar arrays, tracks, reference positions, layouts, and tree levels unchanged",
+  "color_normalization": {
+    "vmin": -35,
+    "vcenter": 0,
+    "vmax": 35,
+    "type": "TwoSlopeNorm; common to all panels"
+  },
+  "source_reference_figures": [
+    "output/monthly_build/papers/figures/tmtm_fig01_storms.png",
+    "output/monthly_build/papers/figures/stmtm_fig06_storms.png"
+  ],
+  "reference_axis": {
+    "snapshot_display": "rigid rotation of spatial map so the true reference axis is horizontal; pressure values and spatial geometry preserved",
+    "direction": [
+      0.977297131065886,
+      -0.21187335276147434
+    ],
+    "angle_deg": -12.232158132606962,
+    "origin": -4.40230369525899,
+    "extent": 100.65546078704737,
+    "formula": "q_normalized = (a dot p_extremum - origin) / extent"
+  },
+  "tree_semantics": "exact multiway merge tree of saved adjacent barriers; coincident internal levels collapsed; diagram y is topological height = 1 + maximum child height, with leaf height 0; diagram y is NOT pressure; uniform x spacing is logical saved leaf order, not mapped distance; actual scalar levels remain in node metadata and the 50 checked pairwise LCAs Final display translates each whole tree upward by 4 minus its depth. The visible y-axis measures levels below the shared root; source node metadata retains unshifted structural height.",
+  "tree_highlights": "black orthogonal branches; A/B terminal vertical stems use their track colors; every parent lies at the midpoint of its outer child stems; actual unbalanced hierarchy is retained",
+  "nested_merge_levels": [
+    4,
+    4,
+    3,
+    3,
+    2
+  ],
+  "case_selection": {
+    "frames_scanned": 744,
+    "selected_frame": 236,
+    "criterion": "multiple decreases in hierarchy depth, all five leaves retained; A/B persist across the full 24-hour interval; five observed snapshots at 6-hour intervals",
+    "observed_depths": [
+      4,
+      4,
+      3,
+      3,
+      2
+    ]
+  },
+  "tree_checks": [
+    {
+      "epsilon": 0,
+      "pairwise_checks": [
+        {
+          "leaves": [
+            3,
+            4
+          ],
+          "expected": -0.7577894647393408,
+          "actual": -0.7577894647393408
+        },
+        {
+          "leaves": [
+            3,
+            1
+          ],
+          "expected": -0.7577894647393408,
+          "actual": -0.7577894647393408
+        },
+        {
+          "leaves": [
+            3,
+            0
+          ],
+          "expected": 0.5571494614484379,
+          "actual": 0.5571494614484379
+        },
+        {
+          "leaves": [
+            3,
+            2
+          ],
+          "expected": 1.5000307552396666,
+          "actual": 1.5000307552396666
+        },
+        {
+          "leaves": [
+            4,
+            1
+          ],
+          "expected": -2.1770413312953885,
+          "actual": -2.1770413312953885
+        },
+        {
+          "leaves": [
+            4,
+            0
+          ],
+          "expected": 0.5571494614484379,
+          "actual": 0.5571494614484379
+        },
+        {
+          "leaves": [
+            4,
+            2
+          ],
+          "expected": 1.5000307552396666,
+          "actual": 1.5000307552396666
+        },
+        {
+          "leaves": [
+            1,
+            0
+          ],
+          "expected": 0.5571494614484379,
+          "actual": 0.5571494614484379
+        },
+        {
+          "leaves": [
+            1,
+            2
+          ],
+          "expected": 1.5000307552396666,
+          "actual": 1.5000307552396666
+        },
+        {
+          "leaves": [
+            0,
+            2
+          ],
+          "expected": 1.5000307552396666,
+          "actual": 1.5000307552396666
+        }
+      ],
+      "nodes": [
+        {
+          "level": -2.1770413312953885,
+          "plot_height": 1,
+          "leaves": [
+            4,
+            1
+          ],
+          "children": [
+            [
+              4
+            ],
+            [
+              1
+            ]
+          ],
+          "scalar_changed": false,
+          "structurally_changed": false
+        },
+        {
+          "level": -0.7577894647393408,
+          "plot_height": 2,
+          "leaves": [
+            3,
+            4,
+            1
+          ],
+          "children": [
+            [
+              3
+            ],
+            [
+              4,
+              1
+            ]
+          ],
+          "scalar_changed": false,
+          "structurally_changed": false
+        },
+        {
+          "level": 0.5571494614484379,
+          "plot_height": 3,
+          "leaves": [
+            3,
+            4,
+            1,
+            0
+          ],
+          "children": [
+            [
+              3,
+              4,
+              1
+            ],
+            [
+              0
+            ]
+          ],
+          "scalar_changed": false,
+          "structurally_changed": false
+        },
+        {
+          "level": 1.5000307552396666,
+          "plot_height": 4,
+          "leaves": [
+            3,
+            4,
+            1,
+            0,
+            2
+          ],
+          "children": [
+            [
+              3,
+              4,
+              1,
+              0
+            ],
+            [
+              2
+            ]
+          ],
+          "scalar_changed": false,
+          "structurally_changed": false
+        }
+      ],
+      "depth": 4,
+      "leaf_labels": [
+        null,
+        "B15",
+        "A15",
+        null,
+        null
+      ]
+    },
+    {
+      "epsilon": 0.01,
+      "pairwise_checks": [
+        {
+          "leaves": [
+            3,
+            4
+          ],
+          "expected": -0.7577894647393408,
+          "actual": -0.7577894647393408
+        },
+        {
+          "leaves": [
+            3,
+            1
+          ],
+          "expected": -0.7577894647393408,
+          "actual": -0.7577894647393408
+        },
+        {
+          "leaves": [
+            3,
+            0
+          ],
+          "expected": 0.5571494614484379,
+          "actual": 0.5571494614484379
+        },
+        {
+          "leaves": [
+            3,
+            2
+          ],
+          "expected": 1.5000307552396666,
+          "actual": 1.5000307552396666
+        },
+        {
+          "leaves": [
+            4,
+            1
+          ],
+          "expected": -2.1770413312953885,
+          "actual": -2.1770413312953885
+        },
+        {
+          "leaves": [
+            4,
+            0
+          ],
+          "expected": 0.5571494614484379,
+          "actual": 0.5571494614484379
+        },
+        {
+          "leaves": [
+            4,
+            2
+          ],
+          "expected": 1.5000307552396666,
+          "actual": 1.5000307552396666
+        },
+        {
+          "leaves": [
+            1,
+            0
+          ],
+          "expected": 0.5571494614484379,
+          "actual": 0.5571494614484379
+        },
+        {
+          "leaves": [
+            1,
+            2
+          ],
+          "expected": 1.5000307552396666,
+          "actual": 1.5000307552396666
+        },
+        {
+          "leaves": [
+            0,
+            2
+          ],
+          "expected": 1.5000307552396666,
+          "actual": 1.5000307552396666
+        }
+      ],
+      "nodes": [
+        {
+          "level": -2.1770413312953885,
+          "plot_height": 1,
+          "leaves": [
+            4,
+            1
+          ],
+          "children": [
+            [
+              4
+            ],
+            [
+              1
+            ]
+          ],
+          "scalar_changed": false,
+          "structurally_changed": false
+        },
+        {
+          "level": -0.7577894647393408,
+          "plot_height": 2,
+          "leaves": [
+            3,
+            4,
+            1
+          ],
+          "children": [
+            [
+              3
+            ],
+            [
+              4,
+              1
+            ]
+          ],
+          "scalar_changed": false,
+          "structurally_changed": false
+        },
+        {
+          "level": 0.5571494614484379,
+          "plot_height": 3,
+          "leaves": [
+            3,
+            4,
+            1,
+            0
+          ],
+          "children": [
+            [
+              3,
+              4,
+              1
+            ],
+            [
+              0
+            ]
+          ],
+          "scalar_changed": false,
+          "structurally_changed": false
+        },
+        {
+          "level": 1.5000307552396666,
+          "plot_height": 4,
+          "leaves": [
+            3,
+            4,
+            1,
+            0,
+            2
+          ],
+          "children": [
+            [
+              3,
+              4,
+              1,
+              0
+            ],
+            [
+              2
+            ]
+          ],
+          "scalar_changed": false,
+          "structurally_changed": false
+        }
+      ],
+      "depth": 4,
+      "leaf_labels": [
+        null,
+        "B25",
+        "A25",
+        null,
+        null
+      ]
+    },
+    {
+      "epsilon": 0.02,
+      "pairwise_checks": [
+        {
+          "leaves": [
+            3,
+            4
+          ],
+          "expected": -0.05470525876030863,
+          "actual": -0.05470525876030863
+        },
+        {
+          "leaves": [
+            3,
+            1
+          ],
+          "expected": -0.05470525876030863,
+          "actual": -0.05470525876030863
+        },
+        {
+          "leaves": [
+            3,
+            2
+          ],
+          "expected": 1.2602336674274701,
+          "actual": 1.2602336674274701
+        },
+        {
+          "leaves": [
+            3,
+            0
+          ],
+          "expected": 1.2602336674274701,
+          "actual": 1.2602336674274701
+        },
+        {
+          "leaves": [
+            4,
+            1
+          ],
+          "expected": -1.4739571253163564,
+          "actual": -1.4739571253163564
+        },
+        {
+          "leaves": [
+            4,
+            2
+          ],
+          "expected": 1.2602336674274701,
+          "actual": 1.2602336674274701
+        },
+        {
+          "leaves": [
+            4,
+            0
+          ],
+          "expected": 1.2602336674274701,
+          "actual": 1.2602336674274701
+        },
+        {
+          "leaves": [
+            1,
+            2
+          ],
+          "expected": 1.2602336674274701,
+          "actual": 1.2602336674274701
+        },
+        {
+          "leaves": [
+            1,
+            0
+          ],
+          "expected": 1.2602336674274701,
+          "actual": 1.2602336674274701
+        },
+        {
+          "leaves": [
+            2,
+            0
+          ],
+          "expected": 1.2602336674274701,
+          "actual": 1.2602336674274701
+        }
+      ],
+      "nodes": [
+        {
+          "level": -1.4739571253163564,
+          "plot_height": 1,
+          "leaves": [
+            4,
+            1
+          ],
+          "children": [
+            [
+              4
+            ],
+            [
+              1
+            ]
+          ],
+          "scalar_changed": true,
+          "structurally_changed": false
+        },
+        {
+          "level": -0.05470525876030863,
+          "plot_height": 2,
+          "leaves": [
+            3,
+            4,
+            1
+          ],
+          "children": [
+            [
+              3
+            ],
+            [
+              4,
+              1
+            ]
+          ],
+          "scalar_changed": true,
+          "structurally_changed": false
+        },
+        {
+          "level": 1.2602336674274701,
+          "plot_height": 3,
+          "leaves": [
+            3,
+            4,
+            1,
+            2,
+            0
+          ],
+          "children": [
+            [
+              3,
+              4,
+              1
+            ],
+            [
+              2
+            ],
+            [
+              0
+            ]
+          ],
+          "scalar_changed": true,
+          "structurally_changed": true
+        }
+      ],
+      "depth": 3,
+      "leaf_labels": [
+        null,
+        "B35",
+        "A35",
+        null,
+        null
+      ]
+    },
+    {
+      "epsilon": 0.03,
+      "pairwise_checks": [
+        {
+          "leaves": [
+            3,
+            4
+          ],
+          "expected": -0.05470525876030863,
+          "actual": -0.05470525876030863
+        },
+        {
+          "leaves": [
+            3,
+            1
+          ],
+          "expected": -0.05470525876030863,
+          "actual": -0.05470525876030863
+        },
+        {
+          "leaves": [
+            3,
+            2
+          ],
+          "expected": 1.2602336674274701,
+          "actual": 1.2602336674274701
+        },
+        {
+          "leaves": [
+            3,
+            0
+          ],
+          "expected": 1.2602336674274701,
+          "actual": 1.2602336674274701
+        },
+        {
+          "leaves": [
+            4,
+            1
+          ],
+          "expected": -1.4739571253163564,
+          "actual": -1.4739571253163564
+        },
+        {
+          "leaves": [
+            4,
+            2
+          ],
+          "expected": 1.2602336674274701,
+          "actual": 1.2602336674274701
+        },
+        {
+          "leaves": [
+            4,
+            0
+          ],
+          "expected": 1.2602336674274701,
+          "actual": 1.2602336674274701
+        },
+        {
+          "leaves": [
+            1,
+            2
+          ],
+          "expected": 1.2602336674274701,
+          "actual": 1.2602336674274701
+        },
+        {
+          "leaves": [
+            1,
+            0
+          ],
+          "expected": 1.2602336674274701,
+          "actual": 1.2602336674274701
+        },
+        {
+          "leaves": [
+            2,
+            0
+          ],
+          "expected": 1.2602336674274701,
+          "actual": 1.2602336674274701
+        }
+      ],
+      "nodes": [
+        {
+          "level": -1.4739571253163564,
+          "plot_height": 1,
+          "leaves": [
+            4,
+            1
+          ],
+          "children": [
+            [
+              4
+            ],
+            [
+              1
+            ]
+          ],
+          "scalar_changed": true,
+          "structurally_changed": false
+        },
+        {
+          "level": -0.05470525876030863,
+          "plot_height": 2,
+          "leaves": [
+            3,
+            4,
+            1
+          ],
+          "children": [
+            [
+              3
+            ],
+            [
+              4,
+              1
+            ]
+          ],
+          "scalar_changed": true,
+          "structurally_changed": false
+        },
+        {
+          "level": 1.2602336674274701,
+          "plot_height": 3,
+          "leaves": [
+            3,
+            4,
+            1,
+            2,
+            0
+          ],
+          "children": [
+            [
+              3,
+              4,
+              1
+            ],
+            [
+              2
+            ],
+            [
+              0
+            ]
+          ],
+          "scalar_changed": true,
+          "structurally_changed": true
+        }
+      ],
+      "depth": 3,
+      "leaf_labels": [
+        null,
+        "B45",
+        "A45",
+        null,
+        null
+      ]
+    },
+    {
+      "epsilon": 0.05,
+      "pairwise_checks": [
+        {
+          "leaves": [
+            3,
+            2
+          ],
+          "expected": 1.2602336674274703,
+          "actual": 1.2602336674274703
+        },
+        {
+          "leaves": [
+            3,
+            0
+          ],
+          "expected": 1.2602336674274703,
+          "actual": 1.2602336674274703
+        },
+        {
+          "leaves": [
+            3,
+            1
+          ],
+          "expected": 1.2602336674274703,
+          "actual": 1.2602336674274703
+        },
+        {
+          "leaves": [
+            3,
+            4
+          ],
+          "expected": 1.2602336674274703,
+          "actual": 1.2602336674274703
+        },
+        {
+          "leaves": [
+            2,
+            0
+          ],
+          "expected": 1.2602336674274703,
+          "actual": 1.2602336674274703
+        },
+        {
+          "leaves": [
+            2,
+            1
+          ],
+          "expected": 1.2602336674274703,
+          "actual": 1.2602336674274703
+        },
+        {
+          "leaves": [
+            2,
+            4
+          ],
+          "expected": 1.2602336674274703,
+          "actual": 1.2602336674274703
+        },
+        {
+          "leaves": [
+            0,
+            1
+          ],
+          "expected": 1.2602336674274703,
+          "actual": 1.2602336674274703
+        },
+        {
+          "leaves": [
+            0,
+            4
+          ],
+          "expected": 1.2602336674274703,
+          "actual": 1.2602336674274703
+        },
+        {
+          "leaves": [
+            1,
+            4
+          ],
+          "expected": -0.1590181991285773,
+          "actual": -0.1590181991285773
+        }
+      ],
+      "nodes": [
+        {
+          "level": -0.1590181991285773,
+          "plot_height": 1,
+          "leaves": [
+            1,
+            4
+          ],
+          "children": [
+            [
+              1
+            ],
+            [
+              4
+            ]
+          ],
+          "scalar_changed": true,
+          "structurally_changed": false
+        },
+        {
+          "level": 1.2602336674274703,
+          "plot_height": 2,
+          "leaves": [
+            3,
+            2,
+            0,
+            1,
+            4
+          ],
+          "children": [
+            [
+              3
+            ],
+            [
+              2
+            ],
+            [
+              0
+            ],
+            [
+              1,
+              4
+            ]
+          ],
+          "scalar_changed": true,
+          "structurally_changed": true
+        }
+      ],
+      "depth": 2,
+      "leaf_labels": [
+        null,
+        null,
+        null,
+        "A55",
+        "B55"
+      ]
+    }
+  ],
+  "source_hashes": {
+    "output/storms_hourly_anomaly_fine_20261030/input.json": "6af74b8a33bc0e0de2a73149a11a80cb6735764e11e838e8d4dc934537ad5d68",
+    "output/storms_hourly_anomaly_fine_20261030/snapshot_data.npz": "8b99ea3dfbf750d1b47ff874d0e8e5b52bee6188bf34cbbaa1d7fae47eae029b",
+    "output/storms_hourly_anomaly_fine_20261030/coherent/maps.npz": "0a654c832d0ff5aae1fceba3bc8aacce4d708ca4c664521dc13af5723676b3e4",
+    "output/storms_hourly_anomaly_fine_20261030/coherent/eps_0/result.json": "d508fbc5d1c522a5ede1a576001fa4e0bf833582aa6a775f537894a9cb78fb4a",
+    "output/storms_hourly_anomaly_fine_20261030/coherent/eps_0.01/result.json": "cde9e84a8c58f966c303fa359418fe83d937ef12a8567a8af7fe2509ecbacd53",
+    "output/storms_hourly_anomaly_fine_20261030/coherent/eps_0.02/result.json": "6b70c0fe2304e6366747c9051a4e1673dc49c83f867d1c8ad6e20ee15c3c35a8",
+    "output/storms_hourly_anomaly_fine_20261030/coherent/eps_0.03/result.json": "f6407427c4c64d9acdfef00402aab20b5f3fdf14fd1d7b3e7d62de0c4e70c2d8",
+    "output/storms_hourly_anomaly_fine_20261030/coherent/eps_0.05/result.json": "d8d4316a1e48ae6e0b7719fa19f59382fa154ddca84b11f17f71cdc45839c10c",
+    "output/storms_hourly_anomaly_fine_20261030/coherent/eps_0.2/result.json": "4b310958a449ac3cd4aa195765cc9464ff5dc24ccb442a1432494044b4cef165"
+  },
+  "snapshots": [
+    {
+      "frame": 212,
+      "epsilon": 0,
+      "features": [
+        {
+          "label": "A11",
+          "track": 96,
+          "extremum_xy": [
+            58.21863149681758,
+            78.48598125470753
+          ],
+          "reference": 0.44379228796119136,
+          "mapped": 0.471875075317121
+        },
+        {
+          "label": "B11",
+          "track": 156,
+          "extremum_xy": [
+            76.03231652864174,
+            90.24978750770322
+          ],
+          "reference": 0.5919891774952166,
+          "mapped": 0.6200719648511462
+        }
+      ]
+    },
+    {
+      "frame": 218,
+      "epsilon": 0,
+      "features": [
+        {
+          "label": "A12",
+          "track": 96,
+          "extremum_xy": [
+            61.781368503182414,
+            78.48598125470753
+          ],
+          "reference": 0.47838407888676293,
+          "mapped": 0.526297051920249
+        },
+        {
+          "label": "B12",
+          "track": 156,
+          "extremum_xy": [
+            81.37642203818899,
+            91.93033125813116
+          ],
+          "reference": 0.6403394260130266,
+          "mapped": 0.6882523990465127
+        }
+      ]
+    },
+    {
+      "frame": 224,
+      "epsilon": 0,
+      "features": [
+        {
+          "label": "A13",
+          "track": 96,
+          "extremum_xy": [
+            65.34410550954725,
+            80.16652500513547
+          ],
+          "reference": 0.5094384319417871,
+          "mapped": 0.4849534065147372
+        },
+        {
+          "label": "B13",
+          "track": 156,
+          "extremum_xy": [
+            86.72052754773625,
+            93.6108750085591
+          ],
+          "reference": 0.6886896745308365,
+          "mapped": 0.626347363100613
+        }
+      ]
+    },
+    {
+      "frame": 230,
+      "epsilon": 0,
+      "features": [
+        {
+          "label": "A14",
+          "track": 96,
+          "extremum_xy": [
+            72.46957952227692,
+            81.84706875556341
+          ],
+          "reference": 0.5750845759223827,
+          "mapped": 0.644964801545875
+        },
+        {
+          "label": "B14",
+          "track": 156,
+          "extremum_xy": [
+            90.28326455410107,
+            95.29141875898705
+          ],
+          "reference": 0.7197440275858605,
+          "mapped": 0.6331971352957014
+        }
+      ]
+    },
+    {
+      "frame": 236,
+      "epsilon": 0,
+      "features": [
+        {
+          "label": "A15",
+          "track": 96,
+          "extremum_xy": [
+            81.37642203818899,
+            83.52761250599136
+          ],
+          "reference": 0.6580266153657642,
+          "mapped": 0.5656084684195078
+        },
+        {
+          "label": "B15",
+          "track": 156,
+          "extremum_xy": [
+            93.84600156046591,
+            96.97196250941502
+          ],
+          "reference": 0.7507983806408848,
+          "mapped": 0.5529036926316417
+        }
+      ]
+    }
+  ],
+  "parameter_results": [
+    {
+      "epsilon": 0,
+      "frame": 236,
+      "source_merge_hpa": -2.1770413312953885,
+      "displayed_merge_hpa": -2.1770413312953885,
+      "order_tracks": [
+        171,
+        156,
+        96,
+        164,
+        170
+      ],
+      "barriers_hpa": [
+        -0.7577894647393408,
+        -2.1770413312953885,
+        0.5571494614484379,
+        1.5000307552396666
+      ],
+      "max_merge_error_hpa": 0.0,
+      "normalized_merge_error": 0.0,
+      "A_position": 0.5656084684195078,
+      "B_position": 0.5529036926316417,
+      "A_gap": 0.09241814694625639,
+      "B_gap": 0.19789468800924304
+    },
+    {
+      "epsilon": 0.01,
+      "frame": 236,
+      "source_merge_hpa": -2.1770413312953885,
+      "displayed_merge_hpa": -2.1770413312953885,
+      "order_tracks": [
+        171,
+        156,
+        96,
+        164,
+        170
+      ],
+      "barriers_hpa": [
+        -0.7577894647393408,
+        -2.1770413312953885,
+        0.5571494614484379,
+        1.5000307552396666
+      ],
+      "max_merge_error_hpa": 0.0,
+      "normalized_merge_error": 0.0,
+      "A_position": 0.5656084684195078,
+      "B_position": 0.5529036926316417,
+      "A_gap": 0.09241814694625639,
+      "B_gap": 0.19789468800924304
+    },
+    {
+      "epsilon": 0.02,
+      "frame": 236,
+      "source_merge_hpa": -2.1770413312953885,
+      "displayed_merge_hpa": -1.4739571253163564,
+      "order_tracks": [
+        171,
+        156,
+        96,
+        170,
+        164
+      ],
+      "barriers_hpa": [
+        -0.05470525876030863,
+        -1.4739571253163564,
+        1.2602336674274701,
+        1.2602336674274701
+      ],
+      "max_merge_error_hpa": 0.7030842059790322,
+      "normalized_merge_error": 0.010714295758775368,
+      "A_position": 0.605899840070209,
+      "B_position": 0.5931950642823428,
+      "A_gap": 0.052126775295555206,
+      "B_gap": 0.15760331635854197
+    },
+    {
+      "epsilon": 0.03,
+      "frame": 236,
+      "source_merge_hpa": -2.1770413312953885,
+      "displayed_merge_hpa": -1.4739571253163564,
+      "order_tracks": [
+        171,
+        156,
+        96,
+        170,
+        164
+      ],
+      "barriers_hpa": [
+        -0.05470525876030863,
+        -1.4739571253163564,
+        1.2602336674274701,
+        1.2602336674274701
+      ],
+      "max_merge_error_hpa": 0.7030842059790322,
+      "normalized_merge_error": 0.010714295758775368,
+      "A_position": 0.605899840070209,
+      "B_position": 0.5931950642823428,
+      "A_gap": 0.052126775295555206,
+      "B_gap": 0.15760331635854197
+    },
+    {
+      "epsilon": 0.05,
+      "frame": 236,
+      "source_merge_hpa": -2.1770413312953885,
+      "displayed_merge_hpa": -0.1590181991285773,
+      "order_tracks": [
+        171,
+        170,
+        164,
+        96,
+        156
+      ],
+      "barriers_hpa": [
+        1.2602336674274703,
+        1.2602336674274703,
+        1.2602336674274703,
+        -0.1590181991285773
+      ],
+      "max_merge_error_hpa": 2.018023132166811,
+      "normalized_merge_error": 0.03075264172088409,
+      "A_position": 0.6732943936823108,
+      "B_position": 0.7660661589574314,
+      "A_gap": 0.015267778316546576,
+      "B_gap": 0.015267778316546576
+    }
+  ],
+  "validation_passed": true,
+  "tree_display_alignment": {
+    "root_aligned": true,
+    "target_structural_height": 4,
+    "translation_levels": [
+      0,
+      0,
+      1,
+      1,
+      2
+    ],
+    "axis": "Levels below root",
+    "branch_geometry_and_level_spacing_preserved": true
+  }
+}

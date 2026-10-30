@@ -1,0 +1,30 @@
+{
+  "datasets": 5,
+  "parameters": [
+    0,
+    0.02,
+    0.05,
+    0.1,
+    0.2,
+    0.3
+  ],
+  "map_panels": 30,
+  "exact_profile_strips": 5,
+  "time_ordered_labels": [
+    "A1",
+    "A2",
+    "A3"
+  ],
+  "all_reference_and_strip_checks_passed": true,
+  "new_epsilon30_layouts": 391,
+  "volume_transfer_sources_restored": true,
+  "selection_boxes": 30,
+  "white_vertical_dashed_lines": false,
+  "pdf_pages": 1,
+  "visual_qa": "Final PDF raster inspected; scalar images, 3-D boxes and point numbering checked",
+  "sha256": {
+    "pdf": "2bc5f067af5041202668d7179b2bb2a20b72c7455c5cc580aeac95f6863bd712",
+    "svg": "4576595df6b77d5470c7e2f2d212c157a0cf3798743bcb22028af62e08ff1985",
+    "png": "e3b38300366e762f2fe8015b73f7c73e98f18b8e4a4a5152734122483073d2ef"
+  }
+}

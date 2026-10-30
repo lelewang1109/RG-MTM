@@ -1,4 +1,12 @@
+> 2026-10-30 工作更新：见 [最新论文、PPT、总览图与实验索引](docs/WORK_UPDATE_20261030.md)。
+
+> 2026-10-30 最新图更新：二维逐小时 Storms 为首图，三维 Vortex 为图 11；正文 9+2 页、附录 10 页。见 [当前正文](paper/pvis2027/main.pdf)。
+
+> 2026-10-30：当前 PacificVis 稿已补 N4 可控冲突实验（正文 §7.3 / 图 9，附录 §S3 / 图 S1）；正文 11 页、附录 7 页。见 [实验协议](code/experiments/controlled_conflict/README.md) 与 [正文](paper/pvis2027/main.pdf)。
+
 # RG-MTM：统一位置—拓扑框架
+
+> **2026-10-29 已还原：** 按用户提供的 PDF 恢复为 2026-10-27 的 *Position-Faithful Merge Tree Maps: Certified Bounds and Optimal Layouts*。见 [原版正文](paper/pvis2027/main.pdf)、[配套附录](paper/pvis2027/supplement.pdf)、[编辑入口](paper/pvis2027/README.md) 和 [还原记录](paper/pvis2027/RESTORE_20261029.md)。正文 PDF 与用户附件字节一致；原版投稿编号为 0。近期框架改写已备份。
 
 Reference-Guided Merge Tree Maps — A Unified Position–Topology Framework
 
@@ -6,20 +14,20 @@ Reference-Guided Merge Tree Maps — A Unified Position–Topology Framework
 
 RG-MTM 将时变标量场压缩成“时间 × 一维位置”的地图，在同一组区间变量、四项布局目标、QP求解和标量绘制中，研究层次连接、相对几何、时间连续性与固定空间参考之间的折中。原生TMTM/ST-MTM是独立比较方法；本模型中的inspired区域表达其设计原则，不宣称算法等价。
 
-## 从哪里开始
+## 历史长稿与研究材料入口
 
 | 你的目的 | 直接入口 |
 |---|---|
-| 阅读当前最终论文 | [正文PDF](paper/manuscript/Revised_RG-MTM.pdf) · [附录PDF](paper/manuscript/Revised_Supplement.pdf) |
+| 阅读 2026-10-26 长稿 | [正文PDF](paper/manuscript/Revised_RG-MTM.pdf) · [附录PDF](paper/manuscript/Revised_Supplement.pdf) |
 | 理解整个文件夹 | [目录导读与阅读路线](docs/DIRECTORY_GUIDE.md) |
-| 在最终稿上修改文字或图片 | [修改流程](docs/EDITING_AND_REPRODUCING.md) · [LaTeX入口](paper/manuscript/latex/main.tex) |
+| 修改历史长稿文字或图片 | [修改流程](docs/EDITING_AND_REPRODUCING.md) · [LaTeX入口](paper/manuscript/latex/main.tex) |
 | 理解方法、贡献与边界 | [统一体系说明](docs/统一体系贡献说明_20261025.md) · [方法代码](code/src/rgmtm/) |
 | 查看当前九数据评价表 | [指标CSV](code/results/stmtm_completion20261026/unified_metrics.csv) · [补全报告](code/results/stmtm_completion20261026/REPORT_zh.md) |
 | 查看统一模型实验 | [实验协议](code/experiments/unified/README.md) · [保存结果](code/results/unified20261025/) |
 | 准备数据或重跑 | [数据说明](data/README.md) · [分级复现流程](docs/EDITING_AND_REPRODUCING.md) |
 | 下载独立LaTeX整包 | [2026-10-26 Release](https://github.com/lelewang1109/RG-MTM/releases/tag/research-2026-10-26-final) |
 
-## 当前版本：2026-10-26
+## 历史长稿版本：2026-10-26
 
 - 正文 **26页**、附录 **52页**，正文保留17张图。当前PDF与 `paper/manuscript/latex/` 是继续修改的基线。
 - **图1已更新**：完整744小时Storms定位图 → 选中窗口的五张地理快照 → P/R1/R2/R5局部对照。只标注已展示时刻；字母表示计算极值轨迹。编辑源为 [SVG](paper/figures_export/Fig1.svg) 和 [Python](paper/previews/storms_anatol_20261026/render_teaser.py)，既有PPT图1页是历史版。

@@ -1,0 +1,13 @@
+{
+  "frame": 42,
+  "worsening_track": 138,
+  "improving_track": 487,
+  "frame_mean_from": 0.12332466277068996,
+  "frame_mean_to": 0.05579475352548175,
+  "frame_max_from": 0.28467384500502224,
+  "frame_max_to": 0.2571861684105744,
+  "features": 149,
+  "worsening_from": 0.00030934627237499956,
+  "worsening_to": 0.2479996199642671,
+  "selected_maximum": true
+}

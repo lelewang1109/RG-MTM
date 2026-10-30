@@ -1,0 +1,26 @@
+[
+  {
+    "figure": "storms_hourly_ppt",
+    "png": "/Users/lele/Desktop/MergeTreeMaps/output/storms_hourly_anomaly_fine_20261030/Storms_teaser.png",
+    "ppt": "/Users/lele/Desktop/MergeTreeMaps/output/storms_hourly_anomaly_fine_20261030/ppt/Storms_teaser_hybrid_editable.pptx",
+    "size": [
+      5280,
+      3000
+    ],
+    "png_sha256": "e31db633e6682d002e836dd309cd1bd7bc1ae4227691b72a432b5568132de48a",
+    "ppt_sha256": "0a6e60ebcf83722ce29f631ff1dfe7b6e2c80e3a323a27fd38d7a4144759c1ec",
+    "paper_pdf": "figures/fig_storms_hourly_ppt.pdf"
+  },
+  {
+    "figure": "vortex_3d_ppt",
+    "png": "/Users/lele/Desktop/MergeTreeMaps/output/vortex_teaser_editable_20261030/Vortex_teaser.png",
+    "ppt": "/Users/lele/Desktop/MergeTreeMaps/output/vortex_teaser_editable_20261030/ppt/Vortex_teaser_editable_final.pptx",
+    "size": [
+      2808,
+      1296
+    ],
+    "png_sha256": "da976c817cc30409937fb555f1c21490816bd2cf04fc570afae5f15fb2af05c2",
+    "ppt_sha256": "0f5fa4d7e91752c502e414b792a210ab06c54b9a1746b268b492c6489b116d80",
+    "paper_pdf": "figures/fig_vortex_3d_ppt.pdf"
+  }
+]

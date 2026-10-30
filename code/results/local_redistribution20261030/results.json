@@ -1,0 +1,315 @@
+{
+  "tolerance": 1e-06,
+  "material_thresholds": [
+    0.005,
+    0.01
+  ],
+  "classification": "change in absolute per-feature reference error / L between budgets at the SAME time, NOT time displacement",
+  "datasets": {
+    "Vortex": {
+      "frames": 90,
+      "samples": 12446,
+      "epsilon": [
+        0.0,
+        0.02,
+        0.05,
+        0.1,
+        0.2,
+        0.3
+      ],
+      "metrics": [
+        {
+          "epsilon": 0.0,
+          "mean": 0.15704803645490453,
+          "maximum": 0.5175099773284719
+        },
+        {
+          "epsilon": 0.02,
+          "mean": 0.1411640869837651,
+          "maximum": 0.5092011043658621
+        },
+        {
+          "epsilon": 0.05,
+          "mean": 0.13211282836055283,
+          "maximum": 0.36347769102905675
+        },
+        {
+          "epsilon": 0.1,
+          "mean": 0.12229905045955945,
+          "maximum": 0.3095918875871442
+        },
+        {
+          "epsilon": 0.2,
+          "mean": 0.08794114394492722,
+          "maximum": 0.3076910305596132
+        },
+        {
+          "epsilon": 0.3,
+          "mean": 0.04273208128526882,
+          "maximum": 0.2874096126140585
+        }
+      ]
+    },
+    "Storms-hourly": {
+      "frames": 744,
+      "samples": 3502,
+      "epsilon": [
+        0.0,
+        0.02,
+        0.05,
+        0.1,
+        0.2
+      ],
+      "metrics": [
+        {
+          "epsilon": 0.0,
+          "mean": 0.03362773251119288,
+          "maximum": 0.22167805151399944
+        },
+        {
+          "epsilon": 0.02,
+          "mean": 0.026247784290302858,
+          "maximum": 0.22167805151399944
+        },
+        {
+          "epsilon": 0.05,
+          "mean": 0.021837806132628975,
+          "maximum": 0.21539753158918395
+        },
+        {
+          "epsilon": 0.1,
+          "mean": 0.01711840446476551,
+          "maximum": 0.18486724082653316
+        },
+        {
+          "epsilon": 0.2,
+          "mean": 0.010101040716244824,
+          "maximum": 0.12547728278191683
+        }
+      ]
+    }
+  },
+  "transitions": [
+    {
+      "dataset": "Vortex",
+      "epsilon_from": 0.0,
+      "epsilon_to": 0.02,
+      "samples": 12446,
+      "improved": 6525,
+      "worsened": 5386,
+      "unchanged": 535,
+      "worsened_fraction": 0.4327494777438535,
+      "worsened_ge_0p5pp": 4973,
+      "worsened_ge_1pp": 4538,
+      "max_worsening": 0.4484267926184672,
+      "mean_change": -0.01588394947113944,
+      "frame_max_worsened": 0,
+      "both_frame_metrics_improve_frames": 79,
+      "both_improve_samples": 10887,
+      "both_improve_worsened_points": 4579,
+      "same_order_frames": 0,
+      "same_order_worsened_points": 0
+    },
+    {
+      "dataset": "Vortex",
+      "epsilon_from": 0.02,
+      "epsilon_to": 0.05,
+      "samples": 12446,
+      "improved": 5837,
+      "worsened": 5014,
+      "unchanged": 1595,
+      "worsened_fraction": 0.40286035674112164,
+      "worsened_ge_0p5pp": 4160,
+      "worsened_ge_1pp": 3645,
+      "max_worsening": 0.2985871754918935,
+      "mean_change": -0.009051258623212282,
+      "frame_max_worsened": 3,
+      "both_frame_metrics_improve_frames": 61,
+      "both_improve_samples": 8416,
+      "both_improve_worsened_points": 3670,
+      "same_order_frames": 3,
+      "same_order_worsened_points": 56
+    },
+    {
+      "dataset": "Vortex",
+      "epsilon_from": 0.05,
+      "epsilon_to": 0.1,
+      "samples": 12446,
+      "improved": 5598,
+      "worsened": 4663,
+      "unchanged": 2185,
+      "worsened_fraction": 0.37465852482725376,
+      "worsened_ge_0p5pp": 3419,
+      "worsened_ge_1pp": 2870,
+      "max_worsening": 0.2516961972180175,
+      "mean_change": -0.009813777900993359,
+      "frame_max_worsened": 7,
+      "both_frame_metrics_improve_frames": 57,
+      "both_improve_samples": 7878,
+      "both_improve_worsened_points": 3356,
+      "same_order_frames": 14,
+      "same_order_worsened_points": 178
+    },
+    {
+      "dataset": "Vortex",
+      "epsilon_from": 0.1,
+      "epsilon_to": 0.2,
+      "samples": 12446,
+      "improved": 7359,
+      "worsened": 4079,
+      "unchanged": 1008,
+      "worsened_fraction": 0.3277358187369436,
+      "worsened_ge_0p5pp": 3401,
+      "worsened_ge_1pp": 2989,
+      "max_worsening": 0.28086322250016543,
+      "mean_change": -0.034357906514632226,
+      "frame_max_worsened": 4,
+      "both_frame_metrics_improve_frames": 77,
+      "both_improve_samples": 10621,
+      "both_improve_worsened_points": 3627,
+      "same_order_frames": 4,
+      "same_order_worsened_points": 60
+    },
+    {
+      "dataset": "Vortex",
+      "epsilon_from": 0.2,
+      "epsilon_to": 0.3,
+      "samples": 12446,
+      "improved": 8127,
+      "worsened": 3847,
+      "unchanged": 472,
+      "worsened_fraction": 0.30909529165997107,
+      "worsened_ge_0p5pp": 3077,
+      "worsened_ge_1pp": 2564,
+      "max_worsening": 0.24769027369189212,
+      "mean_change": -0.04520906265965841,
+      "frame_max_worsened": 0,
+      "both_frame_metrics_improve_frames": 88,
+      "both_improve_samples": 12141,
+      "both_improve_worsened_points": 3778,
+      "same_order_frames": 1,
+      "same_order_worsened_points": 13
+    },
+    {
+      "dataset": "Storms-hourly",
+      "epsilon_from": 0.0,
+      "epsilon_to": 0.02,
+      "samples": 3502,
+      "improved": 833,
+      "worsened": 250,
+      "unchanged": 2419,
+      "worsened_fraction": 0.0713877784123358,
+      "worsened_ge_0p5pp": 112,
+      "worsened_ge_1pp": 74,
+      "max_worsening": 0.17380234477731543,
+      "mean_change": -0.007379948220890021,
+      "frame_max_worsened": 3,
+      "both_frame_metrics_improve_frames": 146,
+      "both_improve_samples": 805,
+      "both_improve_worsened_points": 120,
+      "same_order_frames": 571,
+      "same_order_worsened_points": 85
+    },
+    {
+      "dataset": "Storms-hourly",
+      "epsilon_from": 0.02,
+      "epsilon_to": 0.05,
+      "samples": 3502,
+      "improved": 491,
+      "worsened": 156,
+      "unchanged": 2855,
+      "worsened_fraction": 0.04454597372929754,
+      "worsened_ge_0p5pp": 41,
+      "worsened_ge_1pp": 23,
+      "max_worsening": 0.1421075755022048,
+      "mean_change": -0.004409978157673879,
+      "frame_max_worsened": 0,
+      "both_frame_metrics_improve_frames": 78,
+      "both_improve_samples": 463,
+      "both_improve_worsened_points": 73,
+      "same_order_frames": 664,
+      "same_order_worsened_points": 79
+    },
+    {
+      "dataset": "Storms-hourly",
+      "epsilon_from": 0.05,
+      "epsilon_to": 0.1,
+      "samples": 3502,
+      "improved": 437,
+      "worsened": 88,
+      "unchanged": 2977,
+      "worsened_fraction": 0.025128498001142203,
+      "worsened_ge_0p5pp": 30,
+      "worsened_ge_1pp": 20,
+      "max_worsening": 0.037694096574484415,
+      "mean_change": -0.0047194016678634675,
+      "frame_max_worsened": 0,
+      "both_frame_metrics_improve_frames": 73,
+      "both_improve_samples": 446,
+      "both_improve_worsened_points": 57,
+      "same_order_frames": 668,
+      "same_order_worsened_points": 23
+    },
+    {
+      "dataset": "Storms-hourly",
+      "epsilon_from": 0.1,
+      "epsilon_to": 0.2,
+      "samples": 3502,
+      "improved": 660,
+      "worsened": 130,
+      "unchanged": 2712,
+      "worsened_fraction": 0.03712164477441462,
+      "worsened_ge_0p5pp": 30,
+      "worsened_ge_1pp": 18,
+      "max_worsening": 0.04610947411468408,
+      "mean_change": -0.007017363748520687,
+      "frame_max_worsened": 1,
+      "both_frame_metrics_improve_frames": 113,
+      "both_improve_samples": 689,
+      "both_improve_worsened_points": 74,
+      "same_order_frames": 634,
+      "same_order_worsened_points": 47
+    }
+  ],
+  "example": {
+    "dataset": "Vortex",
+    "epsilon_from": 0.2,
+    "epsilon_to": 0.3,
+    "frame": 42,
+    "track": 138,
+    "reference": 0.8503937007874016,
+    "x_from": 0.8500843545150266,
+    "x_to": 0.6023940808231345,
+    "error_from": 0.00030934627237499956,
+    "error_to": 0.24799961996426712,
+    "change": 0.24769027369189212,
+    "both_frame_metrics_improve": true,
+    "same_order": false
+  },
+  "example_selection": "largest Vortex 20-to-30% local increase among frames whose mean AND maximum errors both decrease; illustrative extreme, not a prevalence estimate",
+  "source_manifest": {
+    "Vortex": {
+      "file": "vortex.npz",
+      "sha256": "08ad7d85e02711263398f6f8045e4d5c3f5af2e14b1bc93227b8032748f2e772",
+      "frames": 90,
+      "samples": 12446,
+      "min_leaves": 111,
+      "max_leaves": 156
+    },
+    "Storms-hourly": {
+      "file": "storms-hourly.npz",
+      "sha256": "848ce4991d81d99e8ad6ba320a4d19dd99e2ea98f3f76374d0b69b973e419135",
+      "frames": 744,
+      "samples": 3502,
+      "min_leaves": 1,
+      "max_leaves": 12
+    },
+    "source_sha256": {
+      "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/code/results/volumes20261029/vorts/features.json": "1ec54c448b6393c9af99ea8f942a9a88a29c6650f61bdf940f1a130417c61894",
+      "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/code/results/volumes20261029/vorts/parameters.json": "8308b1268bd5c290a86f93abe1da6926012ca3aac428f1d4cc8fb7ef98c82798",
+      "/Users/lele/Desktop/MergeTreeMaps/output/vortex_teaser_3d_v4_20261030/epsilon30/vorts/verification.json": "c885fbeb3a919b21c4f8ac00825606350cd6a3b8d5bf3bca8c55feed5e7af624",
+      "/Users/lele/Desktop/MergeTreeMaps/output/storms_hourly_anomaly_fine_20261030/input.json": "6af74b8a33bc0e0de2a73149a11a80cb6735764e11e838e8d4dc934537ad5d68",
+      "/Users/lele/Desktop/MergeTreeMaps/output/storms_hourly_anomaly_fine_20261030/coherent/validation.json": "a7e450735da202efe7a5180c79d2ee8242e87d8e9bc635cb4e0f65ce5ad1d48b"
+    }
+  }
+}
