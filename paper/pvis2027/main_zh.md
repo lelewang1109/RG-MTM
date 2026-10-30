@@ -13,8 +13,8 @@
 
 ## 标题
 
-- EN: Position-Faithful Merge Tree Maps: Certified Bounds and Optimal Layouts
-- 中：位置忠实的合并树地图：有保证的下界与最优布局
+- EN: Position-Faithful Merge Tree Maps: Certified Bounds and Near-Optimal Layouts
+- 中：位置忠实的合并树地图：有保证的下界与近似最优布局
 
 ## 摘要
 
@@ -26,8 +26,8 @@
 - 中：我们要问：在不歪曲层次的前提下，这样的地图能多贴近一个固定的空间参考（例如经度）？
 - EN: We prove a closed-form lower bound on the order error of every map that preserves the merge tree, which holds for every method including TMTM and ST-MTM, a width-aware bound on the worst displacement for maps that place features as intervals, as ST-MTM and our method do, and chain-aware bounds for maps whose merge levels may err by a declared budget $\varepsilon$.
 - 中：我们证明了三类下界：一是任何保持合并树的地图的排序误差都有一个闭式下界，它对包括 TMTM 和 ST-MTM 在内的所有方法成立；二是对于以区间形式摆放特征的地图（ST-MTM 和我们的方法都是如此），最坏位移有一个宽度感知的下界；三是对于合并层级允许有声明预算 $\varepsilon$ 以内误差的地图，有链式下界。
-- EN: We give layouts that attain them: a midpoint ordering, a width-aware search, and a budgeted ordering whose exact merge-level error is checked, combined with optimal barriers and a capped quadratic placement.
-- 中：我们给出能达到这些下界的布局：中点排序、宽度感知搜索，以及精确检查合并层级误差的预算内排序，再结合最优屏障和带上限的二次规划摆位。
+- EN: We give layouts that attain the order bound exactly and come close to the others: a midpoint ordering, a width-aware search, and a budgeted ordering whose exact merge-level error is checked, combined with optimal barriers and a capped quadratic placement.
+- 中：我们给出的布局能严格达到排序下界，并接近其余下界：中点排序、宽度感知搜索，以及精确检查合并层级误差的预算内排序，再结合最优屏障和带上限的二次规划摆位。
 - EN: The bounds do not depend on the dimension of the domain.
 - 中：这些下界与数据所在区域的维度无关。
 - EN: A cross-method comparison on 917 frames from five planar and two volumetric sequences shows that most of the order error of existing maps is avoidable, that sorting by reference alone changes merge levels by up to 59\% of the scalar range, and that our exact maps lower the motion error of both previous methods on every sequence, while ST-MTM keeps the better distance preservation.
@@ -39,10 +39,9 @@
 - EN: Merge trees, temporal scalar fields, topology-based visualization, one-dimensional layout, lower bounds.
 - 中：合并树，时变标量场，基于拓扑的可视化，一维布局，下界。
 
-## 图 1（首图，2026-10-30 最终二维 PPT）
+## 图 1（2026-10-30 支撑区域与位置参考改进版）
 
-- EN: Hourly Storms: 744 sea-level-pressure anomaly fields from December 1999. (a) Full map at $\varepsilon=5\%$; the box selects $t=212$--239. (b) Five spatial snapshots with the fixed reference axis $q$ and exact-layout positions. (c) The same tracked minima A (green) and B (magenta) at budgets $0,1,2,3,5\%$; diamonds mark references at the selected step. Labels $A_{ij},B_{ij}$ index parameter column $i$ and sampled time $j$. (d) Complete displayed trees at $t=236$: structural depths $4,4,3,3,2$. Roots are top-aligned; vertical distance counts levels below the root, not pressure. This hourly diagnostic is separate from the half-day Storms benchmark.
-- 中：逐小时 Storms：1999 年 12 月的 744 个海平面气压异常场。(a) ε=5% 的完整地图，框出 t=212–239 的局部时间窗。(b) 五个空间快照及固定参考轴 q，与拓扑精确布局中的位置对应。(c) ε 为 0%、1%、2%、3%、5% 时同一组绿色 A、紫红色 B 轨迹；菱形为选定帧的参考位置。编号第一位表示参数列，第二位表示采样时间。(d) t=236 的完整显示树，结构深度依次为 4、4、3、3、2。树根顶部对齐，纵轴表示根下方层数，不表示气压。此逐小时诊断序列独立于半日 Storms 横评序列。
+744 小时 Storms 气压异常场。空间快照中用实际叶特征支撑采样集合的淡色填充表示匹配对象 A/B；极值点投影到空间参考 q，邻侧条状图表示精确布局。局部地图中实线为显示位置 x，虚线和菱形为参考 q，参数为 0%、1%、2%、3%、5%。t=236 的完整树结构深度为 4、4、3、3、2，下方报告实际合并误差。根节点顶部对齐，纵轴结构层数不是压力单位。支撑重叠匹配只定义计算特征对应，不自动证明气旋物理身份。此序列不计入 917 帧横评。
 
 ## 1 引言
 
@@ -77,8 +76,8 @@
 - 中：我们的贡献如下：
 - EN: **Certified lower bounds** on the displacement of any merge tree map that keeps the hierarchy: a closed-form bound on the order error, valid for every method including TMTM and ST-MTM; a width-aware bound on the worst displacement for interval layouts such as ST-MTM and ours; and chain-aware bounds for maps with a merge-level budget $\varepsilon$ (Sect. 5). In 3-D, the order bound ranks candidate reference directions before any map is drawn.
 - 中：**有保证的下界**，针对任何保持层次的合并树地图的位移：排序误差的闭式下界，对包括 TMTM 和 ST-MTM 在内的所有方法成立；最坏位移的宽度感知下界，适用于 ST-MTM 和本文这类区间布局；以及带合并层级预算 $\varepsilon$ 的地图的链式下界（第 5 节）。在三维数据上，排序下界可以在画任何地图之前，对候选的参考方向进行排序比较。
-- EN: **Layouts that attain them**: midpoint ordering, a width-aware search and a budgeted ordering with exact merge-cost checks, combined with optimal barriers and a capped quadratic placement; every map reports its position and merge-level errors and marks changed merges (Sect. 6).
-- 中：**达到下界的布局**：中点排序、宽度感知搜索，以及精确检查合并代价的预算内排序，结合最优屏障和带上限的二次规划摆位；每张地图都报告自己的位置误差和合并层级误差，并标出被改动的合并（第 6 节）。
+- EN: **Layouts that attain or approach them**: midpoint ordering, a width-aware search and a budgeted ordering with exact merge-cost checks, combined with optimal barriers and a capped quadratic placement; every map reports its position and merge-level errors and marks changed merges (Sect. 6).
+- 中：**达到或逼近下界的布局**：中点排序、宽度感知搜索，以及精确检查合并代价的预算内排序，结合最优屏障和带上限的二次规划摆位；每张地图都报告自己的位置误差和合并层级误差，并标出被改动的合并（第 6 节）。
 - EN: **One formulation** with explicit position and topology budgets, in which TMTM and ST-MTM are exact-topology instances; given their own leaf orders, their layouts are reproduced exactly (Sect. 3).
 - 中：**一个统一表述**，显式包含位置预算和拓扑预算，TMTM 和 ST-MTM 是其中拓扑精确的实例；给定它们自己的叶序，它们的布局可以被精确复现（第 3 节）。
 - EN: **A cross-method comparison** of five methods on 917 frames from seven sequences, including two volumetric ones, a study of the reference direction in 3-D, and a case study with error disclosure (Sect. 7).
@@ -285,8 +284,8 @@
 - EN: Hence $V_{ik}-\varepsilon\le V^\psi_{ik}\le V^\psi_{ij}\le V_{ij}+\varepsilon\le f(u)+\varepsilon$.
 - 中：因此 $V_{ik}-\varepsilon\le V^\psi_{ik}\le V^\psi_{ij}\le V_{ij}+\varepsilon\le f(u)+\varepsilon$。
 
-- EN: With $\varepsilon=0$, a leaf outside $u$ merges with $u$ strictly above $f(u)$, so *every subtree is contiguous*: the children of a node occupy disjoint blocks.
-- 中：当 $\varepsilon=0$ 时，$u$ 之外的叶子与 $u$ 的合并严格高于 $f(u)$，所以*每棵子树都是连续的*：一个节点的各个子树占据互不相交的区块。
+- EN: With $\varepsilon=0$, a leaf outside $u$ merges with $u$ strictly above $f(u)$ (levels within $\varepsilon_0\Delta_F$ form one node), so *every subtree is contiguous*: the children of a node occupy disjoint blocks.
+- 中：当 $\varepsilon=0$ 时，$u$ 之外的叶子与 $u$ 的合并严格高于 $f(u)$（相差不超过 $\varepsilon_0\Delta_F$ 的层级合为一个节点），所以*每棵子树都是连续的*：一个节点的各个子树占据互不相交的区块。
 - EN: Let $[m_X,M_X]$ be the reference hull of a subtree $X$.
 - 中：记 $[m_X,M_X]$ 为子树 $X$ 的参考范围。
 
@@ -316,6 +315,8 @@
 - EN: With $\ell_k=q_k-W_k/2-H_k$, $h_k=q_k+W_k/2+H_k$, $s_k=W_k+g$ and, for a leaf set $S$, [公式 (5)]
 - 中：令 $\ell_k=q_k-W_k/2-H_k$，$h_k=q_k+W_k/2+H_k$，$s_k=W_k+g$，并对叶子集合 $S$ 定义 [公式 (5)]
   $$A(S)=\max_{\alpha}\Big[\alpha+\sum_{k\in S,\ \ell_k\ge\alpha} s_k\Big],\quad B(S)=\max_{\beta}\Big[\sum_{k\in S,\ h_k\le\beta} s_k-\beta\Big],$$
+- EN: with $\alpha$ ranging over $\{\ell_k\}_{k\in S}$ and $\beta$ over $\{h_k\}_{k\in S}$.
+- 中：其中 $\alpha$ 取遍 $\{\ell_k\}_{k\in S}$，$\beta$ 取遍 $\{h_k\}_{k\in S}$。
 
 **定理 2（宽度感知下界）**
 - EN: In the interval layout model, if block $X$ precedes block $Y$, then $\tau\ge (A(X)+B(Y)-g)/2$.
@@ -338,8 +339,8 @@
 - 中：记 $A_\varepsilon(u)$ 为 $u$ 的层级不超过 $f(u)+2\varepsilon$ 的最高祖先。
 
 **定理 3（链式下界）**
-- EN: In a map with $d_{\mathrm{top}}\le\varepsilon$, every leaf outside $A_\varepsilon(u)$, and every node $w$ with $w\notin A_\varepsilon(u)$ and $u\notin A_\varepsilon(w)$, lies entirely on one side of $u$.
-- 中：在满足 $d_{\mathrm{top}}\le\varepsilon$ 的地图中，$A_\varepsilon(u)$ 之外的每个叶子，以及每个满足 $w\notin A_\varepsilon(u)$ 且 $u\notin A_\varepsilon(w)$ 的节点 $w$，都整体位于 $u$ 的同一侧。
+- EN: In a map with $d_{\mathrm{top}}\le\varepsilon$, every leaf outside $A_\varepsilon(u)$, and every node $w$ with no leaf in $A_\varepsilon(u)$ and no leaf of $u$ in $A_\varepsilon(w)$, lies entirely on one side of $u$.
+- 中：在满足 $d_{\mathrm{top}}\le\varepsilon$ 的地图中，$A_\varepsilon(u)$ 之外的每个叶子，以及每个满足“$w$ 没有叶子在 $A_\varepsilon(u)$ 中、$u$ 也没有叶子在 $A_\varepsilon(w)$ 中”的节点 $w$，都整体位于 $u$ 的同一侧。
 - EN: Applying the argument of Theorem 1 (resp. 2) to these separated pairs bounds NROE (resp. $\tau$) from below.
 - 中：对这些相互分离的组对应用定理 1（相应地，定理 2）的论证，即可得到 NROE（相应地，$\tau$）的下界。
 
@@ -358,7 +359,7 @@
 - EN: (c) Optimal barriers balance the error at $\gamma/2$, the minimum for this order.
 - 中：(c) 最优屏障把误差平衡在 $\gamma/2$，这是该顺序下的最小值。
 
-## 6 达到下界的布局
+## 6 有保证的布局
 
 **图 6**
 - EN: Cross-method comparison on seven sequences (left of the grey line: planar; right: volumetric).
@@ -495,10 +496,10 @@
 - 中：*拓扑精确的地图可以比已有地图在位置上忠实得多；剩下的误差有保证，而距离保持是另一种取舍。*
 - EN: Figure 6 compares all methods on all sequences.
 - 中：图 6 在所有序列上比较了所有方法。
-- EN: *Order*: no method falls below $\nu^*$ on any of the 917 frames.
-- 中：*排序*：在全部 917 帧中，没有任何方法低于 $\nu^*$。
-- EN: Most of the order error of TMTM and ST-MTM is avoidable: on Storms, TMTM's 19.2\% contains 3.8\% that the hierarchy forces and ST-MTM's 16.3\% contains 12.5\% that it does not.
-- 中：TMTM 和 ST-MTM 的排序误差大部分是可以避免的：在 Storms 上，TMTM 的 19.2% 中只有 3.8% 是层次迫使的；ST-MTM 的 16.3% 中有 12.5% 不是层次迫使的。
+- EN: *Order*: by Theorem 1 no output can fall below $\nu^*$, which we use only to check the implementation; what differs is the excess above it.
+- 中：*排序*：由定理 1，任何输出都不可能低于 $\nu^*$，我们只把这一点用作实现正确性的检查；各方法的差别在于超出下界的部分。
+- EN: Most of the order error of TMTM and ST-MTM is such excess: on Storms, TMTM's 19.2\% contains 3.8\% that the hierarchy forces and ST-MTM's 16.3\% contains 12.5\% that it does not.
+- 中：TMTM 和 ST-MTM 的排序误差大部分就是这种超出量：在 Storms 上，TMTM 的 19.2% 中只有 3.8% 是层次迫使的；ST-MTM 的 16.3% 中有 12.5% 不是层次迫使的。
 - EN: Our exact layouts lie within 0.03 percentage points of $\nu^*$ on every planar sequence; on Tangaroa and Cylinder the width-aware order trades a little NROE (9.67\% against 9.24\% on Tangaroa) for a lower worst displacement.
 - 中：我们的拓扑精确布局在每一组平面序列上都与 $\nu^*$ 相差不超过 0.03 个百分点；在 Tangaroa 和 Cylinder 上，宽度感知排序用少量 NROE 换取更低的最坏位移（Tangaroa 上为 9.67% 对 9.24%）。
 - EN: On all 637 frames with at most eight leaves, the budgeted order matches exhaustive enumeration at nine budgets from 0 to 100\%.
@@ -615,10 +616,8 @@
 - 中：把一个体数据投影到一个方向上会丢掉两个坐标，因此不可避免的排序误差取决于方向。
 - EN: Because the bounds use only the tree and the extremum positions, we recomputed them for 400 directions over the hemisphere on both volumetric sequences, with references built exactly like the stored ones (Fig. 10).
 - 中：由于下界只用到树和极值的位置，我们在两组三维序列上，对半球上的 400 个方向重新计算了下界，参考坐标的构造方式与原先完全相同（图 10）。
-- EN: No native TMTM or ST-MTM frame falls below $\nu^*$ in any direction, even with the global orientation chosen in their favour.
-- 中：在任何方向上，原生 TMTM 和 ST-MTM 都没有一帧低于 $\nu^*$，即使它们的整体朝向取对它们最有利的一种。
-- EN: The mean bound ranges from 4.70\% to 10.14\% on Tangaroa and from 5.26\% to 28.15\% on Cylinder.
-- 中：平均下界在 Tangaroa 上介于 4.70% 到 10.14% 之间，在 Cylinder 上介于 5.26% 到 28.15% 之间。
+- EN: Native outputs stay above $\nu^*$ in every direction, as Theorem 1 requires; the bound itself varies widely, its mean ranging from 4.70\% to 10.14\% on Tangaroa and from 5.26\% to 28.15\% on Cylinder.
+- 中：正如定理 1 所要求的，原生输出在每个方向上都不低于 $\nu^*$；变化很大的是下界本身，其均值在 Tangaroa 上介于 4.70% 到 10.14% 之间，在 Cylinder 上介于 5.26% 到 28.15% 之间。
 - EN: On Tangaroa, the stored direction, chosen to follow the main motion of the features, is among the most costly: only 3 of the 400 directions have a higher bound, and the $x$ axis would lower $\nu^*$ from 9.24\% to 6.09\%.
 - 中：在 Tangaroa 上，原先选用的方向（为了跟随特征的主要运动）属于代价最高的一类：400 个方向中只有 3 个的下界更高；改用 $x$ 轴可以把 $\nu^*$ 从 9.24% 降到 6.09%。
 - EN: On Cylinder, the streamwise axis lies near the median (7.72\%).
@@ -628,12 +627,11 @@
 - EN: Since $\nu^*$ costs milliseconds per frame, an analyst can rank candidate references before computing any map, and weigh following the motion against hierarchical conflict.
 - 中：由于每帧计算 $\nu^*$ 只需几毫秒，分析者可以在计算任何地图之前就对候选参考方向进行排序比较，在"跟随运动"和"层次冲突"之间做权衡。
 
-### 7.7 三维案例：Vortex（2026-10-30 新增）
+### 7.7 跨数据集快照与预算响应（图 11）
 
-- EN: Figure 11 links spatial references, profiles and displayed trees on the separate 90-frame Vortex diagnostic. The reference q=X/127 is the normalized voxel coordinate, with physical units unavailable.
-- 中：图 11 在独立的 90 帧 Vortex 诊断序列上对应三维参考位置、剖面与显示树。q=X/127 是归一化体素坐标，没有可用的物理单位。
-- EN: At t=8 every budget retains all 142 leaves; structural depths are 74, 53, 48, 48, 18, 18 and normalized merge errors are 0%, 1.58%, 2.98%, 2.98%, 19.06%, 27.14%.
-- 中：t=8 的所有预算均保留 142 片叶子；结构深度为 74、53、48、48、18、18，归一化合并误差为 0%、1.58%、2.98%、2.98%、19.06%、27.14%，均未超过对应预算。深度相同不意味着合并层级或映射位置相同。此序列和 744 小时首图均不计入原 917 帧横评。
+图 11 将原三维 Vortex 大图替换为五组总览：二维 Storms、Wildfires、PM2.5，三维 Tangaroa、Vortex。各行配一个空间快照、ε=0 的单列剖面，以及六档预算 0%、2%、5%、10%、20%、30% 的同一时间窗。A1、A2、A3 分别指窗口起点、快照时刻和终点的同一跟踪特征；金框对应快照剖面列，菱形是参考点 q。三维快照保留真实源域包围盒。Tangaroa 和 Vortex 使用各自原体渲染 RGB；PM2.5 在六档中统一使用 [12,80] 显示范围。
+
+四行使用主横评输入，90 帧 Vortex 为额外诊断，不改变 917 帧横评总体。其余四组新增 30% 均从第一帧求解到选定时间窗末端，保留原优化历史；所有展示帧通过合并误差及位置上限核验。显示插值不修改实际逐帧锚点。
 
 ### 7.8 案例研究：带误差披露的 Storms
 
@@ -710,8 +708,8 @@
 
 - EN: Merge tree maps can stay close to a spatial reference without giving up their hierarchy, and how close is computable.
 - 中：合并树地图可以在不放弃层次的前提下贴近空间参考，而且能贴近到什么程度是可以计算的。
-- EN: The order bound and its width and chain versions give the unavoidable displacement of every exact map; most of the displacement of existing maps lies above it, and our layouts remove it.
-- 中：排序下界及其宽度版本和链式版本给出了每张拓扑精确地图不可避免的位移；已有地图的位移大部分高于这个下界，而我们的布局消除了这一部分。
+- EN: The order bound and its width and chain versions give the unavoidable displacement of every exact map; most of the displacement of existing maps lies above it, and our layouts remove nearly all of it.
+- 中：排序下界及其宽度版本和链式版本给出了每张拓扑精确地图不可避免的位移；已有地图的位移大部分高于这个下界，而我们的布局几乎消除了这一部分。
 - EN: A merge-level budget recovers more position where the data allow, with the error certified, reported and marked on the map.
 - 中：在数据允许的地方，合并层级预算能挽回更多位置，同时误差有保证、被报告，并标在图上。
 - EN: Each map therefore carries two numbers: how far it moves features and how far it changes the hierarchy.

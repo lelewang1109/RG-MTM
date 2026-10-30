@@ -617,8 +617,22 @@ def fig_latest_ppt_examples():
         doc.close()
 
 
+def fig_current_teaser():
+    """Rebuild the current support-aware teaser from its frozen native-PPT render."""
+    import pymupdf as fitz
+    from PIL import Image
+    source = FIG / 'fig_storms_support.png'
+    with Image.open(source) as image:
+        w, h = image.size
+    doc = fitz.open()
+    page = doc.new_page(width=504, height=504 * h / w)
+    page.insert_image(page.rect, filename=str(source))
+    doc.save(FIG / 'fig_storms_support.pdf', deflate=True)
+    doc.close()
+
+
 if __name__ == '__main__':
     FIG.mkdir(exist_ok=True)
     for f in [tables, table_quality, table_compare, table_direction, fig_concept, fig_bound, fig_frontier, fig_tangaroa, fig_maps, fig_storms,
-              fig_teaser, fig_pipeline, fig_compare, fig_direction, fig_controlled_conflict, fig_local_redistribution, fig_latest_ppt_examples]:
+              fig_teaser, fig_pipeline, fig_compare, fig_direction, fig_controlled_conflict, fig_local_redistribution, fig_latest_ppt_examples, fig_current_teaser]:
         print(f.__name__, flush=True); f()

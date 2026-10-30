@@ -29,3 +29,9 @@ PDF/SVG/PNG/PPT 可直接查看。可视化复现脚本依赖本地完整原始�
 ## 数据与复现边界
 
 不上传原始 ERA5/野火/体数据下载包、虚拟环境、编译缓存、临时截图或微信附件。实验协议、生成源码、必要的新结果及核验记录随图件发布。用户历史提交和冻结基准结果保留。
+
+## 本轮最终论文图替换
+
+首图已引用 `fig_storms_support.pdf`，对应 `Storms_feature_support_improved.pptx`；正文图 11 已引用 `fig_dataset_overview_extended.pdf`，原 Vortex 大图保留为历史图件。五组总览已正式插入主文。改进首图源 PNG 冻结在 figures/，`fig_current_teaser()` 可重新封装 PDF。
+
+远端 06dcd53 的 Near-Optimal 标题、定理定义域、保守最优性表述和 ERA5 文献条目，与本地新增实验和图件已按共同基线进行三方文本合并。

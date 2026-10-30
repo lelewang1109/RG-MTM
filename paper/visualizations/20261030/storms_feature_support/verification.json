@@ -1,0 +1,21 @@
+{
+  "original_sha256": "0a6e60ebcf83722ce29f631ff1dfe7b6e2c80e3a323a27fd38d7a4144759c1ec",
+  "improved_sha256": "367c4b2db14cd67932299447e2884431816b406f161c0f34e800ebc2eada450c",
+  "source_PPT_unchanged": true,
+  "verified_native_tree_branches": 57,
+  "maximum_tree_coordinate_roundtrip_difference_emu": 0,
+  "source_support_panels": 5,
+  "source_features_verified": 10,
+  "source_track_ids": [
+    96,
+    156
+  ],
+  "new_q_trajectories": 10,
+  "measured_merge_errors_percent": [
+    0,
+    0,
+    1.0714295758775367,
+    1.0714295758775367,
+    3.075264172088409
+  ]
+}
