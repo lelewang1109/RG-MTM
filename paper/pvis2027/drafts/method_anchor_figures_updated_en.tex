@@ -43,7 +43,7 @@
 \includegraphics[width=\linewidth]{../figures/anchor_storms_overview.pdf}
 \par
 \refstepcounter{figure}\label{fig:storms_overview}
-{\captionfonts\raggedright\noindent\figurename~\thefigure: Storms example linking spatial feature supports to a temporal map. Blue and orange denote matched features $A$ and $B$. (a) Full sequence of 744 time steps and selected window. (b) Five snapshots: outlined sample-centered dual cells represent the extremum and regular vertices on its own leaf arc; adjacent strips show the zero-budget layout. (c) Solid curves show mapped positions $x$ and dashed curves show spatial references $q$ for $\varepsilon\in\{0,1,2,3,5\}\%$. (d) Displayed hierarchies at $t=236$, annotated with the measured normalized continuous merge errors $\delta^*/\Delta_F$; vertical levels denote structural depth, not pressure.\par}
+{\captionfonts\raggedright\noindent\figurename~\thefigure: Storms example linking spatial feature supports to a temporal map ($\varepsilon=5\%$). Top: five snapshots of one matched extremum and their scalar profiles; blue outlines mark its leaf-arc supports, and vertical guides indicate the fixed spatial reference. Middle: the profiles rotated by $90^\circ$; dashed borders distinguish sampled intermediate frames. Bottom: the full 744-frame map, with the selected storm-related region outlined and the matched feature's displayed positions marked in blue.\par}
 
 }
 \begin{document}
@@ -51,7 +51,7 @@
 \maketitle
 \raggedbottom
 \setlength{\emergencystretch}{1.5em}
-2D and 3D time-varying scalar fields describe evolving phenomena such as pressure systems, combustion structures, and flow features. Their analysis requires understanding where features occur, how they move along a relevant spatial direction, and how their hierarchical relationships change throughout a sequence. Extrema and component merges describe this evolving scalar structure, while spatial coordinates connect it to the physical domain. A temporal overview should bring these aspects together. Figure~\ref{fig:storms_overview} illustrates how spatial supports, reference positions and displayed hierarchies relate in a temporal map.
+2D and 3D time-varying scalar fields describe evolving phenomena such as pressure systems, combustion structures, and flow features. Their analysis requires understanding where features occur, how they move along a relevant spatial direction, and how their hierarchical relationships change throughout a sequence. Extrema and component merges describe this evolving scalar structure, while spatial coordinates connect it to the physical domain. A temporal overview should bring these aspects together. Figure~\ref{fig:storms_overview} illustrates how spatial supports and reference positions connect to scalar profiles and the resulting temporal map.
 
 Animation preserves the spatial view at each instant, but comparison between distant times requires navigation and memory. Small multiples expose observations simultaneously at the cost of screen space. Static temporal summaries allocate one display axis to time and compress the spatial domain into the remaining axis~\cite{Tversky:2002:Animation,Robertson:2008:Animation,Bach:2017:STC}. Spatial linearization makes long sequences accessible in one image; the meaning of its 1D coordinate determines which spatial questions the overview can support.
 

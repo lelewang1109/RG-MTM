@@ -8,7 +8,7 @@ Spatial anchoring, topology-budgeted merge-tree layouts, and certified position 
 - [Companion supplement (PDF)](paper/pvis2027/drafts/method_anchor_single_parameter_supplement.pdf) · [LaTeX](paper/pvis2027/drafts/method_anchor_single_parameter_supplement.tex)
 - [Figures, editable PowerPoint sources, and build instructions](paper/pvis2027/README.md)
 
-The paper directory retains only the latest manuscript, its supplement, and the two current figures with editable sources. Figure 1 uses the latest Storms panel-style deck; Figure 2 is the compact cross-frame correspondence diagram. Earlier manuscript and figure versions remain in Git history. Experiments, Discussion, and Conclusion currently retain placeholder headings.
+The paper directory retains only the latest manuscript, its supplement, and the two current figures with editable sources. Figure 1 shows the central Storms sequence through five snapshots, scalar profiles, rotated strips, and the selected temporal-map region; Figure 2 is the compact cross-frame correspondence diagram. Earlier manuscript and figure versions remain in Git history. Experiments, Discussion, and Conclusion currently retain placeholder headings.
 
 ## Research materials
 
