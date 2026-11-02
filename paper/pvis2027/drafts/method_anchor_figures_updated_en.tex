@@ -43,7 +43,7 @@
 \includegraphics[width=\linewidth]{../figures/anchor_storms_overview.pdf}
 \par
 \refstepcounter{figure}\label{fig:storms_overview}
-{\captionfonts\raggedright\noindent\figurename~\thefigure: Storms example linking spatial feature supports to a temporal map. (a) Full sequence of 744 time steps and selected window. (b) Matched supports of features $A$ and $B$ at five time steps. (c) Reference and mapped positions for $\varepsilon\in\{0,1,2,3,5\}\%$. (d) Corresponding displayed hierarchies at $t=236$.\par}
+{\captionfonts\raggedright\noindent\figurename~\thefigure: Storms example linking spatial feature supports to a temporal map. Blue and orange denote matched features $A$ and $B$. (a) Full sequence of 744 time steps and selected window. (b) Five snapshots: outlined sample-centered dual cells represent the extremum and regular vertices on its own leaf arc; adjacent strips show the zero-budget layout. (c) Solid curves show mapped positions $x$ and dashed curves show spatial references $q$ for $\varepsilon\in\{0,1,2,3,5\}\%$. (d) Displayed hierarchies at $t=236$, annotated with the measured normalized continuous merge errors $\delta^*/\Delta_F$; vertical levels denote structural depth, not pressure.\par}
 
 }
 \begin{document}
@@ -118,7 +118,7 @@ Hungarian assignment maximizes total intersection count over one-to-one pairs, d
 
 \begin{figure}[tbp]
 \centering
-\includegraphics[width=0.75\linewidth]{../figures/anchor_leaf_correspondence.pdf}
+\includegraphics[width=\linewidth]{../figures/anchor_leaf_correspondence.pdf}
 \caption{Overlap-based leaf correspondence on a shared grid. Colored regions represent leaf-arc supports; hatching marks samples shared with the previous frame. Maximum-overlap one-to-one assignment continues $A$ and $B$, leaves $C_t$ unmatched, and assigns a new identity to $D_{t+1}$. Birth and death denote matching states, not identified physical events.}
 \label{fig:leaf_correspondence}
 \end{figure}
