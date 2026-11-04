@@ -8,26 +8,26 @@ def main():
  def cell(ds,method,k):
   x=float(find(ds,method)[k]);values=sorted({round(float(z[k]),4) for z in data if z['Dataset']==ds},reverse=k=='TW');rank=values.index(round(x,4))+1;s=f'{x:.4f}'
   return '$'+(r'\mathbf{'+s+'}' if rank==1 else r'\underline{'+s+'}' if rank==2 else s)+'$'
- tex=[r'\begin{table*}[t]',r'\centering',r'\caption{Four-dataset quantitative comparison. TMTM and ST-MTM (Temporal mode) SNS/TW are reported values from ST-MTM Table~1; AnchorMTM values and all NPE values are locally measured. Bold/underline mark the best/second distinct displayed value within each dataset, including ties. This numerical comparison does not establish identical author inputs or evaluation coverage.}',r'\label{tab:quantitative-final}',r'\small',r'\setlength{\tabcolsep}{4pt}',r'\resizebox{\textwidth}{!}{%',r'\begin{tabular}{lrrrrrrlrrr}',r'\toprule',r'\multirow{2}{*}{Dataset} & \multicolumn{3}{c}{TMTM} & \multicolumn{3}{c}{ST-MTM} & \multicolumn{4}{c}{AnchorMTM (our method)} \\',r'\cmidrule(lr){2-4}\cmidrule(lr){5-7}\cmidrule(lr){8-11}',r' & SNS$\downarrow$ & TW$\uparrow$ & NPE$\downarrow$ & SNS$\downarrow$ & TW$\uparrow$ & NPE$\downarrow$ & Mode & SNS$\downarrow$ & TW$\uparrow$ & NPE$\downarrow$ \\',r'\midrule']
+ tex=[r'\begin{table*}[t]',r'\centering',r'\caption{Four-dataset quantitative comparison. TMTM and ST-MTM (Temporal mode) SNS/TW are reported values from ST-MTM Table~1; AnchorMTM values and all NPE values are locally measured. Bold/underline mark the best/second distinct displayed value within each dataset, including ties. This numerical comparison does not establish identical author inputs or evaluation coverage.}',r'\label{tab:quantitative-final}',r'\footnotesize',r'\setlength{\tabcolsep}{3pt}',r'\begin{tabular}{lrrrrrrlrrr}',r'\toprule',r'\multirow{2}{*}{Dataset} & \multicolumn{3}{c}{TMTM} & \multicolumn{3}{c}{ST-MTM} & \multicolumn{4}{c}{AnchorMTM (our method)} \\',r'\cmidrule(lr){2-4}\cmidrule(lr){5-7}\cmidrule(lr){8-11}',r' & SNS$\downarrow$ & TW$\uparrow$ & NPE$\downarrow$ & SNS$\downarrow$ & TW$\uparrow$ & NPE$\downarrow$ & Mode & SNS$\downarrow$ & TW$\uparrow$ & NPE$\downarrow$ \\',r'\midrule']
  audit=[]
  for ds in DS:
   for i,mode in enumerate(['Exact','Balanced']):
    leading=[r'\multirow{2}{*}{'+ds+'}']+[r'\multirow{2}{*}{'+cell(ds,method,k)+'}' for method in ['TMTM','ST-MTM Temporal'] for k in M] if i==0 else ['']*7
    tex.append(' & '.join(leading+[mode]+[cell(ds,'AnchorMTM '+mode,k) for k in M])+r' \\')
-  tex.append(r'\addlinespace[2pt]')
+  tex.append(r'\addlinespace[1pt]')
   for method in ['TMTM','ST-MTM Temporal','AnchorMTM Exact','AnchorMTM Balanced']:
    for k in M:audit.append(dict(Dataset=ds,Method=method,Metric=k,value=float(find(ds,method)[k]),latex=cell(ds,method,k)))
- tex +=[r'\bottomrule',r'\end{tabular}',r'}',r'\vspace{3pt}',r'\begin{minipage}{\textwidth}\footnotesize Mode applies to AnchorMTM; baseline entries are shared by both rows. TW uses $k=1,3,5,3$ for Gaussian, Ring, Wildfires and Storms. AnchorMTM TW coverage is respectively 64/64, 1/40, 4/32 and 11/744 in both modes; author coverage is unspecified. Ineligible frames are omitted. Published TW values have only two decimal places, so apparent small differences are not evidence of superiority.\end{minipage}',r'\end{table*}']
+ tex +=[r'\bottomrule',r'\end{tabular}',r'\vspace{2pt}',r'\begin{minipage}{\textwidth}\footnotesize Mode applies to AnchorMTM; baseline entries are shared by both rows. TW uses $k=1,3,5,3$ for Gaussian, Ring, Wildfires and Storms. AnchorMTM TW coverage is respectively 64/64, 1/40, 4/32 and 11/744 in both modes; author coverage is unspecified. Ineligible frames are omitted. Published TW values have only two decimal places, so apparent small differences are not evidence of superiority.\end{minipage}',r'\end{table*}']
  (O/'table1_comparison.tex').write_text('\n'.join(tex)+'\n')
- tex=[r'\begin{table}[t]',r'\centering',r'\caption{Balanced-mode parameters and runtime (seconds) on Apple M4; one measured run per dataset.}',r'\label{tab:anchor-parameters-final}',r'\footnotesize',r'\setlength{\tabcolsep}{3pt}',r'\resizebox{\columnwidth}{!}{%',r'\begin{tabular}{lrrrrr}',r'\toprule',r'Dataset & $\varepsilon$ & $L$ & $s_w$ & $t_{opt}$ & $t_{total}$ \\',r'\midrule']
+ tex=[r'\begin{table}[t]',r'\centering',r'\caption{Balanced-mode parameters and runtime (seconds) on Apple M4; one measured run per dataset.}',r'\label{tab:anchor-parameters-final}',r'\footnotesize',r'\setlength{\tabcolsep}{2.5pt}',r'\begin{tabular}{lrrrrr}',r'\toprule',r'Dataset & $\varepsilon$ & $L$ & $s_w$ & $t_{opt}$ & $t_{total}$ \\',r'\midrule']
  topology=rows('topology_validation.csv')
  for ds in DS:
   p=next(x for x in params if x['Dataset']==ds)
   for mode in ['Balanced']:
    t=next(x for x in runtime if x['Dataset']==ds and x['Method']=='AnchorMTM '+mode);v=next(x for x in topology if x['Dataset']==ds and x['Method']=='AnchorMTM '+mode)
    tex.append(f"{ds} & {100*float(t['epsilon']):g}\\% & {p['L_pixels']} & {float(p['width_scale']):.5f} & {float(t['t_opt']):.3f} & {float(t['t_total']):.3f}"+r' \\')
-  tex.append(r'\addlinespace[2pt]')
- tex +=[r'\bottomrule',r'\end{tabular}',r'}',r'\vspace{3pt}',r'\begin{minipage}{\columnwidth}\footnotesize Weights $(4,1,0.5,0.1)$ and $\rho=0.5$ are fixed. $s_w$ is width per support measure; $L$ is raster length. Optimization covers ordering/placement; total includes the full pipeline.\end{minipage}',r'\end{table}']
+  tex.append(r'\addlinespace[1pt]')
+ tex +=[r'\bottomrule',r'\end{tabular}',r'\vspace{2pt}',r'\begin{minipage}{\columnwidth}\footnotesize Weights $(4,1,0.5,0.1)$ and $\rho=0.5$ are fixed. $s_w$ is width per support measure; $L$ is raster length. Optimization covers ordering/placement; total includes the full pipeline.\end{minipage}',r'\end{table}']
  (O/'table2_parameters_runtime.tex').write_text('\n'.join(tex)+'\n')
  with (O/'ranking_audit.csv').open('w',newline='') as f:w=csv.DictWriter(f,fieldnames=list(audit[0]));w.writeheader();w.writerows(audit)
  source=P/'drafts/method_anchor_figures_updated_en.tex';s=source.read_text();a=s.index(r'\section{Experiments}');b=s.index(r'\section{Discussion and Limitations}',a)

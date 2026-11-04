@@ -2,9 +2,8 @@
 \centering
 \caption{Four-dataset quantitative comparison. TMTM and ST-MTM (Temporal mode) SNS/TW are reported values from ST-MTM Table~1; AnchorMTM values and all NPE values are locally measured. Bold/underline mark the best/second distinct displayed value within each dataset, including ties. This numerical comparison does not establish identical author inputs or evaluation coverage.}
 \label{tab:quantitative-final}
-\small
-\setlength{\tabcolsep}{4pt}
-\resizebox{\textwidth}{!}{%
+\footnotesize
+\setlength{\tabcolsep}{3pt}
 \begin{tabular}{lrrrrrrlrrr}
 \toprule
 \multirow{2}{*}{Dataset} & \multicolumn{3}{c}{TMTM} & \multicolumn{3}{c}{ST-MTM} & \multicolumn{4}{c}{AnchorMTM (our method)} \\
@@ -13,19 +12,18 @@
 \midrule
 \multirow{2}{*}{Gaussian} & \multirow{2}{*}{$0.2500$} & \multirow{2}{*}{$0.7700$} & \multirow{2}{*}{$\underline{0.1118}$} & \multirow{2}{*}{$\underline{0.0600}$} & \multirow{2}{*}{$\mathbf{1.0000}$} & \multirow{2}{*}{$0.1154$} & Exact & $\mathbf{0.0353}$ & $\underline{0.9323}$ & $\mathbf{0.0089}$ \\
  &  &  &  &  &  &  & Balanced & $\mathbf{0.0353}$ & $\underline{0.9323}$ & $\mathbf{0.0089}$ \\
-\addlinespace[2pt]
+\addlinespace[1pt]
 \multirow{2}{*}{Ring} & \multirow{2}{*}{$0.2800$} & \multirow{2}{*}{$0.6800$} & \multirow{2}{*}{$0.1756$} & \multirow{2}{*}{$0.2100$} & \multirow{2}{*}{$\mathbf{0.8800}$} & \multirow{2}{*}{$0.2463$} & Exact & $\underline{0.1485}$ & $\underline{0.8571}$ & $\underline{0.0471}$ \\
  &  &  &  &  &  &  & Balanced & $\mathbf{0.1334}$ & $\underline{0.8571}$ & $\mathbf{0.0395}$ \\
-\addlinespace[2pt]
+\addlinespace[1pt]
 \multirow{2}{*}{Wildfires} & \multirow{2}{*}{$0.4400$} & \multirow{2}{*}{$0.8800$} & \multirow{2}{*}{$0.2280$} & \multirow{2}{*}{$0.2400$} & \multirow{2}{*}{$\underline{0.9100}$} & \multirow{2}{*}{$0.3180$} & Exact & $\mathbf{0.0426}$ & $\mathbf{0.9136}$ & $\underline{0.0131}$ \\
  &  &  &  &  &  &  & Balanced & $\underline{0.0447}$ & $0.8989$ & $\mathbf{0.0116}$ \\
-\addlinespace[2pt]
+\addlinespace[1pt]
 \multirow{2}{*}{Storms} & \multirow{2}{*}{$0.3400$} & \multirow{2}{*}{$0.7100$} & \multirow{2}{*}{$0.5753$} & \multirow{2}{*}{$0.2100$} & \multirow{2}{*}{$\mathbf{0.9400}$} & \multirow{2}{*}{$0.4579$} & Exact & $\underline{0.0790}$ & $0.8463$ & $\underline{0.0399}$ \\
  &  &  &  &  &  &  & Balanced & $\mathbf{0.0743}$ & $\underline{0.8766}$ & $\mathbf{0.0140}$ \\
-\addlinespace[2pt]
+\addlinespace[1pt]
 \bottomrule
 \end{tabular}
-}
-\vspace{3pt}
+\vspace{2pt}
 \begin{minipage}{\textwidth}\footnotesize Mode applies to AnchorMTM; baseline entries are shared by both rows. TW uses $k=1,3,5,3$ for Gaussian, Ring, Wildfires and Storms. AnchorMTM TW coverage is respectively 64/64, 1/40, 4/32 and 11/744 in both modes; author coverage is unspecified. Ineligible frames are omitted. Published TW values have only two decimal places, so apparent small differences are not evidence of superiority.\end{minipage}
 \end{table*}
