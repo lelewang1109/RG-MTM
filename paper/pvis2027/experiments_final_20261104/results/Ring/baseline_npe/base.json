@@ -1,0 +1,10 @@
+{
+  "Dataset": "Ring",
+  "Method": "ST-MTM Base",
+  "NPE": 0.2369895932331457,
+  "success": true,
+  "frames": 40,
+  "one_global_reflection": false,
+  "collapsed_anchor_frames": 0,
+  "note": "local NPE only; published SNS/TW/TD are NOT recalculated"
+}

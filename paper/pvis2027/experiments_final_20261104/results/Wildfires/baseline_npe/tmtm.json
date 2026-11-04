@@ -1,0 +1,10 @@
+{
+  "Dataset": "Wildfires",
+  "Method": "TMTM",
+  "NPE": 0.617911774918859,
+  "success": true,
+  "frames": 32,
+  "one_global_reflection": false,
+  "collapsed_anchor_frames": 0,
+  "note": "local NPE only; published SNS/TW/TD are NOT recalculated"
+}

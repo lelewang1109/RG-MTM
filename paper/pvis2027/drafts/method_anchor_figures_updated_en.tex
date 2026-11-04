@@ -8,6 +8,7 @@
 \usepackage{cite}
 \usepackage{amsmath,amssymb,amsthm}
 \usepackage{flafter}
+\usepackage{booktabs,multirow,colortbl}
 \usepackage[ruled,vlined]{algorithm2e}
 \SetKwInput{KwData}{Data}
 \SetKwInput{KwResult}{Result}
@@ -43,7 +44,7 @@
 \includegraphics[width=\linewidth]{../figures/anchor_storms_overview.pdf}
 \par
 \refstepcounter{figure}\label{fig:storms_overview}
-{\captionfonts\raggedright\noindent\figurename~\thefigure: Storms example linking spatial feature supports to a temporal map ($\varepsilon=5\%$). Top: five snapshots of one matched extremum and their scalar profiles; blue outlines mark its leaf-arc supports, and dashed guides link the extrema to their displayed profile anchors. Middle: the profiles rotated by $90^\circ$; dashed borders distinguish sampled intermediate frames. Bottom: the full 744-frame map, with the selected storm-related region outlined and the matched feature's displayed positions marked in blue.\par}
+{\captionfonts\raggedright\noindent\figurename~\thefigure: Qualitative Storms archive linking spatial feature supports to a temporal map ($\varepsilon=5\%$; separate preprocessing from Table~\ref{tab:quantitative-final}). Top: five snapshots of one matched extremum and their scalar profiles; blue outlines mark its leaf-arc supports, and dashed guides link the extrema to their displayed profile anchors. Middle: the profiles rotated by $90^\circ$; dashed borders distinguish sampled intermediate frames. Bottom: the full 744-frame map, with the selected storm-related region outlined and the matched feature's displayed positions marked in blue.\par}
 
 }
 \begin{document}
@@ -140,6 +141,15 @@ For the selected direction, the minimum and span of the projected domain boundin
 Direction, origin and scale remain fixed across frames and all budgets for the same prepared sequence. Implementation arrays store raw projections on $[o,o+L]$; translating both references and layout coordinates by $-o$ gives the paper convention. The origin is subtracted once, not again by the solver. Distinct extrema can share projected coordinates while retaining separate identities. Anchoring minimizes constrained deviation rather than requiring $x_i^t=q_i^t$.
 
 Relative geometry uses distances $d_{ij}^t$ between leaf-support centroids. These differ from extremum references because a changing support can move its centroid while the extremum stays fixed. The automatic-reference adapter supplies extrema explicitly; the low-level solver also accepts precomputed references and otherwise defaults to centroid projection. Widths $W_i^t=s\,m_i^t$ convert positive support measures with a fixed scale $s$, without per-frame normalization.
+
+Figure~\ref{fig:projection_conflict} contrasts the spatial target order with a tree-consistent order. In this four-minimum example, the projected order $A,C,B,D$ interleaves the strict subtrees $\{A,B\}$ and $\{C,D\}$, so exact topology cannot realize all four targets without displacement.
+
+\begin{figure}[tbp]
+\centering
+\includegraphics[width=\linewidth]{../figures/anchor_projection_conflict.pdf}
+\caption{Spatial reference and hierarchy--position conflict in a synthetic four-minimum field. (a) Only extrema $A$--$D$ project onto a fixed direction. Colored sample-centered cells indicate their leaf-arc supports; gray cells belong to internal arcs or critical samples. (b) The augmented merge tree of the same grid; diamonds mark critical vertices and circles mark regular samples. Only leaf extrema map to an illustrative tree-consistent axis. (c) The spatial order interleaves the two sibling subtrees. Short bars indicate feature widths schematically; tree spacing and mapped positions are illustrative, not scalar heights or optimized results.}
+\label{fig:projection_conflict}
+\end{figure}
 
 With correspondence and the reference fixed, a frame comprises a leaf order, extremum anchors, and a scalar profile:
 \begin{equation}\label{eq:mapframe}
@@ -333,19 +343,58 @@ The allowance concerns the displayed hierarchy; the source field and feature ide
 
 \section{Experiments}\label{sec:experiments}
 \subsection{Experimental Setup}
-% TODO: Document shared inputs, units, parameters, methods and verification protocol.
+We use Gaussian ($128\times128$, 64 frames), Ring ($14\times14$, 40), Wildfires ($64\times64$, 32), and Storms ($281\times181$, 744), following the dimensions and raster lengths in ST-MTM~\cite{STMTM:2026}. Shared rasters have 4096 positions except Ring, which retains 196. Our Gaussian is an explicit three-peak reconstruction; Wildfires integrates the available 10-km daily FRP into 32 equal-duration bins over November--December 2019, without adaptive smoothing or feature-count filtering. Ring uses the archived author generator. Storms uses native ERA5 anomalies with a fixed 192-hour moving mean and fixed spatial smoothing. Exact author-processed arrays are unavailable; these are labelled reconstructions, not verified author inputs. The qualitative teaser uses a separately frozen Storms preprocessing and is not the quantitative input.
+
+The printed persistence settings $(0.001,0.001,0.15,0.105)$ are interpreted as percentages of each preprocessed frame's range, adopting the explicit TMTM convention~\cite{Koepp:2023:TMTM}; ST-MTM's unit is not independently confirmed. No outcome-dependent pruning or smoothing is used. All local methods share simplified fields, leaf labels, overlap tracks, extremum references, one direction, origin and projected span $L$. Baselines receive the published dataset-specific $W,K,r,\lambda$, raster length and starting frame; these are not transferred to AnchorMTM. Remaining numerical assumptions and reconstruction parameters are archived.
+
+We retain four metrics. SNS is the scale-fitted squared distance stress of support centroids~\cite{Smelser:2025:Scale,STMTM:2026}, averaged over frames with a nonzero source-distance denominator. TW is standard trustworthiness~\cite{Venna:2001:NP}, with $k=(1,3,5,3)$ and valid only when $0<k<n_t/2$; invalid frames are missing, never zero. Our task-specific absolute position error is
+\begin{equation}\label{eq:experimental-npe}
+ \mathrm{NPE}=\frac{1}{T}\sum_t\frac{\max_i|x_i^t-q_i^t|}{L}.
+\end{equation}
+Local temporal displacement is the complete-canvas-normalized sum
+\begin{equation}\label{eq:experimental-td}
+ \mathrm{TD}_{\rm local}=\sum_{t=1}^{T-1}\sum_{i:\mu_t(i)\ \mathrm{exists}}
+ \frac{|x_i^t-x_{\mu_t(i)}^{t-1}|}{L}.
+\end{equation}
+It measures display stability, not physical motion accuracy. We do not multiply by 100 or average this quantity over time.
+
+Published TMTM and ST-MTM SNS/TW/TD are transcribed directly from ST-MTM Table~1~\cite{STMTM:2026}; only their NPE is recomputed locally. Their reported TD units and low-feature-count TW handling remain insufficiently specified. Local normalized TD is nevertheless shown directly in the main table and identified by its unit; it is not cross-ranked with published TD. SNS/TW numerical rankings include the five displayed methods per dataset, but are descriptive summaries across potentially different processed inputs. NPE uses the shared local inputs and a fixed pixel-to-reference-domain conversion; one global orientation reflection is allowed by a predefined rule, with no frame-wise alignment.
+
+AnchorMTM Exact uses $\varepsilon=0$ with no numerical topology allowance. Balanced always reserves a positive budget, selected independently per dataset over 1--10\% at 1\% increments using the first chronological quarter. Legal candidates must satisfy attained NMLEmax $\le\varepsilon$. Validation NPE and SNS are separately min--max normalized over those candidates; a constant component has no discriminating score. We fix
+\begin{equation}\label{eq:balanced-validation-score}
+ J(\varepsilon)=0.5\,\mathrm{NPE}_{\rm norm}(\varepsilon)+0.5\,\mathrm{SNS}_{\rm norm}(\varepsilon).
+\end{equation}
+Among candidates within 0.01 of the minimum $J$, we prefer a smaller budget, then lower attained topology cost. There is no minimum NPE-gain condition and no zero-budget Balanced fallback. The selected positive budget is frozen before the final Balanced run. Suffix NPE is archived separately; full-sequence statistics include validation, and historical full-sequence outputs were previously observed, so this is not presented as a new blind test. The reference remains the complete-sequence offline input. QP weights and all other AnchorMTM rules remain fixed (Table~\ref{tab:anchor-parameters-final}).
+
 \subsection{Quantitative Comparison}
-% TODO: Add verified position, geometry, motion and topology measurements.
+Table~\ref{tab:quantitative-final} distinguishes verbatim published scores from local measurements. Bold and underlined SNS, TW and NPE identify the dataset-wide best and second displayed values, automatically computed over all five methods with ties. SNS/TW rankings summarize reported numbers and do not establish a strictly matched-input comparison. Actual full-canvas-normalized TD is shown in the main cells, but remains unranked across sources until the published unit is confirmed. Each AnchorMTM group adds one Time column, showing optimization above total seconds.
+
+\input{../experiments_final_20261104/tables/quantitative_comparison.tex}
+\input{../experiments_final_20261104/tables/anchor_parameter_settings.tex}
+
+All eight AnchorMTM maps and twelve baseline NPE runs complete. The selected Balanced budgets are 1\%, 1\%, 4\%, and 10\% for Gaussian, Ring, Wildfires, and Storms. Gaussian's positive reserved budget attains zero topology error and produces the same complete output as Exact; we retain that row without claiming additional gain. The other three reduce local NPE and cumulative TD, while Wildfires incurs higher SNS and lower TW. This is an observed position--geometry trade-off, not uniform dominance. Ring's local TW uses only one eligible frame out of 40, explicitly shown. Local NPE is lower for AnchorMTM than the baseline reproductions, but reconstructed inputs, unspecified author coordinate units and numerical adapters limit claims about original implementations.
+
 \subsection{Certified Bounds and Position--Topology Trade-off}
 % TODO: Compare measured errors with certificates and distinguish budget from attained error.
 \subsection{Qualitative Case Studies}
 % TODO: Add evidence-backed application analysis when authorized.
 \subsection{Ablation Study and Performance}
-% TODO: Add verified component ablations and runtime protocol.
+We vary only the topology allowance for validation; this is parameter sensitivity, not a component ablation or evidence of each QP term's independent contribution. All 40 positive-budget validation candidates, normalized score components, $J$, attained errors and legality checks are retained. No suffix metric is used to revise a selected budget. A positive reserved budget can be unused, and identical outputs are reported rather than perturbed to manufacture a difference.
+
+Ring initially fails under independent nearest rounding at its original 196-position raster. A checked numerical adapter jointly rounds the same continuous intervals and anchors to the closest legal integer skeleton, preserving an interior barrier pixel. It first retains nearest-rounded anchors where feasible; otherwise it minimizes maximum coordinate rounding error, then total absolute rounding error. It does not optimize benchmark scores, change the continuous order/widths, increase raster length, or relax topology. The largest correction is about 1.19 pixels. Every final fixed-leaf-label merge matrix (including diagonal), extremum value, anchor count, profile minimum count and budget is checked independently. This is not a certificate for every finite augmented-root extension.
+
+Baseline NPE uses the existing CompactTMTM multiway extension and the disclosed ST-MTM equal-level binary adapter. ST-MTM interval allocation is solved as the same convex Eq.(2), with independent KKT checks; Eq.(1) failures use the unchanged weighted convex QP as a numerical fallback. Certificates retain raw feasibility and scaled-objective stationarity residuals (each below $10^{-7}$), and an explicitly scale-aware complementarity bound. These numerical checks do not relax AnchorMTM topology. The local TMTM reproduction has coincident leaf pixels in 15/744 Storms frames; these frames remain in NPE. No published SNS/TW/TD is recomputed, and these NPE runs are not author binaries or full reproduction certificates.
+
+\input{../experiments_final_20261104/tables/anchor_runtime.tex}
+
+Table~\ref{tab:anchor-runtime-final} reports one measured run per configuration on Apple M4, with single-threaded BLAS and native TTK and sequential extraction; HiGHS keeps its default internal scheduler. Optimization time includes order search and continuous placement. Total time rebuilds source/preprocessing, trees, matching/reference and the final map, including intrinsic checks and integer rounding, without cached intermediates. Balanced is rerun after the new positive-budget selection; unchanged Exact endpoint measurements are retained. Validation and OS page caches may be warm; metric export and process import are excluded. Identical final maps do not imply equal search times. We make no cross-hardware speed claim.
+
 \section{Discussion and Limitations}
 % TODO: Discuss projection loss, candidate coverage, raster effects and readability validation.
 \section{Conclusion}
 % TODO: Complete after experiments without assuming empirical findings.
+% Flush every pending figure/table before the final bibliography.
+\clearpage
 \begingroup
 \interlinepenalty=10000
 \bibliographystyle{abbrv-doi-narrow}

@@ -11,9 +11,63 @@ import numpy as np
 from .error_budget import Parameters, InfeasibleLayout, solve_frame
 from .framework import cost_table
 
+DEFAULT_EPSILON0 = 1e-7
+
+
+def solve_budgeted_frame(centers, measure, hierarchy, reference, merge_values,
+                         scalar_range, epsilon, p=Parameters(), *, epsilon0=DEFAULT_EPSILON0,
+                         candidate_orders, previous=None, previous_q=None, matched=None):
+    """AnchorMTM: lexicographic order selection, then one fixed-order QP.
+
+    epsilon and epsilon0 are fractions of the sequence scalar range. All
+    geometric/QP configuration comes from p; no Controls override is applied.
+    """
+    if not np.isfinite([scalar_range, epsilon, epsilon0]).all() or scalar_range <= 0 or min(epsilon, epsilon0) < 0:
+        raise ValueError('positive scalar range and finite nonnegative budgets required')
+    if p.reference_budget is not None:
+        raise ValueError('AnchorMTM derives its position cap from tau + extra_budget')
+    if p.temporal_mode != 'residual' or p.motion_fraction not in (None, 1.):
+        raise ValueError('AnchorMTM uses reference-aligned motion (fraction=1)')
+    eta = (epsilon0 + epsilon) * scalar_range
+    q = np.asarray(reference, float)
+    table = cost_table(p.width_scale*np.asarray(measure), q, merge_values, p,
+                       candidate_orders=candidate_orders)
+    feasible = np.flatnonzero(table['delta'] <= eta)
+    if not len(feasible):
+        raise InfeasibleLayout('no candidate meets the declared topology budget')
+    nroe = np.array([max([0.] + [q[o[i]]-q[o[j]] for i in range(len(o))
+                    for j in range(i+1,len(o))])/(2*p.canvas) for o in table['orders']])
+    k = min(feasible, key=lambda i: (table['tau'][i], nroe[i], tuple(table['orders'][i])))
+    order = table['orders'][k]
+    tau, delta = float(table['tau'][k]), float(table['delta'][k])
+    cap = tau + p.extra_budget
+    fixed = replace(p, reference_budget=cap, motion_fraction=1., compact_tiebreak=True)
+    row = solve_frame(centers, measure, hierarchy, previous, previous_q, fixed, matched,
+                       reference=q, candidate_orders=[order])
+    if tuple(row['order']) != tuple(order):
+        raise RuntimeError('fixed-order placement changed the selected order')
+    V = np.asarray(merge_values, float)
+    barriers = np.array([min(V[order[i], order[j]] for i in range(g+1)
+                         for j in range(g+1,len(order))) + delta for g in range(len(order)-1)])
+    row.update(epsilon=float(epsilon), epsilon0=float(epsilon0), eta=float(eta),
+        tau=tau, delta=delta, continuous_NMLE=delta/scalar_range, barriers=barriers, nroe=float(nroe[k]),
+        position_cap=cap, position_error=float(np.max(abs(row['x']-q))/p.canvas),
+        continuous_budget_ok=bool(delta <= eta),
+        candidate_count=len(table['orders']), feasible_candidate_count=len(feasible),
+        candidate_records=[dict(order=o.tolist(), tau=float(t), delta=float(d), nroe=float(n),
+            feasible=bool(d<=eta)) for o,t,d,n in zip(table['orders'],table['tau'],table['delta'],nroe)],
+        terms=objective_terms(row['x'], row['z'], centers, q, fixed, previous, previous_q, matched))
+    if np.max(abs(row['x']-q)) > cap + 1e-6:
+        raise RuntimeError('fixed-order QP violated tau + beta0')
+    return row
+
 
 @dataclass(frozen=True)
 class Controls:
+    """Legacy multi-order regime controls, not the default AnchorMTM API.
+
+    topology_budget is the total normalized allowance; it does not add eps0.
+    """
     topology_budget: float = 0.0       # fraction of one fixed scalar range
     position_budget: float = np.inf   # fraction of one fixed canvas
     reference_weight: float = 4.0

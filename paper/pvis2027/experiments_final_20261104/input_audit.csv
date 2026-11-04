@@ -1,0 +1,5 @@
+Dataset,nx,ny,T,p_number,p_percent,p_fraction,L,TW_k,features_min,features_max,author_input_identical_confirmed,protocol
+Gaussian,128,128,64,0.001,0.001,1e-05,4096,1,3,3,False,explicit3-Gaussian reconstruction; previous local ridge omitted because it produced33 extrema. NOT author field
+Ring,14,14,40,0.001,0.001,1e-05,196,3,1,7,False,archived first-paper author generator; second-paper processed array not confirmed
+Wildfires,64,64,32,0.15,0.15,0.0015,4096,5,16,41,False,author-derived10km dailyFRP aggregated into32 equal-duration bins over Nov1-Jan1; fixed square64x64 spatial bins; NOT author32-frame array
+Storms,281,181,744,0.105,0.105,0.00105,4096,3,9,40,False,"native ERA5; 192h moving-mean anomaly, spatialGaussian sigma2 radius5 reflect; NOT confirmed author processed array"

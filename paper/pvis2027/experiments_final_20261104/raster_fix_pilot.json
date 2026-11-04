@@ -1,0 +1,23 @@
+{
+  "success": true,
+  "failures": [],
+  "summary": {
+    "success": true,
+    "SNS": 0.14847254170724555,
+    "TW": 0.8571428571428572,
+    "TD": 3.9641025641025656,
+    "NPE": 0.04712036157053711,
+    "SNS_valid_frames": 32,
+    "TW_valid_frames": 1,
+    "TW_k": 3,
+    "frames": 40,
+    "matched_steps": 143,
+    "topology_mean": 0.0,
+    "topology_max": 0.0,
+    "continuous_budget_violations": 0,
+    "rendered_budget_violations": 0,
+    "collapsed_anchor_frames": 0
+  },
+  "repair_frame_count": 26,
+  "max_rounding_error_pixels": 1.1905778943405494
+}

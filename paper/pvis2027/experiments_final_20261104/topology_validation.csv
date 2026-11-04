@@ -1,0 +1,9 @@
+Dataset,Method,epsilon,success,frames,actual_topology_mean,actual_topology_max,continuous_budget_violations,rendered_budget_violations,collapsed_anchor_frames,repaired_raster_frames,max_joint_rounding_error_pixels,scope
+Gaussian,AnchorMTM Exact,0.0,True,64,0.0,0.0,0,0,0,0,0.0,full fixed leaf-label merge matrix incl diagonal; no full augmented-root-height certificate
+Gaussian,AnchorMTM Balanced,0.01,True,64,0.0,0.0,0,0,0,0,0.0,full fixed leaf-label merge matrix incl diagonal; no full augmented-root-height certificate
+Ring,AnchorMTM Exact,0.0,True,40,0.0,0.0,0,0,0,26,1.1905778943405494,full fixed leaf-label merge matrix incl diagonal; no full augmented-root-height certificate
+Ring,AnchorMTM Balanced,0.01,True,40,0.0008150507716581648,0.009819898993608195,0,0,0,21,1.1905778943405494,full fixed leaf-label merge matrix incl diagonal; no full augmented-root-height certificate
+Wildfires,AnchorMTM Exact,0.0,True,32,0.0,0.0,0,0,0,0,0.0,full fixed leaf-label merge matrix incl diagonal; no full augmented-root-height certificate
+Wildfires,AnchorMTM Balanced,0.04,True,32,0.0111669922316528,0.03014110870235318,0,0,0,0,0.0,full fixed leaf-label merge matrix incl diagonal; no full augmented-root-height certificate
+Storms,AnchorMTM Exact,0.0,True,744,0.0,0.0,0,0,0,0,0.0,full fixed leaf-label merge matrix incl diagonal; no full augmented-root-height certificate
+Storms,AnchorMTM Balanced,0.1,True,744,0.04637425222982913,0.09992953816093217,0,0,0,0,0.0,full fixed leaf-label merge matrix incl diagonal; no full augmented-root-height certificate

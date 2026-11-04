@@ -1,0 +1,56 @@
+[
+  {
+    "figure": 1,
+    "title": "Storms overview",
+    "files": {
+      "anchor_storms_overview.pdf": {
+        "bytes": 559152,
+        "sha256": "0d815db71e1d16158501a5f2819253593a87473a15e249b736f550c26f98afe7"
+      },
+      "anchor_storms_overview.png": {
+        "bytes": 379299,
+        "sha256": "adb2b505de13712c2d64ddc01b9765fabb662d598730ddcb95d78af2382fe44c"
+      },
+      "../最新论文与三张PPT/Fig1_Storms.pptx": {
+        "bytes": 314190,
+        "sha256": "14f7f1166a2420042aedf5bc3efa876d8af38b0dd5a59c16af4dc36590e29c1c"
+      }
+    }
+  },
+  {
+    "figure": 2,
+    "title": "Cross-frame leaf correspondence",
+    "files": {
+      "anchor_leaf_correspondence.pdf": {
+        "bytes": 114796,
+        "sha256": "1a82038884025b56f33ec50e3cf431db98c2a45d88d5a6fcad60f7d7dd516f33"
+      },
+      "anchor_leaf_correspondence.png": {
+        "bytes": 234266,
+        "sha256": "21c9da85aa5f1019345645236b725e648e72762ed52f01984761a24ce5f3aa53"
+      },
+      "../最新论文与三张PPT/Fig2_跨帧特征对应.pptx": {
+        "bytes": 276193,
+        "sha256": "24710fed9e7909f9ec5ce99cf76d59894ba780df6c924624178d79faebaccf3b"
+      }
+    }
+  },
+  {
+    "figure": 3,
+    "title": "Spatial projection and hierarchy conflict",
+    "files": {
+      "anchor_projection_conflict.pdf": {
+        "bytes": 41029,
+        "sha256": "8e613e6a4e697a04502729c27fcce927e98c5f37e70d71f8c8dc1b98532d76eb"
+      },
+      "anchor_projection_conflict.png": {
+        "bytes": 258945,
+        "sha256": "e8fef9865b82f8956f5c11ebf3a9d520f7faa0af1ea96a2e0885477451b3a843"
+      },
+      "../最新论文与三张PPT/Fig3_空间映射与拓扑冲突.pptx": {
+        "bytes": 47384,
+        "sha256": "2775ce4a4e2b56a8dc431c9779a8ff6fb30760be970cb124ad3aa8584ea35456"
+      }
+    }
+  }
+]

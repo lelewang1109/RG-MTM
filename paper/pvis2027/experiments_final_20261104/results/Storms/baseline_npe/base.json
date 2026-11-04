@@ -1,0 +1,10 @@
+{
+  "Dataset": "Storms",
+  "Method": "ST-MTM Base",
+  "NPE": 0.538348643763444,
+  "success": true,
+  "frames": 744,
+  "one_global_reflection": false,
+  "collapsed_anchor_frames": 0,
+  "note": "local NPE only; published SNS/TW/TD are NOT recalculated"
+}

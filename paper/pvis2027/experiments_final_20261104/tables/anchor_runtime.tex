@@ -1,0 +1,20 @@
+\begin{table}[t]
+\centering
+\caption{AnchorMTM wall times in seconds on Apple M4. One measured run per configuration; BLAS and native TTK use one thread, extraction one worker (HiGHS uses its default scheduler). $t_{\rm total}$ includes fresh source processing, extraction, matching/reference, optimization, reconstruction and intrinsic checks; metric export is excluded. No cached field or tree replaces a timed stage.}
+\label{tab:anchor-runtime-final}
+\small
+\begin{tabular}{llrr}
+\toprule
+Dataset & Mode & $t_{\rm opt}$ & $t_{\rm total}$ \\
+\midrule
+Gaussian & Exact & 0.308 & 2.337 \\
+Gaussian & Balanced & 0.317 & 2.312 \\
+Ring & Exact & 0.264 & 0.939 \\
+Ring & Balanced & 0.272 & 0.894 \\
+Wildfires & Exact & 37.439 & 40.687 \\
+Wildfires & Balanced & 51.990 & 55.079 \\
+Storms & Exact & 72.114 & 169.078 \\
+Storms & Balanced & 163.981 & 264.329 \\
+\bottomrule
+\end{tabular}
+\end{table}

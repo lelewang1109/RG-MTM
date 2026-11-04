@@ -1,0 +1,21 @@
+Dataset,Method,Metric,Reason
+Gaussian,TMTM,TD,Published units unconfirmed versus local full-canvas normalization; no cross-unit ranking
+Gaussian,ST-MTM Base,TD,Published units unconfirmed versus local full-canvas normalization; no cross-unit ranking
+Gaussian,ST-MTM Temporal,TD,Published units unconfirmed versus local full-canvas normalization; no cross-unit ranking
+Gaussian,AnchorMTM Exact,TD,Published units unconfirmed versus local full-canvas normalization; no cross-unit ranking
+Gaussian,AnchorMTM Balanced,TD,Published units unconfirmed versus local full-canvas normalization; no cross-unit ranking
+Ring,TMTM,TD,Published units unconfirmed versus local full-canvas normalization; no cross-unit ranking
+Ring,ST-MTM Base,TD,Published units unconfirmed versus local full-canvas normalization; no cross-unit ranking
+Ring,ST-MTM Temporal,TD,Published units unconfirmed versus local full-canvas normalization; no cross-unit ranking
+Ring,AnchorMTM Exact,TD,Published units unconfirmed versus local full-canvas normalization; no cross-unit ranking
+Ring,AnchorMTM Balanced,TD,Published units unconfirmed versus local full-canvas normalization; no cross-unit ranking
+Wildfires,TMTM,TD,Published units unconfirmed versus local full-canvas normalization; no cross-unit ranking
+Wildfires,ST-MTM Base,TD,Published units unconfirmed versus local full-canvas normalization; no cross-unit ranking
+Wildfires,ST-MTM Temporal,TD,Published units unconfirmed versus local full-canvas normalization; no cross-unit ranking
+Wildfires,AnchorMTM Exact,TD,Published units unconfirmed versus local full-canvas normalization; no cross-unit ranking
+Wildfires,AnchorMTM Balanced,TD,Published units unconfirmed versus local full-canvas normalization; no cross-unit ranking
+Storms,TMTM,TD,Published units unconfirmed versus local full-canvas normalization; no cross-unit ranking
+Storms,ST-MTM Base,TD,Published units unconfirmed versus local full-canvas normalization; no cross-unit ranking
+Storms,ST-MTM Temporal,TD,Published units unconfirmed versus local full-canvas normalization; no cross-unit ranking
+Storms,AnchorMTM Exact,TD,Published units unconfirmed versus local full-canvas normalization; no cross-unit ranking
+Storms,AnchorMTM Balanced,TD,Published units unconfirmed versus local full-canvas normalization; no cross-unit ranking

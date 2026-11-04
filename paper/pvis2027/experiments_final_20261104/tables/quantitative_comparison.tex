@@ -1,0 +1,24 @@
+\begin{table*}[t]
+\centering
+\caption{Quantitative comparison. Headers marked p use ST-MTM Table~1 verbatim; n denotes our full-canvas-normalized TD. Bold/underline are the dataset-wide best/second displayed SNS, TW and NPE, including ties. SNS/TW ranking summarizes the reported numbers; reconstructed and author inputs are not verified identical. TD is shown for every method, but is not cross-ranked because published units are unconfirmed. Each Anchor Time cell lists optimization above total seconds; one measured run, no timing rank.}
+\label{tab:quantitative-final}
+\setlength{\tabcolsep}{1.2pt}
+\renewcommand{\arraystretch}{1.15}
+\scriptsize
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lrrrrrrrrrrrrrrrrrrrrrr}
+\toprule
+\multirow{2}{*}{Dataset} & \multicolumn{4}{c}{TMTM} & \multicolumn{4}{c}{ST-MTM Base} & \multicolumn{4}{c}{ST-MTM Temporal} & \multicolumn{5}{c}{AnchorMTM~Exact} & \multicolumn{5}{c}{AnchorMTM~Balanced} \\
+\cmidrule(lr){2-5} \cmidrule(lr){6-9} \cmidrule(lr){10-13} \cmidrule(lr){14-18} \cmidrule(lr){19-23}
+ & SNS$\downarrow^{\rm p}$ & TW$\uparrow^{\rm p}$ & TD$\downarrow^{\rm p}$ & NPE$\downarrow$ & SNS$\downarrow^{\rm p}$ & TW$\uparrow^{\rm p}$ & TD$\downarrow^{\rm p}$ & NPE$\downarrow$ & SNS$\downarrow^{\rm p}$ & TW$\uparrow^{\rm p}$ & TD$\downarrow^{\rm p}$ & NPE$\downarrow$ & SNS$\downarrow$ & TW$\uparrow$ & TD$\downarrow^{\rm n}$ & NPE$\downarrow$ & Time(s) & SNS$\downarrow$ & TW$\uparrow$ & TD$\downarrow^{\rm n}$ & NPE$\downarrow$ & Time(s) \\
+\midrule
+Gaussian & $0.250$ & $0.770$ & $55.56$ & $\underline{0.1138}$ & $\underline{0.060}$ & $\mathbf{1.000}$ & $32.56$ & $0.1155$ & $\underline{0.060}$ & $\mathbf{1.000}$ & $31.87$ & $0.1151$ & $\mathbf{0.035}$ & $\underline{0.932}$ & $0.38$ & $\mathbf{0.0089}$ & \shortstack{0.308\\2.337} & $\mathbf{0.035}$ & $\underline{0.932}$ & $0.38$ & $\mathbf{0.0089}$ & \shortstack{0.317\\2.312} \\
+Ring & $0.280$ & $0.680$ & $12.23$ & $0.1756$ & $0.200$ & $\mathbf{0.920}$ & $48.64$ & $0.2370$ & $0.210$ & $\underline{0.880}$ & $27.92$ & $0.2463$ & $\underline{0.148}$ & $0.857^{1/40}$ & $3.96$ & $\underline{0.0471}$ & \shortstack{0.264\\0.939} & $\mathbf{0.133}$ & $0.857^{1/40}$ & $3.92$ & $\mathbf{0.0395}$ & \shortstack{0.272\\0.894} \\
+Wildfires & $0.440$ & $\underline{0.880}$ & $7487.67$ & $0.6179$ & $0.250$ & $\mathbf{0.910}$ & $7249.03$ & $0.7559$ & $0.240$ & $\mathbf{0.910}$ & $3895.33$ & $0.3300$ & $\mathbf{0.170}$ & $0.835$ & $9.24$ & $\underline{0.0348}$ & \shortstack{37.44\\40.69} & $\underline{0.184}$ & $0.803$ & $6.93$ & $\mathbf{0.0213}$ & \shortstack{51.99\\55.08} \\
+Storms & $0.340$ & $0.710$ & $164.14$ & $0.7789$ & $0.190$ & $\underline{0.890}$ & $85.44$ & $0.5383$ & $0.210$ & $\mathbf{0.940}$ & $36.24$ & $0.5598$ & $\underline{0.176}$ & $0.861$ & $549.42$ & $\underline{0.2274}$ & \shortstack{72.11\\169.08} & $\mathbf{0.112}$ & $0.872$ & $343.43$ & $\mathbf{0.1240}$ & \shortstack{163.98\\264.33} \\
+\midrule
+\multicolumn{23}{p{\dimexpr\textwidth-2.4pt\relax}}{TW superscripts $n/T$ give eligible local frames when coverage is incomplete. TD$^{\rm n}$ is the cumulative matched-anchor displacement divided by the complete fixed canvas span.} \\
+\bottomrule
+\end{tabular}
+}
+\end{table*}

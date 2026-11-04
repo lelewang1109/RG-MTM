@@ -1,0 +1,10 @@
+{
+  "Dataset": "Gaussian",
+  "Method": "TMTM",
+  "NPE": 0.11379445509844162,
+  "success": true,
+  "frames": 64,
+  "one_global_reflection": true,
+  "collapsed_anchor_frames": 0,
+  "note": "local NPE only; published SNS/TW/TD are NOT recalculated"
+}

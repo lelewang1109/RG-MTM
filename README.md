@@ -2,13 +2,16 @@
 
 Spatial anchoring, topology-budgeted merge-tree layouts, and certified position bounds for temporal maps of scalar fields.
 
-## Current paper — 2026-11-02
+## Current paper — 2026-11-04
 
-- [Main paper (PDF)](paper/pvis2027/drafts/method_anchor_figures_updated_en.pdf) · [LaTeX](paper/pvis2027/drafts/method_anchor_figures_updated_en.tex)
-- [Companion supplement (PDF)](paper/pvis2027/drafts/method_anchor_single_parameter_supplement.pdf) · [LaTeX](paper/pvis2027/drafts/method_anchor_single_parameter_supplement.tex)
-- [Figures, editable PowerPoint sources, and build instructions](paper/pvis2027/README.md)
+- [Main paper (PDF)](paper/pvis2027/最新论文与三张PPT/AnchorMTM_最新论文.pdf) · [LaTeX](paper/pvis2027/drafts/method_anchor_figures_updated_en.tex)
+- [Formal quantitative results and Chinese report](paper/pvis2027/experiments_final_20261104/REPORT_zh.md)
+- [Experiment index, parameters, timings and reproduction](paper/pvis2027/experiments_final_20261104/FINAL_INDEX.md)
+- [Companion supplement, three editable figures and build instructions](paper/pvis2027/README.md)
 
-The paper directory retains only the latest manuscript, its supplement, and the two current figures with editable sources. Figure 1 shows the central Storms sequence through five snapshots, scalar profiles, rotated strips, and the selected temporal-map region; Figure 2 is the compact cross-frame correspondence diagram. Earlier manuscript and figure versions remain in Git history. Experiments, Discussion, and Conclusion currently retain placeholder headings.
+Four datasets have Exact and positive-budget Balanced results. The selected budgets are 1%, 1%, 4%, and 10%. Reconstructed inputs, the incomplete Ring TW coverage and unconfirmed published TD units are explicitly labelled. Actual normalized local TD and both Anchor timing columns appear in the main table. Parameter rows are white. All tables precede the final bibliography. Sections 5.1, 5.2 and 5.5 are updated; remaining placeholder sections are not claimed complete.
+
+Full numerical maps, native intermediate trees, source fields and historical experiment caches remain local; code, frozen settings, candidate summaries, metric CSVs, per-frame final checks and manuscript artifacts are published here. Raw inputs retain the existing data distribution policy.
 
 ## Research materials
 
@@ -17,4 +20,4 @@ The paper directory retains only the latest manuscript, its supplement, and the 
 - [Research documentation](docs/)
 - [References](references/)
 
-This publication update replaces paper artifacts only; implementation, saved experimental results, and data are unchanged. Historical reports under `docs/` describe earlier research stages and may refer to paper paths available only in Git history.
+This publication update synchronizes the current method source and curated formal experiment outputs. Historical reports under `docs/` describe earlier research stages and may refer to paper paths available only in Git history.

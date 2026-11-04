@@ -1,0 +1,17 @@
+[
+  {
+    "path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/code/tmp/volume3d/native-build/rgmtm_ttk_volume",
+    "sha256": "f82bf82ad1e452a742df33bcd1632c361a3ae6895983b2e31aaf69afe84598e9",
+    "role": "native extraction binary"
+  },
+  {
+    "path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/references/Spatiotemporal Merge Tree Maps A Topology and Geometry Aware Visualization for Temporal Scalar Data.pdf",
+    "sha256": "9f9da0e8dda3e92dded7c59492b3c4a729761b9f712ca2631c2eaa88c390b2aa",
+    "role": "local reference paper"
+  },
+  {
+    "path": "/Users/lele/Desktop/MergeTreeMaps/RG-MTM/references/Kopp和Weinkauf - 2022 - Temporal Merge Tree MapsA Topology-Based Static Visualization for Temporal Scalar Data.pdf",
+    "sha256": "b7e7a49a1b00eb4e0deb5dd078e7e7b412a5fdca41e582a39d2297b185295130",
+    "role": "local reference paper"
+  }
+]
