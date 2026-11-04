@@ -111,7 +111,7 @@ def _moves(ch):
     return [list(c) for c in sorted(out)]
 
 
-def _search(nodes, root, flat, q, w, V, p, limit, passes):
+def _search(nodes, root, flat, q, w, V, p, limit, passes, collector=None):
     """Local search over child permutations of T^flat on (tau, squared terms).
 
     Starts from midpoint order; every accepted move keeps merge cost <= limit.
@@ -127,6 +127,7 @@ def _search(nodes, root, flat, q, w, V, p, limit, passes):
         def go(k): return sum((go(c) for c in st[k]), []) if nodes[k]['children'] else [k]
         return go(root)
     order = emit(state)
+    if collector is not None: collector.append(tuple(order))
     if flat and merge_costs([order], V)[0] > limit: return None
     t, soft = (float(v[0]) for v in interval_scores([order], w, q, p))
     blocks = [k for k in state if len(state[k]) > 1]
@@ -135,6 +136,7 @@ def _search(nodes, root, flat, q, w, V, p, limit, passes):
         for k in blocks:
             cands = _moves(state[k])
             orders = np.array([emit({**state, k: c}) for c in cands])
+            if collector is not None: collector.extend(map(tuple, orders))
             T, S = interval_scores(orders, w, q, p)
             for i in np.lexsort((S, T)):
                 better = T[i] < t - 1e-12 or (T[i] <= t + 1e-12 and S[i] < soft - 1e-12 * max(1., soft))
@@ -146,7 +148,7 @@ def _search(nodes, root, flat, q, w, V, p, limit, passes):
     return dict(order=[int(v) for v in order], tau=t, soft=soft, flattened=len(flat))
 
 
-def width_order(merge_values, reference, widths, p, budget, tie=0.0, *, point=None, keep=4, passes=8):
+def width_order(merge_values, reference, widths, p, budget, tie=0.0, *, point=None, keep=4, passes=8, collector=None):
     """Order with exact merge cost <= budget + tie that minimizes tau (ties: NROE).
 
     Candidate structures are those of ``budget_order``: the exact tree, every
@@ -160,6 +162,7 @@ def width_order(merge_values, reference, widths, p, budget, tie=0.0, *, point=No
     point = point or budget_order(V, q, L, budget, tie)
     lower_b = width_certificate(V, q, w, p, 2 * limit); lower_c = width_chain_certificate(V, q, w, p, budget, tie)
     lower = max(lower_b, lower_c)
+    if collector is not None: collector.append(tuple(point['order']))
     t0 = float(interval_scores([point['order']], w, q, p)[0][0])
     best = dict(order=list(point['order']), tau=t0, delta=float(point['delta']), source='point order', flattened=None)
     nodes, root = hierarchy(V)
@@ -172,12 +175,12 @@ def width_order(merge_values, reference, widths, p, budget, tie=0.0, *, point=No
         structures |= {frozenset(), frozenset(point.get('selective_flat', ()))}
         start = []
         for f in structures:
-            r = _search(nodes, root, f, q, w, V, p, limit, 0)
+            r = _search(nodes, root, f, q, w, V, p, limit, 0, collector)
             if r: start.append((r['tau'], r['soft'], len(f), f))
         start.sort(key=lambda r: r[:3])
         chosen = [r[3] for r in start[:keep]] + ([frozenset()] if frozenset() not in [r[3] for r in start[:keep]] else [])
         for f in chosen:
-            r = _search(nodes, root, f, q, w, V, p, limit, passes)
+            r = _search(nodes, root, f, q, w, V, p, limit, passes, collector)
             if not r: continue
             if r['tau'] < best['tau'] - 1e-12 or (r['tau'] <= best['tau'] + 1e-12 and
                                                     order_error(r['order'], q, L) < order_error(best['order'], q, L) - 1e-15):

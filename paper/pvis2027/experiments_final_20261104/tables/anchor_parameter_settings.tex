@@ -1,0 +1,17 @@
+\begin{table*}[t]
+\centering
+\caption{AnchorMTM parameter settings. Exact uses $\varepsilon=0$ and $\varepsilon_0=0$; Balanced always reserves a positive budget, chosen by the fixed validation score $J$. Attained NMLEmax is checked against nominal $\varepsilon$; the fixed internal numerical allowance $10^{-7}$ does not relax that final check. A zero attained error is not a zero reserved budget. $N$ is raster length and $L$ the physical projection span. Width scale $s$, gap $g$ and slack $\beta_0$ follow fixed rules. Objective weights $(w_q,w_g,w_m,w_e)=(4,1,0.5,0.1)$ and $\rho=0.5$.}
+\label{tab:anchor-parameters-final}
+\small
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{lrrrrrrrl}
+\toprule
+Dataset & $\varepsilon_{\mathrm{Bal}}$ & Attained max & $N$ & $L$ & $s$ & $g$ & $\beta_0$ & Output \\
+\midrule
+Gaussian & 1\% & 0.0000\% & 4096 & 167.334 & 0.0058102 & 0.6972 & 1.394 & Same as Exact \\
+Ring & 1\% & 0.9820\% & 196 & 289.040 & 0.0032771 & 1.204 & 2.409 & J selected \\
+Wildfires & 4\% & 3.0141\% & 4096 & 1348.411 & 0.00039995 & 5.618 & 11.24 & J selected \\
+Storms & 10\% & 9.9930\% & 4096 & 73.546 & 0.011568 & 0.3064 & 0.6129 & J selected \\
+\bottomrule
+\end{tabular}
+\end{table*}

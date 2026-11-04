@@ -1,0 +1,10 @@
+{
+  "Dataset": "Gaussian",
+  "Method": "ST-MTM Temporal",
+  "NPE": 0.11513290406006943,
+  "success": true,
+  "frames": 64,
+  "one_global_reflection": true,
+  "collapsed_anchor_frames": 0,
+  "note": "local NPE only; published SNS/TW/TD are NOT recalculated"
+}

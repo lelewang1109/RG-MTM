@@ -195,7 +195,9 @@ def solve_frame(centers, measure, hierarchy, previous=None, previous_q=None, p=P
         # Eliminate z=x when rho=0; opposite active inequalities otherwise make
         # SLSQP falsely report incompatible constraints on a feasible LP face.
         transform=np.vstack([np.eye(n),np.eye(n)]) if p.rho==0 else np.eye(2*n)
-        Aa=A@transform
+        # Multiplication by the identity (or stacked identities) is exact
+        # copying/addition; avoid a needless BLAS call in this constraint step.
+        Aa=A[:,:n]+A[:,n:] if p.rho==0 else A.copy()
         keep=np.max(abs(Aa),axis=1)>1e-12
         Aa,bb=Aa[keep],b[keep]
         qb=bounds[n:] if p.rho==0 else bounds

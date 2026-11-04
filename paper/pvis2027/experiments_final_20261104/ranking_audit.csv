@@ -1,0 +1,65 @@
+Dataset,Method,Metric,Group,DisplayedValue,Rank,Style
+Gaussian,TMTM,SNS,dataset_reported_numeric_summary,0.25,3,normal
+Gaussian,ST-MTM Temporal,SNS,dataset_reported_numeric_summary,0.06,2,second
+Gaussian,AnchorMTM Exact,SNS,dataset_reported_numeric_summary,0.035,1,best
+Gaussian,AnchorMTM Balanced,SNS,dataset_reported_numeric_summary,0.035,1,best
+Gaussian,TMTM,TW,dataset_reported_numeric_summary,0.77,3,normal
+Gaussian,ST-MTM Temporal,TW,dataset_reported_numeric_summary,1.0,1,best
+Gaussian,AnchorMTM Exact,TW,dataset_reported_numeric_summary,0.932,2,second
+Gaussian,AnchorMTM Balanced,TW,dataset_reported_numeric_summary,0.932,2,second
+Gaussian,TMTM,TD,published_TD,55.56,2,second
+Gaussian,ST-MTM Temporal,TD,published_TD,31.87,1,best
+Gaussian,AnchorMTM Exact,TD,local_normalized_TD,0.38,1,best
+Gaussian,AnchorMTM Balanced,TD,local_normalized_TD,0.38,1,best
+Gaussian,TMTM,NPE,local_shared_input,0.1138,2,second
+Gaussian,ST-MTM Temporal,NPE,local_shared_input,0.1151,3,normal
+Gaussian,AnchorMTM Exact,NPE,local_shared_input,0.0089,1,best
+Gaussian,AnchorMTM Balanced,NPE,local_shared_input,0.0089,1,best
+Ring,TMTM,SNS,dataset_reported_numeric_summary,0.28,4,normal
+Ring,ST-MTM Temporal,SNS,dataset_reported_numeric_summary,0.21,3,normal
+Ring,AnchorMTM Exact,SNS,dataset_reported_numeric_summary,0.148,2,second
+Ring,AnchorMTM Balanced,SNS,dataset_reported_numeric_summary,0.133,1,best
+Ring,TMTM,TW,dataset_reported_numeric_summary,0.68,3,normal
+Ring,ST-MTM Temporal,TW,dataset_reported_numeric_summary,0.88,1,best
+Ring,AnchorMTM Exact,TW,dataset_reported_numeric_summary,0.857,2,second
+Ring,AnchorMTM Balanced,TW,dataset_reported_numeric_summary,0.857,2,second
+Ring,TMTM,TD,published_TD,12.23,1,best
+Ring,ST-MTM Temporal,TD,published_TD,27.92,2,second
+Ring,AnchorMTM Exact,TD,local_normalized_TD,3.96,2,second
+Ring,AnchorMTM Balanced,TD,local_normalized_TD,3.92,1,best
+Ring,TMTM,NPE,local_shared_input,0.1756,3,normal
+Ring,ST-MTM Temporal,NPE,local_shared_input,0.2463,4,normal
+Ring,AnchorMTM Exact,NPE,local_shared_input,0.0471,2,second
+Ring,AnchorMTM Balanced,NPE,local_shared_input,0.0395,1,best
+Wildfires,TMTM,SNS,dataset_reported_numeric_summary,0.44,4,normal
+Wildfires,ST-MTM Temporal,SNS,dataset_reported_numeric_summary,0.24,3,normal
+Wildfires,AnchorMTM Exact,SNS,dataset_reported_numeric_summary,0.17,1,best
+Wildfires,AnchorMTM Balanced,SNS,dataset_reported_numeric_summary,0.184,2,second
+Wildfires,TMTM,TW,dataset_reported_numeric_summary,0.88,2,second
+Wildfires,ST-MTM Temporal,TW,dataset_reported_numeric_summary,0.91,1,best
+Wildfires,AnchorMTM Exact,TW,dataset_reported_numeric_summary,0.835,3,normal
+Wildfires,AnchorMTM Balanced,TW,dataset_reported_numeric_summary,0.803,4,normal
+Wildfires,TMTM,TD,published_TD,7487.67,2,second
+Wildfires,ST-MTM Temporal,TD,published_TD,3895.33,1,best
+Wildfires,AnchorMTM Exact,TD,local_normalized_TD,9.24,2,second
+Wildfires,AnchorMTM Balanced,TD,local_normalized_TD,6.93,1,best
+Wildfires,TMTM,NPE,local_shared_input,0.6179,4,normal
+Wildfires,ST-MTM Temporal,NPE,local_shared_input,0.33,3,normal
+Wildfires,AnchorMTM Exact,NPE,local_shared_input,0.0348,2,second
+Wildfires,AnchorMTM Balanced,NPE,local_shared_input,0.0213,1,best
+Storms,TMTM,SNS,dataset_reported_numeric_summary,0.34,4,normal
+Storms,ST-MTM Temporal,SNS,dataset_reported_numeric_summary,0.21,3,normal
+Storms,AnchorMTM Exact,SNS,dataset_reported_numeric_summary,0.176,2,second
+Storms,AnchorMTM Balanced,SNS,dataset_reported_numeric_summary,0.112,1,best
+Storms,TMTM,TW,dataset_reported_numeric_summary,0.71,4,normal
+Storms,ST-MTM Temporal,TW,dataset_reported_numeric_summary,0.94,1,best
+Storms,AnchorMTM Exact,TW,dataset_reported_numeric_summary,0.861,3,normal
+Storms,AnchorMTM Balanced,TW,dataset_reported_numeric_summary,0.872,2,second
+Storms,TMTM,TD,published_TD,164.14,2,second
+Storms,ST-MTM Temporal,TD,published_TD,36.24,1,best
+Storms,AnchorMTM Exact,TD,local_normalized_TD,549.42,2,second
+Storms,AnchorMTM Balanced,TD,local_normalized_TD,343.43,1,best
+Storms,TMTM,NPE,local_shared_input,0.7789,4,normal
+Storms,ST-MTM Temporal,NPE,local_shared_input,0.5598,3,normal
+Storms,AnchorMTM Exact,NPE,local_shared_input,0.2274,2,second
+Storms,AnchorMTM Balanced,NPE,local_shared_input,0.124,1,best

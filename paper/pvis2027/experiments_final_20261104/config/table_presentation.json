@@ -1,0 +1,15 @@
+{
+  "local_TD": "show actual full-canvas normalized TD in main cells; superscript n header",
+  "ranking": "dataset-wide four-method SNS/TW/NPE; TD separately within published and local-normalized unit groups",
+  "TD_ranking": "automatic best/second within each unit group, no cross-unit comparison",
+  "time": "separate t_opt and t_total columns for each Anchor mode; Table3 removed",
+  "parameter_background": "white",
+  "source_limitations": "published SNS/TW are descriptive comparisons to reconstructed inputs",
+  "methods": [
+    "TMTM",
+    "ST-MTM Temporal",
+    "AnchorMTM Exact",
+    "AnchorMTM Balanced"
+  ],
+  "TW_coverage": "Ring1/40 only in table note, no appended superscript"
+}

@@ -1,0 +1,24 @@
+\begin{table*}[t]
+\centering
+\caption{Quantitative comparison. Headers p denote published Table~1 scores; n denotes local full-canvas-normalized TD. SNS/TW/NPE best and second values are computed over the four displayed methods per dataset, with ties. These are descriptive numerical comparisons because author and reconstructed inputs are not verified identical. All four metrics are ranked by their displayed numerical values per dataset. Published TD units are unconfirmed against local normalized TD, so TD emphasis is descriptive, not a matched-unit superiority claim. Both time columns are measured seconds (one run).}
+\label{tab:quantitative-final}
+\setlength{\tabcolsep}{1.5pt}
+\renewcommand{\arraystretch}{1.2}
+\scriptsize
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lrrrrrrrrrrrrrrrrrrrr}
+\toprule
+\multirow{2}{*}{Dataset} & \multicolumn{4}{c}{TMTM} & \multicolumn{4}{c}{ST-MTM Temporal} & \multicolumn{6}{c}{AnchorMTM~Exact} & \multicolumn{6}{c}{AnchorMTM~Balanced} \\
+\cmidrule(lr){2-5} \cmidrule(lr){6-9} \cmidrule(lr){10-15} \cmidrule(lr){16-21}
+ & SNS$\downarrow^{\rm p}$ & TW$\uparrow^{\rm p}$ & TD$\downarrow^{\rm p}$ & NPE$\downarrow$ & SNS$\downarrow^{\rm p}$ & TW$\uparrow^{\rm p}$ & TD$\downarrow^{\rm p}$ & NPE$\downarrow$ & SNS$\downarrow$ & TW$\uparrow$ & TD$\downarrow^{\rm n}$ & NPE$\downarrow$ & $t_{\rm opt}$ & $t_{\rm total}$ & SNS$\downarrow$ & TW$\uparrow$ & TD$\downarrow^{\rm n}$ & NPE$\downarrow$ & $t_{\rm opt}$ & $t_{\rm total}$ \\
+\midrule
+Gaussian & $0.250$ & $0.770$ & $55.56$ & $\underline{0.1118}$ & $\underline{0.060}$ & $\mathbf{1.000}$ & $\underline{31.87}$ & $0.1154$ & $\mathbf{0.035}$ & $\underline{0.932}$ & $\mathbf{0.38}$ & $\mathbf{0.0089}$ & 0.156 & 1.499 & $\mathbf{0.035}$ & $\underline{0.932}$ & $\mathbf{0.38}$ & $\mathbf{0.0089}$ & 0.156 & 1.340 \\
+Ring & $0.280$ & $0.680$ & $12.23$ & $0.1756$ & $0.210$ & $\mathbf{0.880}$ & $27.92$ & $0.2463$ & $\underline{0.148}$ & $\underline{0.857}$ & $\underline{3.96}$ & $\underline{0.0471}$ & 0.133 & 0.475 & $\mathbf{0.133}$ & $\underline{0.857}$ & $\mathbf{3.92}$ & $\mathbf{0.0395}$ & 0.150 & 0.486 \\
+Wildfires & $0.440$ & $0.880$ & $7487.67$ & $0.2280$ & $0.240$ & $\underline{0.910}$ & $3895.33$ & $0.3180$ & $\mathbf{0.043}$ & $\mathbf{0.914}$ & $\underline{2.94}$ & $\underline{0.0131}$ & 3.084 & 4.279 & $\underline{0.045}$ & $0.899$ & $\mathbf{2.88}$ & $\mathbf{0.0116}$ & 3.324 & 4.424 \\
+Storms & $0.340$ & $0.710$ & $164.14$ & $0.5753$ & $0.210$ & $\mathbf{0.940}$ & $\underline{36.24}$ & $0.4579$ & $\underline{0.079}$ & $0.846$ & $42.38$ & $\underline{0.0399}$ & 2.179 & 55.51 & $\mathbf{0.074}$ & $\underline{0.877}$ & $\mathbf{27.29}$ & $\mathbf{0.0140}$ & 2.600 & 63.45 \\
+\midrule
+\multicolumn{21}{p{\dimexpr\textwidth-3pt\relax}}{Local TW eligible frames (both modes): Gaussian: 64/64; Ring: 1/40; Wildfires: 4/32; Storms: 11/744. Coverage is recorded in this note, never appended to metric cells. TD$^{\rm n}$ sums matched-anchor displacement divided by the fixed full canvas span.} \\
+\bottomrule
+\end{tabular}
+}
+\end{table*}

@@ -1,0 +1,10 @@
+{
+  "Dataset": "Storms",
+  "Method": "TMTM",
+  "NPE": 0.7789432623710785,
+  "success": true,
+  "frames": 744,
+  "one_global_reflection": false,
+  "collapsed_anchor_frames": 15,
+  "note": "local NPE only; published SNS/TW/TD are NOT recalculated"
+}

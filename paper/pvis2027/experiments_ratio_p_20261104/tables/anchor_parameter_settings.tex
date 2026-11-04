@@ -1,0 +1,17 @@
+\begin{table*}[t]
+\centering
+\caption{AnchorMTM parameter settings. Persistence $p$ is a scalar-range fraction in this experiment (not a percentage number). Exact uses $\varepsilon=0$ and $\varepsilon_0=0$; Balanced always reserves a positive budget, chosen by the fixed validation score $J$. Attained NMLEmax is checked against nominal $\varepsilon$; the fixed internal numerical allowance $10^{-7}$ does not relax that final check. A zero attained error is not a zero reserved budget. $N$ is raster length and $L$ the physical projection span. Width scale $s$, gap $g$ and slack $\beta_0$ follow fixed rules. Objective weights $(w_q,w_g,w_m,w_e)=(4,1,0.5,0.1)$ and $\rho=0.5$.}
+\label{tab:anchor-parameters-final}
+\small
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{lrrrrrrrrl}
+\toprule
+Dataset & $p$ & $\varepsilon_{\mathrm{Bal}}$ & Attained max & $N$ & $L$ & $s$ & $g$ & $\beta_0$ & Output \\
+\midrule
+Gaussian & 0.001 & 1\% & 0.0000\% & 4096 & 167.334 & 0.0058102 & 0.6972 & 1.394 & Same as Exact \\
+Ring & 0.001 & 1\% & 0.9820\% & 196 & 289.040 & 0.0032771 & 1.204 & 2.409 & J selected \\
+Wildfires & 0.15 & 5\% & 4.4214\% & 4096 & 1803.287 & 0.00053487 & 7.514 & 15.03 & J selected \\
+Storms & 0.105 & 10\% & 9.9851\% & 4096 & 74.402 & 0.011703 & 0.31 & 0.62 & J selected \\
+\bottomrule
+\end{tabular}
+\end{table*}

@@ -2,7 +2,9 @@
 
 Everything below is decided from the data or by one dataset-independent rule:
 
-1. Reference phi (automatic): among directions phi_a(x)=a.x and radial distances
+1. Reference phi (automatic): 2-D retains directional_reference; 3-D selects a
+   Cartesian axis from support-centroid motion, with explicit periodic metadata.
+   The legacy opt-in radial diagnostic compares directions phi_a(x)=a.x and radial distances
    phi_c(x)=|x-c|, choose the one capturing most of the features' real 2-D motion,
        capture(phi) = sum (Delta phi(E))^2 / sum |Delta E|^2  in [0,1],
    over all matched extremum steps. Direction optimum = top eigenvector of the motion
@@ -60,6 +62,19 @@ def capture_radial(c, P0, P1):
 
 def auto_reference(sc, ext, lo, hi, allow_radial=False):
     """lo, hi: world bounding box of the domain."""
+    if len(lo)==3:
+        from rgmtm.cartesian_reference import centroid_axis_reference
+        if 'centers' not in sc:raise ValueError('3-D automatic reference requires support centroids')
+        if allow_radial:raise ValueError('radial reference search is defined only in 2-D')
+        return centroid_axis_reference(sc['centers'],sc['tracks'],ext,lo,hi,sc.get('periodic_lengths'))
+    if not allow_radial:
+        ref = directional_reference(sc, ext, lo, hi)
+        if len(lo) == 2:
+            a = ref['candidates']['direction']['a']
+            angle = float(np.degrees(np.arctan2(a[1], a[0])))
+            ref['candidates']['direction']['angle_deg'] = angle
+            ref['label'] = f'position along auto direction {angle:.0f}°'
+        return ref
     if len(lo)!=2:
         if allow_radial:raise ValueError('radial reference search is defined only in 2-D')
         return directional_reference(sc,ext,lo,hi)

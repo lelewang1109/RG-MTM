@@ -1,0 +1,1 @@
+New ratio-p experiment. Old percent-p results remain in ../experiments_final_20261104. Only source fields/coordinates are reused. No simplified trees, layouts, metric values or formal timings are reused. Core algorithms and QP weights remain unchanged. Balanced selection stays positive1..10% by first-quarter validation J=.5NPE_norm+.5SNS_norm, with the existing tie rule.

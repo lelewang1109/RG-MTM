@@ -1,0 +1,17 @@
+Dataset,Method,Metric,Reason
+Gaussian,TMTM,TD,TD printed-value ranking only; author/local units are not verified equivalent
+Gaussian,ST-MTM Temporal,TD,TD printed-value ranking only; author/local units are not verified equivalent
+Gaussian,AnchorMTM Exact,TD,TD printed-value ranking only; author/local units are not verified equivalent
+Gaussian,AnchorMTM Balanced,TD,TD printed-value ranking only; author/local units are not verified equivalent
+Ring,TMTM,TD,TD printed-value ranking only; author/local units are not verified equivalent
+Ring,ST-MTM Temporal,TD,TD printed-value ranking only; author/local units are not verified equivalent
+Ring,AnchorMTM Exact,TD,TD printed-value ranking only; author/local units are not verified equivalent
+Ring,AnchorMTM Balanced,TD,TD printed-value ranking only; author/local units are not verified equivalent
+Wildfires,TMTM,TD,TD printed-value ranking only; author/local units are not verified equivalent
+Wildfires,ST-MTM Temporal,TD,TD printed-value ranking only; author/local units are not verified equivalent
+Wildfires,AnchorMTM Exact,TD,TD printed-value ranking only; author/local units are not verified equivalent
+Wildfires,AnchorMTM Balanced,TD,TD printed-value ranking only; author/local units are not verified equivalent
+Storms,TMTM,TD,TD printed-value ranking only; author/local units are not verified equivalent
+Storms,ST-MTM Temporal,TD,TD printed-value ranking only; author/local units are not verified equivalent
+Storms,AnchorMTM Exact,TD,TD printed-value ranking only; author/local units are not verified equivalent
+Storms,AnchorMTM Balanced,TD,TD printed-value ranking only; author/local units are not verified equivalent

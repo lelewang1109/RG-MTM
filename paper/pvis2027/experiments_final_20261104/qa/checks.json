@@ -1,0 +1,17 @@
+{
+  "pages": 9,
+  "visually_reviewed_pages": [
+    7,
+    8,
+    9
+  ],
+  "bibliography_pages": [
+    9
+  ],
+  "final_table_page": 8,
+  "method_count": 4,
+  "removed_STMTM_Base": true,
+  "separate_time_columns_per_Anchor": 2,
+  "TW_coverage_in_note": true,
+  "TD_history_recomputed": true
+}
