@@ -85,17 +85,17 @@ def main():
   text=f.read_text();assert '\\toprule' in text and '\\bottomrule' in text
   assert not any('|' in line for line in text.splitlines() if '\\begin{tabular}' in line)
  for ds in r.PARAMS:
-  rr=[row for row in rows if row['Dataset']==ds];assert len(rr)==5
+  rr=[row for row in rows if row['Dataset']==ds];assert len(rr)==4
   for metric in ['SNS','TW','NPE']:
    assert len({row[metric+'_rank_group'] for row in rr})==1
-  assert all(row['TD'] is not None and row['TD_rank_group'] is None for row in rr)
+  assert all(row['TD'] is not None and row['TD_rank_group'] in ['published_TD','local_normalized_TD'] for row in rr)
   for row in rr:
    if row['metrics_source']=='local':
     s=r.read(O/'results'/ds/row['Method'].replace('AnchorMTM ','')/'summary.json')
     for metric in ['TD','t_opt','t_total']:np.testing.assert_allclose(row[metric],s[metric],atol=1e-12)
- assert not any(x['Metric']=='TD' for x in r.read_csv(O/'ranking_audit.csv'))
+ assert sum(x['Metric']=='TD' for x in r.read_csv(O/'ranking_audit.csv'))==16
  assert '\\rowcolor' not in (O/'tables/anchor_parameter_settings.tex').read_text()
- assert (O/'tables/quantitative_comparison.tex').read_text().count('Time(s)')==2
+ assert (O/'tables/quantitative_comparison.tex').read_text().count('$t_{\\rm opt}$')==2
  assert all(r.sha(r.W/k)==h for k,h in core.items())
  r.table(O/'independent_verification.csv',records);r.table(O/'profile_validation_per_frame.csv',frame_checks);r.dump(O/'verification.json',dict(all_passed=True,core_sources_unchanged=True,all_eight_anchor_runs_legal=True,all_twelve_baseline_NPE_computed=True,rankings_independently_verified=True,selection_replayed_without_test_metrics=True,records=records))
 

@@ -1,8 +1,8 @@
 # PacificVis 2027：四数据集正式定量实验包
 
-**四数据集均完成合法的 AnchorMTM Exact 和正预算Balanced（8/8），三个基线的本地 NPE 也完成（12/12）。** Balanced由固定验证综合评分J选择：Gaussian1%、Ring1%、Wildfires4%、Storms10%。不再回退0；Gaussian所选正预算实际未被使用，完整输出与Exact相同，无额外收益。原始算法源码哈希未改变，Ring保持L=196。
+**四数据集均完成合法的 AnchorMTM Exact 和正预算Balanced（8/8），主表保留TMTM及ST-MTM Temporal两基线（8组NPE），Base结果从当前比较中移除并保留历史缓存。** Balanced由固定验证综合评分J选择：Gaussian1%、Ring1%、Wildfires4%、Storms10%。不再回退0；Gaussian所选正预算实际未被使用，完整输出与Exact相同，无额外收益。原始算法源码哈希未改变，Ring保持L=196。
 
-**这是明确标注重建输入的可复现实验，不是已确认原作者最终处理数组的严格复现。** 原文SNS/TW/TD只转录，不重跑、不虚构；NPE在本地共享输入上补算。主表直接列出已实测的完整画布归一化TD，不再用N/A替代数值。原文TD单位仍未确认，所以标明本地归一化单位、暂不跨单位加粗或下划线排名。Exact和Balanced评价指标各增加一列Time(s)，上行为优化时间、下行为完整流水线总时间。
+**这是明确标注重建输入的可复现实验，不是已确认原作者最终处理数组的严格复现。** 原文SNS/TW/TD只转录，不重跑、不虚构；NPE在本地共享输入上补算。主表直接列出已实测的完整画布归一化TD，不再用N/A替代数值。原文TD单位仍未确认，所以标明本地归一化单位、TD分别在引用原文组和本地归一组内自动加粗最优、下划线次优，不跨单位排名。Exact和Balanced各有独立的t_opt、t_total两列，表3已删除。Ring的TW仅显示0.857，1/40覆盖率移至表注。
 
 ## 1. 输入与论文设置核对
 
@@ -18,7 +18,7 @@
 - Ring：复用归档作者生成器与40帧设置。原画布196没有改变。TTK提树后的逐帧叶数与原表不要求人为逐帧一致，不人为删特征。
 - Wildfires：使用原始10km层级FRP，2019-11-01至2020-01-01共61天。32个等长时间窗，每窗61/32天，按日常值的区间重叠权重积分。全时段固定空间正方形边界映射到64×64并求和；无log变换、平滑、背景修正、特征数过滤或按性能选日期。作者32帧具体聚合边界未公开，本项是用户授权的明确重建。
 - Storms：原生281×181、1999年12月744小时；逐位置减192小时滑动均值，固定Gaussian σ=2/半径5/reflect边界。经纬度范围、原始NetCDF路径及hash均记录。第一篇的282列及最终处理数组不在本地，未编造额外列。
-- Gaussian生成坐标、Ring作者生成坐标、Wildfires固定等距km坐标与Storms经纬度坐标均在配置中明确。各数据集内部五方法共享同一坐标、树、匹配、极值和参考；原作者原空间坐标单位尚不能逐项确认，因此引用值与本地重建不能宣称严格同设置排名。
+- Gaussian生成坐标、Ring作者生成坐标、Wildfires固定等距km坐标与Storms经纬度坐标均在配置中明确。各数据集内部四方法共享同一坐标、树、匹配、极值和参考；原作者原空间坐标单位尚不能逐项确认，因此引用值与本地重建不能宣称严格同设置排名。
 
 ## 2. 最终四项指标与计算正确性
 
@@ -32,30 +32,26 @@
 
 ## 3. 原文引用与本地NPE主表
 
-各数据集前三个方法的SNS/TW/TD来源是第二篇Table1；仅NPE由本地补算。LaTeX在相应指标列标题用p上标标出引用来源。SNS、TW、NPE在每个数据集五种方法之间统一自动判断显示数值最优/次优；SNS/TW是原文与重建输入数值的描述性比较，不宣称已确认严格同输入。TD跨来源单位未核实，不排名。
+各数据集TMTM和ST-MTM Temporal的SNS/TW/TD来源是第二篇Table1；仅NPE由本地补算。LaTeX在相应指标列标题用p上标标出引用来源。SNS、TW、NPE在每个数据集四种方法之间统一自动判断显示数值最优/次优；SNS/TW是原文与重建输入数值的描述性比较，不宣称已确认严格同输入。TD跨来源单位未核实，因此按原文组、本地归一组分别排名；不把两组标记解释为共同单位下的获胜。
 
-| Dataset | Method | SNS | TW | TD（原文或本地归一化） | NPE | Time(s) opt/total |
-|---|---|---:|---:|---:|---:|---:|
-| Gaussian | TMTM | 0.2500 | 0.7700 | 55.56 | 0.1138 | N/A/N/A |
-| Gaussian | ST-MTM Base | 0.0600 | 1.0000 | 32.56 | 0.1155 | N/A/N/A |
-| Gaussian | ST-MTM Temporal | 0.0600 | 1.0000 | 31.87 | 0.1151 | N/A/N/A |
-| Gaussian | AnchorMTM Exact | 0.0353 | 0.9323 | 0.38 | 0.0089 | 0.308/2.337 |
-| Gaussian | AnchorMTM Balanced | 0.0353 | 0.9323 | 0.38 | 0.0089 | 0.317/2.312 |
-| Ring | TMTM | 0.2800 | 0.6800 | 12.23 | 0.1756 | N/A/N/A |
-| Ring | ST-MTM Base | 0.2000 | 0.9200 | 48.64 | 0.2370 | N/A/N/A |
-| Ring | ST-MTM Temporal | 0.2100 | 0.8800 | 27.92 | 0.2463 | N/A/N/A |
-| Ring | AnchorMTM Exact | 0.1485 | 0.8571 | 3.96 | 0.0471 | 0.264/0.939 |
-| Ring | AnchorMTM Balanced | 0.1334 | 0.8571 | 3.92 | 0.0395 | 0.272/0.894 |
-| Wildfires | TMTM | 0.4400 | 0.8800 | 7487.67 | 0.6179 | N/A/N/A |
-| Wildfires | ST-MTM Base | 0.2500 | 0.9100 | 7249.03 | 0.7559 | N/A/N/A |
-| Wildfires | ST-MTM Temporal | 0.2400 | 0.9100 | 3895.33 | 0.3300 | N/A/N/A |
-| Wildfires | AnchorMTM Exact | 0.1701 | 0.8354 | 9.24 | 0.0348 | 37.439/40.687 |
-| Wildfires | AnchorMTM Balanced | 0.1844 | 0.8029 | 6.93 | 0.0213 | 51.990/55.079 |
-| Storms | TMTM | 0.3400 | 0.7100 | 164.14 | 0.7789 | N/A/N/A |
-| Storms | ST-MTM Base | 0.1900 | 0.8900 | 85.44 | 0.5383 | N/A/N/A |
-| Storms | ST-MTM Temporal | 0.2100 | 0.9400 | 36.24 | 0.5598 | N/A/N/A |
-| Storms | AnchorMTM Exact | 0.1759 | 0.8613 | 549.42 | 0.2274 | 72.114/169.078 |
-| Storms | AnchorMTM Balanced | 0.1122 | 0.8721 | 343.43 | 0.1240 | 163.981/264.329 |
+| Dataset | Method | SNS | TW | TD（原文或本地归一化） | NPE | t_opt(s) | t_total(s) |
+|---|---|---:|---:|---:|---:|---:|---:|
+| Gaussian | TMTM | 0.2500 | 0.7700 | 55.56 | 0.1138 | N/A | N/A |
+| Gaussian | ST-MTM Temporal | 0.0600 | 1.0000 | 31.87 | 0.1151 | N/A | N/A |
+| Gaussian | AnchorMTM Exact | 0.0353 | 0.9323 | 0.38 | 0.0089 | 0.308 | 2.337 |
+| Gaussian | AnchorMTM Balanced | 0.0353 | 0.9323 | 0.38 | 0.0089 | 0.317 | 2.312 |
+| Ring | TMTM | 0.2800 | 0.6800 | 12.23 | 0.1756 | N/A | N/A |
+| Ring | ST-MTM Temporal | 0.2100 | 0.8800 | 27.92 | 0.2463 | N/A | N/A |
+| Ring | AnchorMTM Exact | 0.1485 | 0.8571 | 3.96 | 0.0471 | 0.264 | 0.939 |
+| Ring | AnchorMTM Balanced | 0.1334 | 0.8571 | 3.92 | 0.0395 | 0.272 | 0.894 |
+| Wildfires | TMTM | 0.4400 | 0.8800 | 7487.67 | 0.6179 | N/A | N/A |
+| Wildfires | ST-MTM Temporal | 0.2400 | 0.9100 | 3895.33 | 0.3300 | N/A | N/A |
+| Wildfires | AnchorMTM Exact | 0.1701 | 0.8354 | 9.24 | 0.0348 | 37.439 | 40.687 |
+| Wildfires | AnchorMTM Balanced | 0.1844 | 0.8029 | 6.93 | 0.0213 | 51.990 | 55.079 |
+| Storms | TMTM | 0.3400 | 0.7100 | 164.14 | 0.7789 | N/A | N/A |
+| Storms | ST-MTM Temporal | 0.2100 | 0.9400 | 36.24 | 0.5598 | N/A | N/A |
+| Storms | AnchorMTM Exact | 0.1759 | 0.8613 | 549.42 | 0.2274 | 72.114 | 169.078 |
+| Storms | AnchorMTM Balanced | 0.1122 | 0.8721 | 343.43 | 0.1240 | 163.981 | 264.329 |
 
 ## 4. AnchorMTM四项实测值（同一来源内可比较）
 
@@ -69,6 +65,8 @@
 | Wildfires | AnchorMTM Balanced | 4% | 0.1844 | 0.8029 | 32/32 | 6.9326 | 0.0213 |
 | Storms | AnchorMTM Exact | 0% | 0.1759 | 0.8613 | 744/744 | 549.4156 | 0.2274 |
 | Storms | AnchorMTM Balanced | 10% | 0.1122 | 0.8721 | 744/744 | 343.4278 | 0.1240 |
+
+TD历史核对：旧Storms Balanced=29.336508来自p=10.5%、ε=5%、1–7叶、2737个匹配步；当前p=0.105%、ε=10%、9–40叶、14095个匹配步，TD=343.427839。两组同为完整画布归一累计，但输入简化和预算不同，不能混入同一正式结果。独立求和复核见TD_history_audit.csv及TD_AUDIT_zh.md；没有为变成最小值改分母、除帧数或替换旧结果。
 
 Ring的TW只覆盖极少数帧，不能将该均值描述为全40帧邻域性能。它数学上可计算，所以保留数值并标有效帧；不合法的其余帧并未填0。
 
@@ -141,14 +139,14 @@ t_opt仅顺序搜索与连续锚点优化；t_total从重新读取/生成源数�
 | Gaussian | 0.113794 | 0.008916 | 92.16% |
 | Ring | 0.175569 | 0.039469 | 77.52% |
 | Wildfires | 0.330030 | 0.021312 | 93.54% |
-| Storms | 0.538349 | 0.123994 | 76.97% |
+| Storms | 0.559846 | 0.123994 | 77.85% |
 
 Ring、Wildfires与Storms选中正预算后的本地NPE和累计TD降低，但Wildfires的SNS增加、TW降低，是明确的相对几何代价；保留这些不利结果。Gaussian正ε输出与Exact相同，实际拓扑误差0，不宣称额外收益。TD降低仅表明显示更平稳，不能单独证明物理运动表达更准确。
 SNS与TW有明确公共定义；NPE是任务化绝对参考位置误差；本地TD保留完整画布归一化累计定义。用于第5节的精简指标组合就是这四项，不再使用已放弃的临时指标。
-本轮没有额外数据集或组件消融。ε验证扫描只支撑参数选择，不能宣称某个优化项的独立因果贡献。SNS/TW/NPE按每数据集的五方法显示数值自动排名；SNS/TW跨输入只作描述性汇总，NPE来自本地共享输入。相同显示精度视为并列，不手工指定获胜。TD数值完整呈现，但原文与本地单位未确认统一，暂不加粗/下划线排名。参数表已全部改为白底。
+本轮没有额外数据集或组件消融。ε验证扫描只支撑参数选择，不能宣称某个优化项的独立因果贡献。SNS/TW/NPE按每数据集的四方法显示数值自动排名；SNS/TW跨输入只作描述性汇总，NPE来自本地共享输入。相同显示精度视为并列，不手工指定获胜。TD数值完整呈现，但原文与本地单位未确认统一，分别在原文和本地归一两组内自动加粗/下划线排名。参数表已全部改为白底。
 
 ## 9. 交付
 
 comparison_final.csv为主表；anchor_metrics_measured.csv含全部本地四指标；anchor_parameters.csv、anchor_runtime.csv、baseline_npe.csv、topology_validation.csv、balanced_selection.csv、input_audit.csv、ranking_audit.csv及独立验证文件分别保存参数、计时、NPE、预算、选择、输入和排名。
-tables/quantitative_comparison.tex、anchor_parameter_settings.tex、anchor_runtime.tex使用booktabs，主表与参数表用table*。source/包含实际驱动、同方程QP、整数舍入、组表和独立核验，config/保存冻结规则、硬件与源码hash。结果、地图、所有候选与真实计时树保留在results/；archive/保留历史，不直接删除原始输入或源码。
+tables/quantitative_comparison.tex及anchor_parameter_settings.tex使用booktabs和table*；运行时间已合并主表，不再生成表3。source/包含实际驱动、同方程QP、整数舍入、组表和独立核验，config/保存冻结规则、硬件与源码hash。结果、地图、所有候选与真实计时树保留在results/；archive/保留历史，不直接删除原始输入或源码。
 论文仅同步授权的5.1、5.2、5.5及其表格引用；首图是另一份冻结的定性Storms输入，已与定量输入明确区分。重建数据不得误称作者官方同输入。

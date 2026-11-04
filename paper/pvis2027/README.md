@@ -53,4 +53,4 @@ Figure 2 上部网格对比区域已压缩到原高度的 78%，字体保持不�
 
 ## 2026-11-04 正式定量实验
 
-四数据集8组AnchorMTM与12组基线NPE已完成。正式目录：[experiments_final_20261104](experiments_final_20261104/REPORT_zh.md)。Gaussian/Wildfires为明确标注重建输入；Ring保持196点并通过联合整数舍入。Balanced按固定验证J选择正预算：Gaussian1%、Ring1%、Wildfires4%、Storms10%；Gaussian实际误差0、输出与Exact相同，不制造收益。SNS/TW/NPE按数据集五方法统一自动标最优/次优（SNS/TW跨输入为描述性汇总），归一化TD已直接放回主表并标单位、暂不跨单位排名；两组Anchor后各有Time列，参数表白底；完整指标、独立参数表（含实际NMLEmax）、冷流水线时间、全部候选、LaTeX和复现脚本均在该目录。5.1、5.2、5.5已同步；其余未完成章节不因本次定量更新被视为完成。
+四数据集8组AnchorMTM与12组基线NPE已完成。正式目录：[experiments_final_20261104](experiments_final_20261104/REPORT_zh.md)。Gaussian/Wildfires为明确标注重建输入；Ring保持196点并通过联合整数舍入。Balanced按固定验证J选择正预算：Gaussian1%、Ring1%、Wildfires4%、Storms10%；Gaussian实际误差0、输出与Exact相同，不制造收益。SNS/TW/NPE按数据集四方法统一自动标最优/次优（SNS/TW跨输入为描述性汇总），归一化TD已直接放回主表并标单位、暂不跨单位排名；两组Anchor各有独立t_opt/t_total列，删除表3、Base行和TW覆盖率上标，参数表白底；完整指标、独立参数表（含实际NMLEmax）、冷流水线时间、全部候选、LaTeX和复现脚本均在该目录。5.1、5.2、5.5已同步；其余未完成章节不因本次定量更新被视为完成。

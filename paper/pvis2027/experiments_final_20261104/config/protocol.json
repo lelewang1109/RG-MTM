@@ -34,7 +34,7 @@
     "post_selection": "freeze independently per dataset then rerun final Balanced cold pipeline"
   },
   "statistics": "full-sequence main metrics; held-out75% NPE separately; historical results were previously observed, not a new blind test",
-  "ranking": "Per-dataset five-method numeric best/second for SNS/TW/NPE; SNS/TW cross-input descriptive only. All TD values shown, no cross-unit ranking; Anchor Time columns added.",
+  "ranking": "Four displayed methods per dataset, no Base; SNS/TW/NPE numeric best/second; TD best/second within published and normalized-local unit groups; separate optimization and total time columns; TW coverage only in note",
   "timing": {
     "repeats": 1,
     "native_threads": 1,

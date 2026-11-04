@@ -5,13 +5,13 @@
     8,
     9
   ],
-  "text_within_page_bounds": true,
-  "parameter_table_white": true,
-  "anchor_time_columns": 2,
-  "TD_values_present": true,
   "bibliography_pages": [
     9
   ],
   "final_table_page": 8,
-  "bibliography_after_all_tables": true
+  "method_count": 4,
+  "removed_STMTM_Base": true,
+  "separate_time_columns_per_Anchor": 2,
+  "TW_coverage_in_note": true,
+  "TD_history_recomputed": true
 }

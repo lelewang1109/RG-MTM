@@ -9,6 +9,11 @@
 \usepackage{amsmath,amssymb,amsthm}
 \usepackage{flafter}
 \usepackage{booktabs,multirow,colortbl}
+\makeatletter
+\setlength{\@dblfptop}{0pt}
+\setlength{\@dblfpsep}{12pt}
+\setlength{\@dblfpbot}{0pt plus 1fil}
+\makeatother
 \usepackage[ruled,vlined]{algorithm2e}
 \SetKwInput{KwData}{Data}
 \SetKwInput{KwResult}{Result}
@@ -358,7 +363,7 @@ Local temporal displacement is the complete-canvas-normalized sum
 \end{equation}
 It measures display stability, not physical motion accuracy. We do not multiply by 100 or average this quantity over time.
 
-Published TMTM and ST-MTM SNS/TW/TD are transcribed directly from ST-MTM Table~1~\cite{STMTM:2026}; only their NPE is recomputed locally. Their reported TD units and low-feature-count TW handling remain insufficiently specified. Local normalized TD is nevertheless shown directly in the main table and identified by its unit; it is not cross-ranked with published TD. SNS/TW numerical rankings include the five displayed methods per dataset, but are descriptive summaries across potentially different processed inputs. NPE uses the shared local inputs and a fixed pixel-to-reference-domain conversion; one global orientation reflection is allowed by a predefined rule, with no frame-wise alignment.
+Published TMTM and ST-MTM SNS/TW/TD are transcribed directly from ST-MTM Table~1~\cite{STMTM:2026}; only their NPE is recomputed locally. Their reported TD units and low-feature-count TW handling remain insufficiently specified. Local normalized TD is nevertheless shown directly in the main table and identified by its unit; it is not cross-ranked with published TD. SNS/TW numerical rankings include the four displayed methods per dataset, but are descriptive summaries across potentially different processed inputs. NPE uses the shared local inputs and a fixed pixel-to-reference-domain conversion; one global orientation reflection is allowed by a predefined rule, with no frame-wise alignment.
 
 AnchorMTM Exact uses $\varepsilon=0$ with no numerical topology allowance. Balanced always reserves a positive budget, selected independently per dataset over 1--10\% at 1\% increments using the first chronological quarter. Legal candidates must satisfy attained NMLEmax $\le\varepsilon$. Validation NPE and SNS are separately min--max normalized over those candidates; a constant component has no discriminating score. We fix
 \begin{equation}\label{eq:balanced-validation-score}
@@ -367,12 +372,12 @@ AnchorMTM Exact uses $\varepsilon=0$ with no numerical topology allowance. Balan
 Among candidates within 0.01 of the minimum $J$, we prefer a smaller budget, then lower attained topology cost. There is no minimum NPE-gain condition and no zero-budget Balanced fallback. The selected positive budget is frozen before the final Balanced run. Suffix NPE is archived separately; full-sequence statistics include validation, and historical full-sequence outputs were previously observed, so this is not presented as a new blind test. The reference remains the complete-sequence offline input. QP weights and all other AnchorMTM rules remain fixed (Table~\ref{tab:anchor-parameters-final}).
 
 \subsection{Quantitative Comparison}
-Table~\ref{tab:quantitative-final} distinguishes verbatim published scores from local measurements. Bold and underlined SNS, TW and NPE identify the dataset-wide best and second displayed values, automatically computed over all five methods with ties. SNS/TW rankings summarize reported numbers and do not establish a strictly matched-input comparison. Actual full-canvas-normalized TD is shown in the main cells, but remains unranked across sources until the published unit is confirmed. Each AnchorMTM group adds one Time column, showing optimization above total seconds.
+Table~\ref{tab:quantitative-final} distinguishes verbatim published scores from local measurements. Bold and underlined SNS, TW and NPE identify the dataset-wide best and second displayed values, automatically computed over all four methods with ties. SNS/TW rankings summarize reported numbers and do not establish a strictly matched-input comparison. Actual full-canvas-normalized TD is shown in the main cells, and TD best/second formatting is computed separately for the published and local normalized groups because a common unit is unconfirmed. Each AnchorMTM group has separate optimization and total time columns in seconds; no separate runtime table is used.
 
 \input{../experiments_final_20261104/tables/quantitative_comparison.tex}
 \input{../experiments_final_20261104/tables/anchor_parameter_settings.tex}
 
-All eight AnchorMTM maps and twelve baseline NPE runs complete. The selected Balanced budgets are 1\%, 1\%, 4\%, and 10\% for Gaussian, Ring, Wildfires, and Storms. Gaussian's positive reserved budget attains zero topology error and produces the same complete output as Exact; we retain that row without claiming additional gain. The other three reduce local NPE and cumulative TD, while Wildfires incurs higher SNS and lower TW. This is an observed position--geometry trade-off, not uniform dominance. Ring's local TW uses only one eligible frame out of 40, explicitly shown. Local NPE is lower for AnchorMTM than the baseline reproductions, but reconstructed inputs, unspecified author coordinate units and numerical adapters limit claims about original implementations.
+All eight AnchorMTM maps and the eight displayed baseline NPE runs complete; Base is omitted from the comparison. The selected Balanced budgets are 1\%, 1\%, 4\%, and 10\% for Gaussian, Ring, Wildfires, and Storms. Gaussian's positive reserved budget attains zero topology error and produces the same complete output as Exact; we retain that row without claiming additional gain. The other three reduce local NPE and cumulative TD, while Wildfires incurs higher SNS and lower TW. This is an observed position--geometry trade-off, not uniform dominance. Ring's local TW uses only one eligible frame out of 40, stated in the table note rather than appended to the numeric cell. Local NPE is lower for AnchorMTM than the baseline reproductions, but reconstructed inputs, unspecified author coordinate units and numerical adapters limit claims about original implementations.
 
 \subsection{Certified Bounds and Position--Topology Trade-off}
 % TODO: Compare measured errors with certificates and distinguish budget from attained error.
@@ -385,9 +390,7 @@ Ring initially fails under independent nearest rounding at its original 196-posi
 
 Baseline NPE uses the existing CompactTMTM multiway extension and the disclosed ST-MTM equal-level binary adapter. ST-MTM interval allocation is solved as the same convex Eq.(2), with independent KKT checks; Eq.(1) failures use the unchanged weighted convex QP as a numerical fallback. Certificates retain raw feasibility and scaled-objective stationarity residuals (each below $10^{-7}$), and an explicitly scale-aware complementarity bound. These numerical checks do not relax AnchorMTM topology. The local TMTM reproduction has coincident leaf pixels in 15/744 Storms frames; these frames remain in NPE. No published SNS/TW/TD is recomputed, and these NPE runs are not author binaries or full reproduction certificates.
 
-\input{../experiments_final_20261104/tables/anchor_runtime.tex}
-
-Table~\ref{tab:anchor-runtime-final} reports one measured run per configuration on Apple M4, with single-threaded BLAS and native TTK and sequential extraction; HiGHS keeps its default internal scheduler. Optimization time includes order search and continuous placement. Total time rebuilds source/preprocessing, trees, matching/reference and the final map, including intrinsic checks and integer rounding, without cached intermediates. Balanced is rerun after the new positive-budget selection; unchanged Exact endpoint measurements are retained. Validation and OS page caches may be warm; metric export and process import are excluded. Identical final maps do not imply equal search times. We make no cross-hardware speed claim.
+The two time columns in Table~\ref{tab:quantitative-final} report one measured run per configuration on Apple M4, with single-threaded BLAS and native TTK and sequential extraction; HiGHS keeps its default internal scheduler. Optimization time includes order search and continuous placement. Total time rebuilds source/preprocessing, trees, matching/reference and the final map, including intrinsic checks and integer rounding, without cached intermediates. Balanced is rerun after the new positive-budget selection; unchanged Exact endpoint measurements are retained. Validation and OS page caches may be warm; metric export and process import are excluded. Identical final maps do not imply equal search times. We make no cross-hardware speed claim.
 
 \section{Discussion and Limitations}
 % TODO: Discuss projection loss, candidate coverage, raster effects and readability validation.
@@ -395,6 +398,7 @@ Table~\ref{tab:anchor-runtime-final} reports one measured run per configuration 
 % TODO: Complete after experiments without assuming empirical findings.
 % Flush every pending figure/table before the final bibliography.
 \clearpage
+\twocolumn
 \begingroup
 \interlinepenalty=10000
 \bibliographystyle{abbrv-doi-narrow}

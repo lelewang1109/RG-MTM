@@ -27,7 +27,7 @@ def main():
                float(x['actual_NMLEmax']) <= float(x['epsilon_Balanced']) + 1e-12
                for x in params)
     comparison = rows('comparison_final.csv')
-    assert len(comparison) == len({(x['Dataset'], x['Method']) for x in comparison}) == 20
+    assert len(comparison) == len({(x['Dataset'], x['Method']) for x in comparison}) == 16
     assert all(x['TD'] != 'N/A' for x in comparison)
     runtime = rows('anchor_runtime.csv')
     assert len(runtime) == 8 and all(x['success'] == 'True' and
@@ -41,7 +41,7 @@ def main():
     assert not any(x in (O / 'paper_build.log').read_text() for x in
                    ['Overfull', 'Undefined control sequence', 'undefined references'])
     assert '\\rowcolor' not in (O / 'tables/anchor_parameter_settings.tex').read_text()
-    assert (O / 'tables/quantitative_comparison.tex').read_text().count('Time(s)') == 2
+    assert (O / 'tables/quantitative_comparison.tex').read_text().count('$t_{\\rm opt}$') == 2
     files = {p for p in O.iterdir() if p.is_file() and p.name != 'DELIVERY_MANIFEST.json'}
     for folder in ['source', 'config', 'tables']:
         files.update(p for p in (O / folder).rglob('*') if p.is_file()
@@ -60,8 +60,8 @@ def main():
         selection_rule_version=3, all_40_positive_validation_candidates_legal=True,
         all_8_anchor_runs_legal=True, all_12_local_baseline_NPE_computed=True,
         core_sources_unchanged=True, table_rankings_verified=True,
-        table_presentation='All TD values visible; dataset-wide SNS/TW/NPE numeric ranking; '
-                           'TD units labelled and unranked; two Anchor Time columns; white parameters',
+        table_presentation='All TD values visible; four-method SNS/TW/NPE numeric ranking; '
+                           'TD ranked within unit groups; separate optimization/total columns; white parameters',
         source_limitations='Reconstructed processed inputs; author TD units unconfirmed; '
                            'Ring TW1/40; TMTM Storms15/744 coincident-anchor frames retained; timing1 repeat',
         files=[dict(path=str(p.relative_to(W)), bytes=p.stat().st_size, sha256=sha(p))
