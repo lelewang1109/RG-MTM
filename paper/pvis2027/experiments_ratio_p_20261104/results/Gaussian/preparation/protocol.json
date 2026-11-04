@@ -1,0 +1,43 @@
+{
+  "reconstruction": "explicit3-Gaussian reconstruction; previous local ridge omitted because it produced33 extrema. NOT author field",
+  "l1": [
+    25.0,
+    25.0
+  ],
+  "l2": [
+    85.0,
+    85.0
+  ],
+  "moving_start": [
+    115.0,
+    60.0
+  ],
+  "moving_end": [
+    75.0,
+    35.0
+  ],
+  "sigma": 7.0,
+  "amplitudes": [
+    1.0,
+    0.95,
+    1.05
+  ],
+  "motion": "linear to end over first80% of64 frames, then fixed",
+  "sign": -1,
+  "span": 120.0,
+  "no_ridge": true,
+  "shape": [
+    64,
+    128,
+    128
+  ],
+  "sample_measure": 0.87890625,
+  "p_number": 0.001,
+  "p_percent": 0.1,
+  "p_fraction": 0.001,
+  "p_interpretation": "explicit ratio test: threshold=p*(frameFmax-frameFmin)",
+  "threshold_scope": "each preprocessed frame range",
+  "author_input_identical_confirmed": false,
+  "pre_simplification_array_source": "/Users/lele/Desktop/MergeTreeMaps/paper/pvis2027/experiments_final_20261104/results/Gaussian/preparation",
+  "reuse_scope": "unchanged source fields and coordinates ONLY; trees/layouts/metrics rebuilt"
+}

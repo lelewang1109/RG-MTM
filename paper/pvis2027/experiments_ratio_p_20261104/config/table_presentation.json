@@ -1,0 +1,16 @@
+{
+  "local_TD": "show actual full-canvas normalized TD in main cells; superscript n header",
+  "ranking": "Four methods, all four metrics ranked per dataset by displayed numbers; ties retained",
+  "TD_ranking": "Displayed-number ranking only: author units remain unconfirmed",
+  "time": "Separate optimization and total seconds for each Anchor mode",
+  "parameter_background": "white",
+  "source_limitations": "published SNS/TW are descriptive comparisons to reconstructed inputs",
+  "methods": [
+    "TMTM",
+    "ST-MTM Temporal",
+    "AnchorMTM Exact",
+    "AnchorMTM Balanced"
+  ],
+  "TW_coverage": "Only in table note:64/64,1/40,4/32,11/744",
+  "p_interpretation": "fractions .001,.001,.15,.105"
+}

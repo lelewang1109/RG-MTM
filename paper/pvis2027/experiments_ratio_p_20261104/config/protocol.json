@@ -1,0 +1,52 @@
+{
+  "created": "2026-11-04",
+  "rule_version": 3,
+  "datasets": [
+    "Gaussian",
+    "Ring",
+    "Wildfires",
+    "Storms"
+  ],
+  "p_units": "fraction of each preprocessed frame range: .001,.001,.15,.105; percent equivalents .1,.1,15,10.5; user-requested ratio test",
+  "reconstruction_permission": "user explicitly approved clearly labelled reconstructed inputs",
+  "epsilon_candidates": [
+    0.0,
+    0.01,
+    0.02,
+    0.03,
+    0.04,
+    0.05,
+    0.06,
+    0.07,
+    0.08,
+    0.09,
+    0.1
+  ],
+  "balanced_rule": {
+    "validation": "first25% chronological frames; global unsupervised reference frozen from complete input",
+    "actual_topology_max": "each candidate nominalepsilon, at most10%",
+    "minimum_relative_NPE_gain": null,
+    "normalization": "minmax over legal positive validation candidates, component0 when range<=1e-12; raw metrics unchanged",
+    "score": "J=.5NPE_norm+.5SNS_norm",
+    "near_optimal_J_tolerance": 0.01,
+    "selection": "within .01 of minimumJ prefer lower epsilon then lower actualtopology",
+    "failure": "NO epsilon0 fallback; repair illegality instead",
+    "post_selection": "freeze independently per dataset then rerun final Balanced cold pipeline"
+  },
+  "statistics": "full-sequence main metrics; held-out75% NPE separately; historical results were previously observed, not a new blind test",
+  "ranking": "Four displayed methods per dataset, no Base; SNS/TW/NPE numeric best/second; TD best/second within published and normalized-local unit groups; separate optimization and total time columns; TW coverage only in note",
+  "timing": {
+    "repeats": 1,
+    "native_threads": 1,
+    "workers": 1,
+    "BLAS_threads": 1,
+    "HiGHS_threads": "auto/default",
+    "cold_source_and_trees": true,
+    "validation_cache": "allowed but excluded from cold timings"
+  },
+  "baseline_policy": "quote SNS/TW/TD Table1; recompute NPE only",
+  "TD": "sum adjacent matched final-anchor displacement / full fixed physical canvas extent, no percentage or temporal average",
+  "TW": "paper k, valid only0<k<n/2; missing notzero",
+  "raster_fix": "only if native independent rounding fails, solve closest legal integer skeleton at SAME L; continuous order,x,z,w unchanged; nearest anchors fixed where feasible; otherwise minimal joint rounding; validate rendered topology",
+  "no_core_algorithm_edits": true
+}

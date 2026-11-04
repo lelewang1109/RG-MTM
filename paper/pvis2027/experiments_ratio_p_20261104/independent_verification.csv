@@ -1,0 +1,9 @@
+Dataset,Method,all_metrics_independently_verified,finite_maps,all_leaf_anchors_preserved,source_reference_verified,topology_budget_verified,TW_valid_frames,TD_matched_steps,profile_minimum_count_mismatch_frames,integer_repaired_frames,max_rounding_error_pixels,native_rounding_parity_checked_frames
+Gaussian,Exact,True,True,True,True,True,64,189,0,0,0.0,0
+Gaussian,Balanced,True,True,True,True,True,64,189,0,0,0.0,0
+Ring,Exact,True,True,True,True,True,1,143,0,26,1.1905778943405494,14
+Ring,Balanced,True,True,True,True,True,1,143,0,21,1.1905778943405494,19
+Wildfires,Exact,True,True,True,True,True,4,112,0,0,0.0,0
+Wildfires,Balanced,True,True,True,True,True,4,112,0,0,0.0,0
+Storms,Exact,True,True,True,True,True,11,2737,0,0,0.0,0
+Storms,Balanced,True,True,True,True,True,11,2737,0,0,0.0,0

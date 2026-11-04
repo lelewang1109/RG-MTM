@@ -1,0 +1,9 @@
+Dataset,Method,NPE,success,frames,one_global_reflection,collapsed_anchor_frames,note
+Gaussian,TMTM,0.11177217182615835,True,64,True,0,local NPE only; published SNS/TW/TD are NOT recalculated
+Gaussian,ST-MTM Temporal,0.1153961824483478,True,64,True,0,local NPE only; published SNS/TW/TD are NOT recalculated
+Ring,TMTM,0.1755693829125843,True,40,False,0,local NPE only; published SNS/TW/TD are NOT recalculated
+Ring,ST-MTM Temporal,0.24632695944063748,True,40,False,0,local NPE only; published SNS/TW/TD are NOT recalculated
+Wildfires,TMTM,0.2280042543503018,True,32,False,0,local NPE only; published SNS/TW/TD are NOT recalculated
+Wildfires,ST-MTM Temporal,0.3179595394390389,True,32,False,0,local NPE only; published SNS/TW/TD are NOT recalculated
+Storms,TMTM,0.5752859558929264,True,744,True,0,local NPE only; published SNS/TW/TD are NOT recalculated
+Storms,ST-MTM Temporal,0.45785829943727696,True,744,True,0,local NPE only; published SNS/TW/TD are NOT recalculated

@@ -14,7 +14,7 @@ from rgmtm.interval_order import width_order
 
 def solve_anchored_sequence(centers, measures, hierarchies, extrema, merge_values,
                             tracks, lo, hi, scalar_range, p=Parameters(), *,
-                            eta=None, direction=None, epsilon=None, epsilon0=DEFAULT_EPSILON0, reference=None):
+                            eta=None, direction=None, epsilon=None, epsilon0=DEFAULT_EPSILON0, reference=None, periodic_lengths=None):
     """Fit once, then use the existing heuristic order search and capped QP.
 
     Prefer epsilon (normalized extra budget). eta is the legacy absolute-budget
@@ -43,7 +43,7 @@ def solve_anchored_sequence(centers, measures, hierarchies, extrema, merge_value
     if reference is not None:
         ref = reference
     elif direction is None:
-        ref = gm.auto_reference({'tracks': tracks}, extrema, np.asarray(lo), np.asarray(hi))
+        ref = gm.auto_reference({'tracks': tracks,'centers':centers,'periodic_lengths':periodic_lengths}, extrema, np.asarray(lo), np.asarray(hi))
     else:
         from itertools import product
         a = reference_unit_direction(len(lo), direction)
