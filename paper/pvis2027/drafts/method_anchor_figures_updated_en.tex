@@ -110,8 +110,15 @@ Equal-level merge events form one multifurcation; arbitrary binary refinements d
 \subsection{One-Dimensional Merge-Tree Profiles}
 A 1D merge-tree profile represents extrema at anchors in a selected leaf order. Regular vertices on leaf arcs supply scalar context within leaf intervals; internal arcs and paths to the LCA supply the intervening gaps~\cite{Koepp:2023:TMTM,STMTM:2026}. In join convention, extrema become profile minima, and the largest profile value between two anchors gives their displayed merge level. Exact preservation requires each strict subtree to occupy a contiguous leaf block. Arranging these profiles along time yields a static temporal map. This profile model provides the basis for the spatial anchoring formulation below.
 
+\begin{figure*}[t]
+\centering
+\includegraphics[width=\textwidth]{../figures/anchor_framework.pdf}
+\caption{AnchorMTM construction. (1) Extract augmented merge trees and match leaf supports, then estimate one fixed spatial reference from matched extremum motion. (2) Refine candidate leaf orders, admit those satisfying the merge-error allowance, and select by fixed-order displacement and NROE. (3) Optimize anchors within nonoverlapping intervals under a displacement cap, using valid matched history. (4) Reconstruct scalar profiles with barrier correction and assemble the temporal map. Diagrams are schematic; the map is an existing qualitative Storms output at $\varepsilon=10\%$. Order search is heuristic, and continuous feasibility and rendered errors are checked separately.}
+\label{fig:framework}
+\end{figure*}
+
 \section{AnchorMTM}\label{sec:method}
-AnchorMTM connects a shared spatial reference to the displayed leaf anchors. We construct the reference and formulate the layout, describe the construction, and then explain its unavoidable position costs through certified bounds. Analysis uses join convention; split-tree scalar signs are restored after reconstruction.
+Figure~\ref{fig:framework} summarizes the construction. AnchorMTM connects a shared spatial reference to the displayed leaf anchors. We construct the reference and formulate the layout, describe the construction, and then explain its unavoidable position costs through certified bounds. Analysis uses join convention; split-tree scalar signs are restored after reconstruction.
 
 \subsection{Spatial Reference and Problem Formulation}
 \paragraph{Cross-frame Leaf Correspondence.}

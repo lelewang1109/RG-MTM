@@ -1,6 +1,6 @@
-# Figure 5: Storms parameter profiles and event maps
+# Figure 6: Storms parameter profiles and event maps
 
-`scene.json` stores the final editable line, marker, frame and text coordinates; `assets/` contains scalar backgrounds only. The canonical editable PowerPoint is in `../../../最新论文与三张PPT/Fig5_Storms参数剖面.pptx`.
+`scene.json` stores the final editable line, marker, frame and text coordinates; `assets/` contains scalar backgrounds only. The canonical editable PowerPoint is in `../../../最新论文与三张PPT/Fig6_Storms参数剖面.pptx`.
 
 Run `python3 export_images.py` with NumPy/Matplotlib/Pillow installed to render PDF/PNG into `delivery/`. Times New Roman must be installed for matching typography. This is a plot-only reproduction from the final scene, not a rerun of the scientific method.
 
