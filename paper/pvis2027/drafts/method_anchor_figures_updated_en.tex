@@ -8,6 +8,7 @@
 \usepackage{cite}
 \usepackage{amsmath,amssymb,amsthm}
 \usepackage{flafter}
+\usepackage{placeins}
 \usepackage{booktabs,multirow,colortbl}
 \makeatletter
 \setlength{\@dblfptop}{0pt}
@@ -49,7 +50,7 @@
 \includegraphics[width=\linewidth]{../figures/anchor_storms_overview.pdf}
 \par
 \refstepcounter{figure}\label{fig:storms_overview}
-{\captionfonts\raggedright\noindent\figurename~\thefigure: Qualitative Storms archive linking spatial feature supports to a temporal map ($\varepsilon=5\%$; separate preprocessing from Table~\ref{tab:quantitative-final}). Top: five snapshots of one matched extremum and their scalar profiles; blue outlines mark its leaf-arc supports, and dashed guides link the extrema to their displayed profile anchors. Middle: the profiles rotated by $90^\circ$; dashed borders distinguish sampled intermediate frames. Bottom: the full 744-frame map, with the selected storm-related region outlined and the matched feature's displayed positions marked in blue.\par}
+{\captionfonts\raggedright\noindent\figurename~\thefigure: Qualitative Storms archive ($\varepsilon=5\%$; preprocessing differs from Table~\ref{tab:quantitative-final}). Spatial snapshots and profiles identify one matched extremum; blue outlines show leaf-arc supports. Rotated profiles and dashed intermediate samples connect to its trajectory in the full 744-frame map.\par}
 
 }
 \begin{document}
@@ -125,7 +126,7 @@ Hungarian assignment maximizes total intersection count over one-to-one pairs, d
 \begin{figure}[tbp]
 \centering
 \includegraphics[width=\linewidth]{../figures/anchor_leaf_correspondence.pdf}
-\caption{Overlap-based leaf correspondence on a shared grid. Colored regions represent leaf-arc supports; hatching marks samples shared with the previous frame. Maximum-overlap one-to-one assignment continues $A$ and $B$, leaves $C_t$ unmatched, and assigns a new identity to $D_{t+1}$. Birth and death denote matching states, not identified physical events.}
+\caption{Overlap-based leaf correspondence. Hatching shows shared support samples. One-to-one maximum-overlap matching continues $A,B$, leaves $C_t$ unmatched and creates $D_{t+1}$. Birth/death denote matching states, not verified physical events.}
 \label{fig:leaf_correspondence}
 \end{figure}
 
@@ -152,7 +153,7 @@ Figure~\ref{fig:projection_conflict} contrasts the spatial target order with a t
 \begin{figure}[tbp]
 \centering
 \includegraphics[width=\linewidth]{../figures/anchor_projection_conflict.pdf}
-\caption{Spatial reference and hierarchy--position conflict in a synthetic four-minimum field. (a) Only extrema $A$--$D$ project onto a fixed direction. Colored sample-centered cells indicate their leaf-arc supports; gray cells belong to internal arcs or critical samples. (b) The augmented merge tree of the same grid; diamonds mark critical vertices and circles mark regular samples. Only leaf extrema map to an illustrative tree-consistent axis. (c) The spatial order interleaves the two sibling subtrees. Short bars indicate feature widths schematically; tree spacing and mapped positions are illustrative, not scalar heights or optimized results.}
+\caption{Synthetic reference--hierarchy conflict. (a) Extrema $A$--$D$ project onto a fixed direction; colors show leaf-arc supports. (b) The augmented merge tree of the same grid. (c) Spatial order interleaves sibling subtrees. Diamonds mark critical samples and circles regular samples; widths and mapped positions are schematic.}
 \label{fig:projection_conflict}
 \end{figure}
 
@@ -229,7 +230,7 @@ Figure~\ref{fig:selective_relaxation} illustrates the additional ordering freedo
 \begin{figure}[tbp]
 \centering
 \includegraphics[width=\linewidth]{../figures/anchor_selective_relaxation.pdf}
-\caption{Schematic selective relaxation. (a) The original hierarchy groups $A,B$ and $C,D$; the circled merge identifies the constraint to relax. (b) Flattening this merge permits the leaf order $A,C,D,B$ while retaining the $C,D$ subtree. Diamonds denote critical nodes and circles regular arc samples. Only leaf extrema map to the displayed axis; colored bars give approximate width cues. Node spacing and widths are illustrative, and no numerical merge error is implied.}
+\caption{Selective relaxation of the $A,B$ sibling constraint permits order $A,C,D,B$ while retaining subtree $C,D$. Diamonds mark critical nodes and circles regular samples; widths and spacing are schematic, not measured merge errors.}
 \label{fig:selective_relaxation}
 \end{figure}
 
@@ -359,62 +360,72 @@ The allowance concerns the displayed hierarchy; the source field and feature ide
 \input{../section5_revision_20261105/table1_comparison.tex}
 \input{../section5_revision_20261105/table2_parameters_runtime.tex}
 \subsection{Experimental Setup}
-We study Gaussian, Ring, Wildfires and Storms, containing 64, 40, 32 and 744 frames, respectively. The raster length is 4096 except for Ring, which retains 196. We interpret the ST-MTM Table~1 persistence numbers as scalar-range fractions: $p=(0.001,0.001,0.15,0.105)$, and simplify each frame at $p(F_{\max}^t-F_{\min}^t)$~\cite{STMTM:2026}. This explicitly tested interpretation corresponds to $0.1\%,0.1\%,15\%,10.5\%$; all 880 thresholds were checked.
+Our four planar inputs are Gaussian, Ring, Wildfires and Storms (64, 40, 32 and 744 frames). Raster lengths are 4096, except Ring's original 196 positions. The ST-MTM persistence numbers are tested as per-frame range fractions $p=(0.001,0.001,0.15,0.105)$, or $0.1\%,0.1\%,15\%,10.5\%$; all 880 thresholds were checked~\cite{STMTM:2026}. Gaussian is a three-peak reconstruction, Ring uses the archived generator, Wildfires aggregates FRP into 32 grids, and Storms uses ERA5 anomalies with the archived moving-mean and smoothing convention. Author-processed arrays are unavailable, so these are disclosed local reconstructions, not identical-input reproductions.
 
-Figure~\ref{fig:budget-tradeoff} additionally uses archived volumetric runs: Tangaroa (201 frames, $300\times180\times120$ velocity magnitudes clipped to $[0,2]$, absolute persistence 0.2)~\cite{Popinet:2004:Tangaroa}, and Cylinder (102 frames, $135\times64\times48$ cropped $Q$-criterion volumes, 2\% per-frame persistence)~\cite{Camarri:2005:Cylinder,Weinkauf:SquareCylinder}. References are motion-derived for Tangaroa and streamwise $x$ for Cylinder. These 8192-position width-aware, capped-QP outputs are independently rechecked after rendering and excluded from Table~\ref{tab:quantitative-final}.
-
-The local inputs are a three-peak Gaussian reconstruction, the archived Ring generator, Wildfires FRP aggregated into 32 equal-duration spatial grids, and 744 ERA5 Storms anomaly fields with the archived moving-mean and smoothing convention. The authors' final processed arrays are unavailable for confirmation. Consequently, we distinguish published results from measurements on our reconstructed inputs rather than claiming an identical-input reproduction. All local layouts share trees, leaf identities, support-overlap tracks, extremum references, a fixed offline direction and a common projected range. We do not independently realign or rescale baselines in each frame.
-
-We use three complementary metrics. SNS measures relative geometry as squared scale-normalized stress between support-centroid distances and displayed anchor distances, averaged over eligible frames~\cite{Smelser:2025:Scale,STMTM:2026}. TW measures neighborhood preservation~\cite{Venna:2001:NP}; we use the published $k=(1,3,5,3)$ and require $0<k<n_t/2$. Ineligible frames are omitted, not assigned zero. Absolute spatial anchoring is measured by
+All local methods share trees, identities, support centroids, extremum targets, one offline direction and a fixed projected range. SNS measures squared scale-normalized stress between support-centroid and anchor distances~\cite{Smelser:2025:Scale,STMTM:2026}; TW measures neighborhoods~\cite{Venna:2001:NP}, with $k=(1,3,5,3)$ and $0<k<n_t/2$. Ineligible frames are omitted. Absolute anchoring uses
 \begin{equation}\label{eq:experimental-npe}
 \mathrm{NPE}=\frac{1}{T}\sum_t\frac{\max_i|x_i^t-q_i^t|}{L_{world}}.
 \end{equation}
-TMTM and ST-MTM SNS/TW are quoted from the latter's Table~1, using its Temporal mode for ST-MTM. Their NPE is measured separately with the local shared references and fixed canvas convention. The published SNS/TW and local NPE therefore have different provenance; Table~\ref{tab:quantitative-final} keeps this distinction explicit.
+TMTM/ST-MTM SNS/TW are quoted from ST-MTM Table~1 (Temporal mode); their NPE is measured with local adapters and shared references. Table~\ref{tab:quantitative-final} distinguishes these sources. Local TW coverage is 64/64, 1/40, 4/32 and 11/744; author coverage is unspecified.
 
-We additionally evaluate fixed Hilbert and Morton sample-domain linearizations, following the use of space-filling curves for spatio-temporal 1D projections~\cite{Franke:2021:1DP}. The canonical grid orientation is frozen: columns are $x$, rows are $y$, with no rotation, mirror or traversal-reversal search. A minimal power-of-two square is used for curve indexing; out-of-domain samples are discarded. Each original extremum receives its full-grid curve rank, normalized to the shared canvas and rounded at the original raster length. The same support centroids, extremum identities and physical reference targets are used for evaluation. These baselines do not enforce merge-tree topology or finite feature widths. Direction-tuned exploratory results remain separate from the default configurations reported here.
+Hilbert and Morton provide sample-domain baselines~\cite{Franke:2021:1DP}. Their grid orientation is fixed ($x$ columns, $y$ rows), with no rotation, reflection or reversal search. Curves use power-of-two padding, discard out-of-domain samples, and map each extremum's full-grid rank to the common canvas at the original raster length. They impose neither merge-tree topology nor finite-width constraints.
 
 \paragraph{Mode selection.}
-Exact fixes $\varepsilon=0$. Balanced retains a positive budget, selected separately for each dataset on the first chronological quarter from 1--10\% in steps of 1\%. Among legal reconstructions satisfying actual NMLE$_{\max}\le\varepsilon$, we minimize
+Exact uses $\varepsilon=0$. Balanced selects a positive budget from 1--10\% (1\% steps) on the first chronological quarter. Among legal reconstructions with attained NMLE$_{\max}\le\varepsilon$, it minimizes
 \begin{equation}\label{eq:balanced-validation-score}
 J=0.5\,\mathrm{NPE}_{norm}+0.5\,\mathrm{SNS}_{norm}.
 \end{equation}
-Each term is min--max normalized across legal validation candidates, with constant terms contributing zero. Within 0.01 of minimum $J$, we prefer smaller budgets and then smaller attained errors. Budgets are frozen before complete runs; no minimum-improvement requirement or zero-budget fallback is imposed. Full-sequence results include the validation segment. Earlier outputs were observed, so these are exploratory results, not a new blind test.
+Terms are min--max normalized over legal candidates; constant terms contribute zero. Within 0.01 of the minimum, smaller budgets then attained errors break ties. Budgets are frozen before full runs, without a zero-budget fallback. Full results include validation frames; earlier outputs were observed, so this is not a new blind test.
+
+\begin{figure*}[t]
+\centering
+\includegraphics[width=\textwidth]{../figures/anchor_storms_budget_profiles.pdf}
+\caption{Storms budget study in the qualitative archive of Fig.~\ref{fig:storms_overview}. Top: scalar profiles at frame 433; blue points mark one extremum, dark dashed lines its fixed reference, and arrows their offset. Bottom: the event maps with identical local crops. All columns share position and scalar scales.}
+\label{fig:storms-budget-profiles}
+\end{figure*}
 
 \subsection{Quantitative Comparison}
-Table~\ref{tab:quantitative-final} groups five method families and shows both AnchorMTM modes. The comparison separates absolute anchoring from relative geometry: neither one implies the other.
-
-\paragraph{Relative geometry.}
-Against the reported ST-MTM values, Balanced has lower SNS on all four datasets: 0.0353 versus 0.0600 on Gaussian, 0.1334 versus 0.2100 on Ring, 0.0447 versus 0.2400 on Wildfires, and 0.0743 versus 0.2100 on Storms. These are favorable descriptive comparisons under the documented reconstruction conventions, not proof of dominance on the authors' exact processed fields.
-
-\paragraph{Neighborhoods and coverage.}
-ST-MTM reports higher TW than Balanced on all four datasets. Its relative-distance and temporal-placement objectives can preserve neighborhoods without assigning display coordinates to a fixed physical reference. AnchorMTM instead also respects reference targets, finite feature widths and a topology allowance, which can require a different ordering or spacing. This explains a possible trade-off, not a demonstrated failure of ST-MTM's technique. Furthermore, our Ring, Wildfires and Storms TW values use only 1, 4 and 11 eligible frames. Their coverage differs from the unreported author protocol, so these numbers cannot establish a reliable full-sequence neighborhood ranking. Wildfires Exact's 0.9136 is also too close to the published two-decimal 0.91 to establish superiority.
-
-\paragraph{Space-filling curves.}
-Balanced has lower SNS and higher TW than both default curves on Gaussian, Wildfires and Storms. Ring is an exception: Hilbert has SNS 0.1252 and TW 0.9048, compared with Balanced's 0.1334 and 0.8571. Ring TW uses only one eligible frame and cannot establish a full-sequence neighborhood advantage. Both curves have higher NPE than Balanced on all four inputs. Curve traversal coordinates do not represent the chosen physical projection axis, so this NPE difference measures reference alignment rather than general visualization quality; their lack of topology guarantees also distinguishes their task from merge-tree mapping.
-
-\paragraph{Absolute anchoring.}
-On the shared local inputs, Balanced has lower NPE than the two merge-tree baseline adapters and both default curves on every dataset. Relative to the ST-MTM adapter, the reductions are approximately 92.3\%, 84.0\%, 96.3\% and 96.9\%, respectively. Relative-distance optimization leaves the coordinate origin and reference direction unspecified; temporal regularization stabilizes display positions but does not enforce correspondence to our physical targets. AnchorMTM explicitly constrains this correspondence. These results support the intended absolute-position task, while the TW results retain the associated neighborhood limitations.
-
-\subsection{Topology Budgets and Reconstruction Validity}
-The requested budgets are listed in Table~\ref{tab:anchor-parameters-final}; reconstructed topology errors are checked independently. Exact has zero error in the complete fixed-leaf merge matrix on all four inputs. Balanced attains maximum normalized errors of 0, 0.982\%, 4.421\% and 9.985\%, all within its respective allowance. No continuous or rendered budget violation, collapsed-anchor frame or layout failure occurs in the eight complete runs. The checks cover the fixed leaf labels and diagonal extremum values, not every internal label of an augmented tree or every finite-root extension.
-
-Ring is reconstructed at the original 196 positions. A checked joint-integer-rounding adapter is required in 26 Exact and 21 Balanced frames; it preserves the continuous order and barrier-pixel requirements without increasing the topology budget. Thus integer feasibility is checked explicitly rather than concealed by a larger raster.
-
-\subsection{Interpreting the Spatial Reference}
-The spatial-reference task is illustrated by Fig.~\ref{fig:storms_overview}: source supports identify where a matched extremum lies, while the temporal map exposes its displayed trajectory. The reference gives that display coordinate a consistent spatial meaning; it does not make overlap-based tracks verified physical storm identities. This qualitative archive uses separate preprocessing and a 5\% budget, and is not a visual rendering of the newly selected 10\% quantitative Storms configuration. The projection-conflict examples in Section~\ref{sec:method} explain why a spatial target may conflict with a hierarchy; they are explanatory examples rather than additional measured datasets.
-
-\subsection{Budget Sensitivity and Performance}
 \begin{figure}[tb]
 \centering
-\includegraphics[width=\columnwidth]{../figures/anchor_budget_tradeoff_single_column.pdf}
-\caption{Full-sequence position--topology curves on three planar and two volumetric inputs. Solid: worst displacement; dashed: pooled mean. The horizontal axis is worst rendered merge error. Shade and labels encode requested budgets (\%). Errors are normalized; all maps satisfy their allowances, including numerical tolerance $\varepsilon_0$.}
+\includegraphics[width=\columnwidth]{../figures/anchor_planar_order_scalar.pdf}
+\caption{Planar budget diagnostics: mean reference-order error NROE (left), and mean/maximum rendered NMLE (right), in percent. Lines connect measured configurations.}
 \label{fig:budget-tradeoff}
 \end{figure}
-The two modes share the algorithm and fixed QP weights; their comparison tests budget effects rather than removing components. Balanced reduces NPE relative to Exact by approximately 17.0\% on Ring, 11.0\% on Wildfires and 65.0\% on Storms. Gaussian retains identical outputs despite its positive 1\% budget, which we report without inventing a benefit. SNS improves on Ring and Storms but increases from 0.0426 to 0.0447 on Wildfires. Thus relaxing topology does not improve every metric. The complete 40 positive validation candidates and independent full-run checks remain archived.
+Balanced has lower SNS than the published ST-MTM values on all four inputs, but ST-MTM reports higher TW. The reconstruction and coverage differences prevent identical-input superiority claims; Wildfires Exact's TW of 0.9136 is also too close to the published two-decimal 0.91 to establish an advantage.
 
-Figure~\ref{fig:budget-tradeoff} fixes all settings except $\varepsilon$. Planar budgets are 0, 1--10\% (step 1\%), 15\%, 20\%, 30\%; Ring adds 40\%, 50\%, 60\%, 62\%, 63\%, 70\%, 100\%. Volumetric budgets are 0, 2\%, 5\%, 10\%, 20\%. The plotted $E_\infty=\max_{t,i}|x_i^t-q_i^t|/L_{world}$ and $E_{\mathrm{pool}}=\sum_{t,i}|x_i^t-q_i^t|/(L_{world}\sum_t n_t)$ differ from NPE's frame-maximum average. Ring drops from 10.02\% worst displacement at 62\% budget to 1.18\% at 63\%; Cylinder drops from 27.00\% to 5.27\% at 2\%; Tangaroa reaches 10.61\% at 20\%. Gaussian's unchanged curves are omitted. Balanced selection is unchanged; finite sweeps do not establish unrestricted-budget endpoints.
+Against fixed Hilbert and Morton curves, Balanced improves SNS and TW on Gaussian, Wildfires and Storms. Ring is an exception: Hilbert achieves SNS 0.1252 and TW 0.9048, versus Balanced's 0.1334 and 0.8571; its TW evidence covers only one eligible frame. Balanced has lower NPE than both curves and both merge-tree adapters on every input. Reductions relative to the ST-MTM adapter are 92.3\%, 84.0\%, 96.3\% and 96.9\%. This supports alignment to the specified reference, not general visualization quality: traversal coordinates need not represent a physical projection, and relative geometry does not determine an absolute origin.
 
-Table~\ref{tab:anchor-parameters-final} reports one uncached Balanced pipeline execution per dataset on Apple M4; Exact timings are retained in the archive. BLAS and native TTK use one thread; extraction is sequential and HiGHS retains its default scheduler. Optimization covers ordering and continuous placement. Total time includes source preprocessing, tree extraction and I/O, feature matching/reference estimation, optimization, integer reconstruction and intrinsic checks; metric export, report generation and process imports are excluded. Baseline NPE uses disclosed CompactTMTM multiway and ST-MTM equal-level/same-equation solver adaptations rather than author binaries. OS page caches may be warm. The timings describe these runs and do not support statistical speedup or cross-hardware claims.
+\subsection{Topology Budgets and Position Sensitivity}
+Exact has zero fixed-leaf merge-matrix error. Balanced attains maximum NMLE of 0, 0.982\%, 4.421\% and 9.985\%, within its allowances; all eight runs pass continuous and raster checks without collapsed anchors. Checks include diagonal extrema, not every augmented internal label. Ring requires checked joint integer rounding in 26 Exact and 21 Balanced frames, retaining its 196 positions and continuous order.
+
+Balanced reduces NPE relative to Exact by 17.0\% on Ring, 11.0\% on Wildfires and 65.0\% on Storms. Gaussian is unchanged despite its positive 1\% budget. SNS improves on Ring and Storms but rises from 0.0426 to 0.0447 on Wildfires. Budget relaxation therefore does not improve every metric.
+
+Figures~\ref{fig:budget-tradeoff} and~\ref{fig:volume-order-scalar} vary $\varepsilon$ over 0, 2\%, 5\%, 10\%, 20\% with fixed inputs and references. Mean NROE ignores interval widths; per-frame rendered NMLE includes the complete fixed-leaf matrix, and we report its frame mean and maximum. Ring's mean NROE decreases from 3.72\% to 1.46\%, with maximum NMLE 17.79\%; Wildfires changes little after 5\%. Gaussian's coincident curves are omitted. These diagnostics retain the selected Balanced budgets and do not establish unrestricted endpoints.
+
+Figure~\ref{fig:storms-budget-profiles} shows the same qualitative archive as Fig.~\ref{fig:storms_overview}, separate from the main table's preprocessing. Its curves are columns of the temporal maps, not geographic transects. At frame 433, reference offset falls from 7.54\% at 0--5\% budget to 0.83\% at 10--20\%. A reference remains a placement target, not a hard equality. Support-overlap tracks are not independently verified storm identities.
+
+Table~\ref{tab:anchor-parameters-final} reports one uncached Balanced run on Apple M4, with one BLAS/TTK thread, sequential extraction and the default HiGHS scheduler. Optimization includes ordering and placement; total time additionally includes preprocessing, trees, matching/reference estimation, rasterization, I/O and checks. Imports, reporting and metric export are excluded; OS caches may be warm. Timings do not establish speedup significance. Baseline NPE uses the disclosed CompactTMTM and ST-MTM solver adaptations, not author binaries.
+
+\subsection{Volumetric Diagnostics and Central-Tree Variant}\label{sec:centered-volume}
+\begin{figure}[tb]
+\centering
+\includegraphics[width=\columnwidth]{../figures/anchor_volume_order_scalar.pdf}
+\caption{Volumetric budget diagnostics using the metrics of Fig.~\ref{fig:budget-tradeoff}. All reconstructions respect their allowances, including Cylinder's $10^{-7}$ numerical tolerance at zero budget.}
+\label{fig:volume-order-scalar}
+\end{figure}
+\begin{figure*}[t]
+\centering
+\includegraphics[width=\textwidth]{../figures/anchor_cylinder_centered_blue.pdf}
+\caption{Cylinder central-tree variant: the full 102-frame map (a) and source $Q$ isosurfaces at three times (b--d), with a common camera and blue scalar scale. $Q=0.2$ is translucent and $Q=1$ marks the core; values above 1 saturate. The outlined component contains extremum S. Map position is not physical $X$; the padded locator and stages I--III are viewing guides, not exact support projections or transition estimates.}
+\label{fig:cylinder-centered}
+\end{figure*}
+Archived Tangaroa (201 frames, $300\times180\times120$, speeds clipped to $[0,2]$, absolute persistence 0.2)~\cite{Popinet:2004:Tangaroa} and Cylinder (102 frames, $135\times64\times48$, $Q$-criterion, 2\% per-frame persistence)~\cite{Camarri:2005:Cylinder,Weinkauf:SquareCylinder} provide additional diagnostics, excluded from the main table. Their 8192-position layouts use motion-derived and streamwise-$x$ references, respectively. Tangaroa's mean NROE falls from 9.67\% to 0.30\%, with maximum NMLE 19.94\%; Cylinder reaches 0.19\% NROE at 2\% budget, with maximum NMLE 1.67\%. Lower order error does not by itself imply lower absolute displacement.
+
+The separate Cylinder variant in Fig.~\ref{fig:cylinder-centered} uses the same 102 volumes, retained 2\% persistence trees and a 1\% merge allowance. Full-sample tree coordinates $g_i^t\in[-0.5,0.5]$ add $16\,\mathrm{mean}_i(x_i^t-g_i^t)^2$ to the placement objective; reference, geometry, temporal and eccentricity weights are 1, 1, 0.5 and 0.1. True-$X$ targets retain one fixed domain transform. This changes multiple weights and is not a single-factor ablation.
+
+Its fixed tree-compatible order needs a worst-case reference cap of 55.21\%; we explicitly allow 56.21\%, including 1\% slack. Monotone warping of the tree profile through the optimized intervals produces 32768-position rasters. All retained-pair checks yield NMLE$_{max}=0$, within 1\%, including half-pixel position rounding; this conservative order does not exploit budgeted reordering or introduce simulation frames.
+
+Central guidance exposes unfolding but sacrifices anchoring. Frame-balanced mean absolute $X$ error is 21.1\%, 25.5\% and 28.1\% for guidance weights 1, 4 and 16, versus 1.9\% previously. This differs from NPE and pooled mean displacement. These exploratory outputs remain outside the main tables and curves. Equal-$X$ features may differ in $Y,Z$; their layout separation does not encode depth.
 
 \section{Discussion and Limitations}
 A fixed physical reference and a geometry-oriented embedding answer different questions. AnchorMTM supports reading positions along a chosen spatial coordinate; ST-MTM's higher reported TW highlights the value of preserving local neighborhoods. Neither property guarantees the other. The four-input results therefore support a task-specific anchoring claim, rather than universal superiority in spatial or temporal fidelity.
@@ -424,9 +435,8 @@ The empirical comparison has three limitations. First, author-processed fields a
 The experiments also do not establish perceptual readability, physical-motion judgment accuracy, repeated-run speedups or generalization to unseen datasets. These require separate studies. Keeping source provenance, coverage, failed candidates and attained topology errors alongside the numerical scores is necessary when extending this evaluation.
 \section{Conclusion}
 AnchorMTM connects merge-tree maps to a shared spatial reference through topology-budgeted ordering, constrained anchor placement and checked scalar-profile reconstruction. Position bounds explain conflicts caused by topology and finite widths, while Exact and Balanced expose the resulting position--topology choices in one framework. On four local inputs, the measured layouts improve absolute reference positioning over the baseline adapters; comparison with published SNS values is favorable, while neighborhood preservation remains a limitation. The archived configurations and validity checks make these preliminary findings reproducible within the stated input and evaluation scope.
-% Flush every pending figure/table before the final bibliography.
-\clearpage
-\twocolumn
+% Flush pending floats without forcing an otherwise empty bibliography page.
+\FloatBarrier
 \begingroup
 \interlinepenalty=10000
 \bibliographystyle{abbrv-doi-narrow}

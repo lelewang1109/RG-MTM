@@ -1,41 +1,18 @@
-# 当前正文五张图
+# 当前正文八张图
 
-正文来源：[PDF](../最新论文与三张PPT/AnchorMTM_最新论文.pdf) · [LaTeX](../drafts/method_anchor_figures_updated_en.tex)。
+[最新论文 PDF](../最新论文与三张PPT/AnchorMTM_最新论文.pdf)。正文至第9页，参考文献延续至第10页。
 
-## Figure 1 — Storms overview
+| 编号 | 内容 | 排布 | 文件 |
+|---|---|---|---|
+| Figure 1 | Storms 空间支持与时序地图 | 首图，双栏 | [PDF](anchor_storms_overview.pdf) · [PNG](anchor_storms_overview.png) · [PPT](../最新论文与三张PPT/Fig1_Storms.pptx) |
+| Figure 2 | 跨帧叶特征对应 | 单栏 | [PDF](anchor_leaf_correspondence.pdf) · [PNG](anchor_leaf_correspondence.png) · [PPT](../最新论文与三张PPT/Fig2_跨帧特征对应.pptx) |
+| Figure 3 | 空间投影与顺序冲突 | 单栏 | [PDF](anchor_projection_conflict.pdf) · [PNG](anchor_projection_conflict.png) · [PPT](../最新论文与三张PPT/Fig3_空间映射与拓扑冲突.pptx) |
+| Figure 4 | 选择性拓扑放松 | 单栏 | [PDF](anchor_selective_relaxation.pdf) · [PNG](anchor_selective_relaxation.png) · [PPT](../最新论文与三张PPT/Fig4_选择性放松.pptx) |
+| Figure 5 | Storms 同帧剖面与完整事件参数对比 | 双栏，第8页顶部 | [PDF](anchor_storms_budget_profiles.pdf) · [PNG](anchor_storms_budget_profiles.png) · [PPT](../最新论文与三张PPT/Fig5_Storms参数剖面.pptx) |
+| Figure 6 | 二维 NROE / NMLE 预算诊断 | 单栏，第8页 | [PDF](anchor_planar_order_scalar.pdf) |
+| Figure 7 | 三维 NROE / NMLE 预算诊断 | 单栏，第8页 | [PDF](anchor_volume_order_scalar.pdf) |
+| Figure 8 | Cylinder 中心树变体与源三维快照 | 双栏，第9页 | [PDF](anchor_cylinder_centered_blue.pdf) |
 
-[PDF](anchor_storms_overview.pdf) · [PNG](anchor_storms_overview.png) · [可编辑 PPT](../最新论文与三张PPT/Fig1_Storms.pptx)
+Figure 5采用与首图相同的定性Storms档案，非主表定量输入；预算0/2/5/10/20%，无人工偏移。参考线由#888888加深为#555555并加粗，保持Times New Roman。放大图左下角对齐，线、点与框均在PPT中可编辑。
 
-![Figure 1](anchor_storms_overview.png)
-
-## Figure 2 — Cross-frame leaf correspondence
-
-[PDF](anchor_leaf_correspondence.pdf) · [PNG](anchor_leaf_correspondence.png) · [可编辑 PPT](../最新论文与三张PPT/Fig2_跨帧特征对应.pptx)
-
-![Figure 2](anchor_leaf_correspondence.png)
-
-## Figure 3 — Spatial projection and hierarchy conflict
-
-[PDF](anchor_projection_conflict.pdf) · [PNG](anchor_projection_conflict.png) · [可编辑 PPT](../最新论文与三张PPT/Fig3_空间映射与拓扑冲突.pptx)
-
-![Figure 3](anchor_projection_conflict.png)
-
-Figure 3 的论文版去掉小编号以适应单栏；PPT 保留完整编号。宽度是示意，非定量结果。
-
-当前图 2、3 已统一为 Times New Roman、灰色标题底和黑框；字号按正文内的实际大小校准。图 3(c) 包括各色块黑框。
-
-## Figure 4 — Selective relaxation
-
-[PDF](anchor_selective_relaxation.pdf) · [PNG](anchor_selective_relaxation.png) · [可编辑 PPT](../最新论文与三张PPT/Fig4_选择性放松.pptx)
-
-![Figure 4](anchor_selective_relaxation.png)
-
-单栏机制示意图，非实验结果。
-
-## Figure 5 — Position--topology trade-offs
-
-[PDF](anchor_budget_tradeoff_single_column.pdf) · [PNG](anchor_budget_tradeoff_single_column.png) · [可编辑 SVG](anchor_budget_tradeoff_single_column.svg)
-
-![Figure 5](anchor_budget_tradeoff_single_column.png)
-
-单栏五子图：Storms、Wildfires、Ring、Tangaroa (3D)、Cylinder (3D)；第六格用于共用图例。Gaussian只从本图删除。Storms/Wildfires各14点、Ring21点，Tangaroa/Cylinder各5点。横轴为渲染后实际最坏NMLE；实线为最坏位移E∞，虚线为所有特征—帧平均位移Epool（不是NPE）。二维沿用正式实验；三维为独立核验的完整渲染档案，采用各自冻结参考与预处理，不替换四数据集主表。正文第8页。当前脚本和59个配置的绘图数据位于paper/pvis2027/budget_tradeoff_20261105；三维1515列的固定叶标签完整矩阵（含对角线）均通过预算检查。没有加入未计算的投影星号或同模型基线框。
+Figure 2–4中的树间距或宽度示意不作定量布局证据。Figure 8属于独立探索性配置，不替换四数据集主表；位置轴不是物理X，I–III不是估计的事件转折时间。

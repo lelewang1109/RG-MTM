@@ -1,15 +1,15 @@
 [
   {
     "figure": 1,
-    "title": "Storms overview",
+    "title": "storms_overview",
     "files": {
-      "anchor_storms_overview.pdf": {
-        "bytes": 559152,
-        "sha256": "0d815db71e1d16158501a5f2819253593a87473a15e249b736f550c26f98afe7"
-      },
       "anchor_storms_overview.png": {
         "bytes": 379299,
         "sha256": "adb2b505de13712c2d64ddc01b9765fabb662d598730ddcb95d78af2382fe44c"
+      },
+      "anchor_storms_overview.pdf": {
+        "bytes": 559152,
+        "sha256": "0d815db71e1d16158501a5f2819253593a87473a15e249b736f550c26f98afe7"
       },
       "../最新论文与三张PPT/Fig1_Storms.pptx": {
         "bytes": 314190,
@@ -19,7 +19,7 @@
   },
   {
     "figure": 2,
-    "title": "Cross-frame leaf correspondence",
+    "title": "leaf_correspondence",
     "files": {
       "anchor_leaf_correspondence.pdf": {
         "bytes": 114796,
@@ -37,19 +37,113 @@
   },
   {
     "figure": 3,
-    "title": "Spatial projection and hierarchy conflict",
+    "title": "projection_conflict",
     "files": {
-      "anchor_projection_conflict.pdf": {
-        "bytes": 41029,
-        "sha256": "8e613e6a4e697a04502729c27fcce927e98c5f37e70d71f8c8dc1b98532d76eb"
+      "anchor_projection_conflict.svg": {
+        "bytes": 100927,
+        "sha256": "319edc33f82ba9defd3ae6d74e09a29e883dffe93b7d87827173335590fafcc5"
       },
       "anchor_projection_conflict.png": {
         "bytes": 258945,
         "sha256": "e8fef9865b82f8956f5c11ebf3a9d520f7faa0af1ea96a2e0885477451b3a843"
       },
+      "anchor_projection_conflict.pdf": {
+        "bytes": 41029,
+        "sha256": "8e613e6a4e697a04502729c27fcce927e98c5f37e70d71f8c8dc1b98532d76eb"
+      },
       "../最新论文与三张PPT/Fig3_空间映射与拓扑冲突.pptx": {
         "bytes": 47384,
         "sha256": "2775ce4a4e2b56a8dc431c9779a8ff6fb30760be970cb124ad3aa8584ea35456"
+      }
+    }
+  },
+  {
+    "figure": 4,
+    "title": "selective_relaxation",
+    "files": {
+      "anchor_selective_relaxation.pdf": {
+        "bytes": 145988,
+        "sha256": "d2c18bc77a05ede1334b10f3465a7cb697358df12506a1ae3514deab594064e9"
+      },
+      "anchor_selective_relaxation.png": {
+        "bytes": 69671,
+        "sha256": "977690eb951e2ddbbf68a2ab754c97562599e19b571a4c0f0715ac581d4161f7"
+      },
+      "../最新论文与三张PPT/Fig4_选择性放松.pptx": {
+        "bytes": 33022,
+        "sha256": "50da320c028cc89032ceec92a249c5103b425aca3fc689381b025ebe7cfab654"
+      }
+    }
+  },
+  {
+    "figure": 5,
+    "title": "storms_budget_profiles",
+    "files": {
+      "anchor_storms_budget_profiles.png": {
+        "bytes": 213954,
+        "sha256": "de66665686ed08b99cb6df5947819d593b187ccfbbff0aaa83dd625e0910d7bb"
+      },
+      "anchor_storms_budget_profiles.pdf": {
+        "bytes": 419328,
+        "sha256": "2bfd7bb5d93efc42585c2ffd5d7359b895ed62c3b5da1d0711865ae1ddcb1df0"
+      },
+      "../最新论文与三张PPT/Fig5_Storms参数剖面.pptx": {
+        "bytes": 2025596,
+        "sha256": "04c9ac85f4dde6e04131489354f4da3f5d5af5a0002efd6e42968aeab51cc280"
+      }
+    }
+  },
+  {
+    "figure": 6,
+    "title": "planar_order_scalar",
+    "files": {
+      "anchor_planar_order_scalar.svg": {
+        "bytes": 38467,
+        "sha256": "97b2c7b8ab067e688628987f185607630948bd0e8e9a03e8dc9977a4ef67bba9"
+      },
+      "anchor_planar_order_scalar.png": {
+        "bytes": 157657,
+        "sha256": "10eed07dfd9c3aa18b4a42555ba825a63e95222b7f5ff5b8426b965beda6157a"
+      },
+      "anchor_planar_order_scalar.pdf": {
+        "bytes": 34374,
+        "sha256": "9fb89d4d2d2b14b92cce4f8171cb1eac937304d87fa0eeef677e5bcc8c23e273"
+      }
+    }
+  },
+  {
+    "figure": 7,
+    "title": "volume_order_scalar",
+    "files": {
+      "anchor_volume_order_scalar.svg": {
+        "bytes": 27760,
+        "sha256": "6a9693cce8f421d3be25e388ab183a7b72bac531d1af20d196457c2af034131e"
+      },
+      "anchor_volume_order_scalar.png": {
+        "bytes": 117289,
+        "sha256": "2945889a3582e8496d8b7480c16d01fa5fdd2e8647579f19e3ac0b8f73a2b0c7"
+      },
+      "anchor_volume_order_scalar.pdf": {
+        "bytes": 32610,
+        "sha256": "464ea784b23b09be249d3967e3dc4b98f959f1c96040cb5b9090ab440db1e26c"
+      }
+    }
+  },
+  {
+    "figure": 8,
+    "title": "cylinder_centered_blue",
+    "files": {
+      "anchor_cylinder_centered_blue.svg": {
+        "bytes": 729046,
+        "sha256": "ef560e8c802968c954f4d039c058c23c6521360d24729dc00f8d925a84abc888"
+      },
+      "anchor_cylinder_centered_blue.pdf": {
+        "bytes": 463131,
+        "sha256": "575746f36d6cf66d2a64132b36b09c02656e38a2dc62e96c9ed278867bbf18b3"
+      },
+      "anchor_cylinder_centered_blue.png": {
+        "bytes": 718751,
+        "sha256": "1f7b9d6d2bb898a2c9d897dce1c938b30b13e3e53999912a0cd828778cd61101"
       }
     }
   }

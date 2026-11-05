@@ -1,0 +1,101 @@
+{
+  "source_archive_sha256": "c93cd4289f73f64d395b55edf334603c6ec71d939aca2bc656399c4b324cc7ff",
+  "scalar_source_sha256": "90548c98755349e813d73eff685a1680146de34d021dd89dd7865debfafcfeca",
+  "method": "centered tree guidance, g=16; frozen tree order; X objective and cap",
+  "persistence_fraction": 0.02,
+  "epsilon_cap": 0.01,
+  "NMLEmax": 0.0,
+  "mean_absolute_X_error": 0.2814971295413382,
+  "X_cap_fraction": 0.5620842915414249,
+  "stages": [
+    {
+      "frame": 20,
+      "time": 32.07920792079208,
+      "Q_range": [
+        -1.6241300106048584,
+        4.033272743225098
+      ],
+      "mesh": "native Q=0.2 / 1 level sets, step 1"
+    },
+    {
+      "frame": 50,
+      "time": 80.19801980198021,
+      "Q_range": [
+        -1.8622050285339355,
+        5.730281352996826
+      ],
+      "mesh": "native Q=0.2 / 1 level sets, step 1"
+    },
+    {
+      "frame": 101,
+      "time": 162.0,
+      "Q_range": [
+        -1.963876724243164,
+        5.436105728149414
+      ],
+      "mesh": "native Q=0.2 / 1 level sets, step 1"
+    }
+  ],
+  "selection": {
+    "frame": 50,
+    "track": 21,
+    "component": 3,
+    "component_tracks": [
+      21
+    ],
+    "actual_xyz": [
+      4.7539267015706805,
+      -0.44444444444444464,
+      2.936170212765957
+    ],
+    "layout_anchor": -0.044267097994933946,
+    "layout_interval": [
+      -0.04742084308002348,
+      -0.04108644878990002
+    ],
+    "bbox": [
+      [
+        3.9162303664921474,
+        5.256544502617803
+      ],
+      [
+        -1.0793650793650795,
+        0.8253968253968251
+      ],
+      [
+        0.0,
+        5.872340425531914
+      ]
+    ]
+  },
+  "color": "One sequential blue colormap for Q in the temporal map and Q-level surfaces; no vector direction or vorticity is encoded.",
+  "reference_url": "https://www.csc.kth.se/~weinkauf/notes/squarecylinder.html",
+  "source_layout_sha256": "c45a758f79eca216b9b63dffdf5a0f7f9eac8a0eb56332545fe37cb3ed536149",
+  "no_per_frame_normalization": true,
+  "depth_not_encoded_by_1d_position": true,
+  "no_vector_direction_attribute": true,
+  "phase_guides": [
+    {
+      "label": "I",
+      "time_span": [
+        0,
+        45
+      ]
+    },
+    {
+      "label": "II",
+      "time_span": [
+        45,
+        120
+      ]
+    },
+    {
+      "label": "III",
+      "time_span": [
+        120,
+        162
+      ]
+    }
+  ],
+  "phase_boundary_note": "Qualitative viewing guides, not measured physical transition times."
+}

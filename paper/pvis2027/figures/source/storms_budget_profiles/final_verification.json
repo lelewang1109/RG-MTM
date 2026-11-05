@@ -1,0 +1,16 @@
+{
+  "body_last_page": 9,
+  "pdf_total_pages": 10,
+  "storms_figure_number": 5,
+  "storms_figure_page": 8,
+  "volume_diagnostics_number": 7,
+  "volume_diagnostics_page": 8,
+  "cylinder_figure_number": 8,
+  "cylinder_figure_page": 9,
+  "gray_reference_color": "#555555",
+  "all_labels_preserved": true,
+  "table_numeric_cells_unchanged": true,
+  "method_equation_and_theorem_counts_preserved": true,
+  "body_font_and_margins_unchanged": true,
+  "source_sha256": "f0da760b26ea9fc8247da417b0866119f0605d3fa10a88808960a1b0d5808145"
+}

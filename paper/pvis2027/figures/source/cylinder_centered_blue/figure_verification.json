@@ -1,0 +1,59 @@
+{
+  "y_range": [
+    -0.5,
+    0.5
+  ],
+  "stages": [
+    20,
+    50,
+    101
+  ],
+  "all_real_original_volumes": true,
+  "uniform_3d_camera": true,
+  "uniform_3d_scale": true,
+  "selection": {
+    "frame": 50,
+    "track": 21,
+    "component": 3,
+    "component_tracks": [
+      21
+    ],
+    "actual_xyz": [
+      4.7539267015706805,
+      -0.44444444444444464,
+      2.936170212765957
+    ],
+    "layout_anchor": -0.044267097994933946,
+    "layout_interval": [
+      -0.04742084308002348,
+      -0.04108644878990002
+    ],
+    "bbox": [
+      [
+        3.9162303664921474,
+        5.256544502617803
+      ],
+      [
+        -1.0793650793650795,
+        0.8253968253968251
+      ],
+      [
+        0.0,
+        5.872340425531914
+      ]
+    ]
+  },
+  "Q_color_clip": [
+    0,
+    1
+  ],
+  "single_hue_blue": true,
+  "no_vector_direction_color": true,
+  "color_equation": "One fixed sequential blue transfer function of Q",
+  "temporal_interpolation": "Q before lookup in the blue colormap; 16 display pixels per frame",
+  "figure_width_inches": 7.15,
+  "figure_height_inches": 3.05,
+  "phase_guides": "I:0-45; II:45-120; III:120-162, qualitative only",
+  "main_font": "Times New Roman",
+  "not_a_smoke_surface_reproduction": true
+}
