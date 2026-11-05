@@ -1,0 +1,8 @@
+{
+  "selected_rows": 8,
+  "all_selected_min_validation_J": true,
+  "only_global_orientation": true,
+  "nominal_candidates": 128,
+  "distinct_candidates": 96,
+  "no_data_reference_or_core_edits": true
+}

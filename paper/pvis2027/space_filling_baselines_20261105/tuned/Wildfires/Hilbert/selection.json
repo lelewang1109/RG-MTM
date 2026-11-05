@@ -1,0 +1,189 @@
+{
+  "Dataset": "Wildfires",
+  "Method": "Hilbert",
+  "validation_frames": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "assessment_frames": [
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31
+  ],
+  "selected": {
+    "candidate": "rot270_mirror0_reverse1",
+    "rotation_degrees": 270,
+    "mirror": false,
+    "reverse": true,
+    "duplicate_of": null,
+    "permutation_sha256": "c0df4ef58632da5808722d9377db59db4958bc08236e29bc71697bea67af71a2",
+    "SNS": 0.09084033772309001,
+    "SNS_valid_frames": 8,
+    "TW": 0.8577651515151515,
+    "TW_valid_frames": 2,
+    "NPE": 0.21700756923697645,
+    "NPE_valid_frames": 8,
+    "NPE_norm": 0.10461157544391216,
+    "SNS_norm": 0.0,
+    "J": 0.05230578772195608
+  },
+  "nominal_candidate_count": 16,
+  "distinct_candidate_count": 8,
+  "aliases": [
+    {
+      "candidate": "rot0_mirror0_reverse0",
+      "rotation_degrees": 0,
+      "mirror": false,
+      "reverse": false,
+      "duplicate_of": null,
+      "permutation_sha256": "211a6fbfd7350ae04a307e77f0395f13e5cc38cee0a811b39239bfc498cc7bee"
+    },
+    {
+      "candidate": "rot0_mirror0_reverse1",
+      "rotation_degrees": 0,
+      "mirror": false,
+      "reverse": true,
+      "duplicate_of": null,
+      "permutation_sha256": "dd1662c241e130a9800f82771beab8b47acc666151f1ecf5d3533d5e59d10347"
+    },
+    {
+      "candidate": "rot0_mirror1_reverse0",
+      "rotation_degrees": 0,
+      "mirror": true,
+      "reverse": false,
+      "duplicate_of": "rot0_mirror0_reverse1",
+      "permutation_sha256": "dd1662c241e130a9800f82771beab8b47acc666151f1ecf5d3533d5e59d10347"
+    },
+    {
+      "candidate": "rot0_mirror1_reverse1",
+      "rotation_degrees": 0,
+      "mirror": true,
+      "reverse": true,
+      "duplicate_of": "rot0_mirror0_reverse0",
+      "permutation_sha256": "211a6fbfd7350ae04a307e77f0395f13e5cc38cee0a811b39239bfc498cc7bee"
+    },
+    {
+      "candidate": "rot90_mirror0_reverse0",
+      "rotation_degrees": 90,
+      "mirror": false,
+      "reverse": false,
+      "duplicate_of": null,
+      "permutation_sha256": "465ca88d6712bfe98eeef2df2d3a943a13b8118d8c2e7ad709649dc1a682faa3"
+    },
+    {
+      "candidate": "rot90_mirror0_reverse1",
+      "rotation_degrees": 90,
+      "mirror": false,
+      "reverse": true,
+      "duplicate_of": null,
+      "permutation_sha256": "39133ae990ca040b9333ec893acf6bcd130588e8333cae2fbc5df06b4f3fbffa"
+    },
+    {
+      "candidate": "rot90_mirror1_reverse0",
+      "rotation_degrees": 90,
+      "mirror": true,
+      "reverse": false,
+      "duplicate_of": "rot90_mirror0_reverse1",
+      "permutation_sha256": "39133ae990ca040b9333ec893acf6bcd130588e8333cae2fbc5df06b4f3fbffa"
+    },
+    {
+      "candidate": "rot90_mirror1_reverse1",
+      "rotation_degrees": 90,
+      "mirror": true,
+      "reverse": true,
+      "duplicate_of": "rot90_mirror0_reverse0",
+      "permutation_sha256": "465ca88d6712bfe98eeef2df2d3a943a13b8118d8c2e7ad709649dc1a682faa3"
+    },
+    {
+      "candidate": "rot180_mirror0_reverse0",
+      "rotation_degrees": 180,
+      "mirror": false,
+      "reverse": false,
+      "duplicate_of": null,
+      "permutation_sha256": "0ef5c2c25d5912dda7db9c6fbc83628e440e8c2bdafcddd98c8ab52c1503d1f2"
+    },
+    {
+      "candidate": "rot180_mirror0_reverse1",
+      "rotation_degrees": 180,
+      "mirror": false,
+      "reverse": true,
+      "duplicate_of": null,
+      "permutation_sha256": "976215ebdce2b00af66593500adfa4012ecb069767292a0011234d7ce321c2d4"
+    },
+    {
+      "candidate": "rot180_mirror1_reverse0",
+      "rotation_degrees": 180,
+      "mirror": true,
+      "reverse": false,
+      "duplicate_of": "rot180_mirror0_reverse1",
+      "permutation_sha256": "976215ebdce2b00af66593500adfa4012ecb069767292a0011234d7ce321c2d4"
+    },
+    {
+      "candidate": "rot180_mirror1_reverse1",
+      "rotation_degrees": 180,
+      "mirror": true,
+      "reverse": true,
+      "duplicate_of": "rot180_mirror0_reverse0",
+      "permutation_sha256": "0ef5c2c25d5912dda7db9c6fbc83628e440e8c2bdafcddd98c8ab52c1503d1f2"
+    },
+    {
+      "candidate": "rot270_mirror0_reverse0",
+      "rotation_degrees": 270,
+      "mirror": false,
+      "reverse": false,
+      "duplicate_of": null,
+      "permutation_sha256": "92ae812b41d6b7e7f5e75522aa4f154e35c9b32a4538bd4cbe504d97cb63940a"
+    },
+    {
+      "candidate": "rot270_mirror0_reverse1",
+      "rotation_degrees": 270,
+      "mirror": false,
+      "reverse": true,
+      "duplicate_of": null,
+      "permutation_sha256": "c0df4ef58632da5808722d9377db59db4958bc08236e29bc71697bea67af71a2"
+    },
+    {
+      "candidate": "rot270_mirror1_reverse0",
+      "rotation_degrees": 270,
+      "mirror": true,
+      "reverse": false,
+      "duplicate_of": "rot270_mirror0_reverse1",
+      "permutation_sha256": "c0df4ef58632da5808722d9377db59db4958bc08236e29bc71697bea67af71a2"
+    },
+    {
+      "candidate": "rot270_mirror1_reverse1",
+      "rotation_degrees": 270,
+      "mirror": true,
+      "reverse": true,
+      "duplicate_of": "rot270_mirror0_reverse0",
+      "permutation_sha256": "92ae812b41d6b7e7f5e75522aa4f154e35c9b32a4538bd4cbe504d97cb63940a"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "validation": "first chronological25%, ceil(T/4)",
+  "objective": "J=.5*NPE_norm+.5*SNS_norm; minmax across all legal distinct orientations per method/dataset; constant term0",
+  "tie": "absolute J difference<=1e-12: prefer earlier canonical enumeration",
+  "candidates": "4 array rotations x2 left-right mirrors x2 traversal directions; duplicate permutations identified",
+  "mapping": "same full-grid rank and original-L quantization as canonical experiment; no scaling or translation fitting",
+  "test": "freeze before evaluating full and last75%; earlier results already observed, exploratory validation not new blind test",
+  "missing": "do not fill missing raw SNS/TW; if validation has no SNS values, mark selector unavailable instead of silently zeroing it",
+  "scope": "change curve orientations only, no core algorithm/QP/data/reference changes"
+}

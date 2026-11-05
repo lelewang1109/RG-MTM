@@ -1,0 +1,23 @@
+Dataset,Method,validation_objective,candidate,validation_value,scope
+Gaussian,Hilbert,SNS,rot0_mirror0_reverse1,0.03094900823539358,validation only; not a combined final method
+Gaussian,Hilbert,NPE,rot180_mirror0_reverse0,0.168169363444954,validation only; not a combined final method
+Gaussian,Hilbert,TW,rot0_mirror0_reverse0,0.9375,validation only; not a combined final method
+Gaussian,Morton,SNS,rot90_mirror1_reverse0,0.06393044427655835,validation only; not a combined final method
+Gaussian,Morton,NPE,rot90_mirror1_reverse0,0.14538375010815963,validation only; not a combined final method
+Gaussian,Morton,TW,rot0_mirror0_reverse0,0.75,validation only; not a combined final method
+Ring,Hilbert,SNS,rot0_mirror0_reverse1,0.0,validation only; not a combined final method
+Ring,Hilbert,NPE,rot90_mirror0_reverse1,0.06722497624045023,validation only; not a combined final method
+Ring,Morton,SNS,rot0_mirror0_reverse1,0.0,validation only; not a combined final method
+Ring,Morton,NPE,rot0_mirror1_reverse1,0.04951163282378514,validation only; not a combined final method
+Wildfires,Hilbert,SNS,rot270_mirror0_reverse1,0.09084033772309001,validation only; not a combined final method
+Wildfires,Hilbert,NPE,rot180_mirror0_reverse1,0.14687613526180052,validation only; not a combined final method
+Wildfires,Hilbert,TW,rot270_mirror0_reverse0,0.8577651515151515,validation only; not a combined final method
+Wildfires,Morton,SNS,rot0_mirror1_reverse1,0.06167611009956696,validation only; not a combined final method
+Wildfires,Morton,NPE,rot90_mirror1_reverse1,0.1527163178733138,validation only; not a combined final method
+Wildfires,Morton,TW,rot0_mirror0_reverse0,0.8731060606060606,validation only; not a combined final method
+Storms,Hilbert,SNS,rot270_mirror0_reverse1,0.05588150575963838,validation only; not a combined final method
+Storms,Hilbert,NPE,rot90_mirror0_reverse1,0.20534103055662575,validation only; not a combined final method
+Storms,Hilbert,TW,rot270_mirror0_reverse0,0.819047619047619,validation only; not a combined final method
+Storms,Morton,SNS,rot90_mirror1_reverse0,0.058593707648832975,validation only; not a combined final method
+Storms,Morton,NPE,rot90_mirror0_reverse1,0.09959594122711743,validation only; not a combined final method
+Storms,Morton,TW,rot90_mirror1_reverse0,0.7761904761904761,validation only; not a combined final method
