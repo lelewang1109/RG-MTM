@@ -1,10 +1,15 @@
 {
   "all_passed": true,
-  "ranking_cells_checked": 48,
+  "ranking_cells_checked": 72,
   "table2_single_column": true,
   "table2_NMLE_removed": true,
-  "source": "experiments_ratio_p_20261104",
+  "source": [
+    "experiments_ratio_p_20261104",
+    "space_filling_baselines_20261105/results/metrics.csv"
+  ],
   "no_metrics_changed": true,
   "table2_balanced_dataset_columns": 4,
-  "table2_transposed": true
+  "table2_transposed": true,
+  "table1_default_curve_baselines": true,
+  "table2_natural_width": true
 }

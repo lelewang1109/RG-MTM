@@ -2,9 +2,15 @@ Dataset,Method,Metric,value,latex
 Gaussian,TMTM,SNS,0.25,$0.2500$
 Gaussian,TMTM,TW,0.77,$0.7700$
 Gaussian,TMTM,NPE,0.11177217182615835,$\underline{0.1118}$
-Gaussian,ST-MTM Temporal,SNS,0.06,$\underline{0.0600}$
+Gaussian,ST-MTM Temporal,SNS,0.06,$0.0600$
 Gaussian,ST-MTM Temporal,TW,1.0,$\mathbf{1.0000}$
 Gaussian,ST-MTM Temporal,NPE,0.1153961824483478,$0.1154$
+Gaussian,Hilbert,SNS,0.11172756564976895,$0.1117$
+Gaussian,Hilbert,TW,0.6718750000000001,$0.6719$
+Gaussian,Hilbert,NPE,0.7557151509907414,$0.7557$
+Gaussian,Morton,SNS,0.03926947479568468,$\underline{0.0393}$
+Gaussian,Morton,TW,0.8333333333333335,$0.8333$
+Gaussian,Morton,NPE,0.7359349312105217,$0.7359$
 Gaussian,AnchorMTM Exact,SNS,0.035308168650606826,$\mathbf{0.0353}$
 Gaussian,AnchorMTM Exact,TW,0.9322916666666667,$\underline{0.9323}$
 Gaussian,AnchorMTM Exact,NPE,0.008916235544484011,$\mathbf{0.0089}$
@@ -15,13 +21,19 @@ Ring,TMTM,SNS,0.28,$0.2800$
 Ring,TMTM,TW,0.68,$0.6800$
 Ring,TMTM,NPE,0.1755693829125843,$0.1756$
 Ring,ST-MTM Temporal,SNS,0.21,$0.2100$
-Ring,ST-MTM Temporal,TW,0.88,$\mathbf{0.8800}$
+Ring,ST-MTM Temporal,TW,0.88,$\underline{0.8800}$
 Ring,ST-MTM Temporal,NPE,0.24632695944063748,$0.2463$
-Ring,AnchorMTM Exact,SNS,0.14847254170724555,$\underline{0.1485}$
-Ring,AnchorMTM Exact,TW,0.8571428571428572,$\underline{0.8571}$
+Ring,Hilbert,SNS,0.12515286280652022,$\mathbf{0.1252}$
+Ring,Hilbert,TW,0.9047619047619048,$\mathbf{0.9048}$
+Ring,Hilbert,NPE,0.5941275729157919,$0.5941$
+Ring,Morton,SNS,0.14892365979547895,$0.1489$
+Ring,Morton,TW,0.7619047619047619,$0.7619$
+Ring,Morton,NPE,0.6032784627891905,$0.6033$
+Ring,AnchorMTM Exact,SNS,0.14847254170724555,$0.1485$
+Ring,AnchorMTM Exact,TW,0.8571428571428572,$0.8571$
 Ring,AnchorMTM Exact,NPE,0.04712036157053711,$\underline{0.0471}$
-Ring,AnchorMTM Balanced,SNS,0.13339423008916096,$\mathbf{0.1334}$
-Ring,AnchorMTM Balanced,TW,0.8571428571428572,$\underline{0.8571}$
+Ring,AnchorMTM Balanced,SNS,0.13339423008916096,$\underline{0.1334}$
+Ring,AnchorMTM Balanced,TW,0.8571428571428572,$0.8571$
 Ring,AnchorMTM Balanced,NPE,0.03946898894794522,$\mathbf{0.0395}$
 Wildfires,TMTM,SNS,0.44,$0.4400$
 Wildfires,TMTM,TW,0.88,$0.8800$
@@ -29,6 +41,12 @@ Wildfires,TMTM,NPE,0.2280042543503018,$0.2280$
 Wildfires,ST-MTM Temporal,SNS,0.24,$0.2400$
 Wildfires,ST-MTM Temporal,TW,0.91,$\underline{0.9100}$
 Wildfires,ST-MTM Temporal,NPE,0.3179595394390389,$0.3180$
+Wildfires,Hilbert,SNS,0.18826843503551188,$0.1883$
+Wildfires,Hilbert,TW,0.8303321678321678,$0.8303$
+Wildfires,Hilbert,NPE,0.36406881782296785,$0.3641$
+Wildfires,Morton,SNS,0.13036396471219022,$0.1304$
+Wildfires,Morton,TW,0.8757837995337995,$0.8758$
+Wildfires,Morton,NPE,0.1560266422156938,$0.1560$
 Wildfires,AnchorMTM Exact,SNS,0.04260090315524024,$\mathbf{0.0426}$
 Wildfires,AnchorMTM Exact,TW,0.9135984848484848,$\mathbf{0.9136}$
 Wildfires,AnchorMTM Exact,NPE,0.013060898655193876,$\underline{0.0131}$
@@ -41,6 +59,12 @@ Storms,TMTM,NPE,0.5752859558929264,$0.5753$
 Storms,ST-MTM Temporal,SNS,0.21,$0.2100$
 Storms,ST-MTM Temporal,TW,0.94,$\mathbf{0.9400}$
 Storms,ST-MTM Temporal,NPE,0.45785829943727696,$0.4579$
+Storms,Hilbert,SNS,0.1289704506311757,$0.1290$
+Storms,Hilbert,TW,0.7402597402597402,$0.7403$
+Storms,Hilbert,NPE,0.37045191065835364,$0.3705$
+Storms,Morton,SNS,0.11800677474822857,$0.1180$
+Storms,Morton,TW,0.725108225108225,$0.7251$
+Storms,Morton,NPE,0.34680629161406873,$0.3468$
 Storms,AnchorMTM Exact,SNS,0.07902750025141413,$\underline{0.0790}$
 Storms,AnchorMTM Exact,TW,0.8463203463203464,$0.8463$
 Storms,AnchorMTM Exact,NPE,0.039909143521947674,$\underline{0.0399}$
