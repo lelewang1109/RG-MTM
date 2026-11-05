@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "datasets": 2,
+  "complete_sequence_configurations": 10,
+  "feature_frames_checked": 44785,
+  "frame_columns_checked": 1515,
+  "budget_violations": 0,
+  "fixed_leaf_matrix_includes_diagonal": true,
+  "raw_raster_hashes": {
+    "output/current_method_parameter_sweep_20261029/tangaroa/epsilon_0.02.npz": "b53e5431703c0ea55eb751540bed3e10e25b0e1fecf3eda403d38a0fabbadecf",
+    "output/current_method_parameter_sweep_20261029/tangaroa/epsilon_0.05.npz": "b135e64bb37cfef2a758680e2c9ca472224e5cb39cdb3faf4112e1e651a9b767",
+    "output/current_method_parameter_sweep_20261029/tangaroa/epsilon_0.1.npz": "1f3878cb76834c7a6ff6a7787429cf142d8492b548edcfd806b9bf6b86f87d69",
+    "output/current_method_parameter_sweep_20261029/tangaroa/epsilon_0.2.npz": "e77fbf04329579fea00e66b5ed31e1967715506a4bd528d8e18c835cae9ebd0a",
+    "output/current_method_parameter_sweep_20261029/tangaroa/epsilon_0.npz": "1c0ddd2e037c39086718d6116cd50dfd22660d6adef22f84c8f3fb3f9bdcfd85",
+    "output/current_method_parameter_sweep_20261029/cylinder/epsilon_0.02.npz": "e3e144f1c83425db396f8185328e008b77aaaa5ce6d8077ddc780ac0d207cc33",
+    "output/current_method_parameter_sweep_20261029/cylinder/epsilon_0.05.npz": "1a6898e2ef3c229933655cc51a5bbb8e541cb3a0b862f0242a366d08cfad912f",
+    "output/current_method_parameter_sweep_20261029/cylinder/epsilon_0.1.npz": "ab0a2cef214da06c5b5596b31d28635b4434f926cabd5891199ab60ac9070a03",
+    "output/current_method_parameter_sweep_20261029/cylinder/epsilon_0.2.npz": "8f37d466fb3c7f89cd50dcccd6370b0b63f28c1662d70bb7fe45e73b7d97f885",
+    "output/current_method_parameter_sweep_20261029/cylinder/epsilon_0.npz": "996648c881e41bbfc03ed18358d2d011cf98b9b283854fe5179b1265f10ee257"
+  }
+}

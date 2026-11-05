@@ -1,0 +1,62 @@
+[
+  {
+    "dataset": "Tangaroa",
+    "frames": 201,
+    "archive": "/Users/lele/Desktop/MergeTreeMaps/output/current_method_parameter_sweep_20261029/tangaroa",
+    "feature_source": "/Users/lele/Desktop/MergeTreeMaps/output/github/RG-MTM-latest-20261027/code/results/volume3d/tangaroa-paper-p10-full201/features.json",
+    "feature_sha256": "caf360a5dfa8571d35b2e39edf11e8703e480d6df06dbd8951c00eda447b5890",
+    "parameters": {
+      "canvas": 0.703074637982934,
+      "width_scale": 2.8792963388880333,
+      "gap": 0.002929477658262225,
+      "rho": 0.5,
+      "extra_budget": 0.00585895531652445,
+      "motion_weight": 0.5,
+      "eccentricity_weight": 0.1,
+      "reference_weight": 4.0,
+      "geometry_weight": 1.0,
+      "normalize_terms": true,
+      "temporal_mode": "residual",
+      "canvas_origin": -0.3274590081207572,
+      "reference_budget": null,
+      "motion_fraction": null,
+      "compact_tiebreak": false
+    },
+    "scalar_range": 2.0,
+    "epsilon0": 1e-07,
+    "reference": "fixed offline matched-extremum motion direction",
+    "extraction": "velocity magnitude, declared range [0,2], persistence absolute 0.2, 300x180x120",
+    "construction": "archived width-aware order search + singleton capped four-term QP + optimal filling; no centered-tree-guidance prototype",
+    "metric": "recompute rendered fixed-leaf matrix including diagonal and rendered anchors, not continuous summary"
+  },
+  {
+    "dataset": "Cylinder",
+    "frames": 102,
+    "archive": "/Users/lele/Desktop/MergeTreeMaps/output/current_method_parameter_sweep_20261029/cylinder",
+    "feature_source": "/Users/lele/Desktop/MergeTreeMaps/output/github/RG-MTM-latest-20261027/code/results/paper1_suite/square-cylinder3d/features.json",
+    "feature_sha256": "88fd516148a96c0c57999eb06247ef8e4a1c1feb878fa9f45399a07668ceda90",
+    "parameters": {
+      "canvas": 22.45026178010471,
+      "width_scale": 2.7066770085967293e-05,
+      "gap": 0.07483420593368237,
+      "rho": 0.5,
+      "extra_budget": 0.18708551483420593,
+      "motion_weight": 0.5,
+      "eccentricity_weight": 0.1,
+      "reference_weight": 4.0,
+      "geometry_weight": 1.0,
+      "normalize_terms": true,
+      "temporal_mode": "residual",
+      "canvas_origin": -2.450261780104711,
+      "reference_budget": null,
+      "motion_fraction": null,
+      "compact_tiebreak": false
+    },
+    "scalar_range": 1.0,
+    "epsilon0": 1e-07,
+    "reference": "fixed streamwise x axis",
+    "extraction": "normalized negative Q scalar; 2% per-frame persistence; cropped 135x64x48",
+    "construction": "archived width-aware order search + singleton capped four-term QP + optimal filling; no centered-tree-guidance prototype",
+    "metric": "recompute rendered fixed-leaf matrix including diagonal and rendered anchors, not continuous summary"
+  }
+]

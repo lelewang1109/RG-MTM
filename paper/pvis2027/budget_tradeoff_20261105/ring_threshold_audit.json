@@ -1,0 +1,9 @@
+{
+  "frame": 39,
+  "leaves": 5,
+  "enumerated_orders": 120,
+  "threshold_to_reduce_selected_tau": 0.6200138766829298,
+  "best_tau_at_30_percent": 0.0915048461335931,
+  "best_tau_at_100_percent": 0.0,
+  "method": "enumerate all 120 orders; continuous minimax position and fixed-leaf optimal barrier costs"
+}

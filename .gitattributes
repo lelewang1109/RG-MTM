@@ -3,6 +3,8 @@ code/results/** -text -whitespace
 code/experiments/volume3d/inputs/** -text
 paper/evidence/** -text
 paper/manuscript/latex/evidence/** -text
+# Retain original CSV bytes in the published Figure 5 measurement records.
+paper/pvis2027/budget_tradeoff_20261105/**/*.csv -text -whitespace
 *.pdf binary
 *.png binary
 *.pptx binary

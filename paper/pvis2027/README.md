@@ -1,4 +1,4 @@
-# AnchorMTM — 当前论文与四张配图
+# AnchorMTM — 当前论文与五张配图
 
 - [正文 PDF](最新论文与三张PPT/AnchorMTM_最新论文.pdf) · [LaTeX 源文](drafts/method_anchor_figures_updated_en.tex)
 - [补充材料 PDF](drafts/method_anchor_single_parameter_supplement.pdf) · [LaTeX 源文](drafts/method_anchor_single_parameter_supplement.tex)
@@ -10,8 +10,11 @@
 | Figure 2 | 叶特征的跨帧对应、延续、出生与消失 | 单栏 | [PDF](figures/anchor_leaf_correspondence.pdf) · [PNG](figures/anchor_leaf_correspondence.png) | [PPTX](最新论文与三张PPT/Fig2_跨帧特征对应.pptx) |
 | Figure 3 | 空间投影、增强合并树与顺序冲突 | 单栏，第 4 页 | [矢量 PDF](figures/anchor_projection_conflict.pdf) · [PNG](figures/anchor_projection_conflict.png) · [SVG](figures/anchor_projection_conflict.svg) | [完整编号版 PPTX](最新论文与三张PPT/Fig3_空间映射与拓扑冲突.pptx) |
 | Figure 4 | 选择性放松前后的拓扑与极值映射 | 单栏 | [矢量 PDF](figures/anchor_selective_relaxation.pdf) · [PNG](figures/anchor_selective_relaxation.png) | [PPTX](最新论文与三张PPT/Fig4_选择性放松.pptx) |
+| Figure 5 | 三个二维与两个三维数据集的位置—拓扑曲线 | 单栏五子图，第8页 | [矢量 PDF](figures/anchor_budget_tradeoff_single_column.pdf) · [PNG](figures/anchor_budget_tradeoff_single_column.png) | [SVG](figures/anchor_budget_tradeoff_single_column.svg) |
 
 ## 当前版本说明
+
+Figure 5 当前为 Storms、Wildfires、Ring、Tangaroa、Cylinder；Gaussian仅从曲线图删除，四数据集主表仍保留。新增三维曲线来自既有201帧Tangaroa和102帧Cylinder的完整渲染档案，按完整固定叶标签矩阵（含对角线）独立重验，并重新计算渲染后的E∞、Epool。三维预算为0/2/5/10/20%，单独预处理和参考协议已在第5.1节注明；未混入主表。图、图注均在第8页单栏内，正文PDF仍为9页。当前绘图脚本与核验数据见budget_tradeoff_20261105，替代旧四子图脚本作为Figure 5的维护入口。
 
 正文共 9 页，补充材料共 8 页。第5节已按四数据集比例p实验重写，表1展示三方法及AnchorMTM两种Mode，表2为Balanced参数/时间单栏表；Discussion与Conclusion已补齐。SNS/TW原文值与本地重建输入的区别、TW覆盖率均保留说明。Figure 1、2、3保留现有科学内容，首图定性输入与新定量输入在正文中明确区分。本次未修改AnchorMTM核心算法与QP权重。
 
@@ -48,7 +51,7 @@ Figure 2、3 使用白底、灰色标题底、黑色边框以及统一的 A/B/C/
 
 ## 唯一交付目录
 
-[最新论文与三张PPT](最新论文与三张PPT/) 含最新论文 PDF 与四个对应 PPT，不提供压缩包。目录名沿用旧名称。旧的三个 PPT 原路径已移除；`drafts/` 中的旧 PDF 路径仅为符号链接，不是重复副本。
+[最新论文与三张PPT](最新论文与三张PPT/) 含最新论文 PDF 与四个对应 PPT，GitHub 同时保留更新后的同名压缩包。目录名沿用旧名称。旧的三个 PPT 原路径已移除；`drafts/` 中的旧 PDF 路径仅为符号链接，不是重复副本。
 
 Figure 2 上部网格对比区域已压缩到原高度的 78%，字体保持不变，下部对应状态整体上移；整体图高约减少 15%。
 
