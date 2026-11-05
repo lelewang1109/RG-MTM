@@ -1,21 +1,20 @@
-# 当前正文九张图
+# 当前正文八张图（2026-11-06）
 
-[最新论文 PDF](../最新论文与三张PPT/AnchorMTM_最新论文.pdf)。当前 PDF 共11页，新增系统框架为第3页跨双栏 Figure 2。
+[最新论文 PDF](../最新论文与三张PPT/AnchorMTM_最新论文.pdf)。正文至第9页，含参考文献共10页。PPT文件沿用既有文件名，正文编号以下表为准。
 
 | 编号 | 内容 | 排布 | 文件 |
 |---|---|---|---|
-| Figure 1 | Storms 空间支持与时序地图 | 首图，双栏，第1页 | [PDF](anchor_storms_overview.pdf) · [PNG](anchor_storms_overview.png) · [PPT](../最新论文与三张PPT/Fig1_Storms.pptx) |
-| Figure 2 | AnchorMTM 完整方法框架 | 双栏，第3页 | [PDF](anchor_framework.pdf) · [PNG](anchor_framework.png) · [PPT](../最新论文与三张PPT/Fig2_系统框架.pptx) · [源码](source/framework_b/README.md) |
-| Figure 3 | 跨帧叶特征对应 | 单栏，第3页 | [PDF](anchor_leaf_correspondence.pdf) · [PNG](anchor_leaf_correspondence.png) · [PPT](../最新论文与三张PPT/Fig3_跨帧特征对应.pptx) |
-| Figure 4 | 空间投影与顺序冲突 | 单栏，第4页 | [PDF](anchor_projection_conflict.pdf) · [PNG](anchor_projection_conflict.png) · [PPT](../最新论文与三张PPT/Fig4_空间映射与拓扑冲突.pptx) |
-| Figure 5 | 选择性拓扑放松 | 单栏，第5页 | [PDF](anchor_selective_relaxation.pdf) · [PNG](anchor_selective_relaxation.png) · [PPT](../最新论文与三张PPT/Fig5_选择性放松.pptx) |
-| Figure 6 | Storms 同帧剖面与完整事件参数对比 | 双栏，第8页 | [PDF](anchor_storms_budget_profiles.pdf) · [PNG](anchor_storms_budget_profiles.png) · [PPT](../最新论文与三张PPT/Fig6_Storms参数剖面.pptx) |
-| Figure 7 | 二维 NROE / NMLE 预算诊断 | 单栏，第9页 | [PDF](anchor_planar_order_scalar.pdf) |
-| Figure 8 | 三维 NROE / NMLE 预算诊断 | 单栏，第9页 | [PDF](anchor_volume_order_scalar.pdf) |
-| Figure 9 | Cylinder 中心树变体与源三维快照 | 双栏，第10页 | [PDF](anchor_cylinder_centered_blue.pdf) |
+| Figure 1 | Storms 空间支持与时序地图 | 双栏，第1页 | [PDF](anchor_storms_overview.pdf) · [PNG](anchor_storms_overview.png) · [PPT](../最新论文与三张PPT/Fig1_Storms.pptx) |
+| Figure 2 | TMTM / ST-MTM 既有流程示意 | 单栏，第2页 | [PDF](anchor_baseline_workflows.pdf) · [PNG](anchor_baseline_workflows.png) · [PPT](../最新论文与三张PPT/TMTM_STMTM_对比流程.pptx) |
+| Figure 3 | AnchorMTM 完整方法框架 | 双栏，第3页 | [PDF](anchor_framework.pdf) · [PNG](anchor_framework.png) · [PPT](../最新论文与三张PPT/Fig2_系统框架.pptx) |
+| Figure 4 | 运动导出的固定方向与空间参考 | 单栏，第4页 | [PDF](anchor_direction_open.pdf) · [PNG](source/open_mechanisms_20261106/01_direction.png) · [PPT第1页](../最新论文与三张PPT/Fig4-6_方向_冲突_放松.pptx) |
+| Figure 5 | 参考位置与拓扑连续块冲突 | 单栏，第5页 | [PDF](anchor_conflict_open.pdf) · [PNG](source/open_mechanisms_20261106/02_conflict.png) · [PPT第2页](../最新论文与三张PPT/Fig4-6_方向_冲突_放松.pptx) |
+| Figure 6 | 选择性拓扑放松与剖面变化 | 单栏，第6页 | [PDF](anchor_relaxation_open.pdf) · [PNG](source/open_mechanisms_20261106/03_relaxation.png) · [PPT第3页](../最新论文与三张PPT/Fig4-6_方向_冲突_放松.pptx) |
+| Figure 7 | Storms 完整事件地图参数对比 | 双栏，第8页 | [PDF](anchor_storms_budget_maps.pdf) · [PNG](anchor_storms_budget_maps.png) · [PPT](../最新论文与三张PPT/Fig6_Storms参数剖面.pptx) |
+| Figure 8 | Cylinder 中心树变体与源三维快照 | 双栏，第9页 | [PDF](anchor_cylinder_centered_blue.pdf) · [PNG](anchor_cylinder_centered_blue.png) |
 
-Figure 2仅重绘独立概念图中间的(b)方法部分，保留其全部内部组件。Times New Roman、灰色标题条、黑色线条及A/B/C/D的蓝/橙/青/紫身份配色与现有论文统一。最终地图采用已有定性Storms的10%预算输出；场、树、叶序、锚点和剖面均为示意。除标量地图背景外，PPT内文字和图形可编辑。
+Figure 2保留原横向结构，横向压缩20%，Spatiotemporal map为一行；黑框、直角树形、居中二分和对称连接箭头。A/B/C及d1/d2/d3是身份与点对示意，不表示二维距离可在一维全部精确保留。
 
-Figure 6采用与首图相同的定性Storms档案，非主表定量输入；预算0/2/5/10/20%，无人工偏移。参考线为#555555，保持Times New Roman。放大图左下角对齐，线、点与框均在PPT中可编辑。
+Figure 7采用与首图相同的定性Storms档案，非主表定量输入。Figure 8为独立探索性配置，不替换四数据集主表。已撤预算曲线仍保留为历史资产。
 
-Figure 3–5中的树间距或宽度示意不作定量布局证据。Figure 9属于独立探索性配置，不替换四数据集主表；位置轴不是物理X，I–III不是估计的事件转折时间。
+本轮以三张开放式机制图替换原正文图4–6，均为单栏；映射图暂不纳入。旧图文件保留，旧浮动体源码见[暂撤记录](source/open_mechanisms_20261106/temporarily_removed_figures_4_6.tex)。PPT保留原始栅格图面，图内线条与文字未拆分成独立图元。

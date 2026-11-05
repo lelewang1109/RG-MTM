@@ -1,0 +1,17 @@
+[
+  {
+    "source": "01_direction.png",
+    "pdf": "anchor_direction_open.pdf",
+    "aspect_ratio": 1.5
+  },
+  {
+    "source": "02_conflict.png",
+    "pdf": "anchor_conflict_open.pdf",
+    "aspect_ratio": 1.5
+  },
+  {
+    "source": "03_relaxation.png",
+    "pdf": "anchor_relaxation_open.pdf",
+    "aspect_ratio": 1.5
+  }
+]

@@ -1,33 +1,37 @@
-# AnchorMTM — 当前论文与九张配图
+# AnchorMTM — 当前论文与大纲
 
 - [正文 PDF](最新论文与三张PPT/AnchorMTM_最新论文.pdf) · [LaTeX](drafts/method_anchor_figures_updated_en.tex)
-- [补充材料 PDF](drafts/method_anchor_single_parameter_supplement.pdf) · [LaTeX](drafts/method_anchor_single_parameter_supplement.tex)
-- [九张图、预览及可编辑文件](figures/FIGURE_INDEX.md)
+- [完整中文大纲（重点修订第五节）](OUTLINE_zh.md)
+- [当前八张正文配图](figures/FIGURE_INDEX.md)
+- [补充材料](drafts/method_anchor_single_parameter_supplement.pdf)
 
-## 当前版本（2026-11-05）
+## 当前修订（2026-11-06）
 
-新增完整系统框架为Figure 2，在第3页跨双栏；仅保留独立概念图中间(b)的四阶段方法，并保留各内部组件。最终地图使用论文已有Storms结果。当前PDF共11页，末张Cylinder图位于第10页；正文大小及页边距保持不变。Storms参数对比顺延为Figure 6，位于第8页。
+图6只保留原第二行的事件地图与局部放大，保留五个预算列标题。正文暂撤原图7、8预算诊断曲线，源文件保留；原图9 Cylinder变体自动顺延为图7。图6两行原始资产与PPT仍保留，正文使用独立的anchor_storms_budget_maps.pdf。
 
-Figure 6采用首图的定性Storms档案，上行为同帧标量剖面，下行为完整事件地图及左下角放大图。预算为0%、2%、5%、10%、20%；30%复核无进一步变化，未列入图中。灰色参考线加深为#555555，字体为Times New Roman；PPT中的线、点、框和文字可编辑。数据无人工偏移，0/2/5%局部重合，10/20%更接近参考。首图定性档案与主表定量输入的区别在正文中明示。
+第五节调整为：数据与评估协议、参考定位与空间质量、拓扑有效性与放松效果、Storms案例、参数与计算成本、三维探索案例。正文删除被撤曲线的引用与密集趋势叙述，保持四数据集主表和所有测量值不变。完整写作逻辑与证据边界见中文大纲。
 
-Figure 7、8仅展示NROE与NMLE，不展示旧事件ME或旧位移曲线。[CSV及绘图入口](order_scalar_budget_20261105/README_zh.md)可独立复画。Figure 9为探索性固定树序变体，位置轴不是物理X；其结果不替换四数据集主表。
+从仓库根目录运行 `python3 paper/pvis2027/build_main.py` 编译正文。历史章节生成器 `section5_revision_20261105/source/update.py` 尚未迁移本轮结构，不应直接运行覆盖当前正文。
 
-正式四数据集结果见[比例p实验](experiments_ratio_p_20261104/REPORT_zh.md)。Gaussian、Ring、Wildfires、Storms的Balanced预算分别为1%、1%、5%、10%。输入重建、SNS/TW的跨输入比较及覆盖限制保留在论文中。完整原始数据和大型中间数组仍按现有数据分发政策留在本地。
+正式四数据集结果见[比例p实验](experiments_ratio_p_20261104/REPORT_zh.md)。Gaussian、Ring、Wildfires、Storms的Balanced预算分别为1%、1%、5%、10%。完整原始数据和大型中间数组仍保留在本地。
 
-## 文件与复现
+## 最新排版（2026-11-06）
 
-最新正文和六份可编辑PPT统一在[交付目录](最新论文与三张PPT/)；目录名沿用旧名称。九张图的PDF/PNG/SVG和源码见[图件索引](figures/FIGURE_INDEX.md)。旧预算曲线材料留作历史记录，以正文和当前索引为准。
+使用 IEEE VGTC Conference review 模式，保留模板字体、双栏尺寸、页边距及原图细节。正文9页，含参考文献共10页。图4–6使用原始PNG图面，不采用近似重绘或图像生成的修改版本；对应既有PPT仍为原始栅格图面。
 
-从仓库根目录编译正文，需要Tectonic：
+| 页码 | 图表与对应内容 |
+|---|---|
+| 1 | 图1：Storms概览与研究动机 |
+| 2 | 图2：既有TMTM / ST-MTM流程与相关工作 |
+| 3 | 图3：AnchorMTM完整流程框架；本页无其他图 |
+| 4 | 图4：运动方向与固定空间参考 |
+| 5 | 图5：参考顺序与拓扑连续块冲突 |
+| 6 | 图6：选择性拓扑放松与理论分析 |
+| 7 | 表1、2：四数据集比较、参数与运行时间 |
+| 8 | 图7：Storms预算案例 |
+| 9 | 图8：Cylinder三维探索案例 |
+| 10 | 参考文献 |
 
-```sh
-python3 paper/pvis2027/build_main.py
-```
+正文每页均至少包含一张图或表。图2、3保留已有可编辑PPT；图4–6的原生形状重建暂不纳入本版，以确保原图一致。
 
-补充材料从drafts目录执行：
-
-```sh
-tectonic -X compile method_anchor_single_parameter_supplement.tex
-```
-
-Storms最终场景和栅格背景见[源码说明](figures/source/storms_budget_profiles/README.md)；它们支持复画已发布图件，重新运行完整科学计算仍需外部档案。Cylinder轻量缓存与源码位于figures/source/cylinder_centered_blue/。
+[图件索引](figures/FIGURE_INDEX.md)列出当前编号及对应资产。格式依据：[PacificVis 2027 submission guidelines](https://pacificvis2027.github.io/contribute/paper-submission-guidelines/)。
