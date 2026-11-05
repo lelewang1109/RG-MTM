@@ -1,9 +1,10 @@
 {
   "all_passed": true,
   "ranking_cells_checked": 48,
-  "table2_balanced_rows": 4,
   "table2_single_column": true,
   "table2_NMLE_removed": true,
   "source": "experiments_ratio_p_20261104",
-  "no_metrics_changed": true
+  "no_metrics_changed": true,
+  "table2_balanced_dataset_columns": 4,
+  "table2_transposed": true
 }

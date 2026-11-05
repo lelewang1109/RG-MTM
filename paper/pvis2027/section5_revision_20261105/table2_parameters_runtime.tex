@@ -1,23 +1,21 @@
 \begin{table}[t]
 \centering
-\caption{Balanced-mode parameters and runtime (seconds) on Apple M4; one measured run per dataset.}
+\caption{Balanced-mode parameter settings and runtime (seconds).}
 \label{tab:anchor-parameters-final}
 \footnotesize
-\setlength{\tabcolsep}{2.5pt}
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}}lrrrrr@{}}
+\setlength{\tabcolsep}{2pt}
+\renewcommand{\arraystretch}{0.95}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}}lcccc@{}}
 \toprule
-Dataset & $\varepsilon$ & $L$ & $s_w$ & $t_{opt}$ & $t_{total}$ \\
+Parameter & Gaussian & Ring & Wildfires & Storms \\
 \midrule
-Gaussian & 1\% & 4096 & 0.00581 & 0.156 & 1.340 \\
-\addlinespace[0pt]
-Ring & 1\% & 196 & 0.00328 & 0.150 & 0.486 \\
-\addlinespace[0pt]
-Wildfires & 5\% & 4096 & 0.00053 & 3.324 & 4.424 \\
-\addlinespace[0pt]
-Storms & 10\% & 4096 & 0.01170 & 2.600 & 63.447 \\
-\addlinespace[0pt]
+$\varepsilon$ & 1\% & 1\% & 5\% & 10\% \\
+$L$ & 4096 & 196 & 4096 & 4096 \\
+$s_w$ & 0.00581 & 0.00328 & 0.00053 & 0.01170 \\
+$t_{opt}$ & 0.156 & 0.150 & 3.324 & 2.600 \\
+$t_{total}$ & 1.340 & 0.486 & 4.424 & 63.447 \\
 \bottomrule
 \end{tabular*}
 \vspace{2pt}
-\begin{minipage}{\columnwidth}\footnotesize Weights $(4,1,0.5,0.1)$ and $\rho=0.5$ are fixed. $s_w$ is width per support measure; $L$ is raster length. Optimization covers ordering/placement; total includes the full pipeline.\end{minipage}
+\begin{minipage}{\columnwidth}\footnotesize Weights $(4,1,0.5,0.1)$ and $\rho=0.5$ are fixed. $s_w$ is width per support measure; $L$ is raster length. Times are one run on Apple M4: optimization and full pipeline, respectively.\end{minipage}
 \end{table}

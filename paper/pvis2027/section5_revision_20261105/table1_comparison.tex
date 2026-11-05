@@ -1,11 +1,11 @@
 \begin{table*}[t]
 \centering
-\caption{Four-dataset quantitative comparison. TMTM and ST-MTM (Temporal mode) SNS/TW are reported values from ST-MTM Table~1; AnchorMTM values and all NPE values are locally measured. Bold/underline mark the best/second distinct displayed value within each dataset, including ties. This numerical comparison does not establish identical author inputs or evaluation coverage.}
+\caption{Quantitative comparison on four datasets. Best and second-best distinct displayed values within each dataset are shown in bold and underlined, respectively; ties share the same emphasis.}
 \label{tab:quantitative-final}
 \footnotesize
 \setlength{\tabcolsep}{3pt}
 \renewcommand{\arraystretch}{0.85}
-\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lrrrrrrlrrr@{}}
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lcccccccccc@{}}
 \toprule
 \multirow{2}{*}{Dataset} & \multicolumn{3}{c}{TMTM} & \multicolumn{3}{c}{ST-MTM} & \multicolumn{4}{c}{AnchorMTM (our method)} \\
 \cmidrule(lr){2-4}\cmidrule(lr){5-7}\cmidrule(lr){8-11}
@@ -26,5 +26,5 @@
 \bottomrule
 \end{tabular*}
 \vspace{2pt}
-\begin{minipage}{\textwidth}\footnotesize Mode applies to AnchorMTM; baseline entries are shared by both rows. TW uses $k=1,3,5,3$ for Gaussian, Ring, Wildfires and Storms. AnchorMTM TW coverage is respectively 64/64, 1/40, 4/32 and 11/744 in both modes; author coverage is unspecified. Ineligible frames are omitted. Published TW values have only two decimal places, so apparent small differences are not evidence of superiority.\end{minipage}
+\begin{minipage}{\textwidth}\footnotesize TMTM and ST-MTM (Temporal) SNS/TW are quoted from ST-MTM Table~1; AnchorMTM metrics and all NPE values are local measurements. Inputs and evaluation coverage are not confirmed identical. Mode applies to AnchorMTM; baseline entries are shared by both rows. TW uses $k=1,3,5,3$ for Gaussian, Ring, Wildfires and Storms. AnchorMTM TW coverage is respectively 64/64, 1/40, 4/32 and 11/744 in both modes; author coverage is unspecified. Ineligible frames are omitted. Published TW values have only two decimal places, so apparent small differences are not evidence of superiority.\end{minipage}
 \end{table*}

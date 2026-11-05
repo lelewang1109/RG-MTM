@@ -8,7 +8,7 @@ def main():
  def cell(ds,method,k):
   x=float(find(ds,method)[k]);values=sorted({round(float(z[k]),4) for z in data if z['Dataset']==ds},reverse=k=='TW');rank=values.index(round(x,4))+1;s=f'{x:.4f}'
   return '$'+(r'\mathbf{'+s+'}' if rank==1 else r'\underline{'+s+'}' if rank==2 else s)+'$'
- tex=[r'\begin{table*}[t]',r'\centering',r'\caption{Four-dataset quantitative comparison. TMTM and ST-MTM (Temporal mode) SNS/TW are reported values from ST-MTM Table~1; AnchorMTM values and all NPE values are locally measured. Bold/underline mark the best/second distinct displayed value within each dataset, including ties. This numerical comparison does not establish identical author inputs or evaluation coverage.}',r'\label{tab:quantitative-final}',r'\footnotesize',r'\setlength{\tabcolsep}{3pt}',r'\renewcommand{\arraystretch}{0.85}',r'\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lrrrrrrlrrr@{}}',r'\toprule',r'\multirow{2}{*}{Dataset} & \multicolumn{3}{c}{TMTM} & \multicolumn{3}{c}{ST-MTM} & \multicolumn{4}{c}{AnchorMTM (our method)} \\',r'\cmidrule(lr){2-4}\cmidrule(lr){5-7}\cmidrule(lr){8-11}',r' & SNS$\downarrow$ & TW$\uparrow$ & NPE$\downarrow$ & SNS$\downarrow$ & TW$\uparrow$ & NPE$\downarrow$ & Mode & SNS$\downarrow$ & TW$\uparrow$ & NPE$\downarrow$ \\',r'\midrule']
+ tex=[r'\begin{table*}[t]',r'\centering',r'\caption{Quantitative comparison on four datasets. Best and second-best distinct displayed values within each dataset are shown in bold and underlined, respectively; ties share the same emphasis.}',r'\label{tab:quantitative-final}',r'\footnotesize',r'\setlength{\tabcolsep}{3pt}',r'\renewcommand{\arraystretch}{0.85}',r'\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lcccccccccc@{}}',r'\toprule',r'\multirow{2}{*}{Dataset} & \multicolumn{3}{c}{TMTM} & \multicolumn{3}{c}{ST-MTM} & \multicolumn{4}{c}{AnchorMTM (our method)} \\',r'\cmidrule(lr){2-4}\cmidrule(lr){5-7}\cmidrule(lr){8-11}',r' & SNS$\downarrow$ & TW$\uparrow$ & NPE$\downarrow$ & SNS$\downarrow$ & TW$\uparrow$ & NPE$\downarrow$ & Mode & SNS$\downarrow$ & TW$\uparrow$ & NPE$\downarrow$ \\',r'\midrule']
  audit=[]
  for ds in DS:
   for i,mode in enumerate(['Exact','Balanced']):
@@ -17,17 +17,14 @@ def main():
   tex.append(r'\addlinespace[0pt]')
   for method in ['TMTM','ST-MTM Temporal','AnchorMTM Exact','AnchorMTM Balanced']:
    for k in M:audit.append(dict(Dataset=ds,Method=method,Metric=k,value=float(find(ds,method)[k]),latex=cell(ds,method,k)))
- tex +=[r'\bottomrule',r'\end{tabular*}',r'\vspace{2pt}',r'\begin{minipage}{\textwidth}\footnotesize Mode applies to AnchorMTM; baseline entries are shared by both rows. TW uses $k=1,3,5,3$ for Gaussian, Ring, Wildfires and Storms. AnchorMTM TW coverage is respectively 64/64, 1/40, 4/32 and 11/744 in both modes; author coverage is unspecified. Ineligible frames are omitted. Published TW values have only two decimal places, so apparent small differences are not evidence of superiority.\end{minipage}',r'\end{table*}']
+ tex +=[r'\bottomrule',r'\end{tabular*}',r'\vspace{2pt}',r'\begin{minipage}{\textwidth}\footnotesize TMTM and ST-MTM (Temporal) SNS/TW are quoted from ST-MTM Table~1; AnchorMTM metrics and all NPE values are local measurements. Inputs and evaluation coverage are not confirmed identical. Mode applies to AnchorMTM; baseline entries are shared by both rows. TW uses $k=1,3,5,3$ for Gaussian, Ring, Wildfires and Storms. AnchorMTM TW coverage is respectively 64/64, 1/40, 4/32 and 11/744 in both modes; author coverage is unspecified. Ineligible frames are omitted. Published TW values have only two decimal places, so apparent small differences are not evidence of superiority.\end{minipage}',r'\end{table*}']
  (O/'table1_comparison.tex').write_text('\n'.join(tex)+'\n')
- tex=[r'\begin{table}[t]',r'\centering',r'\caption{Balanced-mode parameters and runtime (seconds) on Apple M4; one measured run per dataset.}',r'\label{tab:anchor-parameters-final}',r'\footnotesize',r'\setlength{\tabcolsep}{2.5pt}',r'\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}}lrrrrr@{}}',r'\toprule',r'Dataset & $\varepsilon$ & $L$ & $s_w$ & $t_{opt}$ & $t_{total}$ \\',r'\midrule']
- topology=rows('topology_validation.csv')
- for ds in DS:
-  p=next(x for x in params if x['Dataset']==ds)
-  for mode in ['Balanced']:
-   t=next(x for x in runtime if x['Dataset']==ds and x['Method']=='AnchorMTM '+mode);v=next(x for x in topology if x['Dataset']==ds and x['Method']=='AnchorMTM '+mode)
-   tex.append(f"{ds} & {100*float(t['epsilon']):g}\\% & {p['L_pixels']} & {float(p['width_scale']):.5f} & {float(t['t_opt']):.3f} & {float(t['t_total']):.3f}"+r' \\')
-  tex.append(r'\addlinespace[0pt]')
- tex +=[r'\bottomrule',r'\end{tabular*}',r'\vspace{2pt}',r'\begin{minipage}{\columnwidth}\footnotesize Weights $(4,1,0.5,0.1)$ and $\rho=0.5$ are fixed. $s_w$ is width per support measure; $L$ is raster length. Optimization covers ordering/placement; total includes the full pipeline.\end{minipage}',r'\end{table}']
+ tex=[r'\begin{table}[t]',r'\centering',r'\caption{Balanced-mode parameter settings and runtime (seconds).}',r'\label{tab:anchor-parameters-final}',r'\footnotesize',r'\setlength{\tabcolsep}{2pt}',r'\renewcommand{\arraystretch}{0.95}',r'\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}}lcccc@{}}',r'\toprule',r'Parameter & Gaussian & Ring & Wildfires & Storms \\',r'\midrule']
+ pp={d:next(x for x in params if x['Dataset']==d) for d in DS}
+ tt={d:next(x for x in runtime if x['Dataset']==d and x['Method']=='AnchorMTM Balanced') for d in DS}
+ entries=[(r'$\varepsilon$',lambda d:f"{100*float(tt[d]['epsilon']):g}\\%"),(r'$L$',lambda d:pp[d]['L_pixels']),(r'$s_w$',lambda d:f"{float(pp[d]['width_scale']):.5f}"),(r'$t_{opt}$',lambda d:f"{float(tt[d]['t_opt']):.3f}"),(r'$t_{total}$',lambda d:f"{float(tt[d]['t_total']):.3f}")]
+ for label,fmt in entries:tex.append(' & '.join([label]+[fmt(d) for d in DS])+r' \\')
+ tex +=[r'\bottomrule',r'\end{tabular*}',r'\vspace{2pt}',r'\begin{minipage}{\columnwidth}\footnotesize Weights $(4,1,0.5,0.1)$ and $\rho=0.5$ are fixed. $s_w$ is width per support measure; $L$ is raster length. Times are one run on Apple M4: optimization and full pipeline, respectively.\end{minipage}',r'\end{table}']
  (O/'table2_parameters_runtime.tex').write_text('\n'.join(tex)+'\n')
  with (O/'ranking_audit.csv').open('w',newline='') as f:w=csv.DictWriter(f,fieldnames=list(audit[0]));w.writeheader();w.writerows(audit)
  source=P/'drafts/method_anchor_figures_updated_en.tex';s=source.read_text();a=s.index(r'\section{Experiments}');b=s.index(r'\section{Discussion and Limitations}',a)
