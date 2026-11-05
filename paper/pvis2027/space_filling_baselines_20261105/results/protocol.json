@@ -1,0 +1,9 @@
+{
+  "curves": "existing canonical sample_order; x=column,y=row; no orientation search or reflection",
+  "mapping": "full-grid valid-cell curve rank/(grid sample count-1), mapped to shared fixed physical canvas; rounded at original L; no per-frame feature rank packing",
+  "anchors": "same original extremum sample IDs as Anchor Exact; SNS/TW source points are same support centroids",
+  "TW": "shared stable distance-tie ordering by leaf ID; require0<k<n/2; missing neverzero",
+  "NPE": "time mean of frame max abs(final position - frozen q)/canvas",
+  "interpretation": "sample-domain spatial baselines, no topology preservation or finite feature-support layout guarantee; quantization collisions retained and reported",
+  "pilot": false
+}

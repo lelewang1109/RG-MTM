@@ -1,0 +1,25 @@
+Dataset,Method,SNS,TW,NPE,TW_k,TW_valid_frames,SNS_TW_source,NPE_source
+Gaussian,TMTM,0.25,0.77,0.11177217182615835,1,N/A,published,local shared frozen reference
+Gaussian,ST-MTM Temporal,0.06,1.0,0.1153961824483478,1,N/A,published,local shared frozen reference
+Gaussian,AnchorMTM Exact,0.035308168650606826,0.9322916666666667,0.008916235544484011,1,64,local,local shared frozen reference
+Gaussian,AnchorMTM Balanced,0.035308168650606826,0.9322916666666667,0.008916235544484011,1,64,local,local shared frozen reference
+Gaussian,Hilbert,0.11172756564976895,0.6718750000000001,0.7557151509907414,1,64,local canonical sample-domain curve,local shared frozen reference
+Gaussian,Morton,0.03926947479568468,0.8333333333333335,0.7359349312105217,1,64,local canonical sample-domain curve,local shared frozen reference
+Ring,TMTM,0.28,0.68,0.1755693829125843,3,N/A,published,local shared frozen reference
+Ring,ST-MTM Temporal,0.21,0.88,0.24632695944063748,3,N/A,published,local shared frozen reference
+Ring,AnchorMTM Exact,0.14847254170724555,0.8571428571428572,0.04712036157053711,3,1,local,local shared frozen reference
+Ring,AnchorMTM Balanced,0.13339423008916096,0.8571428571428572,0.03946898894794522,3,1,local,local shared frozen reference
+Ring,Hilbert,0.12515286280652022,0.9047619047619048,0.5941275729157919,3,1,local canonical sample-domain curve,local shared frozen reference
+Ring,Morton,0.14892365979547895,0.7619047619047619,0.6032784627891905,3,1,local canonical sample-domain curve,local shared frozen reference
+Wildfires,TMTM,0.44,0.88,0.2280042543503018,5,N/A,published,local shared frozen reference
+Wildfires,ST-MTM Temporal,0.24,0.91,0.3179595394390389,5,N/A,published,local shared frozen reference
+Wildfires,AnchorMTM Exact,0.04260090315524024,0.9135984848484848,0.013060898655193876,5,4,local,local shared frozen reference
+Wildfires,AnchorMTM Balanced,0.044669851206759856,0.8989350233100234,0.011551482107911692,5,4,local,local shared frozen reference
+Wildfires,Hilbert,0.18826843503551188,0.8303321678321678,0.36406881782296785,5,4,local canonical sample-domain curve,local shared frozen reference
+Wildfires,Morton,0.13036396471219022,0.8757837995337995,0.1560266422156938,5,4,local canonical sample-domain curve,local shared frozen reference
+Storms,TMTM,0.34,0.71,0.5752859558929264,3,N/A,published,local shared frozen reference
+Storms,ST-MTM Temporal,0.21,0.94,0.45785829943727696,3,N/A,published,local shared frozen reference
+Storms,AnchorMTM Exact,0.07902750025141413,0.8463203463203464,0.039909143521947674,3,11,local,local shared frozen reference
+Storms,AnchorMTM Balanced,0.07432585800234603,0.8766233766233767,0.01402297210289242,3,11,local,local shared frozen reference
+Storms,Hilbert,0.1289704506311757,0.7402597402597402,0.37045191065835364,3,11,local canonical sample-domain curve,local shared frozen reference
+Storms,Morton,0.11800677474822857,0.725108225108225,0.34680629161406873,3,11,local canonical sample-domain curve,local shared frozen reference

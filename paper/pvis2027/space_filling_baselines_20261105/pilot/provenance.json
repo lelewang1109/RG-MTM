@@ -1,0 +1,26 @@
+[
+  {
+    "Dataset": "Gaussian",
+    "fields_sha256": "eadb35381c225ab335df2bb0b60bc95733e7c72b1c2f1607cee476444ccb7762",
+    "coordinates_sha256": "e95c6ab13400f96b1ced7775e60e34009e4195a805c6279ba670259148556097",
+    "input_audit_sha256": "2e08b5e2b732e41126b32cd6b9826e2e20d170170ae2ac5912d14da2b64f0d82"
+  },
+  {
+    "Dataset": "Ring",
+    "fields_sha256": "b623e4c731873d615c686f62d1963c9394c13b32f1304a60f93236b0e8a69130",
+    "coordinates_sha256": "db4d0a5198a0d080e44929d4924c2094f6dc20313b539c1ed9a637a14178b392",
+    "input_audit_sha256": "dbc234568c51e23a2638b0931a0de08a2640fecb84b320e8a6b74eb1d9795434"
+  },
+  {
+    "Dataset": "Wildfires",
+    "fields_sha256": "424e37b71f4e74554f0131b0299d23fc20a9cb8a01d6ad239df074784df9df9f",
+    "coordinates_sha256": "388b9b069633d1479bbcb94878d5c4c4894867860063354e57a883b5fe55113c",
+    "input_audit_sha256": "fd10a73fecbca65b9e603e7b20feea02a82c8d35f9fe9427db296e00425ff044"
+  },
+  {
+    "Dataset": "Storms",
+    "fields_sha256": "fd916f34d787a62fc68b1b512f4ea8eeaabffbb0594a4ae76b5be443b48907a1",
+    "coordinates_sha256": "d01b32d2be904caf235ad84fa9e6e77869f70bdee612bd39cae3151f0d780dc2",
+    "input_audit_sha256": "34e9f4815ffb22ace80e1719ef96f6bcf7e79588d06f5855b729e6321da1f7ef"
+  }
+]

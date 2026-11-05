@@ -1,0 +1,14 @@
+{
+  "full_frames": 880,
+  "curve_evaluations": 1760,
+  "Exact_shared_metric_reproduction": true,
+  "independent_SNS_check": true,
+  "TW_coverage": [
+    64,
+    1,
+    4,
+    11
+  ],
+  "coincident_anchor_frames": 0,
+  "paper_modified": false
+}

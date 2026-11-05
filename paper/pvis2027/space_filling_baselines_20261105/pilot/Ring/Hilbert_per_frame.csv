@@ -1,0 +1,9 @@
+Dataset,Method,frame,features,SNS,TW,NPE,k,coincident_display_anchors
+Ring,Hilbert,0,1,,,0.48802091615378146,3,0
+Ring,Hilbert,1,1,,,0.48802091615378146,3,0
+Ring,Hilbert,2,1,,,0.48802091615378146,3,0
+Ring,Hilbert,3,1,,,0.48802091615378146,3,0
+Ring,Hilbert,4,1,,,0.48802091615378146,3,0
+Ring,Hilbert,5,1,,,0.5406901973396707,3,0
+Ring,Hilbert,6,1,,,0.5406901973396707,3,0
+Ring,Hilbert,7,1,,,0.47402353067300407,3,0
