@@ -1,0 +1,26 @@
+{
+  "rule": "min channel >=245 maps to pure white; smooth neutral lift over minimum channel (230,245); pixels with minimum channel <=230 remain unchanged",
+  "images": [
+    {
+      "name": "01_direction.png",
+      "width": 1536,
+      "height": 1024,
+      "backgroundPixelsWhitened": 1331281,
+      "changedPixelsWithMinimumChannelAtMost230": 0
+    },
+    {
+      "name": "02_conflict.png",
+      "width": 1536,
+      "height": 1024,
+      "backgroundPixelsWhitened": 1520699,
+      "changedPixelsWithMinimumChannelAtMost230": 0
+    },
+    {
+      "name": "03_relaxation.png",
+      "width": 1536,
+      "height": 1024,
+      "backgroundPixelsWhitened": 1519046,
+      "changedPixelsWithMinimumChannelAtMost230": 0
+    }
+  ]
+}

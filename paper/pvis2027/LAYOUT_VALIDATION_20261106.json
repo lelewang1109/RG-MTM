@@ -16,6 +16,7 @@
   },
   "body_last_page": 9,
   "format": "IEEE VGTC conference review; unmodified class",
-  "artwork": "original PNGs embedded unchanged; no rejected redraws",
-  "body_pages_all_have_figure_or_table": true
+  "artwork": "Original composition, canonical PNG/PDF/PPT media overwritten with pure-white background; no redraw or resampling",
+  "body_pages_all_have_figure_or_table": true,
+  "background_validation": "figures/source/open_mechanisms_20261106/BACKGROUND_VALIDATION.json"
 }

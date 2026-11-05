@@ -13,6 +13,6 @@ Run `export_paper_pdf.py` with PyMuPDF to generate the paper PDF wrappers. Set `
 The figures are conceptual schematics, not experimental measurements. Figure 5 uses target order A,C,D,B, matching the updated local manuscript example. Heights in Figure 6 are schematic, without numeric error claims.
 
 
-## Current manuscript export
+## Pure-white background update (2026-11-06)
 
-Original PNG artwork is preserved without redraw, recoloring or background replacement. The current export script embeds these original PNGs directly into PDF. The original three-slide PPT likewise retains the original artwork. Approximate native reconstructions are excluded from publication.
+Canonical PNGs, paper PDFs and the existing PPT media are overwritten with the white-background versions. The original gray-background PNGs are retained under `original_gray_background/` for reproducibility. `clean_background.mjs` uses a smooth neutral lift only where the minimum RGB channel exceeds 230; pixels with minimum channel at least 245 become RGB(255,255,255). Darker foreground pixels remain byte-identical. Geometry, resolution, labels and tracks are not redrawn or resampled. `BACKGROUND_VALIDATION.json` records the pixel checks. Run the cleanup script followed by `export_paper_pdf.py` to regenerate the canonical assets.

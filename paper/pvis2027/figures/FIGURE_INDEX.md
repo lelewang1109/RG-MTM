@@ -18,3 +18,5 @@ Figure 2保留原横向结构，横向压缩20%，Spatiotemporal map为一行；
 Figure 7采用与首图相同的定性Storms档案，非主表定量输入。Figure 8为独立探索性配置，不替换四数据集主表。已撤预算曲线仍保留为历史资产。
 
 本轮以三张开放式机制图替换原正文图4–6，均为单栏；映射图暂不纳入。旧图文件保留，旧浮动体源码见[暂撤记录](source/open_mechanisms_20261106/temporarily_removed_figures_4_6.tex)。PPT保留原始栅格图面，图内线条与文字未拆分成独立图元。
+
+图4–6已覆盖为纯白背景版本，保持原始构图和1536×1024尺寸；对应PPT媒体同步替换。原浅灰底备份及背景处理脚本位于source/open_mechanisms_20261106/。
