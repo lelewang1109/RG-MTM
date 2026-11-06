@@ -34,4 +34,9 @@
 
 正文每页均至少包含一张图或表。图2、3保留已有可编辑PPT；图4–6的原生形状重建暂不纳入本版，以确保原图一致。
 
+后续PPT更新：图4–6的PPT已替换为619个原生可编辑对象组成的三页版本，见[重建说明](figures/source/open_mechanisms_native_20261106/README.md)。本次只更换PPT，正文PDF配图继续保留已批准的原始图面；原生重绘的平滑纹理及字体渲染与栅格原图存在细微差异。
+
 [图件索引](figures/FIGURE_INDEX.md)列出当前编号及对应资产。格式依据：[PacificVis 2027 submission guidelines](https://pacificvis2027.github.io/contribute/paper-submission-guidelines/)。
+
+
+最新同步：三图说明文字统一为Times New Roman正体、32 px；数学标签保留斜体。第二图AB/CD根节点等高，第三图圈出放松节点。正式PPT共632个原生对象，正文图4–6现使用该PPT经办公软件渲染的3072×2048截图，替代上一版图面。

@@ -7,9 +7,9 @@
 | Figure 1 | Storms 空间支持与时序地图 | 双栏，第1页 | [PDF](anchor_storms_overview.pdf) · [PNG](anchor_storms_overview.png) · [PPT](../最新论文与三张PPT/Fig1_Storms.pptx) |
 | Figure 2 | TMTM / ST-MTM 既有流程示意 | 单栏，第2页 | [PDF](anchor_baseline_workflows.pdf) · [PNG](anchor_baseline_workflows.png) · [PPT](../最新论文与三张PPT/TMTM_STMTM_对比流程.pptx) |
 | Figure 3 | AnchorMTM 完整方法框架 | 双栏，第3页 | [PDF](anchor_framework.pdf) · [PNG](anchor_framework.png) · [PPT](../最新论文与三张PPT/Fig2_系统框架.pptx) |
-| Figure 4 | 运动导出的固定方向与空间参考 | 单栏，第4页 | [PDF](anchor_direction_open.pdf) · [PNG](source/open_mechanisms_20261106/01_direction.png) · [PPT第1页](../最新论文与三张PPT/Fig4-6_方向_冲突_放松.pptx) |
-| Figure 5 | 参考位置与拓扑连续块冲突 | 单栏，第5页 | [PDF](anchor_conflict_open.pdf) · [PNG](source/open_mechanisms_20261106/02_conflict.png) · [PPT第2页](../最新论文与三张PPT/Fig4-6_方向_冲突_放松.pptx) |
-| Figure 6 | 选择性拓扑放松与剖面变化 | 单栏，第6页 | [PDF](anchor_relaxation_open.pdf) · [PNG](source/open_mechanisms_20261106/03_relaxation.png) · [PPT第3页](../最新论文与三张PPT/Fig4-6_方向_冲突_放松.pptx) |
+| Figure 4 | 运动导出的固定方向与空间参考 | 单栏，第4页 | [PDF](anchor_direction_open.pdf) · [PNG](anchor_direction_open.png) · [PPT第1页](../最新论文与三张PPT/Fig4-6_方向_冲突_放松.pptx) |
+| Figure 5 | 参考位置与拓扑连续块冲突 | 单栏，第5页 | [PDF](anchor_conflict_open.pdf) · [PNG](anchor_conflict_open.png) · [PPT第2页](../最新论文与三张PPT/Fig4-6_方向_冲突_放松.pptx) |
+| Figure 6 | 选择性拓扑放松与剖面变化 | 单栏，第6页 | [PDF](anchor_relaxation_open.pdf) · [PNG](anchor_relaxation_open.png) · [PPT第3页](../最新论文与三张PPT/Fig4-6_方向_冲突_放松.pptx) |
 | Figure 7 | Storms 完整事件地图参数对比 | 双栏，第8页 | [PDF](anchor_storms_budget_maps.pdf) · [PNG](anchor_storms_budget_maps.png) · [PPT](../最新论文与三张PPT/Fig6_Storms参数剖面.pptx) |
 | Figure 8 | Cylinder 中心树变体与源三维快照 | 双栏，第9页 | [PDF](anchor_cylinder_centered_blue.pdf) · [PNG](anchor_cylinder_centered_blue.png) |
 
@@ -17,6 +17,6 @@ Figure 2保留原横向结构，横向压缩20%，Spatiotemporal map为一行；
 
 Figure 7采用与首图相同的定性Storms档案，非主表定量输入。Figure 8为独立探索性配置，不替换四数据集主表。已撤预算曲线仍保留为历史资产。
 
-本轮以三张开放式机制图替换原正文图4–6，均为单栏；映射图暂不纳入。旧图文件保留，旧浮动体源码见[暂撤记录](source/open_mechanisms_20261106/temporarily_removed_figures_4_6.tex)。PPT保留原始栅格图面，图内线条与文字未拆分成独立图元。
+本轮以三张开放式机制图替换原正文图4–6，均为单栏；映射图暂不纳入。旧图文件保留，旧浮动体源码见[暂撤记录](source/open_mechanisms_20261106/temporarily_removed_figures_4_6.tex)。PPT已改为原生可编辑形状，三页共632个对象，零图片；[重建源码与说明](source/open_mechanisms_native_20261106/README.md)。正文图4–6已替换为新版PPT导出的3072×2048高清截图。说明文字统一Times New Roman正体，数学符号保留斜体，两个子树根节点等高。
 
 图4–6已覆盖为纯白背景版本，保持原始构图和1536×1024尺寸；对应PPT媒体同步替换。原浅灰底备份及背景处理脚本位于source/open_mechanisms_20261106/。

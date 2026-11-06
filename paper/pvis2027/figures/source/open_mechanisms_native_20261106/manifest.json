@@ -1,0 +1,26 @@
+{
+  "width": 1536,
+  "height": 1024,
+  "font": "Times New Roman",
+  "slides": [
+    {
+      "slide": 1,
+      "name": "Direction",
+      "objects": 401,
+      "images": 0
+    },
+    {
+      "slide": 2,
+      "name": "Conflict",
+      "objects": 139,
+      "images": 0
+    },
+    {
+      "slide": 3,
+      "name": "Relaxation",
+      "objects": 92,
+      "images": 0
+    }
+  ],
+  "scope": "Native shapes only. Raster source texture is approximated with editable smooth fills."
+}
