@@ -36,6 +36,12 @@ for k,t in enumerate(stages):
  sa.set(xlim=(lo[0],hi[0]),ylim=(lo[1],hi[1]),zlim=(0,6),xticks=[],yticks=[],zticks=[],xlabel='',ylabel='',zlabel='');sa.tick_params(labelsize=9,pad=1,length=1);sa.xaxis.labelpad=-2;sa.yaxis.labelpad=-3;sa.zaxis.labelpad=-3
  for axis in [sa.xaxis,sa.yaxis,sa.zaxis]:
   axis.pane.set_facecolor((1,1,1,0));axis.pane.set_edgecolor('#777777');axis.pane.set_alpha(1);axis.line.set_color('#777777');axis.line.set_linewidth(.6);axis._axinfo['grid']['color']=(.7,.72,.74,.30)
+ # Explicit twelve-edge domain box: all vertical edges are retained.
+ sa.set_axis_off()
+ corners_box=np.array(list(product([lo[0],hi[0]],[lo[1],hi[1]],[0,6])))
+ for a,p0 in enumerate(corners_box):
+  for p1 in corners_box[a+1:]:
+   if np.count_nonzero(p0!=p1)==1:sa.plot(*np.array([p0,p1]).T,color='#777777',lw=.6,zorder=0,clip_on=False)
  fig.text(rect[0]+rect[2]/2,.125,f't = {times[t]:.1f}',ha='center',va='top',fontsize=9)
  if False:
   corners=np.array(list(product(*sel['bbox'])))
