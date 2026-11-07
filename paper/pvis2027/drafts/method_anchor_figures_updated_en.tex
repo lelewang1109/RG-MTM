@@ -149,13 +149,8 @@ These correspondences, computed before any topology-budget sweep, provide the mo
 \end{equation}
 The leading eigenvector maximizes squared projected motion. The same calculation serves 2D and 3D; it is performed once for the whole sequence. Its sign makes total signed projected motion nonnegative; for near-zero signed motion, the largest-magnitude component is made positive. With negligible motion energy, the longest domain axis is used (first axis on a tie). Repeated leading eigenvalues leave the maximizing direction nonunique; the reported eigengap indicates this ambiguity. A supplied physical direction may replace $a^*$ without changing the layout. Overlap matching may miss fast-moving features or those with changing or weakly overlapping supports, affecting the displacement sample and hence the estimated direction.
 
-\begin{figure}[t]
-\centering
-\includegraphics[width=0.85\columnwidth]{../figures/anchor_direction_open.pdf}
-\caption{Motion-derived spatial reference. Matched extremum displacements define one direction $a^*$ for the sequence; extrema project onto the parallel reference axis $q$ from a common origin $o$. Tracks, contours and projection positions are schematic.}
-\label{fig:direction-open}
-\end{figure}
-Figure~\ref{fig:direction-open} illustrates the shared reference. For the selected direction, the minimum and span of the projected domain bounding-box corners define a common origin $o$ and extent $L>0$. The reference is
+
+For the selected direction, the minimum and span of the projected domain bounding-box corners define a common origin $o$ and extent $L>0$. The reference is
 \begin{equation}\label{eq:reference}
  q_i^t=\langle a^*,p_i^t\rangle-o\in[0,L].
 \end{equation}
@@ -163,7 +158,7 @@ Direction, origin and scale remain fixed across frames and all budgets for the s
 
 Relative geometry uses distances $d_{ij}^t$ between leaf-support centroids. These differ from extremum references because a changing support can move its centroid while the extremum stays fixed. Widths $W_i^t=s\,m_i^t$ convert positive support measures with a fixed scale $s$, without per-frame normalization.
 
-Figure~\ref{fig:projection_conflict} contrasts the spatial target order with a tree-consistent order. In this four-minimum example, projected order $A,C,D,B$ separates $A$ and $B$ by the $C,D$ subtree, violating the required contiguity of $\{A,B\}$; exact topology therefore cannot realize all four targets without displacement.
+For example, consider four minima. The projected order $A,C,D,B$ separates $A$ and $B$ by the $C,D$ subtree, violating the required contiguity of $\{A,B\}$; exact topology therefore cannot realize all four targets without displacement.
 
 With correspondence and the reference fixed, a frame comprises a leaf order, extremum anchors, and a scalar profile:
 \begin{equation}\label{eq:mapframe}
@@ -195,12 +190,7 @@ All remaining settings belong to a fixed configuration $\Theta_0$: position slac
 
 For canonical cophenetic merge-tree representations whose fixed labels cover every leaf and whose induced matrices include the diagonal, $\dtop$ equals the unnormalized labelled interleaving distance~\cite{Munch:2019:LINF,Gasparovic:2024:IID}. Under these conditions, $d_B\le d_I\le\dtop$~\cite{Morozov:2013:IDMT}. 
 
-\begin{figure}[t]
-\centering
-\includegraphics[width=\columnwidth]{../figures/anchor_conflict_open.pdf}
-\caption{Reference--topology conflict. The tree requires contiguous $A,B$ and $C,D$ blocks. Its displayed anchors $x$ follow a compatible order, whereas the fixed spatial targets $q$ occur as $A,C,D,B$. Colored links indicate the displacement needed to reconcile these orders. Widths and positions are schematic.}
-\label{fig:projection_conflict}
-\end{figure}
+
 \subsection{Certified Position--Topology Bounds}\label{sec:bounds}
 How much must any admissible map deviate from its reference? The following bounds isolate what topology and finite widths make unavoidable: the first answers how much a tree-compatible point order must deviate, the second adds interval packing, and the third asks which restrictions survive a merge-error allowance. The resulting certificates apply independently of the layout algorithm. Full proofs and computational definitions accompany the paper in Supplementary Material. We suppress $t$ within a frame, use $[v]^+=\max(v,0)$, and take empty maxima as zero.
 
