@@ -1,28 +1,22 @@
 # AnchorMTM
 
-Spatial anchoring, topology-budgeted merge-tree layouts, and certified position bounds for temporal maps of scalar fields.
+Spatially anchored merge-tree maps for time-varying scalar fields, with topology budgets and certified position bounds.
 
-## Current paper — 2026-11-05
+## Current paper — November 7, 2026
 
-- [Main paper (PDF)](paper/pvis2027/最新论文与三张PPT/AnchorMTM_最新论文.pdf) · [LaTeX](paper/pvis2027/drafts/method_anchor_figures_updated_en.tex)
-- [Current nine figures and six editable PowerPoints](paper/pvis2027/figures/FIGURE_INDEX.md)
-- [Figure 2: Complete construction framework](paper/pvis2027/figures/anchor_framework.pdf) · [editable PPT](paper/pvis2027/最新论文与三张PPT/Fig2_系统框架.pptx)
-- [Figure 6: Storms parameter profiles and event maps](paper/pvis2027/figures/anchor_storms_budget_profiles.pdf) · [editable PPT](paper/pvis2027/最新论文与三张PPT/Fig6_Storms参数剖面.pptx)
-- [Figures 7–8: NROE/NMLE budget diagnostics, CSV and plotting script](paper/pvis2027/order_scalar_budget_20261105/README_zh.md)
-- [Formal quantitative results and input protocol](paper/pvis2027/experiments_ratio_p_20261104/REPORT_zh.md)
-- [Supplement and build instructions](paper/pvis2027/README.md)
+- [Latest paper (PDF)](paper/pvis2027/最新论文与三张PPT/AnchorMTM_最新论文.pdf) · [LaTeX source](paper/pvis2027/drafts/method_anchor_figures_updated_en.tex)
+- [Hourly PM2.5 case: figure, PowerPoint, plotting cache and checks](paper/pvis2027/pm25_hourly_20261107/README.md)
+- [Formal four-input evaluation and provenance](paper/pvis2027/experiments_ratio_p_20261104/REPORT_zh.md)
+- [Method and baseline code](code/) · [Data documentation](data/) · [Research documentation](docs/)
 
-The complete construction overview is Figure 2, spanning both columns on page 3. It retains every internal component of the independent concept’s middle method panel, follows the paper typography and feature colors, and uses an existing qualitative Storms output as its final map. The PDF now has 11 pages including references; the last Cylinder figure is on page 10. Body font size and margins are unchanged. The double-column Storms parameter study is now Figure 6 on page 8. Gray reference lines are darker. The 30% column is omitted because it coincides with 20%; no artificial offsets are used.
+The revised manuscript presents the position bounds, construction and evaluation separately. Two-dimensional cases (Ring, Storms and hourly PM2.5) precede the exploratory three-dimensional Cylinder case. The new PM2.5 single-column figure places its temporal map above five source snapshots, with compact spacing and consistent date/time labels.
 
-The formal four-input comparison uses Exact and Balanced budgets of 1%, 1%, 5%, and 10% for Gaussian, Ring, Wildfires, and Storms. Published TMTM/ST-MTM SNS/TW and locally measured metrics retain explicit input provenance and coverage limits. The qualitative Storms archive and exploratory Cylinder variant are distinguished from the quantitative comparison.
+![Hourly PM2.5 case](paper/pvis2027/pm25_hourly_20261107/PM25_single_column.png)
 
-Full source fields and large intermediate archives remain external under the existing data distribution policy. Curated CSVs, plotting sources, compact figure caches and editable scenes are included. Historical budget-study materials remain available but are superseded by the current manuscript and figure index.
+## Evidence and reproduction
 
-## Research materials
+The formal comparison uses Gaussian, Ring, Wildfires and Storms with disclosed local input conventions. Wildfires' local reconstruction is **not** the original author-processed 32-frame input. Published baseline scores and local measurements are distinguished; reconstruction differences limit identical-input claims.
 
-- [Method and baseline code](code/)
-- [Data documentation](data/)
-- [Research documentation](docs/)
-- [References](references/)
+The PM2.5 case uses the ChinaVis2021 CAQRA hourly archive for January 2017, with maxima handled as join trees of negated concentration. It is an additional exploratory case, not a new row in the formal comparison. The displayed window is January 22 00:00–27 12:00 (Beijing time), at a 5% layout allowance; persistence simplification is a separate parameter. Compact derived data and the replot script are included; nationwide source archives and large intermediate trees remain external.
 
-This publication update synchronizes the current method source and curated formal experiment outputs. Historical reports under `docs/` describe earlier research stages and may refer to paper paths available only in Git history.
+[Paper build instructions and supporting material](paper/pvis2027/README.md). Historical reports and figure indexes describe earlier versions; the latest PDF and current case page above take precedence.

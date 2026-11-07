@@ -1,0 +1,6 @@
+{
+  "passed": true,
+  "max_extremum_error_ugm3": 0.0,
+  "display_transform": "concentration=-internal_join_value",
+  "frames": 744
+}
