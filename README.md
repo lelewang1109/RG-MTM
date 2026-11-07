@@ -24,3 +24,5 @@ The PM2.5 case uses the ChinaVis2021 CAQRA hourly archive for January 2017, with
 PM2.5 metrics are recomputed on all 744 shared-input frames: Balanced (fixed 5% case budget) has best SNS (0.1636) and NPE (0.0468); Exact has second NPE (0.1390). Hilbert has best TW (0.8887). Local ST-MTM uses the declared Storms preset with start frame 0; no author PM2.5 baseline scores are claimed. Uncached one-thread remeasurement gives optimization 199.975 s and full pipeline 231.177 s; scientific metrics exactly match the original run. Stage times are recorded in timing.json.
 
 Latest layout revision: the former motion-reference and reference–topology-conflict schematic Figures 3–4 are removed from the manuscript. Subsequent figures are renumbered; the explanatory method text is retained. Historical figure assets remain archived.
+
+Restored the overlap-based leaf-correspondence schematic in the correspondence section, using the archived [original PowerPoint](paper/pvis2027/最新论文与三张PPT/Fig3_跨帧特征对应.pptx). The previously removed direction/conflict figures remain omitted.

@@ -133,11 +133,16 @@ We track merge-tree leaf extrema $p_i^t$ using their leaf-arc supports $S_i^t$. 
 \begin{equation}\label{eq:overlap}
  O_{ij}^t=|S_i^t\cap S_j^{t+1}|.
 \end{equation}
-Hungarian assignment maximizes total intersection count over one-to-one pairs, discarding zero-overlap pairs. The assigned links define the identity states described below.
+Hungarian assignment maximizes total intersection count over one-to-one pairs, discarding zero-overlap pairs. Figure~\ref{fig:leaf_correspondence} illustrates the resulting identity states.
 
 \emph{Continuation} inherits a Track ID; \emph{birth/death} starts an unmatched current identity or ends an unmatched previous track. For \emph{non-bijective correspondence}, including potential one-to-many, many-to-one and ambiguous relations, only the assigned one-to-one links are retained. For a current leaf $i$, $\mu_t(i)$ denotes its valid predecessor. The layout receives precomputed tracks aligned to leaf rows; upstream support and confidence conventions are detailed in Supplementary Material.
 
-% Previous correspondence figure temporarily removed; source preserved in figures/source/open_mechanisms_20261106/.
+\begin{figure}[tbp]
+\centering
+\includegraphics[width=\linewidth]{../figures/anchor_leaf_correspondence.pdf}
+\caption{Overlap-based leaf correspondence on a shared grid. Colored regions represent leaf-arc supports; hatching marks samples shared with the previous frame. Maximum-overlap one-to-one assignment continues $A$ and $B$, leaves $C_t$ unmatched, and assigns a new identity to $D_{t+1}$. Birth and death denote matching states, not identified physical events.}
+\label{fig:leaf_correspondence}
+\end{figure}
 
 These correspondences, computed before any topology-budget sweep, provide the motion samples for Spatial Anchoring, which distinguishes a reference target $q_i^t$ from the display anchor $x_i^t$. Only valid consecutive-frame matches contribute displacements; failed matches or interrupted tracks contribute no sample for that step. By default, one unit direction $a^*\in\mathbb{R}^d$, $d\in\{2,3\}$, is estimated offline from all matched consecutive-frame extremum displacements:
 \begin{equation}\label{eq:autodirection}
