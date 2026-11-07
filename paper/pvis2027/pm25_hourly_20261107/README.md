@@ -8,4 +8,4 @@ Main map and five snapshots have thin black borders, single-line timestamps and 
 
 Replot the exact compact figure with `python draw.py` (NumPy and Matplotlib). `figure_cache.npz` is a compact derived display cache, not the original nationwide data archive. Full source archives remain external. Summary files document continuous/raster budget and polarity checks.
 
-PM2.5 metrics are recomputed on all 744 shared-input frames: the 5% configuration has best SNS (0.1636) and NPE (0.0468); Exact has second NPE (0.1390). Hilbert has best TW (0.8887). Local ST-MTM uses the declared Storms preset with start frame 0; no author PM2.5 baseline scores are claimed. Full-pipeline timing is unavailable, so the parameter table reports a dash rather than an inferred time.
+PM2.5 metrics are recomputed on all 744 shared-input frames: Balanced (fixed 5% case budget) has best SNS (0.1636) and NPE (0.0468); Exact has second NPE (0.1390). Hilbert has best TW (0.8887). Local ST-MTM uses the declared Storms preset with start frame 0; no author PM2.5 baseline scores are claimed. Full-pipeline timing is unavailable, so the parameter table reports a dash rather than an inferred time.
