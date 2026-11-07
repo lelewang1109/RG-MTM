@@ -130,7 +130,15 @@ A leaf represents an extremum at spatial location $p_i^t$. Its feature support $
 Equal-level merge events form one multifurcation; arbitrary binary refinements do not add strict constraints. All subsequent guarantees refer to the supplied, possibly simplified tree.
 
 \subsection{One-Dimensional Merge-Tree Profiles}
-A 1D merge-tree profile represents extrema at anchors in a selected leaf order. Regular vertices on leaf arcs supply scalar context within leaf intervals; internal arcs and paths to the LCA supply the intervening gaps~\cite{Koepp:2023:TMTM,STMTM:2026}. In join convention, extrema become profile minima, and the largest profile value between two anchors gives their displayed merge level. Exact preservation requires each strict subtree to occupy a contiguous leaf block. Arranging these profiles along time yields a static temporal map. This profile model provides the basis for the spatial anchoring formulation below.
+A 1D merge-tree profile represents extrema at anchors in a selected leaf order. Regular vertices on leaf arcs supply scalar context within leaf intervals; internal arcs and paths to the LCA supply the intervening gaps~\cite{Koepp:2023:TMTM,STMTM:2026}. In join convention, extrema become profile minima, and the largest profile value between two anchors gives their displayed merge level. Exact preservation requires each strict subtree to occupy a contiguous leaf block. Arranging these profiles along time yields a static temporal map. Figure~\ref{fig:node-mapping} illustrates sample identities across a tree and its 1D representation. This profile model provides the basis for the spatial anchoring formulation below.
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\columnwidth]{../figures/anchor_node_mapping.pdf}
+\caption{Illustrative mapping of one augmented merge tree to a 1D layout. Colored leaves $A$--$D$ and regular arc samples retain their identities; arrows connect source-tree samples to their displayed positions. The sample ordering is schematic, not a spatial projection or an optimized experimental result.}
+\label{fig:node-mapping}
+\end{figure}
+
 
 \section{Spatial Anchoring: Formulation, Bounds and Construction}\label{sec:method}
 Figure~\ref{fig:framework} summarizes the construction. We first fix the reference and define admissible maps, then derive bounds that apply to any such map, and finally describe how AnchorMTM searches and places a layout. This order separates what the constraints require from what the algorithm chooses. Analysis uses join convention; split-tree scalar signs are restored after reconstruction.

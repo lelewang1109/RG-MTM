@@ -1,0 +1,90 @@
+[
+  {
+    "file": "anchor_storms_budget_maps.pdf",
+    "fonts": [
+      "LiberationSerif",
+      "LiberationSerif-Bold",
+      "LinuxLibertineG"
+    ],
+    "extractable_text_spans": 17,
+    "note": "PDF-level font inventory; image-baked text is not captured"
+  },
+  {
+    "file": "anchor_framework.pdf",
+    "fonts": [
+      "ArialUnicodeMS",
+      "DejaVuMathTeXGyre-Regula",
+      "HiraMaruPro-W4",
+      "LinuxLibertineG",
+      "TimesNewRomanPS-BoldMT",
+      "TimesNewRomanPSMT"
+    ],
+    "extractable_text_spans": 141,
+    "note": "PDF-level font inventory; image-baked text is not captured"
+  },
+  {
+    "file": "anchor_ring_result.pdf",
+    "fonts": [
+      "TimesNewRomanPSMT"
+    ],
+    "extractable_text_spans": 39,
+    "note": "PDF-level font inventory; image-baked text is not captured"
+  },
+  {
+    "file": "anchor_leaf_correspondence.pdf",
+    "fonts": [
+      "ArialUnicodeMS",
+      "TimesNewRomanPS-BoldItal",
+      "TimesNewRomanPS-BoldMT",
+      "TimesNewRomanPS-ItalicMT",
+      "TimesNewRomanPSMT"
+    ],
+    "extractable_text_spans": 55,
+    "note": "PDF-level font inventory; image-baked text is not captured"
+  },
+  {
+    "file": "anchor_node_mapping.pdf",
+    "fonts": [
+      "STIXGeneral-Italic",
+      "STIXGeneral-Regular",
+      "TimesNewRomanPSMT"
+    ],
+    "extractable_text_spans": 68,
+    "note": "PDF-level font inventory; image-baked text is not captured"
+  },
+  {
+    "file": "anchor_cylinder_centered_blue.pdf",
+    "fonts": [
+      "TimesNewRomanPSMT"
+    ],
+    "extractable_text_spans": 24,
+    "note": "PDF-level font inventory; image-baked text is not captured"
+  },
+  {
+    "file": "anchor_relaxation_open.pdf",
+    "fonts": [],
+    "extractable_text_spans": 0,
+    "note": "PDF-level font inventory; image-baked text is not captured"
+  },
+  {
+    "file": "anchor_storms_overview.pdf",
+    "fonts": [
+      "TimesNewRomanPSMT"
+    ],
+    "extractable_text_spans": 21,
+    "note": "PDF-level font inventory; image-baked text is not captured"
+  },
+  {
+    "file": "anchor_related_work_mapping.pdf",
+    "fonts": [
+      "DejaVuMathTeXGyre-Regula",
+      "LiberationSerif",
+      "LiberationSerif-Bold",
+      "LiberationSerif-BoldItal",
+      "LiberationSerif-Italic",
+      "LinuxLibertineGB"
+    ],
+    "extractable_text_spans": 53,
+    "note": "PDF-level font inventory; image-baked text is not captured"
+  }
+]

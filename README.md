@@ -31,3 +31,5 @@ Restored the overlap-based leaf-correspondence schematic in the correspondence s
 Latest synchronized version: the user-designated structure-revised manuscript, 10 pages, with the restored leaf-correspondence schematic and five-stage Cylinder source snapshots (including all vertical box edges). Figure numbering follows the current index rather than historical PowerPoint filenames.
 
 Related-work schematic added as a single-column Figure 2, using the user-supplied PowerPoint with Times New Roman unified across all text. [PPT source](paper/pvis2027/最新论文与配图PPT_20261107/相关工作_拓扑映射_统一字体.pptx). The updated manuscript has 11 pages including references.
+
+Added a single-column augmented-tree-to-1D mapping illustration and refreshed the related-work figure from the user-updated PowerPoint. Editable mapping PPT uses Times New Roman; its paper illustration is redrawn for a 9 pt single-column layout. The font audit documents that older raster-embedded labels are not yet all verified at the body-text size.
