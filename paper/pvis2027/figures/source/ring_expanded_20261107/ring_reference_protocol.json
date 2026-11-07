@@ -1,0 +1,72 @@
+{
+  "direction": [
+    -0.6257273935913881,
+    -0.7800418122827316
+  ],
+  "angle_deg": -128.73559614542424,
+  "reference_origin": -295.2115332335651,
+  "reference_extent": 295.2115332335651,
+  "choice": "User supplied archive reference; explicit fixed direction, not re-estimated from current tracks",
+  "previous_main_table_reference": {
+    "kind": "direction",
+    "origin": -178.63666975392835,
+    "extent": 289.04020329894644,
+    "label": "position along auto direction -58\u00b0",
+    "candidates": {
+      "direction": {
+        "a": [
+          0.5257311121191337,
+          -0.8506508083520398
+        ],
+        "capture": 0.6820055330523084,
+        "eigenvalues": [
+          3568.1237140408716,
+          7652.586345130725
+        ],
+        "relative_eigengap": 0.36401106610461703,
+        "fallback": false,
+        "angle_deg": -58.28252558853898
+      },
+      "matched_steps": 143
+    }
+  },
+  "raster_length": 196,
+  "source_fields": "/Users/lele/Desktop/MergeTreeMaps/paper/pvis2027/experiments_ratio_p_20261104/results/Ring/preparation/fields.npy",
+  "source_direction": "/Users/lele/Desktop/MergeTreeMaps/output/github/RG-MTM-latest-20261027/code/results/unified20261025/ring.json",
+  "parameters": {
+    "canvas": 295.2115332335651,
+    "width_scale": 0.003347069537795523,
+    "gap": 1.2300480551398545,
+    "rho": 0.5,
+    "extra_budget": 2.460096110279709,
+    "motion_weight": 0.5,
+    "eccentricity_weight": 0.1,
+    "reference_weight": 4.0,
+    "geometry_weight": 1.0,
+    "normalize_terms": true,
+    "temporal_mode": "residual",
+    "canvas_origin": -295.2115332335651,
+    "reference_budget": null,
+    "motion_fraction": null,
+    "compact_tiebreak": false
+  },
+  "normalization": "(projection-origin)/extent, fixed across frames and budgets; no image translation",
+  "epsilons": [
+    0,
+    0.02,
+    0.05,
+    0.1,
+    0.2
+  ],
+  "guidance_strengths": [
+    0,
+    0.1,
+    0.25,
+    0.5,
+    1
+  ],
+  "layout_targets": "(1-epsilon/.2)*canvas_midpoint+(epsilon/.2)*physical_projection",
+  "physical_reference_fixed": true,
+  "comparison": "joint spatial-guidance and topology-budget sweep, not epsilon-only ablation",
+  "main_tables_unchanged": true
+}

@@ -1,0 +1,37 @@
+{
+  "TMTM": {
+    "Start": 0,
+    "native_length": 196,
+    "raster": 196,
+    "multiway": "same-level separator copies; normal/reversed overlap alignment"
+  },
+  "STMTM": {
+    "parameters": {
+      "weights": "uniform",
+      "total_leaf_extent_k": 1.0,
+      "reorder_threshold_r": 0.95,
+      "temporal_lambda": 1.5,
+      "layout_length": 196,
+      "start_timestep": 0,
+      "mode": "temporal",
+      "alpha": 1.0,
+      "min_spacing_delta": 0.001,
+      "optimizer_tolerance": 1e-09,
+      "optimizer_max_iterations": 2000
+    },
+    "raster": 196,
+    "padding": 94,
+    "interval_fallbacks": [],
+    "multiway": "stable-ID equal-level binary refinement; original labelled LCA verified"
+  },
+  "source_field_sha256": "b623e4c731873d615c686f62d1963c9394c13b32f1304a60f93236b0e8a69130",
+  "frames": 40,
+  "shape": [
+    14,
+    14
+  ],
+  "same_source_fields_and_trees": true,
+  "sign": "join sign negated back to source scalar",
+  "main_tables_unchanged": true,
+  "local_implementations_not_author_binaries": true
+}

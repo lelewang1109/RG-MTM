@@ -1,0 +1,8496 @@
+[
+  {
+    "x": [
+      -147.6057668118859
+    ],
+    "z": [
+      -147.60576681637485
+    ],
+    "w": [
+      146.85267597077856
+    ],
+    "order": [
+      0
+    ],
+    "tau": 0.0,
+    "budget": 2.460096110279709,
+    "objective": 1.5226328990897042e-13,
+    "min_constraint_slack": 2.4600959151763675,
+    "qp_gap_bound": 3.872745060672947e-06,
+    "lp_orders": [
+      {
+        "order": [
+          0
+        ],
+        "tau": 0.0
+      }
+    ],
+    "qp_orders": [
+      {
+        "order": [
+          0
+        ],
+        "objective": 1.5226328990897042e-13,
+        "gap_bound": 3.872745060672947e-06
+      }
+    ],
+    "global_gap_bound": 3.872745060672947e-06,
+    "reference": [
+      -147.60576661678255
+    ],
+    "reference_direction": null,
+    "temporal_confidence": [
+      1.0
+    ],
+    "epsilon": 0.0,
+    "epsilon0": 0.0,
+    "eta": 0.0,
+    "delta": 0.0,
+    "continuous_NMLE": 0.0,
+    "barriers": [],
+    "nroe": 0.0,
+    "position_cap": 2.460096110279709,
+    "position_error": 6.608933999973029e-10,
+    "continuous_budget_ok": true,
+    "candidate_count": 1,
+    "feasible_candidate_count": 1,
+    "candidate_records": [
+      {
+        "order": [
+          0
+        ],
+        "tau": 0.0,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      }
+    ],
+    "terms": {
+      "reference": 4.36780086159995e-19,
+      "geometry": 0.0,
+      "temporal": 0.0,
+      "stationary": 0.0,
+      "motion": 0.0,
+      "eccentricity": 2.3121899880787633e-22
+    },
+    "order_search": {
+      "order": [
+        0
+      ],
+      "tau": 0.0,
+      "delta": 0.0,
+      "source": "point order",
+      "flattened": null,
+      "nroe": 0.0,
+      "lower": 0.0,
+      "lower_b": 0.0,
+      "lower_c": 0.0,
+      "point_tau": 0.0,
+      "point_nroe": 0.0
+    },
+    "rendered_position_error": 0.0025641025641025992,
+    "pixel_x": [
+      -148.3627192660994
+    ],
+    "NMLEmean": 0.0,
+    "NMLEmax": 0.0,
+    "rendered_merge_error": 0.0,
+    "rendered_budget_ok": true,
+    "ME": 0.0,
+    "raster_error": {
+      "anchor_error": 0.7569524542134616,
+      "interval_extent_error": 0.003862003312832485,
+      "integer_rounding": {
+        "repaired": false,
+        "anchors_fixed_to_nearest": true,
+        "max_coordinate_rounding_error_pixels": 0.49999987112578026
+      }
+    },
+    "metric_convention": "NMLE over the full fixed-label matrix including diagonal; ME is normalized RMS",
+    "rendered_ME": 0.0
+  },
+  {
+    "x": [
+      -147.6057672042687
+    ],
+    "z": [
+      -147.60576721937747
+    ],
+    "w": [
+      146.85267597077856
+    ],
+    "order": [
+      0
+    ],
+    "tau": 0.0,
+    "budget": 2.460096110279709,
+    "objective": 1.4575648194050623e-12,
+    "min_constraint_slack": 2.46009552279358,
+    "qp_gap_bound": 1.263841958557064e-05,
+    "lp_orders": [
+      {
+        "order": [
+          0
+        ],
+        "tau": 0.0
+      }
+    ],
+    "qp_orders": [
+      {
+        "order": [
+          0
+        ],
+        "objective": 1.4575648194050623e-12,
+        "gap_bound": 1.263841958557064e-05
+      }
+    ],
+    "global_gap_bound": 1.263841958557064e-05,
+    "reference": [
+      -147.60576661678255
+    ],
+    "reference_direction": null,
+    "temporal_confidence": [
+      1.0
+    ],
+    "epsilon": 0.0,
+    "epsilon0": 0.0,
+    "eta": 0.0,
+    "delta": 0.0,
+    "continuous_NMLE": 0.0,
+    "barriers": [],
+    "nroe": 0.0,
+    "position_cap": 2.460096110279709,
+    "position_error": 1.990051455907943e-09,
+    "continuous_budget_ok": true,
+    "candidate_count": 1,
+    "feasible_candidate_count": 1,
+    "candidate_records": [
+      {
+        "order": [
+          0
+        ],
+        "tau": 0.0,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      }
+    ],
+    "terms": {
+      "reference": 3.9603047971613235e-18,
+      "geometry": 0.0,
+      "temporal": 1.766661137592152e-18,
+      "stationary": 1.766661137592152e-18,
+      "motion": 1.766661137592152e-18,
+      "eccentricity": 2.619342300701983e-21
+    },
+    "order_search": {
+      "order": [
+        0
+      ],
+      "tau": 0.0,
+      "delta": 0.0,
+      "source": "point order",
+      "flattened": null,
+      "nroe": 0.0,
+      "lower": 0.0,
+      "lower_b": 0.0,
+      "lower_c": 0.0,
+      "point_tau": 0.0,
+      "point_nroe": 0.0
+    },
+    "rendered_position_error": 0.0025641025641025992,
+    "pixel_x": [
+      -148.3627192660994
+    ],
+    "NMLEmean": 0.0,
+    "NMLEmax": 0.0,
+    "rendered_merge_error": 0.0,
+    "rendered_budget_ok": true,
+    "ME": 1.32915805591064e-09,
+    "raster_error": {
+      "anchor_error": 0.756952061830674,
+      "interval_extent_error": 0.003862003312832485,
+      "integer_rounding": {
+        "repaired": false,
+        "anchors_fixed_to_nearest": true,
+        "max_coordinate_rounding_error_pixels": 0.49999961193995546
+      }
+    },
+    "metric_convention": "NMLE over the full fixed-label matrix including diagonal; ME is normalized RMS",
+    "rendered_ME": 0.0
+  },
+  {
+    "x": [
+      -147.60576724786665
+    ],
+    "z": [
+      -147.60576726297543
+    ],
+    "w": [
+      146.85267597077856
+    ],
+    "order": [
+      0
+    ],
+    "tau": 0.0,
+    "budget": 2.460096110279709,
+    "objective": 1.594041813463485e-12,
+    "min_constraint_slack": 2.4600954791956156,
+    "qp_gap_bound": 1.2638417080697295e-05,
+    "lp_orders": [
+      {
+        "order": [
+          0
+        ],
+        "tau": 0.0
+      }
+    ],
+    "qp_orders": [
+      {
+        "order": [
+          0
+        ],
+        "objective": 1.594041813463485e-12,
+        "gap_bound": 1.2638417080697295e-05
+      }
+    ],
+    "global_gap_bound": 1.2638417080697295e-05,
+    "reference": [
+      -147.60576661678255
+    ],
+    "reference_direction": null,
+    "temporal_confidence": [
+      1.0
+    ],
+    "epsilon": 0.0,
+    "epsilon0": 0.0,
+    "eta": 0.0,
+    "delta": 0.0,
+    "continuous_NMLE": 0.0,
+    "barriers": [],
+    "nroe": 0.0,
+    "position_cap": 2.460096110279709,
+    "position_error": 2.1377352671475764e-09,
+    "continuous_budget_ok": true,
+    "candidate_count": 1,
+    "feasible_candidate_count": 1,
+    "candidate_records": [
+      {
+        "order": [
+          0
+        ],
+        "tau": 0.0,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      }
+    ],
+    "terms": {
+      "reference": 4.569912072406519e-18,
+      "geometry": 0.0,
+      "temporal": 2.1810508102263626e-20,
+      "stationary": 2.1810508102263626e-20,
+      "motion": 2.1810508102263626e-20,
+      "eccentricity": 2.619342300701983e-21
+    },
+    "order_search": {
+      "order": [
+        0
+      ],
+      "tau": 0.0,
+      "delta": 0.0,
+      "source": "point order",
+      "flattened": null,
+      "nroe": 0.0,
+      "lower": 0.0,
+      "lower_b": 0.0,
+      "lower_c": 0.0,
+      "point_tau": 0.0,
+      "point_nroe": 0.0
+    },
+    "rendered_position_error": 0.0025641025641025992,
+    "pixel_x": [
+      -148.3627192660994
+    ],
+    "NMLEmean": 0.0,
+    "NMLEmax": 0.0,
+    "rendered_merge_error": 0.0,
+    "rendered_budget_ok": true,
+    "ME": 1.4768381123963325e-10,
+    "raster_error": {
+      "anchor_error": 0.7569520182327096,
+      "interval_extent_error": 0.003862003312832485,
+      "integer_rounding": {
+        "repaired": false,
+        "anchors_fixed_to_nearest": true,
+        "max_coordinate_rounding_error_pixels": 0.49999958314161574
+      }
+    },
+    "metric_convention": "NMLE over the full fixed-label matrix including diagonal; ME is normalized RMS",
+    "rendered_ME": 0.0
+  },
+  {
+    "x": [
+      -147.60576725271085
+    ],
+    "z": [
+      -147.60576726781963
+    ],
+    "w": [
+      146.85267597077856
+    ],
+    "order": [
+      0
+    ],
+    "tau": 0.0,
+    "budget": 2.460096110279709,
+    "objective": 1.6176537818739172e-12,
+    "min_constraint_slack": 2.4600954743514194,
+    "qp_gap_bound": 1.2638416615924168e-05,
+    "lp_orders": [
+      {
+        "order": [
+          0
+        ],
+        "tau": 0.0
+      }
+    ],
+    "qp_orders": [
+      {
+        "order": [
+          0
+        ],
+        "objective": 1.6176537818739172e-12,
+        "gap_bound": 1.2638416615924168e-05
+      }
+    ],
+    "global_gap_bound": 1.2638416615924168e-05,
+    "reference": [
+      -147.60576661678255
+    ],
+    "reference_direction": null,
+    "temporal_confidence": [
+      1.0
+    ],
+    "epsilon": 0.0,
+    "epsilon0": 0.0,
+    "eta": 0.0,
+    "delta": 0.0,
+    "continuous_NMLE": 0.0,
+    "barriers": [],
+    "nroe": 0.0,
+    "position_cap": 2.460096110279709,
+    "position_error": 2.154144504626403e-09,
+    "continuous_budget_ok": true,
+    "candidate_count": 1,
+    "feasible_candidate_count": 1,
+    "candidate_records": [
+      {
+        "order": [
+          0
+        ],
+        "tau": 0.0,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      }
+    ],
+    "terms": {
+      "reference": 4.6403385468121304e-18,
+      "geometry": 0.0,
+      "temporal": 2.6926307463652517e-22,
+      "stationary": 2.6926307463652517e-22,
+      "motion": 2.6926307463652517e-22,
+      "eccentricity": 2.619342300701983e-21
+    },
+    "order_search": {
+      "order": [
+        0
+      ],
+      "tau": 0.0,
+      "delta": 0.0,
+      "source": "point order",
+      "flattened": null,
+      "nroe": 0.0,
+      "lower": 0.0,
+      "lower_b": 0.0,
+      "lower_c": 0.0,
+      "point_tau": 0.0,
+      "point_nroe": 0.0
+    },
+    "rendered_position_error": 0.0025641025641025992,
+    "pixel_x": [
+      -148.3627192660994
+    ],
+    "NMLEmean": 0.0,
+    "NMLEmax": 0.0,
+    "rendered_merge_error": 0.0,
+    "rendered_budget_ok": true,
+    "ME": 1.6409237478826526e-11,
+    "raster_error": {
+      "anchor_error": 0.7569520133885135,
+      "interval_extent_error": 0.003862003312832485,
+      "integer_rounding": {
+        "repaired": false,
+        "anchors_fixed_to_nearest": true,
+        "max_coordinate_rounding_error_pixels": 0.49999957994181443
+      }
+    },
+    "metric_convention": "NMLE over the full fixed-label matrix including diagonal; ME is normalized RMS",
+    "rendered_ME": 0.0
+  },
+  {
+    "x": [
+      -147.6057672532491
+    ],
+    "z": [
+      -147.60576726835788
+    ],
+    "w": [
+      146.85267597077856
+    ],
+    "order": [
+      0
+    ],
+    "tau": 0.0,
+    "budget": 2.460096110279709,
+    "objective": 1.6203816614296987e-12,
+    "min_constraint_slack": 2.460095473813169,
+    "qp_gap_bound": 1.2638416758505395e-05,
+    "lp_orders": [
+      {
+        "order": [
+          0
+        ],
+        "tau": 0.0
+      }
+    ],
+    "qp_orders": [
+      {
+        "order": [
+          0
+        ],
+        "objective": 1.6203816614296987e-12,
+        "gap_bound": 1.2638416758505395e-05
+      }
+    ],
+    "global_gap_bound": 1.2638416758505395e-05,
+    "reference": [
+      -147.60576661678255
+    ],
+    "reference_direction": null,
+    "temporal_confidence": [
+      1.0
+    ],
+    "epsilon": 0.0,
+    "epsilon0": 0.0,
+    "eta": 0.0,
+    "delta": 0.0,
+    "continuous_NMLE": 0.0,
+    "barriers": [],
+    "nroe": 0.0,
+    "position_cap": 2.460096110279709,
+    "position_error": 2.1559677746297706e-09,
+    "continuous_budget_ok": true,
+    "candidate_count": 1,
+    "feasible_candidate_count": 1,
+    "candidate_records": [
+      {
+        "order": [
+          0
+        ],
+        "tau": 0.0,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      }
+    ],
+    "terms": {
+      "reference": 4.648197045242045e-18,
+      "geometry": 0.0,
+      "temporal": 3.3243135051810085e-24,
+      "stationary": 3.3243135051810085e-24,
+      "motion": 3.3243135051810085e-24,
+      "eccentricity": 2.619342300701983e-21
+    },
+    "order_search": {
+      "order": [
+        0
+      ],
+      "tau": 0.0,
+      "delta": 0.0,
+      "source": "point order",
+      "flattened": null,
+      "nroe": 0.0,
+      "lower": 0.0,
+      "lower_b": 0.0,
+      "lower_c": 0.0,
+      "point_tau": 0.0,
+      "point_nroe": 0.0
+    },
+    "rendered_position_error": 0.0025641025641025992,
+    "pixel_x": [
+      -148.3627192660994
+    ],
+    "NMLEmean": 0.0,
+    "NMLEmax": 0.0,
+    "rendered_merge_error": 0.0,
+    "rendered_budget_ok": true,
+    "ME": 1.8232700033678523e-12,
+    "raster_error": {
+      "anchor_error": 0.7569520128502631,
+      "interval_extent_error": 0.003862003312832485,
+      "integer_rounding": {
+        "repaired": false,
+        "anchors_fixed_to_nearest": true,
+        "max_coordinate_rounding_error_pixels": 0.49999957958627306
+      }
+    },
+    "metric_convention": "NMLE over the full fixed-label matrix including diagonal; ME is normalized RMS",
+    "rendered_ME": 0.0
+  },
+  {
+    "x": [
+      -147.6057672533089
+    ],
+    "z": [
+      -147.60576726841768
+    ],
+    "w": [
+      146.85267597077856
+    ],
+    "order": [
+      0
+    ],
+    "tau": 0.0,
+    "budget": 2.460096110279709,
+    "objective": 1.6206860145802758e-12,
+    "min_constraint_slack": 2.46009547375337,
+    "qp_gap_bound": 1.2638416618969599e-05,
+    "lp_orders": [
+      {
+        "order": [
+          0
+        ],
+        "tau": 0.0
+      }
+    ],
+    "qp_orders": [
+      {
+        "order": [
+          0
+        ],
+        "objective": 1.6206860145802758e-12,
+        "gap_bound": 1.2638416618969599e-05
+      }
+    ],
+    "global_gap_bound": 1.2638416618969599e-05,
+    "reference": [
+      -147.60576661678255
+    ],
+    "reference_direction": null,
+    "temporal_confidence": [
+      1.0
+    ],
+    "epsilon": 0.0,
+    "epsilon0": 0.0,
+    "eta": 0.0,
+    "delta": 0.0,
+    "continuous_NMLE": 0.0,
+    "barriers": [],
+    "nroe": 0.0,
+    "position_cap": 2.460096110279709,
+    "position_error": 2.156170338791091e-09,
+    "continuous_budget_ok": true,
+    "candidate_count": 1,
+    "feasible_candidate_count": 1,
+    "candidate_records": [
+      {
+        "order": [
+          0
+        ],
+        "tau": 0.0,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      }
+    ],
+    "terms": {
+      "reference": 4.6490705298824886e-18,
+      "geometry": 0.0,
+      "temporal": 4.1032239451441877e-26,
+      "stationary": 4.1032239451441877e-26,
+      "motion": 4.1032239451441877e-26,
+      "eccentricity": 2.619342300701983e-21
+    },
+    "order_search": {
+      "order": [
+        0
+      ],
+      "tau": 0.0,
+      "delta": 0.0,
+      "source": "point order",
+      "flattened": null,
+      "nroe": 0.0,
+      "lower": 0.0,
+      "lower_b": 0.0,
+      "lower_c": 0.0,
+      "point_tau": 0.0,
+      "point_nroe": 0.0
+    },
+    "rendered_position_error": 0.0025641025641025992,
+    "pixel_x": [
+      -148.3627192660994
+    ],
+    "NMLEmean": 0.0,
+    "NMLEmax": 0.0,
+    "rendered_merge_error": 0.0,
+    "rendered_budget_ok": true,
+    "ME": 2.0256416132041195e-13,
+    "raster_error": {
+      "anchor_error": 0.7569520127904639,
+      "interval_extent_error": 0.003862003312832485,
+      "integer_rounding": {
+        "repaired": false,
+        "anchors_fixed_to_nearest": true,
+        "max_coordinate_rounding_error_pixels": 0.4999995795467811
+      }
+    },
+    "metric_convention": "NMLE over the full fixed-label matrix including diagonal; ME is normalized RMS",
+    "rendered_ME": 0.0
+  },
+  {
+    "x": [
+      -147.60576725331555
+    ],
+    "z": [
+      -147.60576726842433
+    ],
+    "w": [
+      146.85267597077856
+    ],
+    "order": [
+      0
+    ],
+    "tau": 0.0,
+    "budget": 2.460096110279709,
+    "objective": 1.6207198796559851e-12,
+    "min_constraint_slack": 2.460095473746719,
+    "qp_gap_bound": 1.2638416758843776e-05,
+    "lp_orders": [
+      {
+        "order": [
+          0
+        ],
+        "tau": 0.0
+      }
+    ],
+    "qp_orders": [
+      {
+        "order": [
+          0
+        ],
+        "objective": 1.6207198796559851e-12,
+        "gap_bound": 1.2638416758843776e-05
+      }
+    ],
+    "global_gap_bound": 1.2638416758843776e-05,
+    "reference": [
+      -147.60576661678255
+    ],
+    "reference_direction": null,
+    "temporal_confidence": [
+      1.0
+    ],
+    "epsilon": 0.0,
+    "epsilon0": 0.0,
+    "eta": 0.0,
+    "delta": 0.0,
+    "continuous_NMLE": 0.0,
+    "barriers": [],
+    "nroe": 0.0,
+    "position_cap": 2.460096110279709,
+    "position_error": 2.156192867314736e-09,
+    "continuous_budget_ok": true,
+    "candidate_count": 1,
+    "feasible_candidate_count": 1,
+    "candidate_records": [
+      {
+        "order": [
+          0
+        ],
+        "tau": 0.0,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      }
+    ],
+    "terms": {
+      "reference": 4.6491676810589424e-18,
+      "geometry": 0.0,
+      "temporal": 5.075343776211054e-28,
+      "stationary": 5.075343776211054e-28,
+      "motion": 5.075343776211054e-28,
+      "eccentricity": 2.619342300701983e-21
+    },
+    "order_search": {
+      "order": [
+        0
+      ],
+      "tau": 0.0,
+      "delta": 0.0,
+      "source": "point order",
+      "flattened": null,
+      "nroe": 0.0,
+      "lower": 0.0,
+      "lower_b": 0.0,
+      "lower_c": 0.0,
+      "point_tau": 0.0,
+      "point_nroe": 0.0
+    },
+    "rendered_position_error": 0.0025641025641025992,
+    "pixel_x": [
+      -148.3627192660994
+    ],
+    "NMLEmean": 0.0,
+    "NMLEmax": 0.0,
+    "rendered_merge_error": 0.0,
+    "rendered_budget_ok": true,
+    "ME": 2.252852364495076e-14,
+    "raster_error": {
+      "anchor_error": 0.7569520127838132,
+      "interval_extent_error": 0.003862003312832485,
+      "integer_rounding": {
+        "repaired": false,
+        "anchors_fixed_to_nearest": true,
+        "max_coordinate_rounding_error_pixels": 0.49999957954238994
+      }
+    },
+    "metric_convention": "NMLE over the full fixed-label matrix including diagonal; ME is normalized RMS",
+    "rendered_ME": 0.0
+  },
+  {
+    "x": [
+      -147.6057672533163
+    ],
+    "z": [
+      -147.60576726842507
+    ],
+    "w": [
+      146.85267597077856
+    ],
+    "order": [
+      0
+    ],
+    "tau": 0.0,
+    "budget": 2.460096110279709,
+    "objective": 1.6207236426383818e-12,
+    "min_constraint_slack": 2.46009547374598,
+    "qp_gap_bound": 1.2638416758847539e-05,
+    "lp_orders": [
+      {
+        "order": [
+          0
+        ],
+        "tau": 0.0
+      }
+    ],
+    "qp_orders": [
+      {
+        "order": [
+          0
+        ],
+        "objective": 1.6207236426383818e-12,
+        "gap_bound": 1.2638416758847539e-05
+      }
+    ],
+    "global_gap_bound": 1.2638416758847539e-05,
+    "reference": [
+      -147.60576661678255
+    ],
+    "reference_direction": null,
+    "temporal_confidence": [
+      1.0
+    ],
+    "epsilon": 0.0,
+    "epsilon0": 0.0,
+    "eta": 0.0,
+    "delta": 0.0,
+    "continuous_NMLE": 0.0,
+    "barriers": [],
+    "nroe": 0.0,
+    "position_cap": 2.460096110279709,
+    "position_error": 2.15619537048403e-09,
+    "continuous_budget_ok": true,
+    "candidate_count": 1,
+    "feasible_candidate_count": 1,
+    "candidate_records": [
+      {
+        "order": [
+          0
+        ],
+        "tau": 0.0,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      }
+    ],
+    "terms": {
+      "reference": 4.649178475696763e-18,
+      "geometry": 0.0,
+      "temporal": 6.2658565138408076e-30,
+      "stationary": 6.2658565138408076e-30,
+      "motion": 6.2658565138408076e-30,
+      "eccentricity": 2.619342300701983e-21
+    },
+    "order_search": {
+      "order": [
+        0
+      ],
+      "tau": 0.0,
+      "delta": 0.0,
+      "source": "point order",
+      "flattened": null,
+      "nroe": 0.0,
+      "lower": 0.0,
+      "lower_b": 0.0,
+      "lower_c": 0.0,
+      "point_tau": 0.0,
+      "point_nroe": 0.0
+    },
+    "rendered_position_error": 0.0025641025641025992,
+    "pixel_x": [
+      -148.3627192660994
+    ],
+    "NMLEmean": 0.0,
+    "NMLEmax": 0.0,
+    "rendered_merge_error": 0.0,
+    "rendered_budget_ok": true,
+    "ME": 2.5031692938834176e-15,
+    "raster_error": {
+      "anchor_error": 0.7569520127830742,
+      "interval_extent_error": 0.003862003312832485,
+      "integer_rounding": {
+        "repaired": false,
+        "anchors_fixed_to_nearest": true,
+        "max_coordinate_rounding_error_pixels": 0.49999957954189256
+      }
+    },
+    "metric_convention": "NMLE over the full fixed-label matrix including diagonal; ME is normalized RMS",
+    "rendered_ME": 0.0
+  },
+  {
+    "x": [
+      -151.0574320776342,
+      -144.1541011559309
+    ],
+    "z": [
+      -151.0574320776342,
+      -144.1541011559309
+    ],
+    "w": [
+      1.5061812920079853,
+      1.5061812920079853
+    ],
+    "order": [
+      0,
+      1
+    ],
+    "tau": 0.9915693505719234,
+    "budget": 3.4516654608516326,
+    "objective": 698.9945502741914,
+    "min_constraint_slack": 0.0,
+    "qp_gap_bound": 0.0,
+    "lp_orders": [
+      {
+        "order": [
+          0,
+          1
+        ],
+        "tau": 0.9915693505719219
+      }
+    ],
+    "qp_orders": [
+      {
+        "order": [
+          0,
+          1
+        ],
+        "objective": 698.9945502741914,
+        "gap_bound": 0.0
+      }
+    ],
+    "global_gap_bound": 0.0,
+    "reference": [
+      -147.60576661678255,
+      -147.60576661678255
+    ],
+    "reference_direction": null,
+    "temporal_confidence": [
+      1.0,
+      0.0
+    ],
+    "epsilon": 0.0,
+    "epsilon0": 0.0,
+    "eta": 0.0,
+    "delta": 0.0,
+    "continuous_NMLE": 0.0,
+    "barriers": [
+      -2.909489631652832
+    ],
+    "nroe": 0.0,
+    "position_cap": 3.4516654608516326,
+    "position_error": 0.011692176870748335,
+    "continuous_budget_ok": true,
+    "candidate_count": 2,
+    "feasible_candidate_count": 2,
+    "candidate_records": [
+      {
+        "order": [
+          0,
+          1
+        ],
+        "tau": 0.9915693505719234,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          1,
+          0
+        ],
+        "tau": 0.9915693505719234,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      }
+    ],
+    "terms": {
+      "reference": 0.00013670699997686233,
+      "geometry": 0.00740542390162464,
+      "temporal": 0.00013670694955563172,
+      "stationary": 0.00013670694955563172,
+      "motion": 0.00013670694955563172,
+      "eccentricity": 0.0
+    },
+    "order_search": {
+      "order": [
+        0,
+        1
+      ],
+      "tau": 0.9915693505719234,
+      "delta": 0.0,
+      "source": "point order",
+      "flattened": null,
+      "nroe": 0.0,
+      "lower": 0.9915693505719108,
+      "lower_b": 0.9915693505719108,
+      "lower_c": 0.0,
+      "point_tau": 0.9915693505719234,
+      "point_nroe": 0.0
+    },
+    "rendered_position_error": 0.012820512820512803,
+    "pixel_x": [
+      -151.3905298633667,
+      -143.82100337019838
+    ],
+    "NMLEmean": 0.0,
+    "NMLEmax": 0.0,
+    "rendered_merge_error": 0.0,
+    "rendered_budget_ok": true,
+    "ME": 0.011692174714552965,
+    "raster_error": {
+      "anchor_error": 0.3330977857325479,
+      "interval_extent_error": 0.007724006625681845,
+      "integer_rounding": {
+        "repaired": false,
+        "anchors_fixed_to_nearest": true,
+        "max_coordinate_rounding_error_pixels": 0.28252551020409555
+      }
+    },
+    "metric_convention": "NMLE over the full fixed-label matrix including diagonal; ME is normalized RMS",
+    "rendered_ME": 0.010256410256410204
+  },
+  {
+    "x": [
+      -151.24570473913516,
+      -143.96582849442993
+    ],
+    "z": [
+      -151.24570473913514,
+      -143.96582849442996
+    ],
+    "w": [
+      2.259271938011978,
+      2.259271938011978
+    ],
+    "order": [
+      0,
+      1
+    ],
+    "tau": 1.179842012072922,
+    "budget": 3.639938122352631,
+    "objective": 438.86965432653955,
+    "min_constraint_slack": 0.0,
+    "qp_gap_bound": 3.2106185273223505e-15,
+    "lp_orders": [
+      {
+        "order": [
+          0,
+          1
+        ],
+        "tau": 1.1798420120729247
+      }
+    ],
+    "qp_orders": [
+      {
+        "order": [
+          0,
+          1
+        ],
+        "objective": 438.86965432653955,
+        "gap_bound": 3.2106185273223505e-15
+      }
+    ],
+    "global_gap_bound": 0.0,
+    "reference": [
+      -147.60576661678255,
+      -147.60576661678255
+    ],
+    "reference_direction": null,
+    "temporal_confidence": [
+      1.0,
+      1.0
+    ],
+    "epsilon": 0.0,
+    "epsilon0": 0.0,
+    "eta": 0.0,
+    "delta": 0.0,
+    "continuous_NMLE": 0.0,
+    "barriers": [
+      -2.875988006591797
+    ],
+    "nroe": 0.0,
+    "position_cap": 3.639938122352631,
+    "position_error": 0.012329931972789072,
+    "continuous_budget_ok": true,
+    "candidate_count": 2,
+    "feasible_candidate_count": 2,
+    "candidate_records": [
+      {
+        "order": [
+          0,
+          1
+        ],
+        "tau": 1.179842012072922,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          1,
+          0
+        ],
+        "tau": 1.179842012072922,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      }
+    ],
+    "terms": {
+      "reference": 0.0001520272224536062,
+      "geometry": 0.004427492827015133,
+      "temporal": 4.0673157017898957e-07,
+      "stationary": 4.0673157017898957e-07,
+      "motion": 4.0673157017898957e-07,
+      "eccentricity": 9.269018511598828e-33
+    },
+    "order_search": {
+      "order": [
+        0,
+        1
+      ],
+      "tau": 1.179842012072922,
+      "delta": 0.0,
+      "source": "point order",
+      "flattened": null,
+      "nroe": 0.0,
+      "lower": 1.1798420120729136,
+      "lower_b": 1.1798420120729136,
+      "lower_c": 0.0,
+      "point_tau": 1.179842012072922,
+      "point_nroe": 0.0
+    },
+    "rendered_position_error": 0.012820512820512803,
+    "pixel_x": [
+      -151.3905298633667,
+      -143.82100337019838
+    ],
+    "NMLEmean": 0.0,
+    "NMLEmax": 0.0,
+    "rendered_merge_error": 0.0,
+    "rendered_budget_ok": true,
+    "ME": 0.0006377551020407359,
+    "raster_error": {
+      "anchor_error": 0.14482512423157345,
+      "interval_extent_error": 0.7685386592553565,
+      "integer_rounding": {
+        "repaired": false,
+        "anchors_fixed_to_nearest": true,
+        "max_coordinate_rounding_error_pixels": 0.34948979591840157
+      }
+    },
+    "metric_convention": "NMLE over the full fixed-label matrix including diagonal; ME is normalized RMS",
+    "rendered_ME": 0.0
+  },
+  {
+    "x": [
+      -151.24570473913516,
+      -143.96582849442993
+    ],
+    "z": [
+      -151.24570473913514,
+      -143.96582849442996
+    ],
+    "w": [
+      2.259271938011978,
+      2.259271938011978
+    ],
+    "order": [
+      0,
+      1
+    ],
+    "tau": 1.179842012072922,
+    "budget": 3.639938122352631,
+    "objective": 438.85193102900524,
+    "min_constraint_slack": 0.0,
+    "qp_gap_bound": 3.2106185273223505e-15,
+    "lp_orders": [
+      {
+        "order": [
+          0,
+          1
+        ],
+        "tau": 1.1798420120729247
+      }
+    ],
+    "qp_orders": [
+      {
+        "order": [
+          0,
+          1
+        ],
+        "objective": 438.85193102900524,
+        "gap_bound": 3.2106185273223505e-15
+      }
+    ],
+    "global_gap_bound": 0.0,
+    "reference": [
+      -147.60576661678255,
+      -147.60576661678255
+    ],
+    "reference_direction": null,
+    "temporal_confidence": [
+      1.0,
+      1.0
+    ],
+    "epsilon": 0.0,
+    "epsilon0": 0.0,
+    "eta": 0.0,
+    "delta": 0.0,
+    "continuous_NMLE": 0.0,
+    "barriers": [
+      -3.1889195442199707
+    ],
+    "nroe": 0.0,
+    "position_cap": 3.639938122352631,
+    "position_error": 0.012329931972789072,
+    "continuous_budget_ok": true,
+    "candidate_count": 2,
+    "feasible_candidate_count": 2,
+    "candidate_records": [
+      {
+        "order": [
+          0,
+          1
+        ],
+        "tau": 1.179842012072922,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          1,
+          0
+        ],
+        "tau": 1.179842012072922,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      }
+    ],
+    "terms": {
+      "reference": 0.0001520272224536062,
+      "geometry": 0.004427492827015133,
+      "temporal": 0.0,
+      "stationary": 0.0,
+      "motion": 0.0,
+      "eccentricity": 9.269018511598828e-33
+    },
+    "order_search": {
+      "order": [
+        0,
+        1
+      ],
+      "tau": 1.179842012072922,
+      "delta": 0.0,
+      "source": "point order",
+      "flattened": null,
+      "nroe": 0.0,
+      "lower": 1.1798420120729136,
+      "lower_b": 1.1798420120729136,
+      "lower_c": 0.0,
+      "point_tau": 1.179842012072922,
+      "point_nroe": 0.0
+    },
+    "rendered_position_error": 0.012820512820512803,
+    "pixel_x": [
+      -151.3905298633667,
+      -143.82100337019838
+    ],
+    "NMLEmean": 0.0,
+    "NMLEmax": 0.0,
+    "rendered_merge_error": 0.0,
+    "rendered_budget_ok": true,
+    "ME": 0.0,
+    "raster_error": {
+      "anchor_error": 0.14482512423157345,
+      "interval_extent_error": 0.7685386592553565,
+      "integer_rounding": {
+        "repaired": false,
+        "anchors_fixed_to_nearest": true,
+        "max_coordinate_rounding_error_pixels": 0.34948979591840157
+      }
+    },
+    "metric_convention": "NMLE over the full fixed-label matrix including diagonal; ME is normalized RMS",
+    "rendered_ME": 0.0
+  },
+  {
+    "x": [
+      -151.24570473913516,
+      -143.96582849442993
+    ],
+    "z": [
+      -151.24570473913514,
+      -143.96582849442996
+    ],
+    "w": [
+      2.259271938011978,
+      2.259271938011978
+    ],
+    "order": [
+      0,
+      1
+    ],
+    "tau": 1.179842012072922,
+    "budget": 3.639938122352631,
+    "objective": 438.8519310290055,
+    "min_constraint_slack": 0.0,
+    "qp_gap_bound": 3.2106185273223505e-15,
+    "lp_orders": [
+      {
+        "order": [
+          0,
+          1
+        ],
+        "tau": 1.1798420120729247
+      }
+    ],
+    "qp_orders": [
+      {
+        "order": [
+          0,
+          1
+        ],
+        "objective": 438.8519310290055,
+        "gap_bound": 3.2106185273223505e-15
+      }
+    ],
+    "global_gap_bound": 0.0,
+    "reference": [
+      -147.60576661678255,
+      -147.60576661678255
+    ],
+    "reference_direction": null,
+    "temporal_confidence": [
+      1.0,
+      1.0
+    ],
+    "epsilon": 0.0,
+    "epsilon0": 0.0,
+    "eta": 0.0,
+    "delta": 0.0,
+    "continuous_NMLE": 0.0,
+    "barriers": [
+      -3.760254144668579
+    ],
+    "nroe": 0.0,
+    "position_cap": 3.639938122352631,
+    "position_error": 0.012329931972789072,
+    "continuous_budget_ok": true,
+    "candidate_count": 2,
+    "feasible_candidate_count": 2,
+    "candidate_records": [
+      {
+        "order": [
+          0,
+          1
+        ],
+        "tau": 1.179842012072922,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          1,
+          0
+        ],
+        "tau": 1.179842012072922,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      }
+    ],
+    "terms": {
+      "reference": 0.0001520272224536062,
+      "geometry": 0.004427492827015137,
+      "temporal": 0.0,
+      "stationary": 0.0,
+      "motion": 0.0,
+      "eccentricity": 9.269018511598828e-33
+    },
+    "order_search": {
+      "order": [
+        0,
+        1
+      ],
+      "tau": 1.179842012072922,
+      "delta": 0.0,
+      "source": "point order",
+      "flattened": null,
+      "nroe": 0.0,
+      "lower": 1.1798420120729136,
+      "lower_b": 1.1798420120729136,
+      "lower_c": 0.0,
+      "point_tau": 1.179842012072922,
+      "point_nroe": 0.0
+    },
+    "rendered_position_error": 0.012820512820512803,
+    "pixel_x": [
+      -151.3905298633667,
+      -143.82100337019838
+    ],
+    "NMLEmean": 0.0,
+    "NMLEmax": 0.0,
+    "rendered_merge_error": 0.0,
+    "rendered_budget_ok": true,
+    "ME": 0.0,
+    "raster_error": {
+      "anchor_error": 0.14482512423157345,
+      "interval_extent_error": 0.7685386592553565,
+      "integer_rounding": {
+        "repaired": false,
+        "anchors_fixed_to_nearest": true,
+        "max_coordinate_rounding_error_pixels": 0.34948979591840157
+      }
+    },
+    "metric_convention": "NMLE over the full fixed-label matrix including diagonal; ME is normalized RMS",
+    "rendered_ME": 0.0
+  },
+  {
+    "x": [
+      -143.16253180535898,
+      -152.0490014282061,
+      -148.9860295951353
+    ],
+    "z": [
+      -143.162531805359,
+      -152.0490014282061,
+      -148.98602959513534
+    ],
+    "w": [
+      2.259271938011978,
+      0.7530906460039927,
+      0.7530906460039927
+    ],
+    "order": [
+      1,
+      2,
+      0
+    ],
+    "tau": 1.9831387011438473,
+    "budget": 4.443234811423556,
+    "objective": 1083.0645027688001,
+    "min_constraint_slack": 0.0,
+    "qp_gap_bound": 0.0,
+    "lp_orders": [
+      {
+        "order": [
+          1,
+          2,
+          0
+        ],
+        "tau": 1.9831387011438437
+      }
+    ],
+    "qp_orders": [
+      {
+        "order": [
+          1,
+          2,
+          0
+        ],
+        "objective": 1083.0645027688001,
+        "gap_bound": 0.0
+      }
+    ],
+    "global_gap_bound": 0.0,
+    "reference": [
+      -147.60576661678255,
+      -147.60576661678255,
+      -147.60576661678255
+    ],
+    "reference_direction": null,
+    "temporal_confidence": [
+      1.0,
+      1.0,
+      0.0
+    ],
+    "epsilon": 0.0,
+    "epsilon0": 0.0,
+    "eta": 0.0,
+    "delta": 0.0,
+    "continuous_NMLE": 0.0,
+    "barriers": [
+      -4.422303676605225,
+      -3.9559028148651123
+    ],
+    "nroe": 0.0,
+    "position_cap": 4.443234811423556,
+    "position_error": 0.015051020408163295,
+    "continuous_budget_ok": true,
+    "candidate_count": 3,
+    "feasible_candidate_count": 3,
+    "candidate_records": [
+      {
+        "order": [
+          0,
+          1,
+          2
+        ],
+        "tau": 1.9831387011438475,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          0,
+          2,
+          1
+        ],
+        "tau": 1.9831387011438475,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          1,
+          2,
+          0
+        ],
+        "tau": 1.9831387011438473,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      }
+    ],
+    "terms": {
+      "reference": 0.0001583089256610042,
+      "geometry": 0.011419517896069688,
+      "temporal": 0.0007497165532879812,
+      "stationary": 0.0007497165532879812,
+      "motion": 0.0007497165532879812,
+      "eccentricity": 6.179345674399218e-33
+    },
+    "order_search": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "tau": 1.9831387011438473,
+      "delta": 0.0,
+      "source": "point order",
+      "flattened": null,
+      "nroe": 0.0,
+      "lower": 1.9831387011438326,
+      "lower_b": 1.9831387011438326,
+      "lower_c": 1.9831387011438326,
+      "point_tau": 1.9831387011438475,
+      "point_nroe": 0.0
+    },
+    "rendered_position_error": 0.012820512820512803,
+    "pixel_x": [
+      -143.82100337019838,
+      -151.3905298633667,
+      -148.3627192660994
+    ],
+    "NMLEmean": 0.0,
+    "NMLEmax": 0.0,
+    "rendered_merge_error": 0.0,
+    "rendered_budget_ok": true,
+    "ME": 0.027380952380952367,
+    "raster_error": {
+      "anchor_error": 0.6584715648394024,
+      "interval_extent_error": 0.7608146526296745,
+      "integer_rounding": {
+        "repaired": true,
+        "anchors_fixed_to_nearest": true,
+        "optimal_max_rounding_error_pixels": 0.6604479507009842,
+        "max_coordinate_rounding_error_pixels": 0.6604479507009842,
+        "total_absolute_rounding_error_pixels": 3.099966301082546,
+        "attempts": [
+          {
+            "anchors_fixed_to_nearest": true,
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ]
+      }
+    },
+    "metric_convention": "NMLE over the full fixed-label matrix including diagonal; ME is normalized RMS",
+    "rendered_ME": 0.025641025641025605
+  },
+  {
+    "x": [
+      -152.8962284049606,
+      -142.3153048286045,
+      -146.50206731093144
+    ],
+    "z": [
+      -152.89622840496062,
+      -142.3153048286045,
+      -146.5020673109314
+    ],
+    "w": [
+      3.0123625840159707,
+      0.7530906460039927,
+      2.259271938011978
+    ],
+    "order": [
+      0,
+      2,
+      1
+    ],
+    "tau": 2.830365677898339,
+    "budget": 5.290461788178048,
+    "objective": 1347.3922849443732,
+    "min_constraint_slack": 0.0,
+    "qp_gap_bound": 5.937869840693731e-14,
+    "lp_orders": [
+      {
+        "order": [
+          0,
+          2,
+          1
+        ],
+        "tau": 2.8303656778983566
+      }
+    ],
+    "qp_orders": [
+      {
+        "order": [
+          0,
+          2,
+          1
+        ],
+        "objective": 1347.3922849443732,
+        "gap_bound": 5.937869840693731e-14
+      }
+    ],
+    "global_gap_bound": 0.0,
+    "reference": [
+      -147.60576661678255,
+      -147.60576661678255,
+      -147.60576661678255
+    ],
+    "reference_direction": null,
+    "temporal_confidence": [
+      1.0,
+      0.0,
+      1.0
+    ],
+    "epsilon": 0.0,
+    "epsilon0": 0.0,
+    "eta": 0.0,
+    "delta": 0.0,
+    "continuous_NMLE": 0.0,
+    "barriers": [
+      -4.465292930603027,
+      -4.34340238571167
+    ],
+    "nroe": 0.0,
+    "position_cap": 5.290461788178048,
+    "position_error": 0.017920918367346945,
+    "continuous_budget_ok": true,
+    "candidate_count": 3,
+    "feasible_candidate_count": 3,
+    "candidate_records": [
+      {
+        "order": [
+          0,
+          2,
+          1
+        ],
+        "tau": 2.830365677898339,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          1,
+          0,
+          2
+        ],
+        "tau": 3.1127746701498364,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          2,
+          0,
+          1
+        ],
+        "tau": 3.1127746701498364,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      }
+    ],
+    "terms": {
+      "reference": 0.00021876543465450255,
+      "geometry": 0.014296089619790786,
+      "temporal": 0.0005789735660494376,
+      "stationary": 0.0005789735660494376,
+      "motion": 0.0005789735660494376,
+      "eccentricity": 6.179345674399218e-33
+    },
+    "order_search": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "tau": 2.830365677898339,
+      "delta": 0.0,
+      "source": "width search",
+      "flattened": 0,
+      "nroe": 0.0,
+      "lower": 2.8303656778983313,
+      "lower_b": 2.8303656778983313,
+      "lower_c": 2.8303656778983313,
+      "point_tau": 3.1127746701498364,
+      "point_nroe": 0.0
+    },
+    "rendered_position_error": 0.017948717948717906,
+    "pixel_x": [
+      -152.90443516200037,
+      -142.30709807156472,
+      -146.8488139674657
+    ],
+    "NMLEmean": 0.0,
+    "NMLEmax": 0.0,
+    "rendered_merge_error": 0.0,
+    "rendered_budget_ok": true,
+    "ME": 0.024061869546014865,
+    "raster_error": {
+      "anchor_error": 0.34674665653426473,
+      "interval_extent_error": 0.7685386592553565,
+      "integer_rounding": {
+        "repaired": false,
+        "anchors_fixed_to_nearest": true,
+        "max_coordinate_rounding_error_pixels": 0.48286771096033476
+      }
+    },
+    "metric_convention": "NMLE over the full fixed-label matrix including diagonal; ME is normalized RMS",
+    "rendered_ME": 0.02205724427446824
+  },
+  {
+    "x": [
+      -153.04057077877803,
+      -149.51769520986406,
+      -143.7775558329289,
+      -142.17096245478706
+    ],
+    "z": [
+      -153.0405707787773,
+      -149.51769520986457,
+      -143.9658284944299,
+      -141.98268979328606
+    ],
+    "w": [
+      2.259271938011978,
+      0.7530906460039927,
+      0.7530906460039927,
+      0.7530906460039927
+    ],
+    "order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "tau": 2.974708051715771,
+    "budget": 5.43480416199548,
+    "objective": 1469.2852477309148,
+    "min_constraint_slack": -4.690692279041286e-15,
+    "qp_gap_bound": 0.0,
+    "lp_orders": [
+      {
+        "order": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "tau": 2.9747080517157656
+      }
+    ],
+    "qp_orders": [
+      {
+        "order": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "objective": 1469.2852477309148,
+        "gap_bound": 0.0
+      }
+    ],
+    "global_gap_bound": 0.0,
+    "reference": [
+      -147.60576661678255,
+      -147.60576661678255,
+      -147.60576661678255,
+      -147.60576661678255
+    ],
+    "reference_direction": null,
+    "temporal_confidence": [
+      1.0,
+      1.0,
+      1.0,
+      0.0
+    ],
+    "epsilon": 0.0,
+    "epsilon0": 0.0,
+    "eta": 0.0,
+    "delta": 0.0,
+    "continuous_NMLE": 0.0,
+    "barriers": [
+      -4.910775184631348,
+      -4.394385814666748,
+      -5.054015636444092
+    ],
+    "nroe": 0.0,
+    "position_cap": 5.43480416199548,
+    "position_error": 0.018409863945578257,
+    "continuous_budget_ok": true,
+    "candidate_count": 4,
+    "feasible_candidate_count": 4,
+    "candidate_records": [
+      {
+        "order": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "tau": 2.974708051715771,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          0,
+          1,
+          3,
+          2
+        ],
+        "tau": 2.974708051715771,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          1,
+          0,
+          2,
+          3
+        ],
+        "tau": 3.5395260362187653,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          2,
+          3,
+          0,
+          1
+        ],
+        "tau": 3.5395260362187653,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      }
+    ],
+    "terms": {
+      "reference": 0.0002219879376805011,
+      "geometry": 0.015857884477689634,
+      "temporal": 0.00022688210845391848,
+      "stationary": 0.00022688210845391848,
+      "motion": 0.00022688210845391848,
+      "eccentricity": 2.0336578508955622e-07
+    },
+    "order_search": {
+      "order": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "tau": 2.974708051715771,
+      "delta": 0.0,
+      "source": "width search",
+      "flattened": 0,
+      "nroe": 0.0,
+      "lower": 2.9747080517157545,
+      "lower_b": 2.9747080517157545,
+      "lower_c": 2.9747080517157545,
+      "point_tau": 3.5395260362187653,
+      "point_nroe": 0.0
+    },
+    "rendered_position_error": 0.023076923076923102,
+    "pixel_x": [
+      -154.41834046063403,
+      -149.87662456473305,
+      -145.33490866883204,
+      -140.79319277293104
+    ],
+    "NMLEmean": 0.0,
+    "NMLEmax": 0.0,
+    "rendered_merge_error": 0.0,
+    "rendered_budget_ok": true,
+    "ME": 0.01506260629685044,
+    "raster_error": {
+      "anchor_error": 1.5573528359031457,
+      "interval_extent_error": 0.7608146526296745,
+      "integer_rounding": {
+        "repaired": true,
+        "anchors_fixed_to_nearest": false,
+        "optimal_max_rounding_error_pixels": 1.0344387755102302,
+        "max_coordinate_rounding_error_pixels": 1.0344387755102105,
+        "total_absolute_rounding_error_pixels": 6.783644502544092,
+        "attempts": [
+          {
+            "anchors_fixed_to_nearest": true,
+            "status": 2,
+            "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is At lower/fixed bound)"
+          },
+          {
+            "anchors_fixed_to_nearest": false,
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ]
+      }
+    },
+    "metric_convention": "NMLE over the full fixed-label matrix including diagonal; ME is normalized RMS",
+    "rendered_ME": 0.01538461538461536
+  },
+  {
+    "x": [
+      -153.84386746784895,
+      -148.95192046293636,
+      -152.2372740897071,
+      -142.97425914385798,
+      -141.36766576571614
+    ],
+    "z": [
+      -154.03214012934995,
+      -148.9519204629364,
+      -152.0490014282061,
+      -143.16253180535898,
+      -141.17939310421514
+    ],
+    "w": [
+      0.7530906460039927,
+      0.7530906460039927,
+      0.7530906460039927,
+      0.7530906460039927,
+      0.7530906460039927
+    ],
+    "order": [
+      0,
+      2,
+      1,
+      3,
+      4
+    ],
+    "tau": 3.7780047407866957,
+    "budget": 6.238100851066404,
+    "objective": 1660.9913953949626,
+    "min_constraint_slack": -4.690692279041286e-15,
+    "qp_gap_bound": 0.0,
+    "lp_orders": [
+      {
+        "order": [
+          0,
+          2,
+          1,
+          3,
+          4
+        ],
+        "tau": 3.778004740786713
+      }
+    ],
+    "qp_orders": [
+      {
+        "order": [
+          0,
+          2,
+          1,
+          3,
+          4
+        ],
+        "objective": 1660.9913953949626,
+        "gap_bound": 0.0
+      }
+    ],
+    "global_gap_bound": 0.0,
+    "reference": [
+      -147.60576661678255,
+      -147.60576661678255,
+      -147.60576661678255,
+      -147.60576661678255,
+      -147.60576661678255
+    ],
+    "reference_direction": null,
+    "temporal_confidence": [
+      1.0,
+      0.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "epsilon": 0.0,
+    "epsilon0": 0.0,
+    "eta": 0.0,
+    "delta": 0.0,
+    "continuous_NMLE": 0.0,
+    "barriers": [
+      -5.404944896697998,
+      -5.1646246910095215,
+      -4.260561466217041,
+      -5.101219654083252
+    ],
+    "nroe": 0.0,
+    "position_cap": 6.238100851066404,
+    "position_error": 0.021130952380952382,
+    "continuous_budget_ok": true,
+    "candidate_count": 5,
+    "feasible_candidate_count": 5,
+    "candidate_records": [
+      {
+        "order": [
+          0,
+          2,
+          1,
+          3,
+          4
+        ],
+        "tau": 3.7780047407866957,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          1,
+          0,
+          2,
+          3,
+          4
+        ],
+        "tau": 3.7780047407866957,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          1,
+          0,
+          2,
+          4,
+          3
+        ],
+        "tau": 3.7780047407866957,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          1,
+          2,
+          0,
+          3,
+          4
+        ],
+        "tau": 3.7780047407866957,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          3,
+          4,
+          1,
+          0,
+          2
+        ],
+        "tau": 3.7780047407866957,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      }
+    ],
+    "terms": {
+      "reference": 0.0002812205838228347,
+      "geometry": 0.017920727912106894,
+      "temporal": 2.6769885619041993e-05,
+      "stationary": 2.6769885619041993e-05,
+      "motion": 2.6769885619041993e-05,
+      "eccentricity": 3.2538525614328994e-07
+    },
+    "order_search": {
+      "order": [
+        0,
+        2,
+        1,
+        3,
+        4
+      ],
+      "tau": 3.7780047407866957,
+      "delta": 0.0,
+      "source": "point order",
+      "flattened": null,
+      "nroe": 0.0,
+      "lower": 3.7780047407866735,
+      "lower_b": 3.7780047407866735,
+      "lower_c": 3.7780047407866735,
+      "point_tau": 3.7780047407866957,
+      "point_nroe": 0.0
+    },
+    "rendered_position_error": 0.023076923076923102,
+    "pixel_x": [
+      -154.41834046063403,
+      -148.3627192660994,
+      -151.3905298633667,
+      -143.82100337019838,
+      -140.79319277293104
+    ],
+    "NMLEmean": 0.0,
+    "NMLEmax": 0.0,
+    "rendered_merge_error": 0.0,
+    "rendered_budget_ok": true,
+    "ME": 0.005173962274605604,
+    "raster_error": {
+      "anchor_error": 0.8467442263404052,
+      "interval_extent_error": 0.7530906460039927,
+      "integer_rounding": {
+        "repaired": true,
+        "anchors_fixed_to_nearest": false,
+        "optimal_max_rounding_error_pixels": 0.6836734693877702,
+        "max_coordinate_rounding_error_pixels": 0.6836734693877702,
+        "total_absolute_rounding_error_pixels": 5.805333808652392,
+        "attempts": [
+          {
+            "anchors_fixed_to_nearest": true,
+            "status": 2,
+            "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is At lower/fixed bound)"
+          },
+          {
+            "anchors_fixed_to_nearest": false,
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ]
+      }
+    },
+    "metric_convention": "NMLE over the full fixed-label matrix including diagonal; ME is normalized RMS",
+    "rendered_ME": 0.003626188621469456
+  },
+  {
+    "x": [
+      -151.2457047391352,
+      -153.22884344027904,
+      -143.9658284944299,
+      -141.98268979328606
+    ],
+    "z": [
+      -151.0574320776342,
+      -153.79366142478204,
+      -144.1541011559309,
+      -141.41787180878305
+    ],
+    "w": [
+      0.7530906460039927,
+      2.259271938011978,
+      0.7530906460039927,
+      2.259271938011978
+    ],
+    "order": [
+      1,
+      0,
+      2,
+      3
+    ],
+    "tau": 3.1629807132167693,
+    "budget": 5.623076823496478,
+    "objective": 1711.4696677009592,
+    "min_constraint_slack": -1.4099832412739488e-14,
+    "qp_gap_bound": 1.7820284196547005e-13,
+    "lp_orders": [
+      {
+        "order": [
+          1,
+          0,
+          2,
+          3
+        ],
+        "tau": 3.1629807132167684
+      }
+    ],
+    "qp_orders": [
+      {
+        "order": [
+          1,
+          0,
+          2,
+          3
+        ],
+        "objective": 1711.4696677009592,
+        "gap_bound": 1.7820284196547005e-13
+      }
+    ],
+    "global_gap_bound": 2.2737367544323206e-13,
+    "reference": [
+      -147.60576661678255,
+      -147.60576661678255,
+      -147.60576661678255,
+      -147.60576661678255
+    ],
+    "reference_direction": null,
+    "temporal_confidence": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "epsilon": 0.0,
+    "epsilon0": 0.0,
+    "eta": 0.0,
+    "delta": 0.0,
+    "continuous_NMLE": 0.0,
+    "barriers": [
+      -5.110659122467041,
+      -4.861239910125732,
+      -5.0234174728393555
+    ],
+    "nroe": 0.0,
+    "position_cap": 5.623076823496478,
+    "position_error": 0.019047619047619088,
+    "continuous_budget_ok": true,
+    "candidate_count": 6,
+    "feasible_candidate_count": 6,
+    "candidate_records": [
+      {
+        "order": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "tau": 3.7277986977197637,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          0,
+          1,
+          3,
+          2
+        ],
+        "tau": 4.292616682222758,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          1,
+          0,
+          2,
+          3
+        ],
+        "tau": 3.1629807132167693,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          1,
+          0,
+          3,
+          2
+        ],
+        "tau": 3.7277986977197632,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          2,
+          3,
+          0,
+          1
+        ],
+        "tau": 3.7277986977197637,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          2,
+          3,
+          1,
+          0
+        ],
+        "tau": 4.292616682222758,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      }
+    ],
+    "terms": {
+      "reference": 0.000257419506918415,
+      "geometry": 0.018598316873429922,
+      "temporal": 2.0083698490572653e-05,
+      "stationary": 2.0083698490572653e-05,
+      "motion": 2.0083698490572653e-05,
+      "eccentricity": 2.0336578508955623e-06
+    },
+    "order_search": {
+      "order": [
+        1,
+        0,
+        2,
+        3
+      ],
+      "tau": 3.1629807132167693,
+      "delta": 0.0,
+      "source": "width search",
+      "flattened": 0,
+      "nroe": 0.0,
+      "lower": 3.1629807132167573,
+      "lower_b": 3.1629807132167573,
+      "lower_c": 3.1629807132167573,
+      "point_tau": 3.7277986977197637,
+      "point_nroe": 0.0
+    },
+    "rendered_position_error": 0.02307692307692301,
+    "pixel_x": [
+      -149.87662456473305,
+      -154.41834046063403,
+      -145.33490866883204,
+      -142.30709807156472
+    ],
+    "NMLEmean": 0.0,
+    "NMLEmax": 0.0,
+    "rendered_merge_error": 0.0,
+    "rendered_budget_ok": true,
+    "ME": 0.004481483960762624,
+    "raster_error": {
+      "anchor_error": 1.3690801744021712,
+      "interval_extent_error": 0.7685386592553565,
+      "integer_rounding": {
+        "repaired": true,
+        "anchors_fixed_to_nearest": false,
+        "optimal_max_rounding_error_pixels": 1.0286989795918706,
+        "max_coordinate_rounding_error_pixels": 1.0286989795918515,
+        "total_absolute_rounding_error_pixels": 7.2461734693877276,
+        "attempts": [
+          {
+            "anchors_fixed_to_nearest": true,
+            "status": 2,
+            "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is At lower/fixed bound)"
+          },
+          {
+            "anchors_fixed_to_nearest": false,
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ]
+      }
+    },
+    "metric_convention": "NMLE over the full fixed-label matrix including diagonal; ME is normalized RMS",
+    "rendered_ME": 0.0044411559168432806
+  },
+  {
+    "x": [
+      -151.05743207763416,
+      -141.79441713178508,
+      -153.41711610178,
+      -143.77755583292893
+    ],
+    "z": [
+      -150.86915941613316,
+      -141.22959914728207,
+      -154.358479409285,
+      -143.96582849442993
+    ],
+    "w": [
+      0.7530906460039927,
+      2.259271938011978,
+      3.765453230019963,
+      0.7530906460039927
+    ],
+    "order": [
+      2,
+      0,
+      3,
+      1
+    ],
+    "tau": 3.351253374717767,
+    "budget": 5.811349484997476,
+    "objective": 1697.6815327890401,
+    "min_constraint_slack": -1.4099832412739488e-14,
+    "qp_gap_bound": 2.410678211615857e-13,
+    "lp_orders": [
+      {
+        "order": [
+          2,
+          0,
+          3,
+          1
+        ],
+        "tau": 3.3512533747177713
+      }
+    ],
+    "qp_orders": [
+      {
+        "order": [
+          2,
+          0,
+          3,
+          1
+        ],
+        "objective": 1697.6815327890401,
+        "gap_bound": 2.410678211615857e-13
+      }
+    ],
+    "global_gap_bound": 2.2737367544323206e-13,
+    "reference": [
+      -147.60576661678255,
+      -147.60576661678255,
+      -147.60576661678255,
+      -147.60576661678255
+    ],
+    "reference_direction": null,
+    "temporal_confidence": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "epsilon": 0.0,
+    "epsilon0": 0.0,
+    "eta": 0.0,
+    "delta": 0.0,
+    "continuous_NMLE": 0.0,
+    "barriers": [
+      -4.830160617828369,
+      -4.937640190124512,
+      -5.530245780944824
+    ],
+    "nroe": 0.0,
+    "position_cap": 5.811349484997476,
+    "position_error": 0.019685374149659825,
+    "continuous_budget_ok": true,
+    "candidate_count": 6,
+    "feasible_candidate_count": 6,
+    "candidate_records": [
+      {
+        "order": [
+          0,
+          1,
+          3,
+          2
+        ],
+        "tau": 3.916071359220761,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          0,
+          3,
+          1,
+          2
+        ],
+        "tau": 3.916071359220761,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          2,
+          0,
+          1,
+          3
+        ],
+        "tau": 3.9160713592207617,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          2,
+          0,
+          3,
+          1
+        ],
+        "tau": 3.351253374717767,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          2,
+          1,
+          3,
+          0
+        ],
+        "tau": 3.9160713592207617,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          2,
+          3,
+          1,
+          0
+        ],
+        "tau": 3.9160713592207617,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      }
+    ],
+    "terms": {
+      "reference": 0.00026997395471794035,
+      "geometry": 0.018024603561138393,
+      "temporal": 0.0007503257467953168,
+      "stationary": 0.0007503257467953168,
+      "motion": 0.0007503257467953168,
+      "eccentricity": 3.660584131611858e-06
+    },
+    "order_search": {
+      "order": [
+        2,
+        0,
+        3,
+        1
+      ],
+      "tau": 3.351253374717767,
+      "delta": 0.0,
+      "source": "width search",
+      "flattened": 0,
+      "nroe": 0.0,
+      "lower": 3.35125337471776,
+      "lower_b": 3.35125337471776,
+      "lower_c": 3.35125337471776,
+      "point_tau": 3.9160713592207617,
+      "point_nroe": 0.0
+    },
+    "rendered_position_error": 0.023076923076923102,
+    "pixel_x": [
+      -149.87662456473305,
+      -140.79319277293104,
+      -154.41834046063403,
+      -145.33490866883204
+    ],
+    "NMLEmean": 0.0,
+    "NMLEmax": 0.0,
+    "rendered_merge_error": 0.0,
+    "rendered_budget_ok": true,
+    "ME": 0.027392074525222014,
+    "raster_error": {
+      "anchor_error": 1.5573528359031172,
+      "interval_extent_error": 2.259271938011978,
+      "integer_rounding": {
+        "repaired": true,
+        "anchors_fixed_to_nearest": false,
+        "optimal_max_rounding_error_pixels": 1.0344387755102105,
+        "max_coordinate_rounding_error_pixels": 1.0344387755102105,
+        "total_absolute_rounding_error_pixels": 7.822704081632608,
+        "attempts": [
+          {
+            "anchors_fixed_to_nearest": true,
+            "status": 2,
+            "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is At lower/fixed bound)"
+          },
+          {
+            "anchors_fixed_to_nearest": false,
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ]
+      }
+    },
+    "metric_convention": "NMLE over the full fixed-label matrix including diagonal; ME is normalized RMS",
+    "rendered_ME": 0.030875883535364804
+  },
+  {
+    "x": [
+      -151.01633348876578,
+      -144.84135132718276,
+      -153.5112524325305,
+      -141.70028080103458
+    ],
+    "z": [
+      -150.82806082726478,
+      -145.01547779083114,
+      -153.9408354974146,
+      -141.5261577976793
+    ],
+    "w": [
+      0.7530906460039927,
+      0.7530906460039927,
+      3.0123625840159707,
+      3.765453230019963
+    ],
+    "order": [
+      2,
+      0,
+      1,
+      3
+    ],
+    "tau": 3.4453897054682665,
+    "budget": 5.9054858157479755,
+    "objective": 2015.6423714305647,
+    "min_constraint_slack": -4.690692279041286e-15,
+    "qp_gap_bound": 2.517044172134415e-06,
+    "lp_orders": [
+      {
+        "order": [
+          2,
+          0,
+          1,
+          3
+        ],
+        "tau": 3.4453897054682727
+      }
+    ],
+    "qp_orders": [
+      {
+        "order": [
+          2,
+          0,
+          1,
+          3
+        ],
+        "objective": 2015.6423714305647,
+        "gap_bound": 2.517044172134415e-06
+      }
+    ],
+    "global_gap_bound": 2.517044094929588e-06,
+    "reference": [
+      -147.60576661678255,
+      -147.60576661678255,
+      -147.60576661678255,
+      -147.60576661678255
+    ],
+    "reference_direction": null,
+    "temporal_confidence": [
+      0.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "epsilon": 0.0,
+    "epsilon0": 0.0,
+    "eta": 0.0,
+    "delta": 0.0,
+    "continuous_NMLE": 0.0,
+    "barriers": [
+      -5.627172946929932,
+      -5.378784656524658,
+      -5.513611793518066
+    ],
+    "nroe": 0.0,
+    "position_cap": 5.9054858157479755,
+    "position_error": 0.02000425170068024,
+    "continuous_budget_ok": true,
+    "candidate_count": 6,
+    "feasible_candidate_count": 6,
+    "candidate_records": [
+      {
+        "order": [
+          0,
+          2,
+          1,
+          3
+        ],
+        "tau": 4.292616682222758,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          0,
+          2,
+          3,
+          1
+        ],
+        "tau": 5.422252651228747,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          1,
+          3,
+          0,
+          2
+        ],
+        "tau": 4.575025674474255,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          1,
+          3,
+          2,
+          0
+        ],
+        "tau": 5.422252651228747,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          2,
+          0,
+          1,
+          3
+        ],
+        "tau": 3.4453897054682665,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          2,
+          0,
+          3,
+          1
+        ],
+        "tau": 4.575025674474255,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      }
+    ],
+    "terms": {
+      "reference": 0.0002553747493008222,
+      "geometry": 0.021507903143685645,
+      "temporal": 0.0011979677193821093,
+      "stationary": 0.0011979677193821093,
+      "motion": 0.0011979677193821093,
+      "eccentricity": 8.05013010417777e-07
+    },
+    "order_search": {
+      "order": [
+        2,
+        0,
+        1,
+        3
+      ],
+      "tau": 3.4453897054682665,
+      "delta": 0.0,
+      "source": "width search",
+      "flattened": 0,
+      "nroe": 0.0,
+      "lower": 3.445389705468276,
+      "lower_b": 3.445389705468276,
+      "lower_c": 3.445389705468276,
+      "point_tau": 4.292616682222758,
+      "point_nroe": 0.0
+    },
+    "rendered_position_error": 0.02307692307692301,
+    "pixel_x": [
+      -149.87662456473305,
+      -145.33490866883204,
+      -154.41834046063403,
+      -142.30709807156472
+    ],
+    "NMLEmean": 0.0,
+    "NMLEmax": 0.0,
+    "rendered_merge_error": 0.0,
+    "rendered_budget_ok": true,
+    "ME": 0.034611670277265,
+    "raster_error": {
+      "anchor_error": 1.1397089240327603,
+      "interval_extent_error": 2.2515479313862956,
+      "integer_rounding": {
+        "repaired": true,
+        "anchors_fixed_to_nearest": false,
+        "optimal_max_rounding_error_pixels": 0.8771893372275485,
+        "max_coordinate_rounding_error_pixels": 0.8771893372275485,
+        "total_absolute_rounding_error_pixels": 5.951292066511513,
+        "attempts": [
+          {
+            "anchors_fixed_to_nearest": true,
+            "status": 2,
+            "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is At lower/fixed bound)"
+          },
+          {
+            "anchors_fixed_to_nearest": false,
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ]
+      }
+    },
+    "metric_convention": "NMLE over the full fixed-label matrix including diagonal; ME is normalized RMS",
+    "rendered_ME": 0.036742197025990846
+  },
+  {
+    "x": [
+      -146.90830865836554,
+      -140.52043878896166,
+      -154.69109444460344,
+      -142.3153048286045,
+      -152.14313775895658
+    ],
+    "z": [
+      -146.9083086803743,
+      -140.14389346595965,
+      -155.63245775210842,
+      -142.5035774901055,
+      -151.7665924359546
+    ],
+    "w": [
+      0.7530906460039927,
+      1.5061812920079853,
+      3.765453230019963,
+      0.7530906460039927,
+      1.5061812920079853
+    ],
+    "order": [
+      2,
+      4,
+      0,
+      3,
+      1
+    ],
+    "tau": 4.625231717541187,
+    "budget": 7.085327827820896,
+    "objective": 2763.763453058964,
+    "min_constraint_slack": -1.3322676295501878e-14,
+    "qp_gap_bound": 3.165532253854381e-06,
+    "lp_orders": [
+      {
+        "order": [
+          2,
+          4,
+          0,
+          3,
+          1
+        ],
+        "tau": 4.625231717541197
+      }
+    ],
+    "qp_orders": [
+      {
+        "order": [
+          2,
+          4,
+          0,
+          3,
+          1
+        ],
+        "objective": 2763.763453058964,
+        "gap_bound": 3.165532253854381e-06
+      }
+    ],
+    "global_gap_bound": 3.1655322345613968e-06,
+    "reference": [
+      -147.60576661678255,
+      -147.60576661678255,
+      -147.60576661678255,
+      -147.60576661678255,
+      -147.60576661678255
+    ],
+    "reference_direction": null,
+    "temporal_confidence": [
+      1.0,
+      1.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    "epsilon": 0.0,
+    "epsilon0": 0.0,
+    "eta": 0.0,
+    "delta": 0.0,
+    "continuous_NMLE": 0.0,
+    "barriers": [
+      -5.854224681854248,
+      -5.669635772705078,
+      -5.9982733726501465,
+      -6.143430709838867
+    ],
+    "nroe": 0.0,
+    "position_cap": 7.085327827820896,
+    "position_error": 0.02400085034013603,
+    "continuous_budget_ok": true,
+    "candidate_count": 8,
+    "feasible_candidate_count": 8,
+    "candidate_records": [
+      {
+        "order": [
+          0,
+          1,
+          3,
+          2,
+          4
+        ],
+        "tau": 5.754867686547176,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          0,
+          3,
+          1,
+          2,
+          4
+        ],
+        "tau": 5.754867686547176,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          2,
+          4,
+          0,
+          1,
+          3
+        ],
+        "tau": 4.907640709792686,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          2,
+          4,
+          0,
+          3,
+          1
+        ],
+        "tau": 4.625231717541187,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          2,
+          4,
+          1,
+          3,
+          0
+        ],
+        "tau": 4.907640709792686,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          2,
+          4,
+          3,
+          1,
+          0
+        ],
+        "tau": 4.907640709792686,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          4,
+          2,
+          0,
+          1,
+          3
+        ],
+        "tau": 5.754867686547178,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          4,
+          2,
+          0,
+          3,
+          1
+        ],
+        "tau": 5.472458694295679,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      }
+    ],
+    "terms": {
+      "reference": 0.0003430112900501495,
+      "geometry": 0.0296626953284799,
+      "temporal": 0.0013555133251427762,
+      "stationary": 0.0013555133251427762,
+      "motion": 0.0013555133251427762,
+      "eccentricity": 2.765774677217794e-06
+    },
+    "order_search": {
+      "order": [
+        2,
+        4,
+        0,
+        3,
+        1
+      ],
+      "tau": 4.625231717541187,
+      "delta": 0.0,
+      "source": "width search",
+      "flattened": 0,
+      "nroe": 0.0,
+      "lower": 4.625231717541201,
+      "lower_b": 4.625231717541201,
+      "lower_c": 4.625231717541201,
+      "point_tau": 5.754867686547176,
+      "point_nroe": 0.0
+    },
+    "rendered_position_error": 0.028205128205128206,
+    "pixel_x": [
+      -146.8488139674657,
+      -139.27928747429738,
+      -154.41834046063403,
+      -142.30709807156472,
+      -151.3905298633667
+    ],
+    "NMLEmean": 0.0,
+    "NMLEmax": 0.0,
+    "rendered_merge_error": 0.0,
+    "rendered_budget_ok": true,
+    "ME": 0.03681729654853512,
+    "raster_error": {
+      "anchor_error": 1.241151314664279,
+      "interval_extent_error": 1.5061812920079853,
+      "integer_rounding": {
+        "repaired": true,
+        "anchors_fixed_to_nearest": false,
+        "optimal_max_rounding_error_pixels": 1.068558673469397,
+        "max_coordinate_rounding_error_pixels": 1.068558673469397,
+        "total_absolute_rounding_error_pixels": 5.161110043876704,
+        "attempts": [
+          {
+            "anchors_fixed_to_nearest": true,
+            "status": 2,
+            "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is At lower/fixed bound)"
+          },
+          {
+            "anchors_fixed_to_nearest": false,
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ]
+      }
+    },
+    "metric_convention": "NMLE over the full fixed-label matrix including diagonal; ME is normalized RMS",
+    "rendered_ME": 0.03837597319768138
+  },
+  {
+    "x": [
+      -141.51200813953355,
+      -139.9054147613917,
+      -155.30611847217338,
+      -144.35601867357323,
+      -153.51125243253054,
+      -151.3398410698857
+    ],
+    "z": [
+      -141.70028080103455,
+      -139.7171420998907,
+      -155.6826637951754,
+      -144.35601867357323,
+      -153.32297977102954,
+      -150.9632957468837
+    ],
+    "w": [
+      0.7530906460039927,
+      0.7530906460039927,
+      1.5061812920079853,
+      0.7530906460039927,
+      0.7530906460039927,
+      1.5061812920079853
+    ],
+    "order": [
+      2,
+      4,
+      5,
+      3,
+      0,
+      1
+    ],
+    "tau": 5.240255745111116,
+    "budget": 7.700351855390825,
+    "objective": 3012.2305909329725,
+    "min_constraint_slack": -9.381384558082573e-15,
+    "qp_gap_bound": 1.3617072680538922e-13,
+    "lp_orders": [
+      {
+        "order": [
+          2,
+          4,
+          5,
+          3,
+          0,
+          1
+        ],
+        "tau": 5.240255745111114
+      }
+    ],
+    "qp_orders": [
+      {
+        "order": [
+          2,
+          4,
+          5,
+          3,
+          0,
+          1
+        ],
+        "objective": 3012.2305909329725,
+        "gap_bound": 1.3617072680538922e-13
+      }
+    ],
+    "global_gap_bound": 0.0,
+    "reference": [
+      -147.60576661678255,
+      -147.60576661678255,
+      -147.60576661678255,
+      -147.60576661678255,
+      -147.60576661678255,
+      -147.60576661678255
+    ],
+    "reference_direction": null,
+    "temporal_confidence": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      0.0,
+      1.0
+    ],
+    "epsilon": 0.0,
+    "epsilon0": 0.0,
+    "eta": 0.0,
+    "delta": 0.0,
+    "continuous_NMLE": 0.0,
+    "barriers": [
+      -6.72972297668457,
+      -6.465931415557861,
+      -5.70839262008667,
+      -5.976388454437256,
+      -6.648080348968506
+    ],
+    "nroe": 0.0,
+    "position_cap": 7.700351855390825,
+    "position_error": 0.026084183673469423,
+    "continuous_budget_ok": true,
+    "candidate_count": 6,
+    "feasible_candidate_count": 6,
+    "candidate_records": [
+      {
+        "order": [
+          2,
+          4,
+          5,
+          3,
+          0,
+          1
+        ],
+        "tau": 5.240255745111116,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          3,
+          0,
+          1,
+          5,
+          2,
+          4
+        ],
+        "tau": 5.522664737362613,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          5,
+          2,
+          4,
+          0,
+          1,
+          3
+        ],
+        "tau": 5.240255745111116,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          5,
+          2,
+          4,
+          3,
+          0,
+          1
+        ],
+        "tau": 5.240255745111116,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          5,
+          2,
+          4,
+          3,
+          1,
+          0
+        ],
+        "tau": 5.240255745111116,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          5,
+          4,
+          2,
+          3,
+          0,
+          1
+        ],
+        "tau": 5.240255745111116,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      }
+    ],
+    "terms": {
+      "reference": 0.00041136744699423025,
+      "geometry": 0.03287846201445878,
+      "temporal": 7.960166821471563e-05,
+      "stationary": 7.960166821471563e-05,
+      "motion": 7.960166821471563e-05,
+      "eccentricity": 7.456745453283728e-07
+    },
+    "order_search": {
+      "order": [
+        2,
+        4,
+        5,
+        3,
+        0,
+        1
+      ],
+      "tau": 5.240255745111116,
+      "delta": 0.0,
+      "source": "point order",
+      "flattened": null,
+      "nroe": 0.0,
+      "lower": 5.240255745111103,
+      "lower_b": 5.240255745111103,
+      "lower_c": 5.240255745111103,
+      "point_tau": 5.240255745111116,
+      "point_nroe": 0.0
+    },
+    "rendered_position_error": 0.028205128205128206,
+    "pixel_x": [
+      -142.30709807156472,
+      -139.27928747429738,
+      -155.93224575926772,
+      -145.33490866883204,
+      -152.90443516200037,
+      -149.87662456473305
+    ],
+    "NMLEmean": 0.0,
+    "NMLEmax": 0.0,
+    "rendered_merge_error": 0.0,
+    "rendered_budget_ok": true,
+    "ME": 0.008921976698844019,
+    "raster_error": {
+      "anchor_error": 1.4632165051526727,
+      "interval_extent_error": 1.5061812920079853,
+      "integer_rounding": {
+        "repaired": true,
+        "anchors_fixed_to_nearest": false,
+        "optimal_max_rounding_error_pixels": 1.2152423469387799,
+        "max_coordinate_rounding_error_pixels": 1.215242346938794,
+        "total_absolute_rounding_error_pixels": 9.357846149220777,
+        "attempts": [
+          {
+            "anchors_fixed_to_nearest": true,
+            "status": 2,
+            "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is At lower/fixed bound)"
+          },
+          {
+            "anchors_fixed_to_nearest": false,
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ]
+      }
+    },
+    "metric_convention": "NMLE over the full fixed-label matrix including diagonal; ME is normalized RMS",
+    "rendered_ME": 0.008882311833686516
+  },
+  {
+    "x": [
+      -153.69952509403154,
+      -151.71638639288767,
+      -144.04512988143682,
+      -155.30611847217338,
+      -141.70028080103455,
+      -139.9054147613917
+    ],
+    "z": [
+      -153.51125243253054,
+      -151.5281137313867,
+      -144.2482374866814,
+      -155.49439113367438,
+      -141.88855346253555,
+      -139.5288694383897
+    ],
+    "w": [
+      0.7530906460039927,
+      0.7530906460039927,
+      1.5061812920079853,
+      0.7530906460039927,
+      0.7530906460039927,
+      1.5061812920079853
+    ],
+    "order": [
+      3,
+      0,
+      1,
+      2,
+      4,
+      5
+    ],
+    "tau": 5.2402557451111145,
+    "budget": 7.7003518553908235,
+    "objective": 3101.990485913405,
+    "min_constraint_slack": -9.381384558082573e-15,
+    "qp_gap_bound": 2.0127823631855626e-13,
+    "lp_orders": [
+      {
+        "order": [
+          3,
+          0,
+          1,
+          2,
+          4,
+          5
+        ],
+        "tau": 5.240255745111114
+      }
+    ],
+    "qp_orders": [
+      {
+        "order": [
+          3,
+          0,
+          1,
+          2,
+          4,
+          5
+        ],
+        "objective": 3101.990485913405,
+        "gap_bound": 2.0127823631855626e-13
+      }
+    ],
+    "global_gap_bound": 0.0,
+    "reference": [
+      -147.60576661678255,
+      -147.60576661678255,
+      -147.60576661678255,
+      -147.60576661678255,
+      -147.60576661678255,
+      -147.60576661678255
+    ],
+    "reference_direction": null,
+    "temporal_confidence": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "epsilon": 0.0,
+    "epsilon0": 0.0,
+    "eta": 0.0,
+    "delta": 0.0,
+    "continuous_NMLE": 0.0,
+    "barriers": [
+      -5.6855316162109375,
+      -7.1914262771606445,
+      -5.594788074493408,
+      -6.665568828582764,
+      -7.0753350257873535
+    ],
+    "nroe": 0.0,
+    "position_cap": 7.7003518553908235,
+    "position_error": 0.026084183673469423,
+    "continuous_budget_ok": true,
+    "candidate_count": 10,
+    "feasible_candidate_count": 10,
+    "candidate_records": [
+      {
+        "order": [
+          2,
+          4,
+          5,
+          0,
+          1,
+          3
+        ],
+        "tau": 5.240255745111116,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          2,
+          4,
+          5,
+          3,
+          0,
+          1
+        ],
+        "tau": 5.240255745111116,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          2,
+          4,
+          5,
+          3,
+          1,
+          0
+        ],
+        "tau": 5.240255745111116,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          2,
+          5,
+          4,
+          0,
+          1,
+          3
+        ],
+        "tau": 5.240255745111116,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          2,
+          5,
+          4,
+          3,
+          0,
+          1
+        ],
+        "tau": 5.240255745111116,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          2,
+          5,
+          4,
+          3,
+          1,
+          0
+        ],
+        "tau": 5.240255745111116,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          3,
+          0,
+          1,
+          2,
+          4,
+          5
+        ],
+        "tau": 5.2402557451111145,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          3,
+          0,
+          1,
+          2,
+          5,
+          4
+        ],
+        "tau": 5.522664737362613,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          4,
+          5,
+          2,
+          3,
+          0,
+          1
+        ],
+        "tau": 5.522664737362613,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          5,
+          4,
+          2,
+          3,
+          0,
+          1
+        ],
+        "tau": 5.240255745111116,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      }
+    ],
+    "terms": {
+      "reference": 0.00042106559951863274,
+      "geometry": 0.03313969007177737,
+      "temporal": 0.0015394831084745832,
+      "stationary": 0.0015394831084745832,
+      "motion": 0.0015394831084745832,
+      "eccentricity": 6.212010352760308e-07
+    },
+    "order_search": {
+      "order": [
+        3,
+        0,
+        1,
+        2,
+        4,
+        5
+      ],
+      "tau": 5.2402557451111145,
+      "delta": 0.0,
+      "source": "point order",
+      "flattened": null,
+      "nroe": 0.0,
+      "lower": 5.240255745111103,
+      "lower_b": 5.240255745111103,
+      "lower_c": 5.240255745111103,
+      "point_tau": 5.240255745111116,
+      "point_nroe": 0.0
+    },
+    "rendered_position_error": 0.028205128205128206,
+    "pixel_x": [
+      -152.90443516200037,
+      -149.87662456473305,
+      -145.33490866883204,
+      -155.93224575926772,
+      -142.30709807156472,
+      -139.27928747429738
+    ],
+    "NMLEmean": 0.0,
+    "NMLEmax": 0.0,
+    "rendered_merge_error": 0.0,
+    "rendered_budget_ok": true,
+    "ME": 0.03923624738012777,
+    "raster_error": {
+      "anchor_error": 1.83976182815465,
+      "interval_extent_error": 1.5061812920079853,
+      "integer_rounding": {
+        "repaired": true,
+        "anchors_fixed_to_nearest": false,
+        "optimal_max_rounding_error_pixels": 1.3396045918367747,
+        "max_coordinate_rounding_error_pixels": 1.3396045918367605,
+        "total_absolute_rounding_error_pixels": 12.365666469616471,
+        "attempts": [
+          {
+            "anchors_fixed_to_nearest": true,
+            "status": 2,
+            "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is At lower/fixed bound)"
+          },
+          {
+            "anchors_fixed_to_nearest": false,
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ]
+      }
+    },
+    "metric_convention": "NMLE over the full fixed-label matrix including diagonal; ME is normalized RMS",
+    "rendered_ME": 0.035897435897435874
+  },
+  {
+    "x": [
+      -155.30611847217338,
+      -153.69952509403151,
+      -145.16720871220184,
+      -148.8484112207787,
+      -139.9054147613917,
+      -141.70028080103455
+    ],
+    "z": [
+      -155.49439113367438,
+      -153.51125243253054,
+      -145.16720715955867,
+      -148.84840935601997,
+      -139.5288694383897,
+      -141.88855346253555
+    ],
+    "w": [
+      0.7530906460039927,
+      0.7530906460039927,
+      1.5061812920079853,
+      0.7530906460039927,
+      1.5061812920079853,
+      0.7530906460039927
+    ],
+    "order": [
+      0,
+      1,
+      3,
+      2,
+      5,
+      4
+    ],
+    "tau": 5.2402557451111145,
+    "budget": 7.7003518553908235,
+    "objective": 3290.0375054320716,
+    "min_constraint_slack": -9.381384558082573e-15,
+    "qp_gap_bound": 9.242357554350817e-07,
+    "lp_orders": [
+      {
+        "order": [
+          0,
+          1,
+          3,
+          2,
+          5,
+          4
+        ],
+        "tau": 5.240255745111114
+      }
+    ],
+    "qp_orders": [
+      {
+        "order": [
+          0,
+          1,
+          3,
+          2,
+          5,
+          4
+        ],
+        "objective": 3290.0375054320716,
+        "gap_bound": 9.242357554350817e-07
+      }
+    ],
+    "global_gap_bound": 9.242357918992639e-07,
+    "reference": [
+      -147.60576661678255,
+      -147.60576661678255,
+      -147.60576661678255,
+      -147.60576661678255,
+      -147.60576661678255,
+      -147.60576661678255
+    ],
+    "reference_direction": null,
+    "temporal_confidence": [
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "epsilon": 0.0,
+    "epsilon0": 0.0,
+    "eta": 0.0,
+    "delta": 0.0,
+    "continuous_NMLE": 0.0,
+    "barriers": [
+      -7.5110063552856445,
+      -5.582860469818115,
+      -6.421983242034912,
+      -6.45631217956543,
+      -7.469756603240967
+    ],
+    "nroe": 0.0,
+    "position_cap": 7.7003518553908235,
+    "position_error": 0.026084183673469423,
+    "continuous_budget_ok": true,
+    "candidate_count": 9,
+    "feasible_candidate_count": 9,
+    "candidate_records": [
+      {
+        "order": [
+          0,
+          1,
+          2,
+          4,
+          5,
+          3
+        ],
+        "tau": 5.522664737362613,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          0,
+          1,
+          3,
+          2,
+          4,
+          5
+        ],
+        "tau": 5.522664737362613,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          0,
+          1,
+          3,
+          2,
+          5,
+          4
+        ],
+        "tau": 5.2402557451111145,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          0,
+          1,
+          3,
+          4,
+          5,
+          2
+        ],
+        "tau": 5.2402557451111145,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          0,
+          1,
+          3,
+          5,
+          4,
+          2
+        ],
+        "tau": 5.2402557451111145,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          0,
+          1,
+          5,
+          4,
+          2,
+          3
+        ],
+        "tau": 5.522664737362613,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          1,
+          0,
+          3,
+          5,
+          4,
+          2
+        ],
+        "tau": 5.2402557451111145,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          3,
+          2,
+          4,
+          5,
+          0,
+          1
+        ],
+        "tau": 5.522664737362613,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          3,
+          5,
+          4,
+          2,
+          0,
+          1
+        ],
+        "tau": 5.522664737362613,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      }
+    ],
+    "terms": {
+      "reference": 0.0003788306849765334,
+      "geometry": 0.03616526853853495,
+      "temporal": 0.00014172179416785638,
+      "stationary": 0.00014172179416785638,
+      "motion": 0.00014172179416785638,
+      "eccentricity": 4.745201652202043e-07
+    },
+    "order_search": {
+      "order": [
+        0,
+        1,
+        3,
+        2,
+        5,
+        4
+      ],
+      "tau": 5.2402557451111145,
+      "delta": 0.0,
+      "source": "width search",
+      "flattened": 0,
+      "nroe": 0.0,
+      "lower": 5.240255745111103,
+      "lower_b": 5.240255745111103,
+      "lower_c": 5.240255745111103,
+      "point_tau": 5.522664737362613,
+      "point_nroe": 0.0
+    },
+    "rendered_position_error": 0.028205128205128206,
+    "pixel_x": [
+      -155.93224575926772,
+      -152.90443516200037,
+      -145.33490866883204,
+      -148.3627192660994,
+      -139.27928747429738,
+      -142.30709807156472
+    ],
+    "NMLEmean": 0.0,
+    "NMLEmax": 0.0,
+    "rendered_merge_error": 0.0,
+    "rendered_budget_ok": true,
+    "ME": 0.011904696307250193,
+    "raster_error": {
+      "anchor_error": 0.7950899320311464,
+      "interval_extent_error": 1.5061812920079853,
+      "integer_rounding": {
+        "repaired": true,
+        "anchors_fixed_to_nearest": false,
+        "optimal_max_rounding_error_pixels": 0.6623086734693828,
+        "max_coordinate_rounding_error_pixels": 0.6623086734693828,
+        "total_absolute_rounding_error_pixels": 6.610165077064011,
+        "attempts": [
+          {
+            "anchors_fixed_to_nearest": true,
+            "status": 2,
+            "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is At lower/fixed bound)"
+          },
+          {
+            "anchors_fixed_to_nearest": false,
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ]
+      }
+    },
+    "metric_convention": "NMLE over the full fixed-label matrix including diagonal; ME is normalized RMS",
+    "rendered_ME": 0.01472964781163597
+  },
+  {
+    "x": [
+      -153.93800379859945,
+      -152.33141042045762,
+      -150.34827171931374,
+      -143.06839547460848,
+      -141.27352943496564
+    ],
+    "z": [
+      -154.12627646010046,
+      -152.1431377589566,
+      -150.15999905781277,
+      -143.25666813610948,
+      -140.89698411196363
+    ],
+    "w": [
+      0.7530906460039927,
+      0.7530906460039927,
+      0.7530906460039927,
+      0.7530906460039927,
+      1.5061812920079853
+    ],
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "tau": 3.8721410715371953,
+    "budget": 6.332237181816904,
+    "objective": 3372.36517431454,
+    "min_constraint_slack": -9.381384558082573e-15,
+    "qp_gap_bound": 1.4786826520621204e-13,
+    "lp_orders": [
+      {
+        "order": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "tau": 3.8721410715372144
+      }
+    ],
+    "qp_orders": [
+      {
+        "order": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "objective": 3372.36517431454,
+        "gap_bound": 1.4786826520621204e-13
+      }
+    ],
+    "global_gap_bound": 0.0,
+    "reference": [
+      -147.60576661678255,
+      -147.60576661678255,
+      -147.60576661678255,
+      -147.60576661678255,
+      -147.60576661678255
+    ],
+    "reference_direction": null,
+    "temporal_confidence": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "epsilon": 0.0,
+    "epsilon0": 0.0,
+    "eta": 0.0,
+    "delta": 0.0,
+    "continuous_NMLE": 0.0,
+    "barriers": [
+      -7.555402755737305,
+      -6.450491905212402,
+      -6.151703834533691,
+      -7.478895664215088
+    ],
+    "nroe": 0.0,
+    "position_cap": 6.332237181816904,
+    "position_error": 0.0214498299319728,
+    "continuous_budget_ok": true,
+    "candidate_count": 5,
+    "feasible_candidate_count": 5,
+    "candidate_records": [
+      {
+        "order": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "tau": 3.8721410715371953,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          2,
+          0,
+          1,
+          3,
+          4
+        ],
+        "tau": 3.8721410715371953,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          2,
+          0,
+          1,
+          4,
+          3
+        ],
+        "tau": 4.154550063788693,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          2,
+          1,
+          0,
+          3,
+          4
+        ],
+        "tau": 3.8721410715371953,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          3,
+          4,
+          2,
+          0,
+          1
+        ],
+        "tau": 4.154550063788693,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      }
+    ],
+    "terms": {
+      "reference": 0.00029979451921074616,
+      "geometry": 0.037457532076242035,
+      "temporal": 7.878467990085308e-05,
+      "stationary": 7.878467990085308e-05,
+      "motion": 7.878467990085308e-05,
+      "eccentricity": 6.507705122865553e-07
+    },
+    "order_search": {
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "tau": 3.8721410715371953,
+      "delta": 0.0,
+      "source": "width search",
+      "flattened": 0,
+      "nroe": 0.0,
+      "lower": 3.872141071537189,
+      "lower_b": 3.872141071537189,
+      "lower_c": 3.872141071537189,
+      "point_tau": 4.154550063788693,
+      "point_nroe": 0.0
+    },
+    "rendered_position_error": 0.023076923076923102,
+    "pixel_x": [
+      -154.41834046063403,
+      -151.3905298633667,
+      -148.3627192660994,
+      -143.82100337019838,
+      -140.79319277293104
+    ],
+    "NMLEmean": 0.0,
+    "NMLEmax": 0.0,
+    "rendered_merge_error": 0.0,
+    "rendered_budget_ok": true,
+    "ME": 0.008876073450622921,
+    "raster_error": {
+      "anchor_error": 1.9855524532143818,
+      "interval_extent_error": 1.5061812920079853,
+      "integer_rounding": {
+        "repaired": true,
+        "anchors_fixed_to_nearest": false,
+        "optimal_max_rounding_error_pixels": 1.4359056122449434,
+        "max_coordinate_rounding_error_pixels": 1.435905612244909,
+        "total_absolute_rounding_error_pixels": 8.671237244898009,
+        "attempts": [
+          {
+            "anchors_fixed_to_nearest": true,
+            "status": 2,
+            "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is At lower/fixed bound)"
+          },
+          {
+            "anchors_fixed_to_nearest": false,
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ]
+      }
+    },
+    "metric_convention": "NMLE over the full fixed-label matrix including diagonal; ME is normalized RMS",
+    "rendered_ME": 0.006486723405473611
+  },
+  {
+    "x": [
+      -139.8112784306412,
+      -141.60614447028405,
+      -143.5892831714279,
+      -155.40025480292388,
+      -151.4339774006362,
+      -153.60538876328104
+    ],
+    "z": [
+      -139.4347331076392,
+      -141.79441713178505,
+      -143.7775558329289,
+      -155.7768001259259,
+      -151.0574320776342,
+      -153.41711610178004
+    ],
+    "w": [
+      1.5061812920079853,
+      0.7530906460039927,
+      0.7530906460039927,
+      1.5061812920079853,
+      1.5061812920079853,
+      0.7530906460039927
+    ],
+    "order": [
+      3,
+      5,
+      4,
+      2,
+      1,
+      0
+    ],
+    "tau": 5.334392075861614,
+    "budget": 7.794488186141323,
+    "objective": 3714.9420006932583,
+    "min_constraint_slack": -9.381384558082573e-15,
+    "qp_gap_bound": 0.0,
+    "lp_orders": [
+      {
+        "order": [
+          3,
+          5,
+          4,
+          2,
+          1,
+          0
+        ],
+        "tau": 5.334392075861615
+      }
+    ],
+    "qp_orders": [
+      {
+        "order": [
+          3,
+          5,
+          4,
+          2,
+          1,
+          0
+        ],
+        "objective": 3714.9420006932583,
+        "gap_bound": 0.0
+      }
+    ],
+    "global_gap_bound": 0.0,
+    "reference": [
+      -147.60576661678255,
+      -147.60576661678255,
+      -147.60576661678255,
+      -147.60576661678255,
+      -147.60576661678255,
+      -147.60576661678255
+    ],
+    "reference_direction": null,
+    "temporal_confidence": [
+      1.0,
+      1.0,
+      1.0,
+      0.0,
+      1.0,
+      1.0
+    ],
+    "epsilon": 0.0,
+    "epsilon0": 0.0,
+    "eta": 0.0,
+    "delta": 0.0,
+    "continuous_NMLE": 0.0,
+    "barriers": [
+      -7.69618558883667,
+      -7.325340270996094,
+      -6.392514705657959,
+      -7.275489807128906,
+      -7.434401988983154
+    ],
+    "nroe": 0.0,
+    "position_cap": 7.794488186141323,
+    "position_error": 0.026403061224489842,
+    "continuous_budget_ok": true,
+    "candidate_count": 8,
+    "feasible_candidate_count": 8,
+    "candidate_records": [
+      {
+        "order": [
+          2,
+          0,
+          1,
+          4,
+          3,
+          5
+        ],
+        "tau": 5.899210060364609,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          2,
+          1,
+          0,
+          4,
+          3,
+          5
+        ],
+        "tau": 5.899210060364609,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          3,
+          5,
+          4,
+          2,
+          1,
+          0
+        ],
+        "tau": 5.334392075861614,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          4,
+          3,
+          5,
+          0,
+          1,
+          2
+        ],
+        "tau": 5.616801068113112,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          4,
+          3,
+          5,
+          1,
+          0,
+          2
+        ],
+        "tau": 5.616801068113112,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          4,
+          3,
+          5,
+          2,
+          0,
+          1
+        ],
+        "tau": 5.616801068113112,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          4,
+          3,
+          5,
+          2,
+          1,
+          0
+        ],
+        "tau": 5.334392075861614,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          4,
+          5,
+          3,
+          2,
+          1,
+          0
+        ],
+        "tau": 5.334392075861614,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      }
+    ],
+    "terms": {
+      "reference": 0.00042892856901831274,
+      "geometry": 0.040243043335652776,
+      "temporal": 0.0013364046989969515,
+      "stationary": 0.0013364046989969515,
+      "motion": 0.0013364046989969515,
+      "eccentricity": 1.0168289254477812e-06
+    },
+    "order_search": {
+      "order": [
+        3,
+        5,
+        4,
+        2,
+        1,
+        0
+      ],
+      "tau": 5.334392075861614,
+      "delta": 0.0,
+      "source": "width search",
+      "flattened": 0,
+      "nroe": 0.0,
+      "lower": 5.334392075861619,
+      "lower_b": 5.334392075861619,
+      "lower_c": 5.334392075861619,
+      "point_tau": 5.616801068113112,
+      "point_nroe": 0.0
+    },
+    "rendered_position_error": 0.028205128205128206,
+    "pixel_x": [
+      -139.27928747429738,
+      -142.30709807156472,
+      -145.33490866883204,
+      -155.93224575926772,
+      -149.87662456473305,
+      -152.90443516200037
+    ],
+    "NMLEmean": 0.0,
+    "NMLEmax": 0.0,
+    "rendered_merge_error": 0.0,
+    "rendered_budget_ok": true,
+    "ME": 0.036556869381785845,
+    "raster_error": {
+      "anchor_error": 1.7456254974041485,
+      "interval_extent_error": 1.5061812920079853,
+      "integer_rounding": {
+        "repaired": true,
+        "anchors_fixed_to_nearest": false,
+        "optimal_max_rounding_error_pixels": 1.2774234693877702,
+        "max_coordinate_rounding_error_pixels": 1.2774234693877702,
+        "total_absolute_rounding_error_pixels": 10.982780612244966,
+        "attempts": [
+          {
+            "anchors_fixed_to_nearest": true,
+            "status": 2,
+            "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is At lower/fixed bound)"
+          },
+          {
+            "anchors_fixed_to_nearest": false,
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ]
+      }
+    },
+    "metric_convention": "NMLE over the full fixed-label matrix including diagonal; ME is normalized RMS",
+    "rendered_ME": 0.0340166645164656
+  },
+  {
+    "x": [
+      -141.9387595056025,
+      -155.25591242910644,
+      -153.0845010664616,
+      -139.95562080445865,
+      -149.60087129983103
+    ],
+    "z": [
+      -142.3153048286045,
+      -155.82073041360945,
+      -152.7079557434596,
+      -139.57907548145664,
+      -149.60087129983103
+    ],
+    "w": [
+      1.5061812920079853,
+      2.259271938011978,
+      1.5061812920079853,
+      1.5061812920079853,
+      1.5061812920079853
+    ],
+    "order": [
+      1,
+      2,
+      4,
+      0,
+      3
+    ],
+    "tau": 5.190049702044182,
+    "budget": 7.650145812323891,
+    "objective": 4258.55051812425,
+    "min_constraint_slack": -1.4099832412739488e-14,
+    "qp_gap_bound": 1.0227339350974746e-12,
+    "lp_orders": [
+      {
+        "order": [
+          1,
+          2,
+          4,
+          0,
+          3
+        ],
+        "tau": 5.190049702044178
+      }
+    ],
+    "qp_orders": [
+      {
+        "order": [
+          1,
+          2,
+          4,
+          0,
+          3
+        ],
+        "objective": 4258.55051812425,
+        "gap_bound": 1.0227339350974746e-12
+      }
+    ],
+    "global_gap_bound": 9.094947017729282e-13,
+    "reference": [
+      -147.60576661678255,
+      -147.60576661678255,
+      -147.60576661678255,
+      -147.60576661678255,
+      -147.60576661678255
+    ],
+    "reference_direction": null,
+    "temporal_confidence": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "epsilon": 0.0,
+    "epsilon0": 0.0,
+    "eta": 0.0,
+    "delta": 0.0,
+    "continuous_NMLE": 0.0,
+    "barriers": [
+      -7.272938251495361,
+      -7.503261089324951,
+      -7.159939289093018,
+      -7.023004055023193
+    ],
+    "nroe": 0.0,
+    "position_cap": 7.650145812323891,
+    "position_error": 0.02591411564625853,
+    "continuous_budget_ok": true,
+    "candidate_count": 6,
+    "feasible_candidate_count": 6,
+    "candidate_records": [
+      {
+        "order": [
+          0,
+          1,
+          2,
+          4,
+          3
+        ],
+        "tau": 5.472458694295679,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          1,
+          2,
+          4,
+          0,
+          3
+        ],
+        "tau": 5.190049702044182,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          1,
+          4,
+          2,
+          0,
+          3
+        ],
+        "tau": 5.190049702044182,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          2,
+          4,
+          1,
+          0,
+          3
+        ],
+        "tau": 5.472458694295679,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          3,
+          0,
+          1,
+          2,
+          4
+        ],
+        "tau": 5.472458694295679,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          3,
+          1,
+          2,
+          4,
+          0
+        ],
+        "tau": 5.472458694295679,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      }
+    ],
+    "terms": {
+      "reference": 0.00042033671135790286,
+      "geometry": 0.046788458589595155,
+      "temporal": 0.0007894308234275996,
+      "stationary": 0.0007894308234275996,
+      "motion": 0.0007894308234275996,
+      "eccentricity": 1.7082725947522723e-06
+    },
+    "order_search": {
+      "order": [
+        1,
+        2,
+        4,
+        0,
+        3
+      ],
+      "tau": 5.190049702044182,
+      "delta": 0.0,
+      "source": "width search",
+      "flattened": 0,
+      "nroe": 0.0,
+      "lower": 5.190049702044167,
+      "lower_b": 5.190049702044167,
+      "lower_c": 5.190049702044167,
+      "point_tau": 5.472458694295679,
+      "point_nroe": 0.0
+    },
+    "rendered_position_error": 0.028205128205128206,
+    "pixel_x": [
+      -142.30709807156472,
+      -155.93224575926772,
+      -152.90443516200037,
+      -139.27928747429738,
+      -149.87662456473305
+    ],
+    "NMLEmean": 0.0,
+    "NMLEmax": 0.0,
+    "rendered_merge_error": 0.0,
+    "rendered_budget_ok": true,
+    "ME": 0.028096811623876464,
+    "raster_error": {
+      "anchor_error": 0.6763333301612704,
+      "interval_extent_error": 1.5061812920079853,
+      "integer_rounding": {
+        "repaired": true,
+        "anchors_fixed_to_nearest": true,
+        "optimal_max_rounding_error_pixels": 0.81983418367345,
+        "max_coordinate_rounding_error_pixels": 0.81983418367345,
+        "total_absolute_rounding_error_pixels": 6.559060236553805,
+        "attempts": [
+          {
+            "anchors_fixed_to_nearest": true,
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ]
+      }
+    },
+    "metric_convention": "NMLE over the full fixed-label matrix including diagonal; ME is normalized RMS",
+    "rendered_ME": 0.027329051475844565
+  },
+  {
+    "x": [
+      -155.40025480292388,
+      -153.41711610178004,
+      -139.8112784306412,
+      -147.33884359050364,
+      -141.60614447028405,
+      -143.5892831714279
+    ],
+    "z": [
+      -155.7768001259259,
+      -153.04057077877803,
+      -139.4347331076392,
+      -147.33884359050364,
+      -141.79441713178505,
+      -143.7775558329289
+    ],
+    "w": [
+      1.5061812920079853,
+      1.5061812920079853,
+      1.5061812920079853,
+      0.7530906460039927,
+      0.7530906460039927,
+      0.7530906460039927
+    ],
+    "order": [
+      0,
+      1,
+      3,
+      5,
+      4,
+      2
+    ],
+    "tau": 5.334392075861614,
+    "budget": 7.794488186141323,
+    "objective": 4779.273260593127,
+    "min_constraint_slack": -9.381384558082573e-15,
+    "qp_gap_bound": 7.267834294826504e-13,
+    "lp_orders": [
+      {
+        "order": [
+          0,
+          1,
+          3,
+          5,
+          4,
+          2
+        ],
+        "tau": 5.334392075861615
+      }
+    ],
+    "qp_orders": [
+      {
+        "order": [
+          0,
+          1,
+          3,
+          5,
+          4,
+          2
+        ],
+        "objective": 4779.273260593127,
+        "gap_bound": 7.267834294826504e-13
+      }
+    ],
+    "global_gap_bound": 9.094947017729282e-13,
+    "reference": [
+      -147.60576661678255,
+      -147.60576661678255,
+      -147.60576661678255,
+      -147.60576661678255,
+      -147.60576661678255,
+      -147.60576661678255
+    ],
+    "reference_direction": null,
+    "temporal_confidence": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      0.0
+    ],
+    "epsilon": 0.0,
+    "epsilon0": 0.0,
+    "eta": 0.0,
+    "delta": 0.0,
+    "continuous_NMLE": 0.0,
+    "barriers": [
+      -6.752807140350342,
+      -7.246655464172363,
+      -7.433602809906006,
+      -7.860229969024658,
+      -8.128866195678711
+    ],
+    "nroe": 0.0,
+    "position_cap": 7.794488186141323,
+    "position_error": 0.026403061224489842,
+    "continuous_budget_ok": true,
+    "candidate_count": 10,
+    "feasible_candidate_count": 10,
+    "candidate_records": [
+      {
+        "order": [
+          0,
+          1,
+          3,
+          5,
+          2,
+          4
+        ],
+        "tau": 5.616801068113112,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          0,
+          1,
+          3,
+          5,
+          4,
+          2
+        ],
+        "tau": 5.334392075861614,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          1,
+          3,
+          2,
+          4,
+          5,
+          0
+        ],
+        "tau": 5.334392075861614,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          1,
+          3,
+          4,
+          2,
+          5,
+          0
+        ],
+        "tau": 5.334392075861614,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          1,
+          3,
+          5,
+          2,
+          4,
+          0
+        ],
+        "tau": 5.334392075861614,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          1,
+          3,
+          5,
+          4,
+          2,
+          0
+        ],
+        "tau": 5.334392075861614,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          1,
+          5,
+          2,
+          4,
+          3,
+          0
+        ],
+        "tau": 5.334392075861614,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          1,
+          5,
+          4,
+          2,
+          3,
+          0
+        ],
+        "tau": 5.334392075861614,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          3,
+          5,
+          2,
+          4,
+          1,
+          0
+        ],
+        "tau": 5.616801068113111,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          3,
+          5,
+          4,
+          2,
+          1,
+          0
+        ],
+        "tau": 5.616801068113111,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      }
+    ],
+    "terms": {
+      "reference": 0.0003967854020245364,
+      "geometry": 0.052702626125707086,
+      "temporal": 0.0010997129795453633,
+      "stationary": 0.0010997129795453633,
+      "motion": 0.0010997129795453633,
+      "eccentricity": 9.49040330417929e-07
+    },
+    "order_search": {
+      "order": [
+        0,
+        1,
+        3,
+        5,
+        4,
+        2
+      ],
+      "tau": 5.334392075861614,
+      "delta": 0.0,
+      "source": "width search",
+      "flattened": 0,
+      "nroe": 0.0,
+      "lower": 5.334392075861604,
+      "lower_b": 5.334392075861604,
+      "lower_c": 5.334392075861604,
+      "point_tau": 5.616801068113112,
+      "point_nroe": 0.0
+    },
+    "rendered_position_error": 0.028205128205128206,
+    "pixel_x": [
+      -155.93224575926772,
+      -152.90443516200037,
+      -139.27928747429738,
+      -148.3627192660994,
+      -142.30709807156472,
+      -145.33490866883204
+    ],
+    "NMLEmean": 0.0,
+    "NMLEmax": 0.0,
+    "rendered_merge_error": 0.0,
+    "rendered_budget_ok": true,
+    "ME": 0.03316192062509895,
+    "raster_error": {
+      "anchor_error": 1.7456254974041485,
+      "interval_extent_error": 1.5061812920079853,
+      "integer_rounding": {
+        "repaired": true,
+        "anchors_fixed_to_nearest": false,
+        "optimal_max_rounding_error_pixels": 1.277423469387756,
+        "max_coordinate_rounding_error_pixels": 1.277423469387756,
+        "total_absolute_rounding_error_pixels": 10.616315097875358,
+        "attempts": [
+          {
+            "anchors_fixed_to_nearest": true,
+            "status": 2,
+            "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is At lower/fixed bound)"
+          },
+          {
+            "anchors_fixed_to_nearest": false,
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ]
+      }
+    },
+    "metric_convention": "NMLE over the full fixed-label matrix including diagonal; ME is normalized RMS",
+    "rendered_ME": 0.034553601082918994
+  },
+  {
+    "x": [
+      -139.43473310763923,
+      -155.77680012592586,
+      -153.79366142478202,
+      -141.22959914728207,
+      -151.24570473913516,
+      -143.40101050992692
+    ],
+    "z": [
+      -139.05818778463723,
+      -156.15334544892787,
+      -153.41711610178,
+      -141.41787180878308,
+      -151.05743207763416,
+      -143.77755583292893
+    ],
+    "w": [
+      1.5061812920079853,
+      1.5061812920079853,
+      1.5061812920079853,
+      0.7530906460039927,
+      0.7530906460039927,
+      1.5061812920079853
+    ],
+    "order": [
+      1,
+      2,
+      4,
+      5,
+      3,
+      0
+    ],
+    "tau": 5.710937398863611,
+    "budget": 8.17103350914332,
+    "objective": 4815.142786184791,
+    "min_constraint_slack": -9.381384558082573e-15,
+    "qp_gap_bound": 5.440764607051756e-13,
+    "lp_orders": [
+      {
+        "order": [
+          1,
+          2,
+          4,
+          5,
+          3,
+          0
+        ],
+        "tau": 5.710937398863621
+      }
+    ],
+    "qp_orders": [
+      {
+        "order": [
+          1,
+          2,
+          4,
+          5,
+          3,
+          0
+        ],
+        "objective": 4815.142786184791,
+        "gap_bound": 5.440764607051756e-13
+      }
+    ],
+    "global_gap_bound": 9.094947017729282e-13,
+    "reference": [
+      -147.60576661678255,
+      -147.60576661678255,
+      -147.60576661678255,
+      -147.60576661678255,
+      -147.60576661678255,
+      -147.60576661678255
+    ],
+    "reference_direction": null,
+    "temporal_confidence": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "epsilon": 0.0,
+    "epsilon0": 0.0,
+    "eta": 0.0,
+    "delta": 0.0,
+    "continuous_NMLE": 0.0,
+    "barriers": [
+      -6.793889999389648,
+      -8.812811851501465,
+      -8.026799201965332,
+      -7.0101447105407715,
+      -6.240212917327881
+    ],
+    "nroe": 0.0,
+    "position_cap": 8.17103350914332,
+    "position_error": 0.02767857142857141,
+    "continuous_budget_ok": true,
+    "candidate_count": 9,
+    "feasible_candidate_count": 9,
+    "candidate_records": [
+      {
+        "order": [
+          0,
+          1,
+          2,
+          4,
+          5,
+          3
+        ],
+        "tau": 5.993346391115108,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          0,
+          1,
+          3,
+          5,
+          2,
+          4
+        ],
+        "tau": 5.993346391115108,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          1,
+          2,
+          4,
+          5,
+          3,
+          0
+        ],
+        "tau": 5.710937398863611,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          1,
+          3,
+          2,
+          4,
+          5,
+          0
+        ],
+        "tau": 5.710937398863611,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          1,
+          3,
+          5,
+          2,
+          4,
+          0
+        ],
+        "tau": 5.710937398863611,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          1,
+          4,
+          2,
+          5,
+          3,
+          0
+        ],
+        "tau": 5.710937398863611,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          1,
+          5,
+          2,
+          4,
+          3,
+          0
+        ],
+        "tau": 5.710937398863611,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          2,
+          4,
+          5,
+          3,
+          1,
+          0
+        ],
+        "tau": 5.710937398863611,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          3,
+          5,
+          2,
+          4,
+          1,
+          0
+        ],
+        "tau": 5.993346391115108,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      }
+    ],
+    "terms": {
+      "reference": 0.0004654937371774102,
+      "geometry": 0.05282862768192494,
+      "temporal": 0.0011211579187553006,
+      "stationary": 0.0011211579187553006,
+      "motion": 0.0011211579187553006,
+      "eccentricity": 1.2201947105373372e-06
+    },
+    "order_search": {
+      "order": [
+        1,
+        2,
+        4,
+        5,
+        3,
+        0
+      ],
+      "tau": 5.710937398863611,
+      "delta": 0.0,
+      "source": "width search",
+      "flattened": 0,
+      "nroe": 0.0,
+      "lower": 5.71093739886361,
+      "lower_b": 5.71093739886361,
+      "lower_c": 5.71093739886361,
+      "point_tau": 5.993346391115108,
+      "point_nroe": 0.0
+    },
+    "rendered_position_error": 0.033333333333333305,
+    "pixel_x": [
+      -137.76538217566372,
+      -157.44615105790137,
+      -154.41834046063403,
+      -140.79319277293104,
+      -151.3905298633667,
+      -145.33490866883204
+    ],
+    "NMLEmean": 0.0,
+    "NMLEmax": 0.0,
+    "rendered_merge_error": 0.0,
+    "rendered_budget_ok": true,
+    "ME": 0.03348369631261311,
+    "raster_error": {
+      "anchor_error": 1.933898158905123,
+      "interval_extent_error": 1.5061812920079853,
+      "integer_rounding": {
+        "repaired": true,
+        "anchors_fixed_to_nearest": false,
+        "optimal_max_rounding_error_pixels": 1.351403061224488,
+        "max_coordinate_rounding_error_pixels": 1.3514030612245023,
+        "total_absolute_rounding_error_pixels": 11.397959183673464,
+        "attempts": [
+          {
+            "anchors_fixed_to_nearest": true,
+            "status": 2,
+            "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is At lower/fixed bound)"
+          },
+          {
+            "anchors_fixed_to_nearest": false,
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ]
+      }
+    },
+    "metric_convention": "NMLE over the full fixed-label matrix including diagonal; ME is normalized RMS",
+    "rendered_ME": 0.03709834942600118
+  },
+  {
+    "x": [
+      -156.15334544892787,
+      -154.17020674778402,
+      -143.9203284671871,
+      -141.04132648578107,
+      -148.1863013665404,
+      -139.05818778463723
+    ],
+    "z": [
+      -156.52989077192987,
+      -153.79366142478202,
+      -144.1541011559309,
+      -141.41787180878308,
+      -148.186301366544,
+      -138.68164246163522
+    ],
+    "w": [
+      1.5061812920079853,
+      1.5061812920079853,
+      1.5061812920079853,
+      1.5061812920079853,
+      0.7530906460039927,
+      1.5061812920079853
+    ],
+    "order": [
+      0,
+      1,
+      4,
+      2,
+      3,
+      5
+    ],
+    "tau": 6.087482721865607,
+    "budget": 8.547578832145316,
+    "objective": 4984.737813556631,
+    "min_constraint_slack": -1.3322676295501878e-14,
+    "qp_gap_bound": 1.970257856482975e-12,
+    "lp_orders": [
+      {
+        "order": [
+          0,
+          1,
+          4,
+          2,
+          3,
+          5
+        ],
+        "tau": 6.0874827218656264
+      }
+    ],
+    "qp_orders": [
+      {
+        "order": [
+          0,
+          1,
+          4,
+          2,
+          3,
+          5
+        ],
+        "objective": 4984.737813556631,
+        "gap_bound": 1.970257856482975e-12
+      }
+    ],
+    "global_gap_bound": 1.8189894035458565e-12,
+    "reference": [
+      -147.60576661678255,
+      -147.60576661678255,
+      -147.60576661678255,
+      -147.60576661678255,
+      -147.60576661678255,
+      -147.60576661678255
+    ],
+    "reference_direction": null,
+    "temporal_confidence": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "epsilon": 0.0,
+    "epsilon0": 0.0,
+    "eta": 0.0,
+    "delta": 0.0,
+    "continuous_NMLE": 0.0,
+    "barriers": [
+      -5.652949333190918,
+      -7.014766216278076,
+      -7.284318923950195,
+      -9.118974685668945,
+      -8.822629928588867
+    ],
+    "nroe": 0.0,
+    "position_cap": 8.547578832145316,
+    "position_error": 0.028954081632653072,
+    "continuous_budget_ok": true,
+    "candidate_count": 6,
+    "feasible_candidate_count": 6,
+    "candidate_records": [
+      {
+        "order": [
+          0,
+          1,
+          4,
+          2,
+          3,
+          5
+        ],
+        "tau": 6.087482721865607,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          0,
+          1,
+          4,
+          5,
+          2,
+          3
+        ],
+        "tau": 6.087482721865607,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          0,
+          1,
+          4,
+          5,
+          3,
+          2
+        ],
+        "tau": 6.087482721865607,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          0,
+          1,
+          5,
+          2,
+          3,
+          4
+        ],
+        "tau": 6.369891714117105,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          0,
+          4,
+          5,
+          2,
+          3,
+          1
+        ],
+        "tau": 6.087482721865607,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          1,
+          4,
+          5,
+          2,
+          3,
+          0
+        ],
+        "tau": 6.087482721865607,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      }
+    ],
+    "terms": {
+      "reference": 0.0004708851727331075,
+      "geometry": 0.05478682730908223,
+      "temporal": 0.0010536659925481982,
+      "stationary": 0.0010536659925481982,
+      "motion": 0.0010536659925481982,
+      "eccentricity": 1.1891303613058785e-06
+    },
+    "order_search": {
+      "order": [
+        0,
+        1,
+        4,
+        2,
+        3,
+        5
+      ],
+      "tau": 6.087482721865607,
+      "delta": 0.0,
+      "source": "point order",
+      "flattened": null,
+      "nroe": 0.0,
+      "lower": 6.087482721865602,
+      "lower_b": 6.087482721865602,
+      "lower_c": 6.087482721865602,
+      "point_tau": 6.087482721865607,
+      "point_nroe": 0.0
+    },
+    "rendered_position_error": 0.033333333333333305,
+    "pixel_x": [
+      -157.44615105790137,
+      -154.41834046063403,
+      -145.33490866883204,
+      -140.79319277293104,
+      -148.3627192660994,
+      -137.76538217566372
+    ],
+    "NMLEmean": 0.0,
+    "NMLEmax": 0.0,
+    "rendered_merge_error": 0.0,
+    "rendered_budget_ok": true,
+    "ME": 0.03246022169591881,
+    "raster_error": {
+      "anchor_error": 1.4145802016449522,
+      "interval_extent_error": 1.5061812920079853,
+      "integer_rounding": {
+        "repaired": true,
+        "anchors_fixed_to_nearest": false,
+        "optimal_max_rounding_error_pixels": 1.1026785714285978,
+        "max_coordinate_rounding_error_pixels": 1.1026785714285694,
+        "total_absolute_rounding_error_pixels": 9.290364007814588,
+        "attempts": [
+          {
+            "anchors_fixed_to_nearest": true,
+            "status": 2,
+            "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is At lower/fixed bound)"
+          },
+          {
+            "anchors_fixed_to_nearest": false,
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ]
+      }
+    },
+    "metric_convention": "NMLE over the full fixed-label matrix including diagonal; ME is normalized RMS",
+    "rendered_ME": 0.03674219702599089
+  },
+  {
+    "x": [
+      -155.49439113367436,
+      -153.69952509403151,
+      -143.87169216367943,
+      -141.70028080103458,
+      -149.43062791427664,
+      -139.71714209989074
+    ],
+    "z": [
+      -155.87093645667636,
+      -153.5112524325305,
+      -144.24823748668143,
+      -141.88855346253558,
+      -149.4306279142766,
+      -139.15232411538773
+    ],
+    "w": [
+      1.5061812920079853,
+      0.7530906460039927,
+      1.5061812920079853,
+      0.7530906460039927,
+      0.7530906460039927,
+      2.259271938011978
+    ],
+    "order": [
+      0,
+      1,
+      4,
+      2,
+      3,
+      5
+    ],
+    "tau": 5.428528406612113,
+    "budget": 7.888624516891822,
+    "objective": 5099.055465390903,
+    "min_constraint_slack": -1.4099832412739488e-14,
+    "qp_gap_bound": 6.566574601828393e-13,
+    "lp_orders": [
+      {
+        "order": [
+          0,
+          1,
+          4,
+          2,
+          3,
+          5
+        ],
+        "tau": 5.428528406612116
+      }
+    ],
+    "qp_orders": [
+      {
+        "order": [
+          0,
+          1,
+          4,
+          2,
+          3,
+          5
+        ],
+        "objective": 5099.055465390903,
+        "gap_bound": 6.566574601828393e-13
+      }
+    ],
+    "global_gap_bound": 9.094947017729282e-13,
+    "reference": [
+      -147.60576661678255,
+      -147.60576661678255,
+      -147.60576661678255,
+      -147.60576661678255,
+      -147.60576661678255,
+      -147.60576661678255
+    ],
+    "reference_direction": null,
+    "temporal_confidence": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "epsilon": 0.0,
+    "epsilon0": 0.0,
+    "eta": 0.0,
+    "delta": 0.0,
+    "continuous_NMLE": 0.0,
+    "barriers": [
+      -5.022555351257324,
+      -8.005109786987305,
+      -8.250467300415039,
+      -8.996594429016113,
+      -9.385577201843262
+    ],
+    "nroe": 0.0,
+    "position_cap": 7.888624516891822,
+    "position_error": 0.02672193877551016,
+    "continuous_budget_ok": true,
+    "candidate_count": 6,
+    "feasible_candidate_count": 6,
+    "candidate_records": [
+      {
+        "order": [
+          0,
+          1,
+          2,
+          3,
+          5,
+          4
+        ],
+        "tau": 5.993346391115108,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          0,
+          1,
+          4,
+          2,
+          3,
+          5
+        ],
+        "tau": 5.428528406612113,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          0,
+          1,
+          4,
+          2,
+          5,
+          3
+        ],
+        "tau": 5.993346391115108,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          0,
+          1,
+          4,
+          3,
+          5,
+          2
+        ],
+        "tau": 5.710937398863611,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          0,
+          4,
+          2,
+          3,
+          5,
+          1
+        ],
+        "tau": 5.993346391115108,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          1,
+          4,
+          2,
+          3,
+          5,
+          0
+        ],
+        "tau": 5.993346391115108,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      }
+    ],
+    "terms": {
+      "reference": 0.000408765058108848,
+      "geometry": 0.0568709272740011,
+      "temporal": 5.880518169111195e-06,
+      "stationary": 5.880518169111195e-06,
+      "motion": 5.880518169111195e-06,
+      "eccentricity": 1.2879833055671895e-06
+    },
+    "order_search": {
+      "order": [
+        0,
+        1,
+        4,
+        2,
+        3,
+        5
+      ],
+      "tau": 5.428528406612113,
+      "delta": 0.0,
+      "source": "point order",
+      "flattened": null,
+      "nroe": 0.0,
+      "lower": 5.428528406612106,
+      "lower_b": 5.428528406612106,
+      "lower_c": 5.428528406612106,
+      "point_tau": 5.428528406612113,
+      "point_nroe": 0.0
+    },
+    "rendered_position_error": 0.028205128205128206,
+    "pixel_x": [
+      -155.93224575926772,
+      -152.90443516200037,
+      -145.33490866883204,
+      -142.30709807156472,
+      -149.87662456473305,
+      -139.27928747429738
+    ],
+    "NMLEmean": 0.0,
+    "NMLEmax": 0.0,
+    "rendered_merge_error": 0.0,
+    "rendered_budget_ok": true,
+    "ME": 0.002424977972912578,
+    "raster_error": {
+      "anchor_error": 1.4632165051526158,
+      "interval_extent_error": 1.5061812920079853,
+      "integer_rounding": {
+        "repaired": true,
+        "anchors_fixed_to_nearest": false,
+        "optimal_max_rounding_error_pixels": 1.2152423469387514,
+        "max_coordinate_rounding_error_pixels": 1.2152423469387514,
+        "total_absolute_rounding_error_pixels": 7.885480200778019,
+        "attempts": [
+          {
+            "anchors_fixed_to_nearest": true,
+            "status": 2,
+            "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is At lower/fixed bound)"
+          },
+          {
+            "anchors_fixed_to_nearest": false,
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ]
+      }
+    },
+    "metric_convention": "NMLE over the full fixed-label matrix including diagonal; ME is normalized RMS",
+    "rendered_ME": 0.0046813893803860284
+  },
+  {
+    "x": [
+      -140.28196008439372,
+      -144.0599648251804,
+      -142.07682612403656,
+      -154.92957314917138,
+      -153.32297977102954,
+      -151.3398410698857
+    ],
+    "z": [
+      -139.9054147613917,
+      -144.2482374866814,
+      -142.26509878553756,
+      -155.11784581067238,
+      -153.13470710952853,
+      -151.1515684083847
+    ],
+    "w": [
+      1.5061812920079853,
+      0.7530906460039927,
+      0.7530906460039927,
+      0.7530906460039927,
+      0.7530906460039927,
+      0.7530906460039927
+    ],
+    "order": [
+      3,
+      4,
+      5,
+      1,
+      2,
+      0
+    ],
+    "tau": 4.8637104221091185,
+    "budget": 7.3238065323888275,
+    "objective": 5262.591281310241,
+    "min_constraint_slack": -9.381384558082573e-15,
+    "qp_gap_bound": 0.0,
+    "lp_orders": [
+      {
+        "order": [
+          3,
+          4,
+          5,
+          1,
+          2,
+          0
+        ],
+        "tau": 4.863710422109108
+      }
+    ],
+    "qp_orders": [
+      {
+        "order": [
+          3,
+          4,
+          5,
+          1,
+          2,
+          0
+        ],
+        "objective": 5262.591281310241,
+        "gap_bound": 0.0
+      }
+    ],
+    "global_gap_bound": 0.0,
+    "reference": [
+      -147.60576661678255,
+      -147.60576661678255,
+      -147.60576661678255,
+      -147.60576661678255,
+      -147.60576661678255,
+      -147.60576661678255
+    ],
+    "reference_direction": null,
+    "temporal_confidence": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      0.0
+    ],
+    "epsilon": 0.0,
+    "epsilon0": 0.0,
+    "eta": 0.0,
+    "delta": 0.0,
+    "continuous_NMLE": 0.0,
+    "barriers": [
+      -9.239276885986328,
+      -9.9092378616333,
+      -8.696019172668457,
+      -8.931219100952148,
+      -4.37879753112793
+    ],
+    "nroe": 0.0,
+    "position_cap": 7.3238065323888275,
+    "position_error": 0.02480867346938776,
+    "continuous_budget_ok": true,
+    "candidate_count": 6,
+    "feasible_candidate_count": 6,
+    "candidate_records": [
+      {
+        "order": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "tau": 4.863710422109119,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          0,
+          3,
+          4,
+          5,
+          1,
+          2
+        ],
+        "tau": 4.863710422109119,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          0,
+          3,
+          4,
+          5,
+          2,
+          1
+        ],
+        "tau": 4.863710422109119,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          0,
+          3,
+          5,
+          4,
+          1,
+          2
+        ],
+        "tau": 4.863710422109119,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          0,
+          4,
+          5,
+          3,
+          1,
+          2
+        ],
+        "tau": 4.863710422109119,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          3,
+          4,
+          5,
+          1,
+          2,
+          0
+        ],
+        "tau": 4.8637104221091185,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      }
+    ],
+    "terms": {
+      "reference": 0.00037683755297754124,
+      "geometry": 0.05808904187443711,
+      "temporal": 0.0015781868231986664,
+      "stationary": 0.0015781868231986664,
+      "motion": 0.0015781868231986664,
+      "eccentricity": 6.100973552686686e-07
+    },
+    "order_search": {
+      "order": [
+        3,
+        4,
+        5,
+        1,
+        2,
+        0
+      ],
+      "tau": 4.8637104221091185,
+      "delta": 0.0,
+      "source": "point order",
+      "flattened": null,
+      "nroe": 0.0,
+      "lower": 4.863710422109111,
+      "lower_b": 4.863710422109111,
+      "lower_c": 4.863710422109111,
+      "point_tau": 4.863710422109119,
+      "point_nroe": 0.0
+    },
+    "rendered_position_error": 0.028205128205128206,
+    "pixel_x": [
+      -139.27928747429738,
+      -145.33490866883204,
+      -142.30709807156472,
+      -155.93224575926772,
+      -152.90443516200037,
+      -149.87662456473305
+    ],
+    "NMLEmean": 0.0,
+    "NMLEmax": 0.0,
+    "rendered_merge_error": 0.0,
+    "rendered_budget_ok": true,
+    "ME": 0.03972639957507686,
+    "raster_error": {
+      "anchor_error": 1.4632165051526727,
+      "interval_extent_error": 1.5061812920079853,
+      "integer_rounding": {
+        "repaired": true,
+        "anchors_fixed_to_nearest": false,
+        "optimal_max_rounding_error_pixels": 1.0908801020407992,
+        "max_coordinate_rounding_error_pixels": 1.0908801020408276,
+        "total_absolute_rounding_error_pixels": 9.74744897959188,
+        "attempts": [
+          {
+            "anchors_fixed_to_nearest": true,
+            "status": 2,
+            "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is At lower/fixed bound)"
+          },
+          {
+            "anchors_fixed_to_nearest": false,
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ]
+      }
+    },
+    "metric_convention": "NMLE over the full fixed-label matrix including diagonal; ME is normalized RMS",
+    "rendered_ME": 0.040509574683346636
+  },
+  {
+    "x": [
+      -140.70871145046266,
+      -154.50282178310243,
+      -152.3314104204576,
+      -144.55008777879934,
+      -142.9434944006575
+    ],
+    "z": [
+      -140.39553771501065,
+      -155.06763976760544,
+      -151.95486509745558,
+      -144.73836044030034,
+      -142.7552217391565
+    ],
+    "w": [
+      1.5061812920079853,
+      2.259271938011978,
+      1.5061812920079853,
+      0.7530906460039927,
+      0.7530906460039927
+    ],
+    "order": [
+      1,
+      2,
+      3,
+      4,
+      0
+    ],
+    "tau": 4.43695905604019,
+    "budget": 6.897055166319899,
+    "objective": 5871.121156145809,
+    "min_constraint_slack": -1.4099832412739488e-14,
+    "qp_gap_bound": 4.838351941316432e-13,
+    "lp_orders": [
+      {
+        "order": [
+          1,
+          2,
+          3,
+          4,
+          0
+        ],
+        "tau": 4.436959056040195
+      }
+    ],
+    "qp_orders": [
+      {
+        "order": [
+          1,
+          2,
+          3,
+          4,
+          0
+        ],
+        "objective": 5871.121156145809,
+        "gap_bound": 4.838351941316432e-13
+      }
+    ],
+    "global_gap_bound": 9.094947017729282e-13,
+    "reference": [
+      -147.60576661678255,
+      -147.60576661678255,
+      -147.60576661678255,
+      -147.60576661678255,
+      -147.60576661678255
+    ],
+    "reference_direction": null,
+    "temporal_confidence": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "epsilon": 0.0,
+    "epsilon0": 0.0,
+    "eta": 0.0,
+    "delta": 0.0,
+    "continuous_NMLE": 0.0,
+    "barriers": [
+      -8.266517639160156,
+      -9.42955493927002,
+      -9.914937973022461,
+      -3.747708320617676
+    ],
+    "nroe": 0.0,
+    "position_cap": 6.897055166319899,
+    "position_error": 0.0233630952380952,
+    "continuous_budget_ok": true,
+    "candidate_count": 7,
+    "feasible_candidate_count": 7,
+    "candidate_records": [
+      {
+        "order": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "tau": 5.0017770405431845,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          0,
+          1,
+          3,
+          4,
+          2
+        ],
+        "tau": 4.719368048291687,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          1,
+          2,
+          3,
+          4,
+          0
+        ],
+        "tau": 4.43695905604019,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          1,
+          3,
+          4,
+          2,
+          0
+        ],
+        "tau": 4.43695905604019,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          1,
+          4,
+          3,
+          2,
+          0
+        ],
+        "tau": 4.43695905604019,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          2,
+          3,
+          4,
+          1,
+          0
+        ],
+        "tau": 4.719368048291687,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          3,
+          4,
+          2,
+          1,
+          0
+        ],
+        "tau": 5.0017770405431845,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      }
+    ],
+    "terms": {
+      "reference": 0.00034089423165450987,
+      "geometry": 0.06570210125900133,
+      "temporal": 0.000604586470284483,
+      "stationary": 0.000604586470284483,
+      "motion": 0.000604586470284483,
+      "eccentricity": 1.4452732145252235e-06
+    },
+    "order_search": {
+      "order": [
+        1,
+        2,
+        3,
+        4,
+        0
+      ],
+      "tau": 4.43695905604019,
+      "delta": 0.0,
+      "source": "width search",
+      "flattened": 0,
+      "nroe": 0.0,
+      "lower": 4.436959056040184,
+      "lower_b": 4.436959056040184,
+      "lower_c": 4.436959056040184,
+      "point_tau": 5.0017770405431845,
+      "point_nroe": 0.0
+    },
+    "rendered_position_error": 0.028205128205128206,
+    "pixel_x": [
+      -139.27928747429738,
+      -155.93224575926772,
+      -151.3905298633667,
+      -145.33490866883204,
+      -142.30709807156472
+    ],
+    "NMLEmean": 0.0,
+    "NMLEmax": 0.0,
+    "rendered_merge_error": 0.0,
+    "rendered_budget_ok": true,
+    "ME": 0.02458834012869683,
+    "raster_error": {
+      "anchor_error": 1.4294239761652818,
+      "interval_extent_error": 1.5061812920079853,
+      "integer_rounding": {
+        "repaired": true,
+        "anchors_fixed_to_nearest": false,
+        "optimal_max_rounding_error_pixels": 1.2347805958565345,
+        "max_coordinate_rounding_error_pixels": 1.2347805958565488,
+        "total_absolute_rounding_error_pixels": 9.440543334570279,
+        "attempts": [
+          {
+            "anchors_fixed_to_nearest": true,
+            "status": 2,
+            "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is At lower/fixed bound)"
+          },
+          {
+            "anchors_fixed_to_nearest": false,
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ]
+      }
+    },
+    "metric_convention": "NMLE over the full fixed-label matrix including diagonal; ME is normalized RMS",
+    "rendered_ME": 0.023833743668968708
+  },
+  {
+    "x": [
+      -155.77680012592586,
+      -139.43473310763923,
+      -153.79366142478202,
+      -143.21273784842592,
+      -148.71162861849504,
+      -141.22959914728207
+    ],
+    "z": [
+      -156.15334544892787,
+      -139.05818778463723,
+      -153.41711610178,
+      -143.40101050992692,
+      -148.711628618495,
+      -141.41787180878308
+    ],
+    "w": [
+      1.5061812920079853,
+      1.5061812920079853,
+      1.5061812920079853,
+      0.7530906460039927,
+      1.5061812920079853,
+      0.7530906460039927
+    ],
+    "order": [
+      0,
+      2,
+      4,
+      3,
+      5,
+      1
+    ],
+    "tau": 5.710937398863611,
+    "budget": 8.17103350914332,
+    "objective": 5863.222932136826,
+    "min_constraint_slack": -9.381384558082573e-15,
+    "qp_gap_bound": 1.3346271840028094e-13,
+    "lp_orders": [
+      {
+        "order": [
+          0,
+          2,
+          4,
+          3,
+          5,
+          1
+        ],
+        "tau": 5.710937398863592
+      }
+    ],
+    "qp_orders": [
+      {
+        "order": [
+          0,
+          2,
+          4,
+          3,
+          5,
+          1
+        ],
+        "objective": 5863.222932136826,
+        "gap_bound": 1.3346271840028094e-13
+      }
+    ],
+    "global_gap_bound": 0.0,
+    "reference": [
+      -147.60576661678255,
+      -147.60576661678255,
+      -147.60576661678255,
+      -147.60576661678255,
+      -147.60576661678255,
+      -147.60576661678255
+    ],
+    "reference_direction": null,
+    "temporal_confidence": [
+      1.0,
+      1.0,
+      0.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "epsilon": 0.0,
+    "epsilon0": 0.0,
+    "eta": 0.0,
+    "delta": 0.0,
+    "continuous_NMLE": 0.0,
+    "barriers": [
+      -3.1502978801727295,
+      -9.552020072937012,
+      -9.72122859954834,
+      -10.199028015136719,
+      -8.64250659942627
+    ],
+    "nroe": 0.0,
+    "position_cap": 8.17103350914332,
+    "position_error": 0.02767857142857141,
+    "continuous_budget_ok": true,
+    "candidate_count": 7,
+    "feasible_candidate_count": 7,
+    "candidate_records": [
+      {
+        "order": [
+          0,
+          1,
+          2,
+          4,
+          3,
+          5
+        ],
+        "tau": 5.993346391115108,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          0,
+          2,
+          4,
+          3,
+          5,
+          1
+        ],
+        "tau": 5.710937398863611,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          1,
+          2,
+          4,
+          3,
+          5,
+          0
+        ],
+        "tau": 5.710937398863611,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          2,
+          3,
+          5,
+          4,
+          1,
+          0
+        ],
+        "tau": 5.710937398863611,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          2,
+          4,
+          3,
+          5,
+          1,
+          0
+        ],
+        "tau": 5.710937398863611,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          2,
+          4,
+          5,
+          3,
+          1,
+          0
+        ],
+        "tau": 5.710937398863611,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          4,
+          3,
+          5,
+          2,
+          1,
+          0
+        ],
+        "tau": 5.710937398863611,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      }
+    ],
+    "terms": {
+      "reference": 0.0004455902969087477,
+      "geometry": 0.06485532826542995,
+      "temporal": 0.0012794070107313594,
+      "stationary": 0.0012794070107313594,
+      "motion": 0.0012794070107313594,
+      "eccentricity": 9.49040330417929e-07
+    },
+    "order_search": {
+      "order": [
+        0,
+        2,
+        4,
+        3,
+        5,
+        1
+      ],
+      "tau": 5.710937398863611,
+      "delta": 0.0,
+      "source": "width search",
+      "flattened": 0,
+      "nroe": 0.0,
+      "lower": 5.71093739886361,
+      "lower_b": 5.71093739886361,
+      "lower_c": 5.71093739886361,
+      "point_tau": 5.993346391115108,
+      "point_nroe": 0.0
+    },
+    "rendered_position_error": 0.033333333333333305,
+    "pixel_x": [
+      -157.44615105790137,
+      -137.76538217566372,
+      -154.41834046063403,
+      -143.82100337019838,
+      -149.87662456473305,
+      -140.79319277293104
+    ],
+    "NMLEmean": 0.0,
+    "NMLEmax": 0.0,
+    "rendered_merge_error": 0.0,
+    "rendered_budget_ok": true,
+    "ME": 0.035768799402990305,
+    "raster_error": {
+      "anchor_error": 1.6693509319755435,
+      "interval_extent_error": 1.5061812920079853,
+      "integer_rounding": {
+        "repaired": true,
+        "anchors_fixed_to_nearest": false,
+        "optimal_max_rounding_error_pixels": 1.351403061224488,
+        "max_coordinate_rounding_error_pixels": 1.3514030612245023,
+        "total_absolute_rounding_error_pixels": 13.735248959445443,
+        "attempts": [
+          {
+            "anchors_fixed_to_nearest": true,
+            "status": 2,
+            "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is At lower/fixed bound)"
+          },
+          {
+            "anchors_fixed_to_nearest": false,
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ]
+      }
+    },
+    "metric_convention": "NMLE over the full fixed-label matrix including diagonal; ME is normalized RMS",
+    "rendered_ME": 0.04121750009725151
+  },
+  {
+    "x": [
+      -154.87936710610444,
+      -153.0845010664616,
+      -142.5035774901055,
+      -140.33216612746065,
+      -145.23980683725333
+    ],
+    "z": [
+      -155.25591242910644,
+      -152.8962284049606,
+      -142.8801228131075,
+      -139.76734814295764,
+      -145.61635216025533
+    ],
+    "w": [
+      1.5061812920079853,
+      0.7530906460039927,
+      1.5061812920079853,
+      2.259271938011978,
+      1.5061812920079853
+    ],
+    "order": [
+      0,
+      1,
+      4,
+      2,
+      3
+    ],
+    "tau": 4.813504379042186,
+    "budget": 7.273600489321895,
+    "objective": 6720.950504782644,
+    "min_constraint_slack": -1.4099832412739488e-14,
+    "qp_gap_bound": 7.617070522338482e-13,
+    "lp_orders": [
+      {
+        "order": [
+          0,
+          1,
+          4,
+          2,
+          3
+        ],
+        "tau": 4.8135043790422
+      }
+    ],
+    "qp_orders": [
+      {
+        "order": [
+          0,
+          1,
+          4,
+          2,
+          3
+        ],
+        "objective": 6720.950504782644,
+        "gap_bound": 7.617070522338482e-13
+      }
+    ],
+    "global_gap_bound": 9.094947017729282e-13,
+    "reference": [
+      -147.60576661678255,
+      -147.60576661678255,
+      -147.60576661678255,
+      -147.60576661678255,
+      -147.60576661678255
+    ],
+    "reference_direction": null,
+    "temporal_confidence": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "epsilon": 0.0,
+    "epsilon0": 0.0,
+    "eta": 0.0,
+    "delta": 0.0,
+    "continuous_NMLE": 0.0,
+    "barriers": [
+      -2.6019625663757324,
+      -9.203977584838867,
+      -9.344120025634766,
+      -9.688028335571289
+    ],
+    "nroe": 0.0,
+    "position_cap": 7.273600489321895,
+    "position_error": 0.024638605442176865,
+    "continuous_budget_ok": true,
+    "candidate_count": 5,
+    "feasible_candidate_count": 5,
+    "candidate_records": [
+      {
+        "order": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "tau": 5.095913371293682,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          0,
+          1,
+          4,
+          2,
+          3
+        ],
+        "tau": 4.813504379042186,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          0,
+          1,
+          4,
+          3,
+          2
+        ],
+        "tau": 5.095913371293682,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          0,
+          4,
+          2,
+          3,
+          1
+        ],
+        "tau": 5.378322363545181,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          1,
+          4,
+          2,
+          3,
+          0
+        ],
+        "tau": 5.37832236354518,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      }
+    ],
+    "terms": {
+      "reference": 0.00038429707023115376,
+      "geometry": 0.07519778119051193,
+      "temporal": 0.0007686502937398935,
+      "stationary": 0.0007686502937398935,
+      "motion": 0.0007686502937398935,
+      "eccentricity": 1.7896189087880949e-06
+    },
+    "order_search": {
+      "order": [
+        0,
+        1,
+        4,
+        2,
+        3
+      ],
+      "tau": 4.813504379042186,
+      "delta": 0.0,
+      "source": "point order",
+      "flattened": null,
+      "nroe": 0.0,
+      "lower": 4.813504379042175,
+      "lower_b": 4.813504379042175,
+      "lower_c": 4.813504379042175,
+      "point_tau": 4.813504379042186,
+      "point_nroe": 0.0
+    },
+    "rendered_position_error": 0.028205128205128206,
+    "pixel_x": [
+      -155.93224575926772,
+      -152.90443516200037,
+      -142.30709807156472,
+      -139.27928747429738,
+      -146.8488139674657
+    ],
+    "NMLEmean": 0.0,
+    "NMLEmax": 0.0,
+    "rendered_merge_error": 0.0,
+    "rendered_budget_ok": true,
+    "ME": 0.02772454316557612,
+    "raster_error": {
+      "anchor_error": 1.609007130212376,
+      "interval_extent_error": 2.259271938011978,
+      "integer_rounding": {
+        "repaired": true,
+        "anchors_fixed_to_nearest": false,
+        "optimal_max_rounding_error_pixels": 1.0685586734693975,
+        "max_coordinate_rounding_error_pixels": 1.0685586734693828,
+        "total_absolute_rounding_error_pixels": 8.208864795918345,
+        "attempts": [
+          {
+            "anchors_fixed_to_nearest": true,
+            "status": 2,
+            "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is At lower/fixed bound)"
+          },
+          {
+            "anchors_fixed_to_nearest": false,
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ]
+      }
+    },
+    "metric_convention": "NMLE over the full fixed-label matrix including diagonal; ME is normalized RMS",
+    "rendered_ME": 0.030597813108053894
+  },
+  {
+    "x": [
+      -155.77680012592586,
+      -153.98193408628302,
+      -141.41787180878308,
+      -146.13723985707477,
+      -139.43473310763923,
+      -143.96582849442993
+    ],
+    "z": [
+      -156.15334544892787,
+      -153.79366142478202,
+      -141.79441713178508,
+      -146.51378518007675,
+      -139.05818778463723,
+      -144.15410115593093
+    ],
+    "w": [
+      1.5061812920079853,
+      0.7530906460039927,
+      1.5061812920079853,
+      1.5061812920079853,
+      1.5061812920079853,
+      0.7530906460039927
+    ],
+    "order": [
+      0,
+      1,
+      3,
+      5,
+      2,
+      4
+    ],
+    "tau": 5.710937398863611,
+    "budget": 8.17103350914332,
+    "objective": 6752.688689078263,
+    "min_constraint_slack": -2.220446049250313e-14,
+    "qp_gap_bound": 1.0045388984950944e-12,
+    "lp_orders": [
+      {
+        "order": [
+          0,
+          1,
+          3,
+          5,
+          2,
+          4
+        ],
+        "tau": 5.710937398863592
+      }
+    ],
+    "qp_orders": [
+      {
+        "order": [
+          0,
+          1,
+          3,
+          5,
+          2,
+          4
+        ],
+        "objective": 6752.688689078263,
+        "gap_bound": 1.0045388984950944e-12
+      }
+    ],
+    "global_gap_bound": 9.094947017729282e-13,
+    "reference": [
+      -147.60576661678255,
+      -147.60576661678255,
+      -147.60576661678255,
+      -147.60576661678255,
+      -147.60576661678255,
+      -147.60576661678255
+    ],
+    "reference_direction": null,
+    "temporal_confidence": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      0.0
+    ],
+    "epsilon": 0.0,
+    "epsilon0": 0.0,
+    "eta": 0.0,
+    "delta": 0.0,
+    "continuous_NMLE": 0.0,
+    "barriers": [
+      -2.1125025749206543,
+      -8.645991325378418,
+      -9.519256591796875,
+      -9.925836563110352,
+      -10.557226181030273
+    ],
+    "nroe": 0.0,
+    "position_cap": 8.17103350914332,
+    "position_error": 0.02767857142857141,
+    "continuous_budget_ok": true,
+    "candidate_count": 6,
+    "feasible_candidate_count": 6,
+    "candidate_records": [
+      {
+        "order": [
+          0,
+          1,
+          3,
+          2,
+          4,
+          5
+        ],
+        "tau": 5.993346391115108,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          0,
+          1,
+          3,
+          5,
+          2,
+          4
+        ],
+        "tau": 5.710937398863611,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          0,
+          1,
+          3,
+          5,
+          4,
+          2
+        ],
+        "tau": 5.710937398863611,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          0,
+          1,
+          5,
+          2,
+          4,
+          3
+        ],
+        "tau": 5.710937398863611,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          0,
+          3,
+          5,
+          2,
+          4,
+          1
+        ],
+        "tau": 5.993346391115108,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          1,
+          3,
+          5,
+          2,
+          4,
+          0
+        ],
+        "tau": 5.993346391115108,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      }
+    ],
+    "terms": {
+      "reference": 0.00043580655051136046,
+      "geometry": 0.0757352556891967,
+      "temporal": 1.0098241039613178e-05,
+      "stationary": 1.0098241039613178e-05,
+      "motion": 1.0098241039613178e-05,
+      "eccentricity": 1.2201947105372964e-06
+    },
+    "order_search": {
+      "order": [
+        0,
+        1,
+        3,
+        5,
+        2,
+        4
+      ],
+      "tau": 5.710937398863611,
+      "delta": 0.0,
+      "source": "point order",
+      "flattened": null,
+      "nroe": 0.0,
+      "lower": 5.71093739886361,
+      "lower_b": 5.71093739886361,
+      "lower_c": 5.71093739886361,
+      "point_tau": 5.710937398863611,
+      "point_nroe": 0.0
+    },
+    "rendered_position_error": 0.033333333333333305,
+    "pixel_x": [
+      -157.44615105790137,
+      -154.41834046063403,
+      -140.79319277293104,
+      -146.8488139674657,
+      -137.76538217566372,
+      -143.82100337019838
+    ],
+    "NMLEmean": 0.0,
+    "NMLEmax": 0.0,
+    "rendered_merge_error": 0.0,
+    "rendered_budget_ok": true,
+    "ME": 0.0031777729685446656,
+    "raster_error": {
+      "anchor_error": 1.6693509319755435,
+      "interval_extent_error": 1.5061812920079853,
+      "integer_rounding": {
+        "repaired": true,
+        "anchors_fixed_to_nearest": false,
+        "optimal_max_rounding_error_pixels": 1.3514030612245165,
+        "max_coordinate_rounding_error_pixels": 1.3514030612245023,
+        "total_absolute_rounding_error_pixels": 10.975765306122483,
+        "attempts": [
+          {
+            "anchors_fixed_to_nearest": true,
+            "status": 2,
+            "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is At lower/fixed bound)"
+          },
+          {
+            "anchors_fixed_to_nearest": false,
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ]
+      }
+    },
+    "metric_convention": "NMLE over the full fixed-label matrix including diagonal; ME is normalized RMS",
+    "rendered_ME": 0.004586806107691874
+  },
+  {
+    "x": [
+      -155.58852746442486,
+      -153.79366142478202,
+      -139.62300576914024,
+      -146.51378518007678,
+      -141.79441713178508,
+      -143.96582849442993
+    ],
+    "z": [
+      -155.96507278742686,
+      -153.605388763281,
+      -138.86991512313625,
+      -146.70205784157775,
+      -141.98268979328608,
+      -144.34237381743193
+    ],
+    "w": [
+      1.5061812920079853,
+      0.7530906460039927,
+      3.0123625840159707,
+      0.7530906460039927,
+      0.7530906460039927,
+      1.5061812920079853
+    ],
+    "order": [
+      0,
+      1,
+      3,
+      5,
+      4,
+      2
+    ],
+    "tau": 5.522664737362613,
+    "budget": 7.982760847642322,
+    "objective": 7240.581317375665,
+    "min_constraint_slack": -2.220446049250313e-14,
+    "qp_gap_bound": 0.0,
+    "lp_orders": [
+      {
+        "order": [
+          0,
+          1,
+          3,
+          5,
+          4,
+          2
+        ],
+        "tau": 5.522664737362618
+      }
+    ],
+    "qp_orders": [
+      {
+        "order": [
+          0,
+          1,
+          3,
+          5,
+          4,
+          2
+        ],
+        "objective": 7240.581317375665,
+        "gap_bound": 0.0
+      }
+    ],
+    "global_gap_bound": 0.0,
+    "reference": [
+      -147.60576661678255,
+      -147.60576661678255,
+      -147.60576661678255,
+      -147.60576661678255,
+      -147.60576661678255,
+      -147.60576661678255
+    ],
+    "reference_direction": null,
+    "temporal_confidence": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "epsilon": 0.0,
+    "epsilon0": 0.0,
+    "eta": 0.0,
+    "delta": 0.0,
+    "continuous_NMLE": 0.0,
+    "barriers": [
+      -1.6866244077682495,
+      -8.865635871887207,
+      -8.971078872680664,
+      -10.207101821899414,
+      -11.146754264831543
+    ],
+    "nroe": 0.0,
+    "position_cap": 7.982760847642322,
+    "position_error": 0.027040816326530576,
+    "continuous_budget_ok": true,
+    "candidate_count": 13,
+    "feasible_candidate_count": 13,
+    "candidate_records": [
+      {
+        "order": [
+          0,
+          1,
+          3,
+          2,
+          4,
+          5
+        ],
+        "tau": 6.087482721865607,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          0,
+          1,
+          3,
+          4,
+          2,
+          5
+        ],
+        "tau": 6.087482721865607,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          0,
+          1,
+          3,
+          5,
+          2,
+          4
+        ],
+        "tau": 6.369891714117104,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          0,
+          1,
+          3,
+          5,
+          4,
+          2
+        ],
+        "tau": 5.522664737362613,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          0,
+          1,
+          4,
+          2,
+          5,
+          3
+        ],
+        "tau": 6.369891714117105,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          0,
+          1,
+          5,
+          2,
+          4,
+          3
+        ],
+        "tau": 6.369891714117105,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          0,
+          1,
+          5,
+          4,
+          2,
+          3
+        ],
+        "tau": 6.369891714117104,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          0,
+          3,
+          4,
+          2,
+          5,
+          1
+        ],
+        "tau": 6.369891714117105,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          0,
+          3,
+          5,
+          2,
+          4,
+          1
+        ],
+        "tau": 6.369891714117105,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          0,
+          3,
+          5,
+          4,
+          2,
+          1
+        ],
+        "tau": 6.369891714117104,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          1,
+          3,
+          4,
+          2,
+          5,
+          0
+        ],
+        "tau": 6.369891714117104,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          1,
+          3,
+          5,
+          2,
+          4,
+          0
+        ],
+        "tau": 6.369891714117104,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          1,
+          3,
+          5,
+          4,
+          2,
+          0
+        ],
+        "tau": 6.369891714117104,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      }
+    ],
+    "terms": {
+      "reference": 0.0004091656326646293,
+      "geometry": 0.08143651803936108,
+      "temporal": 1.721619415906954e-05,
+      "stationary": 1.721619415906954e-05,
+      "motion": 1.721619415906954e-05,
+      "eccentricity": 1.8302920658059038e-06
+    },
+    "order_search": {
+      "order": [
+        0,
+        1,
+        3,
+        5,
+        4,
+        2
+      ],
+      "tau": 5.522664737362613,
+      "delta": 0.0,
+      "source": "width search",
+      "flattened": 0,
+      "nroe": 0.0,
+      "lower": 5.522664737362607,
+      "lower_b": 5.522664737362607,
+      "lower_c": 5.522664737362607,
+      "point_tau": 6.369891714117104,
+      "point_nroe": 0.0
+    },
+    "rendered_position_error": 0.033333333333333305,
+    "pixel_x": [
+      -157.44615105790137,
+      -152.90443516200037,
+      -139.27928747429738,
+      -148.3627192660994,
+      -142.30709807156472,
+      -145.33490866883204
+    ],
+    "NMLEmean": 0.0,
+    "NMLEmax": 0.0,
+    "rendered_merge_error": 0.0,
+    "rendered_budget_ok": true,
+    "ME": 0.004149240190573395,
+    "raster_error": {
+      "anchor_error": 1.857623593476518,
+      "interval_extent_error": 3.0123625840159707,
+      "integer_rounding": {
+        "repaired": true,
+        "anchors_fixed_to_nearest": false,
+        "optimal_max_rounding_error_pixels": 1.3456632653061007,
+        "max_coordinate_rounding_error_pixels": 1.345663265306115,
+        "total_absolute_rounding_error_pixels": 12.380739795918274,
+        "attempts": [
+          {
+            "anchors_fixed_to_nearest": true,
+            "status": 2,
+            "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is At lower/fixed bound)"
+          },
+          {
+            "anchors_fixed_to_nearest": false,
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ]
+      }
+    },
+    "metric_convention": "NMLE over the full fixed-label matrix including diagonal; ME is normalized RMS",
+    "rendered_ME": 0.007548513560963976
+  },
+  {
+    "x": [
+      -156.3918241534958,
+      -152.61381941270912,
+      -146.51165005203035,
+      -142.59771382085597,
+      -154.59695811385296,
+      -140.61457511971213,
+      -138.8197090800693
+    ],
+    "z": [
+      -156.7683694764978,
+      -152.42554675120812,
+      -146.51165005203035,
+      -142.78598648235698,
+      -154.40868545235196,
+      -140.80284778121313,
+      -138.44316375706728
+    ],
+    "w": [
+      1.5061812920079853,
+      0.7530906460039927,
+      1.5061812920079853,
+      0.7530906460039927,
+      0.7530906460039927,
+      0.7530906460039927,
+      1.5061812920079853
+    ],
+    "order": [
+      0,
+      4,
+      1,
+      2,
+      3,
+      5,
+      6
+    ],
+    "tau": 6.325961426433538,
+    "budget": 8.786057536713248,
+    "objective": 6865.705240752066,
+    "min_constraint_slack": -9.381384558082573e-15,
+    "qp_gap_bound": 0.0,
+    "lp_orders": [
+      {
+        "order": [
+          0,
+          4,
+          1,
+          2,
+          3,
+          5,
+          6
+        ],
+        "tau": 6.325961426433537
+      }
+    ],
+    "qp_orders": [
+      {
+        "order": [
+          0,
+          4,
+          1,
+          2,
+          3,
+          5,
+          6
+        ],
+        "objective": 6865.705240752066,
+        "gap_bound": 0.0
+      }
+    ],
+    "global_gap_bound": 0.0,
+    "reference": [
+      -147.60576661678255,
+      -147.60576661678255,
+      -147.60576661678255,
+      -147.60576661678255,
+      -147.60576661678255,
+      -147.60576661678255,
+      -147.60576661678255
+    ],
+    "reference_direction": null,
+    "temporal_confidence": [
+      1.0,
+      1.0,
+      1.0,
+      0.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "epsilon": 0.0,
+    "epsilon0": 0.0,
+    "eta": 0.0,
+    "delta": 0.0,
+    "continuous_NMLE": 0.0,
+    "barriers": [
+      -1.3247617483139038,
+      -9.693669319152832,
+      -9.974417686462402,
+      -11.555960655212402,
+      -10.944954872131348,
+      -11.107948303222656
+    ],
+    "nroe": 0.0,
+    "position_cap": 8.786057536713248,
+    "position_error": 0.029761904761904802,
+    "continuous_budget_ok": true,
+    "candidate_count": 12,
+    "feasible_candidate_count": 12,
+    "candidate_records": [
+      {
+        "order": [
+          0,
+          1,
+          2,
+          3,
+          5,
+          6,
+          4
+        ],
+        "tau": 6.608370418685036,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          0,
+          1,
+          3,
+          2,
+          5,
+          6,
+          4
+        ],
+        "tau": 6.608370418685036,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          0,
+          4,
+          1,
+          2,
+          3,
+          5,
+          6
+        ],
+        "tau": 6.325961426433538,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          0,
+          4,
+          1,
+          2,
+          3,
+          6,
+          5
+        ],
+        "tau": 6.608370418685036,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          0,
+          4,
+          1,
+          3,
+          2,
+          5,
+          6
+        ],
+        "tau": 6.325961426433538,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          0,
+          4,
+          1,
+          3,
+          2,
+          6,
+          5
+        ],
+        "tau": 6.608370418685036,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          0,
+          4,
+          1,
+          5,
+          6,
+          2,
+          3
+        ],
+        "tau": 6.608370418685036,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          0,
+          4,
+          1,
+          5,
+          6,
+          3,
+          2
+        ],
+        "tau": 6.325961426433538,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          0,
+          4,
+          2,
+          3,
+          5,
+          6,
+          1
+        ],
+        "tau": 6.608370418685036,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          0,
+          4,
+          3,
+          2,
+          5,
+          6,
+          1
+        ],
+        "tau": 6.608370418685036,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          4,
+          1,
+          2,
+          3,
+          5,
+          6,
+          0
+        ],
+        "tau": 6.608370418685035,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          4,
+          1,
+          3,
+          2,
+          5,
+          6,
+          0
+        ],
+        "tau": 6.608370418685035,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      }
+    ],
+    "terms": {
+      "reference": 0.0004975033726301002,
+      "geometry": 0.07665392335138543,
+      "temporal": 0.00027290731756005656,
+      "stationary": 0.00027290731756005656,
+      "motion": 0.00027290731756005656,
+      "eccentricity": 6.9725412030705e-07
+    },
+    "order_search": {
+      "order": [
+        0,
+        4,
+        1,
+        2,
+        3,
+        5,
+        6
+      ],
+      "tau": 6.325961426433538,
+      "delta": 0.0,
+      "source": "point order",
+      "flattened": null,
+      "nroe": 0.0,
+      "lower": 6.325961426433526,
+      "lower_b": 6.325961426433526,
+      "lower_c": 6.325961426433526,
+      "point_tau": 6.325961426433538,
+      "point_nroe": 0.0
+    },
+    "rendered_position_error": 0.033333333333333305,
+    "pixel_x": [
+      -157.44615105790137,
+      -151.3905298633667,
+      -146.8488139674657,
+      -143.82100337019838,
+      -154.41834046063403,
+      -140.79319277293104,
+      -137.76538217566372
+    ],
+    "NMLEmean": 0.0,
+    "NMLEmax": 0.0,
+    "rendered_merge_error": 0.0,
+    "rendered_budget_ok": true,
+    "ME": 0.016519906705549415,
+    "raster_error": {
+      "anchor_error": 1.223289549342411,
+      "interval_extent_error": 1.5061812920079853,
+      "integer_rounding": {
+        "repaired": true,
+        "anchors_fixed_to_nearest": false,
+        "optimal_max_rounding_error_pixels": 0.9451530612244738,
+        "max_coordinate_rounding_error_pixels": 0.9451530612244881,
+        "total_absolute_rounding_error_pixels": 10.181895038400711,
+        "attempts": [
+          {
+            "anchors_fixed_to_nearest": true,
+            "status": 2,
+            "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is At lower/fixed bound)"
+          },
+          {
+            "anchors_fixed_to_nearest": false,
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ]
+      }
+    },
+    "metric_convention": "NMLE over the full fixed-label matrix including diagonal; ME is normalized RMS",
+    "rendered_ME": 0.017264111005747106
+  },
+  {
+    "x": [
+      -154.50282178310243,
+      -152.5196830819586,
+      -144.67498885275035,
+      -142.6918501516065,
+      -140.70871145046266
+    ],
+    "z": [
+      -154.87936710610444,
+      -152.14313775895658,
+      -144.86326151425135,
+      -142.8801228131075,
+      -140.14389346595965
+    ],
+    "w": [
+      1.5061812920079853,
+      1.5061812920079853,
+      0.7530906460039927,
+      0.7530906460039927,
+      2.259271938011978
+    ],
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "tau": 4.43695905604019,
+    "budget": 6.897055166319899,
+    "objective": 6605.546843769695,
+    "min_constraint_slack": -1.4099832412739488e-14,
+    "qp_gap_bound": 1.0162600766752794e-12,
+    "lp_orders": [
+      {
+        "order": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "tau": 4.436959056040195
+      }
+    ],
+    "qp_orders": [
+      {
+        "order": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "objective": 6605.546843769695,
+        "gap_bound": 1.0162600766752794e-12
+      }
+    ],
+    "global_gap_bound": 9.094947017729282e-13,
+    "reference": [
+      -147.60576661678255,
+      -147.60576661678255,
+      -147.60576661678255,
+      -147.60576661678255,
+      -147.60576661678255
+    ],
+    "reference_direction": null,
+    "temporal_confidence": [
+      1.0,
+      1.0,
+      1.0,
+      0.0,
+      1.0
+    ],
+    "epsilon": 0.0,
+    "epsilon0": 0.0,
+    "eta": 0.0,
+    "delta": 0.0,
+    "continuous_NMLE": 0.0,
+    "barriers": [
+      -1.0240567922592163,
+      -11.411941528320312,
+      -11.063139915466309,
+      -11.080317497253418
+    ],
+    "nroe": 0.0,
+    "position_cap": 6.897055166319899,
+    "position_error": 0.0233630952380952,
+    "continuous_budget_ok": true,
+    "candidate_count": 5,
+    "feasible_candidate_count": 5,
+    "candidate_records": [
+      {
+        "order": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "tau": 4.43695905604019,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          0,
+          1,
+          2,
+          4,
+          3
+        ],
+        "tau": 5.0017770405431845,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          0,
+          2,
+          1,
+          3,
+          4
+        ],
+        "tau": 4.43695905604019,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          0,
+          3,
+          4,
+          1,
+          2
+        ],
+        "tau": 5.0017770405431845,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          1,
+          2,
+          3,
+          4,
+          0
+        ],
+        "tau": 4.719368048291687,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      }
+    ],
+    "terms": {
+      "reference": 0.0003488734620123549,
+      "geometry": 0.07433142821699101,
+      "temporal": 0.00013639780421290082,
+      "stationary": 0.00013639780421290082,
+      "motion": 0.00013639780421290082,
+      "eccentricity": 1.5455799666806272e-06
+    },
+    "order_search": {
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "tau": 4.43695905604019,
+      "delta": 0.0,
+      "source": "point order",
+      "flattened": null,
+      "nroe": 0.0,
+      "lower": 4.436959056040184,
+      "lower_b": 4.436959056040184,
+      "lower_c": 4.436959056040184,
+      "point_tau": 4.43695905604019,
+      "point_nroe": 0.0
+    },
+    "rendered_position_error": 0.028205128205128206,
+    "pixel_x": [
+      -155.93224575926772,
+      -152.90443516200037,
+      -145.33490866883204,
+      -142.30709807156472,
+      -139.27928747429738
+    ],
+    "NMLEmean": 0.0,
+    "NMLEmax": 0.0,
+    "rendered_merge_error": 0.0,
+    "rendered_budget_ok": true,
+    "ME": 0.011678947050693432,
+    "raster_error": {
+      "anchor_error": 1.4294239761652818,
+      "interval_extent_error": 2.259271938011978,
+      "integer_rounding": {
+        "repaired": true,
+        "anchors_fixed_to_nearest": false,
+        "optimal_max_rounding_error_pixels": 1.3172831632653157,
+        "max_coordinate_rounding_error_pixels": 1.3172831632653157,
+        "total_absolute_rounding_error_pixels": 10.101721938775512,
+        "attempts": [
+          {
+            "anchors_fixed_to_nearest": true,
+            "status": 2,
+            "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is At lower/fixed bound)"
+          },
+          {
+            "anchors_fixed_to_nearest": false,
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ]
+      }
+    },
+    "metric_convention": "NMLE over the full fixed-label matrix including diagonal; ME is normalized RMS",
+    "rendered_ME": 0.011176663957796585
+  },
+  {
+    "x": [
+      -140.0936874228927,
+      -155.11784581067238,
+      -153.13470710952853,
+      -151.1515684083847,
+      -143.8716921636794,
+      -141.88855346253555
+    ],
+    "z": [
+      -139.7171420998907,
+      -155.6826637951754,
+      -152.94643444802753,
+      -150.9632957468837,
+      -144.0599648251804,
+      -142.07682612403656
+    ],
+    "w": [
+      1.5061812920079853,
+      2.259271938011978,
+      0.7530906460039927,
+      0.7530906460039927,
+      0.7530906460039927,
+      0.7530906460039927
+    ],
+    "order": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      0
+    ],
+    "tau": 5.051983083610117,
+    "budget": 7.512079193889826,
+    "objective": 6874.861579021781,
+    "min_constraint_slack": -1.4099832412739488e-14,
+    "qp_gap_bound": 7.363337955681809e-13,
+    "lp_orders": [
+      {
+        "order": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          0
+        ],
+        "tau": 5.051983083610111
+      }
+    ],
+    "qp_orders": [
+      {
+        "order": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          0
+        ],
+        "objective": 6874.861579021781,
+        "gap_bound": 7.363337955681809e-13
+      }
+    ],
+    "global_gap_bound": 9.094947017729282e-13,
+    "reference": [
+      -147.60576661678255,
+      -147.60576661678255,
+      -147.60576661678255,
+      -147.60576661678255,
+      -147.60576661678255,
+      -147.60576661678255
+    ],
+    "reference_direction": null,
+    "temporal_confidence": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      0.0
+    ],
+    "epsilon": 0.0,
+    "epsilon0": 0.0,
+    "eta": 0.0,
+    "delta": 0.0,
+    "continuous_NMLE": 0.0,
+    "barriers": [
+      -11.056306838989258,
+      -11.910547256469727,
+      -11.16975212097168,
+      -12.353561401367188,
+      -0.779366135597229
+    ],
+    "nroe": 0.0,
+    "position_cap": 7.512079193889826,
+    "position_error": 0.025446428571428592,
+    "continuous_budget_ok": true,
+    "candidate_count": 6,
+    "feasible_candidate_count": 6,
+    "candidate_records": [
+      {
+        "order": [
+          0,
+          1,
+          4,
+          5,
+          2,
+          3
+        ],
+        "tau": 5.616801068113112,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          0
+        ],
+        "tau": 5.051983083610117,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          1,
+          4,
+          5,
+          2,
+          3,
+          0
+        ],
+        "tau": 5.051983083610117,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          1,
+          4,
+          5,
+          3,
+          2,
+          0
+        ],
+        "tau": 5.051983083610117,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          1,
+          5,
+          4,
+          2,
+          3,
+          0
+        ],
+        "tau": 5.051983083610117,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          4,
+          5,
+          2,
+          3,
+          1,
+          0
+        ],
+        "tau": 5.616801068113111,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      }
+    ],
+    "terms": {
+      "reference": 0.00038752103555424563,
+      "geometry": 0.07691362422842292,
+      "temporal": 0.0008434018377759266,
+      "stationary": 0.0008434018377759266,
+      "motion": 0.0008434018377759266,
+      "eccentricity": 1.1524061155074852e-06
+    },
+    "order_search": {
+      "order": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        0
+      ],
+      "tau": 5.051983083610117,
+      "delta": 0.0,
+      "source": "width search",
+      "flattened": 0,
+      "nroe": 0.0,
+      "lower": 5.0519830836101,
+      "lower_b": 5.0519830836101,
+      "lower_c": 5.0519830836101,
+      "point_tau": 5.616801068113112,
+      "point_nroe": 0.0
+    },
+    "rendered_position_error": 0.028205128205128206,
+    "pixel_x": [
+      -139.27928747429738,
+      -155.93224575926772,
+      -152.90443516200037,
+      -149.87662456473305,
+      -145.33490866883204,
+      -142.30709807156472
+    ],
+    "NMLEmean": 0.0,
+    "NMLEmax": 0.0,
+    "rendered_merge_error": 0.0,
+    "rendered_budget_ok": true,
+    "ME": 0.029041381471547226,
+    "raster_error": {
+      "anchor_error": 1.4632165051526442,
+      "interval_extent_error": 1.5061812920079853,
+      "integer_rounding": {
+        "repaired": true,
+        "anchors_fixed_to_nearest": false,
+        "optimal_max_rounding_error_pixels": 1.090880102040785,
+        "max_coordinate_rounding_error_pixels": 1.0908801020408134,
+        "total_absolute_rounding_error_pixels": 9.752551020408177,
+        "attempts": [
+          {
+            "anchors_fixed_to_nearest": true,
+            "status": 2,
+            "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is At lower/fixed bound)"
+          },
+          {
+            "anchors_fixed_to_nearest": false,
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ]
+      }
+    },
+    "metric_convention": "NMLE over the full fixed-label matrix including diagonal; ME is normalized RMS",
+    "rendered_ME": 0.031695460800743466
+  },
+  {
+    "x": [
+      -154.78523077535394,
+      -140.42630245821115,
+      -152.8020920742101,
+      -145.8061386433962,
+      -142.221168497854
+    ],
+    "z": [
+      -155.16177609835594,
+      -140.04975713520915,
+      -152.4255467512081,
+      -145.80613864339628,
+      -142.409441159355
+    ],
+    "w": [
+      1.5061812920079853,
+      1.5061812920079853,
+      1.5061812920079853,
+      1.5061812920079853,
+      0.7530906460039927
+    ],
+    "order": [
+      0,
+      2,
+      3,
+      4,
+      1
+    ],
+    "tau": 4.719368048291687,
+    "budget": 7.179464158571396,
+    "objective": 8750.89651887698,
+    "min_constraint_slack": -9.381384558082573e-15,
+    "qp_gap_bound": 1.9614818392182452e-11,
+    "lp_orders": [
+      {
+        "order": [
+          0,
+          2,
+          3,
+          4,
+          1
+        ],
+        "tau": 4.7193680482916704
+      }
+    ],
+    "qp_orders": [
+      {
+        "order": [
+          0,
+          2,
+          3,
+          4,
+          1
+        ],
+        "objective": 8750.89651887698,
+        "gap_bound": 1.9614818392182452e-11
+      }
+    ],
+    "global_gap_bound": 2.000888343900442e-11,
+    "reference": [
+      -147.60576661678255,
+      -147.60576661678255,
+      -147.60576661678255,
+      -147.60576661678255,
+      -147.60576661678255
+    ],
+    "reference_direction": null,
+    "temporal_confidence": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "epsilon": 0.0,
+    "epsilon0": 0.0,
+    "eta": 0.0,
+    "delta": 0.0,
+    "continuous_NMLE": 0.0,
+    "barriers": [
+      -0.5841847062110901,
+      -12.07372760772705,
+      -12.385869979858398,
+      -10.537113189697266
+    ],
+    "nroe": 0.0,
+    "position_cap": 7.179464158571396,
+    "position_error": 0.02431972789115645,
+    "continuous_budget_ok": true,
+    "candidate_count": 6,
+    "feasible_candidate_count": 6,
+    "candidate_records": [
+      {
+        "order": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "tau": 5.0017770405431845,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          0,
+          2,
+          3,
+          4,
+          1
+        ],
+        "tau": 4.719368048291687,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          1,
+          2,
+          3,
+          4,
+          0
+        ],
+        "tau": 4.719368048291687,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          2,
+          3,
+          4,
+          1,
+          0
+        ],
+        "tau": 4.719368048291687,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          2,
+          4,
+          3,
+          1,
+          0
+        ],
+        "tau": 4.719368048291687,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      },
+      {
+        "order": [
+          3,
+          4,
+          2,
+          1,
+          0
+        ],
+        "tau": 4.719368048291687,
+        "delta": 0.0,
+        "nroe": 0.0,
+        "feasible": true
+      }
+    ],
+    "terms": {
+      "reference": 0.0003725164608221692,
+      "geometry": 0.09841901470757,
+      "temporal": 0.0010057615468497044,
+      "stationary": 0.0010057615468497044,
+      "motion": 0.0010057615468497044,
+      "eccentricity": 1.0575020824656923e-06
+    },
+    "order_search": {
+      "order": [
+        0,
+        2,
+        3,
+        4,
+        1
+      ],
+      "tau": 4.719368048291687,
+      "delta": 0.0,
+      "source": "width search",
+      "flattened": 0,
+      "nroe": 0.0,
+      "lower": 4.719368048291688,
+      "lower_b": 4.719368048291688,
+      "lower_c": 4.719368048291688,
+      "point_tau": 5.0017770405431845,
+      "point_nroe": 0.0
+    },
+    "rendered_position_error": 0.028205128205128206,
+    "pixel_x": [
+      -155.93224575926772,
+      -139.27928747429738,
+      -152.90443516200037,
+      -145.33490866883204,
+      -142.30709807156472
+    ],
+    "NMLEmean": 0.0,
+    "NMLEmax": 0.0,
+    "rendered_merge_error": 0.0,
+    "rendered_budget_ok": true,
+    "ME": 0.03171374381635988,
+    "raster_error": {
+      "anchor_error": 1.1470149839137775,
+      "interval_extent_error": 1.5061812920079853,
+      "integer_rounding": {
+        "repaired": true,
+        "anchors_fixed_to_nearest": false,
+        "optimal_max_rounding_error_pixels": 1.0063775510204067,
+        "max_coordinate_rounding_error_pixels": 1.0063775510204067,
+        "total_absolute_rounding_error_pixels": 5.228910769545806,
+        "attempts": [
+          {
+            "anchors_fixed_to_nearest": true,
+            "status": 2,
+            "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is At lower/fixed bound)"
+          },
+          {
+            "anchors_fixed_to_nearest": false,
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ]
+      }
+    },
+    "metric_convention": "NMLE over the full fixed-label matrix including diagonal; ME is normalized RMS",
+    "rendered_ME": 0.035970621367692676
+  }
+]

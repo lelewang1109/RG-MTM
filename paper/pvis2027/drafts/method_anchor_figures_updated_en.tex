@@ -412,7 +412,7 @@ Hilbert and Morton provide sample-domain baselines~\cite{Franke:2021:1DP}. Their
 \begin{figure}[!t]
 \centering
 \includegraphics[width=\columnwidth]{../figures/anchor_ring_result.pdf}
-\caption{Ring comparison. Left: AnchorMTM with (a) 0\% topology allowance and neutral central targets, and (b) 20\% allowance with spatial guidance. Right: (c) Hilbert and (d) Morton from the supplied reference image. Below: source snapshots at frames 0, 20 and 39. The scalar key applies to AnchorMTM and the snapshots. Vertical coordinates denote normalized layout position or curve rank, respectively.}
+\caption{Ring comparison. Left: AnchorMTM at 0, 2, 5, 10 and 20\% topology allowances. Guidance increases jointly with allowance, from neutral central targets to full spatial guidance. Right: supplied Hilbert/Morton reference panels and same-input local TMTM/ST-MTM results. Below: source snapshots at frames 0, 10, 20, 30 and 39. All computed maps use 40 frames and 196 positions; the scalar key applies to computed maps and snapshots. Vertical coordinates denote normalized layout position or curve rank.}
 \label{fig:ring-result}
 \end{figure}
 
@@ -451,7 +451,7 @@ These Exact--Balanced comparisons measure the effect of the selected allowances,
 
 \subsection{Ring Case Study: Temporal Overview and Source Snapshots}
 
-Figure~\ref{fig:ring-result} compares centered topology-oriented and spatially guided Ring configurations over all 40 frames at 196 raster positions. Panel (a) uses neutral midpoint targets, spatial guidance off and $\varepsilon=0$; panel (b) uses projected targets, guidance on and $\varepsilon=20\%$. Both guidance and allowance change, so this is not an epsilon-only ablation. The guided result lies higher along the prescribed $-128.7^\circ$ direction, with one fixed origin and extent. Both outputs pass continuous and rendered checks; the guided result attains NPE 0.82\% and NMLE$_{max}$ 7.33\%. The supplied Hilbert/Morton panels illustrate curve-based linearization; their vertical ranks differ from physical projections. Source snapshots show ring expansion and strengthening. These qualitative configurations do not replace the main-table Balanced 1\% setting or measured curve baselines.
+Figure~\ref{fig:ring-result} shows a joint guidance--topology sweep on Ring: $\varepsilon=0,2,5,10,20\%$ and guidance strength $\alpha=\varepsilon/20\%$. Layout targets interpolate between the canvas midpoint and the fixed $-128.7^\circ$ physical projection: $q_{layout}=(1-\alpha)q_{mid}+\alpha q_{physical}$. Thus stronger guidance moves the reconstructed ring upward through actual optimization, with no image translation. This qualitative sweep changes both guidance and topology allowance; it is not an epsilon-only ablation and does not replace the frozen main-table settings. TMTM/ST-MTM maps use the same fields and trees; Hilbert/Morton remain supplied references. Five source snapshots show expansion and strengthening.
 
 \subsection{Storms Case Study: Reading Budgeted Maps}
 

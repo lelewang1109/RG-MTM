@@ -1,0 +1,28 @@
+{
+  "ours_epsilons": [
+    0,
+    0.02,
+    0.05,
+    0.1,
+    0.2
+  ],
+  "zero_configuration": "guidance off, neutral central targets; exact topology",
+  "positive_configuration": "fixed physical reference direction -128.7356 degrees; guidance on",
+  "right_panels": [
+    "supplied Hilbert",
+    "supplied Morton",
+    "same-input local TMTM",
+    "same-input local ST-MTM"
+  ],
+  "same_field_hash": "b623e4c731873d615c686f62d1963c9394c13b32f1304a60f93236b0e8a69130",
+  "frames": 40,
+  "raster_length": 196,
+  "snapshots": [
+    0,
+    20,
+    39
+  ],
+  "font": "Times New Roman 9pt",
+  "main_tables_unchanged": true,
+  "color_key_scope": "computed maps and snapshots; supplied curve screenshots retain original colors"
+}

@@ -1,0 +1,17 @@
+{
+  "success": true,
+  "SNS": 0.163506493317432,
+  "TW": 0.6428571428571428,
+  "TD": 1.4153846153846155,
+  "NPE": 0.008199476112744035,
+  "SNS_valid_frames": 32,
+  "TW_valid_frames": 1,
+  "TW_k": 3,
+  "frames": 40,
+  "matched_steps": 143,
+  "topology_mean": 0.0068979220812133025,
+  "topology_max": 0.07332038556737866,
+  "continuous_budget_violations": 0,
+  "rendered_budget_violations": 0,
+  "collapsed_anchor_frames": 0
+}
