@@ -2,9 +2,10 @@
 
 Spatially anchored merge-tree maps for time-varying scalar fields, with topology budgets and certified position bounds.
 
-## Current paper — November 7, 2026
+## Current paper — November 8, 2026
 
 - [Latest paper (PDF)](paper/pvis2027/最新论文与三张PPT/AnchorMTM_最新论文.pdf) · [LaTeX source](paper/pvis2027/drafts/method_anchor_figures_updated_en.tex)
+- [Current eight-figure index](paper/pvis2027/figures/FIGURE_INDEX.md) · [Paper and PowerPoint materials](paper/pvis2027/最新论文与配图PPT_20261107/)
 - [Hourly PM2.5 case: figure, PowerPoint, plotting cache and checks](paper/pvis2027/pm25_hourly_20261107/README.md)
 - [Formal four-input evaluation and provenance](paper/pvis2027/experiments_ratio_p_20261104/REPORT_zh.md)
 - [Method and baseline code](code/) · [Data documentation](data/) · [Research documentation](docs/)
@@ -26,3 +27,5 @@ PM2.5 metrics are recomputed on all 744 shared-input frames: Balanced (fixed 5% 
 Latest layout revision: the former motion-reference and reference–topology-conflict schematic Figures 3–4 are removed from the manuscript. Subsequent figures are renumbered; the explanatory method text is retained. Historical figure assets remain archived.
 
 Restored the overlap-based leaf-correspondence schematic in the correspondence section, using the archived [original PowerPoint](paper/pvis2027/最新论文与三张PPT/Fig3_跨帧特征对应.pptx). The previously removed direction/conflict figures remain omitted.
+
+Latest synchronized version: the user-designated structure-revised manuscript, 10 pages, with the restored leaf-correspondence schematic and five-stage Cylinder source snapshots (including all vertical box edges). Figure numbering follows the current index rather than historical PowerPoint filenames.
