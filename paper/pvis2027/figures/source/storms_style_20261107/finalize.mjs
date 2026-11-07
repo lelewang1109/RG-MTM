@@ -1,0 +1,5 @@
+import {pathToFileURL} from 'node:url';
+process.env.RUNTIME_NODE_MODULES='/Users/lele/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules';
+const O=import.meta.dirname, S='/Users/lele/.codex/plugins/cache/openai-primary-runtime/presentations/26.1105.12137/skills/presentations';
+const {finalizePresentation}=await import(pathToFileURL(S+'/container_tools/artifact_tool_utils.mjs'));
+await finalizePresentation({workspaceDir:O,candidatePath:O+'/.build/candidate.pptx',finalPath:O+'/delivery/Fig6_Storms_论文风格_可编辑.pptx',pythonExecutable:'/Users/lele/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3',integrityValidatorPath:S+'/container_tools/inspect_presentation_package_integrity.py',layoutValidatorPath:S+'/container_tools/inspect_presentation_layout_geometry.py',layoutArgs:['--expected-slide-size-emu','11049000,5715000','--validate-heading-fit'],explicitTotalSlideCount:1,fontPolicy:{basis:'design',families:['Times New Roman']},verifyArtifactToolImport:true,receiptPath:O+'/.build/paper_style_validation.json'});

@@ -1,0 +1,40 @@
+{
+  "layout": "single column; upper left AnchorMTM pair; upper right Hilbert/Morton; snapshots below; thin individual panel frames; no outer or group frames",
+  "epsilons": [
+    0,
+    0.2
+  ],
+  "guidance_strengths": [
+    0,
+    1
+  ],
+  "zero_mode": "neutral central targets; spatial guidance off; exact topology",
+  "positive_mode": "fixed -128.7356 degree projected targets; spatial guidance on; epsilon .2",
+  "comparison": "paired configurations, not an epsilon-only ablation",
+  "reference_protocol": "/Users/lele/Desktop/MergeTreeMaps/paper/pvis2027/figures/source/readability_20261106/ring_reference_protocol.json",
+  "frames": 40,
+  "raster_length": 196,
+  "snapshots": [
+    0,
+    20,
+    39
+  ],
+  "source_grid": [
+    14,
+    14
+  ],
+  "curves": "canonical complete sample permutations; x=columns,y=rows; pad to16 square then discard out-of-domain; no rotation/reflection/reversal search",
+  "curve_code_sha256": "e4a5af03dd4adeb4cceb01d1799c74932d1f88116391efceceed8a0093d574d9",
+  "source_fields_sha256": "b623e4c731873d615c686f62d1963c9394c13b32f1304a60f93236b0e8a69130",
+  "common_scalar_range": [
+    0,
+    12.69968318939209
+  ],
+  "font": "Times New Roman",
+  "font_size_pt": 9,
+  "interpolation": "bilinear scalar interpolation for temporal display only; snapshot original samples",
+  "curve_y_axis": "normalized traversal rank; AnchorMTM y is normalized layout coordinate; neither inferred as identical physical coordinates",
+  "no_screenshot_data_tracing": true,
+  "baseline_display_source": "supplied_hilbert_morton.png; cropped frame; original method name replaced; no numerical claims from screenshot",
+  "color_scale_scope": "ours and source snapshots share calibrated scalar scale; supplied baseline panels retain original colors"
+}

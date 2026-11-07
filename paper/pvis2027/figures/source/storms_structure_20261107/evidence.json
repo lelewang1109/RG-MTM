@@ -1,0 +1,22 @@
+{
+  "budgets": [
+    0,
+    0.02,
+    0.05,
+    0.1,
+    0.2
+  ],
+  "frame_window": [
+    355,
+    460
+  ],
+  "curve_panel": false,
+  "baseline_protocol": "baseline_protocol.json",
+  "same_input": true,
+  "scalar_scale": [
+    -35,
+    35
+  ],
+  "lower_panels": "actual TMTM/ST-MTM maps from local implementations with disclosed adapters",
+  "module_arrows": "actual layout-stage replacements/additions; not exact algebraic equivalence"
+}

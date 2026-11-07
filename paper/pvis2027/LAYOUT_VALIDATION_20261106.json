@@ -1,22 +1,9 @@
 {
-  "page_count": 10,
-  "figure_pages": {
-    "1": 1,
-    "2": 2,
-    "3": 3,
-    "4": 4,
-    "5": 5,
-    "6": 6,
-    "7": 8,
-    "8": 9
-  },
-  "table_pages": {
-    "1": 7,
-    "2": 7
-  },
-  "body_last_page": 9,
-  "format": "IEEE VGTC conference review; unmodified class",
-  "artwork": "Original composition, canonical PNG/PDF/PPT media overwritten with pure-white background; no redraw or resampling",
-  "body_pages_all_have_figure_or_table": true,
-  "background_validation": "figures/source/open_mechanisms_20261106/BACKGROUND_VALIDATION.json"
+  "source_ppt_sha256": "ba49019dfcfe44794586de3354c772a885a9eee45115165f8fb1420fda597cfc",
+  "source_ppt_unmodified": true,
+  "export": "office PDF export; entire current user-edited slide",
+  "body_pages": 9,
+  "total_pages": 10,
+  "figure_page": 8,
+  "outer_white_margin_only_trimmed": true
 }

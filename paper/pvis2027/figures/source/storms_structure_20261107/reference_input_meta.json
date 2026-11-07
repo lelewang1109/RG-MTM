@@ -1,0 +1,25 @@
+{
+  "field_sha256": "f6e38c6440c99258c542dae1f1317f9cdd9e4d9bf45e4e9882d284c54cb48914",
+  "display": {
+    "cmap": "RdBu_r",
+    "vmin": -35,
+    "vmax": 35
+  },
+  "parameters": {
+    "canvas": 100.65546078704737,
+    "width_scale": 0.007001830501504103,
+    "gap": 0.41939775327936407,
+    "rho": 0.5,
+    "extra_budget": 0.8387955065587281,
+    "motion_weight": 0.5,
+    "eccentricity_weight": 0.1,
+    "reference_weight": 4.0,
+    "geometry_weight": 1.0,
+    "normalize_terms": true,
+    "temporal_mode": "residual",
+    "canvas_origin": -4.40230369525899,
+    "reference_budget": null,
+    "motion_fraction": null,
+    "compact_tiebreak": false
+  }
+}

@@ -52,6 +52,10 @@
 {\captionfonts\raggedright\noindent\figurename~\thefigure: Qualitative Storms archive ($\varepsilon=5\%$; preprocessing differs from Table~\ref{tab:quantitative-final}). Spatial snapshots and profiles identify one matched extremum; blue outlines show leaf-arc supports. Rotated profiles and dashed intermediate samples connect to its trajectory in the full 744-frame map.\par}
 
 }
+\linespread{0.90}
+\setlength{\textfloatsep}{7pt}
+\setlength{\floatsep}{6pt}
+\setlength{\dbltextfloatsep}{7pt}
 \begin{document}
 \firstsection{Introduction}
 \maketitle
@@ -78,12 +82,8 @@ Our main contributions are as follows:
 \item We establish certified position bounds that quantify unavoidable reference displacement under exact topology, finite feature widths, and bounded topological error.
 \end{itemize}
 
-\begin{figure}[t]
-\centering
-\includegraphics[width=\columnwidth]{../figures/anchor_baseline_workflows.pdf}
-\caption{Schematic workflows of TMTM and ST-MTM. A--C identify features; $d_1,d_2,d_3$ mark corresponding point pairs in 2D and 1D, without asserting distance equality.}
-\label{fig:baseline-workflows}
-\end{figure}
+% Former Figure 2 temporarily removed; source retained in figures/source/ring_result_20261106.
+
 
 \section{Related Work}\label{sec:related}
 \subsection{Spatially Referenced Temporal Visualization}
@@ -96,7 +96,7 @@ Hovm\"oller diagrams retain a selected physical coordinate and summarize the oth
 \subsection{Topology-Based Temporal Maps and Geometry-Aware Layouts}
 Topology-based visualization organizes scalar structures through connectivity~\cite{Heine:2016:Survey}. Landscapes and landscape profiles express hierarchies through terrain or 1D scalar representations~\cite{Weber:2007:TL,Oesterling:2013:TLP}, with geometry-preserving and temporally coherent extensions~\cite{Beketayev:2012:GPTL,Herick:2020:TCTL}. These representations connect scalar values and feature relationships in a compact view.
 
-TMTM emphasizes intact topological features and temporal alignment in static merge-tree maps~\cite{Koepp:2023:TMTM}. ST-MTM incorporates relative spatial geometry and temporal position constraints~\cite{STMTM:2026}. These priorities give spatial relationships and coherence a role in the map, while leaving its display coordinate free to differ from a fixed physical direction. AnchorMTM estimates a shared direction from extremum motion, or accepts a physical direction, and couples that reference to topology-budgeted layout and certified position bounds. It reuses the established profile and scalar-filling foundation. Figure~\ref{fig:baseline-workflows} summarizes the two preceding workflows.
+TMTM emphasizes intact topological features and temporal alignment in static merge-tree maps~\cite{Koepp:2023:TMTM}. ST-MTM incorporates relative spatial geometry and temporal position constraints~\cite{STMTM:2026}. These priorities give spatial relationships and coherence a role in the map, while leaving its display coordinate free to differ from a fixed physical direction. AnchorMTM estimates a shared direction from extremum motion, or accepts a physical direction, and couples that reference to topology-budgeted layout and certified position bounds. It reuses the established profile and scalar-filling foundation.
 
 
 
@@ -161,7 +161,7 @@ The leading eigenvector maximizes squared projected motion, not feature count or
 
 \begin{figure}[t]
 \centering
-\includegraphics[width=\columnwidth]{../figures/anchor_direction_open.pdf}
+\includegraphics[width=0.85\columnwidth]{../figures/anchor_direction_open.pdf}
 \caption{Motion-derived spatial reference. Matched extremum displacements define one direction $a^*$ for the sequence; extrema project onto the parallel reference axis $q$ from a common origin $o$. Tracks, contours and projection positions are schematic.}
 \label{fig:direction-open}
 \end{figure}
@@ -354,6 +354,7 @@ The first and last anchors of selected leaves must enclose their intervals and i
 \end{proof}
 Thus $\mathcal{B}_w$ bounds all exact-topology legal interval orders and need not be attained; $\tau(\pi)$ is the attained minimum for a specified order. These quantities have coordinate units, whereas NROE and $\nu^*$ are normalized by $L$.
 
+\input{../section5_revision_20261105/table2_parameters_runtime.tex}
 \input{../section5_revision_20261105/table1_comparison.tex}
 \subsubsection{Bounded-Topology Position Bound}
 A merge-level allowance can release some contiguous blocks, but still limits interleaving. If leaf $k$ lies between descendants $i,j$ of node $u$, interval containment gives $V_{ik}^{\psi}\le V_{ij}^{\psi}$, hence $V_{ik}\le h(u)+2\eta$. Define $A_\eta(u)$ as the highest ancestor, including $u$, with $h(A_\eta(u))-h(u)\le2\eta$. This uses the accumulated ancestor-height difference in scalar units, on the reduced equal-level tree with the fixed labels of Eq.~\ref{eq:dtop}.
@@ -385,12 +386,16 @@ The separation principle excludes interleaving for each eligible pair; the two p
 The allowance concerns the displayed hierarchy; the source field and feature identities stay fixed. A larger feasible set need not improve every feature or every heuristic result. These bounds are reported as benchmarks for unavoidable error; ranking and continuous acceptance use the exact fixed-order evaluations in Section~\ref{sec:construction}. Continuous feasibility does not certify the full rendered raster.
 
 \section{Experiments}\label{sec:experiments}
-We evaluate whether anchoring improves absolute reference positioning, what topology relaxation changes, and how the resulting maps support qualitative inspection. Four planar datasets provide the primary numerical evidence; a separate volumetric variant illustrates a different layout objective. We distinguish published scores, local measurements and qualitative archives throughout.
-\input{../section5_revision_20261105/table2_parameters_runtime.tex}
+We evaluate whether anchoring improves absolute reference positioning, what topology relaxation changes, and how the resulting maps support qualitative inspection. Four planar datasets provide the primary numerical evidence; two volumetric datasets add a local comparison with TMTM, and a separate Cylinder variant illustrates a different layout objective. We distinguish published scores, local measurements and qualitative archives throughout.
+\input{../volume_comparison_final_20261106/table_volume_parameters.tex}
 \subsection{Datasets and Evaluation Protocol}
 Our four planar inputs are Gaussian, Ring, Wildfires and Storms (64, 40, 32 and 744 frames). Raster lengths are 4096, except Ring's original 196 positions. The ST-MTM persistence numbers are tested as per-frame range fractions $p=(0.001,0.001,0.15,0.105)$, or $0.1\%,0.1\%,15\%,10.5\%$; all 880 thresholds were checked~\cite{STMTM:2026}. Gaussian is a three-peak reconstruction, Ring uses the archived generator, Wildfires aggregates FRP into 32 grids, and Storms uses ERA5 anomalies with the archived moving-mean and smoothing convention. Author-processed arrays are unavailable, so these are disclosed local reconstructions, not identical-input reproductions.
 
-All local methods share trees, identities, support centroids, extremum targets, one offline direction and a fixed projected range. SNS measures squared scale-normalized stress between support-centroid and anchor distances~\cite{Smelser:2025:Scale,STMTM:2026}; TW measures neighborhoods~\cite{Venna:2001:NP}, with $k=(1,3,5,3)$ and $0<k<n_t/2$. Ineligible frames are omitted. Absolute anchoring uses
+The volumetric inputs are Cylinder (102 frames, $135\times64\times48$, $Q$-criterion)~\cite{Camarri:2005:Cylinder,Weinkauf:SquareCylinder} and Tangaroa (201 frames, $300\times180\times120$, velocity magnitude)~\cite{Popinet:2004:Tangaroa}. Cylinder computes $Q$ from the original $192\times64\times48$ velocity grids before cropping; 2\% persistence uses each frame's scalar range, followed by one fixed sequence scaling of $-Q$. Tangaroa uses speed clipped to $[0,2]$, replaces near-zero values below $10^{-6}$ by the archived inflow value 1, and retains absolute persistence 0.2. These preprocessing choices are shared with the local TMTM adapter. Cylinder's 102-frame subset differs from the 508 frames reported in the first paper; no author-score reproduction is claimed.
+
+For the volumetric comparison, the reference is restricted to the positive Cartesian axes rather than the continuous direction in Section~\ref{sec:construction}. The archived offline rule chooses the axis capturing the most squared displacement of matched support centroids, with a minimum-image correction for Cylinder's periodic $z$ coordinate (period 6); both datasets select $+x$. Centroids select the axis only: placement targets remain leaf extrema projected onto that fixed axis and full-domain range. This rule uses the full input sequence, not output SNS/TW/NPE, and does not define an independent test. The stored layout configurations are exploratory selections; Table~\ref{tab:volume-parameters} reports their different weights and budgets. In particular, Tangaroa's zero reference weight makes its configuration geometry-dominated; low measured NPE is an outcome, not evidence that an absolute-reference penalty caused it.
+
+Within each local dataset, methods share source trees, identities and geometry inputs, and NPE uses one common offline extremum reference and projected range. SNS measures squared scale-normalized stress between support-centroid and anchor distances~\cite{Smelser:2025:Scale,STMTM:2026}; TW measures neighborhoods~\cite{Venna:2001:NP}, with $k=(1,3,5,3)$ and $0<k<n_t/2$. Ineligible frames are omitted. Absolute anchoring uses
 \begin{equation}\label{eq:experimental-npe}
 \mathrm{NPE}=\frac{1}{T}\sum_t\frac{\max_i|x_i^t-q_i^t|}{L_{world}}.
 \end{equation}
@@ -401,11 +406,24 @@ Hilbert and Morton provide sample-domain baselines~\cite{Franke:2021:1DP}. Their
 \begin{figure*}[t]
 \centering
 \includegraphics[width=\textwidth]{../figures/anchor_storms_budget_maps.pdf}
-\caption{Storms budget study in the qualitative archive of Fig.~\ref{fig:storms_overview}. Event maps at budgets 0, 2, 5, 10 and 20\%, with identical local crops at the lower left. Blue tracks mark the matched extremum; dashed tracks in the crops show its fixed reference. All columns share position, time and scalar scales.}
+\caption{Storms parameter maps and method comparison. AnchorMTM spans exact topology ($\varepsilon=0$) and bounded topology (2, 5, 10 and 20\%), with the original trajectories and common local crops. TMTM and ST-MTM maps use the same scalar fields and augmented trees through local implementations. Spatial awareness and topology budget indicate the respective conceptual improvements. All maps show frames 355--460 with the original blue--orange scale, $[-35,35]$ hPa. Module connections summarize design differences rather than exact algebraic equivalence; multiway-tree adapters are disclosed in the text.}
 \label{fig:storms-budget-profiles}
 \end{figure*}
+\begin{figure}[!t]
+\centering
+\includegraphics[width=\columnwidth]{../figures/anchor_ring_result.pdf}
+\caption{Ring comparison. Left: AnchorMTM with (a) 0\% topology allowance and neutral central targets, and (b) 20\% allowance with spatial guidance. Right: (c) Hilbert and (d) Morton from the supplied reference image. Below: source snapshots at frames 0, 20 and 39. The scalar key applies to AnchorMTM and the snapshots. Vertical coordinates denote normalized layout position or curve rank, respectively.}
+\label{fig:ring-result}
+\end{figure}
+
+\begin{figure*}[t]
+\centering
+\includegraphics[width=\textwidth]{../figures/anchor_cylinder_centered_blue.pdf}
+\caption{Cylinder central-tree variant: the full 102-frame map (a) and source $Q$ isosurfaces at three times (b--d), with a common camera and blue scalar scale. $Q=0.2$ is translucent and $Q=1$ marks the core; values above 1 saturate. The outlined component contains extremum S. Map position is not physical $X$; the padded locator and stages I--III are viewing guides, not exact support projections or transition estimates.}
+\label{fig:cylinder-centered}
+\end{figure*}
 \paragraph{Mode selection.}
-Exact uses $\varepsilon=0$. Balanced selects a positive budget from 1--10\% (1\% steps) on the first chronological quarter. Among legal reconstructions with attained NMLE$_{\max}\le\varepsilon$, it minimizes
+For the four planar datasets, Exact uses $\varepsilon=0$. Balanced selects a positive budget from 1--10\% (1\% steps) on the first chronological quarter. Among legal reconstructions with attained NMLE$_{\max}\le\varepsilon$, it minimizes
 \begin{equation}\label{eq:balanced-validation-score}
 J=0.5\,\mathrm{NPE}_{norm}+0.5\,\mathrm{SNS}_{norm}.
 \end{equation}
@@ -420,6 +438,10 @@ Balanced has lower SNS than the published ST-MTM values on all four inputs, but 
 
 Against fixed Hilbert and Morton curves, Balanced improves SNS and TW on Gaussian, Wildfires and Storms. Ring is an exception: Hilbert achieves SNS 0.1252 and TW 0.9048, versus Balanced's 0.1334 and 0.8571; its TW evidence covers only one eligible frame. Balanced has lower NPE than both curves and both merge-tree adapters on every input. Reductions relative to the ST-MTM adapter are 92.3\%, 84.0\%, 96.3\% and 96.9\%. This supports alignment to the specified reference, not general visualization quality: traversal coordinates need not represent a physical projection, and relative geometry does not determine an absolute origin.
 
+\subsection{Volumetric Comparison with TMTM}
+\input{../volume_comparison_final_20261106/table_volume.tex}
+Table~\ref{tab:volume-comparison} follows the planar table's metric order and Exact--Balanced grouping, but compares only with locally adapted TMTM. All three metrics are recomputed over the complete sequences; SNS uses three-dimensional support-centroid distances, TW uses $k=1$ with full frame coverage, and NPE uses extremum targets along the common $x$ axis. Balanced has lower SNS and NPE and higher TW than TMTM on both datasets. Exact and Balanced share the same axis, trees, retained leaf identities and layout weights; only the merge allowance differs. Exact has zero measured fixed-leaf merge error, and both stored Balanced runs pass their declared topology budgets. The large Tangaroa allowance (33.33\%) and its geometry-dominated objective limit attribution: these are selected configurations, not evidence of universal superiority or a controlled comparison with planar default weights.
+
 \subsection{Topology Validity and the Effect of Relaxation}
 Exact has zero fixed-leaf merge-matrix error. Balanced attains maximum NMLE of 0, 0.982\%, 4.421\% and 9.985\%, within its allowances; all eight runs pass continuous and raster checks without collapsed anchors. Checks include diagonal extrema, not every augmented internal label. Ring requires checked joint integer rounding in 26 Exact and 21 Balanced frames, retaining its 196 positions and continuous order.
 
@@ -427,28 +449,27 @@ Balanced reduces NPE relative to Exact by 17.0\% on Ring, 11.0\% on Wildfires an
 
 These Exact--Balanced comparisons measure the effect of the selected allowances, rather than a component ablation. A positive allowance need not change the selected order or improve reference positioning. The budget constrains merge-level error; it is not a direct bound on spatial displacement.
 
+\subsection{Ring Case Study: Temporal Overview and Source Snapshots}
+
+Figure~\ref{fig:ring-result} compares centered topology-oriented and spatially guided Ring configurations over all 40 frames at 196 raster positions. Panel (a) uses neutral midpoint targets, spatial guidance off and $\varepsilon=0$; panel (b) uses projected targets, guidance on and $\varepsilon=20\%$. Both guidance and allowance change, so this is not an epsilon-only ablation. The guided result lies higher along the prescribed $-128.7^\circ$ direction, with one fixed origin and extent. Both outputs pass continuous and rendered checks; the guided result attains NPE 0.82\% and NMLE$_{max}$ 7.33\%. The supplied Hilbert/Morton panels illustrate curve-based linearization; their vertical ranks differ from physical projections. Source snapshots show ring expansion and strengthening. These qualitative configurations do not replace the main-table Balanced 1\% setting or measured curve baselines.
+
 \subsection{Storms Case Study: Reading Budgeted Maps}
 
-Figure~\ref{fig:storms-budget-profiles} shows the same qualitative archive as Fig.~\ref{fig:storms_overview}, separate from the main table's preprocessing. The complete maps preserve temporal context, while the common local crops expose the separation between the matched extremum and its reference. The 0, 2 and 5\% outputs overlap locally; the 10 and 20\% outputs bring the track closer to the reference. This is a qualitative illustration of budget-dependent placement, not a numerical reproduction of the main-table results. A reference remains a placement target, not a hard equality. Support-overlap tracks are not independently verified storm identities.
+The upper row of Fig.~\ref{fig:storms-budget-profiles} retains the original five-budget qualitative Storms archive of Fig.~\ref{fig:storms_overview}, separate from main-table preprocessing. The 0, 2 and 5\% layouts overlap locally, while 10 and 20\% move the selected feature toward its fixed reference. The lower row shows TMTM and ST-MTM maps recomputed on these same 744 scalar fields and augmented trees, showing the same event window without per-panel recoloring or display translation. TMTM uses overlap-driven temporal subtree alignment in place of anchored placement; ST-MTM uses geometry-based ordering and distance-aware placement with temporal position constraints. The local TMTM implementation handles genuine multiway saddles with equal-level separator copies; the ST-MTM adapter refines them into a stable-ID equal-level binary hierarchy and checks the original leaf LCA matrices. Both baselines use start frame 40 and 8192-position display rasters. They are local implementations, not author binaries. The module arrows describe replacements and additions rather than claiming exact algorithmic reductions or changing the main-table protocol.
 
 \subsection{Parameters and Computational Cost}
-Table~\ref{tab:anchor-parameters-final} lists the frozen Balanced budgets (1, 1, 5 and 10\%) and layout parameters. It reports one uncached Balanced run on Apple M4, with one BLAS/TTK thread, sequential extraction and the default HiGHS scheduler. Optimization includes ordering and placement; total time additionally includes preprocessing, trees, matching/reference estimation, rasterization, I/O and checks. Imports, reporting and metric export are excluded; OS caches may be warm. Timings do not establish speedup significance. Baseline NPE uses the disclosed CompactTMTM and ST-MTM solver adaptations, not author binaries.
+Table~\ref{tab:anchor-parameters-final} lists the four planar Balanced budgets (1, 1, 5 and 10\%) and layout parameters; Table~\ref{tab:volume-parameters} separately lists the volumetric datasets and settings. The planar table reports one uncached Balanced run on Apple M4, with one BLAS/TTK thread, sequential extraction and the default HiGHS scheduler. Optimization includes ordering and placement; total time additionally includes preprocessing, trees, matching/reference estimation, rasterization, I/O and checks. Imports, reporting and metric export are excluded; OS caches may be warm. Timings do not establish speedup significance. Baseline NPE uses the disclosed CompactTMTM and ST-MTM solver adaptations, not author binaries.
 
 \subsection{Exploratory Volumetric Case: Central-Tree Guidance}\label{sec:centered-volume}
 
-\begin{figure*}[t]
-\centering
-\includegraphics[width=\textwidth]{../figures/anchor_cylinder_centered_blue.pdf}
-\caption{Cylinder central-tree variant: the full 102-frame map (a) and source $Q$ isosurfaces at three times (b--d), with a common camera and blue scalar scale. $Q=0.2$ is translucent and $Q=1$ marks the core; values above 1 saturate. The outlined component contains extremum S. Map position is not physical $X$; the padded locator and stages I--III are viewing guides, not exact support projections or transition estimates.}
-\label{fig:cylinder-centered}
-\end{figure*}
-The volumetric example is exploratory and excluded from the four-dataset comparison. Cylinder comprises 102 volumes ($135\times64\times48$) of the $Q$-criterion with 2\% per-frame persistence~\cite{Camarri:2005:Cylinder,Weinkauf:SquareCylinder}. It tests how additional tree guidance changes the map's coordinate interpretation.
+
+The central-tree example is a separate qualitative configuration, excluded from both quantitative tables. Cylinder comprises 102 volumes ($135\times64\times48$) of the $Q$-criterion with 2\% per-frame persistence~\cite{Camarri:2005:Cylinder,Weinkauf:SquareCylinder}. It tests how additional tree guidance changes the map's coordinate interpretation.
 
 The separate Cylinder variant in Fig.~\ref{fig:cylinder-centered} uses the same 102 volumes, retained 2\% persistence trees and a 1\% merge allowance. Full-sample tree coordinates $g_i^t\in[-0.5,0.5]$ add $16\,\mathrm{mean}_i(x_i^t-g_i^t)^2$ to the placement objective; reference, geometry, temporal and eccentricity weights are 1, 1, 0.5 and 0.1. True-$X$ targets retain one fixed domain transform. This changes multiple weights and is not a single-factor ablation.
 
 Its fixed tree-compatible order needs a worst-case reference cap of 55.21\%; we explicitly allow 56.21\%, including 1\% slack. Monotone warping of the tree profile through the optimized intervals produces 32768-position rasters. All retained-pair checks yield NMLE$_{max}=0$, within 1\%, including half-pixel position rounding; this conservative order does not exploit budgeted reordering or introduce simulation frames.
 
-Central guidance exposes unfolding but sacrifices anchoring. Frame-balanced mean absolute $X$ error is 21.1\%, 25.5\% and 28.1\% for guidance weights 1, 4 and 16, versus 1.9\% previously. This differs from NPE and pooled mean displacement. These exploratory outputs remain outside the main tables. Equal-$X$ features may differ in $Y,Z$; their layout separation does not encode depth.
+Central guidance exposes unfolding but sacrifices anchoring. Frame-balanced mean absolute $X$ error is 21.1\%, 25.5\% and 28.1\% for guidance weights 1, 4 and 16, versus 1.9\% previously. This differs from NPE and pooled mean displacement. These central-tree outputs remain outside the quantitative tables; they are not the Cartesian-reference configurations in Table~\ref{tab:volume-comparison}. Equal-$X$ features may differ in $Y,Z$; their layout separation does not encode depth.
 
 \section{Discussion and Limitations}
 A fixed physical reference and a geometry-oriented embedding answer different questions. AnchorMTM supports reading positions along a chosen spatial coordinate; ST-MTM's higher reported TW highlights the value of preserving local neighborhoods. Neither property guarantees the other. The four-input results therefore support a task-specific anchoring claim, rather than universal superiority in spatial or temporal fidelity.

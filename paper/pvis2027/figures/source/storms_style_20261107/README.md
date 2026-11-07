@@ -1,0 +1,5 @@
+# Figure6 paper-style editable PPT, 2026-11-07
+
+Source is the user's canonical editable PPT with manual changes. .build/before.pptx preserves the source used for this task. edit.py preserves original scalar backgrounds and overlays, repositions the map row, adds the requested native AnchorMTM group/header and Exact-to-Bounded arrow, and builds two editable module illustrations. Bottom flow runs from TMTM through Spatial Awareness to ST-MTM and through Topology Budget to AnchorMTM. The native grid, profile and tree icons, text, arrows, dashed group frame and module boxes remain editable.
+
+Final colors follow the paper: white modules, pale-gray headers, thin dark outlines, Times New Roman, blue highlights. Original data colors remain unchanged. All maps use200×168 native geometry. Candidate dimensions1160×600 pixels. Finalized with Artifact Tool validators and independently rendered in office software. Final preview: .build/paper_style_preview.png. Receipt: .build/paper_style_validation.json. Final validated deck copied unchanged to the canonical user-requested PPT path. Paper PDF was not regenerated in this PPT-only task.

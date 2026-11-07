@@ -1,0 +1,33 @@
+{
+  "source": "user-edited PPT backup",
+  "changed_shape_ids": [
+    "102",
+    "103",
+    "104",
+    "107",
+    "108",
+    "109",
+    "114",
+    "118",
+    "122",
+    "124"
+  ],
+  "all_other_shapes_unchanged": true,
+  "all_media_unchanged": true,
+  "baseline_size_css_px": [
+    200,
+    168
+  ],
+  "top_map_size_css_px": [
+    200,
+    168
+  ],
+  "labels": [
+    "+ Temporal alignment",
+    "+ Spatial geometry"
+  ],
+  "ours_dashed_group_frame": true,
+  "ours_label_native_text": true,
+  "user_modified_original_backup": ".build/user_modified_before.pptx",
+  "final_render": ".build/ours_preview.png"
+}
