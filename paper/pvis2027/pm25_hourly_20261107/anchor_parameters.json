@@ -1,0 +1,17 @@
+{
+  "canvas": 1324.5531578540276,
+  "width_scale": 0.000733936259870722,
+  "gap": 5.518971491058449,
+  "rho": 0.5,
+  "extra_budget": 11.037942982116897,
+  "motion_weight": 0.5,
+  "eccentricity_weight": 0.1,
+  "reference_weight": 4.0,
+  "geometry_weight": 1.0,
+  "normalize_terms": true,
+  "temporal_mode": "residual",
+  "canvas_origin": -1324.5531578540276,
+  "reference_budget": null,
+  "motion_fraction": null,
+  "compact_tiebreak": false
+}
