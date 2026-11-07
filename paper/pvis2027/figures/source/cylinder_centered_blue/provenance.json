@@ -18,11 +18,29 @@
       "mesh": "native Q=0.2 / 1 level sets, step 1"
     },
     {
+      "frame": 35,
+      "time": 56.13861386138614,
+      "Q_range": [
+        -1.8093136548995972,
+        5.28610372543335
+      ],
+      "mesh": "native Q=0.2 / 1 level sets, step 1"
+    },
+    {
       "frame": 50,
       "time": 80.19801980198021,
       "Q_range": [
         -1.8622050285339355,
         5.730281352996826
+      ],
+      "mesh": "native Q=0.2 / 1 level sets, step 1"
+    },
+    {
+      "frame": 75,
+      "time": 120.2970297029703,
+      "Q_range": [
+        -1.8990446329116821,
+        5.5042290687561035
       ],
       "mesh": "native Q=0.2 / 1 level sets, step 1"
     },
@@ -79,23 +97,38 @@
       "label": "I",
       "time_span": [
         0,
-        45
+        40
       ]
     },
     {
       "label": "II",
       "time_span": [
-        45,
-        120
+        40,
+        65
       ]
     },
     {
       "label": "III",
       "time_span": [
-        120,
+        65,
+        105
+      ]
+    },
+    {
+      "label": "IV",
+      "time_span": [
+        105,
+        135
+      ]
+    },
+    {
+      "label": "V",
+      "time_span": [
+        135,
         162
       ]
     }
   ],
-  "phase_boundary_note": "Qualitative viewing guides, not measured physical transition times."
+  "phase_boundary_note": "Approximate visual intervals of the map, manually marked; no automatic change-point estimate.",
+  "layout_revision": "2026-11-08 five visually marked intervals; five snapshots in one row; time labels below; no XYZ labels; vertical colorbar at right"
 }
