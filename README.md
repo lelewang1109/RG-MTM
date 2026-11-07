@@ -5,7 +5,7 @@ Spatially anchored merge-tree maps for time-varying scalar fields, with topology
 ## Current paper — November 8, 2026
 
 - [Latest paper (PDF)](paper/pvis2027/最新论文与三张PPT/AnchorMTM_最新论文.pdf) · [LaTeX source](paper/pvis2027/drafts/method_anchor_figures_updated_en.tex)
-- [Current eight-figure index](paper/pvis2027/figures/FIGURE_INDEX.md) · [Paper and PowerPoint materials](paper/pvis2027/最新论文与配图PPT_20261107/)
+- [Current figure index](paper/pvis2027/figures/FIGURE_INDEX.md) · [Paper and PowerPoint materials](paper/pvis2027/最新论文与配图PPT_20261107/)
 - [Hourly PM2.5 case: figure, PowerPoint, plotting cache and checks](paper/pvis2027/pm25_hourly_20261107/README.md)
 - [Formal four-input evaluation and provenance](paper/pvis2027/experiments_ratio_p_20261104/REPORT_zh.md)
 - [Method and baseline code](code/) · [Data documentation](data/) · [Research documentation](docs/)
@@ -29,3 +29,5 @@ Latest layout revision: the former motion-reference and reference–topology-con
 Restored the overlap-based leaf-correspondence schematic in the correspondence section, using the archived [original PowerPoint](paper/pvis2027/最新论文与三张PPT/Fig3_跨帧特征对应.pptx). The previously removed direction/conflict figures remain omitted.
 
 Latest synchronized version: the user-designated structure-revised manuscript, 10 pages, with the restored leaf-correspondence schematic and five-stage Cylinder source snapshots (including all vertical box edges). Figure numbering follows the current index rather than historical PowerPoint filenames.
+
+Related-work schematic added as a single-column Figure 2, using the user-supplied PowerPoint with Times New Roman unified across all text. [PPT source](paper/pvis2027/最新论文与配图PPT_20261107/相关工作_拓扑映射_统一字体.pptx). The updated manuscript has 11 pages including references.

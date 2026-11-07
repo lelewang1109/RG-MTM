@@ -94,8 +94,16 @@ Hovm\"oller diagrams retain a selected physical coordinate and summarize the oth
 
 1D projections organize spatiotemporal phenomena~\cite{Franke:2021:1DP}, and MotionRugs expose collective behavior of moving entities~\cite{Buchmueller:2019:MR}. More generally, an embedding trades original-domain relationships against its display organization~\cite{Nonato:2019:MP}. Relative proximity does not determine an absolute coordinate. AnchorMTM assigns fixed projection targets to topological features and quantifies their displacement under hierarchical and interval constraints, combining spatial reference with a temporal topology overview.
 
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\columnwidth]{../figures/anchor_related_work_mapping.pdf}
+\caption{Schematic comparison of temporal mapping strategies on a shared 35-sample scalar field. (a) Domain-based traversal retains all samples without enforcing the merge hierarchy. (b) Feature-based summaries retain 22 selected feature samples and omit 13 background samples. (c) A topology-based profile retains all 35 samples while preserving the illustrated merge levels. Colored regions indicate the four example features; the drawings illustrate representation choices rather than measured benchmark outputs.}
+\label{fig:related-work-mapping}
+\end{figure}
+
 \subsection{Topology-Based Temporal Maps and Geometry-Aware Layouts}
-Topology-based visualization organizes scalar structures through connectivity~\cite{Heine:2016:Survey}. Landscapes and landscape profiles express hierarchies through terrain or 1D scalar representations~\cite{Weber:2007:TL,Oesterling:2013:TLP}, with geometry-preserving and temporally coherent extensions~\cite{Beketayev:2012:GPTL,Herick:2020:TCTL}. These representations connect scalar values and feature relationships in a compact view.
+Figure~\ref{fig:related-work-mapping} contrasts domain-, feature-, and topology-based representations on the same schematic field. Topology-based visualization organizes scalar structures through connectivity~\cite{Heine:2016:Survey}. Landscapes and landscape profiles express hierarchies through terrain or 1D scalar representations~\cite{Weber:2007:TL,Oesterling:2013:TLP}, with geometry-preserving and temporally coherent extensions~\cite{Beketayev:2012:GPTL,Herick:2020:TCTL}. These representations connect scalar values and feature relationships in a compact view.
 
 TMTM emphasizes intact topological features and temporal alignment in static merge-tree maps~\cite{Koepp:2023:TMTM}. ST-MTM incorporates relative spatial geometry and temporal position constraints~\cite{STMTM:2026}. These priorities give spatial relationships and coherence a role in the map, while leaving its display coordinate free to differ from a fixed physical direction. AnchorMTM estimates a shared direction from extremum motion, or accepts a physical direction, and couples that reference to topology-budgeted layout and certified position bounds. It reuses the established profile and scalar-filling foundation.
 
@@ -404,7 +412,7 @@ Hilbert and Morton provide sample-domain baselines~\cite{Franke:2021:1DP}. Their
 
 \begin{figure}[t]
 \centering
-\includegraphics[width=\columnwidth]{../../../output/PM25单栏论文图_20261107/PM25_single_column.pdf}
+\includegraphics[width=\columnwidth]{../pm25_hourly_20261107/PM25_single_column.pdf}
 \caption{Hourly PM2.5 case, January 22 00:00--27 12:00, 2017 (Beijing time). Top: AnchorMTM at $\varepsilon=5\%$. Bottom: five source-field snapshots; labels below the snapshots give date and time. Color above 400 $\mu$g/m$^3$ saturates. The compact rendering retains all 133 hourly samples (both endpoints included); bilinear interpolation is used for display only.}
 \label{fig:pm25-hourly}
 \end{figure}
