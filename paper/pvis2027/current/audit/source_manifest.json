@@ -46,14 +46,14 @@
       "source_sha256": "9f01dce93a7f3c6155fe61fc4063033e619b18c6b69251af130eafcb27e0d666"
     },
     "figures/anchor_related_work_mapping.pdf": {
-      "replacement_sha256": "81357b6fd466ac2981dee13be8b33ad2635baeeb1b82a24d6abf8776ed0eff74",
+      "replacement_sha256": "13315cc88291a3fdf1853db19e5930dde49b3bac28f4836edeccd059cf3d360d",
       "source_in_package": "figure_sources/fig02_related_work.pptx",
-      "source_sha256": "d8a0cd927d989266359f342013d466b5b7daeabc2323c889e3644204784415ec"
+      "source_sha256": "87ef42e77585cb3435cb0f300d74fb489ad5cbfa5add776157eee658a60baa35"
     },
     "figures/anchor_node_mapping.pdf": {
-      "replacement_sha256": "2acac67351a4d90fe62514675f91d5cfd222fc2f26123d44c9fae73132e1c57d",
+      "replacement_sha256": "552d3a2a7df1e0ccb3377841c3f6ba49ea97d53117c773b6021ce96026105c93",
       "source_in_package": "figure_sources/node_mapping_updated.pptx",
-      "source_sha256": "998081f55205d4f6012f721db72fd74f9f88b31163d9b39c4ac48e0c276aa1a5"
+      "source_sha256": "8aa5b9b7c8b8831192a8743534e9fe710f7850edfc6057caf910cae5c2f34db1"
     },
     "figures/anchor_leaf_correspondence.pdf": {
       "replacement_sha256": "a81dab2b0ae704764b69973f79edd088e47c4aff981dcc7a4491f985328d7a6b",

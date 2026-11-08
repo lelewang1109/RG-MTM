@@ -12,13 +12,13 @@
     {
       "figure": 2,
       "pdf": "figures/anchor_related_work_mapping.pdf",
-      "sha256": "81357b6fd466ac2981dee13be8b33ad2635baeeb1b82a24d6abf8776ed0eff74",
+      "sha256": "13315cc88291a3fdf1853db19e5930dde49b3bac28f4836edeccd059cf3d360d",
       "source_pptx": "figure_sources/fig02_related_work.pptx"
     },
     {
       "figure": 3,
       "pdf": "figures/anchor_node_mapping.pdf",
-      "sha256": "2acac67351a4d90fe62514675f91d5cfd222fc2f26123d44c9fae73132e1c57d",
+      "sha256": "552d3a2a7df1e0ccb3377841c3f6ba49ea97d53117c773b6021ce96026105c93",
       "source_pptx": "figure_sources/node_mapping_updated.pptx"
     },
     {
