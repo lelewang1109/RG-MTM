@@ -1,14 +1,14 @@
 {
   "updated": "2026-11-08",
-  "user_pdf_sha256": "a0e9618ec9b3f6c3b8f34afe34a64fc8e849956f4ce7473e90de79df1d8ccce5",
+  "user_pdf_sha256": "f01346208e5f5b86c03c1885b00545dc0b6155944cae1311a1abf6eee482c8ad",
   "files": [
     {
       "path": "paper/pvis2027/最新论文与三张PPT/AnchorMTM_最新论文.pdf",
-      "sha256": "a0e9618ec9b3f6c3b8f34afe34a64fc8e849956f4ce7473e90de79df1d8ccce5"
+      "sha256": "f01346208e5f5b86c03c1885b00545dc0b6155944cae1311a1abf6eee482c8ad"
     },
     {
       "path": "paper/pvis2027/drafts/method_anchor_figures_updated_en.tex",
-      "sha256": "34797316cd55c5057283ed63f5ca05d88abf496788f5c1342d25586b7764edfc"
+      "sha256": "5d5b572ab657cadb1802d7e445d20c9b09d02bf7480dfbc96a7b218f574476d0"
     },
     {
       "path": "paper/pvis2027/figures/anchor_cylinder_centered_blue.pdf",

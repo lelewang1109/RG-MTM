@@ -35,3 +35,5 @@ Related-work schematic added as a single-column Figure 2, using the user-supplie
 Added a single-column augmented-tree-to-1D mapping illustration and refreshed the related-work figure from the user-updated PowerPoint. Editable mapping PPT uses Times New Roman; the paper now embeds a direct screenshot of the original supplied mapping PPT, preserving its elbow connectors and geometry. The font audit documents that older raster-embedded labels are not yet all verified at the body-text size.
 
 Mapping correction: replaced the redrawn version with a verbatim 3x rendering of the original user PPT. Font resizing is not applied to this figure, as requested.
+
+The node-mapping diagram is now checked against the actual scalar filler: leaf intervals first, then LCA/internal paths, then root-path borders. Gray path samples can repeat; the 23-sample example independently preserves all pairwise leaf LCA levels. [Executable check](paper/pvis2027/figures/source/node_mapping_checked_20261108/verify.py). The original mapping screenshot is superseded by the checked native-PPT revision.
