@@ -53,7 +53,7 @@
     },
     {
       "path": "paper/pvis2027/current/AnchorMTM_Overleaf.zip",
-      "sha256": "3dc3677cd21058359b911538bd6f239aae04a0c9e17fba4c64e8e371f5e2fb3d"
+      "sha256": "46e455dd8709e81026871ba3d4fb16d5edcbb0b92d63e7de9a221615765bf50a"
     },
     {
       "path": "paper/pvis2027/current/tables/table2_bounds.tex",
@@ -149,7 +149,7 @@
     },
     {
       "path": "paper/pvis2027/current/audit/source_manifest.json",
-      "sha256": "8540fee4784ed899cdc762ed88445279a5090dfd09c429c78866f1443e736bf3"
+      "sha256": "1b3522b932c19196a6ee0086e31adea6abdc87f827e5a1055086285ee5cf58a2"
     },
     {
       "path": "paper/pvis2027/current/audit/PARAGRAPH_COMPARISON.md",
@@ -165,7 +165,7 @@
     },
     {
       "path": "paper/pvis2027/current/audit/check_invariants.py",
-      "sha256": "071c4fc130fe51d2d49c3fb203cbb4b380aad7f4b4463fc947ed6170d8359077"
+      "sha256": "1d09c695b7a85999252ff679f52eaa6a7887a01eff541b89d0a592a0ff1ac4f4"
     },
     {
       "path": "paper/pvis2027/current/figure_sources/fig13_pm25.pptx",

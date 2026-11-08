@@ -40,15 +40,107 @@
     }
   },
   "authorized_figure_replacements": {
+    "figures/anchor_storms_overview.pdf": {
+      "replacement_sha256": "b628c76e959b4a3b3dac8aa59be61612792b936441f60d392e380170456122db",
+      "source_in_package": "figure_sources/fig01_storms.pptx",
+      "source_sha256": "9f01dce93a7f3c6155fe61fc4063033e619b18c6b69251af130eafcb27e0d666"
+    },
+    "figures/anchor_related_work_mapping.pdf": {
+      "replacement_sha256": "81357b6fd466ac2981dee13be8b33ad2635baeeb1b82a24d6abf8776ed0eff74",
+      "source_in_package": "figure_sources/fig02_related_work.pptx",
+      "source_sha256": "d8a0cd927d989266359f342013d466b5b7daeabc2323c889e3644204784415ec"
+    },
+    "figures/anchor_node_mapping.pdf": {
+      "replacement_sha256": "2acac67351a4d90fe62514675f91d5cfd222fc2f26123d44c9fae73132e1c57d",
+      "source_in_package": "figure_sources/node_mapping_updated.pptx",
+      "source_sha256": "998081f55205d4f6012f721db72fd74f9f88b31163d9b39c4ac48e0c276aa1a5"
+    },
+    "figures/anchor_leaf_correspondence.pdf": {
+      "replacement_sha256": "a81dab2b0ae704764b69973f79edd088e47c4aff981dcc7a4491f985328d7a6b",
+      "source_in_package": "figure_sources/leaf_correspondence_updated.pptx",
+      "source_sha256": "5ebae6656fe9a0536b1e0624654aaaaf2d2e131a440bb34a1af396d307aa2fcd"
+    },
     "figures/anchor_framework.pdf": {
-      "reason": "Explicit subsequent user instruction to replace the workflow using the supplied PPTX",
-      "requested_source": "/Users/lele/Desktop/MergeTreeMaps/output/framework_paper_style_20261107/delivery/AnchorMTM_流程图_论文配色_布局优化.pptx",
-      "source_sha256": "406ab3a5cd64254100314062c79f5265c54110db26f673a8c9c1f550eecd2db6",
+      "replacement_sha256": "d69f807cdfb8f9a049f793b8ad5e1b02556465808e0933f2bed1d3af06145c2b",
       "source_in_package": "figure_sources/framework_requested.pptx",
-      "replacement_sha256": "6192282cf29185ed06e4356b425be9aa30d03276048e4ea35dd75de2eac6bc87",
-      "export_engine": "LibreOffice Impress PDF export",
-      "slide": 1,
-      "redrawn": false
+      "source_sha256": "3a6b9c8f2089d77283c01676d4d030b7ab281b6c1ec2f7cb5d5cc709f78ca4a6"
+    },
+    "figures/anchor_relaxation_open.pdf": {
+      "replacement_sha256": "1981088cbf1e5f41537f829e8db03514af1f1c028c68423ff0f7f47551f3ced7",
+      "source_in_package": "figure_sources/fig06_relaxation.pptx",
+      "source_sha256": "6e8307e3a511499ddb82e861bc3971205b2607168343d82e750e62f4dec0e2c0"
+    },
+    "figures/anchor_storms_budget_maps.pdf": {
+      "replacement_sha256": "f4fa026fa32e9dfa4734d331ce235f3cb264f77f213f887eda41c0149104cba6",
+      "source_in_package": "figure_sources/fig10_storms.pptx",
+      "source_sha256": "1292cb308f6522d9db9aae35fcb6e302ec48b0b1c3d0a4bd933568ebd5abc2a2"
+    },
+    "figures/anchor_cylinder_centered_blue.pdf": {
+      "replacement_sha256": "b90c4e765d0a4d75ea8c489854506461d441cd4345e8a4da1679bf93c0860a11",
+      "source_in_package": "figure_sources/fig11_cylinder.pptx",
+      "source_sha256": "014a92238f890ac9a5d629bc4bf7aaf0e393847aaae8e720697355b012acdb55"
+    },
+    "figures/anchor_ring_result.pdf": {
+      "replacement_sha256": "ae218a879edbe32029197ba427c66ededa202b5a0bb6aa0e65490573ee34d2f5",
+      "source_in_package": "figure_sources/fig12_ring.pptx",
+      "source_sha256": "71951f65e70729f46ec72482fcbaf16e7c2792a2896e9ce925d197781fdbb676"
+    },
+    "figures/PM25_single_column.pdf": {
+      "replacement_sha256": "b8c98ff48b20333fab97645a57e743fccbcb27a4cc02998ce743e0f2e0282f8c",
+      "source_in_package": "figure_sources/fig13_pm25.pptx",
+      "source_sha256": "29a4a532d61f6610b6770bc0b8df3b556958fc3bf26c20b5a5a1134de866d68c"
+    }
+  },
+  "authorized_replacements": {
+    "figures/anchor_storms_overview.pdf": {
+      "replacement_sha256": "b628c76e959b4a3b3dac8aa59be61612792b936441f60d392e380170456122db",
+      "source_in_package": "figure_sources/fig01_storms.pptx",
+      "source_sha256": "9f01dce93a7f3c6155fe61fc4063033e619b18c6b69251af130eafcb27e0d666"
+    },
+    "figures/anchor_related_work_mapping.pdf": {
+      "replacement_sha256": "81357b6fd466ac2981dee13be8b33ad2635baeeb1b82a24d6abf8776ed0eff74",
+      "source_in_package": "figure_sources/fig02_related_work.pptx",
+      "source_sha256": "d8a0cd927d989266359f342013d466b5b7daeabc2323c889e3644204784415ec"
+    },
+    "figures/anchor_node_mapping.pdf": {
+      "replacement_sha256": "2acac67351a4d90fe62514675f91d5cfd222fc2f26123d44c9fae73132e1c57d",
+      "source_in_package": "figure_sources/node_mapping_updated.pptx",
+      "source_sha256": "998081f55205d4f6012f721db72fd74f9f88b31163d9b39c4ac48e0c276aa1a5"
+    },
+    "figures/anchor_leaf_correspondence.pdf": {
+      "replacement_sha256": "a81dab2b0ae704764b69973f79edd088e47c4aff981dcc7a4491f985328d7a6b",
+      "source_in_package": "figure_sources/leaf_correspondence_updated.pptx",
+      "source_sha256": "5ebae6656fe9a0536b1e0624654aaaaf2d2e131a440bb34a1af396d307aa2fcd"
+    },
+    "figures/anchor_framework.pdf": {
+      "replacement_sha256": "d69f807cdfb8f9a049f793b8ad5e1b02556465808e0933f2bed1d3af06145c2b",
+      "source_in_package": "figure_sources/framework_requested.pptx",
+      "source_sha256": "3a6b9c8f2089d77283c01676d4d030b7ab281b6c1ec2f7cb5d5cc709f78ca4a6"
+    },
+    "figures/anchor_relaxation_open.pdf": {
+      "replacement_sha256": "1981088cbf1e5f41537f829e8db03514af1f1c028c68423ff0f7f47551f3ced7",
+      "source_in_package": "figure_sources/fig06_relaxation.pptx",
+      "source_sha256": "6e8307e3a511499ddb82e861bc3971205b2607168343d82e750e62f4dec0e2c0"
+    },
+    "figures/anchor_storms_budget_maps.pdf": {
+      "replacement_sha256": "f4fa026fa32e9dfa4734d331ce235f3cb264f77f213f887eda41c0149104cba6",
+      "source_in_package": "figure_sources/fig10_storms.pptx",
+      "source_sha256": "1292cb308f6522d9db9aae35fcb6e302ec48b0b1c3d0a4bd933568ebd5abc2a2"
+    },
+    "figures/anchor_cylinder_centered_blue.pdf": {
+      "replacement_sha256": "b90c4e765d0a4d75ea8c489854506461d441cd4345e8a4da1679bf93c0860a11",
+      "source_in_package": "figure_sources/fig11_cylinder.pptx",
+      "source_sha256": "014a92238f890ac9a5d629bc4bf7aaf0e393847aaae8e720697355b012acdb55"
+    },
+    "figures/anchor_ring_result.pdf": {
+      "replacement_sha256": "ae218a879edbe32029197ba427c66ededa202b5a0bb6aa0e65490573ee34d2f5",
+      "source_in_package": "figure_sources/fig12_ring.pptx",
+      "source_sha256": "71951f65e70729f46ec72482fcbaf16e7c2792a2896e9ce925d197781fdbb676"
+    },
+    "figures/PM25_single_column.pdf": {
+      "replacement_sha256": "b8c98ff48b20333fab97645a57e743fccbcb27a4cc02998ce743e0f2e0282f8c",
+      "source_in_package": "figure_sources/fig13_pm25.pptx",
+      "source_sha256": "29a4a532d61f6610b6770bc0b8df3b556958fc3bf26c20b5a5a1134de866d68c"
     }
   }
 }
