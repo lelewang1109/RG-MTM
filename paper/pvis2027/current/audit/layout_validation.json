@@ -1,0 +1,30 @@
+{
+  "pages": 10,
+  "body_through_page": 9,
+  "figures": {
+    "1": 1,
+    "2": 2,
+    "3": 2,
+    "4": 3,
+    "5": 4,
+    "6": 5,
+    "7": 6,
+    "8": 6,
+    "9": 7,
+    "10": 8,
+    "11": 8,
+    "12": 9,
+    "13": 9
+  },
+  "tables": {
+    "1": 6,
+    "2": 7,
+    "3": 7,
+    "4": 9,
+    "5": 9
+  },
+  "no_overfull_boxes": true,
+  "no_unresolved_reference_markers": true,
+  "unmodified_original_figures": 12,
+  "authorized_framework_replacement": true
+}

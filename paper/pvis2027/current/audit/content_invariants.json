@@ -1,0 +1,14 @@
+{
+  "equation": 15,
+  "theorem": 3,
+  "proposition": 1,
+  "table": 5,
+  "figures": 13,
+  "all_math_and_table_blocks_byte_identical": true,
+  "unmodified_original_figures": 12,
+  "authorized_workflow_replacement": true,
+  "citation_inventory_unchanged": true,
+  "inline_math_retained": true,
+  "unresolved_labels": [],
+  "absolute_TeX_dependencies": []
+}

@@ -1,0 +1,21 @@
+\begin{table}[!tb]
+\centering
+\caption{Planar parameter settings and runtime (seconds).}
+\label{tab:anchor-parameters-final}
+\footnotesize
+\setlength{\tabcolsep}{2pt}
+\renewcommand{\arraystretch}{0.95}
+\begin{tabular}{@{}lccccc@{}}
+\toprule
+Parameter & Gaussian & Ring & Wildfires & Storms & PM2.5 \\
+\midrule
+$\varepsilon$ & 1\% & 1\% & 5\% & 10\% & 5\% \\
+$N_r$ & 4096 & 196 & 4096 & 4096 & 4096 \\
+$s_w$ & 0.00581 & 0.00328 & 0.00053 & 0.01170 & 0.00073 \\
+$t_{opt}$ & 0.156 & 0.150 & 3.324 & 2.600 & 199.975 \\
+$t_{total}$ & 1.340 & 0.486 & 4.424 & 63.447 & 231.177 \\
+\bottomrule
+\end{tabular}
+\vspace{2pt}
+\begin{minipage}{0.94\columnwidth}\footnotesize Weights $(4,1,0.5,0.1)$ and $\rho=0.5$ are fixed. $s_w$ is width per support measure; $N_r$ is raster length. PM2.5 uses $p=5\%$ of per-frame range and a fixed 5\% Balanced budget, without validation-set selection; both times are remeasured without a tree cache under the same pipeline scope. Times are one run on Apple M4: optimization and full pipeline, respectively.\end{minipage}
+\end{table}

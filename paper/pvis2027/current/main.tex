@@ -1,0 +1,86 @@
+% AnchorMTM with updated correspondence and Storms teaser, 2026-11-02.
+% Build: tectonic -X compile --keep-logs method_anchor_figures_updated_en.tex
+% Unchanged companion: method_anchor_single_parameter_supplement.tex/.pdf.
+% Changes: ANCHORMTM_SINGLE_PARAMETER_VALIDATION.md.
+\documentclass[review]{vgtc}
+\usepackage[T1]{fontenc}
+\usepackage{mathptmx}
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{placeins}
+\usepackage{float,stfloats,needspace}
+\usepackage{booktabs,multirow,colortbl}
+\makeatletter
+\setlength{\@dblfptop}{0pt}
+\setlength{\@dblfpsep}{12pt}
+\setlength{\@dblfpbot}{0pt plus 1fil}
+\makeatother
+\usepackage[ruled,vlined]{algorithm2e}
+\SetKwInput{KwData}{Data}
+\SetKwInput{KwResult}{Result}
+\SetKwProg{Fn}{Function}{:}{}
+\SetKw{KwReturn}{return}
+\SetKw{KwBreak}{break}
+\SetKwFunction{Construct}{ConstructTemporalMap}
+\SetKwFunction{Refine}{RefineOrder}
+\SetKwFunction{Barriers}{OptimalBarriers}
+\SetAlFnt{\small}
+\SetAlCapFnt{\small\bfseries}
+\SetAlCapNameFnt{\small\bfseries}
+\SetAlCapSkip{3pt}
+\DontPrintSemicolon
+\setcounter{secnumdepth}{3}
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}{Lemma}
+\newtheorem{proposition}{Proposition}
+\newcommand{\dtop}{d_{\mathrm{top}}}
+\newcommand{\lca}{\operatorname{lca}}
+\newcommand{\nroe}{\mathrm{NROE}}
+\newcommand{\pos}[1]{\left[#1\right]^+}
+\title{AnchorMTM: Spatially Anchored Merge Tree Maps\\for Time-Varying Scalar Fields}
+\author{Anonymous Authors}
+\onlineid{0}
+\vgtccategory{Research}
+\vgtcinsertpkg
+\hypersetup{pdftitle={AnchorMTM: Spatially Anchored Merge Tree Maps for Time-Varying Scalar Fields},pdfauthor={Anonymous Authors}}
+\abstract{Temporal merge tree maps summarize the hierarchy of a time-varying scalar field, but their display coordinate does not provide a fixed spatial reference. Anchoring this coordinate reveals a structural conflict: exact topology requires contiguous subtree blocks, whereas projected feature positions can interleave. We quantify the resulting positional cost through three layout-independent bounds for exact point orders, finite-width interval layouts and bounded merge-level error. AnchorMTM uses these bounds to guide leaf-order selection and capped anchor placement, then reconstructs scalar profiles under a controlled merge budget. Controlled four-leaf experiments compare the bounds with exhaustive ordering and independent linear programs. Existing results on five planar and two volumetric sequences then connect unavoidable displacement, absolute positioning and the effect of relaxation. The per-frame evidence shows that a budget resolves a difficult tail of Storms frames and shifts most frames in the default volume configurations. The resulting maps make feature positions readable against one shared spatial direction while exposing the hierarchical cost of that coordinate.}
+\keywords{Time-varying scalar fields, merge tree maps, spatial anchoring, topology preservation, constrained layout.}
+\teaser{
+\centering
+\includegraphics[width=\linewidth]{figures/anchor_storms_overview.pdf}
+\par
+\refstepcounter{figure}\label{fig:storms_overview}
+{\captionfonts\raggedright\noindent\figurename~\thefigure: Storms temporal overview ($\varepsilon=5\%$), using the case-study preprocessing. Spatial snapshots and profiles identify one matched extremum; blue outlines show leaf-arc supports. Rotated profiles and dashed intermediate samples connect to its trajectory in the full 744-frame map.\par}
+
+}
+\linespread{1.0}
+\setlength{\textfloatsep}{7pt}
+\setlength{\floatsep}{6pt}
+\setlength{\dbltextfloatsep}{7pt}
+\setcounter{dbltopnumber}{2}
+\renewcommand{\dbltopfraction}{0.9}
+\renewcommand{\dblfloatpagefraction}{0.7}
+\renewcommand{\floatpagefraction}{0.7}
+\setcounter{totalnumber}{6}
+\setcounter{topnumber}{3}
+\setcounter{bottomnumber}{3}
+\renewcommand{\textfraction}{0.07}
+
+\newcommand{\paperfigure}[4][\textwidth]{\centering\includegraphics[width=#1]{#2}\caption{#4}\label{#3}}
+
+
+\begin{document}
+\input{sections/introduction.tex}
+\input{sections/related_work.tex}
+\input{sections/problem_formulation.tex}
+\input{sections/position_bounds.tex}
+\input{sections/anchor_mtm.tex}
+\input{sections/experiments.tex}
+\input{sections/discussion_conclusion.tex}
+\FloatBarrier
+\begingroup
+\interlinepenalty=10000
+\bibliographystyle{abbrv-doi-narrow}
+\bibliography{references}
+\endgroup
+\end{document}

@@ -1,0 +1,20 @@
+\firstsection{Introduction}
+\maketitle
+\raggedbottom
+\setlength{\emergencystretch}{1.5em}
+Time-varying scalar fields describe phenomena whose structure and location evolve together: storms move, pollution peaks develop, and vortices form and shed. Analysis therefore requires three kinds of information---feature identity and hierarchy, spatial location, and temporal change. Animation retains the field at each instant; static overviews support comparison across distant times~\cite{Tversky:2002:Animation,Robertson:2008:Animation,Bach:2017:STC}. When one display axis represents time, the meaning of the remaining coordinate determines which spatial questions the overview can answer. Figure~\ref{fig:storms_overview} connects these questions through source supports, profiles and feature trajectories.
+
+Temporal Merge Tree Maps (TMTM) address hierarchy and temporal comparison by converting each frame into a one-dimensional scalar profile, with extrema at minima and merges at intervening barriers, and assembling these profiles along time~\cite{Koepp:2023:TMTM}. Spatiotemporal Merge Tree Maps (ST-MTM) extend this foundation with relative spatial geometry and temporal position constraints~\cite{STMTM:2026}. These objectives organize the features coherently, but they do not assign the display axis a fixed physical direction and origin. Consequently, a position cannot directly be read as longitude or distance along a flow, and a trajectory does not by itself express motion along that coordinate.
+
+A spatial reference encounters a structural obstruction. An exact profile keeps every strict subtree contiguous, but projected sibling subtrees can interleave. If leaves $A,B$ belong to one subtree and $C,D$ to another, the reference order $A,C,D,B$ splits the first block. Some features must leave their targets, or some displayed merge levels must change. Finite feature widths add packing costs. The resulting displacement has two causes: a part imposed by the hierarchy and a part introduced by the layout.
+
+The central question is therefore the positional cost of keeping the tree: how much displacement is unavoidable, and how much is introduced by a particular order or placement? We answer progressively for exact point orders, finite-width interval layouts and bounded merge-level error. Recursive midpoint ordering attains the point bound; the interval bounds certify unavoidable cost without asserting that every such certificate is attainable. Because the bounds depend on the tree, reference and widths, they separate structural restrictions from the objectives used to draw a map.
+
+AnchorMTM turns this analysis into a temporal map with one fixed spatial reference. It prepares the trees and feature correspondences, searches orders within a merge budget, optimizes anchors under a displacement cap, and reconstructs the scalar profiles. The evidence follows the same chain: establish the bounds on controlled trees and existing sequences, evaluate absolute positioning, then examine which conflicts a budget releases and how those changes appear in the maps.
+
+Our contributions are:
+\begin{itemize}\setlength{\itemsep}{1pt}\setlength{\parsep}{0pt}
+\item Three layout-independent position bounds for exact topology, finite widths and bounded merge error.
+\item A construction that couples fixed spatial targets with budgeted ordering and capped temporal placement.
+\item Controlled-tree validation and planar/volumetric evidence connecting reference displacement, merge budgets and feature trajectories.
+\end{itemize}

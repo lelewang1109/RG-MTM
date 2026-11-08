@@ -1,0 +1,14 @@
+{
+  "date": "2026-11-09",
+  "pages": 10,
+  "body_through_page": 9,
+  "isolated_zip_compile": true,
+  "isolated_page_text_matches": true,
+  "overfull_boxes": 0,
+  "figure_count": 13,
+  "pptx_source_count": 10,
+  "tables_unchanged": true,
+  "supplementary_compiles": true,
+  "experiment_rerun": false,
+  "pm25_saved_solution_reaudit": true
+}

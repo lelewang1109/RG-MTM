@@ -1,0 +1,85 @@
+{
+  "date": "2026-11-09",
+  "pages": 10,
+  "body_through_page": 9,
+  "figures": [
+    {
+      "figure": 1,
+      "pdf": "figures/anchor_storms_overview.pdf",
+      "sha256": "b628c76e959b4a3b3dac8aa59be61612792b936441f60d392e380170456122db",
+      "source_pptx": "figure_sources/fig01_storms.pptx"
+    },
+    {
+      "figure": 2,
+      "pdf": "figures/anchor_related_work_mapping.pdf",
+      "sha256": "81357b6fd466ac2981dee13be8b33ad2635baeeb1b82a24d6abf8776ed0eff74",
+      "source_pptx": "figure_sources/fig02_related_work.pptx"
+    },
+    {
+      "figure": 3,
+      "pdf": "figures/anchor_node_mapping.pdf",
+      "sha256": "2acac67351a4d90fe62514675f91d5cfd222fc2f26123d44c9fae73132e1c57d",
+      "source_pptx": "figure_sources/node_mapping_updated.pptx"
+    },
+    {
+      "figure": 4,
+      "pdf": "figures/anchor_leaf_correspondence.pdf",
+      "sha256": "a81dab2b0ae704764b69973f79edd088e47c4aff981dcc7a4491f985328d7a6b",
+      "source_pptx": "figure_sources/leaf_correspondence_updated.pptx"
+    },
+    {
+      "figure": 5,
+      "pdf": "figures/anchor_framework.pdf",
+      "sha256": "d69f807cdfb8f9a049f793b8ad5e1b02556465808e0933f2bed1d3af06145c2b",
+      "source_pptx": "figure_sources/framework_requested.pptx"
+    },
+    {
+      "figure": 6,
+      "pdf": "figures/anchor_relaxation_open.pdf",
+      "sha256": "1981088cbf1e5f41537f829e8db03514af1f1c028c68423ff0f7f47551f3ced7",
+      "source_pptx": "figure_sources/fig06_relaxation.pptx"
+    },
+    {
+      "figure": 7,
+      "pdf": "figures/volume_gallery.pdf",
+      "sha256": "a879477b0d0829ad0d97ab1053cb4a98c7430cefe782037c758972c5413f463d",
+      "source_pptx": null
+    },
+    {
+      "figure": 8,
+      "pdf": "figures/budget_distribution_complete.pdf",
+      "sha256": "5016a69a7bfab68bf3f9c9a8a28787fdb61648cd7feb1831c987cf79e0b2a1d1",
+      "source_pptx": null
+    },
+    {
+      "figure": 9,
+      "pdf": "figures/anchor_controlled_bounds.pdf",
+      "sha256": "90cc8d6255464604be7dbe0bf895395cdd2892728d9f2edbfee542f9ceab1e09",
+      "source_pptx": null
+    },
+    {
+      "figure": 10,
+      "pdf": "figures/anchor_storms_budget_maps.pdf",
+      "sha256": "f4fa026fa32e9dfa4734d331ce235f3cb264f77f213f887eda41c0149104cba6",
+      "source_pptx": "figure_sources/fig10_storms.pptx"
+    },
+    {
+      "figure": 11,
+      "pdf": "figures/anchor_cylinder_centered_blue.pdf",
+      "sha256": "b90c4e765d0a4d75ea8c489854506461d441cd4345e8a4da1679bf93c0860a11",
+      "source_pptx": "figure_sources/fig11_cylinder.pptx"
+    },
+    {
+      "figure": 12,
+      "pdf": "figures/anchor_ring_result.pdf",
+      "sha256": "ae218a879edbe32029197ba427c66ededa202b5a0bb6aa0e65490573ee34d2f5",
+      "source_pptx": "figure_sources/fig12_ring.pptx"
+    },
+    {
+      "figure": 13,
+      "pdf": "figures/PM25_single_column.pdf",
+      "sha256": "b8c98ff48b20333fab97645a57e743fccbcb27a4cc02998ce743e0f2e0282f8c",
+      "source_pptx": "figure_sources/fig13_pm25.pptx"
+    }
+  ]
+}

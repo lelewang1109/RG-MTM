@@ -1,0 +1,390 @@
+% AnchorMTM with updated correspondence and Storms teaser, 2026-11-02.
+% Build: tectonic -X compile --keep-logs method_anchor_figures_updated_en.tex
+% Unchanged companion: method_anchor_single_parameter_supplement.tex/.pdf.
+% Changes: ANCHORMTM_SINGLE_PARAMETER_VALIDATION.md.
+\documentclass[review]{vgtc}
+\usepackage[T1]{fontenc}
+\usepackage{mathptmx}
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{placeins,float}
+\usepackage{booktabs,multirow,colortbl}
+\makeatletter
+\setlength{\@dblfptop}{0pt}
+\setlength{\@dblfpsep}{12pt}
+\setlength{\@dblfpbot}{0pt plus 1fil}
+\makeatother
+\usepackage[ruled,vlined]{algorithm2e}
+\SetKwInput{KwData}{Data}
+\SetKwInput{KwResult}{Result}
+\SetKwProg{Fn}{Function}{:}{}
+\SetKw{KwReturn}{return}
+\SetKw{KwBreak}{break}
+\SetKwFunction{Construct}{ConstructTemporalMap}
+\SetKwFunction{Refine}{RefineOrder}
+\SetKwFunction{Barriers}{OptimalBarriers}
+\SetAlFnt{\small}
+\SetAlCapFnt{\small\bfseries}
+\SetAlCapNameFnt{\small\bfseries}
+\SetAlCapSkip{3pt}
+\DontPrintSemicolon
+\setcounter{secnumdepth}{3}
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}{Lemma}
+\newtheorem{proposition}{Proposition}
+\newcommand{\dtop}{d_{\mathrm{top}}}
+\newcommand{\lca}{\operatorname{lca}}
+\newcommand{\nroe}{\mathrm{NROE}}
+\newcommand{\pos}[1]{\left[#1\right]^+}
+\title{AnchorMTM: Supplementary Methods and Protocols}
+\author{Anonymous Authors}
+\onlineid{0}
+\vgtccategory{Research}
+\vgtcinsertpkg
+\hypersetup{pdftitle={AnchorMTM: Spatially Anchored Merge Tree Maps for Time-Varying Scalar Fields},pdfauthor={Anonymous Authors}}
+\linespread{0.90}
+\setlength{\textfloatsep}{7pt}
+\setlength{\floatsep}{6pt}
+\setlength{\dbltextfloatsep}{7pt}
+\setcounter{dbltopnumber}{2}
+\renewcommand{\dbltopfraction}{0.9}
+\renewcommand{\textfraction}{0.07}
+\begin{document}\firstsection{Extended Methods and Reproduction Protocol}\maketitle
+This companion records the extended construction, feature correspondence and parameter settings used by the main paper. The three result-figure reproduction programs and their numerical verification are supplied in the accompanying source package.
+\section{Merge-Tree Map Preliminaries}\label{sec:background}
+\subsection{Augmented Merge Trees and Feature Supports}
+For a sampled 2D or 3D field $f_t:D\to\mathbb{R}$, the merge tree $T_t$ records sublevel-set connectivity: minima create components and saddles join them as the threshold increases. Negating the field gives the split-tree convention. Critical points are supernodes connected by superarcs; augmentation associates regular vertices with these arcs~\cite{Koepp:2023:TMTM,STMTM:2026,Tierny:2018:TTK}. Extraction and simplification precede layout.
+
+A leaf represents an extremum at spatial location $p_i^t$. Its feature support $S_i^t$ consists of that extremum and the regular samples on its incident leaf arc, excluding the parent critical sample. It is not the full component or the complete subtree above that arc. For cross-frame overlap, these supports are sets of stable spatial sample IDs: the same ID must denote the same spatial sample across frames. Fixed-grid inputs preserve this identity through consistent sample indexing. Internal arcs retain further regular samples for scalar filling. Write $\mathcal{D}_t(v)$ for the descendant leaf labels of a node $v$, and $h_t(v)$ for its scalar level. The lowest common ancestor determines the merge-height matrix:
+\begin{equation}\label{eq:merge}
+ V_{ij}^t=h_t(\lca(i,j)),\quad i\ne j;\qquad
+ V_{ii}^t=f_t(p_i^t).
+\end{equation}
+Equal-level merge events form one multifurcation; arbitrary binary refinements do not add strict constraints. All subsequent guarantees refer to the supplied, possibly simplified tree.
+
+\subsection{One-Dimensional Merge-Tree Profiles}
+A 1D merge-tree profile represents extrema at anchors in a selected leaf order. Regular vertices on leaf arcs supply scalar context within leaf intervals; internal arcs and paths to the LCA supply the intervening gaps~\cite{Koepp:2023:TMTM,STMTM:2026}. In join convention, extrema become profile minima, and the largest profile value between two anchors gives their displayed merge level. Exact preservation requires each strict subtree to occupy a contiguous leaf block. Arranging these profiles along time yields a static temporal map. Figure~\ref{fig:node-mapping} illustrates sample identities across a tree and its 1D representation. This profile model provides the basis for the spatial anchoring formulation below.
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\columnwidth]{figures/anchor_node_mapping.pdf}
+\caption{Illustrative mapping of one augmented merge tree to a 1D layout, reproduced directly from the supplied PowerPoint. Colored leaves $A$--$D$ and regular arc samples retain their identities; arrows connect source-tree samples to their displayed positions. The sample ordering is schematic, not a spatial projection or an optimized experimental result.}
+\label{fig:node-mapping}
+\end{figure}
+
+
+\section{A Common Model for Spatially Anchored Maps}\label{sec:formulation}
+We first describe the coordinate, interval and merge-error constraints shared by temporal merge tree maps. A common formulation then distinguishes the objectives of existing maps from the restrictions imposed by the tree. Analysis uses join convention; split-tree scalar signs are restored after reconstruction.
+
+\subsection{Shared Spatial Reference and Layout Model}\label{sec:reference-model}
+\paragraph{Cross-frame Leaf Correspondence.}
+We track merge-tree leaf extrema $p_i^t$ using their leaf-arc supports $S_i^t$. On a shared fixed grid, overlap-based preprocessing~\cite{STMTM:2026} counts common spatial samples:
+\begin{equation}\label{eq:overlap}
+ O_{ij}^t=|S_i^t\cap S_j^{t+1}|.
+\end{equation}
+Hungarian assignment maximizes total intersection count over one-to-one pairs, discarding zero-overlap pairs. Figure~\ref{fig:leaf_correspondence} illustrates the resulting identity states.
+
+\emph{Continuation} inherits a Track ID; \emph{birth/death} starts an unmatched current identity or ends an unmatched previous track. For \emph{non-bijective correspondence}, including potential one-to-many, many-to-one and ambiguous relations, only the assigned one-to-one links are retained. For a current leaf $i$, $\mu_t(i)$ denotes its valid predecessor. The layout receives precomputed tracks aligned to leaf rows; upstream support and confidence conventions are detailed in Supplementary Material.
+
+\begin{figure}[tbp]
+\centering
+\includegraphics[width=\linewidth]{figures/anchor_leaf_correspondence.pdf}
+\caption{Overlap-based leaf correspondence on a shared grid. Colored regions represent leaf-arc supports; hatching marks samples shared with the previous frame. Maximum-overlap one-to-one assignment continues $A$ and $B$, leaves $C_t$ unmatched, and assigns a new identity to $D_{t+1}$. Birth and death denote matching states, not identified physical events.}
+\label{fig:leaf_correspondence}
+\end{figure}
+
+These correspondences, computed before any topology-budget sweep, provide the motion samples for Spatial Anchoring, which distinguishes a reference target $q_i^t$ from the display anchor $x_i^t$. Only valid consecutive-frame matches contribute displacements; failed matches or interrupted tracks contribute no sample for that step. By default, one unit direction $a^*\in\mathbb{R}^d$, $d\in\{2,3\}$, is estimated offline from all matched consecutive-frame extremum displacements:
+\begin{equation}\label{eq:autodirection}
+\begin{aligned}
+ \Delta p_i^t&=p_i^t-p_{\mu_t(i)}^{t-1},\\
+ S&=\sum_{t,i\;\mathrm{matched}}\Delta p_i^t(\Delta p_i^t)^\top,\\
+ a^*&\in\arg\max_{\|a\|=1}a^\top Sa.
+\end{aligned}
+\end{equation}
+The leading eigenvector maximizes squared projected motion. The same calculation serves 2D and 3D; it is performed once for the whole sequence. Its sign makes total signed projected motion nonnegative; for near-zero signed motion, the largest-magnitude component is made positive. With negligible motion energy, the longest domain axis is used (first axis on a tie). Repeated leading eigenvalues leave the maximizing direction nonunique; the reported eigengap indicates this ambiguity. A supplied physical direction may replace $a^*$ without changing the layout. Overlap matching may miss fast-moving features or those with changing or weakly overlapping supports, affecting the displacement sample and hence the estimated direction.
+
+
+For the selected direction, the minimum and span of the projected domain bounding-box corners define a common origin $o$ and extent $L>0$. The reference is
+\begin{equation}\label{eq:reference}
+ q_i^t=\langle a^*,p_i^t\rangle-o\in[0,L].
+\end{equation}
+Direction, origin and scale remain fixed across frames and all budgets for the same prepared sequence. Distinct extrema can share projected coordinates while retaining separate identities. Anchoring minimizes constrained deviation rather than requiring $x_i^t=q_i^t$.
+
+Relative geometry uses distances $d_{ij}^t$ between leaf-support centroids. These differ from extremum references because a changing support can move its centroid while the extremum stays fixed. Widths $W_i^t=s\,m_i^t$ convert positive support measures with a fixed scale $s$, without per-frame normalization.
+
+For example, consider four minima. The projected order $A,C,D,B$ separates $A$ and $B$ by the $C,D$ subtree, violating the required contiguity of $\{A,B\}$; exact topology therefore cannot realize all four targets without displacement.
+
+With correspondence and the reference fixed, a frame comprises a leaf order, extremum anchors, and a scalar profile:
+\begin{equation}\label{eq:mapframe}
+ M_t=(\pi_t,x_t,\psi_t),\qquad\psi_t:[0,L]\to\mathbb{R}.
+\end{equation}
+We seek reference-aligned positions and motion while approximating relative geometry and controlling displayed topology. The interval-layout set $\mathcal{L}(\pi)$ requires intervals of widths $W_i$ centered at $z_i$ to lie inside the canvas, remain disjoint with gap at least $g\ge0$, and contain anchors satisfying $|x_i-z_i|\le\rho W_i/2$, $0\le\rho\le1$. Infeasible total widths and gaps are reported rather than rescaled.
+
+Actual displacement is $|x_i-q_i|$, normalized by $L$ when reported. To distinguish order conflict from finite-width placement, define
+\begin{equation}\label{eq:nroe}
+ \nroe(\pi)=\frac{1}{2L}\max_{j\le k}
+                      [q_{\pi(j)}-q_{\pi(k)}]^+.
+\end{equation}
+This is the smallest worst displacement of a nondecreasing point placement, divided by $L$; it ignores widths. For finite intervals, the exact fixed-order cost is
+\begin{equation}\label{eq:tau}
+ \tau(\pi)=\min_{(x,z)\in\mathcal{L}(\pi)}\|x-q\|_\infty.
+\end{equation}
+The minimum is attained whenever the layout set is nonempty. It is evaluated exactly from the fixed-order packing constraints, equivalently through a minimax linear program.
+
+For distinct labels, let $V_{ij}^{\psi}$ be the maximum profile value between their anchors, with $V_{ii}^{\psi}=\psi(x_i)$. We require
+\begin{equation}\label{eq:dtop}
+\begin{aligned}
+ \dtop(\psi_t,T_t)&=\max_{i,j}|V_{ij}^{\psi_t}-V_{ij}^t|\le\eta,\\
+ \eta&=(\varepsilon_0+\varepsilon)\Delta_F.
+\end{aligned}
+\end{equation}
+Here $\Delta_F>0$ is the sequence-wide scalar range, $\varepsilon_0$ is a fixed numerical allowance, and $\varepsilon\ge0$ is the sole primary user control. The implementation defaults to $\varepsilon_0=10^{-7}$. NMLE reports the achieved normalized error $\dtop/\Delta_F$. Exact topology means zero labelled error on the declared tree.
+
+All remaining settings belong to a fixed configuration $\Theta_0$: position slack $\beta_0$, the four objective weights, width scale, gap, anchor slack and output resolution. For a prepared sequence, the default interface is $M_t^\varepsilon=\operatorname{AnchorMTM}(T_t,q_t,W_t,V_t,\mu_t;\varepsilon,\Theta_0)$. Advanced settings may be supplied once, but only $\varepsilon$ varies in a budget sweep. Supplementary Material specifies the fixed scale rules and implementation tolerances.
+
+For canonical cophenetic merge-tree representations whose fixed labels cover every leaf and whose induced matrices include the diagonal, $\dtop$ equals the unnormalized labelled interleaving distance~\cite{Munch:2019:LINF,Gasparovic:2024:IID}. Under these conditions, $d_B\le d_I\le\dtop$~\cite{Morozov:2013:IDMT}. 
+
+
+
+\subsection{Existing Maps as Instances of One Layout Problem}\label{sec:common}
+With the model fixed, the methods can be compared through
+\begin{equation}\label{eq:family}
+\begin{aligned}
+\min_{\pi\in\Pi,\;(x,z)\in\mathcal{L}(\pi)}\;&\lambda_R E_R+\lambda_G E_G+\lambda_M E_M+\lambda_C E_C\\
+\mathrm{s.t.}\;&\dtop(\psi,T)\le\eta.
+\end{aligned}
+\end{equation}
+Here $E_R$ measures squared reference displacement, $E_G$ fits support-centroid distances, $E_M$ fits a matched temporal target $\hat x_i$, and $E_C$ penalizes offsets from interval centers. A method selects an order rule $\Pi$, placement terms, temporal targets, width semantics and merge allowance. 
+
+TMTM packs tree-compatible intervals and aligns subtrees through temporal overlap. ST-MTM uses tree-constrained ordering, relative-distance fitting and temporal position constraints. Both keep exact topology and omit an absolute reference penalty. Projection and curve-rank maps instead prescribe a coordinate without enforcing tree-compatible blocks or the interval model. Consequently, low reference error, low relative-distance stress and exact topology are distinct properties.
+
+
+\subsection{Where the Spatial Reference Conflicts with the Tree}\label{sec:conflict}
+
+The four-leaf example isolates the obstruction: a spatially sorted order splits a strict subtree. Keeping the subtree contiguous forces some reference displacement, and finite intervals can force more. How much is unavoidable, which merge causes it, and what allowance releases it? These questions depend on the tree, references, widths and allowance, so the following bounds apply across layout objectives.
+
+\section{The Positional Price of Keeping the Tree}\label{sec:bounds}
+How much must any admissible map deviate from its reference? The following bounds isolate what topology and finite widths make unavoidable: the first answers how much a tree-compatible point order must deviate, the second adds interval packing, and the third asks which restrictions survive a merge-error allowance. The resulting certificates apply independently of the layout algorithm. Full proofs and computational definitions accompany the paper in Supplementary Material. We suppress $t$ within a frame, use $[v]^+=\max(v,0)$, and take empty maxima as zero.
+
+\subsection{Exact-Topology Reference-Order Bound}
+For a reduced tree with strictly increasing proper-ancestor levels, exact topology makes every subtree contiguous. Let $[m_X,M_X]$ be the reference hull of the leaves in subtree $X$.
+\begin{theorem}[Exact-Topology Position Bound]\label{thm:order}
+Every zero-error profile has $\nroe(\pi)\ge\nu^*(T,q)$, where
+\begin{equation}\label{eq:nu}
+ \nu^*(T,q)=\frac{1}{2L}\max_v\max_{\substack{X,Y\in\mathrm{ch}(v)\\X\ne Y}}
+ [\min(M_X-m_Y,M_Y-m_X)]^+.
+\end{equation}
+Recursive child ordering by reference-hull midpoint attains this point-model order bound in $O(n\log n)$ time.
+\end{theorem}
+\begin{proof}[Proof sketch]
+Sibling blocks must choose one orientation. Their two possible inversion costs are $[M_X-m_Y]^+/2$ and $[M_Y-m_X]^+/2$. Midpoint order chooses the smaller; every inverted leaf pair is separated by sibling blocks at its LCA.
+\end{proof}
+This result isolates the ordering restriction imposed by the tree and references. Midpoint ordering attains the point-order optimum; finite intervals introduce additional constraints, considered next.
+
+\subsection{Width-Aware Position Bound}
+Finite widths, minimum gaps, anchor slack and canvas capacity add packing costs to the point-order obstruction. For a nonempty leaf set $S$, let $H_i=\rho W_i/2$, $\ell_i=q_i-W_i/2-H_i$, $h_i=q_i+W_i/2+H_i$, and $s_i=W_i+g$. Define two packing summaries:
+\begin{equation}\label{eq:packing}
+\begin{aligned}
+ A(S)&=\max_{a\in S}\left(\ell_a+\sum_{\substack{i\in S\\\ell_i\ge\ell_a}}s_i\right),\\
+ B(S)&=\max_{b\in S}\left(\sum_{\substack{i\in S\\h_i\le h_b}}s_i-h_b\right).
+\end{aligned}
+\end{equation}
+The first uses upper reference-endpoint sets and the second lower sets; sorting and cumulative sums evaluate them. For disjoint leaf sets $X,Y$ and the full leaf set $\mathcal{F}$, write
+\begin{equation}\label{eq:packingcost}
+\begin{aligned}
+ \omega(X,Y)&=\tfrac12\min\{A(X)+B(Y),A(Y)+B(X)\}-\tfrac g2,\\
+ E_\partial&=\max\{0,B(\mathcal{F})-g,A(\mathcal{F})-g-L\}.
+\end{aligned}
+\end{equation}
+Here $\omega$ takes the cheaper block orientation and $E_\partial$ accounts for both canvas ends. Let $\mathcal{P}_0$ contain every pair of distinct sibling descendant-leaf sets. The certificate is
+\begin{equation}\label{eq:bwdef}
+ \mathcal{B}_w(T,q,W)=\max\{E_\partial,\max_{(X,Y)\in\mathcal{P}_0}\omega(X,Y)\}.
+\end{equation}
+The dependence on $g$, $\rho$ and $L$ is through Eqs.~\ref{eq:packing}--\ref{eq:packingcost}; it is suppressed in the certificate's arguments.
+\begin{theorem}[Width-Aware Position Bound]\label{thm:width}
+For any feasible exact-topology interval layout,
+\begin{equation}\label{eq:widthbound}
+ \|x-q\|_\infty\ge\tau(\pi)\ge\mathcal{B}_w(T,q,W).
+\end{equation}
+With zero widths and gaps, $\mathcal{B}_w=L\nu^*(T,q)$.
+\end{theorem}
+\begin{proof}[Proof sketch]
+The first and last anchors of selected leaves must enclose their intervals and intervening gaps, up to the allowed anchor slack. Upper and lower sets in Eq.~\ref{eq:packing} maximize the resulting shortfall against reference separation. Exact topology requires one orientation of every sibling pair; the canvas ends give the two one-sided costs.
+\end{proof}
+Thus $\mathcal{B}_w$ bounds all exact-topology legal interval orders and need not be attained; $\tau(\pi)$ is the attained minimum for a specified order. These quantities have coordinate units, whereas NROE and $\nu^*$ are normalized by $L$.
+
+
+
+\subsection{Bounded-Topology Position Bound}
+A merge-level allowance can release some contiguous blocks, but still limits interleaving. If leaf $k$ lies between descendants $i,j$ of node $u$, interval containment gives $V_{ik}^{\psi}\le V_{ij}^{\psi}$, hence $V_{ik}\le h(u)+2\eta$. Define $A_\eta(u)$ as the highest ancestor, including $u$, with $h(A_\eta(u))-h(u)\le2\eta$. This uses the accumulated ancestor-height difference in scalar units, on the reduced equal-level tree with the fixed labels of Eq.~\ref{eq:dtop}.
+
+Let $\mathcal{P}_\eta$ consist of two types of leaf-set pairs: $(\mathcal{D}(u),\{k\})$ for every internal node $u$ and leaf $k\notin\mathcal{D}(A_\eta(u))$; and $(\mathcal{D}(u),\mathcal{D}(w))$ for internal nodes $u,w$ satisfying
+\begin{equation}\label{eq:separatedpairs}
+\begin{aligned}
+ \mathcal{D}(w)\cap\mathcal{D}(A_\eta(u))&=\varnothing,\\
+ \mathcal{D}(u)\cap\mathcal{D}(A_\eta(w))&=\varnothing.
+\end{aligned}
+\end{equation}
+For any nonempty leaf set $X$, use its reference hull $[m_X,M_X]$ and define $\kappa(X,Y)=[\min(M_X-m_Y,M_Y-m_X)]^+/(2L)$. The two certificates are
+\begin{equation}\label{eq:chaindef}
+\begin{aligned}
+ C_\eta(T,q)&=\max_{(X,Y)\in\mathcal{P}_\eta}\kappa(X,Y),\\
+ C_{w,\eta}(T,q,W)&=\max\{E_\partial,\max_{(X,Y)\in\mathcal{P}_\eta}\omega(X,Y)\}.
+\end{aligned}
+\end{equation}
+\begin{theorem}[Bounded-Topology Position Bound]\label{thm:chain}
+In a profile with $\dtop\le\eta$, no leaf outside $\mathcal{D}(A_\eta(u))$ can lie between two leaves of $u$. Every pair in $\mathcal{P}_\eta$ lies wholly in one block orientation or the other. Consequently,
+\begin{equation}\label{eq:chainbounds}
+ \nroe(\pi)\ge C_\eta(T,q),\qquad
+ \tau(\pi)\ge C_{w,\eta}(T,q,W),
+\end{equation}
+with the second inequality applying to the interval model.
+\end{theorem}
+The separation principle excludes interleaving for each eligible pair; the two possible orientations then yield $\kappa$ and $\omega$. Thus $C_\eta$ bounds normalized reference-order error, while $C_{w,\eta}$ includes finite-width and boundary costs in coordinate units. Flattening every parent gap at most $2\eta$ and applying Theorems~\ref{thm:order} and~\ref{thm:width} to the remaining tree gives another valid certificate. Neither construction dominates: accumulated gaps can strengthen the chain certificate, whereas flattening also separates pairs of single leaves omitted by $\mathcal{P}_\eta$. The larger of the two valid bounds may be used.
+
+\paragraph{Interpretation.}
+The three bounds distinguish ordering conflicts, finite-width packing and restrictions that remain under a topology allowance. They explain why some reference displacement can persist even after optimization. In the point model, midpoint ordering attains the exact-topology bound; with finite widths, a gap above a lower bound need not be entirely avoidable because the bound itself may be loose. 
+
+A gap smaller than twice the allowance can permit interleaving, but does not guarantee that a chosen order is feasible or improves position; the full merge matrix is still checked. The allowance concerns the displayed hierarchy; the source field and feature identities stay fixed. These bounds are reported as benchmarks for unavoidable error; ranking and continuous acceptance use the exact fixed-order evaluations in Section~\ref{sec:construction}. 
+
+\section{AnchorMTM: Approaching the Bounds}\label{sec:method}\label{sec:construction}
+\begin{figure*}[!t]
+\centering
+\includegraphics[width=\textwidth]{figures/anchor_framework.pdf}
+\caption{Schematic AnchorMTM workflow: extraction and referencing, topology-budgeted layout, and topology-to-1D reconstruction produce the temporal map. The layout panel combines leaf-order search and anchor placement.}
+\label{fig:framework}
+\end{figure*}
+AnchorMTM instantiates Eq.~\ref{eq:family} with a fixed spatial reference and the merge allowance of Eq.~\ref{eq:dtop}. The bounds suggest a two-stage construction: choose an admissible order with low fixed-order displacement $\tau$, then optimize spatial and temporal quality within a cap on that displacement. Exact Mode keeps the tree up to the numerical tolerance; Budgeted Mode admits a declared merge-level error. The order search is heuristic, while admission and fixed-order placement are checked explicitly.
+\subsection{Leaf Order within the Merge Budget}
+
+With features and their reference fixed, construction chooses an order by the lexicographic objective
+\begin{equation}\label{eq:orderobjective}
+\begin{aligned}
+ \pi_t^\varepsilon&\in\underset{\pi\in\mathcal{C}_t(\varepsilon)}{\arg\min}
+                    \bigl(\tau_t(\pi),\nroe_t(\pi)\bigr),\\
+ &\hspace{1em}\mathrm{s.t.}\quad\delta_t^*(\pi)\le\eta(\varepsilon).
+\end{aligned}
+\end{equation}
+The finite candidate pool contains the original strict-topology order, midpoint initializations, and orders visited during width-aware refinement of threshold and selective flattenings. Every candidate is evaluated against the same source merge matrix. Selection minimizes $\tau$ first and NROE second. Algorithm~\ref{alg:construction} separates this discrete selection from fixed-order placement.
+
+\begin{algorithm}[htbp]
+\caption{Single-Control AnchorMTM}\label{alg:construction}
+\KwData{2D/3D field sequence and grid; $\varepsilon\ge0$; fixed configuration $\Theta_0$.}
+\KwResult{Temporal map $I^\varepsilon$, error records, or a failure report.}
+Extract augmented trees, leaf supports and extrema; match supports and assign Track IDs\;
+Estimate one direction and fixed references $q_t$; reuse this preprocessing across budgets\;
+$\eta\leftarrow(\varepsilon_0+\varepsilon)\Delta_F$\;
+\For{each time step $t$ in temporal order}{
+ Report and stop if widths and gaps exceed the fixed canvas\;
+ $\mathcal{C}_t\leftarrow\operatorname{GenerateAndRefine}(T_t,q_t,W_t,V_t,\eta)$; retain strict-topology candidates\;
+ Evaluate $\tau(\pi)$, $\nroe(\pi)$ and $\delta^*(\pi)$ for candidates\;
+ $\mathcal{F}_t\leftarrow\{\pi\in\mathcal{C}_t:\delta^*(\pi)\le\eta\}$\;
+ \lIf{$\mathcal{F}_t=\varnothing$}{report no feasible candidate and stop}
+ Select $\pi_t^\varepsilon$ from $\mathcal{F}_t$ by $(\tau,\nroe)$\;
+ Compute optimal merge barriers for $\pi_t^\varepsilon$\;
+ Solve the four-term QP only for $\pi_t^\varepsilon$, with cap $\tau(\pi_t^\varepsilon)+\beta_0$ and valid matched history\;
+ Reconstruct the profile by leaf/LCA filling and barrier correction\;
+ Record candidate counts, continuous and rendered errors, motion and failures; append profile to $I^\varepsilon$\;
+}
+\KwReturn{$I^\varepsilon$ and diagnostic records}\;
+\end{algorithm}
+
+\paragraph{Candidate generation.}
+\emph{Exact Mode} sets $\eta=0$ and requires zero labelled merge error on the supplied tree. \emph{Budgeted Mode} permits $\eta>0$. Setting only the additional budget $\varepsilon=0$ while retaining $\varepsilon_0>0$ gives a numerical allowance, not zero labelled error. Both modes share the same interval model and placement objective.
+
+Candidate generation includes the exact tree, threshold flattenings, and a conflict-driven selective flattening. Midpoint orders initialize these structures. Width-aware block insertion refines the four best initial structures, together with the exact tree, while retaining the point-model budget order as a candidate. Moves improve the lexicographic score consisting of $\tau$ and a squared packing-residual term, and must pass $\delta^*(\pi)\le\eta$. Visited initial and trial orders are retained in the deduplicated pool, including the strict-tree initialization and retained point candidate. Final budget filtering and lexicographic selection use the exact fixed-order costs. 
+
+Figure~\ref{fig:selective_relaxation} illustrates the additional ordering freedom created by a selective flattening. Removing the $A$--$B$ sibling constraint admits the order $A,C,D,B$ while retaining the $C$--$D$ subtree. This structural proposal still requires evaluation against the original merge matrix and the prescribed error budget.
+
+The exact-tree structure remains a refinement seed, and its child-block moves preserve strict topology. Widths, gaps and canvas scale remain fixed throughout the search. Capacity failures, empty admitted sets and numerical solver errors are reported separately.
+
+\subsection{Optimal Merge Barriers and Topological Feasibility}
+For a fixed order, a pair's displayed merge is the largest intervening barrier. Set $C_k=\min_{i\le k<j}V_{\pi(i)\pi(j)}$ and $F_k=\max(V_{\pi(k)\pi(k)},V_{\pi(k+1)\pi(k+1)})$ for gap $k$.
+\begin{proposition}[Optimal barriers]\label{prop:barriers}
+With fixed extremum values in the continuous non-strict model, the smallest labelled merge error is
+\begin{equation}\label{eq:delta}
+\begin{split}
+ \delta^*(\pi)=\max\bigg\{&0,\max_k(F_k-C_k),\\
+ &\frac12\max_{i<j}\left(V_{\pi(i)\pi(j)}-
+                         \max_{i\le k<j}C_k\right)\bigg\},
+\end{split}
+\end{equation}
+and barriers $b_k=C_k+\delta^*(\pi)$ attain it.
+\end{proposition}
+Error $\delta$ requires $F_k\le b_k\le C_k+\delta$. Choosing the largest admissible barriers satisfies every pair's lower merge requirement exactly when $\delta\ge\delta^*$. Thus the order meets the merge-level allowance in this continuous model exactly when $\delta^*(\pi)\le\eta$. 
+
+\subsection{Constrained Spatiotemporal Anchor Placement}
+Once the order is fixed, the core terms are $E_R$, mean squared deviation from the fixed reference, and $E_M$, mean squared error in matched projected motion. The auxiliary term $E_G$ approximates support-centroid distances through ordered anchor separations; $E_C$ regularizes anchor offsets from interval centers. All four terms and their nonnegative weights are retained:
+\begin{equation}\label{eq:qp}
+\begin{aligned}
+ \min_{x_t,z_t}\quad&\lambda_R E_R+\lambda_G E_G+\lambda_M E_M+\lambda_C E_C\\
+ \mathrm{s.t.}\quad&(x_t,z_t)\in\mathcal{L}(\pi_t),\\
+ &\|x_t-q_t\|_\infty\le\tau(\pi_t)+\beta_0.
+\end{aligned}
+\end{equation}
+For each valid match, set $\Delta q_i^t=q_i^t-q_{\mu_t(i)}^{t-1}$ and use the previous display anchor plus this reference displacement as the temporal target:
+\begin{equation}\label{eq:temporal_target}
+ \hat x_i^t=x_{\mu_t(i)}^{t-1}+(q_i^t-q_{\mu_t(i)}^{t-1}).
+\end{equation}
+Thus $E_M$ follows projected motion while favoring continuity of $x-q$. First-frame, newly born and otherwise unmatched leaves have no previous-frame motion penalty. Each term is averaged over its features, ordered pairs or valid matches; the current automatic-reference adapter uses unit confidence for valid matches. 
+
+Only $\varepsilon$ changes the topology allowance $\eta(\varepsilon)$. The fixed slack $\beta_0\ge0$ bounds additional position deviation after ordering. Because $\tau(\pi_t)$ is attained, the cap admits a feasible placement for the selected order. The convex QP balances the four objectives within this cap, processing frames in temporal order.
+
+\subsection{Profile Reconstruction and Error Evaluation}
+Reconstruction inherits the leaf-arc sampling and LCA-path filling of the merge tree map pipeline~\cite{Koepp:2023:TMTM,STMTM:2026}. Original extrema remain at their anchors; regular samples provide scalar context within intervals and gaps. Optimal-barrier correction then clips each inter-anchor interior to $b_k$ and raises an existing peak if necessary. This separate correction is required for relaxed orders; inherited LCA filling alone does not enforce the minimax barriers.
+
+A common direction, origin, extent, and pixel conversion are used for all frames. The profiles form the final temporal map,
+\begin{equation}\label{eq:map}
+ I^\varepsilon(t,u)=\psi_t^\varepsilon(u),\qquad 0\le u\le L.
+\end{equation}
+Strict-extremum clearance and raster rounding can change the achieved error, so the reconstructed profile is evaluated after rendering. Records distinguish the requested allowance, position certificates, attained $\tau$, continuous $\delta^*$ and rendered merge error. Raster-capacity and nonfinite-value errors stop reconstruction.
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\columnwidth]{figures/anchor_relaxation_open.pdf}
+\caption{Selective relaxation releases the $A,B$ block constraint and admits order $A,C,D,B$ while retaining the $C,D$ grouping. The accompanying profiles illustrate changed merge barriers; source-level guides show the hierarchy changes. Heights are schematic, and candidate orders still require evaluation against the original merge matrix.}
+\label{fig:selective_relaxation}
+\end{figure}
+\section{Experimental Configurations}\label{sec:experiments}
+\subsection{Datasets, Baselines and Evaluation Protocol}
+Our four planar inputs are Gaussian, Ring, Wildfires and Storms (64, 40, 32 and 744 frames). Raster lengths are 4096, except Ring's original 196 positions. The ST-MTM persistence numbers are tested as per-frame range fractions $p=(0.001,0.001,0.15,0.105)$, or $0.1\%,0.1\%,15\%,10.5\%$; all 880 thresholds were checked~\cite{STMTM:2026}. Gaussian is a three-peak reconstruction, Ring uses the archived generator, Wildfires aggregates FRP into 32 grids, and Storms uses ERA5 anomalies with the archived moving-mean and smoothing convention. Author-processed arrays are unavailable, so these are disclosed local reconstructions, not identical-input reproductions.
+
+A separate fifth planar input, PM2.5, adds 744 hourly January 2017 fields on a $160\times144$ interpolation grid. Its shared-input local TMTM, ST-MTM and curve scores are recomputed, with TW $k=1$ on all frames. The PM2.5 mode labelled Balanced uses the 5\% budget fixed from the qualitative case, without validation-set budget selection; both optimization and full-pipeline times are measured without a tree cache. Balanced has the lowest SNS and NPE in this local comparison, while Hilbert has the highest TW.
+
+The volumetric inputs are Cylinder (102 frames, $135\times64\times48$, $Q$-criterion)~\cite{Camarri:2005:Cylinder,Weinkauf:SquareCylinder} and Tangaroa (201 frames, $300\times180\times120$, velocity magnitude)~\cite{Popinet:2004:Tangaroa}. Cylinder computes $Q$ from the original $192\times64\times48$ velocity grids before cropping; 2\% persistence uses each frame's scalar range, followed by one fixed sequence scaling of $-Q$. Tangaroa uses speed clipped to $[0,2]$, replaces near-zero values below $10^{-6}$ by the archived inflow value 1, and retains absolute persistence 0.2. These preprocessing choices are shared with the local TMTM adapter. 
+
+For the volumetric comparison, the reference is restricted to the positive Cartesian axes rather than the continuous direction in Section~\ref{sec:reference-model}. The archived offline rule chooses the axis capturing the most squared displacement of matched support centroids, with a minimum-image correction for Cylinder's periodic $z$ coordinate (period 6); both datasets select $+x$. Centroids select the axis only: placement targets remain leaf extrema projected onto that fixed axis and full-domain range. The stored layout configurations are exploratory selections; Table~\ref{tab:volume-parameters} reports their different weights and budgets. 
+
+Within each local dataset, methods share source trees, identities and geometry inputs, and NPE uses one common offline extremum reference and projected range. SNS measures squared scale-normalized stress between support-centroid and anchor distances~\cite{Smelser:2025:Scale,STMTM:2026}; TW measures neighborhoods~\cite{Venna:2001:NP}, with $k=(1,3,5,3)$ and $0<k<n_t/2$. Ineligible frames are omitted. Absolute anchoring uses
+\begin{equation}\label{eq:experimental-npe}
+\mathrm{NPE}=\frac{1}{T}\sum_t\frac{\max_i|x_i^t-q_i^t|}{L_{world}}.
+\end{equation}
+For Gaussian, Ring, Wildfires and Storms, TMTM/ST-MTM SNS/TW are quoted from ST-MTM Table~1 (Temporal mode); their NPE is measured with local adapters and shared references. All PM2.5 and volumetric entries are recomputed locally. The main paper's planar comparison table distinguishes these sources. Local TW coverage is 64/64, 1/40, 4/32 and 11/744; author coverage is unspecified.
+
+Hilbert and Morton provide sample-domain baselines~\cite{Franke:2021:1DP}. Their grid orientation is fixed ($x$ columns, $y$ rows), with no rotation, reflection or reversal search. Curves use power-of-two padding, discard out-of-domain samples, and map each extremum's full-grid rank to the common canvas at the original raster length. They impose neither merge-tree topology nor finite-width constraints.
+
+
+
+
+
+
+
+\paragraph{Mode selection.}
+For the four planar datasets, Exact uses $\varepsilon=0$. Balanced selects a positive budget from 1--10\% (1\% steps) on the first chronological quarter. Among legal reconstructions with attained NMLE$_{\max}\le\varepsilon$, it minimizes
+\begin{equation}\label{eq:balanced-validation-score}
+J=0.5\,\mathrm{NPE}_{norm}+0.5\,\mathrm{SNS}_{norm}.
+\end{equation}
+Terms are min--max normalized over legal candidates; constant terms contribute zero. Within 0.01 of the minimum, smaller budgets then attained errors break ties. Budgets are frozen before full runs. Full results include validation frames, and earlier exploratory outputs were observed; this is not an independent held-out test.
+
+\input{tables/table2_parameters_runtime.tex}
+\input{tables/table_volume_parameters.tex}
+
+\section{Recomputed Figure Data}
+The controlled-tree program solves a separate minimax LP for every permutation, repeats the width-aware order search and compares both with the certificates. It also compares the recomputed values with all 43 stored overlap and 364 stored budget records.
+
+For the two volumes, the program verifies feature IDs and source merge matrices against the local baseline input; checks interval capacity, anchor slack and gaps; and reconstructs every displayed pairwise merge from the original raster columns. It remeasures 1,515 frame--budget columns and 44,785 feature observations. Baseline reflection is selected by feature-pooled absolute displacement. The label ``mean'' is the pooled feature mean; NPE is the mean of the per-frame maximum displacement.
+
+For Ring, Storms and PM2.5, the program recomputes per-frame displacement from the saved rendered anchors and the fixed reference, verifies continuous/raster checks and redraws all box plots and merge-error scatters. The 9,168 frame--budget observations include all six PM2.5 budgets. The added PM2.5 2\% solve uses a certified alternative solver for one numerically failed QP; objective, constraints and budget stay fixed. Its KKT certificate is supplied with the experiment records.
+
+The volume figure configuration uses default weights $(4,1,0.5,0.1)$, anchor slack $\rho=0.5$, a motion-derived reference for Tangaroa and streamwise $x$ for Cylinder. Table configurations instead use the fixed $x$ references and the weights reported above. The figure program keeps these configuration identifiers in its output CSVs.
+\FloatBarrier\clearpage\bibliographystyle{abbrv-doi-narrow}\bibliography{references}\end{document}

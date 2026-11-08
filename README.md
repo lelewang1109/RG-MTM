@@ -1,3 +1,9 @@
+# 当前论文（2026-11-09）
+
+[论文PDF](paper/pvis2027/current/AnchorMTM_Revised.pdf) · [Overleaf工程](paper/pvis2027/current/AnchorMTM_Overleaf.zip) · [最新图源与说明](paper/pvis2027/current/README.md)
+
+以下为历史记录，以以上入口为准。
+
 # AnchorMTM
 
 Spatially anchored merge-tree maps for time-varying scalar fields, with topology budgets and certified position bounds.

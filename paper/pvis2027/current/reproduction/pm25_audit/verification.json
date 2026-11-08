@@ -1,0 +1,63 @@
+{
+  "frames": 4464,
+  "all_match_existing_figure_csv": true,
+  "summary": [
+    {
+      "epsilon": 0,
+      "frames": 744,
+      "mean_worst_displacement": 0.1389660449673816,
+      "max_merge_error": 0.0,
+      "independent_raster_frames": 744
+    },
+    {
+      "epsilon": 0.01,
+      "frames": 744,
+      "mean_worst_displacement": 0.10295600904317331,
+      "max_merge_error": 0.009980750081266592,
+      "independent_raster_frames": 744
+    },
+    {
+      "epsilon": 0.02,
+      "frames": 744,
+      "mean_worst_displacement": 0.08328406945095551,
+      "max_merge_error": 0.019972808407520443,
+      "independent_raster_frames": 744
+    },
+    {
+      "epsilon": 0.05,
+      "frames": 744,
+      "mean_worst_displacement": 0.04678229608665817,
+      "max_merge_error": 0.04998031190026529,
+      "independent_raster_frames": 744
+    },
+    {
+      "epsilon": 0.1,
+      "frames": 744,
+      "mean_worst_displacement": 0.02148191134331757,
+      "max_merge_error": 0.09984662590447842,
+      "independent_raster_frames": 744
+    },
+    {
+      "epsilon": 0.2,
+      "frames": 744,
+      "mean_worst_displacement": 0.011468545850039202,
+      "max_merge_error": 0.19866898780085945,
+      "independent_raster_frames": 744
+    }
+  ],
+  "mirrors": {
+    "tmtm": {
+      "reflected": true,
+      "decision_frame": 0,
+      "covariance_sum": -315845.5722910738,
+      "NPE": 0.5240649805210186
+    },
+    "temporal": {
+      "reflected": false,
+      "decision_frame": 0,
+      "covariance_sum": 94624.27318485867,
+      "NPE": 0.5577419982563617
+    }
+  },
+  "scope": "Recompute measurements from saved solutions; no new optimization sweep. Missing map arrays use stored rendered error checks, explicitly counted."
+}

@@ -1,3 +1,9 @@
+# 当前论文（2026-11-09）
+
+[论文PDF](current/AnchorMTM_Revised.pdf) · [Overleaf工程](current/AnchorMTM_Overleaf.zip) · [最新图源与说明](current/README.md)
+
+以下为历史记录，以以上入口为准。
+
 # 最新整理版（2026-11-07）
 
 [论文和8张图对应PPT](最新论文与配图PPT_20261107/说明.md) · [完整打包下载](最新论文与配图PPT_20261107.zip)。正文9页、总10页；图7为联合位置引导与拓扑预算渐进设置，补充TMTM/ST-MTM与五张源场快照；图3/4/5/8已裁去图外白边。主表未改变。
