@@ -1,10 +1,10 @@
 {
   "updated": "2026-11-08",
-  "user_pdf_sha256": "adc997936796ab0dfdc98214759740994e495b3e8aa0a4ffb85d90c4c04a6cc9",
+  "user_pdf_sha256": "a0e9618ec9b3f6c3b8f34afe34a64fc8e849956f4ce7473e90de79df1d8ccce5",
   "files": [
     {
       "path": "paper/pvis2027/最新论文与三张PPT/AnchorMTM_最新论文.pdf",
-      "sha256": "adc997936796ab0dfdc98214759740994e495b3e8aa0a4ffb85d90c4c04a6cc9"
+      "sha256": "a0e9618ec9b3f6c3b8f34afe34a64fc8e849956f4ce7473e90de79df1d8ccce5"
     },
     {
       "path": "paper/pvis2027/drafts/method_anchor_figures_updated_en.tex",
