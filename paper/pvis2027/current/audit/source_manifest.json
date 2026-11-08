@@ -46,9 +46,9 @@
       "source_sha256": "9f01dce93a7f3c6155fe61fc4063033e619b18c6b69251af130eafcb27e0d666"
     },
     "figures/anchor_related_work_mapping.pdf": {
-      "replacement_sha256": "13315cc88291a3fdf1853db19e5930dde49b3bac28f4836edeccd059cf3d360d",
+      "replacement_sha256": "8888c86d38d8b6060dac70d3b5aa7817ff0a5a9978f93044dc19be6f521b1f29",
       "source_in_package": "figure_sources/fig02_related_work.pptx",
-      "source_sha256": "87ef42e77585cb3435cb0f300d74fb489ad5cbfa5add776157eee658a60baa35"
+      "source_sha256": "77895bada127dbe4c51a38bde4477a0a200e21a3fb7930bd1a017049004f1223"
     },
     "figures/anchor_node_mapping.pdf": {
       "replacement_sha256": "552d3a2a7df1e0ccb3377841c3f6ba49ea97d53117c773b6021ce96026105c93",
