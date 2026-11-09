@@ -61,9 +61,9 @@
       "source_sha256": "5ebae6656fe9a0536b1e0624654aaaaf2d2e131a440bb34a1af396d307aa2fcd"
     },
     "figures/anchor_framework.pdf": {
-      "replacement_sha256": "d69f807cdfb8f9a049f793b8ad5e1b02556465808e0933f2bed1d3af06145c2b",
+      "replacement_sha256": "6f122cf1cc8fe0eea53453786f1a59a2d7213d02403a5292a42bc9af95087162",
       "source_in_package": "figure_sources/framework_requested.pptx",
-      "source_sha256": "3a6b9c8f2089d77283c01676d4d030b7ab281b6c1ec2f7cb5d5cc709f78ca4a6"
+      "source_sha256": "6ade55b3cece2e3abfc2e9837c1128b7c3d125bcf2487ae81ad9438004715c3a"
     },
     "figures/anchor_relaxation_open.pdf": {
       "replacement_sha256": "1981088cbf1e5f41537f829e8db03514af1f1c028c68423ff0f7f47551f3ced7",

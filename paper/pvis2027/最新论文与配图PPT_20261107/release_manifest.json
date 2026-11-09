@@ -1,7 +1,7 @@
 {
   "updated": "2026-11-09",
   "canonical_release": "paper/pvis2027/current",
-  "user_pdf_sha256": "ef4f53d5bbd448e043dc5839435fc7ef9fc3f9e81eb6084a646b27c70361edff",
+  "user_pdf_sha256": "697b6ff4b1394803ed26abbfb728a2e0346db18a2f0cd0b77163317bd33aab2d",
   "files": [
     {
       "path": "paper/pvis2027/current/supplementary.tex",
@@ -9,7 +9,7 @@
     },
     {
       "path": "paper/pvis2027/current/AnchorMTM_Revised.pdf",
-      "sha256": "ef4f53d5bbd448e043dc5839435fc7ef9fc3f9e81eb6084a646b27c70361edff"
+      "sha256": "697b6ff4b1394803ed26abbfb728a2e0346db18a2f0cd0b77163317bd33aab2d"
     },
     {
       "path": "paper/pvis2027/current/.DS_Store",
@@ -17,7 +17,7 @@
     },
     {
       "path": "paper/pvis2027/current/main.pdf",
-      "sha256": "ef4f53d5bbd448e043dc5839435fc7ef9fc3f9e81eb6084a646b27c70361edff"
+      "sha256": "697b6ff4b1394803ed26abbfb728a2e0346db18a2f0cd0b77163317bd33aab2d"
     },
     {
       "path": "paper/pvis2027/current/REVISION_REPORT_CN.md",
@@ -41,7 +41,7 @@
     },
     {
       "path": "paper/pvis2027/current/README.md",
-      "sha256": "05363bfcccc0db60abb184f37d73efd48ec820f43f694604cd709089218ac136"
+      "sha256": "0cd32e0310857eb61fa0a6337a6731ff54916663a8ca655233000c7b98b19e6d"
     },
     {
       "path": "paper/pvis2027/current/abbrv-doi-narrow.bst",
@@ -53,7 +53,7 @@
     },
     {
       "path": "paper/pvis2027/current/AnchorMTM_Overleaf.zip",
-      "sha256": "08f24315497d7e66c36675775e1a80d129bfffb28926905b8e93fcbb696411b2"
+      "sha256": "2ad29dc2516de373bf0118e6e461a0dc8007d31cffb1d4855471b051a749fb78"
     },
     {
       "path": "paper/pvis2027/current/tables/table2_bounds.tex",
@@ -141,7 +141,7 @@
     },
     {
       "path": "paper/pvis2027/current/audit/figure_sync_20261109.json",
-      "sha256": "20f9e67793f73d1c26998d124d410c80277751261cf1b3077276f9298478756f"
+      "sha256": "c9a7c1ea6a4d53627522d86eb94178bffb48c25231082681f4a35e42df03028d"
     },
     {
       "path": "paper/pvis2027/current/audit/layout_validation.json",
@@ -149,7 +149,7 @@
     },
     {
       "path": "paper/pvis2027/current/audit/source_manifest.json",
-      "sha256": "1baf33b1107ce97d5fb43cbad6444696387710e726f10d830203b9509dbd5f0f"
+      "sha256": "760e3415aea1ebc9f2f546b73f407cf7fe8be04c4a9a72ec78f55d0cf1cfc7fb"
     },
     {
       "path": "paper/pvis2027/current/audit/PARAGRAPH_COMPARISON.md",
@@ -209,7 +209,7 @@
     },
     {
       "path": "paper/pvis2027/current/figure_sources/framework_requested.pptx",
-      "sha256": "3a6b9c8f2089d77283c01676d4d030b7ab281b6c1ec2f7cb5d5cc709f78ca4a6"
+      "sha256": "6ade55b3cece2e3abfc2e9837c1128b7c3d125bcf2487ae81ad9438004715c3a"
     },
     {
       "path": "paper/pvis2027/current/figures/anchor_storms_budget_maps.pdf",
@@ -217,7 +217,7 @@
     },
     {
       "path": "paper/pvis2027/current/figures/anchor_framework.pdf",
-      "sha256": "d69f807cdfb8f9a049f793b8ad5e1b02556465808e0933f2bed1d3af06145c2b"
+      "sha256": "6f122cf1cc8fe0eea53453786f1a59a2d7213d02403a5292a42bc9af95087162"
     },
     {
       "path": "paper/pvis2027/current/figures/anchor_ring_result.pdf",
